@@ -10,9 +10,9 @@ Updating the Mesh
 
 Checkout this source code repository then make your changes under the *conf* directory. Commit your changes to this repository and they will automatically be published as JSON within 15 minutes.
 
-###Adding new mesh files
+###Adding New Mesh Files
 
-Any mesh file added to the *conf* directory with the extension _.conf_ will automatically get published by the scripts once you commit them.
+Any mesh file added to the *conf* directory with the extension *.conf* will automatically get published by the scripts once you commit them.
 
 Deploying
 ----------
