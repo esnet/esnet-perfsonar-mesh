@@ -1,7 +1,7 @@
-ESnet perfSONAR Mesh Configuration Files
-========================================
+ESnet perfSONAR Mesh Configuration
+==================================
 
-This document contains the configuration files used to build the regular tests run internally on ESnet. It can also be used as an example for others wishing to deploy a similar infrastructure on their networks. It contains a set of configuration files that can be used as inputs to the `perfSONAR Mesh Configuration <http://code.google.com/p/perfsonar-ps/wiki/MeshConfigurationInstallation>` software. It also contains a set of scripts that can be used to deploy each configuration file as a JSON file on a web server.
+This document contains the configuration files used to build the regular tests run internally on ESnet. It can also be used as an example for others wishing to deploy a similar infrastructure on their networks. It contains a set of configuration files that can be used as inputs to the [perfSONAR Mesh Configuration](http://code.google.com/p/perfsonar-ps/wiki/MeshConfigurationInstallation) software. It also contains a set of scripts that can be used to deploy each configuration file as a JSON file on a web server.
 
 Updating the Mesh
 -----------------
@@ -16,7 +16,7 @@ Any mesh file added to the *conf* directory with the extension _.conf_ will auto
 
 Deploying
 ----------
-This section is for administrators installing thses config files and scripts for the first time. If you just want to update the mesh, you can ignore this section.
+This section is for administrators installing these configuration files and scripts for the first time. If you just want to update the mesh, you can ignore this section.
 
 ###System Requirements
  * CentOS Line 6 or greater (other OSes require modifications to scripts)
@@ -24,7 +24,7 @@ This section is for administrators installing thses config files and scripts for
  * Apache HTTPD
 
 ###Installation
-You may install the configuration files and scripts from source on a web server you wish to use to publish your configurations as JSON files. Teh steps to checkout the code and setup the necessary cron scripts are as follows:
+You may install the configuration files and scripts from source on a web server you wish to use to publish your configurations as JSON files. The steps to checkout the code and setup the cron script are as follows:
 ```
 cd /opt/perfsonar_ps
 git pull https://github.com/esnet/esnet-perfsonar-mesh.git ./esnet-perfsonar-mesh
