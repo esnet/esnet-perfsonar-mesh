@@ -8,7 +8,7 @@ Updating the Mesh
 
 ###Editing Current Mesh Files
 
-Checkout this source code repository then make your changes under the *conf* directory. Commit your changes to this repository and they will automatically be published as JSON within 15 minutes.
+Checkout this source code repository then make your changes under the *conf* directory. Commit your changes to this repository and they will automatically be published as JSON [here](http://ps-west.es.net/esnet-mesh_config.json) within 15 minutes.
 
 ###Adding New Mesh Files
 
