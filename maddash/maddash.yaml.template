@@ -1,0 +1,70 @@
+##
+# Set the directory where the database will be stored
+database: /var/lib/maddash/
+
+##
+# Set the number of jobs that can run in parallel. Default is 50.
+jobThreadPoolSize: 20 
+
+##
+# Set number of jobs that can be in queue at one time. Default is 250.
+#jobBatchSize: 250
+
+###
+# Disable the job scheduler if you only want to run the REST server
+#disableScheduler: 0
+
+###
+# Skips table and index rebuild at start-up. It can speed up start-up time if set to 1.
+skipTableBuild: 0 
+
+##
+# Set the host where the REST server listens
+serverHost: "localhost"
+
+##
+# Activate http and set the port where it listens
+http: 
+    port: 8881
+
+dashboards:
+    - name: "1: ESnet to ESnet Packet Loss"
+      grids:
+        - name: "ESnet - ESnet to ESnet Packet Loss Testing"
+        - name: "ESnet - ESnet Hub to Small DOE Site Border Packet Loss Testing"
+        - name: "ESnet - ESnet to ESnet Intercontinental Packet Loss Testing"
+        - name: "ESnet - ESnet to ESnet European Packet Loss Testing"
+    - name: "2: ESnet to ESnet Throughput Testing"
+      grids:
+        - name: "ESnet - 100G ESnet Hub to 100G ESnet Hub Throughput Testing"
+        - name: "ESnet - ESnet Hub to Large DOE Site Border Throughput Testing"
+        - name: "ESnet - ESnet Hub to Small DOE Site Border Throughput Testing"
+        - name: "ESnet - ESnet Hub to DOE Site Backup Path Throughput Testing"
+        - name: "ESnet - ESnet to ESnet Intercontinental Throughput Testing"
+        - name: "ESnet - ESnet to ESnet European Throughput Testing"
+    - name: "3: ESnet to DOE Sites"
+      grids:
+        - name: "ESnet - ESnet to DOE Site Packet Loss Testing"
+        - name: "ESnet - ESnet to DOE Site Throughput Testing"
+    - name: "4: ESnet to Large Facilities"
+      grids:
+        - name: "ESnet - ESnet to Large Facility Throughput Testing"
+        - name: "ESnet - ESnet to Large Facility Packet Loss Testing"
+    - name: "5: ESnet to Asia-Pacific"
+      grids:
+         - name: "ESnet - ESnet to Asia-Pacific Sites Packet Loss Testing"
+         - name: "ESnet - ESnet to Asia-Pacific Sites Throughput Testing"
+    - name: "6: ESnet to Europe"
+      grids:
+        - name: "ESnet - ESnet to GEANT Packet Loss Testing"
+        - name: "ESnet - ESnet to GEANT Throughput Testing"
+        - name: "ESnet - ESnet to Europe Packet Loss Testing"
+        - name: "ESnet - ESnet to Europe Throughput Testing"
+    - name: "7: ESnet to ICNWG Sites"
+      grids:
+        - name: "ESnet - ESnet to ICNWG Site Packet Loss Testing" 
+        - name: "ESnet - ESnet to ICNWG Site Throughput Testing"
+    - name: "8: ESnet - ESnet to GA-EAST"
+      grids:
+        - name: "ESnet - ESnet to GA-EAST Throughput Testing"
+        - name: "ESnet - ESnet to GA-EAST Packet Loss Testing" 
