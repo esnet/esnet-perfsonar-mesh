@@ -1,1 +1,1 @@
-*/30 * * * * root /opt/perfsonar_ps/esnet-perfsonar-mesh/scripts/generate_maddash_config.sh > /tmp/generate_maddash_config.sh.log 2>&1 
+2,32 * * * * root /opt/perfsonar_ps/esnet-perfsonar-mesh/scripts/generate_maddash_config.sh > /tmp/generate_maddash_config.sh.log 2>&1 
