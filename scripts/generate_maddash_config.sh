@@ -26,5 +26,5 @@ cp /etc/maddash/maddash-server/maddash.yaml /etc/maddash/maddash-server/maddash.
 cp /opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/maddash.yaml.template /etc/maddash/maddash-server/maddash.yaml
 cp /opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/gui_agent_configuration.conf /opt/perfsonar_ps/mesh_config/etc/gui_agent_configuration.conf
 #Try to generate config. If fails, restore backup and exit
-/opt/perfsonar_ps/mesh_config/bin/generate_gui_configuration || {cp /etc/maddash/maddash-server/maddash.yaml.bak /etc/maddash/maddash-server/maddash.yaml; exit 1;}
+/opt/perfsonar_ps/mesh_config/bin/generate_gui_configuration || { cp /etc/maddash/maddash-server/maddash.yaml.bak /etc/maddash/maddash-server/maddash.yaml; exit 1; }
 /etc/init.d/maddash-server restart
