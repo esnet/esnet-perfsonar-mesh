@@ -48,12 +48,12 @@ checks:
     id: Manual-Backup-Paths-Check
     name: Throughput
     params:
-      command: '/opt/perfsonar_ps/nagios/bin/check_throughput.pl -u %maUrl -w 5: -c 1: -r 86400 -s %row -d %col'
+      command: '/usr/lib64/nagios/plugins/check_throughput.pl -u %maUrl -w 5: -c 1: -r 86400 -s %row -d %col'
       graphUrl:
         lsvn-pt1.es.net:
-            ga-pt1.es.net: http://stats.es.net/serviceTest/graphWidget.cgi?url=http://%row:8085/esmond/perfsonar/archive&dest=ga-pt1.es.net&source=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&dest=ga-owamp.es.net&source=lsvn-owamp.es.net
+            ga-pt1.es.net: http://stats.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row:8085/esmond/perfsonar/archive&dest=ga-pt1.es.net&source=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&dest=ga-owamp.es.net&source=lsvn-owamp.es.net
         bost-pt1.es.net:
-            amst-pt1.es.net: http://stats.es.net/serviceTest/graphWidget.cgi?url=http://%row:8085/esmond/perfsonar/archive&dest=amst-pt1.es.net&source=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&dest=amst-owamp.es.net&source=bost-owamp.es.net
+            amst-pt1.es.net: http://stats.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row:8085/esmond/perfsonar/archive&dest=amst-pt1.es.net&source=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&dest=amst-owamp.es.net&source=bost-owamp.es.net
       maUrl:
         default: http://%row:8085/esmond/perfsonar/archive
     retryAttempts: 3
@@ -69,12 +69,12 @@ checks:
     id: Manual-Backup-Paths-Check-Reverse
     name: Throughput Reverse
     params:
-      command: '/opt/perfsonar_ps/nagios/bin/check_throughput.pl -u %maUrl -w 5: -c 1: -r 86400 -d %row -s %col'
+      command: '/usr/lib64/nagios/plugins/check_throughput.pl -u %maUrl -w 5: -c 1: -r 86400 -d %row -s %col'
       graphUrl:
         lsvn-pt1.es.net:
-            ga-pt1.es.net: http://stats.es.net/serviceTest/graphWidget.cgi?url=http://%row:8085/esmond/perfsonar/archive&source=ga-pt1.es.net&dest=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&source=ga-owamp.es.net&dest=lsvn-owamp.es.net
+            ga-pt1.es.net: http://stats.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row:8085/esmond/perfsonar/archive&source=ga-pt1.es.net&dest=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&source=ga-owamp.es.net&dest=lsvn-owamp.es.net
         bost-pt1.es.net:
-            amst-pt1.es.net: http://stats.es.net/serviceTest/graphWidget.cgi?url=http://%row:8085/esmond/perfsonar/archive&source=amst-pt1.es.net&dest=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&source=amst-owamp.es.net&dest=bost-owamp.es.net
+            amst-pt1.es.net: http://stats.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row:8085/esmond/perfsonar/archive&source=amst-pt1.es.net&dest=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&source=amst-owamp.es.net&dest=bost-owamp.es.net
       maUrl:
         default: http://%row:8085/esmond/perfsonar/archive
     retryAttempts: 3

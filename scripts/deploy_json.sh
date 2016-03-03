@@ -26,7 +26,7 @@ for f in *.conf
 do
     MESH=`echo "$f" | sed 's/\(.\)\.conf/\1/'`
     echo "Building ${MESH}.json"
-    /opt/perfsonar_ps/mesh_config/bin/build_json --input $f --output /tmp/${MESH}.json
+    /usr/lib/perfsonar/bin/build_json --input $f --output /tmp/${MESH}.json
     if [ $? != 0 ]; then
        echo "Error generating JSON file ${MESH}.json"
     else
