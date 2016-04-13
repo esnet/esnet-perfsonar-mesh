@@ -153,4 +153,9 @@ dashboards:
         - name: 'ESnet - ESnet to GA-EAST IPv4 Packet Loss Testing'
         - name: 'ESnet - ESnet to GA-EAST IPv6 Throughput Testing'
         - name: 'ESnet - ESnet to GA-EAST IPv6 Packet Loss Testing'
-
+    - name: "9: NetSage"
+      grids:
+        - name: 'ESnet - NetSage BW Testing: Atlantic'
+        - name: 'ESnet - NetSage BW Testing: Pacific'
+        - name: 'ESnet - NetSage Loss Testing: Atlantic'
+        - name: 'ESnet - NetSage Loss Testing: Pacific'
