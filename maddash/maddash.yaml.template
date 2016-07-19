@@ -28,6 +28,39 @@ http:
     port: 8881
 
 ##
+# Email notifications
+notifications:
+   - name: "ESnet Performance Problems"
+     type: "email"
+     schedule: "0 * * * ?"
+     problemReportFrequency: 86400
+     minimumSeverity: 1
+     filters:
+        - type: "category"
+          value: "PERFORMANCE"
+     parameters:
+       dashboardUrl: "http://ps-dashboard.es.net"
+       subjectPrefix: "[MaDDash]"
+       from: "noreply@ps-dashboard.es.net"
+       to:
+           - "andy@es.net"
+   - name: "ESnet Configuration Problems"
+     type: "email"
+     schedule: "0 * * * ?"
+     problemReportFrequency: 86400
+     minimumSeverity: 1
+     filters:
+        - type: "category"
+          value: "CONFIGURATION"
+     parameters:
+       dashboardUrl: "http://ps-dashboard.es.net"
+       subjectPrefix: "[MaDDash]"
+       from: "noreply@ps-dashboard.es.net"
+       to:
+           - "andy@es.net"
+
+
+##
 # Manually defined groups
 groups:
   Manual-Backup-Paths-rows:
