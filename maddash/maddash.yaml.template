@@ -69,6 +69,18 @@ groups:
   Manual-Backup-Paths-columns:
     - ga-pt1.es.net
     - amst-pt1.es.net
+  pScheduler-Loss-rows:
+    - antg-dev.es.net
+  pScheduler-Loss-columns:
+    - albq-owamp.es.net 
+    - anl-owamp.es.net 
+    - bois-owamp.es.net
+    - bost-owamp.es.net 
+    - atla-owamp.es.net 
+    - sacr-owamp.es.net 
+    - lbl-owamp.es.net
+    - lond-owamp.es.net
+
 ##
 # Manually defined checks
 checks:
@@ -114,6 +126,42 @@ checks:
     retryInterval: 600
     timeout: 60
     type: net.es.maddash.checks.PSNagiosCheck
+  pScheduler-Loss-Check:
+    name: pScheduler Loss
+    id: pScheduler-Loss-Check
+    type: net.es.maddash.checks.PSNagiosCheck
+    description: Loss from %row to %col
+    warning_description: Loss rate is >= 0.001
+    critical_description: Loss rate is >= 0.1
+    checkInterval: 1800
+    retryAttempts: 3
+    retryInterval: 600
+    timeout: 60
+    excludeChecks: {}
+    ok_description: Loss rate is <= 0.001
+    params:
+      command: /usr/lib64/nagios/plugins/check_owdelay.pl -u %maUrl -w 0.001 -c 0.1 -r 2700 -l -p -s %row -d %col --tool pscheduler/powstream
+      maUrl: 
+        default: "http://ps-test.ctc.grnoc.iu.edu/esmond/perfsonar/archive/"
+      graphUrl: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=%maUrl&source=%row&dest=%col&tool=pscheduler/powstream  
+  pScheduler-Loss-Check-Reverse:
+    name: pScheduler Loss Reverse
+    id: pScheduler-Loss-Check-Reverse
+    type: net.es.maddash.checks.PSNagiosCheck
+    description: Loss from %col to %row
+    warning_description: Loss rate is >= 0.001
+    critical_description: Loss rate is >= 0.1
+    checkInterval: 1800
+    retryAttempts: 3
+    retryInterval: 600
+    timeout: 60
+    excludeChecks: {}
+    ok_description: Loss rate is <= 0.001
+    params:
+      command: /usr/lib64/nagios/plugins//check_owdelay.pl -u %maUrl -w 0.001 -c 0.1 -r 2700 -l -p -s %col -d %row --tool pscheduler/powstream
+      maUrl:
+         default: "http://ps-test.ctc.grnoc.iu.edu/esmond/perfsonar/archive/"
+      graphUrl: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=%maUrl&source=%col&dest=%row&tool=pscheduler/powstream
     
 ##
 # Manually defined grids
@@ -140,7 +188,23 @@ grids:
       ok: Throughput >= 5000Mbps
       unknown: Unable to retrieve data
       warning: Throughput < 5000Mbps
-
+  -
+    name: 'pScheduler Packet Loss'
+    checks:
+      - pScheduler-Loss-Check
+      - pScheduler-Loss-Check-Reverse
+    colOrder: group
+    columnAlgorithm: all
+    rows: pScheduler-Loss-rows
+    columns: pScheduler-Loss-columns
+    excludeSelf: 1
+    rowOrder: alphabetical
+    statusLabels:
+      critical: Loss rate is >= 0.1
+      notrun: Check has not yet run
+      ok: Loss rate is <= 0.001
+      unknown: Unable to retrieve data
+      warning: Loss rate is >= 0.001
 ##
 # Manually defined dashboards
 dashboards:
@@ -184,3 +248,6 @@ dashboards:
         - name: "ESnet - ESnet to GA-EAST IPv4 Packet Loss Testing"
         - name: "ESnet - ESnet to GA-EAST IPv6 Throughput Testing"
         - name: "ESnet - ESnet to GA-EAST IPv6 Packet Loss Testing"
+    - name: "9: pScheduler Testing"
+      grids:
+        - name: "pScheduler Packet Loss"
