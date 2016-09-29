@@ -249,7 +249,7 @@ checks:
             cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=cern-513-pt1.es.net&dest=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&source=cern-513-owamp.es.net&dest=wash-owamp.es.net	
        maUrl: 
         default: "http://%row.map.ip/esmond/perfsonar/archive"
-	command: "/usr/lib/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 900 -l -p -s %col.map.ip -d %row.map.ip"
+        command: "/usr/lib/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 900 -l -p -s %col.map.ip -d %row.map.ip"
         checkInterval: 1800
         retryInterval: 300
         retryAttempts: 3
