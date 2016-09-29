@@ -58,9 +58,6 @@ notifications:
        from: "noreply@ps-dashboard.es.net"
        to:
            - "andy@es.net"
-
-
-
 ##
 # Manually defined groups
 
@@ -173,13 +170,11 @@ checks:
     # Below defines a check that alarms against the loss between the row and column host.
     # It looks at data for the last 30 minutes and runs every 30 minutes. It will go 
     # critical if there is any loss. There is no warning level.
-    
-    http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive
     owampLossCheck:
         #A descriptive name of the check
         name: "Manual-Backup-Paths-Loss"
         #A description of the check
-        description: "Loss from %row.map.ip to %col.map.ip (according to %row MA)"
+        description: "Loss from %row.map.ip to %col.map.ip"
         #Example using mapped variables
         #description: "Loss from %row.map.ip to %col.map.ip (according to %row MA)"
         #The type of check. Other valid values are net.es.maddash.checks.NagiosCheck and
@@ -238,11 +233,9 @@ checks:
     # the reverse direction. The parameters have the same meaning as the previous example
    owampLossRevCheck :
         name: "Manual-Backup-Paths-Loss-Reverse"
-        description: "Loss from %col.map.ip to %row.map.ip (according to %row MA)"
+        description: "Loss from %col.map.ip to %row.map.ip"
         type: "net.es.maddash.checks.PSNagiosCheck"
         params:
-      maUrl: 
-        default: "http://%row.map.ip/esmond/perfsonar/archive"
       graphUrl: 
         lsvn-pt1.es.net:
             ga-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=ga-pt1.es.net&dest=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&source=ga-owamp.es.net&dest=lsvn-owamp.es.net
@@ -254,7 +247,9 @@ checks:
             lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=lond-pt1.es.net&dest=aofa-pt1.es.net&url=http://aofa-owamp.es.net:8085/esmond/perfsonar/archive&source=lond-owamp.es.net&dest=aofa-owamp.es.net
         wash-pt1.es.net:
             cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=cern-513-pt1.es.net&dest=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&source=cern-513-owamp.es.net&dest=wash-owamp.es.net	
-        command: "/usr/lib/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 900 -l -p -s %col.map.ip -d %row.map.ip"
+       maUrl: 
+        default: "http://%row.map.ip/esmond/perfsonar/archive"
+	command: "/usr/lib/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 900 -l -p -s %col.map.ip -d %row.map.ip"
         checkInterval: 1800
         retryInterval: 300
         retryAttempts: 3
