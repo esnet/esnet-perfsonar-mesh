@@ -86,80 +86,89 @@ groups:
 groupMembers:
     - id: "lsvn-pt1.es.net"
       label: "lsvn-pt1.es.net" 
-      "ga-pt1.es.net":
-            ip: "192.168.14.33"
-      "ga-owamp.es.net":
-            ip: "192.168.14.37"
-        "default":
-            ip: "198.129.254.94"
+      map:
+          "ga-pt1.es.net":
+                ip: "192.168.14.33"
+          "ga-owamp.es.net":
+                ip: "192.168.14.37"
+          "default":
+                ip: "198.129.254.94"
     - id: "ga-pt1.es.net"
       label: "ga-pt1.es.net" 
-      "lsvn-pt1.es.net":
-            ip: "192.168.14.34"
-      "lsvn-owamp.es.net":
-            ip: "192.168.14.38"
-        "default":
-            ip: "198.129.254.150"
+      map:
+          "lsvn-pt1.es.net":
+                ip: "192.168.14.34"
+          "lsvn-owamp.es.net":
+                ip: "192.168.14.38"
+          "default":
+                ip: "198.129.254.150"
     - id: "bost-pt1.es.net"
       label: "bost-pt1.es.net" 
-      "amst-pt1.es.net":
-            ip: "192.168.14.1"
-      "amst-owamp.es.net":
-            ip: "192.168.14.5"
-      "default":
-            ip: "198.124.238.66"
+      map:
+          "amst-pt1.es.net":
+                ip: "192.168.14.1"
+          "amst-owamp.es.net":
+                ip: "192.168.14.5"
+          "default":
+                ip: "198.124.238.66"
     - id: "amst-pt1.es.net"
       label: "amst-pt1.es.net"
-      "bost-pt1.es.net":
-            ip: "192.168.14.2"
-      "bost-owamp.es.net":
-            ip: "192.168.14.6"
-      "default":
-            ip: "198.124.238.14"
+      map:
+          "bost-pt1.es.net":
+                ip: "192.168.14.2"
+          "bost-owamp.es.net":
+                ip: "192.168.14.6"
+          "default":
+                ip: "198.124.238.14"
     - id: "newy-pt1.es.net"
       label: "newy-pt1.es.net"
-      "lond-pt1.es.net":
-            ip: "192.168.14.9"
-      "lond-owamp.es.net":
-            ip: "192.168.14.13"
-      "default":
-            ip: "198.124.238.54"
+      map:
+          "lond-pt1.es.net":
+                ip: "192.168.14.9"
+          "lond-owamp.es.net":
+                ip: "192.168.14.13"
+          "default":
+                ip: "198.124.238.54"
     - id: "lond-pt1.es.net"
       label: "lond-pt1.es.net"
-      "newy-pt1.es.net":
-            ip: "192.168.14.10"
-      "newy-owamp.es.net":
-            ip: "192.168.14.14"
-      "aofa-pt1.es.net":
-            ip: "192.168.14.18"
-      "aofa-owamp.es.net":
-            ip: "192.168.14.22"
-      "default":
-            ip: "198.124.238.146"
+      map:
+          "newy-pt1.es.net":
+                ip: "192.168.14.10"
+          "newy-owamp.es.net":
+                ip: "192.168.14.14"
+          "aofa-pt1.es.net":
+                ip: "192.168.14.18"
+          "aofa-owamp.es.net":
+                ip: "192.168.14.22"
+          "default":
+                ip: "198.124.238.146"
     - id: "aofa-pt1.es.net"
       label: "aofa-pt1.es.net"
-      "lond-pt1.es.net":
-            ip: "192.168.14.17"
-      "lond-owamp.es.net":
-            ip: "192.168.14.21”
-      "default":
-            ip: "198.124.238.42"
+      map:
+          "lond-pt1.es.net":
+                ip: "192.168.14.17"
+          "lond-owamp.es.net":
+                ip: "192.168.14.21"
+          "default":
+                ip: "198.124.238.42"
     - id: "wash-pt1.es.net"
       label: "wash-pt1.es.net"
-      "cern-513-pt1.es.net":
-            ip: "192.168.14.25"
-      "cern-513-owamp.es.net":
-            ip: "192.168.14.29"
-      "default":
-            ip: "198.124.238.34"
+      map:
+          "cern-513-pt1.es.net":
+                ip: "192.168.14.25"
+          "cern-513-owamp.es.net":
+                ip: "192.168.14.29"
+          "default":
+                ip: "198.124.238.34"
     - id: "cern-513-pt1.es.net"
       label: "cern-513-pt1.es.net"
-      "wash-pt1.es.net":
-            ip: "192.168.14.26"
-      "wash-owamp.es.net":
-            ip: "192.168.14.30"
-      "default":
-            ip: "198.124.238.90"
+      map:
+          "wash-pt1.es.net":
+                ip: "192.168.14.26"
+          "wash-owamp.es.net":
+                ip: "192.168.14.30"
+          "default":
+                ip: "198.124.238.90"
       # The special map property can be used to create template variables that change depending on opposing row or column
       # For example we could use %row.map.ip in a command to tell nettest.lbl.gov to use ip 10.0.1.1 when every the column is 
       # albq-pt1.es.net and 131.243.24.11 for anything else (default is a special key). The parameter name is freeform and "ip"  is just an example map.
@@ -170,7 +179,7 @@ checks:
     # Below defines a check that alarms against the loss between the row and column host.
     # It looks at data for the last 30 minutes and runs every 30 minutes. It will go 
     # critical if there is any loss. There is no warning level.
-    owampLossCheck:
+    Manual-Backup-Paths-Loss-Check:
         #A descriptive name of the check
         name: "Manual-Backup-Paths-Loss"
         #A description of the check
@@ -198,20 +207,20 @@ checks:
             #   bost-owamp.es.net:
             #       albu-owamp.es.net: "http://perfsonar-archive.es.net/esmond/perfsonar/archive"
             #
-      graphUrl:
-        lsvn-pt1.es.net:
-            ga-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=ga-pt1.es.net&source=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&dest=ga-owamp.es.net&source=lsvn-owamp.es.net
-        bost-pt1.es.net:
-            amst-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=amst-pt1.es.net&source=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&dest=amst-owamp.es.net&source=bost-owamp.es.net
-        newy-pt1.es.net:
-            lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=lond-pt1.es.net&source=newy-pt1.es.net&url=http://newy-owamp.es.net:8085/esmond/perfsonar/archive&dest=lond-owamp.es.net&source=newy-owamp.es.net
-        aofa-pt1.es.net:
-            lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=lond-pt1.es.net&source=aofa-pt1.es.net&url=http://aofa-owamp.es.net:8085/esmond/perfsonar/archive&dest=lond-owamp.es.net&source=aofa-owamp.es.net
-        wash-pt1.es.net:
-            cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=cern-513-pt1.es.net&source=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&dest=cern-513-owamp.es.net&source=wash-owamp.es.net	
-      maUrl:            
-        default: http://%row.map.ip:8085/esmond/perfsonar/archive
-	    #The Nagios command to execute. The -w and -c options define the thresholds. 
+            graphUrl:
+                lsvn-pt1.es.net:
+                    ga-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=ga-pt1.es.net&source=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&dest=ga-owamp.es.net&source=lsvn-owamp.es.net
+                bost-pt1.es.net:
+                    amst-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=amst-pt1.es.net&source=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&dest=amst-owamp.es.net&source=bost-owamp.es.net
+                newy-pt1.es.net:
+                    lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=lond-pt1.es.net&source=newy-pt1.es.net&url=http://newy-owamp.es.net:8085/esmond/perfsonar/archive&dest=lond-owamp.es.net&source=newy-owamp.es.net
+                aofa-pt1.es.net:
+                    lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=lond-pt1.es.net&source=aofa-pt1.es.net&url=http://aofa-owamp.es.net:8085/esmond/perfsonar/archive&dest=lond-owamp.es.net&source=aofa-owamp.es.net
+                wash-pt1.es.net:
+                    cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=cern-513-pt1.es.net&source=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&dest=cern-513-owamp.es.net&source=wash-owamp.es.net	
+            maUrl:            
+                default: http://%row.map.ip:8085/esmond/perfsonar/archive
+            #The Nagios command to execute. The -w and -c options define the thresholds. 
             #The -r option specifies the time range to query.
             command: "/usr/lib/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 1800 -l -p -s %row.map.ip -d %col.map.ip"
         #How often to run the check (in seconds)
@@ -231,25 +240,25 @@ checks:
     # Below defines a check that alarms against the loss between the column and row host. 
     # It just swaps the source and destination of the other OWAMP check to get data for 
     # the reverse direction. The parameters have the same meaning as the previous example
-   owampLossRevCheck :
+    Manual-Backup-Paths-Loss-Check-Reverse:
         name: "Manual-Backup-Paths-Loss-Reverse"
         description: "Loss from %col.map.ip to %row.map.ip"
         type: "net.es.maddash.checks.PSNagiosCheck"
         params:
-      graphUrl: 
-        lsvn-pt1.es.net:
-            ga-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=ga-pt1.es.net&dest=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&source=ga-owamp.es.net&dest=lsvn-owamp.es.net
-        bost-pt1.es.net:
-            amst-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=amst-pt1.es.net&dest=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&source=amst-owamp.es.net&dest=bost-owamp.es.net
-        newy-pt1.es.net:
-            lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=lond-pt1.es.net&dest=newy-pt1.es.net&url=http://newy-owamp.es.net:8085/esmond/perfsonar/archive&source=lond-owamp.es.net&dest=newy-owamp.es.net
-        aofa-pt1.es.net:
-            lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=lond-pt1.es.net&dest=aofa-pt1.es.net&url=http://aofa-owamp.es.net:8085/esmond/perfsonar/archive&source=lond-owamp.es.net&dest=aofa-owamp.es.net
-        wash-pt1.es.net:
-            cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=cern-513-pt1.es.net&dest=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&source=cern-513-owamp.es.net&dest=wash-owamp.es.net	
-       maUrl: 
-        default: "http://%row.map.ip/esmond/perfsonar/archive"
-        command: "/usr/lib/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 900 -l -p -s %col.map.ip -d %row.map.ip"
+            graphUrl: 
+                lsvn-pt1.es.net:
+                    ga-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=ga-pt1.es.net&dest=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&source=ga-owamp.es.net&dest=lsvn-owamp.es.net
+                bost-pt1.es.net:
+                    amst-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=amst-pt1.es.net&dest=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&source=amst-owamp.es.net&dest=bost-owamp.es.net
+                newy-pt1.es.net:
+                    lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=lond-pt1.es.net&dest=newy-pt1.es.net&url=http://newy-owamp.es.net:8085/esmond/perfsonar/archive&source=lond-owamp.es.net&dest=newy-owamp.es.net
+                aofa-pt1.es.net:
+                    lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=lond-pt1.es.net&dest=aofa-pt1.es.net&url=http://aofa-owamp.es.net:8085/esmond/perfsonar/archive&source=lond-owamp.es.net&dest=aofa-owamp.es.net
+                wash-pt1.es.net:
+                    cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=cern-513-pt1.es.net&dest=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&source=cern-513-owamp.es.net&dest=wash-owamp.es.net
+            maUrl: 
+                default: "http://%row.map.ip/esmond/perfsonar/archive"
+            command: "/usr/lib/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 900 -l -p -s %col.map.ip -d %row.map.ip"
         checkInterval: 1800
         retryInterval: 300
         retryAttempts: 3
@@ -257,76 +266,75 @@ checks:
     
 
 
-  Manual-Backup-Paths-Check:
-    checkInterval: 14400
-    ok_description: Throughput >= 5000Mbps
-    warning_description: Throughput < 5000Mbps
-    critical_description: Throughput <= 1000Mbps
-    description: Throughput from %row.map.ip to %col.map.ip
-    id: Manual-Backup-Paths-Check
-    name: Throughput
-    params:
-      command: '/usr/lib64/nagios/plugins/check_throughput.pl -u %maUrl -w 5: -c 1: -r 86400 -s %row.map.ip -d %col.map.ip'
-      graphUrl:
-        lsvn-pt1.es.net:
-            ga-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=ga-pt1.es.net&source=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&dest=ga-owamp.es.net&source=lsvn-owamp.es.net
-        bost-pt1.es.net:
-            amst-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=amst-pt1.es.net&source=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&dest=amst-owamp.es.net&source=bost-owamp.es.net
-        newy-pt1.es.net:
-            lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=lond-pt1.es.net&source=newy-pt1.es.net&url=http://newy-owamp.es.net:8085/esmond/perfsonar/archive&dest=lond-owamp.es.net&source=newy-owamp.es.net
-        aofa-pt1.es.net:
-            lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=lond-pt1.es.net&source=aofa-pt1.es.net&url=http://aofa-owamp.es.net:8085/esmond/perfsonar/archive&dest=lond-owamp.es.net&source=aofa-owamp.es.net
-        wash-pt1.es.net:
-            cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=cern-513-pt1.es.net&source=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&dest=cern-513-owamp.es.net&source=wash-owamp.es.net	
-      maUrl:
-        default: http://%row.map.ip:8085/esmond/perfsonar/archive
-    retryAttempts: 3
-    retryInterval: 600
-    timeout: 60
-    type: net.es.maddash.checks.PSNagiosCheck
+    Manual-Backup-Paths-Throughput-Check:
+        checkInterval: 14400
+        ok_description: Throughput >= 5000Mbps
+        warning_description: Throughput < 5000Mbps
+        critical_description: Throughput <= 1000Mbps
+        description: Throughput from %row.map.ip to %col.map.ip
+        id: Manual-Backup-Paths-Check
+        name: Throughput
+        params:
+          command: '/usr/lib64/nagios/plugins/check_throughput.pl -u %maUrl -w 5: -c 1: -r 86400 -s %row.map.ip -d %col.map.ip'
+          graphUrl:
+            lsvn-pt1.es.net:
+                ga-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=ga-pt1.es.net&source=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&dest=ga-owamp.es.net&source=lsvn-owamp.es.net
+            bost-pt1.es.net:
+                amst-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=amst-pt1.es.net&source=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&dest=amst-owamp.es.net&source=bost-owamp.es.net
+            newy-pt1.es.net:
+                lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=lond-pt1.es.net&source=newy-pt1.es.net&url=http://newy-owamp.es.net:8085/esmond/perfsonar/archive&dest=lond-owamp.es.net&source=newy-owamp.es.net
+            aofa-pt1.es.net:
+                lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=lond-pt1.es.net&source=aofa-pt1.es.net&url=http://aofa-owamp.es.net:8085/esmond/perfsonar/archive&dest=lond-owamp.es.net&source=aofa-owamp.es.net
+            wash-pt1.es.net:
+                cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=cern-513-pt1.es.net&source=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&dest=cern-513-owamp.es.net&source=wash-owamp.es.net	
+          maUrl:
+            default: http://%row.map.ip:8085/esmond/perfsonar/archive
+        retryAttempts: 3
+        retryInterval: 600
+        timeout: 60
+        type: net.es.maddash.checks.PSNagiosCheck
     
     
-  Manual-Backup-Paths-Check-Reverse:
-    checkInterval: 14400
-    ok_description: Throughput >= 5000Mbps
-    warning_description: Throughput < 5000Mbps
-    critical_description: Throughput <= 1000Mbps
-    description: Throughput from %row.map.ip to %col.map.ip
-    id: Manual-Backup-Paths-Check-Reverse
-    name: Throughput Reverse
-    params:
-      command: '/usr/lib64/nagios/plugins/check_throughput.pl -u %maUrl -w 5: -c 1: -r 86400 -d %row.map.ip -s %col.map.ip'
-      graphUrl:
-        lsvn-pt1.es.net:
-            ga-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=ga-pt1.es.net&dest=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&source=ga-owamp.es.net&dest=lsvn-owamp.es.net
-        bost-pt1.es.net:
-            amst-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=amst-pt1.es.net&dest=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&source=amst-owamp.es.net&dest=bost-owamp.es.net
-        newy-pt1.es.net:
-            lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=lond-pt1.es.net&dest=newy-pt1.es.net&url=http://newy-owamp.es.net:8085/esmond/perfsonar/archive&source=lond-owamp.es.net&dest=newy-owamp.es.net
-        aofa-pt1.es.net:
-            lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=lond-pt1.es.net&dest=aofa-pt1.es.net&url=http://aofa-owamp.es.net:8085/esmond/perfsonar/archive&source=lond-owamp.es.net&dest=aofa-owamp.es.net
-        wash-pt1.es.net:
-            cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=cern-513-pt1.es.net&dest=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&source=cern-513-owamp.es.net&dest=wash-owamp.es.net	
-      maUrl:
-        default: http://%row.map.ip:8085/esmond/perfsonar/archive
-    retryAttempts: 3
-    retryInterval: 600
-    timeout: 60
-    type: net.es.maddash.checks.PSNagiosCheck
+    Manual-Backup-Paths-Throughput-Check-Reverse:
+        checkInterval: 14400
+        ok_description: Throughput >= 5000Mbps
+        warning_description: Throughput < 5000Mbps
+        critical_description: Throughput <= 1000Mbps
+        description: Throughput from %row.map.ip to %col.map.ip
+        id: Manual-Backup-Paths-Check-Reverse
+        name: Throughput Reverse
+        params:
+          command: '/usr/lib64/nagios/plugins/check_throughput.pl -u %maUrl -w 5: -c 1: -r 86400 -d %row.map.ip -s %col.map.ip'
+          graphUrl:
+            lsvn-pt1.es.net:
+                ga-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=ga-pt1.es.net&dest=lsvn-pt1.es.net&url=http://lsvn-owamp.es.net:8085/esmond/perfsonar/archive&source=ga-owamp.es.net&dest=lsvn-owamp.es.net
+            bost-pt1.es.net:
+                amst-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=amst-pt1.es.net&dest=bost-pt1.es.net&url=http://bost-owamp.es.net:8085/esmond/perfsonar/archive&source=amst-owamp.es.net&dest=bost-owamp.es.net
+            newy-pt1.es.net:
+                lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=lond-pt1.es.net&dest=newy-pt1.es.net&url=http://newy-owamp.es.net:8085/esmond/perfsonar/archive&source=lond-owamp.es.net&dest=newy-owamp.es.net
+            aofa-pt1.es.net:
+                lond-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=lond-pt1.es.net&dest=aofa-pt1.es.net&url=http://aofa-owamp.es.net:8085/esmond/perfsonar/archive&source=lond-owamp.es.net&dest=aofa-owamp.es.net
+            wash-pt1.es.net:
+                cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=cern-513-pt1.es.net&dest=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&source=cern-513-owamp.es.net&dest=wash-owamp.es.net	
+          maUrl:
+            default: http://%row.map.ip:8085/esmond/perfsonar/archive
+        retryAttempts: 3
+        retryInterval: 600
+        timeout: 60
+        type: net.es.maddash.checks.PSNagiosCheck
 
 
 # Manually defined grids
 grids:
+  -
     checks:
-      - Manual-Backup-Paths-Loss
-      - Manual-Backup-Paths-Loss-Reverse
-      - Manual-Backup-Paths-Check      
-      - Manual-Backup-Paths-Check-Reverse
+      - Manual-Backup-Paths-Loss-Check
+      - Manual-Backup-Paths-Loss-Check-Reverse
     colOrder: group
     columnAlgorithm: all
     columns: Manual-Backup-Paths-columns
     excludeSelf: 1
-    name: 'ESnet Backup Paths'
+    name: 'ESnet Backup Paths Packet Loss'
     rowOrder: group
     excludeChecks:
       lsvn-pt1.es.net:
@@ -356,3 +364,91 @@ grids:
       ok: Throughput >= 5000Mbps
       unknown: Unable to retrieve data
       warning: Throughput < 5000Mbps
+  -
+    checks:
+      - Manual-Backup-Paths-Throughput-Check
+      - Manual-Backup-Paths-Throughput-Check-Reverse
+    colOrder: group
+    columnAlgorithm: all
+    columns: Manual-Backup-Paths-columns
+    excludeSelf: 1
+    name: 'ESnet Backup Paths Throughput'
+    rowOrder: group
+    excludeChecks:
+      lsvn-pt1.es.net:
+        - amst-pt1.es.net
+        - lond-pt1.es.net
+        - cern-513-pt1.es.net
+      bost-pt1.es.net:
+        - ga-pt1.es.net
+        - lond-pt1.es.net
+        - cern-513-pt1.es.net
+      newy-pt1.es.net:
+        - ga-pt1.es.net
+        - amst-pt1.es.net
+        - cern-513-pt1.es.net
+      aofa-pt1.es.net:
+        - ga-pt1.es.net
+        - amst-pt1.es.net
+        - cern-513-pt1.es.net
+      wash-pt1.es.net:
+        - ga-pt1.es.net
+        - amst-pt1.es.net
+        - lond-pt1.es.net
+    rows: Manual-Backup-Paths-rows
+    statusLabels:
+      critical: Throughput <= 1000Mbps
+      notrun: Check has not yet run
+      ok: Throughput >= 5000Mbps
+      unknown: Unable to retrieve data
+      warning: Throughput < 5000Mbps
+
+#dashboards that combine grids onto single page
+##
+# Manually defined dashboards
+dashboards:
+   - name: "1: ESnet to ESnet Packet Loss"
+     grids:
+       - name: "ESnet - ESnet to ESnet Packet Loss Testing"
+       - name: "ESnet - ESnet Hub to Small DOE Site Border Packet Loss Testing"
+       - name: "ESnet - ESnet to ESnet Intercontinental Packet Loss Testing"
+       - name: "ESnet - ESnet to ESnet European Packet Loss Testing"
+   - name: "2: ESnet to ESnet Throughput Testing"
+     grids:
+       - name: "ESnet - 100G ESnet Hub to 100G ESnet Hub Throughput Testing"
+       - name: "ESnet - ESnet Hub to Large DOE Site Border Throughput Testing"
+       - name: "ESnet - ESnet Hub to Small DOE Site Border Throughput Testing"
+       - name: "ESnet - ESnet Hub to DOE Site Backup Path Throughput Testing"
+       - name: "ESnet - ESnet to ESnet Intercontinental Throughput Testing"
+       - name: "ESnet - ESnet to ESnet European Throughput Testing"
+   - name: "3: ESnet to DOE Sites"
+     grids:
+       - name: "ESnet - ESnet to DOE Site Packet Loss Testing"
+       - name: "ESnet - ESnet to DOE Site Throughput Testing"
+   - name: "4: ESnet to Large Facilities"
+     grids:
+       - name: "ESnet - ESnet to Large Facility Throughput Testing"
+       - name: "ESnet - ESnet to Large Facility Packet Loss Testing"
+   - name: "5: ESnet to Europe"
+     grids:
+       - name: "ESnet - ESnet to GEANT Packet Loss Testing"
+       - name: "ESnet - ESnet to GEANT Throughput Testing"
+   - name: "6: ESnet to International"
+     grids:
+       - name: "ESnet - ESnet to International Throughput Testing"
+       - name: "ESnet - ESnet to International Packet Loss Testing"
+   - name: "7: ESnet to ICNWG Sites"
+     grids:
+       - name: "ESnet - ESnet to ICNWG Site Packet Loss Testing" 
+       - name: "ESnet - ESnet to ICNWG Site Throughput Testing"
+   - name: "8: ESnet to GA-EAST"
+     grids:
+       - name: "ESnet - ESnet to GA-EAST IPv4 Throughput Testing"
+       - name: "ESnet - ESnet to GA-EAST IPv4 Packet Loss Testing"
+       - name: "ESnet - ESnet to GA-EAST IPv6 Throughput Testing"
+       - name: "ESnet - ESnet to GA-EAST IPv6 Packet Loss Testing"
+    - name: "9: ESnet Backup Paths"
+      grids:
+        - name: "ESnet Backup Paths Packet Loss"
+        - name: "ESnet Backup Paths Throughput"
+
