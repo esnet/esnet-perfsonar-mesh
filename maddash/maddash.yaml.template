@@ -219,7 +219,7 @@ checks:
                 wash-pt1.es.net:
                     cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=cern-513-pt1.es.net&source=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&dest=cern-513-owamp.es.net&source=wash-owamp.es.net	
             maUrl:            
-                default: http://%row.map.ip:8085/esmond/perfsonar/archive
+                default: http://%row:8085/esmond/perfsonar/archive
             #The Nagios command to execute. The -w and -c options define the thresholds. 
             #The -r option specifies the time range to query.
             command: "/usr/lib64/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 1800 -l -p -s %row.map.ip -d %col.map.ip"
@@ -257,7 +257,7 @@ checks:
                 wash-pt1.es.net:
                     cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=cern-513-pt1.es.net&dest=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&source=cern-513-owamp.es.net&dest=wash-owamp.es.net
             maUrl: 
-                default: "http://%row.map.ip/esmond/perfsonar/archive"
+                default: "http://%row:8085/esmond/perfsonar/archive"
             command: "/usr/lib64/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 900 -l -p -s %col.map.ip -d %row.map.ip"
         checkInterval: 1800
         retryInterval: 300
@@ -288,7 +288,7 @@ checks:
             wash-pt1.es.net:
                 cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&dest=cern-513-pt1.es.net&source=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&dest=cern-513-owamp.es.net&source=wash-owamp.es.net	
           maUrl:
-            default: http://%row.map.ip:8085/esmond/perfsonar/archive
+            default: http://%row:8085/esmond/perfsonar/archive
         retryAttempts: 3
         retryInterval: 600
         timeout: 60
@@ -317,7 +317,7 @@ checks:
             wash-pt1.es.net:
                 cern-513-pt1.es.net: http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=http://%row.map.ip:8085/esmond/perfsonar/archive&source=cern-513-pt1.es.net&dest=wash-pt1.es.net&url=http://wash-owamp.es.net:8085/esmond/perfsonar/archive&source=cern-513-owamp.es.net&dest=wash-owamp.es.net	
           maUrl:
-            default: http://%row.map.ip:8085/esmond/perfsonar/archive
+            default: http://%row:8085/esmond/perfsonar/archive
         retryAttempts: 3
         retryInterval: 600
         timeout: 60
