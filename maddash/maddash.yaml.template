@@ -448,7 +448,7 @@ dashboards:
        - name: "ESnet - ESnet to GA-EAST IPv6 Throughput Testing"
        - name: "ESnet - ESnet to GA-EAST IPv6 Packet Loss Testing"
    - name: "9: ESnet Backup Paths"
-      grids:
-        - name: "ESnet Backup Paths Packet Loss"
-        - name: "ESnet Backup Paths Throughput"
+     grids:
+       - name: "ESnet Backup Paths Packet Loss"
+       - name: "ESnet Backup Paths Throughput"
 
