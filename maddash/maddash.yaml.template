@@ -262,7 +262,9 @@ checks:
             #
             graphUrl: "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=%maUrl&source=%row.map.ip&dest=%col.map.ip"
             maUrl:            
-                default: http://%row:8085/esmond/perfsonar/archive
+                default: "http://%row:8085/esmond/perfsonar/archive"
+                lsvn-owamp.es.net:
+                    default: "http://198.129.254.94:8085/esmond/perfsonar/archive"
             #The Nagios command to execute. The -w and -c options define the thresholds. 
             #The -r option specifies the time range to query.
             command: "/usr/lib64/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 1800 -l -p -s %row.map.ip -d %col.map.ip"
@@ -291,6 +293,8 @@ checks:
             graphUrl: "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=%maUrl&source=%col.map.ip&dest=%row.map.ip"
             maUrl: 
                 default: "http://%row:8085/esmond/perfsonar/archive"
+                lsvn-owamp.es.net:
+                    default: "http://198.129.254.94:8085/esmond/perfsonar/archive"
             command: "/usr/lib64/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 900 -l -p -s %col.map.ip -d %row.map.ip"
         checkInterval: 1800
         retryInterval: 300
@@ -308,7 +312,9 @@ checks:
           command: '/usr/lib64/nagios/plugins/check_throughput.pl -u %maUrl -w 5: -c 1: -r 86400 -s %row.map.ip -d %col.map.ip'
           graphUrl: "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=%maUrl&source=%row.map.ip&dest=%col.map.ip"
           maUrl:
-            default: http://%row:8085/esmond/perfsonar/archive
+            default: "http://%row:8085/esmond/perfsonar/archive"
+            lsvn-pt1.es.net:
+                default: "http://198.129.254.94:8085/esmond/perfsonar/archive"
         retryAttempts: 3
         retryInterval: 600
         timeout: 60
@@ -324,7 +330,9 @@ checks:
           command: '/usr/lib64/nagios/plugins/check_throughput.pl -u %maUrl -w 5: -c 1: -r 86400 -d %row.map.ip -s %col.map.ip'
           graphUrl: "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi?url=%maUrl&source=%col.map.ip&dest=%row.map.ip"
           maUrl:
-            default: http://%row:8085/esmond/perfsonar/archive
+            default: "http://%row:8085/esmond/perfsonar/archive"
+            lsvn-pt1.es.net:
+                default: "http://198.129.254.94:8085/esmond/perfsonar/archive"
         retryAttempts: 3
         retryInterval: 600
         timeout: 60
