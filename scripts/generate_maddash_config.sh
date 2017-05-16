@@ -25,12 +25,5 @@ git pull
 cp /etc/maddash/maddash-server/maddash.yaml /etc/maddash/maddash-server/maddash.yaml.bak
 cp /opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/maddash.yaml.template /etc/maddash/maddash-server/maddash.yaml
 cp /opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/gui_agent_configuration.conf /etc/perfsonar/meshconfig-guiagent.conf
-#Try to generate config. If fails, restore backup and exit
-CONFIG_OUTPUT=$( /usr/lib/perfsonar/bin/generate_gui_configuration 2>&1 ) 
-echo $CONFIG_OUTPUT
-if [ -n "$CONFIG_OUTPUT" ]; then
-    cp /etc/maddash/maddash-server/maddash.yaml.bak /etc/maddash/maddash-server/maddash.yaml
-    echo "Configuration generation failed due to errors above. Old maddash config restored"
-    exit 1
-fi 
-/etc/init.d/maddash-server restart
+
+#no need to restart anything as config changes picked-up automatically
