@@ -230,28 +230,28 @@ groupMembers:
           "default":
                 ip: "198.124.238.94"
     - id: "lond-pt1-NEARR"
-      label: "lond-pt1.es.net(NEARR)"
+      label: "lond-pt1.es.net(NEAAR)"
       map:
           "aofa-pt1-NEARR":
                 ip: "192.168.14.46"
           "default":
                 ip: "198.124.238.146"
     - id: "lond-owamp-NEARR"
-      label: "lond-owamp.es.net(NEARR)"
+      label: "lond-owamp.es.net(NEAAR)"
       map:
           "aofa-owamp-NEARR":
                 ip: "192.168.14.42"
           "default":
                 ip: "198.124.238.178"
     - id: "aofa-pt1-NEARR"
-      label: "aofa-pt1.es.net(NEARR)"
+      label: "aofa-pt1.es.net(NEAAR)"
       map:
           "lond-pt1-NEARR":
                 ip: "192.168.14.45"
           "default":
                 ip: "198.124.238.42"
     - id: "aofa-owamp-NEARR"
-      label: "aofa-owamp.es.net(NEARR)"
+      label: "aofa-owamp.es.net(NEAAR)"
       map:
           "lond-owamp-NEARR":
                 ip: "192.168.14.41"
