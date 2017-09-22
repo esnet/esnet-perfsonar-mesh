@@ -250,7 +250,7 @@ groupMembers:
                 ip: "192.168.14.45"
           "default":
                 ip: "198.124.238.42"
-    - id: "aofa-owamp-NEAR"
+    - id: "aofa-owamp-NEARR"
       label: "aofa-owamp.es.net(NEARR)"
       map:
           "lond-owamp-NEARR":
