@@ -229,7 +229,7 @@ groupMembers:
                 ip: "192.168.14.30"
           "default":
                 ip: "198.124.238.94"
-     - id: "lond-pt1-NEARR"
+    - id: "lond-pt1-NEARR"
       label: "lond-pt1.es.net(NEARR)"
       map:
           "aofa-pt1-NEARR":
