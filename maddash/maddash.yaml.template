@@ -69,12 +69,14 @@ groups:
     - aofa-pt1.es.net
     - wash-pt1.es.net
     - aofa-pt1-NEARR
+    - aofa-pt1-Aqua-Comms
   Manual-Backup-Paths-columns-pt1:
     - ga-pt1.es.net
     - amst-pt1.es.net
     - lond-pt1.es.net
     - cern-513-pt1.es.net
     - lond-pt1-NEARR
+    - lond-pt1-Aqua-Comms
   Manual-Backup-Paths-rows-owamp:
     - lsvn-owamp.es.net
     - bost-owamp.es.net
@@ -82,12 +84,14 @@ groups:
     - aofa-owamp.es.net
     - wash-owamp.es.net
     - aofa-owamp-NEARR
+    - aofa-owamp-Aqua-Comms
   Manual-Backup-Paths-columns-owamp:
     - ga-owamp.es.net
     - amst-owamp.es.net
     - lond-owamp.es.net
     - cern-513-owamp.es.net
     - lond-owamp-NEARR
+    - lond-owamp-Aqua-Comms
     
     
 # 'groupMembers' allow you to assign special properties to items in 'groups': 
@@ -257,6 +261,34 @@ groupMembers:
                 ip: "192.168.14.41"
           "default":
                 ip: "198.124.238.62"
+    - id: "lond-pt1-Aqua-Comms"
+      label: "lond-pt1.es.net(Aqua Comms)"
+      map:
+          "aofa-pt1-Aqua-Comms":
+                ip: "192.168.14.54"
+          "default":
+                ip: "198.124.238.146"
+    - id: "lond-owamp-Aqua-Comms"
+      label: "lond-owamp.es.net(Aqua Comms)"
+      map:
+          "aofa-owamp-Aqua-Comms":
+                ip: "192.168.14.50"
+          "default":
+                ip: "198.124.238.178"
+    - id: "aofa-pt1-Aqua-Comms"
+      label: "aofa-pt1.es.net(Aqua Comms)"
+      map:
+          "lond-pt1-Aqua-Comms":
+                ip: "192.168.14.53"
+          "default":
+                ip: "198.124.238.42"
+    - id: "aofa-owamp-Aqua-Comms"
+      label: "aofa-owamp.es.net(Aqua Comms)"
+      map:
+          "lond-owamp-Aqua-Comms":
+                ip: "192.168.14.49"
+          "default":
+                ip: "198.124.238.62"
 ##
 # Manually defined checks
 checks:
@@ -300,6 +332,10 @@ checks:
                     default: "http://lond-pt1.es.net:8085/esmond/perfsonar/archive"
                 aofa-owamp-NEARR:
                     default: "http://aofa-pt1.es.net:8085/esmond/perfsonar/archive"
+                lond-owamp-Aqua-Comms:
+                    default: "http://lond-pt1.es.net:8085/esmond/perfsonar/archive"
+                aofa-owamp-Aqua-Comms:
+                    default: "http://aofa-pt1.es.net:8085/esmond/perfsonar/archive"
             #The Nagios command to execute. The -w and -c options define the thresholds. 
             #The -r option specifies the time range to query.
             command: "/usr/lib64/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 1800 -l -p -s %row.map.ip -d %col.map.ip"
@@ -334,6 +370,10 @@ checks:
                     default: "http://lond-pt1.es.net:8085/esmond/perfsonar/archive"
                 aofa-owamp-NEARR:
                     default: "http://aofa-pt1.es.net:8085/esmond/perfsonar/archive"
+                lond-owamp-Aqua-Comms:
+                    default: "http://lond-pt1.es.net:8085/esmond/perfsonar/archive"
+                aofa-owamp-Aqua-Comms:
+                    default: "http://aofa-pt1.es.net:8085/esmond/perfsonar/archive"
             command: "/usr/lib64/nagios/plugins/check_owdelay.pl -u %maUrl -w 0 -c 0 -r 900 -l -p -s %col.map.ip -d %row.map.ip"
         checkInterval: 1800
         retryInterval: 300
@@ -358,6 +398,10 @@ checks:
                 default: "http://lond-pt1.es.net:8085/esmond/perfsonar/archive"
             aofa-pt1-NEARR:
                 default: "http://aofa-pt1.es.net:8085/esmond/perfsonar/archive"
+            lond-pt1-Aqua-Comms:
+                default: "http://lond-pt1.es.net:8085/esmond/perfsonar/archive"
+            aofa-pt1-Aqua-Comms:
+                default: "http://aofa-pt1.es.net:8085/esmond/perfsonar/archive"
         retryAttempts: 3
         retryInterval: 600
         timeout: 60
@@ -379,6 +423,10 @@ checks:
             lond-pt1-NEARR:
                 default: "http://lond-pt1.es.net:8085/esmond/perfsonar/archive"
             aofa-pt1-NEARR:
+                default: "http://aofa-pt1.es.net:8085/esmond/perfsonar/archive"
+            lond-pt1-Aqua-Comms:
+                default: "http://lond-pt1.es.net:8085/esmond/perfsonar/archive"
+            aofa-pt1-Aqua-Comms:
                 default: "http://aofa-pt1.es.net:8085/esmond/perfsonar/archive"
         retryAttempts: 3
         retryInterval: 600
@@ -404,31 +452,43 @@ grids:
         - lond-owamp.es.net
         - cern-513-owamp.es.net
         - lond-owamp-NEARR
+        - lond-owamp-Aqua-Comms
       bost-owamp.es.net:
         - ga-owamp.es.net
         - lond-owamp.es.net
         - cern-513-owamp.es.net
         - lond-owamp-NEARR
+        - lond-owamp-Aqua-Comms
       newy-owamp.es.net:
         - ga-owamp.es.net
         - amst-owamp.es.net
         - cern-513-owamp.es.net
         - lond-owamp-NEARR
+        - lond-owamp-Aqua-Comms
       aofa-owamp.es.net:
         - ga-owamp.es.net
         - amst-owamp.es.net
         - cern-513-owamp.es.net
         - lond-owamp-NEARR
+        - lond-owamp-Aqua-Comms
       wash-owamp.es.net:
         - ga-owamp.es.net
         - amst-owamp.es.net
         - lond-owamp.es.net
         - lond-owamp-NEARR
+        - lond-owamp-Aqua-Comms
       aofa-owamp-NEARR:
         - ga-owamp.es.net
         - amst-owamp.es.net
         - lond-owamp.es.net
         - cern-513-owamp.es.net
+        - lond-owamp-Aqua-Comms
+      aofa-owamp-Aqua-Comms:
+        - ga-owamp.es.net
+        - amst-owamp.es.net
+        - lond-owamp.es.net
+        - cern-513-owamp.es.net
+        - lond-owamp-NEARR
     rows: Manual-Backup-Paths-rows-owamp
     statusLabels:
       critical: Loss > 0%
@@ -451,31 +511,43 @@ grids:
         - lond-pt1.es.net
         - cern-513-pt1.es.net
         - lond-pt1-NEARR
+        - lond-pt1-Aqua-Comms
       bost-pt1.es.net:
         - ga-pt1.es.net
         - lond-pt1.es.net
         - cern-513-pt1.es.net
         - lond-pt1-NEARR
+        - lond-pt1-Aqua-Comms
       newy-pt1.es.net:
         - ga-pt1.es.net
         - amst-pt1.es.net
         - cern-513-pt1.es.net
         - lond-pt1-NEARR
+        - lond-pt1-Aqua-Comms
       aofa-pt1.es.net:
         - ga-pt1.es.net
         - amst-pt1.es.net
         - cern-513-pt1.es.net
         - lond-pt1-NEARR
+        - lond-pt1-Aqua-Comms
       wash-pt1.es.net:
         - ga-pt1.es.net
         - amst-pt1.es.net
         - lond-pt1.es.net
         - lond-pt1-NEARR
+        - lond-pt1-Aqua-Comms
       aofa-pt1-NEARR:
         - ga-pt1.es.net
         - amst-pt1.es.net
         - lond-pt1.es.net
         - cern-513-pt1.es.net
+        - lond-pt1-Aqua-Comms
+      aofa-pt1-Aqua-Comms:
+        - ga-pt1.es.net
+        - amst-pt1.es.net
+        - lond-pt1.es.net
+        - cern-513-pt1.es.net
+        - lond-pt1-NEARR
     rows: Manual-Backup-Paths-rows-pt1
     statusLabels:
       critical: Throughput <= 1000Mbps
