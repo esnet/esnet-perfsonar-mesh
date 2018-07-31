@@ -51,7 +51,7 @@ This is a section for administrators installing the scripts to generate a MaDDas
  * perl-perfSONAR_PS-MeshConfig-GUIAgent (available from perfSONAR Yum)
  * maddash (available from perfSONAR Yum. See http://software.es.net/maddash)
 
-###I nstallation
+### Installation
 You may install the configuration files and scripts from source on a MaDDash server. The steps to checkout the code and setup the cron script are as follows:
 
 ```
