@@ -1,0 +1,183 @@
+{
+   "remotes" : [
+      {
+         "url" : "http://ps-west.es.net/esnet-mesh_config.json"
+      }
+   ],
+   "grids" : {
+      "default_ping_loss" : {
+         "check" : {
+            "type" : "ps-nagios-ping-loss"
+         },
+         "display-name" : "Ping Loss",
+         "visualization" : {
+            "type" : "ps-graphs"
+         }
+      },
+      "default_trace" : {
+         "check" : {
+            "type" : "ps-nagios-traceroute"
+         },
+         "display-name" : "Path Count",
+         "visualization" : {
+            "type" : "ps-traceroute-viewer"
+         }
+      },
+      "loss_0" : {
+         "check" : {
+            "check-interval" : "PT1800S",
+            "critical-threshold" : "0.1",
+            "params" : {
+               "time-range" : 2700
+            },
+            "type" : "ps-nagios-loss",
+            "warning-threshold" : "0.001"
+         },
+         "display-name" : "Loss",
+         "priority" : {
+            "group" : "loss",
+            "level" : 1
+         },
+         "visualization" : {
+            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
+            "type" : "ps-graphs"
+         }
+      },
+      "throughput_0" : {
+         "check" : {
+            "check-interval" : "PT14400S",
+            "critical-threshold" : "0.1",
+            "params" : {
+               "time-range" : 86400
+            },
+            "type" : "ps-nagios-throughput",
+            "warning-threshold" : "0.5"
+         },
+         "display-name" : "Throughput",
+         "priority" : {
+            "group" : "throughput",
+            "level" : 1
+         },
+         "visualization" : {
+            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
+            "type" : "ps-graphs"
+         }
+      },
+      "throughput_1" : {
+         "check" : {
+            "check-interval" : "PT14400S",
+            "critical-threshold" : "1",
+            "params" : {
+               "time-range" : 86400
+            },
+            "type" : "ps-nagios-throughput",
+            "warning-threshold" : "5"
+         },
+         "display-name" : "Throughput",
+         "priority" : {
+            "group" : "throughput",
+            "level" : 2
+         },
+         "selector" : {
+            "task-name" : [
+               "ESnet_Hub_to_Large_DOE_Site_Border_Throughput_Testing",
+               "ESnet_Hub_to_Large_DOE_Site_Border_Throughput_Testing_scheduled_by_dest",
+               "100G_ESnet_Hub_to_100G_ESnet_Hub_Throughput_Testing",
+               "100G_ESnet_Hub_to_100G_ESnet_Hub_Throughput_Testing_scheduled_by_dest",
+               "ESnet_to_ESnet_Intercontinental_Throughput_Testing",
+               "ESnet_to_ESnet_Intercontinental_Throughput_Testing_scheduled_by_dest",
+               "ESnet_to_ESnet_European_Throughput_Testing",
+               "ESnet_to_ESnet_European_Throughput_Testing_scheduled_by_dest",
+               "ESnet_to_GEANT_Throughput_Testing",
+               "ESnet_to_GEANT_Throughput_Testing_scheduled_by_dest",
+               "ESnet_Debugging",
+               "ESnet_Debugging_scheduled_by_dest"
+            ]
+         },
+         "visualization" : {
+            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
+            "type" : "ps-graphs"
+         }
+      },
+      "throughput_2" : {
+         "check" : {
+            "check-interval" : "PT14400S",
+            "critical-threshold" : "1",
+            "params" : {
+               "time-range" : 86400
+            },
+            "type" : "ps-nagios-throughput",
+            "warning-threshold" : "2.5"
+         },
+         "display-name" : "Throughput",
+         "priority" : {
+            "group" : "throughput",
+            "level" : 2
+         },
+         "selector" : {
+            "task-name" : [
+               "ESnet_to_DOE_Site_Throughput_Testing",
+               "ESnet_to_DOE_Site_Throughput_Testing_scheduled_by_dest",
+               "ESnet_Hub_to_DOE_Site_Backup_Path_Throughput_Testing",
+               "ESnet_Hub_to_DOE_Site_Backup_Path_Throughput_Testing_scheduled_by_dest"
+            ]
+         },
+         "visualization" : {
+            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
+            "type" : "ps-graphs"
+         }
+      },
+      "throughput_3" : {
+         "check" : {
+            "check-interval" : "PT14400S",
+            "critical-threshold" : "0.1",
+            "params" : {
+               "time-range" : 86400
+            },
+            "type" : "ps-nagios-throughput",
+            "warning-threshold" : "0.5"
+         },
+         "display-name" : "Throughput",
+         "priority" : {
+            "group" : "throughput",
+            "level" : 2
+         },
+         "selector" : {
+            "task-name" : [
+               "ESnet_to_GA-EAST_Throughput_Testing",
+               "ESnet_to_GA-EAST_Throughput_Testing_scheduled_by_dest"
+            ]
+         },
+         "visualization" : {
+            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
+            "type" : "ps-graphs"
+         }
+      },
+      "throughput_4" : {
+         "check" : {
+            "check-interval" : "PT3600S",
+            "critical-threshold" : "0.5",
+            "params" : {
+               "time-range" : 86400
+            },
+            "type" : "ps-nagios-throughput",
+            "warning-threshold" : "4"
+         },
+         "display-name" : "Throughput",
+         "priority" : {
+            "group" : "throughput",
+            "level" : 2
+         },
+         "selector" : {
+            "task-name" : [
+               "ESnet_to_ICNWG_Site_Throughput_Testing",
+               "ESnet_to_ICNWG_Site_Throughput_Testing_scheduled_by_dest"
+            ]
+         },
+         "visualization" : {
+            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
+            "type" : "ps-graphs"
+         }
+      }
+   }
+}

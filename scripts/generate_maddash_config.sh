@@ -24,6 +24,6 @@ git pull
 #get list of files
 cp /etc/maddash/maddash-server/maddash.yaml /etc/maddash/maddash-server/maddash.yaml.bak
 cp /opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/maddash.yaml.template /etc/maddash/maddash-server/maddash.yaml
-cp /opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/gui_agent_configuration.conf /etc/perfsonar/meshconfig-guiagent.conf
+cp /opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/maddash-agent.json /etc/perfsonar/psconfig/maddash-agent.json
 
 #no need to restart anything as config changes picked-up automatically
