@@ -39,7 +39,6 @@
             "level" : 1
          },
          "visualization" : {
-            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
             "type" : "ps-graphs"
          }
       },
@@ -59,7 +58,6 @@
             "level" : 1
          },
          "visualization" : {
-            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
             "type" : "ps-graphs"
          }
       },
@@ -95,7 +93,6 @@
             ]
          },
          "visualization" : {
-            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
             "type" : "ps-graphs"
          }
       },
@@ -123,7 +120,6 @@
             ]
          },
          "visualization" : {
-            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
             "type" : "ps-graphs"
          }
       },
@@ -149,7 +145,6 @@
             ]
          },
          "visualization" : {
-            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
             "type" : "ps-graphs"
          }
       },
@@ -175,7 +170,6 @@
             ]
          },
          "visualization" : {
-            "base-url" : "http://ps-dashboard.es.net/perfsonar-graphs/graphWidget.cgi",
             "type" : "ps-graphs"
          }
       }
