@@ -1477,8 +1477,8 @@
             "display-name" : "lond-owamp.es.net (NEAAR)"
          },
          "remote-addresses": {
-            "address" : "lond-owamp.es.net",
              "aofa-owamp.es.net__neaar": {
+                "address" : "lond-owamp.es.net",
                 "labels": {
                     "backup_path": {
                         "address": "192.168.14.42"
@@ -1501,8 +1501,8 @@
             "display-name" : "lond-pt1.es.net"
          },
          "remote-addresses": {
-             "address" : "lond-pt1.es.net",
              "newy-pt1.es.net": {
+                "address" : "lond-pt1.es.net",
                 "labels": {
                     "backup_path": {
                         "address": "192.168.14.10"
@@ -1518,8 +1518,8 @@
             "display-name" : "lond-pt1.es.net (Aqua Comms)"
          },
          "remote-addresses": { 
-             "address" : "lond-pt1.es.net",
              "aofa-pt1.es.net__aqua": {
+                "address" : "lond-pt1.es.net",
                 "labels": {
                     "backup_path": {
                         "address": "192.168.14.54"
@@ -1535,8 +1535,8 @@
             "display-name" : "lond-pt1.es.net (NEAAR)"
          },
          "remote-addresses": {
-             "address" : "lond-pt1.es.net",
              "aofa-pt1.es.net__neaar": {
+                "address" : "lond-pt1.es.net",
                 "labels": {
                     "backup_path": {
                         "address": "192.168.14.46"
@@ -1559,8 +1559,8 @@
             "display-name" : "lsvn-pt1.es.net"
          },
          "remote-addresses": {
-             "address" : "lsvn-owamp.es.net",
              "ga-owamp.es.net": {
+                "address" : "lsvn-owamp.es.net",
                 "labels": {
                     "backup_path": {
                         "address": "192.168.14.37"
@@ -1585,8 +1585,8 @@
          "address" : "lsvn-pt1.es.net",
          "host" : "lsvn-pt1.es.net",
          "remote-addresses": {
-             "address" : "lsvn-pt1.es.net",
              "ga-pt1.es.net": {
+                "address" : "lsvn-pt1.es.net",
                 "labels": {
                     "backup_path": {
                         "address": "192.168.14.33"
@@ -3801,8 +3801,8 @@
             "display-name" : "wash-pt1.es.net"
          },
          "remote-addresses": {
-             "address" : "wash-owamp.es.net",
              "cern-513-owamp.es.net": {
+                "address" : "wash-owamp.es.net",
                 "labels": {
                     "backup_path": {
                         "address": "192.168.14.29"
