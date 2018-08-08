@@ -36,3 +36,8 @@ do
      fi
      echo ""
 done
+
+#copy psconfig files
+cd ../psconfig
+mkdir -p /var/www/html/psconfig
+cp -f *.json /var/www/html/psconfig/
