@@ -1,7 +1,7 @@
 {
    "remotes" : [
       {
-         "url" : "http://ps-west.es.net/esnet-mesh_config.json"
+         "url" : "https://ps-west.es.net/psconfig/esnet-psconfig.json"
       }
    ],
    "grids" : {
