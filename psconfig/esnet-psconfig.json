@@ -235,21 +235,21 @@
       },
       "albq-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "albq-pt1.es.net"
+            "display-name" : "albq-owamp-v6.es.net"
          },
          "address" : "albq-owamp-v6.es.net",
          "host" : "albq-pt1.es.net"
       },
       "albq-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "albq-pt1.es.net"
+            "display-name" : "albq-owamp.es.net"
          },
          "address" : "albq-owamp.es.net",
          "host" : "albq-pt1.es.net"
       },
       "albq-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "albq-pt1.es.net"
+            "display-name" : "albq-pt1-v6.es.net"
          },
          "address" : "albq-pt1-v6.es.net",
          "host" : "albq-pt1.es.net"
@@ -263,21 +263,21 @@
       },
       "ameslab-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ameslab-pt1.es.net"
+            "display-name" : "ameslab-owamp-v6.es.net"
          },
          "address" : "ameslab-owamp-v6.es.net",
          "host" : "ameslab-pt1.es.net"
       },
       "ameslab-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "ameslab-pt1.es.net"
+            "display-name" : "ameslab-owamp.es.net"
          },
          "address" : "ameslab-owamp.es.net",
          "host" : "ameslab-pt1.es.net"
       },
       "ameslab-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ameslab-pt1.es.net"
+            "display-name" : "ameslab-pt1-v6.es.net"
          },
          "address" : "ameslab-pt1-v6.es.net",
          "host" : "ameslab-pt1.es.net"
@@ -305,14 +305,14 @@
       },
       "amst-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "amst-pt1.es.net"
+            "display-name" : "amst-owamp-v6.es.net"
          },
          "address" : "amst-owamp-v6.es.net",
          "host" : "amst-pt1.es.net"
       },
       "amst-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "amst-pt1.es.net"
+            "display-name" : "amst-owamp.es.net"
          },
          "remote-addresses": {
              "bost-owamp.es.net": {
@@ -329,7 +329,7 @@
       },
       "amst-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "amst-pt1.es.net"
+            "display-name" : "amst-pt1-v6.es.net"
          },
          "address" : "amst-pt1-v6.es.net",
          "host" : "amst-pt1.es.net"
@@ -353,21 +353,21 @@
       },
       "anl-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "anl-pt1.es.net"
+            "display-name" : "anl-owamp-v6.es.net"
          },
          "address" : "anl-owamp-v6.es.net",
          "host" : "anl-pt1.es.net"
       },
       "anl-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "anl-pt1.es.net"
+            "display-name" : "anl-owamp.es.net"
          },
          "address" : "anl-owamp.es.net",
          "host" : "anl-pt1.es.net"
       },
       "anl-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "anl-pt1.es.net"
+            "display-name" : "anl-pt1-v6.es.net"
          },
          "address" : "anl-pt1-v6.es.net",
          "host" : "anl-pt1.es.net"
@@ -395,14 +395,14 @@
       },
       "aofa-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "aofa-pt1.es.net"
+            "display-name" : "aofa-owamp-v6.es.net"
          },
          "address" : "aofa-owamp-v6.es.net",
          "host" : "aofa-pt1.es.net"
       },
       "aofa-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "aofa-pt1.es.net"
+            "display-name" : "aofa-owamp.es.net"
          },
          "address" : "aofa-owamp.es.net",
          "host" : "aofa-pt1.es.net"
@@ -443,7 +443,7 @@
       },
       "aofa-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "aofa-pt1.es.net"
+            "display-name" : "aofa-pt1-v6.es.net"
          },
          "address" : "aofa-pt1-v6.es.net",
          "host" : "aofa-pt1.es.net"
@@ -491,28 +491,32 @@
       },
       "atla-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "atla-pt1.es.net"
+            "display-name" : "atla-owamp-v6.es.net",
+            "display-set" : "atla-pt1.es.net"
          },
          "address" : "atla-owamp-v6.es.net",
          "host" : "atla-pt1.es.net"
       },
       "atla-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "atla-pt1.es.net"
+            "display-name" : "atla-owamp.es.net",
+            "display-set" : "atla-pt1.es.net"
          },
          "address" : "atla-owamp.es.net",
          "host" : "atla-pt1.es.net"
       },
       "atla-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "atla-pt1.es.net"
+            "display-name" : "atla-pt1-v6.es.net",
+            "display-set" : "atla-pt1.es.net"
          },
          "address" : "atla-pt1-v6.es.net",
          "host" : "atla-pt1.es.net"
       },
       "atla-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "atla-pt1.es.net"
+            "display-name" : "atla-pt1.es.net",
+            "display-set" : "atla-pt1.es.net"
          },
          "address" : "atla-pt1.es.net",
          "host" : "atla-pt1.es.net"
@@ -533,21 +537,21 @@
       },
       "bois-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "bois-pt1.es.net"
+            "display-name" : "bois-owamp-v6.es.net"
          },
          "address" : "bois-owamp-v6.es.net",
          "host" : "bois-pt1.es.net"
       },
       "bois-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "bois-pt1.es.net"
+            "display-name" : "bois-owamp.es.net"
          },
          "address" : "bois-owamp.es.net",
          "host" : "bois-pt1.es.net"
       },
       "bois-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "bois-pt1.es.net"
+            "display-name" : "bois-pt1-v6.es.net"
          },
          "address" : "bois-pt1-v6.es.net",
          "host" : "bois-pt1.es.net"
@@ -561,14 +565,14 @@
       },
       "bost-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "bost-pt1.es.net"
+            "display-name" : "bost-owamp-v6.es.net"
          },
          "address" : "bost-owamp-v6.es.net",
          "host" : "bost-pt1.es.net"
       },
       "bost-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "bost-pt1.es.net"
+            "display-name" : "bost-owamp.es.net"
          },
          "remote-addresses": {
              "amst-owamp.es.net": {
@@ -585,7 +589,7 @@
       },
       "bost-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "bost-pt1.es.net"
+            "display-name" : "bost-pt1-v6.es.net"
          },
          "address" : "bost-pt1-v6.es.net",
          "host" : "bost-pt1.es.net"
@@ -665,14 +669,14 @@
       },
       "cern-513-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "cern-513-pt1.es.net"
+            "display-name" : "cern-513-owamp-v6.es.net"
          },
          "address" : "cern-513-owamp-v6.es.net",
          "host" : "cern-513-pt1.es.net"
       },
       "cern-513-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "cern-513-pt1.es.net"
+            "display-name" : "cern-513-owamp.es.net"
          },
          "remote-addresses": {
              "wash-owamp.es.net": {
@@ -689,7 +693,7 @@
       },
       "cern-513-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "cern-513-pt1.es.net"
+            "display-name" : "cern-513-pt1-v6.es.net"
          },
          "address" : "cern-513-pt1-v6.es.net",
          "host" : "cern-513-pt1.es.net"
@@ -713,21 +717,21 @@
       },
       "cern-773-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "cern-773-pt1.es.net"
+            "display-name" : "cern-773-owamp-v6.es.net"
          },
          "address" : "cern-773-owamp-v6.es.net",
          "host" : "cern-773-pt1.es.net"
       },
       "cern-773-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "cern-773-pt1.es.net"
+            "display-name" : "cern-773-owamp.es.net"
          },
          "address" : "cern-773-owamp.es.net",
          "host" : "cern-773-pt1.es.net"
       },
       "cern-773-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "cern-773-pt1.es.net"
+            "display-name" : "cern-773-pt1-v6.es.net"
          },
          "address" : "cern-773-pt1-v6.es.net",
          "host" : "cern-773-pt1.es.net"
@@ -741,21 +745,21 @@
       },
       "chic-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "chic-pt1.es.net"
+            "display-name" : "chic-owamp-v6.es.net"
          },
          "address" : "chic-owamp-v6.es.net",
          "host" : "chic-pt1.es.net"
       },
       "chic-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "chic-pt1.es.net"
+            "display-name" : "chic-owamp.es.net"
          },
          "address" : "chic-owamp.es.net",
          "host" : "chic-pt1.es.net"
       },
       "chic-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "chic-pt1.es.net"
+            "display-name" : "chic-pt1-v6.es.net"
          },
          "address" : "chic-pt1-v6.es.net",
          "host" : "chic-pt1.es.net"
@@ -804,21 +808,21 @@
       },
       "denv-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "denv-pt1.es.net"
+            "display-name" : "denv-owamp-v6.es.net"
          },
          "address" : "denv-owamp-v6.es.net",
          "host" : "denv-pt1.es.net"
       },
       "denv-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "denv-pt1.es.net"
+            "display-name" : "denv-owamp.es.net"
          },
          "address" : "denv-owamp.es.net",
          "host" : "denv-pt1.es.net"
       },
       "denv-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "denv-pt1.es.net"
+            "display-name" : "denv-pt1-v6.es.net"
          },
          "address" : "denv-pt1-v6.es.net",
          "host" : "denv-pt1.es.net"
@@ -895,23 +899,34 @@
       },
       "east-dc-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "east-dc-pt1.es.net"
+            "display-name" : "east-dc-owamp-v6.es.net",
+            "display-set" : "east-dc-pt1.es.net"
          },
          "address" : "east-dc-owamp-v6.es.net",
          "host" : "east-dc-pt1.es.net"
       },
       "east-dc-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "east-dc-pt1.es.net"
+            "display-name" : "east-dc-owamp.es.net",
+            "display-set" : "east-dc-pt1.es.net"
          },
          "address" : "east-dc-owamp.es.net",
          "host" : "east-dc-pt1.es.net"
       },
       "east-dc-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "east-dc-pt1.es.net"
+            "display-name" : "east-dc-pt1.es.net",
+            "display-set" : "east-dc-pt1.es.net"
          },
          "address" : "east-dc-pt1.es.net",
+         "host" : "east-dc-pt1.es.net"
+      },
+      "east-dc-pt1-v6.es.net" : {
+         "_meta" : {
+            "display-name" : "east-dc-pt1-v6.es.net",
+            "display-set" : "east-dc-pt1.es.net"
+         },
+         "address" : "east-dc-pt1-v6.es.net",
          "host" : "east-dc-pt1.es.net"
       },
       "ec-perfsonar.earlham.edu" : {
@@ -923,21 +938,21 @@
       },
       "elpa-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "elpa-pt1.es.net"
+            "display-name" : "elpa-owamp-v6.es.net"
          },
          "address" : "elpa-owamp-v6.es.net",
          "host" : "elpa-pt1.es.net"
       },
       "elpa-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "elpa-pt1.es.net"
+            "display-name" : "elpa-owamp.es.net"
          },
          "address" : "elpa-owamp.es.net",
          "host" : "elpa-pt1.es.net"
       },
       "elpa-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "elpa-pt1.es.net"
+            "display-name" : "elpa-pt1-v6.es.net"
          },
          "address" : "elpa-pt1-v6.es.net",
          "host" : "elpa-pt1.es.net"
@@ -972,21 +987,21 @@
       },
       "eqx-ash-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-ash-pt1.es.net"
+            "display-name" : "eqx-ash-owamp-v6.es.net"
          },
          "address" : "eqx-ash-owamp-v6.es.net",
          "host" : "eqx-ash-pt1.es.net"
       },
       "eqx-ash-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-ash-pt1.es.net"
+            "display-name" : "eqx-ash-owamp.es.net"
          },
          "address" : "eqx-ash-owamp.es.net",
          "host" : "eqx-ash-pt1.es.net"
       },
       "eqx-ash-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-ash-pt1.es.net"
+            "display-name" : "eqx-ash-pt1-v6.es.net"
          },
          "address" : "eqx-ash-pt1-v6.es.net",
          "host" : "eqx-ash-pt1.es.net"
@@ -1000,21 +1015,21 @@
       },
       "eqx-chi-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-chi-pt1.es.net"
+            "display-name" : "eqx-chi-owamp-v6.es.net"
          },
          "address" : "eqx-chi-owamp-v6.es.net",
          "host" : "eqx-chi-pt1.es.net"
       },
       "eqx-chi-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-chi-pt1.es.net"
+            "display-name" : "eqx-chi-owamp.es.net"
          },
          "address" : "eqx-chi-owamp.es.net",
          "host" : "eqx-chi-pt1.es.net"
       },
       "eqx-chi-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-chi-pt1.es.net"
+            "display-name" : "eqx-chi-pt1-v6.es.net"
          },
          "address" : "eqx-chi-pt1-v6.es.net",
          "host" : "eqx-chi-pt1.es.net"
@@ -1028,21 +1043,21 @@
       },
       "eqx-sj-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-sj-pt1.es.net"
+            "display-name" : "eqx-sj-owamp-v6.es.net"
          },
          "address" : "eqx-sj-owamp-v6.es.net",
          "host" : "eqx-sj-pt1.es.net"
       },
       "eqx-sj-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-sj-pt1.es.net"
+            "display-name" : "eqx-sj-owamp.es.net"
          },
          "address" : "eqx-sj-owamp.es.net",
          "host" : "eqx-sj-pt1.es.net"
       },
       "eqx-sj-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-sj-pt1.es.net"
+            "display-name" : "eqx-sj-pt1-v6.es.net"
          },
          "address" : "eqx-sj-pt1-v6.es.net",
          "host" : "eqx-sj-pt1.es.net"
@@ -1091,21 +1106,21 @@
       },
       "fnal-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "fnal-pt1.es.net"
+            "display-name" : "fnal-owamp-v6.es.net"
          },
          "address" : "fnal-owamp-v6.es.net",
          "host" : "fnal-pt1.es.net"
       },
       "fnal-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "fnal-pt1.es.net"
+            "display-name" : "fnal-owamp.es.net"
          },
          "address" : "fnal-owamp.es.net",
          "host" : "fnal-pt1.es.net"
       },
       "fnal-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "fnal-pt1.es.net"
+            "display-name" : "fnal-pt1-v6.es.net"
          },
          "address" : "fnal-pt1-v6.es.net",
          "host" : "fnal-pt1.es.net"
@@ -1161,14 +1176,14 @@
       },
       "ga-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ga-pt1.es.net"
+            "display-name" : "ga-owamp-v6.es.net"
          },
          "address" : "ga-owamp-v6.es.net",
          "host" : "ga-pt1.es.net"
       },
       "ga-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "ga-pt1.es.net"
+            "display-name" : "ga-owamp.es.net"
          },
          "remote-addresses": {
              "lsvn-owamp.es.net": {
@@ -1185,7 +1200,7 @@
       },
       "ga-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ga-pt1.es.net"
+            "display-name" : "ga-pt1-v6.es.net"
          },
          "address" : "ga-pt1-v6.es.net",
          "host" : "ga-pt1.es.net"
@@ -1230,21 +1245,21 @@
       },
       "hous-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "hous-pt1.es.net"
+            "display-name" : "hous-owamp-v6.es.net"
          },
          "address" : "hous-owamp-v6.es.net",
          "host" : "hous-pt1.es.net"
       },
       "hous-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "hous-pt1.es.net"
+            "display-name" : "hous-owamp.es.net"
          },
          "address" : "hous-owamp.es.net",
          "host" : "hous-pt1.es.net"
       },
       "hous-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "hous-pt1.es.net"
+            "display-name" : "hous-pt1-v6.es.net"
          },
          "address" : "hous-pt1-v6.es.net",
          "host" : "hous-pt1.es.net"
@@ -1286,7 +1301,7 @@
       },
       "jgi-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "jgi-pt1.es.net"
+            "display-name" : "jgi-pt1-v6.es.net"
          },
          "address" : "jgi-pt1-v6.es.net",
          "host" : "jgi-pt1.es.net"
@@ -1307,21 +1322,21 @@
       },
       "kans-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "kans-pt1.es.net"
+            "display-name" : "kans-owamp-v6.es.net"
          },
          "address" : "kans-owamp-v6.es.net",
          "host" : "kans-pt1.es.net"
       },
       "kans-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "kans-pt1.es.net"
+            "display-name" : "kans-owamp.es.net"
          },
          "address" : "kans-owamp.es.net",
          "host" : "kans-pt1.es.net"
       },
       "kans-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "kans-pt1.es.net"
+            "display-name" : "kans-pt1-v6.es.net"
          },
          "address" : "kans-pt1-v6.es.net",
          "host" : "kans-pt1.es.net"
@@ -1335,28 +1350,32 @@
       },
       "lbl-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lbl-pt1.es.net"
+            "display-name" : "lbl-owamp-v6.es.net",
+            "display-set" : "lbl-pt1.es.net"
          },
          "address" : "lbl-owamp-v6.es.net",
          "host" : "lbl-pt1.es.net"
       },
       "lbl-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "lbl-pt1.es.net"
+            "display-name" : "lbl-owamp.es.net",
+            "display-set" : "lbl-pt1.es.net"
          },
          "address" : "lbl-owamp.es.net",
          "host" : "lbl-pt1.es.net"
       },
       "lbl-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lbl-pt1.es.net"
+            "display-name" : "lbl-pt1-v6.es.net",
+            "display-set" : "lbl-pt1.es.net"
          },
          "address" : "lbl-pt1-v6.es.net",
          "host" : "lbl-pt1.es.net"
       },
       "lbl-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "lbl-pt1.es.net"
+            "display-name" : "lbl-pt1.es.net",
+            "display-set" : "lbl-pt1.es.net"
          },
          "address" : "lbl-pt1.es.net",
          "host" : "lbl-pt1.es.net"
@@ -1405,21 +1424,21 @@
       },
       "llnl-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "llnl-pt1.es.net"
+            "display-name" : "llnl-owamp-v6.es.net"
          },
          "address" : "llnl-owamp-v6.es.net",
          "host" : "llnl-pt1.es.net"
       },
       "llnl-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "llnl-pt1.es.net"
+            "display-name" : "llnl-owamp.es.net"
          },
          "address" : "llnl-owamp.es.net",
          "host" : "llnl-pt1.es.net"
       },
       "llnl-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "llnl-pt1.es.net"
+            "display-name" : "llnl-pt1-v6.es.net"
          },
          "address" : "llnl-pt1-v6.es.net",
          "host" : "llnl-pt1.es.net"
@@ -1433,14 +1452,14 @@
       },
       "lond-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lond-pt1.es.net"
+            "display-name" : "lond-owamp-v6.es.net"
          },
          "address" : "lond-owamp-v6.es.net",
          "host" : "lond-pt1.es.net"
       },
       "lond-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "lond-pt1.es.net"
+            "display-name" : "lond-owamp.es.net"
          },
          "remote-addresses": {
              "newy-owamp.es.net": {
@@ -1491,7 +1510,7 @@
       },
       "lond-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lond-pt1.es.net"
+            "display-name" : "lond-pt1-v6.es.net"
          },
          "address" : "lond-pt1-v6.es.net",
          "host" : "lond-pt1.es.net"
@@ -1549,14 +1568,14 @@
       },
       "lsvn-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lsvn-pt1.es.net"
+            "display-name" : "lsvn-owamp-v6.es.net"
          },
          "address" : "lsvn-owamp-v6.es.net",
          "host" : "lsvn-pt1.es.net"
       },
       "lsvn-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "lsvn-pt1.es.net"
+            "display-name" : "lsvn-owamp.es.net"
          },
          "remote-addresses": {
              "ga-owamp.es.net": {
@@ -1573,7 +1592,7 @@
       },
       "lsvn-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lsvn-pt1.es.net"
+            "display-name" : "lsvn-pt1-v6.es.net"
          },
          "address" : "lsvn-pt1-v6.es.net",
          "host" : "lsvn-pt1.es.net"
@@ -1685,21 +1704,21 @@
       },
       "nash-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "nash-pt1.es.net"
+            "display-name" : "nash-owamp-v6.es.net"
          },
          "address" : "nash-owamp-v6.es.net",
          "host" : "nash-pt1.es.net"
       },
       "nash-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "nash-pt1.es.net"
+            "display-name" : "nash-owamp.es.net"
          },
          "address" : "nash-owamp.es.net",
          "host" : "nash-pt1.es.net"
       },
       "nash-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "nash-pt1.es.net"
+            "display-name" : "nash-pt1-v6.es.net"
          },
          "address" : "nash-pt1-v6.es.net",
          "host" : "nash-pt1.es.net"
@@ -1734,21 +1753,21 @@
       },
       "nersc-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "nersc-pt1.es.net"
+            "display-name" : "nersc-owamp-v6.es.net"
          },
          "address" : "nersc-owamp-v6.es.net",
          "host" : "nersc-pt1.es.net"
       },
       "nersc-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "nersc-pt1.es.net"
+            "display-name" : "nersc-owamp.es.net"
          },
          "address" : "nersc-owamp.es.net",
          "host" : "nersc-pt1.es.net"
       },
       "nersc-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "nersc-pt1.es.net"
+            "display-name" : "nersc-pt1-v6.es.net"
          },
          "address" : "nersc-pt1-v6.es.net",
          "host" : "nersc-pt1.es.net"
@@ -1797,14 +1816,14 @@
       },
       "newy-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "newy-pt1.es.net"
+            "display-name" : "newy-owamp-v6.es.net"
          },
          "address" : "newy-owamp-v6.es.net",
          "host" : "newy-pt1.es.net"
       },
       "newy-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "newy-pt1.es.net"
+            "display-name" : "newy-owamp.es.net"
          },
          "remote-addresses": {
              "lond-owamp.es.net": {
@@ -1821,7 +1840,7 @@
       },
       "newy-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "newy-pt1.es.net"
+            "display-name" : "newy-pt1-v6.es.net"
          },
          "address" : "newy-pt1-v6.es.net",
          "host" : "newy-pt1.es.net"
@@ -1971,21 +1990,21 @@
       },
       "ornl-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ornl-pt1.es.net"
+            "display-name" : "ornl-owamp-v6.es.net"
          },
          "address" : "ornl-owamp-v6.es.net",
          "host" : "ornl-pt1.es.net"
       },
       "ornl-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "ornl-pt1.es.net"
+            "display-name" : "ornl-owamp.es.net"
          },
          "address" : "ornl-owamp.es.net",
          "host" : "ornl-pt1.es.net"
       },
       "ornl-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ornl-pt1.es.net"
+            "display-name" : "ornl-pt1-v6.es.net"
          },
          "address" : "ornl-pt1-v6.es.net",
          "host" : "ornl-pt1.es.net"
@@ -2741,21 +2760,21 @@
       },
       "pnwg-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "pnwg-pt1.es.net"
+            "display-name" : "pnwg-owamp-v6.es.net"
          },
          "address" : "pnwg-owamp-v6.es.net",
          "host" : "pnwg-pt1.es.net"
       },
       "pnwg-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "pnwg-pt1.es.net"
+            "display-name" : "pnwg-owamp.es.net"
          },
          "address" : "pnwg-owamp.es.net",
          "host" : "pnwg-pt1.es.net"
       },
       "pnwg-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "pnwg-pt1.es.net"
+            "display-name" : "pnwg-pt1-v6.es.net"
          },
          "address" : "pnwg-pt1-v6.es.net",
          "host" : "pnwg-pt1.es.net"
@@ -2776,21 +2795,21 @@
       },
       "pppl-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "pppl-pt1.es.net"
+            "display-name" : "pppl-owamp-v6.es.net"
          },
          "address" : "pppl-owamp-v6.es.net",
          "host" : "pppl-pt1.es.net"
       },
       "pppl-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "pppl-pt1.es.net"
+            "display-name" : "pppl-owamp.es.net"
          },
          "address" : "pppl-owamp.es.net",
          "host" : "pppl-pt1.es.net"
       },
       "pppl-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "pppl-pt1.es.net"
+            "display-name" : "pppl-pt1-v6.es.net"
          },
          "address" : "pppl-pt1-v6.es.net",
          "host" : "pppl-pt1.es.net"
@@ -3378,28 +3397,32 @@
       },
       "sacr-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "sacr-pt1.es.net"
+            "display-name" : "sacr-owamp-v6.es.net",
+            "display-set" : "sacr-pt1.es.net"
          },
          "address" : "sacr-owamp-v6.es.net",
          "host" : "sacr-pt1.es.net"
       },
       "sacr-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "sacr-pt1.es.net"
+            "display-name" : "sacr-owamp.es.net",
+            "display-set" : "sacr-pt1.es.net"
          },
          "address" : "sacr-owamp.es.net",
          "host" : "sacr-pt1.es.net"
       },
       "sacr-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "sacr-pt1.es.net"
+            "display-name" : "sacr-pt1-v6.es.net",
+            "display-set" : "sacr-pt1.es.net"
          },
          "address" : "sacr-pt1-v6.es.net",
          "host" : "sacr-pt1.es.net"
       },
       "sacr-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "sacr-pt1.es.net"
+            "display-name" : "sacr-pt1.es.net",
+            "display-set" : "sacr-pt1.es.net"
          },
          "address" : "sacr-pt1.es.net",
          "host" : "sacr-pt1.es.net"
@@ -3448,21 +3471,21 @@
       },
       "slac-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "slac-pt1.es.net"
+            "display-name" : "slac-owamp-v6.es.net"
          },
          "address" : "slac-owamp-v6.es.net",
          "host" : "slac-pt1.es.net"
       },
       "slac-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "slac-pt1.es.net"
+            "display-name" : "slac-owamp.es.net"
          },
          "address" : "slac-owamp.es.net",
          "host" : "slac-pt1.es.net"
       },
       "slac-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "slac-pt1.es.net"
+            "display-name" : "slac-pt1-v6.es.net"
          },
          "address" : "slac-pt1-v6.es.net",
          "host" : "slac-pt1.es.net"
@@ -3511,21 +3534,21 @@
       },
       "snll-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "snll-pt1.es.net"
+            "display-name" : "snll-owamp-v6.es.net"
          },
          "address" : "snll-owamp-v6.es.net",
          "host" : "snll-pt1.es.net"
       },
       "snll-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "snll-pt1.es.net"
+            "display-name" : "snll-owamp.es.net"
          },
          "address" : "snll-owamp.es.net",
          "host" : "snll-pt1.es.net"
       },
       "snll-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "snll-pt1.es.net"
+            "display-name" : "snll-pt1-v6.es.net"
          },
          "address" : "snll-pt1-v6.es.net",
          "host" : "snll-pt1.es.net"
@@ -3616,21 +3639,21 @@
       },
       "star-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "star-pt1.es.net"
+            "display-name" : "star-owamp-v6.es.net"
          },
          "address" : "star-owamp-v6.es.net",
          "host" : "star-pt1.es.net"
       },
       "star-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "star-pt1.es.net"
+            "display-name" : "star-owamp.es.net"
          },
          "address" : "star-owamp.es.net",
          "host" : "star-pt1.es.net"
       },
       "star-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "star-pt1.es.net"
+            "display-name" : "star-pt1-v6.es.net"
          },
          "address" : "star-pt1-v6.es.net",
          "host" : "star-pt1.es.net"
@@ -3644,21 +3667,21 @@
       },
       "sunn-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "sunn-pt1.es.net"
+            "display-name" : "sunn-owamp-v6.es.net"
          },
          "address" : "sunn-owamp-v6.es.net",
          "host" : "sunn-pt1.es.net"
       },
       "sunn-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "sunn-pt1.es.net"
+            "display-name" : "sunn-owamp.es.net"
          },
          "address" : "sunn-owamp.es.net",
          "host" : "sunn-pt1.es.net"
       },
       "sunn-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "sunn-pt1.es.net"
+            "display-name" : "sunn-pt1-v6.es.net"
          },
          "address" : "sunn-pt1-v6.es.net",
          "host" : "sunn-pt1.es.net"
@@ -3686,7 +3709,7 @@
       },
       "test-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "test-pt1.es.net"
+            "display-name" : "test-pt1-v6.es.net"
          },
          "address" : "test-pt1-v6.es.net",
          "host" : "test-pt1.es.net"
@@ -3791,14 +3814,14 @@
       },
       "wash-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "wash-pt1.es.net"
+            "display-name" : "wash-owamp-v6.es.net"
          },
          "address" : "wash-owamp-v6.es.net",
          "host" : "wash-pt1.es.net"
       },
       "wash-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "wash-pt1.es.net"
+            "display-name" : "wash-owamp.es.net"
          },
          "remote-addresses": {
              "cern-513-owamp.es.net": {
@@ -3815,7 +3838,7 @@
       },
       "wash-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "wash-pt1.es.net"
+            "display-name" : "wash-pt1-v6.es.net"
          },
          "address" : "wash-pt1-v6.es.net",
          "host" : "wash-pt1.es.net"
