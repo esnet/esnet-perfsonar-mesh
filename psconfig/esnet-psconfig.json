@@ -847,6 +847,13 @@
          "address" : "doe-gtn-owamp.es.net",
          "host" : "doe-gtn-opt1.es.net"
       },
+      "doe-gtn-owamp-v4.es.net" : {
+         "_meta" : {
+            "display-name" : "doe-gtn-opt1.es.net"
+         },
+         "address" : "doe-gtn-owamp-v4.es.net",
+         "host" : "doe-gtn-opt1.es.net"
+      },
       "doe-gtn-pt1-v6.es.net" : {
          "_meta" : {
             "display-name" : "doe-gtn-opt1.es.net"
@@ -6771,7 +6778,7 @@
                "name" : "perfsonar.ascr.doe.gov"
             },
             {
-               "name" : "doe-gtn-owamp.es.net"
+               "name" : "doe-gtn-owamp-v4.es.net"
             },
             {
                "name" : "eqx-ash-owamp.es.net"
