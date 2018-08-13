@@ -826,40 +826,40 @@
          "address" : "denv-pt1.es.net",
          "host" : "denv-pt1.es.net"
       },
-      "doe-opt1.es.net" : {
+      "doe-gtn-opt1.es.net" : {
          "_meta" : {
-            "display-name" : "doe-opt1.es.net"
+            "display-name" : "doe-gtn-opt1.es.net"
          },
-         "address" : "doe-opt1.es.net",
-         "host" : "doe-opt1.es.net"
+         "address" : "doe-gtn-opt1.es.net",
+         "host" : "doe-gtn-opt1.es.net"
       },
-      "doe-owamp-v6.es.net" : {
+      "doe-gtn-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "doe-opt1.es.net"
+            "display-name" : "doe-gtn-opt1.es.net"
          },
-         "address" : "doe-owamp-v6.es.net",
-         "host" : "doe-opt1.es.net"
+         "address" : "doe-gtn-owamp-v6.es.net",
+         "host" : "doe-gtn-opt1.es.net"
       },
-      "doe-owamp.es.net" : {
+      "doe-gtn-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "doe-opt1.es.net"
+            "display-name" : "doe-gtn-opt1.es.net"
          },
-         "address" : "doe-owamp.es.net",
-         "host" : "doe-opt1.es.net"
+         "address" : "doe-gtn-owamp.es.net",
+         "host" : "doe-gtn-opt1.es.net"
       },
-      "doe-pt1-v6.es.net" : {
+      "doe-gtn-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "doe-opt1.es.net"
+            "display-name" : "doe-gtn-opt1.es.net"
          },
-         "address" : "doe-pt1-v6.es.net",
-         "host" : "doe-opt1.es.net"
+         "address" : "doe-gtn-pt1-v6.es.net",
+         "host" : "doe-gtn-opt1.es.net"
       },
-      "doe-pt1.es.net" : {
+      "doe-gtn-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "doe-opt1.es.net"
+            "display-name" : "doe-gtn-opt1.es.net"
          },
-         "address" : "doe-pt1.es.net",
-         "host" : "doe-opt1.es.net"
+         "address" : "doe-gtn-pt1.es.net",
+         "host" : "doe-gtn-opt1.es.net"
       },
       "dps10.ucsc.edu" : {
          "_meta" : {
@@ -4319,11 +4319,11 @@
             "url" : "http://denv-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
-      "doe-pt1.es.net" : {
+      "doe-gtn-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://doe-pt1.es.net:8085/esmond/perfsonar/archive/"
+            "url" : "http://doe-gtn-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "dps10.ucsc.edu" : {
@@ -6537,7 +6537,7 @@
                "name" : "perfsonar.ascr.doe.gov"
             },
             {
-               "name" : "doe-pt1.es.net"
+               "name" : "doe-gtn-pt1.es.net"
             },
             {
                "name" : "eqx-ash-pt1.es.net"
@@ -6771,7 +6771,7 @@
                "name" : "perfsonar.ascr.doe.gov"
             },
             {
-               "name" : "doe-owamp.es.net"
+               "name" : "doe-gtn-owamp.es.net"
             },
             {
                "name" : "eqx-ash-owamp.es.net"
@@ -9557,13 +9557,13 @@
             "denv-pt1.es.net"
          ]
       },
-      "doe-opt1.es.net" : {
+      "doe-gtn-opt1.es.net" : {
          "_meta" : {
-            "display-name" : "doe-opt1.es.net",
+            "display-name" : "doe-gtn-opt1.es.net",
             "organization-display-name" : "ESnet"
          },
          "archives" : [
-            "doe-pt1.es.net"
+            "doe-gtn-pt1.es.net"
          ]
       },
       "dps10.ucsc.edu" : {
