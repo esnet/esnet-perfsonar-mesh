@@ -235,56 +235,64 @@
       },
       "albq-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "albq-owamp-v6.es.net"
+            "display-name" : "albq-owamp.es.net",
+            "display-set" : "albq"
          },
          "address" : "albq-owamp-v6.es.net",
          "host" : "albq-pt1.es.net"
       },
       "albq-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "albq-owamp.es.net"
+            "display-name" : "albq-owamp.es.net",
+            "display-set" : "albq"
          },
          "address" : "albq-owamp.es.net",
          "host" : "albq-pt1.es.net"
       },
       "albq-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "albq-pt1-v6.es.net"
+            "display-name" : "albq-pt1.es.net",
+            "display-set" : "albq"
          },
          "address" : "albq-pt1-v6.es.net",
          "host" : "albq-pt1.es.net"
       },
       "albq-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "albq-pt1.es.net"
+            "display-name" : "albq-pt1.es.net",
+            "display-set" : "albq"
          },
          "address" : "albq-pt1.es.net",
          "host" : "albq-pt1.es.net"
       },
       "ameslab-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ameslab-owamp-v6.es.net"
+            "display-name" : "ameslab-owamp.es.net",
+            "display-set" : "ameslab"
          },
          "address" : "ameslab-owamp-v6.es.net",
          "host" : "ameslab-pt1.es.net"
       },
       "ameslab-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "ameslab-owamp.es.net"
+            "display-name" : "ameslab-owamp.es.net",
+            "display-set" : "ameslab"
          },
          "address" : "ameslab-owamp.es.net",
          "host" : "ameslab-pt1.es.net"
       },
       "ameslab-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ameslab-pt1-v6.es.net"
+            "display-name" : "ameslab-pt1.es.net",
+            "display-set" : "ameslab"
          },
          "address" : "ameslab-pt1-v6.es.net",
          "host" : "ameslab-pt1.es.net"
       },
       "ameslab-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "ameslab-pt1.es.net"
+            "display-name" : "ameslab-pt1.es.net",
+            "display-set" : "ameslab"
          },
          "address" : "ameslab-pt1.es.net",
          "host" : "ameslab-pt1.es.net"
@@ -305,14 +313,16 @@
       },
       "amst-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "amst-owamp-v6.es.net"
+            "display-name" : "amst-owamp.es.net",
+            "display-set" : "amst"
          },
          "address" : "amst-owamp-v6.es.net",
          "host" : "amst-pt1.es.net"
       },
       "amst-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "amst-owamp.es.net"
+            "display-name" : "amst-owamp.es.net",
+            "display-set" : "amst"
          },
          "address" : "amst-owamp.es.net",
          "host" : "amst-pt1.es.net"
@@ -331,14 +341,16 @@
       },
       "amst-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "amst-pt1-v6.es.net"
+            "display-name" : "amst-pt1.es.net",
+            "display-set" : "amst"
          },
          "address" : "amst-pt1-v6.es.net",
          "host" : "amst-pt1.es.net"
       },
       "amst-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "amst-pt1.es.net"
+            "display-name" : "amst-pt1.es.net",
+            "display-set" : "amst"
          },
          "address" : "amst-pt1.es.net",
          "host" : "amst-pt1.es.net"
@@ -357,28 +369,32 @@
       },
       "anl-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "anl-owamp-v6.es.net"
+            "display-name" : "anl-owamp.es.net",
+            "display-set" : "anl"
          },
          "address" : "anl-owamp-v6.es.net",
          "host" : "anl-pt1.es.net"
       },
       "anl-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "anl-owamp.es.net"
+            "display-name" : "anl-owamp.es.net",
+            "display-set" : "anl"
          },
          "address" : "anl-owamp.es.net",
          "host" : "anl-pt1.es.net"
       },
       "anl-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "anl-pt1-v6.es.net"
+            "display-name" : "anl-pt1.es.net",
+            "display-set" : "anl"
          },
          "address" : "anl-pt1-v6.es.net",
          "host" : "anl-pt1.es.net"
       },
       "anl-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "anl-pt1.es.net"
+            "display-name" : "anl-pt1.es.net",
+            "display-set" : "anl"
          },
          "address" : "anl-pt1.es.net",
          "host" : "anl-pt1.es.net"
@@ -399,14 +415,16 @@
       },
       "aofa-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "aofa-owamp-v6.es.net"
+            "display-name" : "aofa-owamp.es.net",
+            "display-set" : "aofa"
          },
          "address" : "aofa-owamp-v6.es.net",
          "host" : "aofa-pt1.es.net"
       },
       "aofa-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "aofa-owamp.es.net"
+            "display-name" : "aofa-owamp.es.net",
+            "display-set" : "aofa"
          },
          "address" : "aofa-owamp.es.net",
          "host" : "aofa-pt1.es.net"
@@ -437,14 +455,16 @@
       },
       "aofa-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "aofa-pt1-v6.es.net"
+            "display-name" : "aofa-pt1.es.net",
+            "display-set" : "aofa"
          },
          "address" : "aofa-pt1-v6.es.net",
          "host" : "aofa-pt1.es.net"
       },
       "aofa-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "aofa-pt1.es.net"
+            "display-name" : "aofa-pt1.es.net",
+            "display-set" : "aofa"
          },
          "address" : "aofa-pt1.es.net",
          "host" : "aofa-pt1.es.net"
@@ -521,42 +541,48 @@
       },
       "bois-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "bois-owamp-v6.es.net"
+            "display-name" : "bois-owamp.es.net",
+            "display-set" : "bois"
          },
          "address" : "bois-owamp-v6.es.net",
          "host" : "bois-pt1.es.net"
       },
       "bois-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "bois-owamp.es.net"
+            "display-name" : "bois-owamp.es.net",
+            "display-set" : "bois"
          },
          "address" : "bois-owamp.es.net",
          "host" : "bois-pt1.es.net"
       },
       "bois-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "bois-pt1-v6.es.net"
+            "display-name" : "bois-pt1.es.net",
+            "display-set" : "bois"
          },
          "address" : "bois-pt1-v6.es.net",
          "host" : "bois-pt1.es.net"
       },
       "bois-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "bois-pt1.es.net"
+            "display-name" : "bois-pt1.es.net",
+            "display-set" : "bois"
          },
          "address" : "bois-pt1.es.net",
          "host" : "bois-pt1.es.net"
       },
       "bost-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "bost-owamp-v6.es.net"
+            "display-name" : "bost-owamp.es.net",
+            "display-set" : "bost"
          },
          "address" : "bost-owamp-v6.es.net",
          "host" : "bost-pt1.es.net"
       },
       "bost-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "bost-owamp.es.net"
+            "display-name" : "bost-owamp.es.net",
+            "display-set" : "bost"
          },
          "address" : "bost-owamp.es.net",
          "host" : "bost-pt1.es.net"
@@ -575,14 +601,16 @@
       },
       "bost-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "bost-pt1-v6.es.net"
+            "display-name" : "bost-pt1.es.net",
+            "display-set" : "bost"
          },
          "address" : "bost-pt1-v6.es.net",
          "host" : "bost-pt1.es.net"
       },
       "bost-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "bost-pt1.es.net"
+            "display-name" : "bost-pt1.es.net",
+            "display-set" : "bost"
          },
          "address" : "bost-pt1.es.net",
          "host" : "bost-pt1.es.net"
@@ -657,14 +685,16 @@
       },
       "cern-513-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "cern-513-owamp-v6.es.net"
+            "display-name" : "cern-513-owamp.es.net",
+            "display-set" : "cern-513"
          },
          "address" : "cern-513-owamp-v6.es.net",
          "host" : "cern-513-pt1.es.net"
       },
       "cern-513-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "cern-513-owamp.es.net"
+            "display-name" : "cern-513-owamp.es.net",
+            "display-set" : "cern-513"
          },
          "address" : "cern-513-owamp.es.net",
          "host" : "cern-513-pt1.es.net"
@@ -683,14 +713,16 @@
       },
       "cern-513-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "cern-513-pt1-v6.es.net"
+            "display-name" : "cern-513-pt1.es.net",
+            "display-set" : "cern-513"
          },
          "address" : "cern-513-pt1-v6.es.net",
          "host" : "cern-513-pt1.es.net"
       },
       "cern-513-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "cern-513-pt1.es.net"
+            "display-name" : "cern-513-pt1.es.net",
+            "display-set" : "cern-513"
          },
          "address" : "cern-513-pt1.es.net",
          "host" : "cern-513-pt1.es.net"
@@ -709,56 +741,64 @@
       },
       "cern-773-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "cern-773-owamp-v6.es.net"
+            "display-name" : "cern-773-owamp.es.net",
+            "display-set" : "cern-773"
          },
          "address" : "cern-773-owamp-v6.es.net",
          "host" : "cern-773-pt1.es.net"
       },
       "cern-773-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "cern-773-owamp.es.net"
+            "display-name" : "cern-773-owamp.es.net",
+            "display-set" : "cern-773"
          },
          "address" : "cern-773-owamp.es.net",
          "host" : "cern-773-pt1.es.net"
       },
       "cern-773-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "cern-773-pt1-v6.es.net"
+            "display-name" : "cern-773-pt1.es.net",
+            "display-set" : "cern-773"
          },
          "address" : "cern-773-pt1-v6.es.net",
          "host" : "cern-773-pt1.es.net"
       },
       "cern-773-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "cern-773-pt1.es.net"
+            "display-name" : "cern-773-pt1.es.net",
+            "display-set" : "cern-773"
          },
          "address" : "cern-773-pt1.es.net",
          "host" : "cern-773-pt1.es.net"
       },
       "chic-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "chic-owamp-v6.es.net"
+            "display-name" : "chic-owamp.es.net",
+            "display-set" : "chic"
          },
          "address" : "chic-owamp-v6.es.net",
          "host" : "chic-pt1.es.net"
       },
       "chic-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "chic-owamp.es.net"
+            "display-name" : "chic-owamp.es.net",
+            "display-set" : "chic"
          },
          "address" : "chic-owamp.es.net",
          "host" : "chic-pt1.es.net"
       },
       "chic-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "chic-pt1-v6.es.net"
+            "display-name" : "chic-pt1.es.net",
+            "display-set" : "chic"
          },
          "address" : "chic-pt1-v6.es.net",
          "host" : "chic-pt1.es.net"
       },
       "chic-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "chic-pt1.es.net"
+            "display-name" : "chic-pt1.es.net",
+            "display-set" : "chic"
          },
          "address" : "chic-pt1.es.net",
          "host" : "chic-pt1.es.net"
@@ -800,28 +840,32 @@
       },
       "denv-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "denv-owamp-v6.es.net"
+            "display-name" : "denv-owamp.es.net",
+            "display-set" : "denv"
          },
          "address" : "denv-owamp-v6.es.net",
          "host" : "denv-pt1.es.net"
       },
       "denv-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "denv-owamp.es.net"
+            "display-name" : "denv-owamp.es.net",
+            "display-set" : "denv"
          },
          "address" : "denv-owamp.es.net",
          "host" : "denv-pt1.es.net"
       },
       "denv-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "denv-pt1-v6.es.net"
+            "display-name" : "denv-pt1.es.net",
+            "display-set" : "denv"
          },
          "address" : "denv-pt1-v6.es.net",
          "host" : "denv-pt1.es.net"
       },
       "denv-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "denv-pt1.es.net"
+            "display-name" : "denv-pt1.es.net",
+            "display-set" : "denv"
          },
          "address" : "denv-pt1.es.net",
          "host" : "denv-pt1.es.net"
@@ -835,35 +879,40 @@
       },
       "doe-gtn-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "doe-gtn-opt1.es.net"
+            "display-name" : "doe-gtn-owamp.es.net",
+            "display-set" : "doe-gtn"
          },
          "address" : "doe-gtn-owamp-v6.es.net",
          "host" : "doe-gtn-opt1.es.net"
       },
       "doe-gtn-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "doe-gtn-opt1.es.net"
+            "display-name" : "doe-gtn-owamp.es.net",
+            "display-set" : "doe-gtn"
          },
          "address" : "doe-gtn-owamp.es.net",
          "host" : "doe-gtn-opt1.es.net"
       },
       "doe-gtn-owamp-v4.es.net" : {
          "_meta" : {
-            "display-name" : "doe-gtn-opt1.es.net"
+            "display-name" : "doe-gtn-owamp.es.net",
+            "display-set" : "doe-gtn"
          },
          "address" : "doe-gtn-owamp-v4.es.net",
          "host" : "doe-gtn-opt1.es.net"
       },
       "doe-gtn-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "doe-gtn-opt1.es.net"
+            "display-name" : "doe-gtn-pt1.es.net",
+            "display-set" : "doe-gtn"
          },
          "address" : "doe-gtn-pt1-v6.es.net",
          "host" : "doe-gtn-opt1.es.net"
       },
       "doe-gtn-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "doe-gtn-opt1.es.net"
+            "display-name" : "doe-gtn-pt1.es.net",
+            "display-set" : "doe-gtn"
          },
          "address" : "doe-gtn-pt1.es.net",
          "host" : "doe-gtn-opt1.es.net"
@@ -937,28 +986,32 @@
       },
       "elpa-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "elpa-owamp-v6.es.net"
+            "display-name" : "elpa-owamp.es.net",
+            "display-set" : "elpa"
          },
          "address" : "elpa-owamp-v6.es.net",
          "host" : "elpa-pt1.es.net"
       },
       "elpa-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "elpa-owamp.es.net"
+            "display-name" : "elpa-owamp.es.net",
+            "display-set" : "elpa"
          },
          "address" : "elpa-owamp.es.net",
          "host" : "elpa-pt1.es.net"
       },
       "elpa-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "elpa-pt1-v6.es.net"
+            "display-name" : "elpa-pt1.es.net",
+            "display-set" : "elpa"
          },
          "address" : "elpa-pt1-v6.es.net",
          "host" : "elpa-pt1.es.net"
       },
       "elpa-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "elpa-pt1.es.net"
+            "display-name" : "elpa-pt1.es.net",
+            "display-set" : "elpa"
          },
          "address" : "elpa-pt1.es.net",
          "host" : "elpa-pt1.es.net"
@@ -986,84 +1039,96 @@
       },
       "eqx-ash-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-ash-owamp-v6.es.net"
+            "display-name" : "eqx-ash-owamp.es.net",
+            "display-set" : "eqx-ash"
          },
          "address" : "eqx-ash-owamp-v6.es.net",
          "host" : "eqx-ash-pt1.es.net"
       },
       "eqx-ash-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-ash-owamp.es.net"
+            "display-name" : "eqx-ash-owamp.es.net",
+            "display-set" : "eqx-ash"
          },
          "address" : "eqx-ash-owamp.es.net",
          "host" : "eqx-ash-pt1.es.net"
       },
       "eqx-ash-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-ash-pt1-v6.es.net"
+            "display-name" : "eqx-ash-pt1.es.net",
+            "display-set" : "eqx-ash"
          },
          "address" : "eqx-ash-pt1-v6.es.net",
          "host" : "eqx-ash-pt1.es.net"
       },
       "eqx-ash-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-ash-pt1.es.net"
+            "display-name" : "eqx-ash-pt1.es.net",
+            "display-set" : "eqx-ash"
          },
          "address" : "eqx-ash-pt1.es.net",
          "host" : "eqx-ash-pt1.es.net"
       },
       "eqx-chi-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-chi-owamp-v6.es.net"
+            "display-name" : "eqx-chi-owamp.es.net",
+            "display-set" : "eqx-chi"
          },
          "address" : "eqx-chi-owamp-v6.es.net",
          "host" : "eqx-chi-pt1.es.net"
       },
       "eqx-chi-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-chi-owamp.es.net"
+            "display-name" : "eqx-chi-owamp.es.net",
+            "display-set" : "eqx-chi"
          },
          "address" : "eqx-chi-owamp.es.net",
          "host" : "eqx-chi-pt1.es.net"
       },
       "eqx-chi-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-chi-pt1-v6.es.net"
+            "display-name" : "eqx-chi-pt1.es.net",
+            "display-set" : "eqx-chi"
          },
          "address" : "eqx-chi-pt1-v6.es.net",
          "host" : "eqx-chi-pt1.es.net"
       },
       "eqx-chi-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-chi-pt1.es.net"
+            "display-name" : "eqx-chi-pt1.es.net",
+            "display-set" : "eqx-chi"
          },
          "address" : "eqx-chi-pt1.es.net",
          "host" : "eqx-chi-pt1.es.net"
       },
       "eqx-sj-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-sj-owamp-v6.es.net"
+            "display-name" : "eqx-sj-owamp.es.net",
+            "display-set" : "eqx-sj"
          },
          "address" : "eqx-sj-owamp-v6.es.net",
          "host" : "eqx-sj-pt1.es.net"
       },
       "eqx-sj-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-sj-owamp.es.net"
+            "display-name" : "eqx-sj-owamp.es.net",
+            "display-set" : "eqx-sj"
          },
          "address" : "eqx-sj-owamp.es.net",
          "host" : "eqx-sj-pt1.es.net"
       },
       "eqx-sj-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-sj-pt1-v6.es.net"
+            "display-name" : "eqx-sj-pt1.es.net",
+            "display-set" : "eqx-sj"
          },
          "address" : "eqx-sj-pt1-v6.es.net",
          "host" : "eqx-sj-pt1.es.net"
       },
       "eqx-sj-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "eqx-sj-pt1.es.net"
+            "display-name" : "eqx-sj-pt1.es.net",
+            "display-set" : "eqx-sj"
          },
          "address" : "eqx-sj-pt1.es.net",
          "host" : "eqx-sj-pt1.es.net"
@@ -1105,28 +1170,32 @@
       },
       "fnal-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "fnal-owamp-v6.es.net"
+            "display-name" : "fnal-owamp.es.net",
+            "display-set" : "fnal"
          },
          "address" : "fnal-owamp-v6.es.net",
          "host" : "fnal-pt1.es.net"
       },
       "fnal-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "fnal-owamp.es.net"
+            "display-name" : "fnal-owamp.es.net",
+            "display-set" : "fnal"
          },
          "address" : "fnal-owamp.es.net",
          "host" : "fnal-pt1.es.net"
       },
       "fnal-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "fnal-pt1-v6.es.net"
+            "display-name" : "fnal-pt1.es.net",
+            "display-set" : "fnal"
          },
          "address" : "fnal-pt1-v6.es.net",
          "host" : "fnal-pt1.es.net"
       },
       "fnal-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "fnal-pt1.es.net"
+            "display-name" : "fnal-pt1.es.net",
+            "display-set" : "fnal"
          },
          "address" : "fnal-pt1.es.net",
          "host" : "fnal-pt1.es.net"
@@ -1140,28 +1209,32 @@
       },
       "forr-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "forr-opt1.es.net"
+            "display-name" : "forr-owamp.es.net",
+            "display-set" : "forr"
          },
          "address" : "forr-owamp-v6.es.net",
          "host" : "forr-opt1.es.net"
       },
       "forr-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "forr-opt1.es.net"
+            "display-name" : "forr-owamp.es.net",
+            "display-set" : "forr"
          },
          "address" : "forr-owamp.es.net",
          "host" : "forr-opt1.es.net"
       },
       "forr-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "forr-opt1.es.net"
+            "display-name" : "forr-pt1.es.net",
+            "display-set" : "forr"
          },
          "address" : "forr-pt1-v6.es.net",
          "host" : "forr-opt1.es.net"
       },
       "forr-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "forr-opt1.es.net"
+            "display-name" : "forr-pt1.es.net",
+            "display-set" : "forr"
          },
          "address" : "forr-pt1.es.net",
          "host" : "forr-opt1.es.net"
@@ -1175,14 +1248,16 @@
       },
       "ga-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ga-owamp-v6.es.net"
+            "display-name" : "ga-owamp.es.net",
+            "display-set" : "ga"
          },
          "address" : "ga-owamp-v6.es.net",
          "host" : "ga-pt1.es.net"
       },
       "ga-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "ga-owamp.es.net"
+            "display-name" : "ga-owamp.es.net",
+            "display-set" : "ga"
          },
          "address" : "ga-owamp.es.net",
          "host" : "ga-pt1.es.net"
@@ -1201,14 +1276,16 @@
       },
       "ga-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ga-pt1-v6.es.net"
+            "display-name" : "ga-pt1.es.net",
+            "display-set" : "ga"
          },
          "address" : "ga-pt1-v6.es.net",
          "host" : "ga-pt1.es.net"
       },
       "ga-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "ga-pt1.es.net"
+            "display-name" : "ga-pt1.es.net",
+            "display-set" : "ga"
          },
          "address" : "ga-pt1.es.net",
          "host" : "ga-pt1.es.net"
@@ -1248,28 +1325,32 @@
       },
       "hous-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "hous-owamp-v6.es.net"
+            "display-name" : "hous-owamp.es.net",
+            "display-set" : "hous"
          },
          "address" : "hous-owamp-v6.es.net",
          "host" : "hous-pt1.es.net"
       },
       "hous-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "hous-owamp.es.net"
+            "display-name" : "hous-owamp.es.net",
+            "display-set" : "hous"
          },
          "address" : "hous-owamp.es.net",
          "host" : "hous-pt1.es.net"
       },
       "hous-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "hous-pt1-v6.es.net"
+            "display-name" : "hous-pt1.es.net",
+            "display-set" : "hous"
          },
          "address" : "hous-pt1-v6.es.net",
          "host" : "hous-pt1.es.net"
       },
       "hous-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "hous-pt1.es.net"
+            "display-name" : "hous-pt1.es.net",
+            "display-set" : "hous"
          },
          "address" : "hous-pt1.es.net",
          "host" : "hous-pt1.es.net"
@@ -1304,14 +1385,16 @@
       },
       "jgi-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "jgi-pt1-v6.es.net"
+            "display-name" : "jgi-pt1.es.net",
+            "display-set" : "jgi"
          },
          "address" : "jgi-pt1-v6.es.net",
          "host" : "jgi-pt1.es.net"
       },
       "jgi-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "jgi-pt1.es.net"
+            "display-name" : "jgi-pt1.es.net",
+            "display-set" : "jgi"
          },
          "address" : "jgi-pt1.es.net",
          "host" : "jgi-pt1.es.net"
@@ -1325,7 +1408,7 @@
       },
       "kans-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "kans-owamp-v6.es.net"
+            "display-name" : "kans-owamp.es.net"
          },
          "address" : "kans-owamp-v6.es.net",
          "host" : "kans-pt1.es.net"
@@ -1339,7 +1422,7 @@
       },
       "kans-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "kans-pt1-v6.es.net"
+            "display-name" : "kans-pt1.es.net"
          },
          "address" : "kans-pt1-v6.es.net",
          "host" : "kans-pt1.es.net"
@@ -1353,7 +1436,7 @@
       },
       "lbl-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lbl-owamp-v6.es.net",
+            "display-name" : "lbl-owamp.es.net",
             "display-set" : "lbl"
          },
          "address" : "lbl-owamp-v6.es.net",
@@ -1369,7 +1452,7 @@
       },
       "lbl-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lbl-pt1-v6.es.net",
+            "display-name" : "lbl-pt1.es.net",
             "display-set" : "lbl"
          },
          "address" : "lbl-pt1-v6.es.net",
@@ -1427,35 +1510,39 @@
       },
       "llnl-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "llnl-owamp-v6.es.net"
+            "display-name" : "llnl-owamp.es.net",
+            "display-set" : "llnl"
          },
          "address" : "llnl-owamp-v6.es.net",
          "host" : "llnl-pt1.es.net"
       },
       "llnl-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "llnl-owamp.es.net"
+            "display-name" : "llnl-owamp.es.net",
+            "display-set" : "llnl"
          },
          "address" : "llnl-owamp.es.net",
          "host" : "llnl-pt1.es.net"
       },
       "llnl-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "llnl-pt1-v6.es.net"
+            "display-name" : "llnl-pt1.es.net",
+            "display-set" : "llnl"
          },
          "address" : "llnl-pt1-v6.es.net",
          "host" : "llnl-pt1.es.net"
       },
       "llnl-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "llnl-pt1.es.net"
+            "display-name" : "llnl-pt1.es.net",
+            "display-set" : "llnl"
          },
          "address" : "llnl-pt1.es.net",
          "host" : "llnl-pt1.es.net"
       },
       "lond-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lond-owamp-v6.es.net",
+            "display-name" : "lond-owamp.es.net",
             "display-set" : "lond"
          },
          "address" : "lond-owamp-v6.es.net",
@@ -1565,14 +1652,16 @@
       },
       "lsvn-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lsvn-owamp-v6.es.net"
+            "display-name" : "lsvn-owamp.es.net",
+            "display-set" : "lsvn"
          },
          "address" : "lsvn-owamp-v6.es.net",
          "host" : "lsvn-pt1.es.net"
       },
       "lsvn-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "lsvn-owamp.es.net"
+            "display-name" : "lsvn-owamp.es.net",
+            "display-set" : "lsvn"
          },
          "address" : "lsvn-owamp.es.net",
          "host" : "lsvn-pt1.es.net"
@@ -1591,14 +1680,16 @@
       },
       "lsvn-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lsvn-pt1-v6.es.net"
+            "display-name" : "lsvn-pt1.es.net",
+            "display-set" : "lsvn"
          },
          "address" : "lsvn-pt1-v6.es.net",
          "host" : "lsvn-pt1.es.net"
       },
       "lsvn-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "lsvn-pt1.es.net"
+            "display-name" : "lsvn-pt1.es.net",
+            "display-set" : "lsvn"
          },
          "address" : "lsvn-pt1.es.net",
          "host" : "lsvn-pt1.es.net"
@@ -1705,28 +1796,32 @@
       },
       "nash-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "nash-owamp-v6.es.net"
+            "display-name" : "nash-owamp.es.net",
+            "display-set" : "nash"
          },
          "address" : "nash-owamp-v6.es.net",
          "host" : "nash-pt1.es.net"
       },
       "nash-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "nash-owamp.es.net"
+            "display-name" : "nash-owamp.es.net",
+            "display-set" : "nash"
          },
          "address" : "nash-owamp.es.net",
          "host" : "nash-pt1.es.net"
       },
       "nash-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "nash-pt1-v6.es.net"
+            "display-name" : "nash-pt1.es.net",
+            "display-set" : "nash"
          },
          "address" : "nash-pt1-v6.es.net",
          "host" : "nash-pt1.es.net"
       },
       "nash-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "nash-pt1.es.net"
+            "display-name" : "nash-pt1.es.net",
+            "display-set" : "nash"
          },
          "address" : "nash-pt1.es.net",
          "host" : "nash-pt1.es.net"
@@ -1754,28 +1849,32 @@
       },
       "nersc-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "nersc-owamp-v6.es.net"
+            "display-name" : "nersc-owamp.es.net",
+            "display-set" : "nersc"
          },
          "address" : "nersc-owamp-v6.es.net",
          "host" : "nersc-pt1.es.net"
       },
       "nersc-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "nersc-owamp.es.net"
+            "display-name" : "nersc-owamp.es.net",
+            "display-set" : "nersc"
          },
          "address" : "nersc-owamp.es.net",
          "host" : "nersc-pt1.es.net"
       },
       "nersc-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "nersc-pt1-v6.es.net"
+            "display-name" : "nersc-pt1.es.net",
+            "display-set" : "nersc"
          },
          "address" : "nersc-pt1-v6.es.net",
          "host" : "nersc-pt1.es.net"
       },
       "nersc-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "nersc-pt1.es.net"
+            "display-name" : "nersc-pt1.es.net",
+            "display-set" : "nersc"
          },
          "address" : "nersc-pt1.es.net",
          "host" : "nersc-pt1.es.net"
@@ -1817,14 +1916,16 @@
       },
       "newy-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "newy-owamp-v6.es.net"
+            "display-name" : "newy-owamp.es.net",
+            "display-set" : "newy"
          },
          "address" : "newy-owamp-v6.es.net",
          "host" : "newy-pt1.es.net"
       },
       "newy-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "newy-owamp.es.net"
+            "display-name" : "newy-owamp.es.net",
+            "display-set" : "newy"
          },
          "address" : "newy-owamp.es.net",
          "host" : "newy-pt1.es.net"
@@ -1843,14 +1944,16 @@
       },
       "newy-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "newy-pt1-v6.es.net"
+            "display-name" : "newy-pt1.es.net",
+            "display-set" : "newy"
          },
          "address" : "newy-pt1-v6.es.net",
          "host" : "newy-pt1.es.net"
       },
       "newy-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "newy-pt1.es.net"
+            "display-name" : "newy-pt1.es.net",
+            "display-set" : "newy"
          },
          "address" : "newy-pt1.es.net",
          "host" : "newy-pt1.es.net"
@@ -1904,28 +2007,32 @@
       },
       "nso-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "nso-opt1.es.net"
+            "display-name" : "nso-owamp.es.net",
+            "display-set" : "nso"
          },
          "address" : "nso-owamp-v6.es.net",
          "host" : "nso-opt1.es.net"
       },
       "nso-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "nso-opt1.es.net"
+            "display-name" : "nso-owamp.es.net",
+            "display-set" : "nso"
          },
          "address" : "nso-owamp.es.net",
          "host" : "nso-opt1.es.net"
       },
       "nso-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "nso-opt1.es.net"
+            "display-name" : "nso-pt1.es.net",
+            "display-set" : "nso"
          },
          "address" : "nso-pt1-v6.es.net",
          "host" : "nso-opt1.es.net"
       },
       "nso-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "nso-opt1.es.net"
+            "display-name" : "nso-pt1.es.net",
+            "display-set" : "nso"
          },
          "address" : "nso-pt1.es.net",
          "host" : "nso-opt1.es.net"
@@ -1967,56 +2074,64 @@
       },
       "orau-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "orau-opt1.es.net"
+            "display-name" : "orau-owamp.es.net",
+            "display-set" : "orau"
          },
          "address" : "orau-owamp-v6.es.net",
          "host" : "orau-opt1.es.net"
       },
       "orau-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "orau-opt1.es.net"
+            "display-name" : "orau-owamp.es.net",
+            "display-set" : "orau"
          },
          "address" : "orau-owamp.es.net",
          "host" : "orau-opt1.es.net"
       },
       "orau-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "orau-opt1.es.net"
+            "display-name" : "orau-pt1.es.net",
+            "display-set" : "orau"
          },
          "address" : "orau-pt1-v6.es.net",
          "host" : "orau-opt1.es.net"
       },
       "orau-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "orau-opt1.es.net"
+            "display-name" : "orau-pt1.es.net",
+            "display-set" : "orau"
          },
          "address" : "orau-pt1.es.net",
          "host" : "orau-opt1.es.net"
       },
       "ornl-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ornl-owamp-v6.es.net"
+            "display-name" : "ornl-owamp.es.net",
+            "display-set" : "ornl"
          },
          "address" : "ornl-owamp-v6.es.net",
          "host" : "ornl-pt1.es.net"
       },
       "ornl-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "ornl-owamp.es.net"
+            "display-name" : "ornl-owamp.es.net",
+            "display-set" : "ornl"
          },
          "address" : "ornl-owamp.es.net",
          "host" : "ornl-pt1.es.net"
       },
       "ornl-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "ornl-pt1-v6.es.net"
+            "display-name" : "ornl-pt1.es.net",
+            "display-set" : "ornl"
          },
          "address" : "ornl-pt1-v6.es.net",
          "host" : "ornl-pt1.es.net"
       },
       "ornl-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "ornl-pt1.es.net"
+            "display-name" : "ornl-pt1.es.net",
+            "display-set" : "ornl"
          },
          "address" : "ornl-pt1.es.net",
          "host" : "ornl-pt1.es.net"
@@ -2030,28 +2145,32 @@
       },
       "osti-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "osti-opt1.es.net"
+            "display-name" : "osti-owamp.es.net",
+            "display-set" : "osti"
          },
          "address" : "osti-owamp-v6.es.net",
          "host" : "osti-opt1.es.net"
       },
       "osti-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "osti-opt1.es.net"
+            "display-name" : "osti-owamp.es.net",
+            "display-set" : "osti"
          },
          "address" : "osti-owamp.es.net",
          "host" : "osti-opt1.es.net"
       },
       "osti-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "osti-opt1.es.net"
+            "display-name" : "osti-pt1.es.net",
+            "display-set" : "osti"
          },
          "address" : "osti-pt1-v6.es.net",
          "host" : "osti-opt1.es.net"
       },
       "osti-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "osti-opt1.es.net"
+            "display-name" : "osti-pt1.es.net",
+            "display-set" : "osti"
          },
          "address" : "osti-pt1.es.net",
          "host" : "osti-opt1.es.net"
@@ -2079,28 +2198,32 @@
       },
       "pantex-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "pantex-opt1.es.net"
+            "display-name" : "pantex-owamp.es.net",
+            "display-set" : "pantex"
          },
          "address" : "pantex-owamp-v6.es.net",
          "host" : "pantex-opt1.es.net"
       },
       "pantex-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "pantex-opt1.es.net"
+            "display-name" : "pantex-owamp.es.net",
+            "display-set" : "pantex"
          },
          "address" : "pantex-owamp.es.net",
          "host" : "pantex-opt1.es.net"
       },
       "pantex-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "pantex-opt1.es.net"
+            "display-name" : "pantex-pt1.es.net",
+            "display-set" : "pantex"
          },
          "address" : "pantex-pt1-v6.es.net",
          "host" : "pantex-opt1.es.net"
       },
       "pantex-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "pantex-opt1.es.net"
+            "display-name" : "pantex-pt1.es.net",
+            "display-set" : "pantex"
          },
          "address" : "pantex-pt1.es.net",
          "host" : "pantex-opt1.es.net"
@@ -2765,28 +2888,32 @@
       },
       "pnwg-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "pnwg-owamp-v6.es.net"
+            "display-name" : "pnwg-owamp.es.net",
+            "display-set" : "pnwg"
          },
          "address" : "pnwg-owamp-v6.es.net",
          "host" : "pnwg-pt1.es.net"
       },
       "pnwg-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "pnwg-owamp.es.net"
+            "display-name" : "pnwg-owamp.es.net",
+            "display-set" : "pnwg"
          },
          "address" : "pnwg-owamp.es.net",
          "host" : "pnwg-pt1.es.net"
       },
       "pnwg-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "pnwg-pt1-v6.es.net"
+            "display-name" : "pnwg-pt1.es.net",
+            "display-set" : "pnwg"
          },
          "address" : "pnwg-pt1-v6.es.net",
          "host" : "pnwg-pt1.es.net"
       },
       "pnwg-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "pnwg-pt1.es.net"
+            "display-name" : "pnwg-pt1.es.net",
+            "display-set" : "pnwg"
          },
          "address" : "pnwg-pt1.es.net",
          "host" : "pnwg-pt1.es.net"
@@ -2800,28 +2927,32 @@
       },
       "pppl-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "pppl-owamp-v6.es.net"
+            "display-name" : "pppl-owamp.es.net",
+            "display-set" : "pppl"
          },
          "address" : "pppl-owamp-v6.es.net",
          "host" : "pppl-pt1.es.net"
       },
       "pppl-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "pppl-owamp.es.net"
+            "display-name" : "pppl-owamp.es.net",
+            "display-set" : "pppl"
          },
          "address" : "pppl-owamp.es.net",
          "host" : "pppl-pt1.es.net"
       },
       "pppl-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "pppl-pt1-v6.es.net"
+            "display-name" : "pppl-pt1.es.net",
+            "display-set" : "pppl"
          },
          "address" : "pppl-pt1-v6.es.net",
          "host" : "pppl-pt1.es.net"
       },
       "pppl-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "pppl-pt1.es.net"
+            "display-name" : "pppl-pt1.es.net",
+            "display-set" : "pppl"
          },
          "address" : "pppl-pt1.es.net",
          "host" : "pppl-pt1.es.net"
@@ -3476,28 +3607,32 @@
       },
       "slac-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "slac-owamp-v6.es.net"
+            "display-name" : "slac-owamp.es.net",
+            "display-set" : "slac"
          },
          "address" : "slac-owamp-v6.es.net",
          "host" : "slac-pt1.es.net"
       },
       "slac-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "slac-owamp.es.net"
+            "display-name" : "slac-owamp.es.net",
+            "display-set" : "slac"
          },
          "address" : "slac-owamp.es.net",
          "host" : "slac-pt1.es.net"
       },
       "slac-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "slac-pt1-v6.es.net"
+            "display-name" : "slac-pt1.es.net",
+            "display-set" : "slac"
          },
          "address" : "slac-pt1-v6.es.net",
          "host" : "slac-pt1.es.net"
       },
       "slac-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "slac-pt1.es.net"
+            "display-name" : "slac-pt1.es.net",
+            "display-set" : "slac"
          },
          "address" : "slac-pt1.es.net",
          "host" : "slac-pt1.es.net"
@@ -3511,56 +3646,64 @@
       },
       "snla-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "snla-opt1.es.net"
+            "display-name" : "snla-owamp.es.net",
+            "display-set" : "snla"
          },
          "address" : "snla-owamp-v6.es.net",
          "host" : "snla-opt1.es.net"
       },
       "snla-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "snla-opt1.es.net"
+            "display-name" : "snla-owamp.es.net",
+            "display-set" : "snla"
          },
          "address" : "snla-owamp.es.net",
          "host" : "snla-opt1.es.net"
       },
       "snla-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "snla-opt1.es.net"
+            "display-name" : "snla-pt1.es.net",
+            "display-set" : "snla"
          },
          "address" : "snla-pt1-v6.es.net",
          "host" : "snla-opt1.es.net"
       },
       "snla-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "snla-opt1.es.net"
+            "display-name" : "snla-pt1.es.net",
+            "display-set" : "snla"
          },
          "address" : "snla-pt1.es.net",
          "host" : "snla-opt1.es.net"
       },
       "snll-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "snll-owamp-v6.es.net"
+            "display-name" : "snll-owamp.es.net",
+            "display-set" : "snll"
          },
          "address" : "snll-owamp-v6.es.net",
          "host" : "snll-pt1.es.net"
       },
       "snll-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "snll-owamp.es.net"
+            "display-name" : "snll-owamp.es.net",
+            "display-set" : "snll"
          },
          "address" : "snll-owamp.es.net",
          "host" : "snll-pt1.es.net"
       },
       "snll-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "snll-pt1-v6.es.net"
+            "display-name" : "snll-pt1.es.net",
+            "display-set" : "snll"
          },
          "address" : "snll-pt1-v6.es.net",
          "host" : "snll-pt1.es.net"
       },
       "snll-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "snll-pt1.es.net"
+            "display-name" : "snll-pt1.es.net",
+            "display-set" : "snll"
          },
          "address" : "snll-pt1.es.net",
          "host" : "snll-pt1.es.net"
@@ -3616,84 +3759,96 @@
       },
       "srs-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "srs-opt1.es.net"
+            "display-name" : "srs-owamp.es.net",
+            "display-set" : "srs"
          },
          "address" : "srs-owamp-v6.es.net",
          "host" : "srs-opt1.es.net"
       },
       "srs-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "srs-opt1.es.net"
+            "display-name" : "srs-owamp.es.net",
+            "display-set" : "srs"
          },
          "address" : "srs-owamp.es.net",
          "host" : "srs-opt1.es.net"
       },
       "srs-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "srs-opt1.es.net"
+            "display-name" : "srs-pt1.es.net",
+            "display-set" : "srs"
          },
          "address" : "srs-pt1-v6.es.net",
          "host" : "srs-opt1.es.net"
       },
       "srs-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "srs-opt1.es.net"
+            "display-name" : "srs-pt1.es.net",
+            "display-set" : "srs"
          },
          "address" : "srs-pt1.es.net",
          "host" : "srs-opt1.es.net"
       },
       "star-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "star-owamp-v6.es.net"
+            "display-name" : "star-owamp.es.net",
+            "display-set" : "star"
          },
          "address" : "star-owamp-v6.es.net",
          "host" : "star-pt1.es.net"
       },
       "star-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "star-owamp.es.net"
+            "display-name" : "star-owamp.es.net",
+            "display-set" : "star"
          },
          "address" : "star-owamp.es.net",
          "host" : "star-pt1.es.net"
       },
       "star-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "star-pt1-v6.es.net"
+            "display-name" : "star-pt1.es.net",
+            "display-set" : "star"
          },
          "address" : "star-pt1-v6.es.net",
          "host" : "star-pt1.es.net"
       },
       "star-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "star-pt1.es.net"
+            "display-name" : "star-pt1.es.net",
+            "display-set" : "star"
          },
          "address" : "star-pt1.es.net",
          "host" : "star-pt1.es.net"
       },
       "sunn-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "sunn-owamp-v6.es.net"
+            "display-name" : "sunn-owamp.es.net",
+            "display-set" : "sunn"
          },
          "address" : "sunn-owamp-v6.es.net",
          "host" : "sunn-pt1.es.net"
       },
       "sunn-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "sunn-owamp.es.net"
+            "display-name" : "sunn-owamp.es.net",
+            "display-set" : "sunn"
          },
          "address" : "sunn-owamp.es.net",
          "host" : "sunn-pt1.es.net"
       },
       "sunn-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "sunn-pt1-v6.es.net"
+            "display-name" : "sunn-pt1.es.net",
+            "display-set" : "sunn"
          },
          "address" : "sunn-pt1-v6.es.net",
          "host" : "sunn-pt1.es.net"
       },
       "sunn-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "sunn-pt1.es.net"
+            "display-name" : "sunn-pt1.es.net",
+            "display-set" : "sunn"
          },
          "address" : "sunn-pt1.es.net",
          "host" : "sunn-pt1.es.net"
@@ -3714,14 +3869,16 @@
       },
       "test-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "test-pt1-v6.es.net"
+            "display-name" : "test-pt1.es.net",
+            "display-set" : "test"
          },
          "address" : "test-pt1-v6.es.net",
          "host" : "test-pt1.es.net"
       },
       "test-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "test-pt1.es.net"
+            "display-name" : "test-pt1.es.net",
+            "display-set" : "test"
          },
          "address" : "test-pt1.es.net",
          "host" : "test-pt1.es.net"
@@ -3819,14 +3976,16 @@
       },
       "wash-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "wash-owamp-v6.es.net"
+            "display-name" : "wash-owamp.es.net",
+            "display-set" : "wash"
          },
          "address" : "wash-owamp-v6.es.net",
          "host" : "wash-pt1.es.net"
       },
       "wash-owamp.es.net" : {
          "_meta" : {
-            "display-name" : "wash-owamp.es.net"
+            "display-name" : "wash-owamp.es.net",
+            "display-set" : "wash"
          },
          "address" : "wash-owamp.es.net",
          "host" : "wash-pt1.es.net"
@@ -3845,14 +4004,16 @@
       },
       "wash-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "wash-pt1-v6.es.net"
+            "display-name" : "wash-pt1.es.net",
+            "display-set" : "wash"
          },
          "address" : "wash-pt1-v6.es.net",
          "host" : "wash-pt1.es.net"
       },
       "wash-pt1.es.net" : {
          "_meta" : {
-            "display-name" : "wash-pt1.es.net"
+            "display-name" : "wash-pt1.es.net",
+            "display-set" : "wash"
          },
          "address" : "wash-pt1.es.net",
          "host" : "wash-pt1.es.net"
@@ -12559,6 +12720,10 @@
          "_meta" : {
             "display-name" : "100G ESnet Hub to 100G ESnet Hub Throughput Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_2",
          "schedule" : "schedule_0",
          "test" : "throughput_1",
@@ -12570,6 +12735,10 @@
       "ESnet_40G_Testing" : {
          "_meta" : {
             "display-name" : "ESnet 40G Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_30",
          "schedule" : "schedule_0",
@@ -12583,6 +12752,10 @@
          "_meta" : {
             "display-name" : "ESnet DTN Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_31",
          "schedule" : "schedule_0",
          "test" : "throughput_2",
@@ -12594,6 +12767,10 @@
       "ESnet_Hub_to_DOE_Site_Backup_Path_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet Hub to DOE Site Backup Path Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_1",
          "schedule" : "schedule_0",
@@ -12607,6 +12784,10 @@
          "_meta" : {
             "display-name" : "ESnet Hub to DOE Site Backup Path Traceroute Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_1",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12615,6 +12796,10 @@
          "_meta" : {
             "display-name" : "ESnet Hub to ESnet Hub Traceroute Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_2",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12622,6 +12807,10 @@
       "ESnet_Hub_to_Large_DOE_Site_Border_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet Hub to Large DOE Site Border Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_0",
          "schedule" : "schedule_0",
@@ -12635,6 +12824,10 @@
          "_meta" : {
             "display-name" : "ESnet Hub to Large DOE Site Border Traceroute Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_0",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12643,12 +12836,20 @@
          "_meta" : {
             "display-name" : "ESnet Hub to Small DOE Site Border Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_9",
          "test" : "latencybg_0"
       },
       "ESnet_Hub_to_Small_DOE_Site_Border_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet Hub to Small DOE Site Border Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_3",
          "schedule" : "schedule_0",
@@ -12662,6 +12863,10 @@
          "_meta" : {
             "display-name" : "ESnet Hub to Small DOE Site Border Traceroute Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_9",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12669,6 +12874,10 @@
       "ESnet_Iperf3_Traceroute_Testing" : {
          "_meta" : {
             "display-name" : "ESnet Iperf3 Traceroute Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_32",
          "schedule" : "schedule_1",
@@ -12678,6 +12887,10 @@
          "_meta" : {
             "display-name" : "ESnet Traceroute Measurements"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_4",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12686,12 +12899,20 @@
          "_meta" : {
             "display-name" : "ESnet to ANL Pilot Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_15",
          "test" : "latencybg_0"
       },
       "ESnet_to_ANL_Pilot_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to ANL Pilot Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_14",
          "schedule" : "schedule_0",
@@ -12705,6 +12926,10 @@
          "_meta" : {
             "display-name" : "ESnet to ANL Pilot Traceroute Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_14",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12713,12 +12938,20 @@
          "_meta" : {
             "display-name" : "ESnet to DOE Site Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_17",
          "test" : "latencybg_0"
       },
       "ESnet_to_DOE_Site_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to DOE Site Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_16",
          "schedule" : "schedule_0",
@@ -12732,6 +12965,10 @@
          "_meta" : {
             "display-name" : "ESnet to DOE Site Traceroute Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_16",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12740,12 +12977,20 @@
          "_meta" : {
             "display-name" : "ESnet to ESnet European Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_8",
          "test" : "latencybg_0"
       },
       "ESnet_to_ESnet_European_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to ESnet European Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_7",
          "schedule" : "schedule_0",
@@ -12759,6 +13004,10 @@
          "_meta" : {
             "display-name" : "ESnet to ESnet European Traceroute Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_8",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12767,12 +13016,20 @@
          "_meta" : {
             "display-name" : "ESnet to ESnet Intercontinental Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_6",
          "test" : "latencybg_0"
       },
       "ESnet_to_ESnet_Intercontinental_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to ESnet Intercontinental Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_5",
          "schedule" : "schedule_0",
@@ -12785,6 +13042,10 @@
       "ESnet_to_ESnet_Intercontinental_Traceroute_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to ESnet Intercontinental Traceroute Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_6",
          "schedule" : "schedule_1",
@@ -12805,12 +13066,20 @@
          "_meta" : {
             "display-name" : "ESnet to GA-EAST IPv4 Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_29",
          "test" : "latencybg_0"
       },
       "ESnet_to_GA-EAST_IPv4_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to GA-EAST IPv4 Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_28",
          "schedule" : "schedule_0",
@@ -12824,12 +13093,20 @@
          "_meta" : {
             "display-name" : "ESnet to GA-EAST IPv6 Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_27",
          "test" : "latencybg_0"
       },
       "ESnet_to_GA-EAST_IPv6_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to GA-EAST IPv6 Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_26",
          "schedule" : "schedule_0",
@@ -12843,12 +13120,20 @@
          "_meta" : {
             "display-name" : "ESnet to GEANT Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_19",
          "test" : "latencybg_0"
       },
       "ESnet_to_GEANT_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to GEANT Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_18",
          "schedule" : "schedule_0",
@@ -12862,6 +13147,10 @@
          "_meta" : {
             "display-name" : "ESnet to GEANT Traceoute Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_18",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12870,12 +13159,20 @@
          "_meta" : {
             "display-name" : "ESnet to ICNWG Site Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_23",
          "test" : "latencybg_0"
       },
       "ESnet_to_ICNWG_Site_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to ICNWG Site Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_22",
          "schedule" : "schedule_0",
@@ -12889,6 +13186,10 @@
          "_meta" : {
             "display-name" : "ESnet to ICNWG Site Traceroute Measurements"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_22",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12897,12 +13198,20 @@
          "_meta" : {
             "display-name" : "ESnet to International Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_34",
          "test" : "latencybg_0"
       },
       "ESnet_to_International_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to International Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_33",
          "schedule" : "schedule_0",
@@ -12916,6 +13225,10 @@
          "_meta" : {
             "display-name" : "ESnet to International Traceroute Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_33",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12924,12 +13237,20 @@
          "_meta" : {
             "display-name" : "ESnet to KSTAR Sites Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_21",
          "test" : "latencybg_0"
       },
       "ESnet_to_KSTAR_Sites_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to KSTAR Sites Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_20",
          "schedule" : "schedule_2",
@@ -12943,12 +13264,20 @@
          "_meta" : {
             "display-name" : "ESnet to Large Facility Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_11",
          "test" : "latencybg_0"
       },
       "ESnet_to_Large_Facility_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to Large Facility Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_10",
          "schedule" : "schedule_0",
@@ -12962,6 +13291,10 @@
          "_meta" : {
             "display-name" : "ESnet to Large Facility Traceroute Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_10",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -12970,12 +13303,20 @@
          "_meta" : {
             "display-name" : "ESnet to US Regional Networks Packet Loss"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_25",
          "test" : "latencybg_0"
       },
       "ESnet_to_US_Regional_Networks_Throughput" : {
          "_meta" : {
             "display-name" : "ESnet to US Regional Networks Throughput"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_24",
          "schedule" : "schedule_0",
@@ -12989,12 +13330,20 @@
          "_meta" : {
             "display-name" : "ESnet to University Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_13",
          "test" : "latencybg_0"
       },
       "ESnet_to_University_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to University Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_12",
          "schedule" : "schedule_0",
@@ -13008,6 +13357,10 @@
          "_meta" : {
             "display-name" : "ESnet to University Traceroute Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_12",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -13016,12 +13369,20 @@
          "_meta" : {
             "display-name" : "IU Training Packet Loss Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_38",
          "test" : "latencybg_0"
       },
       "IU_Training_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "IU Training Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_37",
          "schedule" : "schedule_3",
@@ -13035,12 +13396,20 @@
          "_meta" : {
             "display-name" : "KAUST Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_36",
          "test" : "latencybg_0"
       },
       "KAUST_Testing_-_Throughput" : {
          "_meta" : {
             "display-name" : "KAUST Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_35",
          "schedule" : "schedule_2",
@@ -13054,6 +13423,10 @@
          "_meta" : {
             "display-name" : "KAUST Testing"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_36",
          "schedule" : "schedule_1",
          "test" : "trace_0"
@@ -13062,6 +13435,10 @@
          "_meta" : {
             "display-name" : "ESnet Backup Paths"
          },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
          "group" : "group_39",
          "schedule" : "schedule_0",
          "test" : "throughput_0"
@@ -13069,6 +13446,10 @@
       "ESnet_Backup_Paths_-_Loss" : {
          "_meta" : {
             "display-name" : "ESnet Backup Paths"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_40",
          "test" : "latencybg_0"
