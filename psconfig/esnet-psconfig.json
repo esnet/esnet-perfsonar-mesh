@@ -6778,7 +6778,7 @@
                "name" : "perfsonar.ascr.doe.gov"
             },
             {
-               "name" : "doe-gtn-owamp-v4.es.net"
+               "name" : "doe-gtn-pt1.es.net"
             },
             {
                "name" : "eqx-ash-owamp.es.net"
@@ -6790,22 +6790,22 @@
                "name" : "eqx-sj-owamp.es.net"
             },
             {
-               "name" : "forr-owamp.es.net"
+               "name" : "forr-pt1.es.net"
             },
             {
-               "name" : "orau-owamp.es.net"
+               "name" : "orau-pt1.es.net"
             },
             {
-               "name" : "osti-owamp.es.net"
+               "name" : "osti-pt1.es.net"
             },
             {
-               "name" : "pantex-owamp.es.net"
+               "name" : "pantex-pt1.es.net"
             },
             {
-               "name" : "snla-owamp.es.net"
+               "name" : "snla-pt1.es.net"
             },
             {
-               "name" : "srs-owamp.es.net"
+               "name" : "srs-pt1.es.net"
             }
          ],
          "b-addresses" : [
