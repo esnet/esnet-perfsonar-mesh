@@ -18,6 +18,10 @@
          "check" : {
             "type" : "ps-nagios-traceroute"
          },
+         "params" : {
+               "time-range" : "21600"
+         },
+         "check-interval" : "PT3H",
          "display-name" : "Path Count",
          "visualization" : {
             "type" : "ps-traceroute-viewer"
