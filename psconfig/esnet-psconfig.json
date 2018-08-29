@@ -4120,7 +4120,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "https://198.129.254.10/esmond/perfsonar/archive/"
+            "url" : "http://198.129.254.10:8085/esmond/perfsonar/archive/"
          }
       },
       "198.129.254.94" : {
@@ -4729,7 +4729,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "https://lbl-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://lbl-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "lcgs101.jinr.ru" : {
