@@ -13458,7 +13458,6 @@
    "tests" : {
       "latencybg_0" : {
          "spec" : {
-            "bucket-width" : 0.0001,
             "dest" : "{% address[1] %}",
             "dest-node" : "{% pscheduler_address[1] %}",
             "flip" : "{% flip %}",
