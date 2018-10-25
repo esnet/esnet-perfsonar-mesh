@@ -1879,6 +1879,102 @@
          "address" : "nersc-pt1.es.net",
          "host" : "nersc-pt1.es.net"
       },
+      "netl-mgn-owamp-v6.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-mgn-owamp.es.net",
+            "display-set" : "netl-mgn"
+         },
+         "address" : "netl-mgn-owamp-v6.es.net",
+         "host" : "netl-mgn-pt1.es.net"
+      },
+      "netl-mgn-owamp.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-mgn-owamp.es.net",
+            "display-set" : "netl-mgn"
+         },
+         "address" : "netl-mgn-owamp.es.net",
+         "host" : "netl-mgn-pt1.es.net"
+      },
+      "netl-mgn-pt1-v6.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-mgn-pt1.es.net",
+            "display-set" : "netl-mgn"
+         },
+         "address" : "netl-mgn-pt1-v6.es.net",
+         "host" : "netl-mgn-pt1.es.net"
+      },
+      "netl-mgn-pt1.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-mgn-pt1.es.net",
+            "display-set" : "netl-mgn"
+         },
+         "address" : "netl-mgn-pt1.es.net",
+         "host" : "netl-mgn-pt1.es.net"
+      },
+      "netl-alb-owamp-v6.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-alb-owamp.es.net",
+            "display-set" : "netl-alb"
+         },
+         "address" : "netl-alb-owamp-v6.es.net",
+         "host" : "netl-alb-pt1.es.net"
+      },
+      "netl-alb-owamp.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-alb-owamp.es.net",
+            "display-set" : "netl-alb"
+         },
+         "address" : "netl-alb-owamp.es.net",
+         "host" : "netl-alb-pt1.es.net"
+      },
+      "netl-alb-pt1-v6.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-alb-pt1.es.net",
+            "display-set" : "netl-alb"
+         },
+         "address" : "netl-alb-pt1-v6.es.net",
+         "host" : "netl-alb-pt1.es.net"
+      },
+      "netl-alb-pt1.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-alb-pt1.es.net",
+            "display-set" : "netl-alb"
+         },
+         "address" : "netl-alb-pt1.es.net",
+         "host" : "netl-alb-pt1.es.net"
+      },
+      "netl-pgh-owamp-v6.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-pgh-owamp.es.net",
+            "display-set" : "netl-pgh"
+         },
+         "address" : "netl-pgh-owamp-v6.es.net",
+         "host" : "netl-pgh-pt1.es.net"
+      },
+      "netl-pgh-owamp.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-pgh-owamp.es.net",
+            "display-set" : "netl-pgh"
+         },
+         "address" : "netl-pgh-owamp.es.net",
+         "host" : "netl-pgh-pt1.es.net"
+      },
+      "netl-pgh-pt1-v6.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-pgh-pt1.es.net",
+            "display-set" : "netl-pgh"
+         },
+         "address" : "netl-pgh-pt1-v6.es.net",
+         "host" : "netl-pgh-pt1.es.net"
+      },
+      "netl-pgh-pt1.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-pgh-pt1.es.net",
+            "display-set" : "netl-pgh"
+         },
+         "address" : "netl-pgh-pt1.es.net",
+         "host" : "netl-pgh-pt1.es.net"
+      },
       "netperf.ayy.fi" : {
          "_meta" : {
             "display-name" : "netperf.ayy.fi"
@@ -4914,6 +5010,27 @@
             "url" : "http://nersc-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
+      "netl-mgn-pt1.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://netl-mgn-pt1.es.net:8085/esmond/perfsonar/archive/"
+         }
+      },
+      "netl-alb-pt1.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://netl-alb-pt1.es.net:8085/esmond/perfsonar/archive/"
+         }
+      },
+      "netl-pgh-pt1.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://netl-pgh-pt1.es.net:8085/esmond/perfsonar/archive/"
+         }
+      },
       "netperf.ayy.fi" : {
          "archiver" : "esmond",
          "data" : {
@@ -6720,6 +6837,15 @@
                "name" : "forr-pt1.es.net"
             },
             {
+               "name" : "netl-mgn-pt1.es.net"
+            },
+            {
+               "name" : "netl-alb-pt1.es.net"
+            },
+            {
+               "name" : "netl-pgh-pt1.es.net"
+            },
+            {
                "name" : "orau-pt1.es.net"
             },
             {
@@ -6952,6 +7078,15 @@
             },
             {
                "name" : "forr-pt1.es.net"
+            },
+            {
+               "name" : "netl-mgn-owamp.es.net"
+            },
+            {
+               "name" : "netl-alb-owamp.es.net"
+            },
+            {
+               "name" : "netl-pgh-owamp.es.net"
             },
             {
                "name" : "orau-pt1.es.net"
@@ -10346,6 +10481,33 @@
          },
          "archives" : [
             "nersc-pt1.es.net"
+         ]
+      },
+      "netl-mgn-pt1.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-mgn-pt1.es.net",
+            "organization-display-name" : "ESnet"
+         },
+         "archives" : [
+            "netl-mgn-pt1.es.net"
+         ]
+      },
+      "netl-alb-pt1.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-alb-pt1.es.net",
+            "organization-display-name" : "ESnet"
+         },
+         "archives" : [
+            "netl-alb-pt1.es.net"
+         ]
+      },
+      "netl-pgh-pt1.es.net" : {
+         "_meta" : {
+            "display-name" : "netl-pgh-pt1.es.net",
+            "organization-display-name" : "ESnet"
+         },
+         "archives" : [
+            "netl-pgh-pt1.es.net"
          ]
       },
       "netperf.ayy.fi" : {
