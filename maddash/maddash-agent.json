@@ -7,7 +7,8 @@
    "grids" : {
       "default_ping_loss" : {
          "check" : {
-            "type" : "ps-nagios-ping-loss"
+            "type" : "ps-nagios-ping-loss",
+            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
          },
          "display-name" : "Ping Loss",
          "visualization" : {
@@ -20,7 +21,8 @@
             "params" : {
                "time-range" : "21600"
              },
-             "check-interval" : "PT3H"
+             "check-interval" : "PT3H",
+             "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
          },
          "display-name" : "Path Count",
          "visualization" : {
@@ -35,7 +37,8 @@
                "time-range" : 2700
             },
             "type" : "ps-nagios-loss",
-            "warning-threshold" : "0.001"
+            "warning-threshold" : "0.001",
+            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
          },
          "display-name" : "Loss",
          "priority" : {
@@ -54,7 +57,8 @@
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "0.5"
+            "warning-threshold" : "0.5",
+            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
          },
          "display-name" : "Throughput",
          "priority" : {
@@ -73,7 +77,8 @@
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "5"
+            "warning-threshold" : "5",
+            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
          },
          "display-name" : "Throughput",
          "priority" : {
@@ -108,7 +113,8 @@
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "2.5"
+            "warning-threshold" : "2.5",
+            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
          },
          "display-name" : "Throughput",
          "priority" : {
@@ -135,7 +141,8 @@
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "0.5"
+            "warning-threshold" : "0.5",
+            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
          },
          "display-name" : "Throughput",
          "priority" : {
@@ -160,7 +167,8 @@
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "4"
+            "warning-threshold" : "4",
+            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
          },
          "display-name" : "Throughput",
          "priority" : {
