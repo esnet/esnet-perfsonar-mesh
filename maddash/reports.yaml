@@ -1,6 +1,6 @@
 reports:
     -
-        id: "meshconfig_mesh_throughput"
+        id: "ps-nagios-throughput_1"
         rule:
             type: matchFirst
             rules:
@@ -269,7 +269,7 @@ reports:
                                             category: PERFORMANCE
                                             message: "Incoming throughput is below warning or critical thresholds to a majority of sites"
     -
-        id: "meshconfig_disjoint_throughput"
+        id: "ps-nagios-throughput_2"
         rule:
             type: matchFirst
             rules:
@@ -402,7 +402,7 @@ reports:
                                             category: PERFORMANCE
                                             message: "Incoming throughput is below warning or critical thresholds to a majority of sites"
     -
-        id: "meshconfig_mesh_loss"
+        id: "ps-nagios-loss_1"
         rule:
             type: matchFirst
             rules:
@@ -666,7 +666,7 @@ reports:
                                             category: PERFORMANCE
                                             message: "Incoming loss is above warning or critical thresholds to a majority of sites"
     -
-        id: "meshconfig_disjoint_loss"
+        id: "ps-nagios-loss_2"
         rule:
             type: matchFirst
             rules:

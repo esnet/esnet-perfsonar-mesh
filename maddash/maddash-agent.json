@@ -7,8 +7,7 @@
    "grids" : {
       "default_ping_loss" : {
          "check" : {
-            "type" : "ps-nagios-ping-loss",
-            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
+            "type" : "ps-nagios-ping-loss"
          },
          "display-name" : "Ping Loss",
          "visualization" : {
@@ -21,8 +20,7 @@
             "params" : {
                "time-range" : "21600"
              },
-             "check-interval" : "PT3H",
-             "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
+             "check-interval" : "PT3H"
          },
          "display-name" : "Path Count",
          "visualization" : {
