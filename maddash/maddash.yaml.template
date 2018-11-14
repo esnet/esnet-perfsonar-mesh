@@ -84,8 +84,6 @@ notifications:
           incident_state: 1
           contact_type: "Monitoring"
           u_reporting_method: "Monitoring"
-          location: ""
-          assignment_group: ""
        duplicateRules:
            equalFields:
              - "short_description"
