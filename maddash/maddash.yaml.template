@@ -60,7 +60,7 @@ notifications:
            - "andy@es.net"
    - name: "ServiceNow Notifications"
      type: "servicenow"
-     schedule: "* * * * ?"
+     schedule: "10 * * * ?"
      problemReportFrequency: 86400
      minimumSeverity: 1
      parameters:
