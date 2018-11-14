@@ -58,6 +58,42 @@ notifications:
        from: "noreply@ps-dashboard.es.net"
        to:
            - "andy@es.net"
+   - name: "ServiceNow Notifications"
+     type: "servicenow"
+     schedule: "* * * * ?"
+     problemReportFrequency: 86400
+     minimumSeverity: 1
+     parameters:
+       instance: "esnetdev"
+       oauthFile: "/usr/local/esnet/etc/oauth.yaml"
+       recordTable: "incident"
+       dashboardUrl: "https://ps-dashboard.es.net"
+       filters:
+          - type: "dashboard"
+            value: "1: ESnet to ESnet Packet Loss"
+          - type: "dashboard"
+            value: "2: ESnet to ESnet Throughput Testing"
+       recordFields:
+          short_description: "[MaDDash] %problemEntity - %name"
+          description: "%name%br%brHost: %siteName%brGrid: %gridName%brLink: %gridLink%br%brPotential solutions:%br%solutions"
+          category: "Software"
+          subcategory: "perfSONAR"
+          caller_id: "restuser"
+          opened_by: "restuser"
+          notify: 2
+          incident_state: 1
+          contact_type: "Monitoring"
+          u_reporting_method: "Monitoring"
+          location: ""
+          assignment_group: ""
+       duplicateRules:
+           equalFields:
+             - "short_description"
+           ltFields:
+             incident_state: 6
+           updateFields:
+             comments: "Problem persists: %name%br%brHost: %siteName%brGrid: %gridName%brLink: %gridLink%br%brPotential solutions:%br%solutions"
+
 ##
 # Manually defined groups
 
