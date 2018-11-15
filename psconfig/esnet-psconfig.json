@@ -12870,11 +12870,6 @@
          "repeat" : "PT14400S",
          "slip" : "PT14400S",
          "sliprand" : true
-      },
-      "schedule_3" : {
-         "repeat" : "PT7200S",
-         "slip" : "PT7200S",
-         "sliprand" : true
       }
    },
    "tasks" : {
@@ -13547,7 +13542,7 @@
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_37",
-         "schedule" : "schedule_3",
+         "schedule" : "schedule_0",
          "test" : "throughput_6",
          "tools" : [
             "bwctliperf3",
