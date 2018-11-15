@@ -63,16 +63,16 @@ notifications:
      schedule: "10 * * * ?"
      problemReportFrequency: 86400
      minimumSeverity: 1
+     filters:
+       - type: dashboard
+         value: "1: ESnet to ESnet Packet Loss"
+       - type: dashboard
+         value: "2: ESnet to ESnet Throughput Testing"
      parameters:
        instance: "esnetdev"
        oauthFile: "/usr/local/esnet/etc/oauth.yaml"
        recordTable: "incident"
        dashboardUrl: "https://ps-dashboard.es.net"
-       filters:
-          - type: "grid"
-            value: "ESnet - ESnet to ESnet Packet Loss Testing - Loss"
-          - type: "grid"
-            value: "ESnet - 100G ESnet Hub to 100G ESnet Hub Throughput Testing - Throughput"
        recordFields:
           short_description: "[MaDDash] %problemEntity - %name"
           description: "%name%br%brHost: %siteName%brGrid: %gridName%brLink: %gridLink%br%brPotential solutions:%br%solutions"
