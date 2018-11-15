@@ -4212,11 +4212,11 @@
             "url" : "http://192.84.86.210/esmond/perfsonar/archive/"
          }
       },
-      "198.129.254.10" : {
+      "198.129.252.42" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://198.129.254.10:8085/esmond/perfsonar/archive/"
+            "url" : "http://198.129.252.42:8085/esmond/perfsonar/archive/"
          }
       },
       "198.129.254.94" : {
@@ -12691,7 +12691,7 @@
             "organization-display-name" : "ESnet"
          },
          "archives" : [
-            "198.129.254.10"
+            "198.129.252.42"
          ]
       },
       "test10g.lsi.umich.edu" : {
