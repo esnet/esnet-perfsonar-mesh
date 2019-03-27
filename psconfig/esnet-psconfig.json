@@ -13639,7 +13639,7 @@
          "group" : "group_40",
          "test" : "latencybg_0"
      },
-     "ESnet_Hub_to_Small_DOE_Site_Border_Packet_Loss_Testing" : {
+     "ESnet_EQX_Packet_Loss_Testing" : {
         "_meta" : {
            "display-name" : "ESnet EQX Packet Loss Testing"
         },
