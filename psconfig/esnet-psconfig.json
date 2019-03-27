@@ -9247,7 +9247,35 @@
              }
          ],
          "type" : "disjoint"
-      }
+     },
+     "group_eqx" : {
+        "a-addresses" : [
+           {
+              "name" : "eqx-ash-owamp.es.net"
+           },
+           {
+              "name" : "eqx-chi-owamp.es.net"
+           },
+           {
+              "name" : "eqx-sj-owamp.es.net"
+           }
+        ],
+        "b-addresses" : [
+            {
+               "name" : "eqx-ash-owamp.es.net"
+            },
+            {
+               "name" : "eqx-chi-owamp.es.net"
+            },
+            {
+               "name" : "eqx-sj-owamp.es.net"
+            },
+            {
+               "name" : "lbl-owamp.es.net"
+            }
+        ],
+        "type" : "disjoint"
+     }
    },
    "hosts" : {
       "134.197.113.17" : {
@@ -13610,7 +13638,18 @@
          },
          "group" : "group_40",
          "test" : "latencybg_0"
-      }
+     },
+     "ESnet_Hub_to_Small_DOE_Site_Border_Packet_Loss_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet EQX Packet Loss Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "group_eqx",
+        "test" : "latencybg_0"
+     }
    },
    "tests" : {
       "latencybg_0" : {
