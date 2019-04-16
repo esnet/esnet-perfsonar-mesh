@@ -85,10 +85,10 @@ notifications:
           incident_state: 1
           contact_type: "Monitoring"
           u_reporting_method: "Automation"
-      resolveFields:
+       resolveFields:
           incident_state: 6
           comments: 'Issues has not been seen for 24 hours, resolving issue'
-      duplicateRules:
+       duplicateRules:
           identityFields:
               - short_description
           rules:
