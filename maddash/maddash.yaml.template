@@ -73,7 +73,7 @@ notifications:
        instance: "esnetdev"
        oauthFile: "/usr/local/esnet/etc/oauth.yaml"
        recordTable: "incident"
-       dashboardUrl: "https://ps-dashboard.es.net"
+       dashboardUrl: "https://ps-dashboard.es.net/maddash-webui"
        recordFields:
           short_description: "[MaDDash] %problemEntity - %name"
           description: "%name%br%brHost: %siteName%brGrid: %gridName%brLink: %gridLink%br%brPotential solutions:%br%solutions"
