@@ -62,6 +62,7 @@ notifications:
      type: "servicenow"
      schedule: "10 * * * ?"
      problemReportFrequency: 86400
+     problemResolveAfter: 86400
      minimumSeverity: 1
      filters:
        - type: dashboard
@@ -83,14 +84,26 @@ notifications:
           notify: 2
           incident_state: 1
           contact_type: "Monitoring"
-          u_reporting_method: "Monitoring"
-       duplicateRules:
-           equalFields:
-             - "short_description"
-           ltFields:
-             incident_state: 6
-           updateFields:
-             comments: "Problem persists: %name%br%brHost: %siteName%brGrid: %gridName%brLink: %gridLink%br%brPotential solutions:%br%solutions"
+          u_reporting_method: "Automation"
+      resolveFields:
+          incident_state: 6
+          comments: 'Issues has not been seen for 24 hours, resolving issue'
+      duplicateRules:
+          identityFields:
+              - short_description
+          rules:
+              #if problem in state Pending Workaround (-10) update work_notes
+              -
+               equalsFields:
+                   incident_state: -10
+               updateFields:
+                  work_notes: 'Problem persists: %name%br%brHost: %siteName%brGrid: %gridName%brLink: %gridLink%br%brPotential solutions:%br%solutions'
+              #default
+              -
+               ltFields:
+                  incident_state: 6
+               updateFields:
+                  comments: 'Problem persists: %name%br%brHost: %siteName%brGrid: %gridName%brLink: %gridLink%br%brPotential solutions:%br%solutions'
 
 ##
 # Manually defined groups
