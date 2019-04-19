@@ -9,6 +9,13 @@
       "display-name" : "ESnet"
    },
    "addresses" : {
+      "ps-dev-netlab-1.es.net" : {
+          "_meta" : {
+             "display-name" : "ps-dev-netlab-1.es.net"
+          },
+          "address" : "ps-dev-netlab-1.es.net",
+          "host" : "ps-dev-netlab-1.es.net"
+      },
       "134.197.113.17" : {
          "_meta" : {
             "display-name" : "134.197.113.17"
@@ -4142,6 +4149,13 @@
       }
    },
    "archives" : {
+      "ps-dev-netlab-1.es.net" : {
+          "archiver" : "esmond",
+          "data" : {
+             "measurement-agent" : "{% scheduled_by_address %}",
+             "url" : "http://ps-dev-netlab-1.es.net/esmond/perfsonar/archive/"
+          }
+      },
       "134.197.113.17" : {
          "archiver" : "esmond",
          "data" : {
@@ -9275,9 +9289,40 @@
             }
         ],
         "type" : "disjoint"
+     },
+     "group_netlab" : {
+        "a-addresses" : [
+           {
+              "name" : "ps-dev-netlab-1.es.net"
+           }
+        ],
+        "b-addresses" : [
+            {
+               "name" : "lbl-owamp.es.net"
+            },
+            {
+               "name" : "chic-owamp.es.net"
+            },
+            {
+               "name" : "newy-owamp.es.net"
+            },
+            {
+               "name" : "amst-owamp.es.net"
+            }
+        ],
+        "type" : "disjoint"
      }
    },
    "hosts" : {
+       "ps-dev-netlab-1.es.net" : {
+          "_meta" : {
+             "display-name" : "ps-dev-netlab-1.es.net",
+             "organization-display-name" : "ESnet"
+          },
+          "archives" : [
+             "ps-dev-netlab-1.es.net"
+          ]
+       },
       "134.197.113.17" : {
          "_meta" : {
             "display-name" : "134.197.113.17",
@@ -13648,6 +13693,17 @@
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
         },
         "group" : "group_eqx",
+        "test" : "latencybg_0"
+     },
+     "ESnet_NetLab_Packet_Loss_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet NetLab Packet Loss Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "group_netlab",
         "test" : "latencybg_0"
      }
    },
