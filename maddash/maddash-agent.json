@@ -2,6 +2,9 @@
    "remotes" : [
       {
          "url" : "https://ps-west.es.net/psconfig/esnet-psconfig.json"
+      },
+      {
+         "url" : "https://raw.githubusercontent.com/perfsonar/perfsonar-dev-mesh/master/psconfig/gridftp.json"
       }
    ],
    "grids" : {
