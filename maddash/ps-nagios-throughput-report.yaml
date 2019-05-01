@@ -1,0 +1,219 @@
+reports:
+    -
+        id: "ps-nagios-throughput_1"
+        rule:
+            type: matchFirst
+            rules:
+                - 
+                    type: rule
+                    selector:
+                        type: grid
+                    match:
+                        type: status
+                        status: 3
+                    problem:
+                        severity: 3
+                        category: CONFIGURATION
+                        message: "Grid is down" 
+                        solutions:
+                            - "If you just configured this grid in the configuration, you may just need to wait as it takes several hours for throughput data to populate (depending on the interval between tests)"
+                            - "Verify maddash is configured properly. Look in the files under /var/log/maddash/ for any errors. Things to look for are incorrect paths to checks or connection errors."
+                            - "Verify that pSConfig MaDDash Agent has run recently and you are looking at an accurate test configuration"                            
+                            - "Verify that your measurement archive(s) are running"
+                            - "Verify no firewall is blocking maddash from reaching your measurement archive(s)"
+                            - "Verify your hosts are downloading the pSConfig file and that there are tasks defined in command 'psconfig pscheduler-tasks'"
+                            - "Verify that psconfig-pscheduler-agent is running ('systemctl status psconfig-pscheduler-agent')"
+                            - "Verify your hosts are able to reach their configured measurement archive and that there are no errors in /var/log/perfsonar/psconfig-pscheduler-agent.log"                            
+                - 
+                    type: rule
+                    selector:
+                        type: grid
+                    match:
+                        type: status
+                        status: 0
+                    problem:
+                        severity: 0
+                        category: PERFORMANCE
+                        message: "Entire grid has OK status."
+                - 
+                    type: forEachSite
+                    rule:
+                        type: matchFirst
+                        rules:
+                            - 
+                                type: rule
+                                selector:
+                                    type: site
+                                match:
+                                    type: status
+                                    status: 3                        
+                                problem:
+                                    severity: 3
+                                    category: CONFIGURATION
+                                    message: "Site is down"
+                                    solutions:
+                                        - "Verify the host is up"
+                                        - "If recently added to the configuration, verify the pSConfig file has been downloaded by the end-hosts since the update. It may also take several hours for the first throughput test to run on this host."
+                                        - "If recently removed from the configuration, verify that the pSConfig MaDDash Agent has run recently and you are looking at an accurate test configuration"
+                                        - "Verify NTP is synced on this host" 
+                                        - "Verify the local and remote sites allow access to TCP port 443 and TCP/UDP port 5201"                           
+                            - 
+                                type: rule
+                                selector:
+                                    type: row
+                                match:
+                                    type: status
+                                    status: 3                        
+                                problem:
+                                    severity: 3
+                                    category: CONFIGURATION
+                                    message: "Unable to run and/or query any outgoing throughput tests."
+                                    solutions:
+                                        - "Verify you are not blocking any of the required outgoing throughput ports in your firewall"
+                                        - "Verify the remote sites allow your host to access TCP port 443 and TCP/UDP port 5201"
+                                        - "Verify the limits defined in /etc/pscheduler/limits.conf on each side are properly defined and not being exceeded by the tests"
+                            - 
+                                type: rule
+                                selector:
+                                    type: column
+                                match:
+                                    type: status
+                                    status: 3                        
+                                problem:
+                                    severity: 3
+                                    category: CONFIGURATION
+                                    message: "Unable to run and/or query any incoming throughput tests."
+                                    solutions:
+                                        - "Verify your host and router firewalls are allowing TCP port 443 and TCP/UDP port 5201"
+                                        - "Verify the limits defined in /etc/pscheduler/limits.conf are properly defined and not being exceeded by the tests"
+                            -
+                                type: rule
+                                selector:
+                                    type: site
+                                match:
+                                    type: statusWeightedThreshold
+                                    statuses: 
+                                        - 0.0
+                                        - .5
+                                        - 1.0
+                                        - -1.0
+                                    threshold: .5
+                                problem:
+                                    severity: 2
+                                    category: PERFORMANCE
+                                    message: "Throughput is below warning or critical thresholds to a majority of sites"
+                                    
+    -
+        id: "ps-nagios-throughput_2"
+        rule:
+            type: matchFirst
+            rules:
+                - 
+                    type: rule
+                    selector:
+                        type: grid
+                    match:
+                        type: status
+                        status: 3
+                    problem:
+                        severity: 3
+                        category: CONFIGURATION
+                        message: "Grid is down" 
+                        solutions:
+                            - "If you just configured this grid, you may just need to wait as it takes several hours for throughput data to populate (depending on the interval between tests)"
+                            - "Verify maddash is configured properly. Look in the files under /var/log/maddash/ for any errors. Things to look for are incorrect paths to checks or connection errors."
+                            - "Verify that the pSConfig MaDDash Agent has run recently and you are looking at an accurate test configuration"                            
+                            - "Verify that your measurement archive(s) are running"
+                            - "Verify no firewall is blocking maddash from reaching your measurement archive(s)"
+                            - "Verify your hosts are downloading the pSConfig file and that there are tasks defined in command 'psconfig pscheduler-tasks'"
+                            - "Verify that pSConfig pScheduler Agent is running ('systemctl status psconfig-pscheduler-agent')"
+                            - "Verify your hosts are able to reach their configured measurement archive and that there are no errors in /var/log/perfsonar/psconfig-pscheduler-agent.log"                            
+                - 
+                    type: rule
+                    selector:
+                        type: grid
+                    match:
+                        type: status
+                        status: 0
+                    problem:
+                        severity: 0
+                        category: PERFORMANCE
+                        message: "Entire grid has OK status."
+                - 
+                    type: forEachSite
+                    rule:
+                        type: matchFirst
+                        rules:
+                            - 
+                                type: rule
+                                selector:
+                                    type: site
+                                match:
+                                    type: status
+                                    status: 3                        
+                                problem:
+                                    severity: 3
+                                    category: CONFIGURATION
+                                    message: "Site is down"
+                                    solutions:
+                                        - "Verify the host is up"
+                                        - "Verify the local and remote sites allow access to TCP port 443 and TCP/UDP port 5201" 
+                                        - "If recently added to the configuration, verify the pSConfig file has been downloaded by the end-hosts since the update. It may also take several hours for the first BWCTL test to run on this host."
+                                        - "If recently removed from the configuration, verify that the pSConfig MaDDash Agent has run recently and you are looking at an accurate test configuration"
+                                        - "Verify NTP is synced on this host"                                                                   
+                                        - "Verify that your measurement archive(s) are running"
+                                        - "Verify no firewall is blocking maddash from reaching your measurement archive(s)"
+                                        - "Verify that pSConfig pScheduler Agent is running ('systemctl status psconfig-pscheduler-agent')"
+                                        - "Verify your hosts are able to reach their configured measurement archive and that there are no errors in /var/log/perfsonar/psconfig-pscheduler-agent.log" 
+                            - 
+                                type: matchAll
+                                rules:
+                                    - 
+                                        type: rule
+                                        selector:
+                                            type: check
+                                            rowIndex: 0
+                                            colIndex: 1
+                                        match:
+                                            type: statusThreshold
+                                            status: 3
+                                            threshold: .6
+                                        problem:
+                                            severity: 3
+                                            category: CONFIGURATION
+                                            message: "Tests are failing in the outgoing direction"
+                                            solutions:
+                                                - "Verify the local and remote sites allow access to TCP port 443 and TCP/UDP ports 5201 in their host and router firewalls"
+                                    - 
+                                        type: rule
+                                        selector:
+                                            type: check
+                                            rowIndex: 1
+                                            colIndex: 0
+                                        match:
+                                            type: statusThreshold
+                                            status: 3
+                                            threshold: .6
+                                        problem:
+                                            severity: 3
+                                            category: CONFIGURATION
+                                            message: "Tests are failing in the incoming direction"
+                                            solutions:
+                                                - "Verify the local and remote sites allow access to TCP port 443 and TCP/UDP ports 5201 in their host and router firewalls"
+                                    -
+                                        type: rule
+                                        selector:
+                                            type: site
+                                        match:
+                                            type: statusWeightedThreshold
+                                            statuses: 
+                                                - 0.0
+                                                - .5
+                                                - 1.0
+                                                - -1.0
+                                            threshold: .5
+                                        problem:
+                                            severity: 2
+                                            category: PERFORMANCE
+                                            message: "Throughput is below warning or critical thresholds to a majority of sites"
+

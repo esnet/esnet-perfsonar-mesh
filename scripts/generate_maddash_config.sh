@@ -25,5 +25,7 @@ git pull
 cp /etc/maddash/maddash-server/maddash.yaml /etc/maddash/maddash-server/maddash.yaml.bak
 cp /opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/maddash.yaml.template /etc/maddash/maddash-server/maddash.yaml
 cp /opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/maddash-agent.json /etc/perfsonar/psconfig/maddash-agent.json
+cp /opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/ps-nagios-throughput-report.yaml /etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml
+cp /opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/ps-nagios-loss-report.yaml /etc/perfsonar/psconfig/ps-nagios-loss-report.yaml
 
 #no need to restart anything as config changes picked-up automatically

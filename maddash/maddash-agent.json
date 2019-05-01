@@ -39,7 +39,7 @@
             },
             "type" : "ps-nagios-loss",
             "warning-threshold" : "0.001",
-            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
+            "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-loss-report.yaml"
          },
          "display-name" : "Loss",
          "priority" : {
@@ -59,7 +59,7 @@
             },
             "type" : "ps-nagios-throughput",
             "warning-threshold" : "0.5",
-            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
+            "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
          "priority" : {
@@ -79,7 +79,7 @@
             },
             "type" : "ps-nagios-throughput",
             "warning-threshold" : "5",
-            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
+            "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
          "priority" : {
@@ -115,7 +115,7 @@
             },
             "type" : "ps-nagios-throughput",
             "warning-threshold" : "2.5",
-            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
+            "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
          "priority" : {
@@ -143,7 +143,7 @@
             },
             "type" : "ps-nagios-throughput",
             "warning-threshold" : "0.5",
-            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
+            "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
          "priority" : {
@@ -169,7 +169,7 @@
             },
             "type" : "ps-nagios-throughput",
             "warning-threshold" : "4",
-            "report-yaml-file": "/opt/perfsonar_ps/esnet-perfsonar-mesh/maddash/reports.yaml"
+            "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
          "priority" : {
