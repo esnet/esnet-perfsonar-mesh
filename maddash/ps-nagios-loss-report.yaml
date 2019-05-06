@@ -141,7 +141,7 @@ reports:
                                         - "Verify the host allows access to TCP port 861 and port TCP/UDP 8760-9960 required for the measurement to run" 
                                         - "Look for errors in /var/log/perfsonar/psconfig-agent.log"
                                         - "Look for errors in /var/log/pscheduler/pscheduler.log"
-                            -  
+                            - 
                                 type: rule
                                 selector:
                                     type: site
