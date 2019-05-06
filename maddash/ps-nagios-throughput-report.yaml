@@ -50,42 +50,18 @@ reports:
                                 problem:
                                     severity: 3
                                     category: CONFIGURATION
-                                    message: "Site is down"
+                                    message: "Unable to find any throughput measurements"
                                     solutions:
                                         - "Verify the host is up"
-                                        - "If recently added to the configuration, verify the pSConfig file has been downloaded by the end-hosts since the update. It may also take several hours for the first throughput test to run on this host."
-                                        - "If recently removed from the configuration, verify that the pSConfig MaDDash Agent has run recently and you are looking at an accurate test configuration"
-                                        - "Verify NTP is synced on this host" 
-                                        - "Verify the local and remote sites allow access to TCP port 443 and TCP/UDP port 5201"                           
-                            - 
-                                type: rule
-                                selector:
-                                    type: row
-                                match:
-                                    type: status
-                                    status: 3                        
-                                problem:
-                                    severity: 3
-                                    category: CONFIGURATION
-                                    message: "Unable to run and/or query any outgoing throughput tests."
-                                    solutions:
-                                        - "Verify you are not blocking any of the required outgoing throughput ports in your firewall"
-                                        - "Verify the remote sites allow your host to access TCP port 443 and TCP/UDP port 5201"
-                                        - "Verify the limits defined in /etc/pscheduler/limits.conf on each side are properly defined and not being exceeded by the tests"
-                            - 
-                                type: rule
-                                selector:
-                                    type: column
-                                match:
-                                    type: status
-                                    status: 3                        
-                                problem:
-                                    severity: 3
-                                    category: CONFIGURATION
-                                    message: "Unable to run and/or query any incoming throughput tests."
-                                    solutions:
-                                        - "Verify your host and router firewalls are allowing TCP port 443 and TCP/UDP port 5201"
-                                        - "Verify the limits defined in /etc/pscheduler/limits.conf are properly defined and not being exceeded by the tests"
+                                        - "Verify that httpd is running on the host ('systemctl status httpd')"
+                                        - "Verify that cassandra is running on the host ('systemctl status cassandra')"
+                                        - "Verify that the pSConfig pScheduler Agent is running ('systemctl status psconfig-pscheduler-agent')"
+                                        - "Look for any pscheduler errors with the command 'pscheduler troubleshoot'"
+                                        - "Verify the host is pointing at the correct pSConfig template with the command 'psconfig remote list'"
+                                        - "Verify when the host last updated its measurement configuration with 'psconfig pscheduler-stats'"
+                                        - "Verify the host allows access to TCP port 443 and 5201 required for the measurement to run" 
+                                        - "Look for errors in /var/log/perfsonar/psconfig-agent.log"
+                                        - "Look for errors in /var/log/pscheduler/pscheduler.log"
                             -
                                 type: rule
                                 selector:
@@ -154,66 +130,33 @@ reports:
                                 problem:
                                     severity: 3
                                     category: CONFIGURATION
-                                    message: "Site is down"
+                                    message: "Unable to find any throughput measurements"
                                     solutions:
                                         - "Verify the host is up"
-                                        - "Verify the local and remote sites allow access to TCP port 443 and TCP/UDP port 5201" 
-                                        - "If recently added to the configuration, verify the pSConfig file has been downloaded by the end-hosts since the update. It may also take several hours for the first BWCTL test to run on this host."
-                                        - "If recently removed from the configuration, verify that the pSConfig MaDDash Agent has run recently and you are looking at an accurate test configuration"
-                                        - "Verify NTP is synced on this host"                                                                   
-                                        - "Verify that your measurement archive(s) are running"
-                                        - "Verify no firewall is blocking maddash from reaching your measurement archive(s)"
-                                        - "Verify that pSConfig pScheduler Agent is running ('systemctl status psconfig-pscheduler-agent')"
-                                        - "Verify your hosts are able to reach their configured measurement archive and that there are no errors in /var/log/perfsonar/psconfig-pscheduler-agent.log" 
-                            - 
-                                type: matchAll
-                                rules:
-                                    - 
-                                        type: rule
-                                        selector:
-                                            type: check
-                                            rowIndex: 0
-                                            colIndex: 1
-                                        match:
-                                            type: statusThreshold
-                                            status: 3
-                                            threshold: .6
-                                        problem:
-                                            severity: 3
-                                            category: CONFIGURATION
-                                            message: "Tests are failing in the outgoing direction"
-                                            solutions:
-                                                - "Verify the local and remote sites allow access to TCP port 443 and TCP/UDP ports 5201 in their host and router firewalls"
-                                    - 
-                                        type: rule
-                                        selector:
-                                            type: check
-                                            rowIndex: 1
-                                            colIndex: 0
-                                        match:
-                                            type: statusThreshold
-                                            status: 3
-                                            threshold: .6
-                                        problem:
-                                            severity: 3
-                                            category: CONFIGURATION
-                                            message: "Tests are failing in the incoming direction"
-                                            solutions:
-                                                - "Verify the local and remote sites allow access to TCP port 443 and TCP/UDP ports 5201 in their host and router firewalls"
-                                    -
-                                        type: rule
-                                        selector:
-                                            type: site
-                                        match:
-                                            type: statusWeightedThreshold
-                                            statuses: 
-                                                - 0.0
-                                                - .5
-                                                - 1.0
-                                                - -1.0
-                                            threshold: .5
-                                        problem:
-                                            severity: 2
-                                            category: PERFORMANCE
-                                            message: "Throughput is below warning or critical thresholds to a majority of sites"
+                                        - "Verify that httpd is running on the host ('systemctl status httpd')"
+                                        - "Verify that cassandra is running on the host ('systemctl status cassandra')"
+                                        - "Verify that the pSConfig pScheduler Agent is running ('systemctl status psconfig-pscheduler-agent')"
+                                        - "Look for any pscheduler errors with the command 'pscheduler troubleshoot'"
+                                        - "Verify the host is pointing at the correct pSConfig template with the command 'psconfig remote list'"
+                                        - "Verify when the host last updated its measurement configuration with 'psconfig pscheduler-stats'"
+                                        - "Verify the host allows access to TCP port 443 and 5201 required for the measurement to run" 
+                                        - "Look for errors in /var/log/perfsonar/psconfig-agent.log"
+                                        - "Look for errors in /var/log/pscheduler/pscheduler.log"
+                            -
+                                type: rule
+                                selector:
+                                    type: site
+                                match:
+                                    type: statusWeightedThreshold
+                                    statuses: 
+                                        - 0.0
+                                        - .5
+                                        - 1.0
+                                        - -1.0
+                                    threshold: .5
+                                problem:
+                                    severity: 2
+                                    category: PERFORMANCE
+                                    message: "Throughput is below warning or critical thresholds to a majority of sites"
+
 

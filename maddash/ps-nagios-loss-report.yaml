@@ -50,58 +50,34 @@ reports:
                                 problem:
                                     severity: 3
                                     category: CONFIGURATION
-                                    message: "Site is down"
+                                    message: "Unable to find any loss measurements"
                                     solutions:
                                         - "Verify the host is up"
-                                        - "If recently added to the configuration, verify the pSConfig file has been downloaded by the end-hosts since the update."
-                                        - "If recently removed from the configuration, verify that the pSConfig MaDDash Agent has run recently and you are looking at an accurate test configuration"
-                                        - "Verify the local and remote sites allow access to TCP port 861 and UDP ports 8760-9960"                           
-                            - 
+                                        - "Verify that httpd is running on the host ('systemctl status httpd')"
+                                        - "Verify that cassandra is running on the host ('systemctl status cassandra')"
+                                        - "Verify that the pSConfig pScheduler Agent is running ('systemctl status psconfig-pscheduler-agent')"
+                                        - "Look for any pscheduler errors with the command 'pscheduler troubleshoot'"
+                                        - "Verify the host is pointing at the correct pSConfig template with the command 'psconfig remote list'"
+                                        - "Verify when the host last updated its measurement configuration with 'psconfig pscheduler-stats'"
+                                        - "Verify the host allows access to TCP port 861 and port TCP/UDP 8760-9960 required for the measurement to run" 
+                                        - "Look for errors in /var/log/perfsonar/psconfig-agent.log"
+                                        - "Look for errors in /var/log/pscheduler/pscheduler.log"
+                            -
                                 type: rule
                                 selector:
-                                    type: row
+                                    type: site
                                 match:
-                                    type: status
-                                    status: 3                        
+                                    type: statusWeightedThreshold
+                                    statuses: 
+                                        - 0.0
+                                        - .5
+                                        - 1.0
+                                        - -1.0
+                                    threshold: .5
                                 problem:
-                                    severity: 3
-                                    category: CONFIGURATION
-                                    message: "Unable to run and/or query any outgoing one-way delay tests."
-                                    solutions:
-                                        - "Verify you are not blocking any of the required outgoing OWAMP ports in your firewall"
-                                        - "Verify the remote sites allow your host to access UDP ports 8760-9960"
-                            - 
-                                type: rule
-                                selector:
-                                    type: column
-                                match:
-                                    type: status
-                                    status: 3                        
-                                problem:
-                                    severity: 3
-                                    category: CONFIGURATION
-                                    message: "Unable to run and/or query any incoming one-way delay tests."
-                                    solutions:
-                                        - "Verify your host and router firewalls are allowing UDP ports 8760-9960"
-                            - 
-                                type: matchAll
-                                rules:
-                                    -
-                                        type: rule
-                                        selector:
-                                            type: site
-                                        match:
-                                            type: statusWeightedThreshold
-                                            statuses: 
-                                                - 0.0
-                                                - .5
-                                                - 1.0
-                                                - -1.0
-                                            threshold: .5
-                                        problem:
-                                            severity: 2
-                                            category: PERFORMANCE
-                                            message: "Loss is above warning or critical thresholds to a majority of sites"
+                                    severity: 2
+                                    category: PERFORMANCE
+                                    message: "Loss is above warning or critical thresholds to a majority of sites"
     -
         id: "ps-nagios-loss_2"
         rule:
@@ -153,66 +129,32 @@ reports:
                                 problem:
                                     severity: 3
                                     category: CONFIGURATION
-                                    message: "Site is down"
+                                    message: "Unable to find any loss measurements"
                                     solutions:
                                         - "Verify the host is up"
-                                        - "Verify the local and remote sites allow access to TCP port 861 and UDP ports 8760-9960 through their host and router firewalls" 
-                                        - "If recently added to the configuration, verify the pSConfig file has been downloaded by the end-hosts since the update."
-                                        - "If recently removed from the configuration, verify that the pSConfig MaDDash Agent has run recently and you are looking at an accurate test configuration"
-                                        - "Verify NTP is synced on this host"                                                                   
-                                        - "Verify that your measurement archive(s) are running"
-                                        - "Verify no firewall is blocking maddash from reaching your measurement archive(s)"
-                                        - "Verify that pSConfig pScheduler Agent is running ('systemctl status psconfig-pscheduler-agent')"
-                                        - "Verify your hosts are able to reach their configured measurement archive and that there are no errors in /var/log/perfsonar/psconfig-pscheduler-agent.log" 
-                            - 
-                                type: matchAll
-                                rules:                                    
-                                    - 
-                                        type: rule
-                                        selector:
-                                            type: check
-                                            rowIndex: 0
-                                            colIndex: 1
-                                        match:
-                                            type: statusThreshold
-                                            status: 3
-                                            threshold: .6
-                                        problem:
-                                            severity: 3
-                                            category: CONFIGURATION
-                                            message: "Tests are failing in the outgoing direction"
-                                            solutions:
-                                                - "Verify the local and remote sites allow access to TCP port 861 and UDP ports 8760-9960 in their host and router firewalls"
-                                    - 
-                                        type: rule
-                                        selector:
-                                            type: check
-                                            rowIndex: 1
-                                            colIndex: 0
-                                        match:
-                                            type: statusThreshold
-                                            status: 3
-                                            threshold: .6
-                                        problem:
-                                            severity: 3
-                                            category: CONFIGURATION
-                                            message: "Tests are failing in the incoming direction"
-                                            solutions:
-                                                - "Verify the local and remote sites allow access to TCP port 861 and UDP ports 8760-9960 in their host and router firewalls"
-                                    -
-                                        type: rule
-                                        selector:
-                                            type: site
-                                        match:
-                                            type: statusWeightedThreshold
-                                            statuses: 
-                                                - 0.0
-                                                - .5
-                                                - 1.0
-                                                - -1.0
-                                            threshold: .5
-                                        problem:
-                                            severity: 2
-                                            category: PERFORMANCE
-                                            message: "Loss is above warning or critical thresholds to a majority of sites"
+                                        - "Verify that httpd is running on the host ('systemctl status httpd')"
+                                        - "Verify that cassandra is running on the host ('systemctl status cassandra')"
+                                        - "Verify that the pSConfig pScheduler Agent is running ('systemctl status psconfig-pscheduler-agent')"
+                                        - "Look for any pscheduler errors with the command 'pscheduler troubleshoot'"
+                                        - "Verify the host is pointing at the correct pSConfig template with the command 'psconfig remote list'"
+                                        - "Verify when the host last updated its measurement configuration with 'psconfig pscheduler-stats'"
+                                        - "Verify the host allows access to TCP port 861 and port TCP/UDP 8760-9960 required for the measurement to run" 
+                                        - "Look for errors in /var/log/perfsonar/psconfig-agent.log"
+                                        - "Look for errors in /var/log/pscheduler/pscheduler.log"
+                            -  
+                                type: rule
+                                selector:
+                                    type: site
+                                match:
+                                    type: statusWeightedThreshold
+                                    statuses: 
+                                        - 0.0
+                                        - .5
+                                        - 1.0
+                                        - -1.0
+                                    threshold: .5
+                                problem:
+                                    severity: 2
+                                    category: PERFORMANCE
+                                    message: "Loss is above warning or critical thresholds to a majority of sites"
 
