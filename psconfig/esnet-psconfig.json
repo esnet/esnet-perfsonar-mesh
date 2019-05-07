@@ -336,7 +336,8 @@
       },
       "amst-owamp.es.net__backup" : {
          "_meta" : {
-            "display-name" : "amst-owamp.es.net"
+            "display-name" : "amst-owamp.es.net",
+            "display-set" : "amst_backup"
          },
          "remote-addresses": { 
              "bost-owamp.es.net__backup": {
@@ -364,7 +365,8 @@
       },
       "amst-pt1.es.net__backup" : {
          "_meta" : {
-            "display-name" : "amst-pt1.es.net"
+            "display-name" : "amst-pt1.es.net",
+            "display-set" : "amst_backup"
          },
          "remote-addresses": { 
              "bost-pt1.es.net__backup": {
@@ -438,7 +440,8 @@
       },
       "aofa-owamp.es.net__aqua" : {
          "_meta" : {
-            "display-name" : "aofa-owamp.es.net (Aqua Comms)"
+            "display-name" : "aofa-owamp.es.net (Aqua Comms)",
+            "display-set" : "aofa_aqua"
          },
          "remote-addresses": {
              "lond-owamp.es.net__aqua": {
@@ -450,7 +453,8 @@
       },
       "aofa-owamp.es.net__neaar" : {
          "_meta" : {
-            "display-name" : "aofa-owamp.es.net (NEAAR)"
+            "display-name" : "aofa-owamp.es.net (NEAAR)",
+            "display-set" : "aofa_neaar"
          },
          "remote-addresses": { 
              "lond-owamp.es.net__neaar": {
@@ -478,7 +482,8 @@
       },
       "aofa-pt1.es.net__aqua" : {
          "_meta" : {
-            "display-name" : "aofa-pt1.es.net (Aqua Comms)"
+            "display-name" : "aofa-pt1.es.net (Aqua Comms)",
+            "display-set" : "aofa_aqua"
          },
          "remote-addresses": { 
              "lond-pt1.es.net__aqua": {
@@ -490,7 +495,8 @@
       },
       "aofa-pt1.es.net__neaar" : {
          "_meta" : {
-            "display-name" : "aofa-pt1.es.net (NEAAR)"
+            "display-name" : "aofa-pt1.es.net (NEAAR)",
+            "display-set" : "aofa_neaar"
          },
          "remote-addresses": { 
              "lond-pt1.es.net__neaar": {
@@ -596,7 +602,8 @@
       },
       "bost-owamp.es.net__backup" : {
          "_meta" : {
-            "display-name" : "bost-owamp.es.net"
+            "display-name" : "bost-owamp.es.net",
+            "display-set" : "bost_backup"
          },
          "remote-addresses": { 
              "amst-owamp.es.net__backup": {
@@ -624,7 +631,8 @@
       },
       "bost-pt1.es.net__backup" : {
          "_meta" : {
-            "display-name" : "bost-pt1.es.net"
+            "display-name" : "bost-pt1.es.net",
+            "display-set" : "bost_backup"
          },
          "remote-addresses": { 
              "amst-pt1.es.net__backup": {
@@ -708,7 +716,8 @@
       },
       "cern-513-owamp.es.net__backup" : {
          "_meta" : {
-            "display-name" : "cern-513-owamp.es.net"
+            "display-name" : "cern-513-owamp.es.net",
+            "display-set" : "cern-513_backup"
          },
          "remote-addresses": { 
              "wash-owamp.es.net__backup": {
@@ -736,7 +745,8 @@
       },
       "cern-513-pt1.es.net__backup" : {
          "_meta" : {
-            "display-name" : "cern-513-pt1.es.net"
+            "display-name" : "cern-513-pt1.es.net",
+            "display-set" : "cern-513_backup"
          },
          "remote-addresses": { 
              "wash-pt1.es.net__backup": {
@@ -1271,7 +1281,8 @@
       },
       "ga-owamp.es.net__backup" : {
          "_meta" : {
-            "display-name" : "ga-owamp.es.net"
+            "display-name" : "ga-owamp.es.net",
+            "display-set" : "ga_backup"
          },
          "remote-addresses": { 
              "lsvn-owamp.es.net__backup": {
@@ -1299,7 +1310,8 @@
       },
       "ga-pt1.es.net__backup" : {
          "_meta" : {
-            "display-name" : "ga-pt1.es.net"
+            "display-name" : "ga-pt1.es.net",
+            "display-set" : "ga_backup"
          },
          "remote-addresses": { 
              "lsvn-pt1.es.net__backup": {
@@ -1675,7 +1687,8 @@
       },
       "lsvn-owamp.es.net__backup" : {
          "_meta" : {
-            "display-name" : "lsvn-owamp.es.net"
+            "display-name" : "lsvn-owamp.es.net",
+            "display-set" : "lsvn_backup"
          },
          "remote-addresses": { 
              "ga-owamp.es.net__backup": {
@@ -1703,7 +1716,8 @@
       },
       "lsvn-pt1.es.net__backup" : {
          "_meta" : {
-            "display-name" : "lsvn-pt1.es.net"
+            "display-name" : "lsvn-pt1.es.net",
+            "display-set" : "lsvn_backup"
          },
          "remote-addresses": { 
              "ga-pt1.es.net__backup": {
@@ -2035,7 +2049,8 @@
       },
       "newy-owamp.es.net__backup" : {
          "_meta" : {
-            "display-name" : "newy-owamp.es.net"
+            "display-name" : "newy-owamp.es.net",
+            "display-set" : "newy_backup"
          },
          "remote-addresses": { 
              "lond-owamp.es.net__backup": {
@@ -2063,7 +2078,8 @@
       },
       "newy-pt1.es.net__backup" : {
          "_meta" : {
-            "display-name" : "newy-pt1.es.net"
+            "display-name" : "newy-pt1.es.net",
+            "display-set" : "newy_backup"
          },
          "remote-addresses": { 
              "lond-pt1.es.net__backup": {
@@ -4095,7 +4111,8 @@
       },
       "wash-owamp.es.net__backup" : {
          "_meta" : {
-            "display-name" : "wash-owamp.es.net"
+            "display-name" : "wash-owamp.es.net",
+            "display-set" : "wash_backup"
          },
          "remote-addresses": { 
              "cern-513-owamp.es.net__backup": {
@@ -4123,7 +4140,8 @@
       },
       "wash-pt1.es.net__backup" : {
          "_meta" : {
-            "display-name" : "wash-pt1.es.net"
+            "display-name" : "wash-pt1.es.net",
+            "display-set" : "wash_backup"
          },
          "remote-addresses": { 
              "cern-513-pt1.es.net__backup": {
