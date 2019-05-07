@@ -6833,9 +6833,6 @@
       "group_3" : {
          "a-addresses" : [
             {
-               "name" : "perfsonar.ascr.doe.gov"
-            },
-            {
                "name" : "doe-gtn-pt1.es.net"
             },
             {
@@ -6873,6 +6870,9 @@
             },
             {
                "name" : "srs-pt1.es.net"
+            },
+            {
+               "name" : "perfsonar.ascr.doe.gov"
             }
          ],
          "b-addresses" : [
