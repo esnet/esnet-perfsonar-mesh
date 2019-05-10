@@ -7772,9 +7772,6 @@
             },
             {
                "name" : "perfsonar-hpc.ipsl.upmc.fr"
-            },
-            {
-               "name" : "psmp-gn-owd-01-fra-de.geant.net"
             }
          ],
          "b-addresses" : [
@@ -8156,9 +8153,6 @@
             },
             {
                "name" : "pantex-pt1.es.net"
-            },
-            {
-               "name" : "ps-40g-prism.calit2.optiputer.net"
             },
             {
                "name" : "fiona-40g.ucsc.edu"
