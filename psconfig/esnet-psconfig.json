@@ -9,6 +9,24 @@
       "display-name" : "ESnet"
    },
    "addresses" : {
+       "psonar-bw.hpc.osc.edu" : {
+           "_meta" : {
+              "display-name" : "psonar-bw.hpc.osc.edu",
+              "display-set" : "psonar-bw.hpc.osc.edu"
+           },
+           "address" : "psonar-bw.hpc.osc.edu",
+           "host" : "psonar-bw.hpc.osc.edu",
+           "no-agent" : true
+       },
+       "psonar-lat.hpc.osc.edu" : {
+           "_meta" : {
+              "display-name" : "psonar-lat.hpc.osc.edu",
+              "display-set" : "psonar-bw.hpc.osc.edu"
+           },
+           "address" : "psonar-lat.hpc.osc.edu",
+           "host" : "psonar-bw.hpc.osc.edu",
+           "no-agent" : true
+       },
       "ps-dev-netlab-1.es.net" : {
           "_meta" : {
              "display-name" : "ps-dev-netlab-1.es.net"
@@ -7087,6 +7105,9 @@
             },
             {
                "name" : "ps-bandwidth.hepnetcanada.ca"
+            },
+            {
+               "name": "psonar-bw.hpc.osc.edu"
             }
          ],
          "b-addresses" : [
@@ -7154,6 +7175,9 @@
             },
             {
                "name" : "ps-latency.hepnetcanada.ca"
+            },
+            {
+               "name": "psonar-lat.hpc.osc.edu"
             }
          ],
          "b-addresses" : [
@@ -9206,6 +9230,12 @@
      }
    },
    "hosts" : {
+       "psonar-bw.hpc.osc.edu" : {
+          "_meta" : {
+             "display-name" : "psonar-bw.hpc.osc.edu",
+             "organization-display-name" : "Ohio Supercomputer Center"
+          }
+       },
        "ps-dev-netlab-1.es.net" : {
           "_meta" : {
              "display-name" : "ps-dev-netlab-1.es.net",
