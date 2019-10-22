@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #move to script direcory
-cd /opt/perfsonar_ps/esnet-perfsonar-mesh/conf
+cd /opt/perfsonar_ps/esnet-perfsonar-mesh/psconfig
 
 #compare revisions unless we want to force an update
 if [ "$1" != "force" ]; then
@@ -22,6 +22,5 @@ fi
 git pull
 
 #copy psconfig files
-cd ../psconfig
 mkdir -p /var/www/html/psconfig
 cp -f *.json /var/www/html/psconfig/
