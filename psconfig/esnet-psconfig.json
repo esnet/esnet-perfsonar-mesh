@@ -533,12 +533,12 @@
          "address" : "bcdc-gw-40g-ps.gatech.edu",
          "host" : "bcdc-gw-40g-ps.gatech.edu"
       },
-      "beep.llnl.gov" : {
+      "perfsonar.llnl.gov" : {
          "_meta" : {
-            "display-name" : "beep.llnl.gov"
+            "display-name" : "perfsonar.llnl.gov"
          },
-         "address" : "beep.llnl.gov",
-         "host" : "beep.llnl.gov"
+         "address" : "perfsonar.llnl.gov",
+         "host" : "perfsonar.llnl.gov"
       },
       "bois-owamp-v6.es.net" : {
          "_meta" : {
@@ -4380,11 +4380,11 @@
             "url" : "http://bcdc-gw-40g-ps.gatech.edu/esmond/perfsonar/archive/"
          }
       },
-      "beep.llnl.gov" : {
+      "perfsonar.llnl.gov" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://beep.llnl.gov/esmond/perfsonar/archive/"
+            "url" : "http://perfsonar.llnl.gov/esmond/perfsonar/archive/"
          }
       },
       "bois-pt1.es.net" : {
@@ -7434,7 +7434,7 @@
                "name" : "ps-bandwidth.hep.pnnl.gov"
             },
             {
-               "name" : "beep.llnl.gov"
+               "name" : "perfsonar.llnl.gov"
             },
             {
                "name" : "psnr-farm10.slac.stanford.edu"
@@ -7492,7 +7492,7 @@
                "name" : "psonar6.fnal.gov"
             },
             {
-               "name" : "beep.llnl.gov"
+               "name" : "perfsonar.llnl.gov"
             },
             {
                "name" : "psnr-farm10.slac.stanford.edu"
@@ -7680,7 +7680,7 @@
       "group_22" : {
          "a-addresses" : [
             {
-               "name" : "beep.llnl.gov"
+               "name" : "perfsonar.llnl.gov"
             },
             {
                "name" : "perfsonar.dkrz.de"
@@ -7753,7 +7753,7 @@
       "group_23" : {
          "a-addresses" : [
             {
-               "name" : "beep.llnl.gov"
+               "name" : "perfsonar.llnl.gov"
             },
             {
                "name" : "perfsonar.dkrz.de"
@@ -9670,13 +9670,13 @@
          ],
          "no-agent" : true
       },
-      "beep.llnl.gov" : {
+      "perfsonar.llnl.gov" : {
          "_meta" : {
-            "display-name" : "beep.llnl.gov",
+            "display-name" : "perfsonar.llnl.gov",
             "organization-display-name" : "LLNL"
          },
          "archives" : [
-            "beep.llnl.gov"
+            "perfsonar.llnl.gov"
          ],
          "no-agent" : true
       },
