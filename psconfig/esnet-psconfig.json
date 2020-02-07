@@ -1786,38 +1786,6 @@
          "address" : "ndt.itcc.unc.edu",
          "host" : "ndt.itcc.unc.edu"
       },
-      "nersc-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "nersc-owamp.es.net",
-            "display-set" : "nersc"
-         },
-         "address" : "nersc-owamp-v6.es.net",
-         "host" : "nersc-pt1.es.net"
-      },
-      "nersc-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "nersc-owamp.es.net",
-            "display-set" : "nersc"
-         },
-         "address" : "nersc-owamp.es.net",
-         "host" : "nersc-pt1.es.net"
-      },
-      "nersc-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "nersc-pt1.es.net",
-            "display-set" : "nersc"
-         },
-         "address" : "nersc-pt1-v6.es.net",
-         "host" : "nersc-pt1.es.net"
-      },
-      "nersc-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "nersc-pt1.es.net",
-            "display-set" : "nersc"
-         },
-         "address" : "nersc-pt1.es.net",
-         "host" : "nersc-pt1.es.net"
-      },
       "netl-mgn-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "netl-mgn-owamp.es.net",
@@ -4933,13 +4901,6 @@
             "url" : "http://ndt.itcc.unc.edu/esmond/perfsonar/archive/"
          }
       },
-      "nersc-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://nersc-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "netl-mgn-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6660,9 +6621,6 @@
                "name" : "east-dc-pt1.es.net"
             },
             {
-               "name" : "nersc-pt1.es.net"
-            },
-            {
                "name" : "fnal-pt1.es.net"
             },
             {
@@ -6850,9 +6808,6 @@
             },
             {
                "name" : "nash-owamp.es.net"
-            },
-            {
-               "name" : "nersc-owamp.es.net"
             },
             {
                "name" : "newy-owamp.es.net"
@@ -7505,9 +7460,6 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "nersc-owamp.es.net"
-            },
             {
                "name" : "star-owamp.es.net"
             },
@@ -8349,9 +8301,6 @@
          ],
          "b-addresses" : [
             {
-               "name" : "nersc-pt1.es.net"
-            },
-            {
                "name" : "fnal-pt1.es.net"
             },
             {
@@ -8464,9 +8413,6 @@
          ],
          "b-addresses" : [
             {
-               "name" : "nersc-owamp.es.net"
-            },
-            {
                "name" : "fnal-owamp.es.net"
             },
             {
@@ -8508,9 +8454,6 @@
             },
             {
                "name" : "pnwg-pt1.es.net"
-            },
-            {
-               "name" : "nersc-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -8542,9 +8485,6 @@
             },
             {
                "name" : "pnwg-owamp.es.net"
-            },
-            {
-               "name" : "nersc-owamp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -10468,15 +10408,6 @@
             "ndt.itcc.unc.edu"
          ],
          "no-agent" : true
-      },
-      "nersc-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "nersc-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "nersc-pt1.es.net"
-         ]
       },
       "netl-mgn-pt1.es.net" : {
          "_meta" : {
