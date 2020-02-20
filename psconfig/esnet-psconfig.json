@@ -2517,13 +2517,6 @@
          "address" : "perfsonar-vm01.jc.rl.ac.uk",
          "host" : "perfsonar-vm01.jc.rl.ac.uk"
       },
-      "perfsonar.ascr.doe.gov" : {
-         "_meta" : {
-            "display-name" : "perfsonar.ascr.doe.gov"
-         },
-         "address" : "perfsonar.ascr.doe.gov",
-         "host" : "perfsonar.ascr.doe.gov"
-      },
       "perfsonar.caltech.net" : {
          "_meta" : {
             "display-name" : "perfsonar.caltech.net"
@@ -5363,13 +5356,6 @@
             "url" : "http://perfsonar-vm01.jc.rl.ac.uk/esmond/perfsonar/archive/"
          }
       },
-      "perfsonar.ascr.doe.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar.ascr.doe.gov/esmond/perfsonar/archive/"
-         }
-      },
       "perfsonar.caltech.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6744,9 +6730,6 @@
             },
             {
                "name" : "srs-pt1.es.net"
-            },
-            {
-               "name" : "perfsonar.ascr.doe.gov"
             }
          ],
          "b-addresses" : [
@@ -6946,9 +6929,6 @@
       },
       "group_9" : {
          "a-addresses" : [
-            {
-               "name" : "perfsonar.ascr.doe.gov"
-            },
             {
                "name" : "doe-gtn-pt1.es.net"
             },
@@ -11095,16 +11075,6 @@
          },
          "archives" : [
             "perfsonar-vm01.jc.rl.ac.uk"
-         ],
-         "no-agent" : true
-      },
-      "perfsonar.ascr.doe.gov" : {
-         "_meta" : {
-            "display-name" : "perfsonar.ascr.doe.gov",
-            "organization-display-name" : "DOE ASCR"
-         },
-         "archives" : [
-            "perfsonar.ascr.doe.gov"
          ],
          "no-agent" : true
       },
