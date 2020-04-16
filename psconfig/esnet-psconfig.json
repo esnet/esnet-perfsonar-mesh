@@ -9,6 +9,14 @@
       "display-name" : "ESnet"
    },
    "addresses" : {
+       "doenetoro-pt1.es.net" : {
+           "_meta" : {
+              "display-name" : "doenetoro-pt1.es.net",
+              "display-set" : "doenetoro-pt1.es.net"
+           },
+           "address" : "doenetoro-pt1.es.net",
+           "host" : "doenetoro-pt1.es.net"
+       },
        "psonar-bw.hpc.osc.edu" : {
            "_meta" : {
               "display-name" : "psonar-bw.hpc.osc.edu",
@@ -9147,9 +9155,31 @@
             }
         ],
         "type" : "disjoint"
-     }
+    },
+    "group_doenetoro" : {
+       "a-addresses" : [
+          {
+             "name" : "doenetoro-pt1.es.net"
+          }
+       ],
+       "b-addresses" : [
+           {
+              "name" : "albq-owamp.es.net"
+           },
+           {
+              "name" : "wash-owamp.es.net"
+           }
+       ],
+       "type" : "disjoint"
+    }
    },
    "hosts" : {
+      "doenetoro-pt1.es.net" : {
+          "_meta" : {
+             "display-name" : "doenetoro-pt1.es.net",
+             "organization-display-name" : "ESnet"
+          }
+      },
        "psonar-bw.hpc.osc.edu" : {
           "_meta" : {
              "display-name" : "psonar-bw.hpc.osc.edu",
@@ -13527,6 +13557,17 @@
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
         },
         "group" : "group_netlab",
+        "test" : "latencybg_0"
+     },
+     "DOENET_ORO_Packet_Loss_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet DOENet Oro Packet Loss Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "group_doenetoro",
         "test" : "latencybg_0"
      }
    },
