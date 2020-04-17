@@ -13579,7 +13579,19 @@
         },
         "group" : "group_doenetoro",
         "test" : "latencybg_0"
-     }
+    },
+    "DOENET_ORO_Throughput_Testing" : {
+       "_meta" : {
+          "display-name" : "ESnet DOENet Oro Throughput Testing"
+       },
+       "reference": {
+          "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+          "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+       },
+       "group" : "group_doenetoro",
+       "test" : "throughput_0",
+       "schedule": "schedule_0"
+    }
    },
    "tests" : {
       "latencybg_0" : {
