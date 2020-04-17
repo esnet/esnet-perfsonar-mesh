@@ -4034,6 +4034,13 @@
       }
    },
    "archives" : {
+      "doenetoro-pt1.es.net" : {
+           "archiver" : "esmond",
+           "data" : {
+              "measurement-agent" : "{% scheduled_by_address %}",
+              "url" : "http://doenetoro-pt1.es.net:8085/esmond/perfsonar/archive/"
+           }
+      },
       "ps-dev-netlab-1.es.net" : {
           "archiver" : "esmond",
           "data" : {
@@ -9178,7 +9185,10 @@
           "_meta" : {
              "display-name" : "doenetoro-pt1.es.net",
              "organization-display-name" : "ESnet"
-          }
+          },
+          "archives" : [
+             "doenetoro-pt1.es.net"
+          ]
       },
        "psonar-bw.hpc.osc.edu" : {
           "_meta" : {
