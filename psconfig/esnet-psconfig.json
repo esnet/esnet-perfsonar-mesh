@@ -9163,7 +9163,7 @@
         ],
         "type" : "disjoint"
     },
-    "group_doenetoro" : {
+    "group_doenetoro_owamp" : {
        "a-addresses" : [
           {
              "name" : "doenetoro-pt1.es.net"
@@ -9174,10 +9174,26 @@
               "name" : "albq-owamp.es.net"
            },
            {
-              "name" : "wash-owamp.es.net"
+              "name" : "doe-gtn-owamp.es.net"
            }
        ],
        "type" : "disjoint"
+   },
+   "group_doenetoro_pt1" : {
+      "a-addresses" : [
+         {
+            "name" : "doenetoro-pt1.es.net"
+         }
+      ],
+      "b-addresses" : [
+          {
+             "name" : "albq-pt1.es.net"
+          },
+          {
+             "name" : "doe-gtn-pt1.es.net"
+          }
+      ],
+      "type" : "disjoint"
     }
    },
    "hosts" : {
@@ -13577,7 +13593,7 @@
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
         },
-        "group" : "group_doenetoro",
+        "group" : "group_doenetoro_owamp",
         "test" : "latencybg_0"
     },
     "DOENET_ORO_Throughput_Testing" : {
@@ -13588,7 +13604,7 @@
           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
        },
-       "group" : "group_doenetoro",
+       "group" : "group_doenetoro_pt1",
        "test" : "throughput_0",
        "schedule": "schedule_0"
     }
