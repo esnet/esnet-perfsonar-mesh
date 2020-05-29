@@ -9,6 +9,15 @@
       "display-name" : "ESnet"
    },
    "addresses" : {
+       "perfsonar.luxzeplin.org" : {
+           "_meta" : {
+              "display-name" : "perfsonar.luxzeplin.org",
+              "display-set" : "perfsonar.luxzeplin.org"
+           },
+           "address" : "perfsonar.luxzeplin.org",
+           "host" : "perfsonar.luxzeplin.org",
+           "no-agent" : true
+       },
        "doenetoro-pt1.es.net" : {
            "_meta" : {
               "display-name" : "doenetoro-pt1.es.net",
@@ -7058,6 +7067,9 @@
             },
             {
                "name": "psonar-bw.hpc.osc.edu"
+            },
+            {
+               "name": "perfsonar.luxzeplin.org"
             }
          ],
          "b-addresses" : [
@@ -7128,6 +7140,9 @@
             },
             {
                "name": "psonar-lat.hpc.osc.edu"
+            },
+            {
+               "name": "perfsonar.luxzeplin.org"
             }
          ],
          "b-addresses" : [
