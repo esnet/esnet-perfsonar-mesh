@@ -15,7 +15,6 @@
               "display-set" : "perfsonar.luxzeplin.org"
            },
            "address" : "perfsonar.luxzeplin.org",
-           "host" : "perfsonar.luxzeplin.org",
            "no-agent" : true
        },
        "doenetoro-pt1.es.net" : {
@@ -3158,12 +3157,21 @@
          "address" : "ps-lax-owamp.cenic.net",
          "host" : "ps-lax-owamp.cenic.net"
       },
-      "ps-londhx1.ja.net" : {
+      "ps-slough-1g.ja.net" : {
          "_meta" : {
-            "display-name" : "ps-londhx1.ja.net"
+            "display-name" : "ps-slough-1g.ja.net",
+            "display-set" : "ps-slough.ja.net"
          },
-         "address" : "ps-londhx1.ja.net",
-         "host" : "ps-londhx1.ja.net"
+         "address" : "ps-slough-1g.ja.net",
+         "host" : "ps-slough-1g.ja.net"
+      },
+      "ps-slough-10g.ja.net" : {
+         "_meta" : {
+            "display-name" : "ps-slough-10g.ja.net",
+            "display-set" : "ps-slough.ja.net"
+         },
+         "address" : "ps-slough-10g.ja.net",
+         "host" : "ps-slough-10g.ja.net"
       },
       "ps-lt.ampath.ampath.net" : {
          "_meta" : {
@@ -5954,13 +5962,6 @@
             "url" : "http://ps-lax-dc-owamp.cenic.net/esmond/perfsonar/archive/"
          }
       },
-      "ps-londhx1.ja.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-londhx1.ja.net/esmond/perfsonar/archive/"
-         }
-      },
       "ps-lt.ampath.ampath.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -8216,7 +8217,7 @@
       "group_33" : {
          "a-addresses" : [
             {
-               "name" : "ps-londhx1.ja.net"
+               "name" : "ps-slough-10g.ja.net"
             },
             {
                "name" : "ams-hbn-10g.perfsonar.ac.za"
@@ -8328,7 +8329,7 @@
       "group_34" : {
          "a-addresses" : [
             {
-               "name" : "ps-londhx1.ja.net"
+               "name" : "ps-slough-1g.ja.net"
             },
             {
                "name" : "ams-hbn-1g.perfsonar.ac.za"
@@ -11978,15 +11979,20 @@
          ],
          "no-agent" : true
       },
-      "ps-londhx1.ja.net" : {
+      "ps-slough-1g.ja.net" : {
          "_meta" : {
-            "display-name" : "ps-londhx1.ja.net",
+            "display-name" : "ps-slough-1g.ja.net",
             "organization-display-name" : "JAnet",
             "site-display-name" : "RENCI"
          },
-         "archives" : [
-            "ps-londhx1.ja.net"
-         ],
+         "no-agent" : true
+      },
+      "ps-slough-10g.ja.net" : {
+         "_meta" : {
+            "display-name" : "ps-slough-10g.ja.net",
+            "organization-display-name" : "JAnet",
+            "site-display-name" : "RENCI"
+         },
          "no-agent" : true
       },
       "ps-lsan-10g02.pacificwave.net" : {
