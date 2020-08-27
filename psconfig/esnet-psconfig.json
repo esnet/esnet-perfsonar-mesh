@@ -9,6 +9,22 @@
       "display-name" : "ESnet"
    },
    "addresses" : {
+      "perfsonar1.alaska.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar1.alaska.edu",
+            "display-set" : "perfsonar.alaska.edu"
+         },
+         "address" : "perfsonar1.alaska.edu",
+         "no-agent" : true
+     },
+     "perfsonar2.alaska.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar2.alaska.edu",
+            "display-set" : "perfsonar.alaska.edu"
+         },
+         "address" : "perfsonar2.alaska.edu",
+         "no-agent" : true
+      },
        "perfsonar.luxzeplin.org" : {
            "_meta" : {
               "display-name" : "perfsonar.luxzeplin.org",
@@ -7643,6 +7659,12 @@
       "group_22" : {
          "a-addresses" : [
             {
+               "name" : "perfsonar1.alaska.edu"
+            },
+            {
+               "name" : "perfsonar2.alaska.edu"
+            },
+            {
                "name" : "perfsonar.llnl.gov"
             },
             {
@@ -7715,6 +7737,12 @@
       },
       "group_23" : {
          "a-addresses" : [
+            {
+               "name" : "perfsonar1.alaska.edu"
+            },
+            {
+               "name" : "perfsonar2.alaska.edu"
+            },
             {
                "name" : "perfsonar.llnl.gov"
             },
