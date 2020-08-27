@@ -13313,9 +13313,9 @@
          "schedule" : "schedule_1",
          "test" : "trace_0"
       },
-      "ESnet_to_ICNWG_Site_Packet_Loss_Testing" : {
+      "ESnet_to_ESGF_Site_Packet_Loss_Testing" : {
          "_meta" : {
-            "display-name" : "ESnet to ICNWG Site Packet Loss Testing"
+            "display-name" : "ESnet to ESGF Site Packet Loss Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -13324,9 +13324,9 @@
          "group" : "group_23",
          "test" : "latencybg_0"
       },
-      "ESnet_to_ICNWG_Site_Throughput_Testing" : {
+      "ESnet_to_ESGF_Site_Throughput_Testing" : {
          "_meta" : {
-            "display-name" : "ESnet to ICNWG Site Throughput Testing"
+            "display-name" : "ESnet to ESGF Site Throughput Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -13340,9 +13340,9 @@
             "iperf3"
          ]
       },
-      "ESnet_to_ICNWG_Site_Traceroute_Measurements" : {
+      "ESnet_to_ESGF_Site_Traceroute_Measurements" : {
          "_meta" : {
-            "display-name" : "ESnet to ICNWG Site Traceroute Measurements"
+            "display-name" : "ESnet to ESGF Site Traceroute Measurements"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
