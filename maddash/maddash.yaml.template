@@ -162,10 +162,10 @@ dashboards:
      grids:
        - name: "ESnet - ESnet to International Throughput Testing - Throughput"
        - name: "ESnet - ESnet to International Packet Loss Testing - Loss"
-   - name: "7: ESnet to ICNWG Sites"
+   - name: "7: ESnet to ESGF Sites"
      grids:
-       - name: "ESnet - ESnet to ICNWG Site Packet Loss Testing - Loss" 
-       - name: "ESnet - ESnet to ICNWG Site Throughput Testing - Throughput"
+       - name: "ESnet - ESnet to ESGF Site Packet Loss Testing - Loss" 
+       - name: "ESnet - ESnet to ESGF Site Throughput Testing - Throughput"
    - name: "8: ESnet to GA-EAST"
      grids:
        - name: "ESnet - ESnet to GA-EAST IPv4 Throughput Testing - Throughput"
