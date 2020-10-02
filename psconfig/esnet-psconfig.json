@@ -2654,12 +2654,12 @@
          "address" : "perfsonar.nchc.org.tw",
          "host" : "perfsonar.nchc.org.tw"
       },
-      "perfsonar.nersc.gov" : {
+      "ps-lat.nersc.gov" : {
          "_meta" : {
-            "display-name" : "perfsonar.nersc.gov"
+            "display-name" : "ps-lat.nersc.gov"
          },
-         "address" : "perfsonar.nersc.gov",
-         "host" : "perfsonar.nersc.gov"
+         "address" : "ps-lat.nersc.gov",
+         "host" : "ps-lat.nersc.gov"
       },
       "perfsonar.net.cmu.edu" : {
          "_meta" : {
@@ -2815,12 +2815,12 @@
          "address" : "perfsonar1-rain.rc.pdx.edu",
          "host" : "perfsonar1-rain.rc.pdx.edu"
       },
-      "perfsonar1.ccs.ornl.gov" : {
+      "128.219.141.59" : {
          "_meta" : {
-            "display-name" : "perfsonar1.ccs.ornl.gov"
+            "display-name" : "perfsonar.ccs.ornl.gov"
          },
-         "address" : "perfsonar1.ccs.ornl.gov",
-         "host" : "perfsonar1.ccs.ornl.gov"
+         "address" : "128.219.141.59",
+         "host" : "128.219.141.59"
       },
       "perfsonar1.icepp.jp" : {
          "_meta" : {
@@ -5509,11 +5509,11 @@
             "url" : "http://perfsonar.nchc.org.tw/esmond/perfsonar/archive/"
          }
       },
-      "perfsonar.nersc.gov" : {
+      "ps-lat.nersc.gov" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar.nersc.gov/esmond/perfsonar/archive/"
+            "url" : "http://ps-lat.nersc.gov/esmond/perfsonar/archive/"
          }
       },
       "perfsonar.net.cmu.edu" : {
@@ -5670,11 +5670,11 @@
             "url" : "http://perfsonar1-rain.rc.pdx.edu/esmond/perfsonar/archive/"
          }
       },
-      "perfsonar1.ccs.ornl.gov" : {
+      "128.219.141.59" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar1.ccs.ornl.gov/esmond/perfsonar/archive/"
+            "url" : "http://128.219.141.59/esmond/perfsonar/archive/"
          }
       },
       "perfsonar1.icepp.jp" : {
@@ -7395,7 +7395,7 @@
       "group_16" : {
          "a-addresses" : [
             {
-               "name" : "perfsonar1.ccs.ornl.gov"
+               "name" : "128.219.141.59"
             },
             {
                "name" : "lhcmon.bnl.gov"
@@ -7410,7 +7410,7 @@
                "name" : "psonar5.deemz.net"
             },
             {
-               "name" : "perfsonar.nersc.gov"
+               "name" : "ps-lat.nersc.gov"
             },
             {
                "name" : "anlborder-ps.it.anl.gov"
@@ -7453,7 +7453,7 @@
       "group_17" : {
          "a-addresses" : [
             {
-               "name" : "perfsonar1.ccs.ornl.gov"
+               "name" : "128.219.141.59"
             },
             {
                "name" : "lhcperfmon.bnl.gov"
@@ -7465,7 +7465,7 @@
                "name" : "anlborder-ps.it.anl.gov"
             },
             {
-               "name" : "perfsonar.nersc.gov"
+               "name" : "ps-lat.nersc.gov"
             },
             {
                "name" : "speedtest2.pnl.gov"
@@ -11378,13 +11378,13 @@
          ],
          "no-agent" : true
       },
-      "perfsonar.nersc.gov" : {
+      "ps-lat.nersc.gov" : {
          "_meta" : {
-            "display-name" : "perfsonar.nersc.gov",
+            "display-name" : "ps-lat.nersc.gov",
             "organization-display-name" : "NERSC"
          },
          "archives" : [
-            "perfsonar.nersc.gov"
+            "ps-lat.nersc.gov"
          ],
          "no-agent" : true
       },
@@ -11612,13 +11612,13 @@
          ],
          "no-agent" : true
       },
-      "perfsonar1.ccs.ornl.gov" : {
+      "128.219.141.59" : {
          "_meta" : {
-            "display-name" : "perfsonar1.ccs.ornl.gov",
+            "display-name" : "perfsonar.ccs.ornl.gov",
             "organization-display-name" : "OLCF"
          },
          "archives" : [
-            "perfsonar1.ccs.ornl.gov"
+            "128.219.141.59"
          ],
          "no-agent" : true
       },
