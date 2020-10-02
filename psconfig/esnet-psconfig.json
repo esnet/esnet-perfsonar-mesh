@@ -9253,10 +9253,16 @@
        ],
        "b-addresses" : [
            {
-              "name" : "star-owamp.es.net"
+              "name" : "lbl-owamp.es.net"
+           },
+           {
+              "name" : "pppl-owamp.es.net"
            },
            {
               "name" : "sunn-owamp.es.net"
+           },
+           {
+              "name" : "wash-owamp.es.net"
            }
        ],
        "type" : "disjoint"
@@ -9268,12 +9274,18 @@
            }
         ],
         "b-addresses" : [
-            {
-               "name" : "star-pt1.es.net"
-            },
-            {
-               "name" : "sunn-pt1.es.net"
-            }
+          {
+             "name" : "lbl-pt1.es.net"
+          },
+          {
+             "name" : "pppl-pt1.es.net"
+          },
+          {
+             "name" : "sunn-pt1.es.net"
+          },
+          {
+             "name" : "wash-pt1.es.net"
+          }
         ],
         "type" : "disjoint"
       }
