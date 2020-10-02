@@ -9238,10 +9238,51 @@
           }
       ],
       "type" : "disjoint"
-    }
+    },
+    "group_simons_observ_owamp" : {
+       "a-addresses" : [
+          {
+             "name" : "perfsonar.reuna.cl"
+          }
+       ],
+       "b-addresses" : [
+           {
+              "name" : "star-owamp.es.net"
+           },
+           {
+              "name" : "sunn-owamp.es.net"
+           }
+       ],
+       "type" : "disjoint"
+     },
+     "group_simons_observ_pt" : {
+        "a-addresses" : [
+           {
+              "name" : "perfsonar.reuna.cl"
+           }
+        ],
+        "b-addresses" : [
+            {
+               "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "sunn-pt1.es.net"
+            }
+        ],
+        "type" : "disjoint"
+      }
    },
    "hosts" : {
-      "doenetoro-pt1.es.net" : {
+     "perfsonar.reuna.cl" : {
+         "_meta" : {
+            "display-name" : "perfsonar.reuna.cl",
+            "organization-display-name" : "REUNA"
+         },
+         "archives" : [
+            "perfsonar.reuna.cl"
+         ]
+     },
+     "doenetoro-pt1.es.net" : {
           "_meta" : {
              "display-name" : "doenetoro-pt1.es.net",
              "organization-display-name" : "ESnet"
@@ -13656,7 +13697,42 @@
        "group" : "group_doenetoro_pt1",
        "test" : "throughput_0",
        "schedule": "schedule_0"
-    }
+    },
+    "ESnet_to_Simons_Observatory_Loss_Testing" : {
+       "_meta" : {
+          "display-name" : "ESnet to Simons Observatory Packet Loss Testing"
+       },
+       "reference": {
+          "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+          "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+       },
+       "group" : "group_simons_observ_owamp",
+       "test" : "latencybg_0"
+     },
+     "ESnet_to_Simons_Observatory_Throughput_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet to Simons Observatory Throughput Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "group_simons_observ_pt",
+        "schedule" : "schedule_0",
+        "test" : "throughput_1"
+      },
+      "ESnet_to_Simons_Observatory_Traceroute_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to Simons Observatory Traceroute Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
+         "group" : "group_simons_observ_pt",
+         "schedule" : "schedule_1",
+         "test" : "trace_0"
+      }
    },
    "tests" : {
       "latencybg_0" : {
