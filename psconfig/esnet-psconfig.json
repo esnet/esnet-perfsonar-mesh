@@ -7032,6 +7032,9 @@
       "group_10" : {
          "a-addresses" : [
             {
+               "name" : "perfsonar.reuna.cl"
+            },
+            {
                "name" : "nate.sdsc.edu"
             },
             {
@@ -7110,6 +7113,9 @@
       },
       "group_11" : {
          "a-addresses" : [
+            {
+               "name" : "perfsonar.reuna.cl"
+            },
             {
                "name" : "nate.sdsc.edu"
             },
