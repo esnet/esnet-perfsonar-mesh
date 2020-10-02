@@ -2703,6 +2703,13 @@
          "address" : "perfsonar.reuna.cl",
          "host" : "perfsonar.reuna.cl"
       },
+      "perf.10g.chivo.cl" : {
+         "_meta" : {
+            "display-name" : "perf.10g.chivo.cl"
+         },
+         "address" : "perf.10g.chivo.cl",
+         "host" : "perf.10g.chivo.cl"
+      },
       "perfsonar.sci.cwru.edu" : {
          "_meta" : {
             "display-name" : "perfsonar.sci.cwru.edu"
@@ -5558,6 +5565,13 @@
             "url" : "http://perfsonar.reuna.cl/esmond/perfsonar/archive/"
          }
       },
+      "perf.10g.chivo.cl" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://perf.10g.chivo.cl/esmond/perfsonar/archive/"
+         }
+      },
       "perfsonar.sci.cwru.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -7035,6 +7049,9 @@
                "name" : "perfsonar.reuna.cl"
             },
             {
+               "name" : "perf.10g.chivo.cl"
+            },
+            {
                "name" : "nate.sdsc.edu"
             },
             {
@@ -7115,6 +7132,9 @@
          "a-addresses" : [
             {
                "name" : "perfsonar.reuna.cl"
+            },
+            {
+               "name" : "perf.10g.chivo.cl"
             },
             {
                "name" : "nate.sdsc.edu"
@@ -9249,6 +9269,9 @@
        "a-addresses" : [
           {
              "name" : "perfsonar.reuna.cl"
+          },
+          {
+             "name" : "perf.10g.chivo.cl"
           }
        ],
        "b-addresses" : [
@@ -9271,6 +9294,9 @@
         "a-addresses" : [
            {
               "name" : "perfsonar.reuna.cl"
+           },
+           {
+              "name" : "perf.10g.chivo.cl"
            }
         ],
         "b-addresses" : [
@@ -9298,6 +9324,14 @@
          },
          "archives" : [
             "perfsonar.reuna.cl"
+         ]
+     },     "perf.10g.chivo.cl" : {
+         "_meta" : {
+            "display-name" : "perf.10g.chivo.cl",
+            "organization-display-name" : "ChiVO"
+         },
+         "archives" : [
+            "perf.10g.chivo.cl"
          ]
      },
      "doenetoro-pt1.es.net" : {
@@ -11458,6 +11492,16 @@
          },
          "archives" : [
             "perfsonar.reuna.cl"
+         ],
+         "no-agent" : true
+      },
+      "perf.10g.chivo.cl" : {
+         "_meta" : {
+            "display-name" : "perf.10g.chivo.cl",
+            "organization-display-name" : "ChiVO"
+         },
+         "archives" : [
+            "perf.10g.chivo.cl"
          ],
          "no-agent" : true
       },
