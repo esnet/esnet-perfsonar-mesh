@@ -9286,6 +9286,24 @@
            },
            {
               "name" : "wash-owamp.es.net"
+           },
+           {
+              "name" : "portalz.pppl.gov"
+           },
+           {
+              "name" : "perfsonar-ma-2.princeton.edu"
+           },
+           {
+              "name" : "perfsonar-hpcrc.princeton.edu"
+           },
+           {
+              "name" : "nate.sdsc.edu"
+           },
+           {
+              "name" : "ps.sdsc.xsede.org"
+           },
+           {
+              "name" : "ps-lat.nersc.gov"
            }
        ],
        "type" : "disjoint"
@@ -9311,13 +9329,49 @@
           },
           {
              "name" : "wash-pt1.es.net"
+          },
+          {
+             "name" : "portalz.pppl.gov"
+          },
+          {
+             "name" : "perfsonar-ma-2.princeton.edu"
+          },
+          {
+             "name" : "perfsonar-hpcrc.princeton.edu"
+          },
+          {
+             "name" : "nate.sdsc.edu"
+          },
+          {
+             "name" : "ps.sdsc.xsede.org"
+          },
+          {
+             "name" : "ps-lat.nersc.gov"
           }
         ],
         "type" : "disjoint"
       }
    },
    "hosts" : {
-     "perfsonar.reuna.cl" : {
+     "perfsonar-ma-2.princeton.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar-ma-2.princeton.edu",
+            "organization-display-name" : "Princeton"
+         },
+         "archives" : [
+            "perfsonar-ma-2.princeton.edu"
+         ]
+     },
+     "perfsonar-hpcrc.princeton.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar-hpcrc.princeton.edu",
+            "organization-display-name" : "Princeton"
+         },
+         "archives" : [
+            "perfsonar-hpcrc.princeton.edu"
+         ]
+     },
+          "perfsonar.reuna.cl" : {
          "_meta" : {
             "display-name" : "perfsonar.reuna.cl",
             "organization-display-name" : "REUNA"
@@ -9325,7 +9379,8 @@
          "archives" : [
             "perfsonar.reuna.cl"
          ]
-     },     "perf.10g.chivo.cl" : {
+     },
+     "perf.10g.chivo.cl" : {
          "_meta" : {
             "display-name" : "perf.10g.chivo.cl",
             "organization-display-name" : "ChiVO"
