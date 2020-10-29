@@ -6632,9 +6632,6 @@
             },
             {
                "name" : "snll-pt1.es.net"
-            },
-            {
-               "name" : "test-pt1.es.net"
             }
          ],
          "b-addresses" : [
@@ -6805,9 +6802,6 @@
       },
       "group_4" : {
          "addresses" : [
-            {
-               "name" : "test-owamp1.es.net"
-            },
             {
                "name" : "albq-owamp.es.net"
             },
