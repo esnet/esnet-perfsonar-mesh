@@ -2353,13 +2353,6 @@
          "address" : "perfbsu-temp.boisestate.edu",
          "host" : "perfbsu-temp.boisestate.edu"
       },
-      "perfext11.ncbi.nlm.nih.gov" : {
-         "_meta" : {
-            "display-name" : "perfext11.ncbi.nlm.nih.gov"
-         },
-         "address" : "perfext11.ncbi.nlm.nih.gov",
-         "host" : "perfext11.ncbi.nlm.nih.gov"
-      },
       "perfs1-owamp.lanl.gov" : {
          "_meta" : {
             "display-name" : "perfs1-owamp.lanl.gov"
@@ -2549,13 +2542,6 @@
          "address" : "perfsonar-vm01.jc.rl.ac.uk",
          "host" : "perfsonar-vm01.jc.rl.ac.uk"
       },
-      "perfsonar.caltech.net" : {
-         "_meta" : {
-            "display-name" : "perfsonar.caltech.net"
-         },
-         "address" : "perfsonar.caltech.net",
-         "host" : "perfsonar.caltech.net"
-      },
       "perfsonar.dkrz.de" : {
          "_meta" : {
             "display-name" : "perfsonar.dkrz.de"
@@ -2702,13 +2688,6 @@
          },
          "address" : "perfsonar.reuna.cl",
          "host" : "perfsonar.reuna.cl"
-      },
-      "perf.10g.chivo.cl" : {
-         "_meta" : {
-            "display-name" : "perf.10g.chivo.cl"
-         },
-         "address" : "perf.10g.chivo.cl",
-         "host" : "perf.10g.chivo.cl"
       },
       "perfsonar.sci.cwru.edu" : {
          "_meta" : {
@@ -5194,13 +5173,6 @@
             "url" : "http://perfbsu-temp.boisestate.edu/esmond/perfsonar/archive/"
          }
       },
-      "perfext11.ncbi.nlm.nih.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfext11.ncbi.nlm.nih.gov/esmond/perfsonar/archive/"
-         }
-      },
       "perfs1-owamp.lanl.gov" : {
          "archiver" : "esmond",
          "data" : {
@@ -5390,13 +5362,6 @@
             "url" : "http://perfsonar-vm01.jc.rl.ac.uk/esmond/perfsonar/archive/"
          }
       },
-      "perfsonar.caltech.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar.caltech.net/esmond/perfsonar/archive/"
-         }
-      },
       "perfsonar.dkrz.de" : {
          "archiver" : "esmond",
          "data" : {
@@ -5542,13 +5507,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://perfsonar.reuna.cl/esmond/perfsonar/archive/"
-         }
-      },
-      "perf.10g.chivo.cl" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perf.10g.chivo.cl/esmond/perfsonar/archive/"
          }
       },
       "perfsonar.sci.cwru.edu" : {
@@ -7001,13 +6959,7 @@
                "name" : "perfsonar.reuna.cl"
             },
             {
-               "name" : "perf.10g.chivo.cl"
-            },
-            {
                "name" : "nate.sdsc.edu"
-            },
-            {
-               "name" : "perfext11.ncbi.nlm.nih.gov"
             },
             {
                "name" : "ps.ncsa.xsede.org"
@@ -7034,22 +6986,10 @@
                "name" : "mwt2-ps02.campuscluster.illinois.edu"
             },
             {
-               "name" : "ps-arc-meter.nren.nasa.gov"
-            },
-            {
                "name" : "nettest.boulder.noaa.gov"
             },
             {
                "name" : "psb-bw.ncsa.illinois.edu"
-            },
-            {
-               "name" : "perfsonar.caltech.net"
-            },
-            {
-               "name" : "psmsu02.aglt2.org"
-            },
-            {
-               "name" : "psum02.aglt2.org"
             },
             {
                "name" : "ps-bandwidth.hepnetcanada.ca"
@@ -7086,16 +7026,10 @@
                "name" : "perfsonar.reuna.cl"
             },
             {
-               "name" : "perf.10g.chivo.cl"
-            },
-            {
                "name" : "nate.sdsc.edu"
             },
             {
                "name" : "ps-arc-meter.nren.nasa.gov"
-            },
-            {
-               "name" : "owamp.boulder.noaa.gov"
             },
             {
                "name" : "psl-bw.ncsa.illinois.edu"
@@ -7122,13 +7056,7 @@
                "name" : "ps.psc.xsede.org"
             },
             {
-               "name" : "perfsonar.caltech.net"
-            },
-            {
                "name" : "psmsu01.aglt2.org"
-            },
-            {
-               "name" : "psum01.aglt2.org"
             },
             {
                "name" : "ps-latency.hepnetcanada.ca"
@@ -9197,23 +9125,6 @@
        "a-addresses" : [
           {
              "name" : "perfsonar.reuna.cl"
-          },
-          {
-             "name" : "perf.10g.chivo.cl"
-          }
-       ],
-       "b-addresses" : [
-           {
-              "name" : "lbl-owamp.es.net"
-           },
-           {
-              "name" : "pppl-owamp.es.net"
-           },
-           {
-              "name" : "sunn-owamp.es.net"
-           },
-           {
-              "name" : "wash-owamp.es.net"
            },
            {
               "name" : "perfsonar-ma-2.princeton.edu"
@@ -9231,6 +9142,20 @@
               "name" : "ps-lat.nersc.gov"
            }
        ],
+       "b-addresses" : [
+           {
+              "name" : "lbl-owamp.es.net"
+           },
+           {
+              "name" : "pppl-owamp.es.net"
+           },
+           {
+              "name" : "sunn-owamp.es.net"
+           },
+           {
+              "name" : "wash-owamp.es.net"
+           }
+       ],
        "type" : "disjoint"
      },
      "group_simons_observ_pt" : {
@@ -9239,7 +9164,19 @@
               "name" : "perfsonar.reuna.cl"
            },
            {
-              "name" : "perf.10g.chivo.cl"
+              "name" : "perfsonar-ma-2.princeton.edu"
+           },
+           {
+              "name" : "perfsonar-hpcrc.princeton.edu"
+           },
+           {
+              "name" : "nate.sdsc.edu"
+           },
+           {
+              "name" : "ps.sdsc.xsede.org"
+           },
+           {
+              "name" : "ps-lat.nersc.gov"
            }
         ],
         "b-addresses" : [
@@ -9254,21 +9191,6 @@
           },
           {
              "name" : "wash-pt1.es.net"
-          },
-          {
-             "name" : "perfsonar-ma-2.princeton.edu"
-          },
-          {
-             "name" : "perfsonar-hpcrc.princeton.edu"
-          },
-          {
-             "name" : "nate.sdsc.edu"
-          },
-          {
-             "name" : "ps.sdsc.xsede.org"
-          },
-          {
-             "name" : "ps-lat.nersc.gov"
           }
         ],
         "type" : "disjoint"
@@ -9300,15 +9222,6 @@
          },
          "archives" : [
             "perfsonar.reuna.cl"
-         ]
-     },
-     "perf.10g.chivo.cl" : {
-         "_meta" : {
-            "display-name" : "perf.10g.chivo.cl",
-            "organization-display-name" : "ChiVO"
-         },
-         "archives" : [
-            "perf.10g.chivo.cl"
          ]
      },
      "doenetoro-pt1.es.net" : {
@@ -10937,16 +10850,6 @@
          ],
          "no-agent" : true
       },
-      "perfext11.ncbi.nlm.nih.gov" : {
-         "_meta" : {
-            "display-name" : "perfext11.ncbi.nlm.nih.gov",
-            "organization-display-name" : "National Institute of Health"
-         },
-         "archives" : [
-            "perfext11.ncbi.nlm.nih.gov"
-         ],
-         "no-agent" : true
-      },
       "perfs1-owamp.lanl.gov" : {
          "_meta" : {
             "display-name" : "perfs1-owamp.lanl.gov",
@@ -11248,17 +11151,6 @@
          ],
          "no-agent" : true
       },
-      "perfsonar.caltech.net" : {
-         "_meta" : {
-            "display-name" : "perfsonar.caltech.net",
-            "organization-display-name" : "Caltech",
-            "site-display-name" : "Caltech"
-         },
-         "archives" : [
-            "perfsonar.caltech.net"
-         ],
-         "no-agent" : true
-      },
       "perfsonar.dkrz.de" : {
          "_meta" : {
             "display-name" : "perfsonar.dkrz.de",
@@ -11469,16 +11361,6 @@
          },
          "archives" : [
             "perfsonar.reuna.cl"
-         ],
-         "no-agent" : true
-      },
-      "perf.10g.chivo.cl" : {
-         "_meta" : {
-            "display-name" : "perf.10g.chivo.cl",
-            "organization-display-name" : "ChiVO"
-         },
-         "archives" : [
-            "perf.10g.chivo.cl"
          ],
          "no-agent" : true
       },
