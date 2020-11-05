@@ -6590,9 +6590,6 @@
             },
             {
                "name" : "snll-pt1.es.net"
-            },
-            {
-               "name" : "test-pt1.es.net"
             }
          ],
          "b-addresses" : [
@@ -6763,9 +6760,6 @@
       },
       "group_4" : {
          "addresses" : [
-            {
-               "name" : "test-owamp1.es.net"
-            },
             {
                "name" : "albq-owamp.es.net"
             },
@@ -13051,7 +13045,9 @@
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
-            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-grid": "ESnet Hub to Small DOE Site Border Packet Loss Testing",
+            "display-dashboard": "ESnet Hub to Small DOE Site Border"
          },
          "group" : "group_9",
          "test" : "latencybg_0"
@@ -13062,7 +13058,9 @@
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
-            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-grid": "ESnet Hub to Small DOE Site Border Throughput Testing",
+            "display-dashboard": "ESnet Hub to Small DOE Site Border"
          },
          "group" : "group_3",
          "schedule" : "schedule_0",
