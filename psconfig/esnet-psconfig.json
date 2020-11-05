@@ -2945,13 +2945,6 @@
          "address" : "pnwg-pt1.es.net",
          "host" : "pnwg-pt1.es.net"
       },
-      "portalz.pppl.gov" : {
-         "_meta" : {
-            "display-name" : "portalz.pppl.gov"
-         },
-         "address" : "portalz.pppl.gov",
-         "host" : "portalz.pppl.gov"
-      },
       "pppl-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "pppl-owamp.es.net",
@@ -3151,13 +3144,6 @@
          },
          "address" : "ps-latency.atlas.unimelb.edu.au",
          "host" : "ps-latency.atlas.unimelb.edu.au"
-      },
-      "ps-latency.hep.pnnl.gov" : {
-         "_meta" : {
-            "display-name" : "ps-latency.hep.pnnl.gov"
-         },
-         "address" : "ps-latency.hep.pnnl.gov",
-         "host" : "ps-latency.hep.pnnl.gov"
       },
       "ps-latency.hepnetcanada.ca" : {
          "_meta" : {
@@ -3531,13 +3517,6 @@
          },
          "address" : "psonar5.deemz.net",
          "host" : "psonar5.deemz.net_FNAL"
-      },
-      "psonar6.fnal.gov" : {
-         "_meta" : {
-            "display-name" : "psonar6.fnal.gov"
-         },
-         "address" : "psonar6.fnal.gov",
-         "host" : "psonar6.fnal.gov"
       },
       "psum01.aglt2.org" : {
          "_meta" : {
@@ -5782,13 +5761,6 @@
             "url" : "http://pnwg-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
-      "portalz.pppl.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://portalz.pppl.gov/esmond/perfsonar/archive/"
-         }
-      },
       "pppl-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -5962,13 +5934,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://ps-latency.atlas.unimelb.edu.au/esmond/perfsonar/archive/"
-         }
-      },
-      "ps-latency.hep.pnnl.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-latency.hep.pnnl.gov/esmond/perfsonar/archive/"
          }
       },
       "ps-latency.hepnetcanada.ca" : {
@@ -6326,13 +6291,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://psonar5.deemz.net/esmond/perfsonar/archive/"
-         }
-      },
-      "psonar6.fnal.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://psonar6.fnal.gov/esmond/perfsonar/archive/"
          }
       },
       "psum01.aglt2.org" : {
@@ -7415,9 +7373,6 @@
       "group_16" : {
          "a-addresses" : [
             {
-               "name" : "128.219.141.59"
-            },
-            {
                "name" : "lhcmon.bnl.gov"
             },
             {
@@ -7436,22 +7391,10 @@
                "name" : "anlborder-ps.it.anl.gov"
             },
             {
-               "name" : "speedtest2.pnl.gov"
-            },
-            {
-               "name" : "ps-bandwidth.hep.pnnl.gov"
-            },
-            {
-               "name" : "perfsonar.llnl.gov"
-            },
-            {
                "name" : "psnr-farm10.slac.stanford.edu"
             },
             {
                "name" : "jlab4.jlab.org"
-            },
-            {
-               "name" : "portalz.pppl.gov"
             }
          ],
          "b-addresses" : [
@@ -7491,13 +7434,7 @@
                "name" : "speedtest2.pnl.gov"
             },
             {
-               "name" : "ps-latency.hep.pnnl.gov"
-            },
-            {
                "name" : "ps-border1-owamp.lbl.gov"
-            },
-            {
-               "name" : "psonar6.fnal.gov"
             },
             {
                "name" : "perfsonar.llnl.gov"
@@ -7507,9 +7444,6 @@
             },
             {
                "name" : "jlab4.jlab.org"
-            },
-            {
-               "name" : "portalz.pppl.gov"
             }
          ],
          "b-addresses" : [
@@ -9288,9 +9222,6 @@
               "name" : "wash-owamp.es.net"
            },
            {
-              "name" : "portalz.pppl.gov"
-           },
-           {
               "name" : "perfsonar-ma-2.princeton.edu"
            },
            {
@@ -9329,9 +9260,6 @@
           },
           {
              "name" : "wash-pt1.es.net"
-          },
-          {
-             "name" : "portalz.pppl.gov"
           },
           {
              "name" : "perfsonar-ma-2.princeton.edu"
@@ -11862,16 +11790,6 @@
             "pnwg-pt1.es.net"
          ]
       },
-      "portalz.pppl.gov" : {
-         "_meta" : {
-            "display-name" : "portalz.pppl.gov",
-            "organization-display-name" : "Princeton Particle Physics Lab"
-         },
-         "archives" : [
-            "portalz.pppl.gov"
-         ],
-         "no-agent" : true
-      },
       "pppl-pt1.es.net" : {
          "_meta" : {
             "display-name" : "pppl-pt1.es.net",
@@ -12121,16 +12039,6 @@
          },
          "archives" : [
             "ps-latency.atlas.unimelb.edu.au"
-         ],
-         "no-agent" : true
-      },
-      "ps-latency.hep.pnnl.gov" : {
-         "_meta" : {
-            "display-name" : "ps-latency.hep.pnnl.gov",
-            "organization-display-name" : "PNNL Physics"
-         },
-         "archives" : [
-            "ps-latency.hep.pnnl.gov"
          ],
          "no-agent" : true
       },
@@ -12606,17 +12514,6 @@
          },
          "archives" : [
             "psonar5.deemz.net"
-         ],
-         "no-agent" : true
-      },
-      "psonar6.fnal.gov" : {
-         "_meta" : {
-            "display-name" : "psonar6.fnal.gov",
-            "organization-display-name" : "Fermi National Lab",
-            "site-display-name" : "Fermi National Lab"
-         },
-         "archives" : [
-            "psonar6.fnal.gov"
          ],
          "no-agent" : true
       },
