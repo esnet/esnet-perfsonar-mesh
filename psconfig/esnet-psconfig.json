@@ -269,13 +269,6 @@
          "address" : "PS-1G-v4-FFX-SDMZ.gmu.edu",
          "host" : "PS-1G-v4-FFX-SDMZ.gmu.edu"
       },
-      "acs244.bham.ac.uk" : {
-         "_meta" : {
-            "display-name" : "acs244.bham.ac.uk"
-         },
-         "address" : "acs244.bham.ac.uk",
-         "host" : "acs244.bham.ac.uk"
-      },
       "act-actn-ps1.aarnet.net.au" : {
          "_meta" : {
             "display-name" : "act-actn-ps1.aarnet.net.au"
@@ -1475,33 +1468,12 @@
          "address" : "lbl-pt1.es.net",
          "host" : "lbl-pt1.es.net"
       },
-      "lcgs101.jinr.ru" : {
-         "_meta" : {
-            "display-name" : "lcgs101.jinr.ru"
-         },
-         "address" : "lcgs101.jinr.ru",
-         "host" : "lcgs101.jinr.ru"
-      },
-      "lcgs102.jinr.ru" : {
-         "_meta" : {
-            "display-name" : "lcgs102.jinr.ru"
-         },
-         "address" : "lcgs102.jinr.ru",
-         "host" : "lcgs102.jinr.ru"
-      },
       "lhc-bandwidth.twgrid.org" : {
          "_meta" : {
             "display-name" : "lhc-bandwidth.twgrid.org"
          },
          "address" : "lhc-bandwidth.twgrid.org",
          "host" : "lhc-bandwidth.twgrid.org"
-      },
-      "lhc-latency.twgrid.org" : {
-         "_meta" : {
-            "display-name" : "lhc-latency.twgrid.org"
-         },
-         "address" : "lhc-latency.twgrid.org",
-         "host" : "lhc-latency.twgrid.org"
       },
       "lhcmon.bnl.gov" : {
          "_meta" : {
@@ -1913,13 +1885,6 @@
          },
          "address" : "netl-pgh-pt1.es.net",
          "host" : "netl-pgh-pt1.es.net"
-      },
-      "netperf.ayy.fi" : {
-         "_meta" : {
-            "display-name" : "netperf.ayy.fi"
-         },
-         "address" : "netperf.ayy.fi",
-         "host" : "netperf.ayy.fi"
       },
       "nettest-outside.it.wsu.edu" : {
          "_meta" : {
@@ -2381,13 +2346,6 @@
          "address" : "perfsonar-1850.frgp.net",
          "host" : "perfsonar-1850.frgp.net"
       },
-      "perfsonar-bandwidth.esc.qmul.ac.uk" : {
-         "_meta" : {
-            "display-name" : "perfsonar-bandwidth.esc.qmul.ac.uk"
-         },
-         "address" : "perfsonar-bandwidth.esc.qmul.ac.uk",
-         "host" : "perfsonar-bandwidth.esc.qmul.ac.uk"
-      },
       "perfsonar-bw.sprace.org.br" : {
          "_meta" : {
             "display-name" : "perfsonar-bw.sprace.org.br"
@@ -2458,13 +2416,6 @@
          "address" : "perfsonar-hpc.ipsl.upmc.fr",
          "host" : "perfsonar-hpc.ipsl.upmc.fr"
       },
-      "perfsonar-latency.esc.qmul.ac.uk" : {
-         "_meta" : {
-            "display-name" : "perfsonar-latency.esc.qmul.ac.uk"
-         },
-         "address" : "perfsonar-latency.esc.qmul.ac.uk",
-         "host" : "perfsonar-latency.esc.qmul.ac.uk"
-      },
       "perfsonar-lsu-frey-01.loni.org" : {
          "_meta" : {
             "display-name" : "perfsonar-lsu-frey-01.loni.org"
@@ -2520,13 +2471,6 @@
          },
          "address" : "perfsonar-storrs.cen.ct.gov",
          "host" : "perfsonar-storrs.cen.ct.gov"
-      },
-      "perfsonar-test1.kek.jp" : {
-         "_meta" : {
-            "display-name" : "perfsonar-test1.kek.jp"
-         },
-         "address" : "perfsonar-test1.kek.jp",
-         "host" : "perfsonar-test1.kek.jp"
       },
       "perfsonar-test4.kek.jp" : {
          "_meta" : {
@@ -2808,13 +2752,6 @@
          "address" : "128.219.141.59",
          "host" : "128.219.141.59"
       },
-      "perfsonar1.icepp.jp" : {
-         "_meta" : {
-            "display-name" : "perfsonar1.icepp.jp"
-         },
-         "address" : "perfsonar1.icepp.jp",
-         "host" : "perfsonar1.icepp.jp"
-      },
       "perfsonar1.rc.pdx.edu" : {
          "_meta" : {
             "display-name" : "perfsonar1.rc.pdx.edu"
@@ -3033,20 +2970,6 @@
          "address" : "ps-border1-owamp.lbl.gov",
          "host" : "ps-border1-owamp.lbl.gov"
       },
-      "ps-bw.ampath.ampath.net" : {
-         "_meta" : {
-            "display-name" : "ps-bw.ampath.ampath.net"
-         },
-         "address" : "ps-bw.ampath.ampath.net",
-         "host" : "ps-bw.ampath.ampath.net"
-      },
-      "ps-bw.l3-santiago.ampath.net" : {
-         "_meta" : {
-            "display-name" : "ps-bw.l3-santiago.ampath.net"
-         },
-         "address" : "ps-bw.l3-santiago.ampath.net",
-         "host" : "ps-bw.l3-santiago.ampath.net"
-      },
       "ps-bw.ln.net" : {
          "_meta" : {
             "display-name" : "ps-bw.ln.net"
@@ -3160,20 +3083,6 @@
          },
          "address" : "ps-slough-10g.ja.net",
          "host" : "ps-slough-10g.ja.net"
-      },
-      "ps-lt.ampath.ampath.net" : {
-         "_meta" : {
-            "display-name" : "ps-lt.ampath.ampath.net"
-         },
-         "address" : "ps-lt.ampath.ampath.net",
-         "host" : "ps-lt.ampath.ampath.net"
-      },
-      "ps-lt.l3-santiago.ampath.net" : {
-         "_meta" : {
-            "display-name" : "ps-lt.l3-santiago.ampath.net"
-         },
-         "address" : "ps-lt.l3-santiago.ampath.net",
-         "host" : "ps-lt.l3-santiago.ampath.net"
       },
       "ps-lt.sdmz.rnp.br" : {
          "_meta" : {
@@ -3301,13 +3210,6 @@
          "address" : "ps.test.wix.internet2.edu",
          "host" : "ps.test.wix.internet2.edu"
       },
-      "ps01-akl.reannz.co.nz" : {
-         "_meta" : {
-            "display-name" : "ps01-akl.reannz.co.nz"
-         },
-         "address" : "ps01-akl.reannz.co.nz",
-         "host" : "ps01-akl.reannz.co.nz"
-      },
       "ps1-100g-sdmz.chat.tmc.edu" : {
          "_meta" : {
             "display-name" : "ps1-100g-sdmz.chat.tmc.edu"
@@ -3342,13 +3244,6 @@
          },
          "address" : "ps1.netherlight.net",
          "host" : "ps1.netherlight.net"
-      },
-      "ps1.reannz.net.nz" : {
-         "_meta" : {
-            "display-name" : "ps1.reannz.net.nz"
-         },
-         "address" : "ps1.reannz.net.nz",
-         "host" : "ps1.reannz.net.nz"
       },
       "ps1.renci.org" : {
          "_meta" : {
@@ -4249,13 +4144,6 @@
             "url" : "http://PS-1G-v4-FFX-SDMZ.gmu.edu/esmond/perfsonar/archive/"
          }
       },
-      "acs244.bham.ac.uk" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://acs244.bham.ac.uk/esmond/perfsonar/archive/"
-         }
-      },
       "act-actn-ps1.aarnet.net.au" : {
          "archiver" : "esmond",
          "data" : {
@@ -4718,32 +4606,11 @@
             "url" : "http://lbl-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
-      "lcgs101.jinr.ru" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://lcgs101.jinr.ru/esmond/perfsonar/archive/"
-         }
-      },
-      "lcgs102.jinr.ru" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://lcgs102.jinr.ru/esmond/perfsonar/archive/"
-         }
-      },
       "lhc-bandwidth.twgrid.org" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://lhc-bandwidth.twgrid.org/esmond/perfsonar/archive/"
-         }
-      },
-      "lhc-latency.twgrid.org" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://lhc-latency.twgrid.org/esmond/perfsonar/archive/"
          }
       },
       "lhcmon.bnl.gov" : {
@@ -4912,13 +4779,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://netl-pgh-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "netperf.ayy.fi" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://netperf.ayy.fi/esmond/perfsonar/archive/"
          }
       },
       "nettest-outside.it.wsu.edu" : {
@@ -5187,13 +5047,6 @@
             "url" : "http://perfsonar-1850.frgp.net/esmond/perfsonar/archive/"
          }
       },
-      "perfsonar-bandwidth.esc.qmul.ac.uk" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar-bandwidth.esc.qmul.ac.uk/esmond/perfsonar/archive/"
-         }
-      },
       "perfsonar-bw.sprace.org.br" : {
          "archiver" : "esmond",
          "data" : {
@@ -5264,13 +5117,6 @@
             "url" : "http://perfsonar-hpc.ipsl.upmc.fr/esmond/perfsonar/archive/"
          }
       },
-      "perfsonar-latency.esc.qmul.ac.uk" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar-latency.esc.qmul.ac.uk/esmond/perfsonar/archive/"
-         }
-      },
       "perfsonar-lsu-frey-01.loni.org" : {
          "archiver" : "esmond",
          "data" : {
@@ -5325,13 +5171,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://perfsonar-storrs.cen.ct.gov/esmond/perfsonar/archive/"
-         }
-      },
-      "perfsonar-test1.kek.jp" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar-test1.kek.jp/esmond/perfsonar/archive/"
          }
       },
       "perfsonar-test4.kek.jp" : {
@@ -5614,13 +5453,6 @@
             "url" : "http://128.219.141.59/esmond/perfsonar/archive/"
          }
       },
-      "perfsonar1.icepp.jp" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar1.icepp.jp/esmond/perfsonar/archive/"
-         }
-      },
       "perfsonar1.rc.pdx.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -5789,20 +5621,6 @@
             "url" : "http://ps-border1-owamp.lbl.gov/esmond/perfsonar/archive/"
          }
       },
-      "ps-bw.ampath.ampath.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-bw.ampath.ampath.net/esmond/perfsonar/archive/"
-         }
-      },
-      "ps-bw.l3-santiago.ampath.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-bw.l3-santiago.ampath.net/esmond/perfsonar/archive/"
-         }
-      },
       "ps-bw.ln.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -5906,13 +5724,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://ps-lt.ampath.ampath.net/esmond/perfsonar/archive/"
-         }
-      },
-      "ps-lt.l3-santiago.ampath.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-lt.l3-santiago.ampath.net/esmond/perfsonar/archive/"
          }
       },
       "ps-lt.sdmz.rnp.br" : {
@@ -6041,13 +5852,6 @@
             "url" : "http://ps.test.wix.internet2.edu/esmond/perfsonar/archive/"
          }
       },
-      "ps01-akl.reannz.co.nz" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps01-akl.reannz.co.nz/esmond/perfsonar/archive/"
-         }
-      },
       "ps1-100g-sdmz.chat.tmc.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -6081,13 +5885,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://ps1.netherlight.net/esmond/perfsonar/archive/"
-         }
-      },
-      "ps1.reannz.net.nz" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps1.reannz.net.nz/esmond/perfsonar/archive/"
          }
       },
       "ps1.renci.org" : {
@@ -8114,12 +7911,6 @@
                "name" : "ps-bw.sdmz.rnp.br"
             },
             {
-               "name" : "ps-bw.ampath.ampath.net"
-            },
-            {
-               "name" : "ps-bw.l3-santiago.ampath.net"
-            },
-            {
                "name" : "perfsonar-bw.sprace.org.br"
             },
             {
@@ -8135,12 +7926,6 @@
                "name" : "lhc-bandwidth.twgrid.org"
             },
             {
-               "name" : "ps01-akl.reannz.co.nz"
-            },
-            {
-               "name" : "ps1.reannz.net.nz"
-            },
-            {
                "name" : "nms1-10g.jp.apan.net"
             },
             {
@@ -8150,9 +7935,6 @@
                "name" : "perfsonar2.icepp.jp"
             },
             {
-               "name" : "perfsonar-test1.kek.jp"
-            },
-            {
                "name" : "perfsonar.ihep.ac.cn"
             },
             {
@@ -8160,15 +7942,6 @@
             },
             {
                "name" : "perfsonar-ps.cnaf.infn.it"
-            },
-            {
-               "name" : "perfsonar-bandwidth.esc.qmul.ac.uk"
-            },
-            {
-               "name" : "lcgs101.jinr.ru"
-            },
-            {
-               "name" : "netperf.ayy.fi"
             },
             {
                "name" : "perfsonar-de-kit.gridka.de"
@@ -8184,9 +7957,6 @@
             },
             {
                "name" : "200.0.207.49"
-            },
-            {
-               "name" : "acs244.bham.ac.uk"
             },
             {
                "name" : "epgperf.ph.bham.ac.uk"
@@ -8229,9 +7999,6 @@
                "name" : "ps-lt.ampath.ampath.net"
             },
             {
-               "name" : "ps-lt.l3-santiago.ampath.net"
-            },
-            {
                "name" : "perfsonar-lt.sprace.org.br"
             },
             {
@@ -8244,22 +8011,10 @@
                "name" : "perfSONAR.myren.net.my"
             },
             {
-               "name" : "lhc-latency.twgrid.org"
-            },
-            {
-               "name" : "ps01-akl.reannz.co.nz"
-            },
-            {
-               "name" : "ps1.reannz.net.nz"
-            },
-            {
                "name" : "nms4.jp.apan.net"
             },
             {
                "name" : "nsw-brwy-ps1.aarnet.net.au"
-            },
-            {
-               "name" : "perfsonar1.icepp.jp"
             },
             {
                "name" : "perfsonar-test4.kek.jp"
@@ -8272,15 +8027,6 @@
             },
             {
                "name" : "perfsonar-ow.cnaf.infn.it"
-            },
-            {
-               "name" : "perfsonar-latency.esc.qmul.ac.uk"
-            },
-            {
-               "name" : "lcgs102.jinr.ru"
-            },
-            {
-               "name" : "netperf.ayy.fi"
             },
             {
                "name" : "perfsonar2-de-kit.gridka.de"
@@ -8296,9 +8042,6 @@
             },
             {
                "name" : "200.0.207.49"
-            },
-            {
-               "name" : "acs244.bham.ac.uk"
             },
             {
                "name" : "epgperf.ph.bham.ac.uk"
@@ -9500,16 +9243,6 @@
          ],
          "no-agent" : true
       },
-      "acs244.bham.ac.uk" : {
-         "_meta" : {
-            "display-name" : "acs244.bham.ac.uk",
-            "organization-display-name" : "BEAR, University of Birmingham"
-         },
-         "archives" : [
-            "acs244.bham.ac.uk"
-         ],
-         "no-agent" : true
-      },
       "act-actn-ps1.aarnet.net.au" : {
          "_meta" : {
             "display-name" : "act-actn-ps1.aarnet.net.au",
@@ -10169,26 +9902,6 @@
             "lbl-pt1.es.net"
          ]
       },
-      "lcgs101.jinr.ru" : {
-         "_meta" : {
-            "display-name" : "lcgs101.jinr.ru",
-            "organization-display-name" : "JINR"
-         },
-         "archives" : [
-            "lcgs101.jinr.ru"
-         ],
-         "no-agent" : true
-      },
-      "lcgs102.jinr.ru" : {
-         "_meta" : {
-            "display-name" : "lcgs102.jinr.ru",
-            "organization-display-name" : "JINR"
-         },
-         "archives" : [
-            "lcgs102.jinr.ru"
-         ],
-         "no-agent" : true
-      },
       "lhc-bandwidth.twgrid.org" : {
          "_meta" : {
             "display-name" : "lhc-bandwidth.twgrid.org",
@@ -10196,16 +9909,6 @@
          },
          "archives" : [
             "lhc-bandwidth.twgrid.org"
-         ],
-         "no-agent" : true
-      },
-      "lhc-latency.twgrid.org" : {
-         "_meta" : {
-            "display-name" : "lhc-latency.twgrid.org",
-            "organization-display-name" : "ASGC"
-         },
-         "archives" : [
-            "lhc-latency.twgrid.org"
          ],
          "no-agent" : true
       },
@@ -10459,17 +10162,6 @@
          "archives" : [
             "netl-pgh-pt1.es.net"
          ]
-      },
-      "netperf.ayy.fi" : {
-         "_meta" : {
-            "display-name" : "netperf.ayy.fi",
-            "organization-display-name" : "AYY/Trinet In Espoo FI",
-            "site-display-name" : "AYY/Trinet In Espoo , FI"
-         },
-         "archives" : [
-            "netperf.ayy.fi"
-         ],
-         "no-agent" : true
       },
       "nettest-outside.it.wsu.edu" : {
          "_meta" : {
@@ -10854,16 +10546,6 @@
          ],
          "no-agent" : true
       },
-      "perfsonar-bandwidth.esc.qmul.ac.uk" : {
-         "_meta" : {
-            "display-name" : "perfsonar-bandwidth.esc.qmul.ac.uk",
-            "organization-display-name" : "Queen Mary University, London"
-         },
-         "archives" : [
-            "perfsonar-bandwidth.esc.qmul.ac.uk"
-         ],
-         "no-agent" : true
-      },
       "perfsonar-bw.sprace.org.br" : {
          "_meta" : {
             "display-name" : "perfsonar-bw.sprace.org.br",
@@ -10978,16 +10660,6 @@
          ],
          "no-agent" : true
       },
-      "perfsonar-latency.esc.qmul.ac.uk" : {
-         "_meta" : {
-            "display-name" : "perfsonar-latency.esc.qmul.ac.uk",
-            "organization-display-name" : "Queen Mary University, London"
-         },
-         "archives" : [
-            "perfsonar-latency.esc.qmul.ac.uk"
-         ],
-         "no-agent" : true
-      },
       "perfsonar-lsu-frey-01.loni.org" : {
          "_meta" : {
             "display-name" : "perfsonar-lsu-frey-01.loni.org",
@@ -11079,16 +10751,6 @@
          },
          "archives" : [
             "2607:f460:a001:13:"
-         ],
-         "no-agent" : true
-      },
-      "perfsonar-test1.kek.jp" : {
-         "_meta" : {
-            "display-name" : "perfsonar-test1.kek.jp",
-            "organization-display-name" : "KEK"
-         },
-         "archives" : [
-            "perfsonar-test1.kek.jp"
          ],
          "no-agent" : true
       },
@@ -11498,16 +11160,6 @@
          ],
          "no-agent" : true
       },
-      "perfsonar1.icepp.jp" : {
-         "_meta" : {
-            "display-name" : "perfsonar1.icepp.jp",
-            "organization-display-name" : "University of Tokyo In ICEPP"
-         },
-         "archives" : [
-            "perfsonar1.icepp.jp"
-         ],
-         "no-agent" : true
-      },
       "perfsonar1.rc.pdx.edu" : {
          "_meta" : {
             "display-name" : "perfsonar1.rc.pdx.edu",
@@ -11747,26 +11399,6 @@
          ],
          "no-agent" : true
       },
-      "ps-bw.ampath.ampath.net" : {
-         "_meta" : {
-            "display-name" : "ps-bw.ampath.ampath.net",
-            "organization-display-name" : "AMPATH"
-         },
-         "archives" : [
-            "ps-bw.ampath.ampath.net"
-         ],
-         "no-agent" : true
-      },
-      "ps-bw.l3-santiago.ampath.net" : {
-         "_meta" : {
-            "display-name" : "ps-bw.l3-santiago.ampath.net",
-            "organization-display-name" : "AMPATH"
-         },
-         "archives" : [
-            "ps-bw.l3-santiago.ampath.net"
-         ],
-         "no-agent" : true
-      },
       "ps-bw.ln.net" : {
          "_meta" : {
             "display-name" : "ps-bw.ln.net",
@@ -11944,16 +11576,6 @@
          },
          "archives" : [
             "ps-lt.ampath.ampath.net"
-         ],
-         "no-agent" : true
-      },
-      "ps-lt.l3-santiago.ampath.net" : {
-         "_meta" : {
-            "display-name" : "ps-lt.l3-santiago.ampath.net",
-            "organization-display-name" : "AMPATH"
-         },
-         "archives" : [
-            "ps-lt.l3-santiago.ampath.net"
          ],
          "no-agent" : true
       },
@@ -12167,17 +11789,6 @@
          ],
          "no-agent" : true
       },
-      "ps01-akl.reannz.co.nz" : {
-         "_meta" : {
-            "display-name" : "ps01-akl.reannz.co.nz",
-            "organization-display-name" : "REANNZ",
-            "site-display-name" : "REANNZ"
-         },
-         "archives" : [
-            "ps01-akl.reannz.co.nz"
-         ],
-         "no-agent" : true
-      },
       "ps1-100g-sdmz.chat.tmc.edu" : {
          "_meta" : {
             "display-name" : "ps1-100g-sdmz.chat.tmc.edu",
@@ -12227,17 +11838,6 @@
          },
          "archives" : [
             "ps1.netherlight.net"
-         ],
-         "no-agent" : true
-      },
-      "ps1.reannz.net.nz" : {
-         "_meta" : {
-            "display-name" : "ps1.reannz.net.nz",
-            "organization-display-name" : "REANNZ",
-            "site-display-name" : "REANNZ"
-         },
-         "archives" : [
-            "ps1.reannz.net.nz"
          ],
          "no-agent" : true
       },
