@@ -199,11 +199,11 @@
          "address" : "210.25.189.178",
          "host" : "CNGI-6IX_in_LA_IPv4"
       },
-      "210.25.189.58" : {
+      "210.25.189.78" : {
          "_meta" : {
             "display-name" : "CNGI-6IX in Beijing (IPv4)"
          },
-         "address" : "210.25.189.58",
+         "address" : "210.25.189.78",
          "host" : "CNGI-6IX_in_Beijing_IPv4"
       },
       "2400:dd01:1010:101:f24d:a2ff:fe70:12a8" : {
@@ -4025,11 +4025,11 @@
             "url" : "http://210.25.189.178/esmond/perfsonar/archive/"
          }
       },
-      "210.25.189.58" : {
+      "210.25.189.78" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://210.25.189.58/esmond/perfsonar/archive/"
+            "url" : "http://210.25.189.78/esmond/perfsonar/archive/"
          }
       },
       "2400:dd01:1010:101:f24d:a2ff:fe70:12a8" : {
@@ -7517,21 +7517,6 @@
             },
             {
                "name" : "2001:252:0:512::2"
-            },
-            {
-               "name" : "2001:400:1110:ff00:579::9"
-            },
-            {
-               "name" : "perf-v6.ipp.ac.cn"
-            },
-            {
-               "name" : "mcc-perfsonar-10g-v6.usc.edu"
-            },
-            {
-               "name" : "cal-perfsonar-10g-v6.usc.edu"
-            },
-            {
-               "name" : "2400:dd01:1010:101:f24d:a2ff:fe70:12a8"
             }
          ],
          "b-addresses" : [
@@ -7560,15 +7545,6 @@
             },
             {
                "name" : "perf-v6.ipp.ac.cn"
-            },
-            {
-               "name" : "mcc-perfsonar-1g-v6.usc.edu"
-            },
-            {
-               "name" : "cal-perfsonar-10g-v6.usc.edu"
-            },
-            {
-               "name" : "2400:dd01:1010:101:f24d:a2ff:fe70:12a8"
             }
          ],
          "b-addresses" : [
@@ -7587,25 +7563,10 @@
       "group_28" : {
          "a-addresses" : [
             {
-               "name" : "210.25.189.58"
+               "name" : "210.25.189.78"
             },
             {
                "name" : "210.25.189.178"
-            },
-            {
-               "name" : "ga-eastdtn-ps.gat.com"
-            },
-            {
-               "name" : "perf.ipp.ac.cn"
-            },
-            {
-               "name" : "mcc-perfsonar-10g.usc.edu"
-            },
-            {
-               "name" : "cal-perfsonar-10g.usc.edu"
-            },
-            {
-               "name" : "159.226.253.242"
             }
          ],
          "b-addresses" : [
@@ -7624,7 +7585,7 @@
       "group_29" : {
          "a-addresses" : [
             {
-               "name" : "210.25.189.58"
+               "name" : "210.25.189.78"
             },
             {
                "name" : "210.25.189.178"
@@ -7634,15 +7595,6 @@
             },
             {
                "name" : "perf.ipp.ac.cn"
-            },
-            {
-               "name" : "mcc-perfsonar-1g.usc.edu"
-            },
-            {
-               "name" : "cal-perfsonar-10g.usc.edu"
-            },
-            {
-               "name" : "159.226.253.242"
             }
          ],
          "b-addresses" : [
@@ -8904,7 +8856,7 @@
             "site-display-name" : "CNGI-6IX in Beijing (IPv4)"
          },
          "archives" : [
-            "210.25.189.58"
+            "210.25.189.78"
          ],
          "no-agent" : true
       },
