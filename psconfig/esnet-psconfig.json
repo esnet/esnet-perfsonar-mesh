@@ -1026,20 +1026,6 @@
          "address" : "elpa-pt1.es.net",
          "host" : "elpa-pt1.es.net"
       },
-      "enpl-ow1-1g.eos.nasa.gov" : {
-         "_meta" : {
-            "display-name" : "enpl-ow1-1g.eos.nasa.gov"
-         },
-         "address" : "enpl-ow1-1g.eos.nasa.gov",
-         "host" : "enpl-ow1-1g.eos.nasa.gov"
-      },
-      "enpl-pt1-10g.eos.nasa.gov" : {
-         "_meta" : {
-            "display-name" : "enpl-pt1-10g.eos.nasa.gov"
-         },
-         "address" : "enpl-pt1-10g.eos.nasa.gov",
-         "host" : "enpl-pt1-10g.eos.nasa.gov"
-      },
       "epgperf.ph.bham.ac.uk" : {
          "_meta" : {
             "display-name" : "epgperf.ph.bham.ac.uk"
@@ -2174,13 +2160,6 @@
          "address" : "owamp-scz.pnl.gov",
          "host" : "owamp-scz.pnl.gov"
       },
-      "owamp.boulder.noaa.gov" : {
-         "_meta" : {
-            "display-name" : "owamp.boulder.noaa.gov"
-         },
-         "address" : "owamp.boulder.noaa.gov",
-         "host" : "owamp.boulder.noaa.gov"
-      },
       "pantex-opt1.es.net" : {
          "_meta" : {
             "display-name" : "pantex-opt1.es.net"
@@ -2409,13 +2388,6 @@
          "address" : "perfsonar-hartford.cen.ct.gov",
          "host" : "perfsonar-hartford.cen.ct.gov"
       },
-      "perfsonar-hpc.ipsl.upmc.fr" : {
-         "_meta" : {
-            "display-name" : "perfsonar-hpc.ipsl.upmc.fr"
-         },
-         "address" : "perfsonar-hpc.ipsl.upmc.fr",
-         "host" : "perfsonar-hpc.ipsl.upmc.fr"
-      },
       "perfsonar-lsu-frey-01.loni.org" : {
          "_meta" : {
             "display-name" : "perfsonar-lsu-frey-01.loni.org"
@@ -2500,13 +2472,6 @@
          "address" : "perfsonar.fsl.byu.edu",
          "host" : "perfsonar.fsl.byu.edu"
       },
-      "perfsonar.gfdl.noaa.gov" : {
-         "_meta" : {
-            "display-name" : "perfsonar.gfdl.noaa.gov"
-         },
-         "address" : "perfsonar.gfdl.noaa.gov",
-         "host" : "perfsonar.gfdl.noaa.gov"
-      },
       "perfsonar.gmca.aps.anl.gov" : {
          "_meta" : {
             "display-name" : "perfsonar.gmca.aps.anl.gov"
@@ -2527,13 +2492,6 @@
          },
          "address" : "perfsonar.ihep.ac.cn",
          "host" : "perfsonar.ihep.ac.cn"
-      },
-      "perfsonar.ipsl.upmc.fr" : {
-         "_meta" : {
-            "display-name" : "perfsonar.ipsl.upmc.fr"
-         },
-         "address" : "perfsonar.ipsl.upmc.fr",
-         "host" : "perfsonar.ipsl.upmc.fr"
       },
       "perfsonar.its.msstate.edu" : {
          "_meta" : {
@@ -2660,13 +2618,6 @@
          },
          "address" : "perfsonar.ucad.sn",
          "host" : "perfsonar.ucad.sn"
-      },
-      "perfsonar.ucar.edu" : {
-         "_meta" : {
-            "display-name" : "perfsonar.ucar.edu"
-         },
-         "address" : "perfsonar.ucar.edu",
-         "host" : "perfsonar.ucar.edu"
       },
       "perfsonar.unm.edu" : {
          "_meta" : {
@@ -4417,20 +4368,6 @@
             "url" : "http://elpa-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
-      "enpl-ow1-1g.eos.nasa.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://enpl-ow1-1g.eos.nasa.gov/esmond/perfsonar/archive/"
-         }
-      },
-      "enpl-pt1-10g.eos.nasa.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://enpl-pt1-10g.eos.nasa.gov/esmond/perfsonar/archive/"
-         }
-      },
       "epgperf.ph.bham.ac.uk" : {
          "archiver" : "esmond",
          "data" : {
@@ -4907,13 +4844,6 @@
             "url" : "http://owamp-scz.pnl.gov/esmond/perfsonar/archive/"
          }
       },
-      "owamp.boulder.noaa.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://owamp.boulder.noaa.gov/esmond/perfsonar/archive/"
-         }
-      },
       "pantex-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -5110,13 +5040,6 @@
             "url" : "http://perfsonar-hartford.cen.ct.gov/esmond/perfsonar/archive/"
          }
       },
-      "perfsonar-hpc.ipsl.upmc.fr" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar-hpc.ipsl.upmc.fr/esmond/perfsonar/archive/"
-         }
-      },
       "perfsonar-lsu-frey-01.loni.org" : {
          "archiver" : "esmond",
          "data" : {
@@ -5201,13 +5124,6 @@
             "url" : "http://perfsonar.fsl.byu.edu/esmond/perfsonar/archive/"
          }
       },
-      "perfsonar.gfdl.noaa.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar.gfdl.noaa.gov/esmond/perfsonar/archive/"
-         }
-      },
       "perfsonar.gmca.aps.anl.gov" : {
          "archiver" : "esmond",
          "data" : {
@@ -5227,13 +5143,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://perfsonar.ihep.ac.cn/esmond/perfsonar/archive/"
-         }
-      },
-      "perfsonar.ipsl.upmc.fr" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar.ipsl.upmc.fr/esmond/perfsonar/archive/"
          }
       },
       "perfsonar.its.msstate.edu" : {
@@ -5360,13 +5269,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://perfsonar.ucad.sn/esmond/perfsonar/archive/"
-         }
-      },
-      "perfsonar.ucar.edu" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar.ucar.edu/esmond/perfsonar/archive/"
          }
       },
       "perfsonar.unm.edu" : {
@@ -7316,9 +7218,6 @@
                "name" : "perfsonar2.alaska.edu"
             },
             {
-               "name" : "perfsonar.llnl.gov"
-            },
-            {
                "name" : "perfsonar.dkrz.de"
             },
             {
@@ -7331,34 +7230,13 @@
                "name" : "act-actn-ps1.aarnet.net.au"
             },
             {
-               "name" : "ps1.netherlight.net"
-            },
-            {
                "name" : "ps2.netherlight.net"
-            },
-            {
-               "name" : "enpl-pt1-10g.eos.nasa.gov"
-            },
-            {
-               "name" : "ps-arc-meter.nren.nasa.gov"
-            },
-            {
-               "name" : "perfsonar.gfdl.noaa.gov"
             },
             {
                "name" : "nettest.boulder.noaa.gov"
             },
             {
                "name" : "ps.ncar.xsede.org"
-            },
-            {
-               "name" : "perfsonar.ucar.edu"
-            },
-            {
-               "name" : "perfsonar.ipsl.upmc.fr"
-            },
-            {
-               "name" : "perfsonar-hpc.ipsl.upmc.fr"
             },
             {
                "name" : "psmp-gn-bw-01-fra-de.geant.net"
@@ -7416,28 +7294,10 @@
                "name" : "ps2.netherlight.net"
             },
             {
-               "name" : "enpl-ow1-1g.eos.nasa.gov"
-            },
-            {
                "name" : "ps-arc-meter.nren.nasa.gov"
             },
             {
                "name" : "ps.ncar.xsede.org"
-            },
-            {
-               "name" : "perfsonar.ucar.edu"
-            },
-            {
-               "name" : "perfsonar.gfdl.noaa.gov"
-            },
-            {
-               "name" : "owamp.boulder.noaa.gov"
-            },
-            {
-               "name" : "perfsonar.ipsl.upmc.fr"
-            },
-            {
-               "name" : "perfsonar-hpc.ipsl.upmc.fr"
             }
          ],
          "b-addresses" : [
@@ -9630,26 +9490,6 @@
             "elpa-pt1.es.net"
          ]
       },
-      "enpl-ow1-1g.eos.nasa.gov" : {
-         "_meta" : {
-            "display-name" : "enpl-ow1-1g.eos.nasa.gov",
-            "organization-display-name" : "NASA"
-         },
-         "archives" : [
-            "enpl-ow1-1g.eos.nasa.gov"
-         ],
-         "no-agent" : true
-      },
-      "enpl-pt1-10g.eos.nasa.gov" : {
-         "_meta" : {
-            "display-name" : "enpl-pt1-10g.eos.nasa.gov",
-            "organization-display-name" : "NASA"
-         },
-         "archives" : [
-            "enpl-pt1-10g.eos.nasa.gov"
-         ],
-         "no-agent" : true
-      },
       "epgperf.ph.bham.ac.uk" : {
          "_meta" : {
             "display-name" : "epgperf.ph.bham.ac.uk",
@@ -10339,16 +10179,6 @@
          ],
          "no-agent" : true
       },
-      "owamp.boulder.noaa.gov" : {
-         "_meta" : {
-            "display-name" : "owamp.boulder.noaa.gov",
-            "organization-display-name" : "NOAA"
-         },
-         "archives" : [
-            "owamp.boulder.noaa.gov"
-         ],
-         "no-agent" : true
-      },
       "pantex-opt1.es.net" : {
          "_meta" : {
             "display-name" : "pantex-opt1.es.net",
@@ -10650,16 +10480,6 @@
          ],
          "no-agent" : true
       },
-      "perfsonar-hpc.ipsl.upmc.fr" : {
-         "_meta" : {
-            "display-name" : "perfsonar-hpc.ipsl.upmc.fr",
-            "organization-display-name" : "IPSL VM"
-         },
-         "archives" : [
-            "perfsonar-hpc.ipsl.upmc.fr"
-         ],
-         "no-agent" : true
-      },
       "perfsonar-lsu-frey-01.loni.org" : {
          "_meta" : {
             "display-name" : "perfsonar-lsu-frey-01.loni.org",
@@ -10794,16 +10614,6 @@
          ],
          "no-agent" : true
       },
-      "perfsonar.gfdl.noaa.gov" : {
-         "_meta" : {
-            "display-name" : "perfsonar.gfdl.noaa.gov",
-            "organization-display-name" : "NOAA"
-         },
-         "archives" : [
-            "perfsonar.gfdl.noaa.gov"
-         ],
-         "no-agent" : true
-      },
       "perfsonar.gmca.aps.anl.gov" : {
          "_meta" : {
             "display-name" : "perfsonar.gmca.aps.anl.gov",
@@ -10831,16 +10641,6 @@
          },
          "archives" : [
             "perfsonar.ihep.ac.cn"
-         ],
-         "no-agent" : true
-      },
-      "perfsonar.ipsl.upmc.fr" : {
-         "_meta" : {
-            "display-name" : "perfsonar.ipsl.upmc.fr",
-            "organization-display-name" : "IPSL VM"
-         },
-         "archives" : [
-            "perfsonar.ipsl.upmc.fr"
          ],
          "no-agent" : true
       },
@@ -11025,16 +10825,6 @@
          },
          "archives" : [
             "perfsonar.ucad.sn"
-         ],
-         "no-agent" : true
-      },
-      "perfsonar.ucar.edu" : {
-         "_meta" : {
-            "display-name" : "perfsonar.ucar.edu",
-            "organization-display-name" : "University Corporation for Atmospheric Research"
-         },
-         "archives" : [
-            "perfsonar.ucar.edu"
          ],
          "no-agent" : true
       },
