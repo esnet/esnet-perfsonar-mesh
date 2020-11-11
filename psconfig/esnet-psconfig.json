@@ -659,6 +659,20 @@
          "address" : "bost-pt2.es.net",
          "host" : "bost-pt2.es.net"
       },
+      "elpa-pt2-v6.es.net" : {
+         "_meta" : {
+            "display-name" : "elpa-pt2.es.net"
+         },
+         "address" : "elpa-pt2-v6.es.net",
+         "host" : "elpa-pt2.es.net"
+      },
+      "elpa-pt2.es.net" : {
+         "_meta" : {
+            "display-name" : "elpa-pt2.es.net"
+         },
+         "address" : "elpa-pt2.es.net",
+         "host" : "elpa-pt2.es.net"
+      },
       "bwctl-10g-ps.singaren.net.sg" : {
          "_meta" : {
             "display-name" : "bwctl-10g-ps.singaren.net.sg"
@@ -4207,6 +4221,13 @@
             "url" : "http://bost-pt2.es.net:8085/esmond/perfsonar/archive/"
          }
       },
+      "elpa-pt2.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://elpa-pt2.es.net:8085/esmond/perfsonar/archive/"
+         }
+      },
       "bwctl-10g-ps.singaren.net.sg" : {
          "archiver" : "esmond",
          "data" : {
@@ -7614,6 +7635,9 @@
          "a-addresses" : [
             {
                "name" : "bost-pt2.es.net"
+            },
+            {
+               "name" : "elpa-pt2.es.net"
             }
          ],
          "b-addresses" : [
@@ -9214,6 +9238,15 @@
          },
          "archives" : [
             "bost-pt2.es.net"
+         ]
+      },
+      "elpa-pt2.es.net" : {
+         "_meta" : {
+            "display-name" : "elpa-pt2.es.net",
+            "organization-display-name" : "ESnet"
+         },
+         "archives" : [
+            "elpa-pt2.es.net"
          ]
       },
       "bwctl-10g-ps.singaren.net.sg" : {
