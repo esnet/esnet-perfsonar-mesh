@@ -4228,6 +4228,20 @@
             "url" : "http://elpa-pt2.es.net:8085/esmond/perfsonar/archive/"
          }
       },
+      "bost-dtn.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://bost-dtn.es.net:8085/esmond/perfsonar/archive/"
+         }
+      },
+      "elpa-dtn.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://elpa-dtn.es.net:8085/esmond/perfsonar/archive/"
+         }
+      },
       "bwctl-10g-ps.singaren.net.sg" : {
          "archiver" : "esmond",
          "data" : {
@@ -7694,6 +7708,12 @@
             },
             {
                "name" : "204.99.128.11"
+            },
+            {
+               "name" : "bost-pt2.es.net"
+            },
+            {
+               "name" : "elpa-pt2.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7711,6 +7731,12 @@
             },
             {
                "name" : "cern-773-pt1.es.net"
+            },
+            {
+               "name" : "bost-dtn.es.net"
+            },
+            {
+               "name" : "elpa-dtn.es.net"
             }
          ],
          "type" : "mesh"
@@ -9247,6 +9273,24 @@
          },
          "archives" : [
             "elpa-pt2.es.net"
+         ]
+      },
+      "bost-dtn.es.net" : {
+         "_meta" : {
+            "display-name" : "bost-dtn.es.net",
+            "organization-display-name" : "ESnet"
+         },
+         "archives" : [
+            "bost-dtn.es.net"
+         ]
+      },
+      "elpa-dtn.es.net" : {
+         "_meta" : {
+            "display-name" : "elpa-dtn.es.net",
+            "organization-display-name" : "ESnet"
+         },
+         "archives" : [
+            "elpa-dtn.es.net"
          ]
       },
       "bwctl-10g-ps.singaren.net.sg" : {
