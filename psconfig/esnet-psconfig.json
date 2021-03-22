@@ -9,7 +9,28 @@
       "display-name" : "ESnet"
    },
    "addresses" : {
-      "perfsonar1.alaska.edu" : {
+     "nrel-pt1.nrel.gov" : {
+        "_meta" : {
+           "display-name" : "nrel-pt1.nrel.gov"
+        },
+        "address" : "nrel-pt1.nrel.gov",
+        "host" : "nrel-pt1.nrel.gov"
+     },
+     "ps0.nrel.gov" : {
+        "_meta" : {
+           "display-name" : "ps0.nrel.gov"
+        },
+        "address" : "ps0.nrel.gov",
+        "host" : "ps0.nrel.gov"
+     },
+     "ps2-61.nrel.gov" : {
+        "_meta" : {
+           "display-name" : "ps2-61.nrel.gov"
+        },
+        "address" : "ps2-61.nrel.gov",
+        "host" : "ps2-61.nrel.gov"
+     },
+     "perfsonar1.alaska.edu" : {
          "_meta" : {
             "display-name" : "perfsonar1.alaska.edu",
             "display-set" : "perfsonar.alaska.edu"
@@ -5978,6 +5999,27 @@
             "url" : "http://psvm.nrel.gov/esmond/perfsonar/archive/"
          }
       },
+      "nrel-pt1.nrel.gov" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://nrel-pt1.nrel.gov/esmond/perfsonar/archive/"
+         }
+      },
+      "ps0.nrel.gov" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps0.nrel.gov/esmond/perfsonar/archive/"
+         }
+      },
+      "ps2-61.nrel.gov" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps2-61.nrel.gov/esmond/perfsonar/archive/"
+         }
+      },
       "rneonly-ps.ps.uhnet.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -8773,6 +8815,63 @@
         "type" : "disjoint"
       }
    },
+   "group_nrel_owamp" : {
+      "a-addresses" : [
+          {
+             "name" : "nrel-pt1.nrel.gov"
+          },
+          {
+             "name" : "ps0.nrel.gov"
+          },
+          {
+             "name" : "ps2-61.nrel.gov"
+          }
+      ],
+      "b-addresses" : [
+          {
+             "name" : "lbl-owamp.es.net"
+          },
+          {
+             "name" : "pnwg-owamp.es.net"
+          },
+          {
+             "name" : "bois-owamp.es.net"
+          },
+          {
+             "name" : "ornl-owamp.es.net"
+          }
+      ],
+      "type" : "disjoint"
+    },
+    "group_nrel_pt" : {
+       "a-addresses" : [
+          {
+             "name" : "nrel-pt1.nrel.gov"
+          },
+          {
+             "name" : "ps0.nrel.gov"
+          },
+          {
+             "name" : "ps2-61.nrel.gov"
+          }
+       ],
+       "b-addresses" : [
+         {
+            "name" : "lbl-pt1.es.net"
+         },
+         {
+            "name" : "pnwg-pt1.es.net"
+         },
+         {
+            "name" : "bois-pt1.es.net"
+         },
+         {
+            "name" : "ornl-pt1.es.net"
+         }
+       ],
+       "type" : "disjoint"
+     }
+  },
    "hosts" : {
      "perfsonar-ma-2.princeton.edu" : {
          "_meta" : {
@@ -13006,7 +13105,42 @@
          "group" : "group_simons_observ_pt",
          "schedule" : "schedule_1",
          "test" : "trace_0"
-      }
+      },
+      "ESnet_to_NREL_Loss_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to NREL Packet Loss Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
+         "group" : "group_nrel_owamp",
+         "test" : "latencybg_0"
+       },
+       "ESnet_to_NREL_Throughput_Testing" : {
+          "_meta" : {
+             "display-name" : "ESnet to NREL Throughput Testing"
+          },
+          "reference": {
+             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+          },
+          "group" : "group_NREL_pt",
+          "schedule" : "schedule_0",
+          "test" : "throughput_1"
+        },
+        "ESnet_to_NREL_Traceroute_Testing" : {
+           "_meta" : {
+              "display-name" : "ESnet to NREL Traceroute Testing"
+           },
+           "reference": {
+              "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+              "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+           },
+           "group" : "group_nrel_pt",
+           "schedule" : "schedule_1",
+           "test" : "trace_0"
+        }
    },
    "tests" : {
       "latencybg_0" : {
