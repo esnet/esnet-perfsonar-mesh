@@ -8813,9 +8813,8 @@
           }
         ],
         "type" : "disjoint"
-      }
-   },
-   "group_nrel_owamp" : {
+     },
+     "group_nrel_owamp" : {
       "a-addresses" : [
           {
              "name" : "nrel-pt1.nrel.gov"
@@ -8871,7 +8870,7 @@
        ],
        "type" : "disjoint"
      }
-  },
+   },
    "hosts" : {
      "perfsonar-ma-2.princeton.edu" : {
          "_meta" : {
