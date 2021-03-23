@@ -13125,7 +13125,7 @@
              "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
              "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
           },
-          "group" : "group_NREL_pt",
+          "group" : "group_nrel_pt",
           "schedule" : "schedule_0",
           "test" : "throughput_1"
         },
