@@ -3948,7 +3948,21 @@
       }
    },
    "archives" : {
-      "doenetoro-pt1.es.net" : {
+     "perfsonar-ma-2.princeton.edu" : {
+          "archiver" : "esmond",
+          "data" : {
+             "measurement-agent" : "{% scheduled_by_address %}",
+             "url" : "http://perfsonar-ma-2.princeton.edu:8085/esmond/perfsonar/archive/"
+          }
+     },
+     "perfsonar-hpcrc.princeton.edu" : {
+          "archiver" : "esmond",
+          "data" : {
+             "measurement-agent" : "{% scheduled_by_address %}",
+             "url" : "http://perfsonar-hpcrc.princeton.edu:8085/esmond/perfsonar/archive/"
+          }
+     },
+     "doenetoro-pt1.es.net" : {
            "archiver" : "esmond",
            "data" : {
               "measurement-agent" : "{% scheduled_by_address %}",
@@ -8921,6 +8935,24 @@
      }
    },
    "hosts" : {
+     "psmp-gn-owd-01.lon.uk.geant.net" : {
+         "_meta" : {
+            "display-name" : "psmp-gn-owd-01.lon.uk.geant.net",
+            "organization-display-name" : "GEANT"
+         },
+         "archives" : [
+            "psmp-gn-owd-01.lon.uk.geant.net"
+         ]
+     },
+     "psmp-gn-bw-01-lon-uk.geant.net" : {
+         "_meta" : {
+            "display-name" : "psmp-gn-bw-01-lon-uk.geant.net",
+            "organization-display-name" : "GEANT"
+         },
+         "archives" : [
+            "psmp-gn-bw-01-lon-uk.geant.net"
+         ]
+     },
      "nrel-pt1.nrel.gov" : {
          "_meta" : {
             "display-name" : "nrel-pt1.nrel.gov",
@@ -8929,7 +8961,8 @@
          "archives" : [
             "nrel-pt1.nrel.gov"
          ]
-     },     "ps2-61.nrel.gov" : {
+     },
+     "ps2-61.nrel.gov" : {
          "_meta" : {
             "display-name" : "ps2-61.nrel.gov",
             "organization-display-name" : "NREL"
