@@ -9,6 +9,55 @@
       "display-name" : "ESnet"
    },
    "addresses" : {
+     "ps-lt.ampath.ampath.net" : {
+        "_meta" : {
+           "display-name" : "ps-lt.ampath.ampath.net"
+        },
+        "address" : "ps-lt.ampath.ampath.net",
+        "host" : "ps-lt.ampath.ampath.net"
+     },
+     "psmp-gn-bw-01-lon-uk.geant.net" : {
+        "_meta" : {
+           "display-name" : "psmp-gn-bw-01-lon-uk.geant.net"
+        },
+        "address" : "psmp-gn-bw-01-lon-uk.geant.net",
+        "host" : "psmp-gn-bw-01-lon-uk.geant.net"
+     },
+     "psmp-gn-owd-01.lon.uk.geant.net" : {
+        "_meta" : {
+           "display-name" : "psmp-gn-owd-01.lon.uk.geant.net"
+        },
+        "address" : "psmp-gn-owd-01.lon.uk.geant.net",
+        "host" : "psmp-gn-owd-01.lon.uk.geant.net"
+     },
+     "bost-dtn.es.net" : {
+        "_meta" : {
+           "display-name" : "bost-dtn.es.net"
+        },
+        "address" : "bost-dtn.es.net",
+        "host" : "bost-dtn.es.net"
+     },
+     "elpa-dtn.es.net" : {
+        "_meta" : {
+           "display-name" : "elpa-dtn.es.net"
+        },
+        "address" : "elpa-dtn.es.net",
+        "host" : "elpa-dtn.es.net"
+     },
+     "perfsonar-hpcrc.princeton.edu" : {
+        "_meta" : {
+           "display-name" : "perfsonar-hpcrc.princeton.edu"
+        },
+        "address" : "perfsonar-hpcrc.princeton.edu",
+        "host" : "perfsonar-hpcrc.princeton.edu"
+     },
+     "perfsonar-ma-2.princeton.edu" : {
+        "_meta" : {
+           "display-name" : "perfsonar-ma-2.princeton.edu"
+        },
+        "address" : "perfsonar-ma-2.princeton.edu",
+        "host" : "perfsonar-ma-2.princeton.edu"
+     },
      "nrel-pt1.nrel.gov" : {
         "_meta" : {
            "display-name" : "nrel-pt1.nrel.gov"
@@ -46,7 +95,7 @@
          "address" : "perfsonar2.alaska.edu",
          "no-agent" : true
       },
-       "perfsonar.luxzeplin.org" : {
+      "perfsonar.luxzeplin.org" : {
            "_meta" : {
               "display-name" : "perfsonar.luxzeplin.org",
               "display-set" : "perfsonar.luxzeplin.org"
