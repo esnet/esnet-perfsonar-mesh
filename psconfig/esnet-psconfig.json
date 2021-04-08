@@ -3948,6 +3948,20 @@
       }
    },
    "archives" : {
+     "psmp-gn-bw-01-lon-uk.geant.net" : {
+          "archiver" : "esmond",
+          "data" : {
+             "measurement-agent" : "{% scheduled_by_address %}",
+             "url" : "http://psmp-gn-bw-01-lon-uk.geant.net:8085/esmond/perfsonar/archive/"
+          }
+     },
+     "psmp-gn-owd-01.lon.uk.geant.net" : {
+          "archiver" : "esmond",
+          "data" : {
+             "measurement-agent" : "{% scheduled_by_address %}",
+             "url" : "http://psmp-gn-owd-01.lon.uk.geant.net:8085/esmond/perfsonar/archive/"
+          }
+     },
      "perfsonar-ma-2.princeton.edu" : {
           "archiver" : "esmond",
           "data" : {
