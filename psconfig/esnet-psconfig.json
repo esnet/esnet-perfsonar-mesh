@@ -8872,6 +8872,32 @@
      }
    },
    "hosts" : {
+     "nrel-pt1.nrel.gov" : {
+         "_meta" : {
+            "display-name" : "nrel-pt1.nrel.gov",
+            "organization-display-name" : "NREL"
+         },
+         "archives" : [
+            "nrel-pt1.nrel.gov"
+         ]
+     },     "ps2-61.nrel.gov" : {
+         "_meta" : {
+            "display-name" : "ps2-61.nrel.gov",
+            "organization-display-name" : "NREL"
+         },
+         "archives" : [
+            "ps2-61.nrel.gov"
+         ]
+     },
+     "ps0.nrel.gov" : {
+         "_meta" : {
+            "display-name" : "ps0.nrel.gov",
+            "organization-display-name" : "NREL"
+         },
+         "archives" : [
+            "ps0.nrel.gov"
+         ]
+     },
      "perfsonar-ma-2.princeton.edu" : {
          "_meta" : {
             "display-name" : "perfsonar-ma-2.princeton.edu",
