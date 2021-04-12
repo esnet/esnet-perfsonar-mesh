@@ -9,6 +9,13 @@
       "display-name" : "ESnet"
    },
    "addresses" : {
+     "holyperfsonar.rc.fas.harvard.edu" : {
+        "_meta" : {
+           "display-name" : "holyperfsonar.rc.fas.harvard.edu"
+        },
+        "address" : "holyperfsonar.rc.fas.harvard.edu",
+        "host" : "holyperfsonar.rc.fas.harvard.edu"
+     },
      "ps-lt.ampath.ampath.net" : {
         "_meta" : {
            "display-name" : "ps-lt.ampath.ampath.net"
@@ -3948,6 +3955,13 @@
       }
    },
    "archives" : {
+     "holyperfsonar.rc.fas.harvard.edu" : {
+          "archiver" : "esmond",
+          "data" : {
+             "measurement-agent" : "{% scheduled_by_address %}",
+             "url" : "http://holyperfsonar.rc.fas.harvard.edu:8085/esmond/perfsonar/archive/"
+          }
+     },
      "psmp-gn-bw-01-lon-uk.geant.net" : {
           "archiver" : "esmond",
           "data" : {
@@ -6915,6 +6929,9 @@
       "group_12" : {
          "a-addresses" : [
             {
+               "name" : "holyperfsonar.rc.fas.harvard.edu"
+            },
+            {
                "name" : "perfsonar02.cmsaf.mit.edu"
             },
             {
@@ -6990,6 +7007,9 @@
       },
       "group_13" : {
          "a-addresses" : [
+            {
+               "name" : "holyperfsonar.rc.fas.harvard.edu"
+            },
             {
                "name" : "perfsonar01.cmsaf.mit.edu"
             },
@@ -8949,6 +8969,15 @@
      }
    },
    "hosts" : {
+     "holyperfsonar.rc.fas.harvard.edu" : {
+         "_meta" : {
+            "display-name" : "holyperfsonar.rc.fas.harvard.edu",
+            "organization-display-name" : "Harvard"
+         },
+         "archives" : [
+            "holyperfsonar.rc.fas.harvard.edu"
+         ]
+     },
      "psmp-gn-owd-01.lon.uk.geant.net" : {
          "_meta" : {
             "display-name" : "psmp-gn-owd-01.lon.uk.geant.net",
