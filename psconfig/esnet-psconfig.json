@@ -14,28 +14,32 @@
            "display-name" : "holyperfsonar.rc.fas.harvard.edu"
         },
         "address" : "holyperfsonar.rc.fas.harvard.edu",
-        "host" : "holyperfsonar.rc.fas.harvard.edu"
+        "host" : "holyperfsonar.rc.fas.harvard.edu",
+        "no-agent" : true
      },
      "ps-lt.ampath.ampath.net" : {
         "_meta" : {
            "display-name" : "ps-lt.ampath.ampath.net"
         },
         "address" : "ps-lt.ampath.ampath.net",
-        "host" : "ps-lt.ampath.ampath.net"
+        "host" : "ps-lt.ampath.ampath.net",
+        "no-agent" : true
      },
      "psmp-gn-bw-01-lon-uk.geant.net" : {
         "_meta" : {
            "display-name" : "psmp-gn-bw-01-lon-uk.geant.net"
         },
         "address" : "psmp-gn-bw-01-lon-uk.geant.net",
-        "host" : "psmp-gn-bw-01-lon-uk.geant.net"
+        "host" : "psmp-gn-bw-01-lon-uk.geant.net",
+        "no-agent" : true
      },
      "psmp-gn-owd-01.lon.uk.geant.net" : {
         "_meta" : {
            "display-name" : "psmp-gn-owd-01.lon.uk.geant.net"
         },
         "address" : "psmp-gn-owd-01.lon.uk.geant.net",
-        "host" : "psmp-gn-owd-01.lon.uk.geant.net"
+        "host" : "psmp-gn-owd-01.lon.uk.geant.net",
+        "no-agent" : true
      },
      "bost-dtn.es.net" : {
         "_meta" : {
@@ -56,35 +60,40 @@
            "display-name" : "perfsonar-hpcrc.princeton.edu"
         },
         "address" : "perfsonar-hpcrc.princeton.edu",
-        "host" : "perfsonar-hpcrc.princeton.edu"
+        "host" : "perfsonar-hpcrc.princeton.edu",
+        "no-agent" : true
      },
      "perfsonar-ma-2.princeton.edu" : {
         "_meta" : {
            "display-name" : "perfsonar-ma-2.princeton.edu"
         },
         "address" : "perfsonar-ma-2.princeton.edu",
-        "host" : "perfsonar-ma-2.princeton.edu"
+        "host" : "perfsonar-ma-2.princeton.edu",
+        "no-agent" : true
      },
      "nrel-pt1.nrel.gov" : {
         "_meta" : {
            "display-name" : "nrel-pt1.nrel.gov"
         },
         "address" : "nrel-pt1.nrel.gov",
-        "host" : "nrel-pt1.nrel.gov"
+        "host" : "nrel-pt1.nrel.gov",
+        "no-agent" : true
      },
      "ps0.nrel.gov" : {
         "_meta" : {
            "display-name" : "ps0.nrel.gov"
         },
         "address" : "ps0.nrel.gov",
-        "host" : "ps0.nrel.gov"
+        "host" : "ps0.nrel.gov",
+        "no-agent" : true
      },
      "ps2-61.nrel.gov" : {
         "_meta" : {
            "display-name" : "ps2-61.nrel.gov"
         },
         "address" : "ps2-61.nrel.gov",
-        "host" : "ps2-61.nrel.gov"
+        "host" : "ps2-61.nrel.gov",
+        "no-agent" : true
      },
      "perfsonar1.alaska.edu" : {
          "_meta" : {
@@ -3439,7 +3448,8 @@
             "display-name" : "psvm.nrel.gov"
          },
          "address" : "psvm.nrel.gov",
-         "host" : "psvm.nrel.gov"
+         "host" : "psvm.nrel.gov",
+         "no-agent" : true
       },
       "rneonly-ps.ps.uhnet.net" : {
          "_meta" : {
@@ -6088,27 +6098,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://psvm.nrel.gov/esmond/perfsonar/archive/"
-         }
-      },
-      "nrel-pt1.nrel.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://nrel-pt1.nrel.gov/esmond/perfsonar/archive/"
-         }
-      },
-      "ps0.nrel.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps0.nrel.gov/esmond/perfsonar/archive/"
-         }
-      },
-      "ps2-61.nrel.gov" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps2-61.nrel.gov/esmond/perfsonar/archive/"
          }
       },
       "rneonly-ps.ps.uhnet.net" : {
