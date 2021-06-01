@@ -11,7 +11,8 @@
    "addresses" : {
      "holyperfsonar.rc.fas.harvard.edu" : {
         "_meta" : {
-           "display-name" : "holyperfsonar.rc.fas.harvard.edu"
+           "display-name" : "holyperfsonar.rc.fas.harvard.edu",
+           "display-set" : "holyperfsonar.rc.fas.harvard.edu"
         },
         "address" : "holyperfsonar.rc.fas.harvard.edu",
         "host" : "holyperfsonar.rc.fas.harvard.edu",
@@ -19,7 +20,8 @@
      },
      "ps-lt.ampath.ampath.net" : {
         "_meta" : {
-           "display-name" : "ps-lt.ampath.ampath.net"
+           "display-name" : "ps-lt.ampath.ampath.net",
+           "display-set" : "ps-lt.ampath.ampath.net"
         },
         "address" : "ps-lt.ampath.ampath.net",
         "host" : "ps-lt.ampath.ampath.net",
@@ -27,7 +29,8 @@
      },
      "psmp-gn-bw-01-lon-uk.geant.net" : {
         "_meta" : {
-           "display-name" : "psmp-gn-bw-01-lon-uk.geant.net"
+           "display-name" : "psmp-gn-bw-01-lon-uk.geant.net",
+           "display-set" : "psmp-gn-bw-01-lon-uk.geant.net"
         },
         "address" : "psmp-gn-bw-01-lon-uk.geant.net",
         "host" : "psmp-gn-bw-01-lon-uk.geant.net",
@@ -35,7 +38,8 @@
      },
      "psmp-gn-owd-01.lon.uk.geant.net" : {
         "_meta" : {
-           "display-name" : "psmp-gn-owd-01.lon.uk.geant.net"
+           "display-name" : "psmp-gn-owd-01.lon.uk.geant.net",
+           "display-set" : "psmp-gn-owd-01.lon.uk.geant.net"
         },
         "address" : "psmp-gn-owd-01.lon.uk.geant.net",
         "host" : "psmp-gn-owd-01.lon.uk.geant.net",
@@ -43,21 +47,24 @@
      },
      "bost-dtn.es.net" : {
         "_meta" : {
-           "display-name" : "bost-dtn.es.net"
+           "display-name" : "bost-dtn.es.net",
+           "display-set" : "bost-dtn.es.net"
         },
         "address" : "bost-dtn.es.net",
         "host" : "bost-dtn.es.net"
      },
      "elpa-dtn.es.net" : {
         "_meta" : {
-           "display-name" : "elpa-dtn.es.net"
+           "display-name" : "elpa-dtn.es.net",
+           "display-set" : "elpa-dtn.es.net"
         },
         "address" : "elpa-dtn.es.net",
         "host" : "elpa-dtn.es.net"
      },
      "perfsonar-hpcrc.princeton.edu" : {
         "_meta" : {
-           "display-name" : "perfsonar-hpcrc.princeton.edu"
+           "display-name" : "perfsonar-hpcrc.princeton.edu",
+           "display-set" : "perfsonar-hpcrc.princeton.edu"
         },
         "address" : "perfsonar-hpcrc.princeton.edu",
         "host" : "perfsonar-hpcrc.princeton.edu",
@@ -65,7 +72,8 @@
      },
      "perfsonar-ma-2.princeton.edu" : {
         "_meta" : {
-           "display-name" : "perfsonar-ma-2.princeton.edu"
+           "display-name" : "perfsonar-ma-2.princeton.edu",
+           "display-set" : "perfsonar-ma-2.princeton.edu"
         },
         "address" : "perfsonar-ma-2.princeton.edu",
         "host" : "perfsonar-ma-2.princeton.edu",
@@ -73,15 +81,18 @@
      },
      "nrel-pt1.nrel.gov" : {
         "_meta" : {
-           "display-name" : "nrel-pt1.nrel.gov"
-        },
+           "display-name" : "nrel-pt1.nrel.gov",
+           "display-set" : "nrel-pt1.nrel.gov"
+                 },
         "address" : "nrel-pt1.nrel.gov",
         "host" : "nrel-pt1.nrel.gov",
         "no-agent" : true
      },
      "ps0.nrel.gov" : {
         "_meta" : {
-           "display-name" : "ps0.nrel.gov"
+           "display-name" : "ps0.nrel.gov",
+           "display-set" : "ps0.nrel.gov"
+
         },
         "address" : "ps0.nrel.gov",
         "host" : "ps0.nrel.gov",
@@ -89,7 +100,8 @@
      },
      "ps2-61.nrel.gov" : {
         "_meta" : {
-           "display-name" : "ps2-61.nrel.gov"
+           "display-name" : "ps2-61.nrel.gov",
+           "display-set" : "ps2-61.nrel.gov"
         },
         "address" : "ps2-61.nrel.gov",
         "host" : "ps2-61.nrel.gov",
@@ -8927,35 +8939,7 @@
           }
       ],
       "type" : "disjoint"
-    },
-    "group_nrel_pt" : {
-       "a-addresses" : [
-          {
-             "name" : "nrel-pt1.nrel.gov"
-          },
-          {
-             "name" : "ps0.nrel.gov"
-          },
-          {
-             "name" : "ps2-61.nrel.gov"
-          }
-       ],
-       "b-addresses" : [
-         {
-            "name" : "lbl-pt1.es.net"
-         },
-         {
-            "name" : "pnwg-pt1.es.net"
-         },
-         {
-            "name" : "bois-pt1.es.net"
-         },
-         {
-            "name" : "ornl-pt1.es.net"
-         }
-       ],
-       "type" : "disjoint"
-     }
+    }
    },
    "hosts" : {
      "holyperfsonar.rc.fas.harvard.edu" : {
@@ -13250,18 +13234,6 @@
          "group" : "group_nrel_owamp",
          "test" : "latencybg_0"
        },
-       "ESnet_to_NREL_Throughput_Testing" : {
-          "_meta" : {
-             "display-name" : "ESnet to NREL Throughput Testing"
-          },
-          "reference": {
-             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
-             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
-          },
-          "group" : "group_nrel_pt",
-          "schedule" : "schedule_0",
-          "test" : "throughput_1"
-        },
         "ESnet_to_NREL_Traceroute_Testing" : {
            "_meta" : {
               "display-name" : "ESnet to NREL Traceroute Testing"
@@ -13270,7 +13242,7 @@
               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
            },
-           "group" : "group_nrel_pt",
+           "group" : "group_nrel_owamp",
            "schedule" : "schedule_1",
            "test" : "trace_0"
         }
