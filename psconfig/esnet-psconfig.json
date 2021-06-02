@@ -9,6 +9,15 @@
       "display-name" : "ESnet"
    },
    "addresses" : {
+     "rc-dc-perfsonar.rc.sc.edu" : {
+        "_meta" : {
+           "display-name" : "rc-dc-perfsonar.rc.sc.edu",
+           "display-set" : "rc-dc-perfsonar.rc.sc.edu"
+        },
+        "address" : "rc-dc-perfsonar.rc.sc.edu",
+        "host" : "rc-dc-perfsonar.rc.sc.edu",
+        "no-agent" : true
+     },
      "holyperfsonar.rc.fas.harvard.edu" : {
         "_meta" : {
            "display-name" : "holyperfsonar.rc.fas.harvard.edu",
@@ -3977,6 +3986,13 @@
       }
    },
    "archives" : {
+     "rc-dc-perfsonar.rc.sc.edu" : {
+          "archiver" : "esmond",
+          "data" : {
+             "measurement-agent" : "{% scheduled_by_address %}",
+             "url" : "http://rc-dc-perfsonar.rc.sc.edu:8085/esmond/perfsonar/archive/"
+          }
+     },
      "holyperfsonar.rc.fas.harvard.edu" : {
           "archiver" : "esmond",
           "data" : {
@@ -6930,7 +6946,10 @@
       "group_12" : {
          "a-addresses" : [
             {
-               "name" : "holyperfsonar.rc.fas.harvard.edu"
+              "name" : "rc-dc-perfsonar.rc.sc.edu"
+            },
+            {
+              "name" : "holyperfsonar.rc.fas.harvard.edu"
             },
             {
                "name" : "perfsonar02.cmsaf.mit.edu"
@@ -7008,6 +7027,9 @@
       },
       "group_13" : {
          "a-addresses" : [
+            {
+              "name" : "rc-dc-perfsonar.rc.sc.edu"
+            },
             {
                "name" : "holyperfsonar.rc.fas.harvard.edu"
             },
@@ -8942,6 +8964,15 @@
     }
    },
    "hosts" : {
+     "rc-dc-perfsonar.rc.sc.edu" : {
+         "_meta" : {
+            "display-name" : "rc-dc-perfsonar.rc.sc.edu",
+            "organization-display-name" : "UofSC"
+         },
+         "archives" : [
+            "rc-dc-perfsonar.rc.sc.edu"
+         ]
+     },
      "holyperfsonar.rc.fas.harvard.edu" : {
          "_meta" : {
             "display-name" : "holyperfsonar.rc.fas.harvard.edu",
