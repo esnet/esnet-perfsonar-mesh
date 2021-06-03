@@ -201,12 +201,13 @@
          "address" : "137.78.106.22",
          "host" : "ps-rtr-106-22.jpl.nasa.gov"
       },
-      "146.186.20.194" : {
+      "updc4.rtm.tns.its.psu.edu" : {
          "_meta" : {
-            "display-name" : "Penn State Border"
+            "display-name" : "updc4.rtm.tns.its.psu.edu",
+            "display-set" : "updc4.rtm.tns.its.psu.edu"
          },
-         "address" : "146.186.20.194",
-         "host" : "Penn_State_Border"
+         "address" : "updc4.rtm.tns.its.psu.edu",
+         "host" : "updc4.rtm.tns.its.psu.edu"
       },
       "159.226.253.242" : {
          "_meta" : {
@@ -4077,11 +4078,11 @@
             "url" : "http://137.78.106.22/esmond/perfsonar/archive/"
          }
       },
-      "146.186.20.194" : {
+      "updc4.rtm.tns.its.psu.edu" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://146.186.20.194/esmond/perfsonar/archive/"
+            "url" : "http://updc4.rtm.tns.its.psu.edu/esmond/perfsonar/archive/"
          }
       },
       "159.226.253.242" : {
@@ -6973,7 +6974,7 @@
                "name" : "ps-bwctl-10g.rn.psu.edu"
             },
             {
-               "name" : "146.186.20.194"
+               "name" : "updc4.rtm.tns.its.psu.edu"
             },
             {
                "name" : "srcf-ps.stanford.edu"
@@ -7055,7 +7056,7 @@
                "name" : "ps-bwctl-10g.rn.psu.edu"
             },
             {
-               "name" : "146.186.20.194"
+               "name" : "updc4.rtm.tns.its.psu.edu"
             },
             {
                "name" : "srcf-ps.stanford.edu"
@@ -9311,14 +9312,14 @@
          ],
          "no-agent" : true
       },
-      "Penn_State_Border" : {
+      "updc4.rtm.tns.its.psu.edu" : {
          "_meta" : {
-            "display-name" : "Penn State Border",
+            "display-name" : "updc4.rtm.tns.its.psu.edu",
             "organization-display-name" : "The Pennsylvania State University",
             "site-display-name" : "PSU Border Router"
          },
          "archives" : [
-            "146.186.20.194"
+            "updc4.rtm.tns.its.psu.edu"
          ],
          "no-agent" : true
       },
