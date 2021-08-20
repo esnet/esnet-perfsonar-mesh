@@ -9,6 +9,15 @@
       "display-name" : "ESnet"
    },
    "addresses" : {
+     "doenetemla-pt1.es.net" : {
+         "_meta" : {
+            "display-name" : "doenetemla-pt1.es.net",
+            "display-set" : "doenetemla-pt1.es.net"
+         },
+         "address" : "doenetemla-pt1.es.net",
+         "host" : "doenetemla-pt1.es.net",
+         "no-agent" : true
+     },
      "rc-dc-perfsonar.rc.sc.edu" : {
         "_meta" : {
            "display-name" : "rc-dc-perfsonar.rc.sc.edu",
@@ -3987,6 +3996,13 @@
       }
    },
    "archives" : {
+     "doenetemla-pt1.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://doenetemla-pt1.es.net:8085/esmond/perfsonar/archive/"
+         }
+     },
      "rc-dc-perfsonar.rc.sc.edu" : {
           "archiver" : "esmond",
           "data" : {
@@ -8962,9 +8978,31 @@
           }
       ],
       "type" : "disjoint"
+    },
+    "group_doenetmla" : {
+      "a-addresses" : [
+          {
+             "name" : "doenetemla-pt1.es.net"
+          }
+      ],
+      "b-addresses" : [
+          {
+             "name" : "albq-pt1.es.net"
+          }
+      ],
+      "type" : "disjoint"
     }
    },
    "hosts" : {
+      "doenetemla-pt1.es.net" : {
+         "_meta" : {
+            "display-name" : "doenetemla-pt1.es.net",
+            "organization-display-name" : "Lumens"
+         },
+         "archives" : [
+            "doenetemla-pt1.es.net"
+         ]
+     },
      "rc-dc-perfsonar.rc.sc.edu" : {
          "_meta" : {
             "display-name" : "rc-dc-perfsonar.rc.sc.edu",
@@ -13277,7 +13315,29 @@
            "group" : "group_nrel_owamp",
            "schedule" : "schedule_1",
            "test" : "trace_0"
-        }
+        },
+        "ESnet_to_Lumens_Loss_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to DOEnet Lumens Packet Loss Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
+         "group" : "group_doenetmla",
+         "test" : "latencybg_0"
+       },
+       "ESnet_to_Lumens_Throughput_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to DOEnet Lumens Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
+         "group" : "group_doenetmla",
+         "test" : "throughput_4"
+       }
    },
    "tests" : {
       "latencybg_0" : {
