@@ -8961,9 +8961,15 @@
           },
           {
              "name" : "ps2-61.nrel.gov"
+          },
+          {
+             "name" : "denv-owamp.es.net"
           }
       ],
       "b-addresses" : [
+          {
+             "name" : "denv-owamp.es.net"
+          },
           {
              "name" : "lbl-owamp.es.net"
           },
@@ -8975,6 +8981,9 @@
           },
           {
              "name" : "ornl-owamp.es.net"
+          },
+          {
+             "name" : "owamp-scz.pnl.gov"
           }
       ],
       "type" : "disjoint"
