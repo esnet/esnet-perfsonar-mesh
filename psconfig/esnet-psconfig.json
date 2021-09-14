@@ -8987,19 +8987,6 @@
           }
       ],
       "type" : "disjoint"
-    },
-    "group_doenetmla" : {
-      "a-addresses" : [
-          {
-             "name" : "doenetemla-pt1.es.net"
-          }
-      ],
-      "b-addresses" : [
-          {
-             "name" : "albq-pt1.es.net"
-          }
-      ],
-      "type" : "disjoint"
     }
    },
    "hosts" : {
@@ -13324,29 +13311,7 @@
            "group" : "group_nrel_owamp",
            "schedule" : "schedule_1",
            "test" : "trace_0"
-        },
-        "ESnet_to_Lumens_Loss_Testing" : {
-         "_meta" : {
-            "display-name" : "ESnet to DOEnet Lumens Packet Loss Testing"
-         },
-         "reference": {
-            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
-            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
-         },
-         "group" : "group_doenetmla",
-         "test" : "latencybg_0"
-       },
-       "ESnet_to_Lumens_Throughput_Testing" : {
-         "_meta" : {
-            "display-name" : "ESnet to DOEnet Lumens Throughput Testing"
-         },
-         "reference": {
-            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
-            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
-         },
-         "group" : "group_doenetmla",
-         "test" : "throughput_4"
-       }
+        }
    },
    "tests" : {
       "latencybg_0" : {
