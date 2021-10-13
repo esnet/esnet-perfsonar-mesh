@@ -8853,9 +8853,6 @@
        ],
        "b-addresses" : [
            {
-              "name" : "albq-owamp.es.net"
-           },
-           {
               "name" : "doe-gtn-owamp.es.net"
            }
        ],
@@ -8868,9 +8865,6 @@
          }
       ],
       "b-addresses" : [
-          {
-             "name" : "albq-pt1.es.net"
-          },
           {
              "name" : "doe-gtn-pt1.es.net"
           }
