@@ -106,6 +106,15 @@
         "host" : "nrel-pt1.nrel.gov",
         "no-agent" : true
      },
+     "nrel-perf01-100g.nrel.gov" : {
+        "_meta" : {
+           "display-name" : "nrel-perf01-100g.nrel.gov",
+           "display-set" : "nrel-perf01-100g.nrel.gov"
+                 },
+        "address" : "nrel-perf01-100g.nrel.gov",
+        "host" : "nrel-perf01-100g.nrel.gov",
+        "no-agent" : true
+     },
      "ps0.nrel.gov" : {
         "_meta" : {
            "display-name" : "ps0.nrel.gov",
@@ -8951,6 +8960,9 @@
              "name" : "nrel-pt1.nrel.gov"
           },
           {
+             "name" : "nrel-perf01-100g.nrel.gov"
+          },
+          {
              "name" : "ps0.nrel.gov"
           },
           {
@@ -8981,7 +8993,50 @@
           }
       ],
       "type" : "disjoint"
-    }
+    },
+    "group_nrel_thrupt" : {
+     "a-addresses" : [
+         {
+            "name" : "nrel-pt1.nrel.gov"
+         },
+         {
+            "name" : "nrel-perf01-100g.nrel.gov"
+         },
+         {
+            "name" : "ps0.nrel.gov"
+         },
+         {
+            "name" : "ps2-61.nrel.gov"
+         },
+         {
+            "name" : "pnwg-pt1.es.net"
+         },
+         {
+            "name" : "denv-pt1.es.net"
+         }
+     ],
+     "b-addresses" : [
+         {
+            "name" : "denv-pt1.es.net"
+         },
+         {
+            "name" : "lbl-pt1.es.net"
+         },
+         {
+            "name" : "pnwg-pt1.es.net"
+         },
+         {
+            "name" : "bois-pt1.es.net"
+         },
+         {
+            "name" : "ornl-pt1.es.net"
+         },
+         {
+            "name" : "owamp-scz.pnl.gov"
+         }
+     ],
+     "type" : "disjoint"
+   }
    },
    "hosts" : {
       "doenetemla-pt1.es.net" : {
@@ -9032,6 +9087,13 @@
      "nrel-pt1.nrel.gov" : {
          "_meta" : {
             "display-name" : "nrel-pt1.nrel.gov",
+            "organization-display-name" : "NREL"
+         },
+         "no-agent" : true
+     },
+     "nrel-perf01-100g.nrel.gov" : {
+         "_meta" : {
+            "display-name" : "nrel-perf01-100g.nrel.gov",
             "organization-display-name" : "NREL"
          },
          "no-agent" : true
@@ -13283,6 +13345,17 @@
          "schedule" : "schedule_1",
          "test" : "trace_0"
       },
+      "ESnet_to_NREL_Throughput_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to NREL Packet Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
+         "group" : "group_nrel_thrupt",
+         "test" : "throughput_1"
+       },
       "ESnet_to_NREL_Loss_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to NREL Packet Loss Testing"
