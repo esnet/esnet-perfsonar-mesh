@@ -8,7 +8,37 @@
       ],
       "display-name" : "ESnet"
    },
+  "addresses" : {
+     "grinch.phys.uconn.edu" : {
+         "_meta" : {
+            "display-name" : "grinch.phys.uconn.edu",
+            "display-set" : "grinch.phys.uconn.edu"
+         },
+         "address" : "grinch.phys.uconn.edu",
+         "host" : "grinch.phys.uconn.edu",
+         "no-agent" : true
+     },
+  "addresses" : {
+     "sciphy-ps.jlab.org" : {
+         "_meta" : {
+             "display-name" : "sciphy-ps.jlab.org",
+                 "display-set" : "sciphy-ps.jlab.org"
+          },
+          "address" : "sciphy-ps.jlab.org",
+          "host" : "sciphy-ps.jlab.org",
+          "no-agent" : true
+    },
    "addresses" : {
+     "dmz-ps.jlab.org" : {
+         "_meta" : {
+            "display-name" : "dmz-ps.jlab.org",
+            "display-set" : "dmz-ps.jlab.org"
+         },
+         "address" : "dmz-ps.jlab.org",
+         "host" : "dmz-ps.jlab.org",
+         "no-agent" : true
+     },
+  "addresses" : {
      "doenetemla-pt1.es.net" : {
          "_meta" : {
             "display-name" : "doenetemla-pt1.es.net",
@@ -9036,7 +9066,81 @@
          }
      ],
      "type" : "disjoint"
-   }
+   },
+   "group_gluex_owamp" : {
+    "a-addresses" : [
+        {
+           "name" : "grinch.phys.uconn.edu"
+        },
+        {
+           "name" : "sciphy-ps.jlab.org"
+        },
+        {
+           "name" : "dmz-ps.jlab.org"
+        }
+    ],
+    "b-addresses" : [
+        {
+         "name" : "sciphy-ps.jlab.org"
+        },
+        {
+           "name" : "wash-pt1.es.net"
+        },
+        {
+           "name" : "eqx-ash-owamp.es.net"
+        },
+        {
+           "name" : "bost-owamp.es.net"
+        },
+        {
+           "name" : "newy-owamp.es.net"
+        },
+        {
+           "name" : "aofa-owamp.es.net"
+        },
+        {
+           "name" : "east-dc-owamp.es.net"
+        }
+    ],
+    "type" : "disjoint"
+  },
+  "group_gluex_thrupt" : {
+   "a-addresses" : [
+     {
+        "name" : "grinch.phys.uconn.edu"
+     },
+     {
+        "name" : "sciphy-ps.jlab.org"
+     },
+     {
+        "name" : "dmz-ps.jlab.org"
+     }
+ ],
+ "b-addresses" : [
+     {
+      "name" : "sciphy-ps.jlab.org"
+     },
+     {
+        "name" : "wash-pt1.es.net"
+     },
+     {
+        "name" : "eqx-ash-pt1.es.net"
+     },
+     {
+        "name" : "bost-pt1.es.net"
+     },
+     {
+        "name" : "newy-pt1.es.net"
+     },
+     {
+        "name" : "aofa-pt1.es.net"
+     },
+     {
+        "name" : "east-dc-pt1.es.net"
+     }
+   ],
+   "type" : "disjoint"
+ }
    },
    "hosts" : {
       "doenetemla-pt1.es.net" : {
@@ -9094,6 +9198,27 @@
      "nrel-perf01-100g.nrel.gov" : {
          "_meta" : {
             "display-name" : "nrel-perf01-100g.nrel.gov",
+            "organization-display-name" : "NREL"
+         },
+         "no-agent" : true
+     },
+     "grinch.phys.uconn.edu" : {
+         "_meta" : {
+            "display-name" : "grinch.phys.uconn.edu",
+            "organization-display-name" : "NREL"
+         },
+         "no-agent" : true
+     },
+     "sciphy-ps.jlab.org" : {
+         "_meta" : {
+            "display-name" : "sciphy-ps.jlab.org",
+            "organization-display-name" : "NREL"
+         },
+         "no-agent" : true
+     },
+     "dmz-ps.jlab.org" : {
+         "_meta" : {
+            "display-name" : "dmz-ps.jlab.org",
             "organization-display-name" : "NREL"
          },
          "no-agent" : true
