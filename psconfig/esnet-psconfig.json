@@ -9202,21 +9202,21 @@
      "grinch.phys.uconn.edu" : {
          "_meta" : {
             "display-name" : "grinch.phys.uconn.edu",
-            "organization-display-name" : "NREL"
+            "organization-display-name" : "UCONN"
          },
          "no-agent" : true
      },
      "sciphy-ps.jlab.org" : {
          "_meta" : {
             "display-name" : "sciphy-ps.jlab.org",
-            "organization-display-name" : "NREL"
+            "organization-display-name" : "JLAB"
          },
          "no-agent" : true
      },
      "dmz-ps.jlab.org" : {
          "_meta" : {
             "display-name" : "dmz-ps.jlab.org",
-            "organization-display-name" : "NREL"
+            "organization-display-name" : "JLAB"
          },
          "no-agent" : true
      },
@@ -13500,7 +13500,41 @@
            "group" : "group_nrel_owamp",
            "schedule" : "schedule_1",
            "test" : "trace_0"
-        }
+        },
+        "JLAB_GlueX_Throughput_Testing" : {
+           "_meta" : {
+              "display-name" : "JLAB GlueX Packet Throughput Testing"
+           },
+           "reference": {
+              "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+              "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+           },
+           "group" : "group_gluex_thrupt",
+           "test" : "throughput_1"
+         },
+        "JLAB_GlueX_Loss_Testing" : {
+           "_meta" : {
+              "display-name" : "JLAB GlueX Packet Loss Testing"
+           },
+           "reference": {
+              "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+              "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+           },
+           "group" : "group_gluex_owamp",
+           "test" : "latencybg_0"
+         },
+          "JLAB_GlueX_Traceroute_Testing" : {
+             "_meta" : {
+                "display-name" : "JLAB GlueX Traceroute Testing"
+             },
+             "reference": {
+                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+             },
+             "group" : "group_gluex_owamp",
+             "schedule" : "schedule_1",
+             "test" : "trace_0"
+          }
    },
    "tests" : {
       "latencybg_0" : {
