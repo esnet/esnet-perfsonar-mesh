@@ -18,7 +18,6 @@
          "host" : "grinch.phys.uconn.edu",
          "no-agent" : true
      },
-  "addresses" : {
      "sciphy-ps.jlab.org" : {
          "_meta" : {
              "display-name" : "sciphy-ps.jlab.org",
@@ -28,7 +27,6 @@
           "host" : "sciphy-ps.jlab.org",
           "no-agent" : true
     },
-   "addresses" : {
      "dmz-ps.jlab.org" : {
          "_meta" : {
             "display-name" : "dmz-ps.jlab.org",
@@ -38,7 +36,6 @@
          "host" : "dmz-ps.jlab.org",
          "no-agent" : true
      },
-  "addresses" : {
      "doenetemla-pt1.es.net" : {
          "_meta" : {
             "display-name" : "doenetemla-pt1.es.net",
