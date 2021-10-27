@@ -9081,7 +9081,10 @@
          "name" : "sciphy-ps.jlab.org"
         },
         {
-           "name" : "wash-pt1.es.net"
+           "name" : "atla-owamp.es.net"
+        },
+        {
+           "name" : "wash-owamp.es.net"
         },
         {
            "name" : "eqx-ash-owamp.es.net"
@@ -9116,6 +9119,9 @@
  "b-addresses" : [
      {
       "name" : "sciphy-ps.jlab.org"
+     },
+     {
+        "name" : "atla-pt1.es.net"
      },
      {
         "name" : "wash-pt1.es.net"
