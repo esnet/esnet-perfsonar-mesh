@@ -8755,6 +8755,9 @@
            "name" : "sciphy-ps.jlab.org"
         },
         {
+           "name" : "jlab4.jlab.org"
+        },
+        {
            "name" : "dmz-ps.jlab.org"
         }
     ],
@@ -8766,19 +8769,7 @@
            "name" : "atla-owamp.es.net"
         },
         {
-           "name" : "wash-owamp.es.net"
-        },
-        {
            "name" : "eqx-ash-owamp.es.net"
-        },
-        {
-           "name" : "bost-owamp.es.net"
-        },
-        {
-           "name" : "newy-owamp.es.net"
-        },
-        {
-           "name" : "aofa-owamp.es.net"
         },
         {
            "name" : "east-dc-owamp.es.net"
@@ -8795,6 +8786,9 @@
         "name" : "sciphy-ps.jlab.org"
      },
      {
+        "name" : "jlab4.jlab.org"
+     },
+     {
         "name" : "dmz-ps.jlab.org"
      }
  ],
@@ -8806,19 +8800,7 @@
         "name" : "atla-pt1.es.net"
      },
      {
-        "name" : "wash-pt1.es.net"
-     },
-     {
         "name" : "eqx-ash-pt1.es.net"
-     },
-     {
-        "name" : "bost-pt1.es.net"
-     },
-     {
-        "name" : "newy-pt1.es.net"
-     },
-     {
-        "name" : "aofa-pt1.es.net"
      },
      {
         "name" : "east-dc-pt1.es.net"
