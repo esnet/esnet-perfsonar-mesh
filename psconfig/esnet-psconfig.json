@@ -6449,7 +6449,22 @@
          ],
          "b-addresses" : [
             {
-               "name" : "hous-pt1.es.net"
+               "name" : "anl-pt1.es.net"
+            },
+            {
+               "name" : "lbl-pt1.es.net"
+            },
+            {
+               "name" : "ornl-pt1.es.net"
+            },
+            {
+               "name" : "pnwg-pt1.es.net"
+            },
+            {
+               "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "wash-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6471,7 +6486,22 @@
                "name" : "atla-pt1.es.net"
             },
             {
-               "name" : "nash-pt1.es.net"
+               "name" : "anl-pt1.es.net"
+            },
+            {
+               "name" : "lbl-pt1.es.net"
+            },
+            {
+               "name" : "ornl-pt1.es.net"
+            },
+            {
+               "name" : "pnwg-pt1.es.net"
+            },
+            {
+               "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "wash-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6502,7 +6532,16 @@
          ],
          "b-addresses" : [
             {
-               "name" : "hous-pt1.es.net"
+               "name" : "lbl-pt1.es.net"
+            },
+            {
+               "name" : "ornl-pt1.es.net"
+            }.
+            {
+               "name" : "pnwg-pt1.es.net"
+            }.
+            {
+               "name" : "star-pt1.es.net"
             },
             {
                "name" : "wash-pt1.es.net"
@@ -6568,6 +6607,9 @@
                "name" : "albq-owamp.es.net"
             },
             {
+               "name" : "anl-owamp.es.net"
+            },
+            {
                "name" : "atla-owamp.es.net"
             },
             {
@@ -6575,6 +6617,9 @@
             },
             {
                "name" : "hous-owamp.es.net"
+            },
+            {
+               "name" : "lbl-owamp.es.net"
             },
             {
                "name" : "nash-owamp.es.net"
@@ -6596,6 +6641,9 @@
             },
             {
                "name" : "kans-owamp.es.net"
+            },
+            {
+               "name" : "wash-owamp.es.net"
             }
          ],
          "type" : "mesh"
@@ -6617,7 +6665,22 @@
          ],
          "b-addresses" : [
             {
-               "name" : "atla-pt1.es.net"
+               "name" : "anl-pt1.es.net"
+            },
+            {
+               "name" : "lbl-pt1.es.net"
+            },
+            {
+               "name" : "ornl-pt1.es.net"
+            },
+            {
+               "name" : "pnwg-pt1.es.net"
+            },
+            {
+               "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "wash-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6725,10 +6788,22 @@
          ],
          "b-addresses" : [
             {
-               "name" : "hous-owamp.es.net"
+               "name" : "anl-owamp.es.net"
+            },
+            {
+               "name" : "lbl-owamp.es.net"
             },
             {
                "name" : "ornl-owamp.es.net"
+            },
+            {
+               "name" : "pnwg-owamp.es.net"
+            },
+            {
+               "name" : "star-owamp.es.net"
+            },
+            {
+               "name" : "wash-owamp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6775,6 +6850,18 @@
             },
             {
                "name" : "atla-pt1.es.net"
+            },
+            {
+               "name" : "wash-pt1.es.net"
+            },
+            {
+               "name" : "ornl-pt1.es.net"
+            },
+            {
+               "name" : "anl-pt1.es.net"
+            },
+            {
+               "name" : "lbl-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6833,6 +6920,21 @@
             },
             {
                "name" : "atla-owamp.es.net"
+            },
+            {
+               "name" : "anl-owamp.es.net"
+            },
+            {
+               "name" : "wash-owamp.es.net"
+            },
+            {
+               "name" : "lbl-owamp.es.net"
+            },
+            {
+               "name" : "ornl-owamp.es.net"
+            },
+            {
+               "name" : "pnwg-owamp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6994,6 +7096,21 @@
             },
             {
                "name" : "atla-owamp.es.net"
+            },
+            {
+               "name" : "anl-owamp.es.net"
+            },
+            {
+               "name" : "ornl-owamp.es.net"
+            },
+            {
+               "name" : "wash-owamp.es.net"
+            },
+            {
+               "name" : "star-owamp.es.net"
+            },
+            {
+               "name" : "lbl-owamp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7068,10 +7185,16 @@
          ],
          "b-addresses" : [
             {
+               "name" : "lbl-pt1.es.net"
+            },
+            {
+               "name" : "ornl-pt1.es.net"
+            },
+            {
                "name" : "star-pt1.es.net"
             },
             {
-               "name" : "hous-pt1.es.net"
+               "name" : "pnwg-pt1.es.net"
             },
             {
                "name" : "wash-pt1.es.net"
@@ -7261,6 +7384,15 @@
             },
             {
                "name" : "wash-pt1.es.net"
+            },
+            {
+               "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "lbl-pt1.es.net"
+            },
+            {
+               "name" : "anl-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7301,6 +7433,18 @@
             },
             {
                "name" : "pnwg-owamp.es.net"
+            },
+            {
+               "name" : "star-owamp.es.net"
+            },
+            {
+               "name" : "wash-owamp.es.net"
+            },
+            {
+               "name" : "ornl-owamp.es.net"
+            },
+            {
+               "name" : "lbl-owamp.es.net"
             }
          ],
          "type" : "disjoint"
