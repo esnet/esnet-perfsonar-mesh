@@ -8865,7 +8865,10 @@
          "name" : "sciphy-ps.jlab.org"
         },
         {
-           "name" : "atla-owamp.es.net"
+           "name" : "ornl-owamp.es.net"
+        },
+        {
+           "name" : "wash-owamp.es.net"
         },
         {
            "name" : "eqx-ash-owamp.es.net"
@@ -8896,7 +8899,10 @@
       "name" : "sciphy-ps.jlab.org"
      },
      {
-        "name" : "atla-pt1.es.net"
+        "name" : "wash-pt1.es.net"
+     },
+     {
+        "name" : "ornl-pt1.es.net"
      },
      {
         "name" : "eqx-ash-pt1.es.net"
@@ -13300,7 +13306,7 @@
                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                 "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
              },
-             "group" : "group_gluex_owamp",
+             "group" : "group_gluex_thrupt",
              "schedule" : "schedule_1",
              "test" : "trace_0"
           }
