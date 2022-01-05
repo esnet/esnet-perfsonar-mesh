@@ -1100,7 +1100,7 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-owamp-v6.es.net",
-         "host" : "lbnl59-doenet-opt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net"
       },
       "lbnl59-doenet-owamp.es.net" : {
          "_meta" : {
@@ -1108,7 +1108,7 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-owamp.es.net",
-         "host" : "lbnl59-doenet-opt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net"
       },
       "lbnl59-doenet-owamp-v4.es.net" : {
          "_meta" : {
@@ -1116,7 +1116,7 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-owamp-v4.es.net",
-         "host" : "lbnl59-doenet-opt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net"
       },
       "lbnl59-doenet-pt1-v6.es.net" : {
          "_meta" : {
@@ -1124,7 +1124,7 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-pt1-v6.es.net",
-         "host" : "lbnl59-doenet-opt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net"
       },
       "lbnl59-doenet-pt1.es.net" : {
          "_meta" : {
@@ -1132,7 +1132,23 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-pt1.es.net",
-         "host" : "lbnl59-doenet-opt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net"
+      },
+      "198.129.254.9" : {
+         "_meta" : {
+            "display-name" : "lbnl59-doenet-pt1.es.net",
+            "display-set" : "lbnl59-doenet"
+         },
+         "address" : "198.129.254.9",
+         "host" : "lbnl59-doenet-pt1.es.net"
+      },
+      "198.129.252.138" : {
+         "_meta" : {
+            "display-name" : "lbnl59-doenet-owamp1.es.net",
+            "display-set" : "lbnl59-doenet"
+         },
+         "address" : "198.129.252.138",
+         "host" : "lbnl59-doenet-pt1.es.net"
       },
       "dps10.ucsc.edu" : {
          "_meta" : {
@@ -4597,11 +4613,11 @@
             "url" : "http://doe-gtn-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
-      "lbl59-doenet-pt1.es.net" : {
+      "lbnl59-doenet-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://lbl59-doenet-pt1.es.net:8085/esmond/perfsonar/archive/"
+            "url" : "http://lbln59-doenet-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "dps10.ucsc.edu" : {
