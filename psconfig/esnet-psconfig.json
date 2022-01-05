@@ -1094,6 +1094,46 @@
          "address" : "doe-gtn-pt1.es.net",
          "host" : "doe-gtn-opt1.es.net"
       },
+      "lbnl59-doenet-owamp-v6.es.net" : {
+         "_meta" : {
+            "display-name" : "lbnl59-doenet-owamp.es.net",
+            "display-set" : "lbnl59-doenet"
+         },
+         "address" : "lbnl59-doenet-owamp-v6.es.net",
+         "host" : "lbnl59-doenet-opt1.es.net"
+      },
+      "lbnl59-doenet-owamp.es.net" : {
+         "_meta" : {
+            "display-name" : "lbnl59-doenet-owamp.es.net",
+            "display-set" : "lbnl59-doenet"
+         },
+         "address" : "lbnl59-doenet-owamp.es.net",
+         "host" : "lbnl59-doenet-opt1.es.net"
+      },
+      "lbnl59-doenet-owamp-v4.es.net" : {
+         "_meta" : {
+            "display-name" : "lbnl59-doenet-owamp.es.net",
+            "display-set" : "lbnl59-doenet"
+         },
+         "address" : "lbnl59-doenet-owamp-v4.es.net",
+         "host" : "lbnl59-doenet-opt1.es.net"
+      },
+      "lbnl59-doenet-pt1-v6.es.net" : {
+         "_meta" : {
+            "display-name" : "lbnl59-doenet-pt1.es.net",
+            "display-set" : "lbnl59-doenet"
+         },
+         "address" : "lbnl59-doenet-pt1-v6.es.net",
+         "host" : "lbnl59-doenet-opt1.es.net"
+      },
+      "lbnl59-doenet-pt1.es.net" : {
+         "_meta" : {
+            "display-name" : "lbnl59-doenet-pt1.es.net",
+            "display-set" : "lbnl59-doenet"
+         },
+         "address" : "lbnl59-doenet-pt1.es.net",
+         "host" : "lbnl59-doenet-opt1.es.net"
+      },
       "dps10.ucsc.edu" : {
          "_meta" : {
             "display-name" : "dps10.ucsc.edu"
@@ -4555,6 +4595,13 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://doe-gtn-pt1.es.net:8085/esmond/perfsonar/archive/"
+         }
+      },
+      "lbl59-doenet-pt1.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://lbl59-doenet-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "dps10.ucsc.edu" : {
@@ -8666,12 +8713,42 @@
        "a-addresses" : [
           {
              "name" : "doenetoro-pt1.es.net"
+          },
+          {
+             "name" : "doe-gtn-owamp.es.net"
+          },
+          {
+             "name" : "198.129.252.138"
+          },
+          {
+             "name" : "lbl-owamp.es.net"
+          },
+          {
+             "name" : "lbnl59-doenet-owamp.es.net"
+          },
+          {
+             "name" : "lbnl59-doenet-owamp-v6.es.net"
           }
        ],
        "b-addresses" : [
-           {
-              "name" : "doe-gtn-owamp.es.net"
-           }
+          {
+             "name" : "doenetoro-pt1.es.net"
+          },
+          {
+             "name" : "doe-gtn-owamp.es.net"
+          },
+          {
+             "name" : "198.129.252.138"
+          },
+          {
+             "name" : "lbl-owamp.es.net"
+          },
+          {
+             "name" : "lbnl59-doenet-owamp.es.net"
+          },
+          {
+             "name" : "lbnl59-doenet-owamp-v6.es.net"
+          }
        ],
        "type" : "disjoint"
    },
@@ -8679,11 +8756,47 @@
       "a-addresses" : [
          {
             "name" : "doenetoro-pt1.es.net"
+         },
+         {
+            "name" : "doe-gtn-pt1.es.net"
+         },
+         {
+            "name" : "198.129.254.9"
+         },
+         {
+            "name" : "lbl-pt1.es.net"
+         },
+         {
+            "name" : "lbl-pt1-v6.es.net"
+         },
+         {
+            "name" : "lbnl59-doenet-pt1.es.net"
+         },
+         {
+            "name" : "lbnl59-doenet-pt1-v6.es.net"
          }
       ],
       "b-addresses" : [
           {
              "name" : "doe-gtn-pt1.es.net"
+          },
+          {
+             "name" : "doenetoro-pt1.es.net"
+          },
+          {
+             "name" : "198.129.254.9"
+          },
+          {
+             "name" : "lbl-pt1.es.net"
+          },
+          {
+             "name" : "lbl-pt1-v6.es.net"
+          },
+          {
+             "name" : "lbnl59-doenet-pt1.es.net"
+          },
+          {
+             "name" : "lbnl59-doenet-pt1-v6.es.net"
           }
       ],
       "type" : "disjoint"
@@ -9035,16 +9148,61 @@
          "archives" : [
             "perfsonar.reuna.cl"
          ]
-     },
-     "doenetoro-pt1.es.net" : {
-          "_meta" : {
-             "display-name" : "doenetoro-pt1.es.net",
-             "organization-display-name" : "ESnet"
-          },
-          "archives" : [
-             "doenetoro-pt1.es.net"
-          ]
       },
+      "lbnl59-doenet-pt1.es.net" : {
+           "_meta" : {
+              "display-name" : "lbnl59-doenet-pt1.es.net",
+              "organization-display-name" : "ESnet"
+           },
+           "archives" : [
+              "lbnl59-doenet-pt1.es.net"
+           ]
+       },
+       "lbnl59-doenet-pt1-v6.es.net" : {
+            "_meta" : {
+               "display-name" : "lbnl59-doenet-pt1-v6.es.net",
+               "organization-display-name" : "ESnet"
+            },
+            "archives" : [
+               "lbnl59-doenet-pt1-v6.es.net"
+            ]
+        },
+        "198.129.254.9" : {
+             "_meta" : {
+                "display-name" : "198.129.254.9",
+                "organization-display-name" : "ESnet"
+             },
+             "archives" : [
+                "198.129.254.9"
+             ]
+         },
+         "lbnl59-doenet-owamp.es.net" : {
+              "_meta" : {
+                 "display-name" : "lbnl59-doenet-owamp.es.net",
+                 "organization-display-name" : "ESnet"
+              },
+              "archives" : [
+                 "lbnl59-doenet-owamp.es.net"
+              ]
+          },
+          "lbnl59-doenet-owamp-v6.es.net" : {
+               "_meta" : {
+                  "display-name" : "lbnl59-doenet-owamp-v6.es.net",
+                  "organization-display-name" : "ESnet"
+               },
+               "archives" : [
+                  "lbnl59-doenet-owamp-v6.es.net"
+               ]
+           },
+           "198.129.252.138" : {
+                "_meta" : {
+                   "display-name" : "198.129.252.138",
+                   "organization-display-name" : "ESnet"
+                },
+                "archives" : [
+                   "198.129.252.138"
+                ]
+            },
        "psonar-bw.hpc.osc.edu" : {
           "_meta" : {
              "display-name" : "psonar-bw.hpc.osc.edu",
