@@ -4088,6 +4088,13 @@
       }
    },
    "archives" : {
+     "lbnl59-doenet-owamp.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://lbnl59-doenet-owamp.es.net:8085/esmond/perfsonar/archive/"
+         }
+     },
      "lbnl59-doenet-pt1-v6.es.net" : {
          "archiver" : "esmond",
          "data" : {
