@@ -4088,6 +4088,34 @@
       }
    },
    "archives" : {
+     "lbnl59-doenet-pt1-v6.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://lbnl59-doenet-pt1-v6.es.net:8085/esmond/perfsonar/archive/"
+         }
+     },
+     "lbnl59-doenet-owamp-v6.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://lbnl59-doenet-owamp-v6.es.net:8085/esmond/perfsonar/archive/"
+         }
+     },
+     "198.129.254.9" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://198.129.254.9:8085/esmond/perfsonar/archive/"
+         }
+     },
+     "198.129.252.138" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://198.129.252.138:8085/esmond/perfsonar/archive/"
+         }
+     },
      "doenetemla-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
