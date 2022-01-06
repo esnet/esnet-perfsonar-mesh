@@ -191,7 +191,8 @@
               "display-set" : "doenetoro-pt1.es.net"
            },
            "address" : "doenetoro-pt1.es.net",
-           "host" : "doenetoro-pt1.es.net"
+           "host" : "doenetoro-pt1.es.net",
+           "no-agent" : true
        },
        "psonar-bw.hpc.osc.edu" : {
            "_meta" : {
@@ -1100,7 +1101,8 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-owamp-v6.es.net",
-         "host" : "lbnl59-doenet-pt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net",
+         "no-agent" : true
       },
       "lbnl59-doenet-owamp.es.net" : {
          "_meta" : {
@@ -1108,7 +1110,8 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-owamp.es.net",
-         "host" : "lbnl59-doenet-pt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net",
+         "no-agent" : true
       },
       "lbnl59-doenet-owamp-v4.es.net" : {
          "_meta" : {
@@ -1116,7 +1119,8 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-owamp-v4.es.net",
-         "host" : "lbnl59-doenet-pt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net",
+         "no-agent" : true
       },
       "lbnl59-doenet-pt1-v6.es.net" : {
          "_meta" : {
@@ -1124,7 +1128,8 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-pt1-v6.es.net",
-         "host" : "lbnl59-doenet-pt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net",
+         "no-agent" : true
       },
       "lbnl59-doenet-pt1.es.net" : {
          "_meta" : {
@@ -1132,7 +1137,8 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-pt1.es.net",
-         "host" : "lbnl59-doenet-pt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net",
+         "no-agent" : true
       },
       "198.129.254.9" : {
          "_meta" : {
@@ -1140,7 +1146,8 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "198.129.254.9",
-         "host" : "lbnl59-doenet-pt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net",
+         "no-agent" : true
       },
       "198.129.252.138" : {
          "_meta" : {
@@ -1148,7 +1155,8 @@
             "display-set" : "lbnl59-doenet"
          },
          "address" : "198.129.252.138",
-         "host" : "lbnl59-doenet-pt1.es.net"
+         "host" : "lbnl59-doenet-pt1.es.net",
+         "no-agent" : true
       },
       "dps10.ucsc.edu" : {
          "_meta" : {
@@ -9079,7 +9087,15 @@
  }
    },
    "hosts" : {
-      "doenetemla-pt1.es.net" : {
+     "doenetoro-pt1.es.net" : {
+        "_meta" : {
+           "display-name" : "doenetoro-pt1.es.net",
+           "organization-display-name" : "Lumens"
+        },
+        "archives" : [
+           "doenetoro-pt1.es.net"
+        ]
+    },      "doenetemla-pt1.es.net" : {
          "_meta" : {
             "display-name" : "doenetemla-pt1.es.net",
             "organization-display-name" : "Lumens"
