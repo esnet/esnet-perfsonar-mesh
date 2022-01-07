@@ -1097,7 +1097,7 @@
       },
       "lbnl59-doenet-owamp-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lbnl59-doenet-owamp.es.net",
+            "display-name" : "lbnl59-doenet-owamp-v6.es.net",
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-owamp-v6.es.net",
@@ -1124,7 +1124,7 @@
       },
       "lbnl59-doenet-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lbnl59-doenet-pt1.es.net",
+            "display-name" : "lbnl59-doenet-pt1-v6.es.net",
             "display-set" : "lbnl59-doenet"
          },
          "address" : "lbnl59-doenet-pt1-v6.es.net",
@@ -1671,7 +1671,7 @@
       },
       "lbl-pt1-v6.es.net" : {
          "_meta" : {
-            "display-name" : "lbl-pt1.es.net",
+            "display-name" : "lbl-pt1-v6.es.net",
             "display-set" : "lbl"
          },
          "address" : "lbl-pt1-v6.es.net",
