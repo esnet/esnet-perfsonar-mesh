@@ -4096,6 +4096,13 @@
       }
    },
    "archives" : {
+     "perfsonar.rc.asu.edu" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://perfsonar.rc.asu.edu:8085/esmond/perfsonar/archive/"
+         }
+     },
      "lbnl59-doenet-owamp.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -7000,28 +7007,13 @@
       "group_12" : {
          "a-addresses" : [
             {
-              "name" : "rc-dc-perfsonar.rc.sc.edu"
+              "name" : "perfsonar.rc.asu.edu"
             },
             {
               "name" : "holyperfsonar.rc.fas.harvard.edu"
             },
             {
-               "name" : "perfsonar02.cmsaf.mit.edu"
-            },
-            {
-               "name" : "134.50.221.1"
-            },
-            {
                "name" : "perfsonar.unm.edu"
-            },
-            {
-               "name" : "ndt.itcc.unc.edu"
-            },
-            {
-               "name" : "ntg-perfsonar2.services.brown.edu"
-            },
-            {
-               "name" : "ntg-perfsonar4.services.brown.edu"
             },
             {
                "name" : "ps-bwctl-10g.rn.psu.edu"
@@ -7030,34 +7022,10 @@
                "name" : "updc4.rtm.tns.its.psu.edu"
             },
             {
-               "name" : "srcf-ps.stanford.edu"
-            },
-            {
-               "name" : "uofu-ddc-dmz-bandwidth.chpc.utah.edu"
-            },
-            {
-               "name" : "m-cssc-b380-12.net.wisc.edu"
-            },
-            {
-               "name" : "hcc-ps02.unl.edu"
-            },
-            {
-               "name" : "PS-1G-v4-FFX-SDMZ.gmu.edu"
-            },
-            {
-               "name" : "uhmanoa-tp.ps.uhnet.net"
-            },
-            {
                "name" : "scidmz-tp.ps.uhnet.net"
             },
             {
                "name" : "ps3.crc.rice.edu"
-            },
-            {
-               "name" : "scidmz-ps1.scidmz.uchicago.net"
-            },
-            {
-               "name" : "uct2-net2.mwt2.org"
             }
          ],
          "b-addresses" : [
@@ -7065,16 +7033,16 @@
                "name" : "star-pt1.es.net"
             },
             {
-               "name" : "elpa-pt1.es.net"
+               "name" : "wash-pt1.es.net"
             },
             {
-               "name" : "sacr-pt1.es.net"
+               "name" : "anl-pt1.es.net"
             },
             {
-               "name" : "newy-pt1.es.net"
+               "name" : "ornl-pt1.es.net"
             },
             {
-               "name" : "atla-pt1.es.net"
+               "name" : "lbl-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7082,7 +7050,7 @@
       "group_13" : {
          "a-addresses" : [
             {
-              "name" : "rc-dc-perfsonar.rc.sc.edu"
+               "name" : "perfsonar.rc.asu.edu"
             },
             {
                "name" : "holyperfsonar.rc.fas.harvard.edu"
@@ -7094,15 +7062,6 @@
                "name" : "134.50.221.65"
             },
             {
-               "name" : "ps-dmz-1.unm.edu"
-            },
-            {
-               "name" : "ndt.itcc.unc.edu"
-            },
-            {
-               "name" : "ntg-perfsonar2.services.brown.edu"
-            },
-            {
                "name" : "ntg-perfsonar4.services.brown.edu"
             },
             {
@@ -7112,19 +7071,10 @@
                "name" : "updc4.rtm.tns.its.psu.edu"
             },
             {
-               "name" : "srcf-ps.stanford.edu"
-            },
-            {
                "name" : "uofu-ddc-dmz-latency.chpc.utah.edu"
             },
             {
-               "name" : "m-cssc-b380-11.net.wisc.edu"
-            },
-            {
                "name" : "hcc-ps01.unl.edu"
-            },
-            {
-               "name" : "PS-1G-v4-FFX-SDMZ.gmu.edu"
             },
             {
                "name" : "uhmanoa-dl.ps.uhnet.net"
@@ -7144,18 +7094,6 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "hous-owamp.es.net"
-            },
-            {
-               "name" : "sacr-owamp.es.net"
-            },
-            {
-               "name" : "newy-owamp.es.net"
-            },
-            {
-               "name" : "atla-owamp.es.net"
-            },
-            {
                "name" : "anl-owamp.es.net"
             },
             {
@@ -7163,9 +7101,6 @@
             },
             {
                "name" : "wash-owamp.es.net"
-            },
-            {
-               "name" : "star-owamp.es.net"
             },
             {
                "name" : "lbl-owamp.es.net"
@@ -9087,6 +9022,15 @@
  }
    },
    "hosts" : {
+     "perfsonar.rc.asu.edu" : {
+        "_meta" : {
+           "display-name" : "perfsonar.rc.asu.edu",
+           "organization-display-name" : "Arizona State"
+        },
+        "archives" : [
+           "perfsonar.rc.asu.edu"
+        ]
+    },
      "doenetoro-pt1.es.net" : {
         "_meta" : {
            "display-name" : "doenetoro-pt1.es.net",
@@ -9095,7 +9039,8 @@
         "archives" : [
            "doenetoro-pt1.es.net"
         ]
-    },      "doenetemla-pt1.es.net" : {
+    },
+    "doenetemla-pt1.es.net" : {
          "_meta" : {
             "display-name" : "doenetemla-pt1.es.net",
             "organization-display-name" : "Lumens"
