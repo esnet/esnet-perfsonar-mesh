@@ -9,6 +9,15 @@
       "display-name" : "ESnet"
    },
   "addresses" : {
+    "perfsonar.rc.asu.edu" : {
+        "_meta" : {
+           "display-name" : "perfsonar.rc.asu.edu",
+           "display-set" : "perfsonar.rc.asu.edu"
+        },
+        "address" : "perfsonar.rc.asu.edu",
+        "host" : "perfsonar.rc.asu.edu",
+        "no-agent" : true
+    },
      "grinch.phys.uconn.edu" : {
          "_meta" : {
             "display-name" : "grinch.phys.uconn.edu",
@@ -9030,7 +9039,7 @@
         "archives" : [
            "perfsonar.rc.asu.edu"
         ]
-    },
+     },
      "doenetoro-pt1.es.net" : {
         "_meta" : {
            "display-name" : "doenetoro-pt1.es.net",
@@ -9039,8 +9048,8 @@
         "archives" : [
            "doenetoro-pt1.es.net"
         ]
-    },
-    "doenetemla-pt1.es.net" : {
+     },
+     "doenetemla-pt1.es.net" : {
          "_meta" : {
             "display-name" : "doenetemla-pt1.es.net",
             "organization-display-name" : "Lumens"
