@@ -6632,9 +6632,6 @@
             },
             {
                "name" : "wash-pt1.es.net"
-            },
-            {
-               "name" : "pnwg-pt1.es.net"
             }
          ],
          "b-addresses" : [
@@ -6720,9 +6717,6 @@
       "group_4" : {
          "addresses" : [
             {
-               "name" : "albq-owamp.es.net"
-            },
-            {
                "name" : "anl-owamp.es.net"
             },
             {
@@ -6730,9 +6724,6 @@
             },
             {
                "name" : "ornl-owamp.es.net"
-            },
-            {
-               "name" : "pppl-owamp.es.net"
             },
             {
                "name" : "star-owamp.es.net"
