@@ -6616,6 +6616,9 @@
       "group_2" : {
          "a-addresses" : [
             {
+               "name" : "anl-pt1.es.net"
+            },
+            {
                "name" : "lbl-pt1.es.net"
             },
             {
@@ -6629,6 +6632,9 @@
             }
          ],
          "b-addresses" : [
+            {
+               "name" : "anl-pt1.es.net"
+            },
             {
                "name" : "lbl-pt1.es.net"
             },
@@ -6688,6 +6694,9 @@
          ],
          "b-addresses" : [
             {
+               "name" : "anl-pt1.es.net"
+            },
+            {
                "name" : "lbl-pt1.es.net"
             },
             {
@@ -6704,6 +6713,9 @@
       },
       "group_4" : {
          "addresses" : [
+            {
+               "name" : "anl-owamp.es.net"
+            },
             {
                "name" : "lbl-owamp.es.net"
             },
@@ -6859,6 +6871,9 @@
          ],
          "b-addresses" : [
             {
+               "name" : "anl-owamp.es.net"
+            },
+            {
                "name" : "lbl-owamp.es.net"
             },
             {
@@ -6910,6 +6925,9 @@
             }
          ],
          "b-addresses" : [
+            {
+               "name" : "anl-pt1.es.net"
+            },
             {
                "name" : "star-pt1.es.net"
             },
@@ -6969,6 +6987,9 @@
          ],
          "b-addresses" : [
             {
+               "name" : "anl-owamp.es.net"
+            },
+            {
                "name" : "star-owamp.es.net"
             },
             {
@@ -7008,6 +7029,9 @@
             }
          ],
          "b-addresses" : [
+            {
+               "name" : "anl-owamp.es.net"
+            },
             {
                "name" : "star-pt1.es.net"
             },
@@ -7067,6 +7091,9 @@
          ],
          "b-addresses" : [
             {
+               "name" : "anl-owamp.es.net"
+            },
+            {
                "name" : "star-owamp.es.net"
             },
             {
@@ -7111,6 +7138,9 @@
          ],
          "b-addresses" : [
             {
+               "name" : "anl-owamp.es.net"
+            },
+            {
                "name" : "star-owamp.es.net"
             },
             {
@@ -7132,6 +7162,9 @@
             }
          ],
          "b-addresses" : [
+            {
+               "name" : "anl-pt1.es.net"
+            },
             {
                "name" : "lbl-pt1.es.net"
             },
@@ -7645,16 +7678,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "sacr-pt1.es.net"
-            },
-            {
-               "name" : "bost-pt1.es.net"
-            },
-            {
                "name" : "amst-pt1.es.net"
-            },
-            {
-               "name" : "hous-pt1.es.net"
             },
             {
                "name" : "pantex-pt1.es.net"
@@ -7697,12 +7721,6 @@
             },
             {
                "name" : "204.99.128.11"
-            },
-            {
-               "name" : "bost-pt2.es.net"
-            },
-            {
-               "name" : "elpa-pt2.es.net"
             }
          ],
          "type" : "disjoint"
