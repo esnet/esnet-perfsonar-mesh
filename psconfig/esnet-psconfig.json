@@ -4,7 +4,11 @@
          {
             "email" : "andy@es.net",
             "name" : "Andy Lake"
-         }
+         },
+         {
+            "email" : "en@es.net",
+            "name" : "Ken Miller"
+         },
       ],
       "display-name" : "ESnet"
    },
@@ -6596,19 +6600,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "anl-pt1.es.net"
-            },
-            {
                "name" : "lbl-pt1.es.net"
-            },
-            {
-               "name" : "ornl-pt1.es.net"
-            },
-            {
-               "name" : "star-pt1.es.net"
-            },
-            {
-               "name" : "wash-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6616,36 +6608,12 @@
       "group_2" : {
          "a-addresses" : [
             {
-               "name" : "anl-pt1.es.net"
-            },
-            {
                "name" : "lbl-pt1.es.net"
-            },
-            {
-               "name" : "ornl-pt1.es.net"
-            },
-            {
-               "name" : "star-pt1.es.net"
-            },
-            {
-               "name" : "wash-pt1.es.net"
             }
          ],
          "b-addresses" : [
             {
-               "name" : "anl-pt1.es.net"
-            },
-            {
                "name" : "lbl-pt1.es.net"
-            },
-            {
-               "name" : "ornl-pt1.es.net"
-            },
-            {
-               "name" : "star-pt1.es.net"
-            },
-            {
-               "name" : "wash-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6694,19 +6662,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "anl-pt1.es.net"
-            },
-            {
                "name" : "lbl-pt1.es.net"
-            },
-            {
-               "name" : "ornl-pt1.es.net"
-            },
-            {
-               "name" : "star-pt1.es.net"
-            },
-            {
-               "name" : "wash-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6748,19 +6704,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "anl-pt1.es.net"
-            },
-            {
                "name" : "lbl-pt1.es.net"
-            },
-            {
-               "name" : "ornl-pt1.es.net"
-            },
-            {
-               "name" : "star-pt1.es.net"
-            },
-            {
-               "name" : "wash-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6925,18 +6869,6 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "anl-pt1.es.net"
-            },
-            {
-               "name" : "star-pt1.es.net"
-            },
-            {
-               "name" : "wash-pt1.es.net"
-            },
-            {
-               "name" : "ornl-pt1.es.net"
-            },
             {
                "name" : "lbl-pt1.es.net"
             }
@@ -7163,19 +7095,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "anl-pt1.es.net"
-            },
-            {
                "name" : "lbl-pt1.es.net"
-            },
-            {
-               "name" : "ornl-pt1.es.net"
-            },
-            {
-               "name" : "star-pt1.es.net"
-            },
-            {
-               "name" : "wash-pt1.es.net"
             }
          ],
          "type" : "disjoint"
