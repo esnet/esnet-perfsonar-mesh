@@ -2828,13 +2828,6 @@
          "address" : "perfsonar.pregi.net",
          "host" : "perfsonar.pregi.net"
       },
-      "perfsonar.reuna.cl" : {
-         "_meta" : {
-            "display-name" : "perfsonar.reuna.cl"
-         },
-         "address" : "perfsonar.reuna.cl",
-         "host" : "perfsonar.reuna.cl"
-      },
       "perfsonar.sci.cwru.edu" : {
          "_meta" : {
             "display-name" : "perfsonar.sci.cwru.edu"
@@ -5600,13 +5593,6 @@
             "url" : "http://perfsonar.pregi.net/esmond/perfsonar/archive/"
          }
       },
-      "perfsonar.reuna.cl" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar.reuna.cl/esmond/perfsonar/archive/"
-         }
-      },
       "perfsonar.sci.cwru.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -6878,9 +6864,6 @@
       "group_11" : {
          "a-addresses" : [
             {
-               "name" : "perfsonar.reuna.cl"
-            },
-            {
                "name" : "nate.sdsc.edu"
             },
             {
@@ -7788,9 +7771,6 @@
                "name" : "ccperfsonar2.in2p3.fr"
             },
             {
-               "name" : "perfsonar.reuna.cl"
-            },
-            {
                "name" : "200.0.207.49"
             },
             {
@@ -8603,9 +8583,6 @@
     },
     "group_simons_observ_owamp" : {
        "a-addresses" : [
-          {
-             "name" : "perfsonar.reuna.cl"
-           },
            {
               "name" : "perfsonar-ma-2.princeton.edu"
            },
@@ -8640,9 +8617,6 @@
      },
      "group_simons_observ_pt" : {
         "a-addresses" : [
-           {
-              "name" : "perfsonar.reuna.cl"
-           },
            {
               "name" : "perfsonar-ma-2.princeton.edu"
            },
@@ -8958,15 +8932,6 @@
             "perfsonar-hpcrc.princeton.edu"
          ]
      },
-          "perfsonar.reuna.cl" : {
-         "_meta" : {
-            "display-name" : "perfsonar.reuna.cl",
-            "organization-display-name" : "REUNA"
-         },
-         "archives" : [
-            "perfsonar.reuna.cl"
-         ]
-      },
       "lbnl59-doenet-pt1.es.net" : {
            "_meta" : {
               "display-name" : "lbnl59-doenet-pt1.es.net",
@@ -11014,16 +10979,6 @@
          },
          "archives" : [
             "perfsonar.pregi.net"
-         ],
-         "no-agent" : true
-      },
-      "perfsonar.reuna.cl" : {
-         "_meta" : {
-            "display-name" : "perfsonar.reuna.cl",
-            "organization-display-name" : "REUNA"
-         },
-         "archives" : [
-            "perfsonar.reuna.cl"
          ],
          "no-agent" : true
       },
