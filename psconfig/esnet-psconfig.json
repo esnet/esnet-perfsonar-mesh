@@ -8,7 +8,7 @@
          {
             "email" : "en@es.net",
             "name" : "Ken Miller"
-         },
+         }
       ],
       "display-name" : "ESnet"
    },
@@ -6608,7 +6608,7 @@
       "group_2" : {
          "a-addresses" : [
             {
-               "name" : "lbl-pt1.es.net"
+               "name" : "wash-pt1.es.net"
             }
          ],
          "b-addresses" : [
