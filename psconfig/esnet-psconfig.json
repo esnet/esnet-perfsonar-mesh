@@ -4477,7 +4477,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://anl-pt1.es.net:8085/esmond/perfsonar/archive/"
+            "url" : "http://anl-pt1.es.net/esmond/perfsonar/archive/"
          }
       },
       "anlborder-ps.it.anl.gov" : {
@@ -6692,9 +6692,6 @@
       "group_4" : {
          "addresses" : [
             {
-               "name" : "anl-owamp.es.net"
-            },
-            {
                "name" : "lbl-owamp.es.net"
             },
             {
@@ -6846,9 +6843,6 @@
          ],
          "b-addresses" : [
             {
-               "name" : "anl-owamp.es.net"
-            },
-            {
                "name" : "lbl-owamp.es.net"
             },
             {
@@ -6956,9 +6950,6 @@
          ],
          "b-addresses" : [
             {
-               "name" : "anl-owamp.es.net"
-            },
-            {
                "name" : "star-owamp.es.net"
             },
             {
@@ -6998,9 +6989,6 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "anl-owamp.es.net"
-            },
             {
                "name" : "star-pt1.es.net"
             },
@@ -7059,9 +7047,6 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "anl-owamp.es.net"
-            },
             {
                "name" : "star-owamp.es.net"
             },
