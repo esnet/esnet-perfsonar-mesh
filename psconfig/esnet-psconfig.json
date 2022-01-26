@@ -859,7 +859,7 @@
       "bost-pt2.es.net" : {
          "_meta" : {
             "display-name" : "bost-pt2.es.net",
-            "display-set" : "bost-pt2.es.net",
+            "display-set" : "bost-pt2.es.net"
          },
          "address" : "bost-pt2.es.net",
          "host" : "bost-pt2.es.net"
@@ -1163,7 +1163,7 @@
       "lbnl59-doenet-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "lbnl59-doenet-owamp-v6.es.net",
-            "display-set" : "lbnl59-doenet"
+            "display-set" : "lbnl59-doenet-pt1.es.net"
          },
          "address" : "lbnl59-doenet-owamp-v6.es.net",
          "host" : "lbnl59-doenet-pt1.es.net",
