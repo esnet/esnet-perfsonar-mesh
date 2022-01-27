@@ -767,7 +767,7 @@
       "bost-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "bost-owamp.es.net",
-            "display-set" : "bost"
+            "display-set" : "bost-pt1.es.net"
          },
          "address" : "bost-owamp-v6.es.net",
          "host" : "bost-pt1.es.net"
@@ -775,7 +775,7 @@
       "bost-owamp.es.net" : {
          "_meta" : {
             "display-name" : "bost-owamp.es.net",
-            "display-set" : "bost"
+            "display-set" : "bost-pt1.es.net"
          },
          "address" : "bost-owamp.es.net",
          "host" : "bost-pt1.es.net"
@@ -791,7 +791,7 @@
       "bost-pt1-v6.es.net" : {
          "_meta" : {
             "display-name" : "bost-pt1.es.net",
-            "display-set" : "bost"
+            "display-set" : "bost-pt1.es.net"
          },
          "address" : "bost-pt1-v6.es.net",
          "host" : "bost-pt1.es.net"
@@ -799,7 +799,7 @@
       "bost-pt1.es.net" : {
          "_meta" : {
             "display-name" : "bost-pt1.es.net",
-            "display-set" : "bost"
+            "display-set" : "bost-pt1.es.net"
          },
          "address" : "bost-pt1.es.net",
          "host" : "bost-pt1.es.net"
@@ -814,14 +814,15 @@
       },
       "bost-pt2-v6.es.net" : {
          "_meta" : {
-            "display-name" : "bost-pt2.es.net"
+            "display-name" : "bost-pt2.es.net",
+            "display-set" : "bost-pt2.es.net"
          },
          "address" : "bost-pt2-v6.es.net",
          "host" : "bost-pt2.es.net"
       },
       "bost-pt2.es.net" : {
          "_meta" : {
-            "display-name" : "bost-pt2.es.net"
+            "display-name" : "bost-pt2.es.net",
             "display-set" : "bost-pt2.es.net"
          },
          "address" : "bost-pt2.es.net",
@@ -829,7 +830,8 @@
       },
       "elpa-pt2-v6.es.net" : {
          "_meta" : {
-            "display-name" : "elpa-pt2.es.net"
+            "display-name" : "elpa-pt2.es.net",
+            "display-set" : "elpa-pt2.es.net"
          },
          "address" : "elpa-pt2-v6.es.net",
          "host" : "elpa-pt2.es.net"
