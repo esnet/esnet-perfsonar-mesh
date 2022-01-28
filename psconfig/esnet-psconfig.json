@@ -1672,7 +1672,7 @@
       "lbl-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "lbl-owamp.es.net",
-            "display-set" : "lbl"
+            "display-set" : "lbl-pt1.es.net"
          },
          "address" : "lbl-owamp-v6.es.net",
          "host" : "lbl-pt1.es.net"
@@ -1680,7 +1680,7 @@
       "lbl-owamp.es.net" : {
          "_meta" : {
             "display-name" : "lbl-owamp.es.net",
-            "display-set" : "lbl"
+            "display-set" : "lbl-pt1.es.net"
          },
          "address" : "lbl-owamp.es.net",
          "host" : "lbl-pt1.es.net"
@@ -1688,7 +1688,7 @@
       "lbl-pt1-v6.es.net" : {
          "_meta" : {
             "display-name" : "lbl-pt1-v6.es.net",
-            "display-set" : "lbl"
+            "display-set" : "lbl-pt1.es.net"
          },
          "address" : "lbl-pt1-v6.es.net",
          "host" : "lbl-pt1.es.net"
@@ -1696,7 +1696,7 @@
       "lbl-pt1.es.net" : {
          "_meta" : {
             "display-name" : "lbl-pt1.es.net",
-            "display-set" : "lbl"
+            "display-set" : "lbl-pt1.es.net"
          },
          "address" : "lbl-pt1.es.net",
          "host" : "lbl-pt1.es.net"
@@ -2332,7 +2332,7 @@
       "ornl-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "ornl-owamp.es.net",
-            "display-set" : "ornl"
+            "display-set" : "ornl-pt1.es.net"
          },
          "address" : "ornl-owamp-v6.es.net",
          "host" : "ornl-pt1.es.net"
@@ -2340,7 +2340,7 @@
       "ornl-owamp.es.net" : {
          "_meta" : {
             "display-name" : "ornl-owamp.es.net",
-            "display-set" : "ornl"
+            "display-set" : "ornl-pt1.es.net"
          },
          "address" : "ornl-owamp.es.net",
          "host" : "ornl-pt1.es.net"
@@ -2348,7 +2348,7 @@
       "ornl-pt1-v6.es.net" : {
          "_meta" : {
             "display-name" : "ornl-pt1.es.net",
-            "display-set" : "ornl"
+            "display-set" : "ornl-pt1.es.net"
          },
          "address" : "ornl-pt1-v6.es.net",
          "host" : "ornl-pt1.es.net"
@@ -2356,7 +2356,7 @@
       "ornl-pt1.es.net" : {
          "_meta" : {
             "display-name" : "ornl-pt1.es.net",
-            "display-set" : "ornl"
+            "display-set" : "ornl-pt1.es.net"
          },
          "address" : "ornl-pt1.es.net",
          "host" : "ornl-pt1.es.net"
@@ -3859,7 +3859,7 @@
       "star-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "star-owamp.es.net",
-            "display-set" : "star"
+            "display-set" : "star-pt1.es.net"
          },
          "address" : "star-owamp-v6.es.net",
          "host" : "star-pt1.es.net"
@@ -3867,7 +3867,7 @@
       "star-owamp.es.net" : {
          "_meta" : {
             "display-name" : "star-owamp.es.net",
-            "display-set" : "star"
+            "display-set" : "star-pt1.es.net"
          },
          "address" : "star-owamp.es.net",
          "host" : "star-pt1.es.net"
@@ -3875,7 +3875,7 @@
       "star-pt1-v6.es.net" : {
          "_meta" : {
             "display-name" : "star-pt1.es.net",
-            "display-set" : "star"
+            "display-set" : "star-pt1.es.net"
          },
          "address" : "star-pt1-v6.es.net",
          "host" : "star-pt1.es.net"
@@ -3883,7 +3883,7 @@
       "star-pt1.es.net" : {
          "_meta" : {
             "display-name" : "star-pt1.es.net",
-            "display-set" : "star"
+            "display-set" : "star-pt1.es.net"
          },
          "address" : "star-pt1.es.net",
          "host" : "star-pt1.es.net"
@@ -4044,7 +4044,7 @@
       "wash-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "wash-owamp.es.net",
-            "display-set" : "wash"
+            "display-set" : "wash-pt1.es.net"
          },
          "address" : "wash-owamp-v6.es.net",
          "host" : "wash-pt1.es.net"
@@ -4052,7 +4052,7 @@
       "wash-owamp.es.net" : {
          "_meta" : {
             "display-name" : "wash-owamp.es.net",
-            "display-set" : "wash"
+            "display-set" : "wash-pt1.es.net"
          },
          "address" : "wash-owamp.es.net",
          "host" : "wash-pt1.es.net"
@@ -4068,7 +4068,7 @@
       "wash-pt1-v6.es.net" : {
          "_meta" : {
             "display-name" : "wash-pt1.es.net",
-            "display-set" : "wash"
+            "display-set" : "wash-pt1.es.net"
          },
          "address" : "wash-pt1-v6.es.net",
          "host" : "wash-pt1.es.net"
@@ -4076,7 +4076,7 @@
       "wash-pt1.es.net" : {
          "_meta" : {
             "display-name" : "wash-pt1.es.net",
-            "display-set" : "wash"
+            "display-set" : "wash-pt1.es.net"
          },
          "address" : "wash-pt1.es.net",
          "host" : "wash-pt1.es.net"
@@ -4109,98 +4109,98 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar.rc.asu.edu/esmond/perfsonar/archive/"
+            "url" : "http://perfsonar.rc.asu.edu:8085/esmond/perfsonar/archive/"
          }
      },
      "lbnl59-doenet-owamp.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://lbnl59-doenet-owamp.es.net/esmond/perfsonar/archive/"
+            "url" : "http://lbnl59-doenet-owamp.es.net:8085/esmond/perfsonar/archive/"
          }
      },
      "lbnl59-doenet-pt1-v6.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://lbnl59-doenet-pt1-v6.es.net/esmond/perfsonar/archive/"
+            "url" : "http://lbnl59-doenet-pt1-v6.es.net:8085/esmond/perfsonar/archive/"
          }
      },
      "lbnl59-doenet-owamp-v6.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://lbnl59-doenet-owamp-v6.es.net/esmond/perfsonar/archive/"
+            "url" : "http://lbnl59-doenet-owamp-v6.es.net:8085/esmond/perfsonar/archive/"
          }
      },
      "198.129.254.9" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://198.129.254.9/esmond/perfsonar/archive/"
+            "url" : "http://198.129.254.9:8085/esmond/perfsonar/archive/"
          }
      },
      "198.129.252.138" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://198.129.252.138/esmond/perfsonar/archive/"
+            "url" : "http://198.129.252.138:8085/esmond/perfsonar/archive/"
          }
      },
      "doenetemla-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://doenetemla-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://doenetemla-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
      },
      "rc-dc-perfsonar.rc.sc.edu" : {
           "archiver" : "esmond",
           "data" : {
              "measurement-agent" : "{% scheduled_by_address %}",
-             "url" : "http://rc-dc-perfsonar.rc.sc.edu/esmond/perfsonar/archive/"
+             "url" : "http://rc-dc-perfsonar.rc.sc.edu:8085/esmond/perfsonar/archive/"
           }
      },
      "holyperfsonar.rc.fas.harvard.edu" : {
           "archiver" : "esmond",
           "data" : {
              "measurement-agent" : "{% scheduled_by_address %}",
-             "url" : "http://holyperfsonar.rc.fas.harvard.edu/esmond/perfsonar/archive/"
+             "url" : "http://holyperfsonar.rc.fas.harvard.edu:8085/esmond/perfsonar/archive/"
           }
      },
      "psmp-gn-bw-01-lon-uk.geant.net" : {
           "archiver" : "esmond",
           "data" : {
              "measurement-agent" : "{% scheduled_by_address %}",
-             "url" : "http://psmp-gn-bw-01-lon-uk.geant.net/esmond/perfsonar/archive/"
+             "url" : "http://psmp-gn-bw-01-lon-uk.geant.net:8085/esmond/perfsonar/archive/"
           }
      },
      "psmp-gn-owd-01.lon.uk.geant.net" : {
           "archiver" : "esmond",
           "data" : {
              "measurement-agent" : "{% scheduled_by_address %}",
-             "url" : "http://psmp-gn-owd-01.lon.uk.geant.net/esmond/perfsonar/archive/"
+             "url" : "http://psmp-gn-owd-01.lon.uk.geant.net:8085/esmond/perfsonar/archive/"
           }
      },
      "perfsonar-ma-2.princeton.edu" : {
           "archiver" : "esmond",
           "data" : {
              "measurement-agent" : "{% scheduled_by_address %}",
-             "url" : "http://perfsonar-ma-2.princeton.edu/esmond/perfsonar/archive/"
+             "url" : "http://perfsonar-ma-2.princeton.edu:8085/esmond/perfsonar/archive/"
           }
      },
      "perfsonar-hpcrc.princeton.edu" : {
           "archiver" : "esmond",
           "data" : {
              "measurement-agent" : "{% scheduled_by_address %}",
-             "url" : "http://perfsonar-hpcrc.princeton.edu/esmond/perfsonar/archive/"
+             "url" : "http://perfsonar-hpcrc.princeton.edu:8085/esmond/perfsonar/archive/"
           }
      },
      "doenetoro-pt1.es.net" : {
            "archiver" : "esmond",
            "data" : {
               "measurement-agent" : "{% scheduled_by_address %}",
-              "url" : "http://doenetoro-pt1.es.net/esmond/perfsonar/archive/"
+              "url" : "http://doenetoro-pt1.es.net:8085/esmond/perfsonar/archive/"
            }
       },
       "ps-dev-netlab-1.es.net" : {
@@ -4284,14 +4284,14 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://198.129.252.42/esmond/perfsonar/archive/"
+            "url" : "http://198.129.252.42:8085/esmond/perfsonar/archive/"
          }
       },
       "198.129.254.94" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://198.129.254.94/esmond/perfsonar/archive/"
+            "url" : "http://198.129.254.94:8085/esmond/perfsonar/archive/"
          }
       },
       "198.59.193.60" : {
@@ -4445,14 +4445,14 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://albq-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://albq-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "ameslab-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ameslab-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://ameslab-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "ams-hbn-10g.perfsonar.ac.za" : {
@@ -4473,7 +4473,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://amst-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://amst-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "anl-pt1.es.net" : {
@@ -4494,14 +4494,14 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://aofa-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://aofa-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "atla-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://atla-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://atla-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "bcdc-gw-40g-ps.gatech.edu" : {
@@ -4522,42 +4522,42 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://bois-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://bois-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "bost-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://bost-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://bost-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "bost-pt2.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://bost-pt2.es.net/esmond/perfsonar/archive/"
+            "url" : "http://bost-pt2.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "elpa-pt2.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://elpa-pt2.es.net/esmond/perfsonar/archive/"
+            "url" : "http://elpa-pt2.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "bost-dtn.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://bost-dtn.es.net/esmond/perfsonar/archive/"
+            "url" : "http://bost-dtn.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "elpa-dtn.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://elpa-dtn.es.net/esmond/perfsonar/archive/"
+            "url" : "http://elpa-dtn.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "bwctl-10g-ps.singaren.net.sg" : {
@@ -4606,21 +4606,21 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://cern-513-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://cern-513-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "cern-773-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://cern-773-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://cern-773-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "chic-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://chic-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://chic-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "cl-perfsonar0-prod.cssd.pitt.edu" : {
@@ -4662,21 +4662,21 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://denv-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://denv-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "doe-gtn-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://doe-gtn-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://doe-gtn-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "lbnl59-doenet-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://lbln59-doenet-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://lbln59-doenet-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "dps10.ucsc.edu" : {
@@ -4711,7 +4711,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://east-dc-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://east-dc-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "ec-perfsonar.earlham.edu" : {
@@ -4725,7 +4725,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://elpa-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://elpa-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "epgperf.ph.bham.ac.uk" : {
@@ -4739,21 +4739,21 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://eqx-ash-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://eqx-ash-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "eqx-chi-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://eqx-chi-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://eqx-chi-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "eqx-sj-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://eqx-sj-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://eqx-sj-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "fiona-01.rdi2.rutgers.edu" : {
@@ -4795,14 +4795,14 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://fnal-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://fnal-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "forr-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://forr-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://forr-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "ga-eastdtn-ps.gat.com" : {
@@ -4816,7 +4816,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ga-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://ga-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "hcc-ps01.unl.edu" : {
@@ -4844,7 +4844,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://hous-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://hous-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "hulkenberg.noc.unf.edu" : {
@@ -4879,7 +4879,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://jgi-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://jgi-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "jlab4.jlab.org" : {
@@ -4893,14 +4893,14 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://kans-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://kans-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "lbl-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://lbl-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://lbl-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "lhc-bandwidth.twgrid.org" : {
@@ -4928,14 +4928,14 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://llnl-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://llnl-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "lond-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://lond-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://lond-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "m-cssc-b380-11.net.wisc.edu" : {
@@ -5033,7 +5033,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://nash-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://nash-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "nate.sdsc.edu" : {
@@ -5061,21 +5061,21 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://netl-mgn-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://netl-mgn-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "netl-alb-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://netl-alb-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://netl-alb-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "netl-pgh-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://netl-pgh-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://netl-pgh-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "nettest-outside.it.wsu.edu" : {
@@ -5110,7 +5110,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://newy-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://newy-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "nkn-inl-perfsonar.nkn.uidaho.edu" : {
@@ -5145,7 +5145,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://nso-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://nso-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "nsw-brwy-ps1.aarnet.net.au" : {
@@ -5180,21 +5180,21 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://orau-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://orau-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "ornl-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ornl-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://ornl-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "osti-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://osti-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://osti-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "owamp-scz.pnl.gov" : {
@@ -5208,7 +5208,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://pantex-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://pantex-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "pas-adhoc.chic.net.internet2.edu" : {
@@ -5789,14 +5789,14 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://pnwg-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://pnwg-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "pppl-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://pppl-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://pppl-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "ps-10g-border-asm-0.tools.ucla.net" : {
@@ -6307,7 +6307,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://sacr-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://sacr-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "sampaps01.if.usp.br" : {
@@ -6356,21 +6356,21 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://slac-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://slac-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "snla-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://snla-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://snla-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "snll-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://snll-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://snll-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "sonar-west.net.yale.edu" : {
@@ -6419,21 +6419,21 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://srs-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://srs-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "star-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://star-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://star-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "sunn-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://sunn-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://sunn-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "test10g.lsi.umich.edu" : {
@@ -6531,7 +6531,7 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://wash-pt1.es.net/esmond/perfsonar/archive/"
+            "url" : "http://wash-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "web100.pnw-gigapop.net" : {
