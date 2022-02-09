@@ -6556,16 +6556,17 @@
                "name" : "ameslab-pt1.es.net"
             },
             {
-               "name" : "pppl-pt1.es.net"
-            }
-         ],
-         "b-addresses" : [
-            {
                "name" : "lbl-pt1.es.net"
             },
             {
                "name" : "ornl-pt1.es.net"
             },
+            {
+               "name" : "pppl-pt1.es.net"
+            }
+         ],
+         "b-addresses" : [
+
             {
                "name" : "star-pt1.es.net"
             },
@@ -6606,12 +6607,6 @@
       "group_2" : {
          "a-addresses" : [
            {
-              "name" : "lbl-pt1.es.net"
-           },
-           {
-              "name" : "ornl-pt1.es.net"
-           },
-           {
               "name" : "star-pt1.es.net"
            },
            {
@@ -6619,12 +6614,6 @@
            }
          ],
          "b-addresses" : [
-           {
-              "name" : "lbl-pt1.es.net"
-           },
-           {
-              "name" : "ornl-pt1.es.net"
-           },
            {
               "name" : "star-pt1.es.net"
            },
@@ -6705,6 +6694,48 @@
             },
             {
                "name" : "wash-owamp.es.net"
+            },
+            {
+               "name" : "ameslab-owamp.es.net"
+            },
+            {
+               "name" : "doe-gtn-pt1.es.net"
+            },
+            {
+               "name" : "eqx-ash-owamp.es.net"
+            },
+            {
+               "name" : "eqx-chi-owamp.es.net"
+            },
+            {
+               "name" : "eqx-sj-owamp.es.net"
+            },
+            {
+               "name" : "forr-pt1.es.net"
+            },
+            {
+               "name" : "netl-mgn-owamp.es.net"
+            },
+            {
+               "name" : "netl-alb-owamp.es.net"
+            },
+            {
+               "name" : "netl-pgh-owamp.es.net"
+            },
+            {
+               "name" : "orau-pt1.es.net"
+            },
+            {
+               "name" : "osti-pt1.es.net"
+            },
+            {
+               "name" : "pantex-pt1.es.net"
+            },
+            {
+               "name" : "snla-pt1.es.net"
+            },
+            {
+               "name" : "srs-pt1.es.net"
             }
          ],
          "type" : "mesh"
@@ -6845,12 +6876,6 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "lbl-owamp.es.net"
-            },
-            {
-               "name" : "ornl-owamp.es.net"
-            },
             {
                "name" : "star-owamp.es.net"
             },
