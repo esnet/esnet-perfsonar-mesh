@@ -6640,6 +6640,18 @@
       "group_2" : {
          "a-addresses" : [
            {
+              "name" : "eqx-ash-pt1.es.net"
+           },
+           {
+              "name" : "eqx-chi-pt1.es.net"
+           },
+           {
+              "name" : "eqx-sj-pt1.es.net"
+           },
+           {
+              "name" : "lbl-pt1.es.net"
+           },
+           {
               "name" : "star-pt1.es.net"
            },
            {
@@ -6647,6 +6659,18 @@
            }
          ],
          "b-addresses" : [
+           {
+              "name" : "eqx-ash-pt1.es.net"
+           },
+           {
+              "name" : "eqx-chi-pt1.es.net"
+           },
+           {
+              "name" : "eqx-sj-pt1.es.net"
+           },
+           {
+              "name" : "lbl-pt1.es.net"
+           },
            {
               "name" : "star-pt1.es.net"
            },
