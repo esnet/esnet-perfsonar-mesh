@@ -8497,9 +8497,6 @@
      "group_eqx" : {
         "a-addresses" : [
            {
-              "name" : "eqx-ash-owamp.es.net"
-           },
-           {
               "name" : "eqx-chi-owamp.es.net"
            },
            {
@@ -8507,9 +8504,6 @@
            }
         ],
         "b-addresses" : [
-            {
-               "name" : "eqx-ash-owamp.es.net"
-            },
             {
                "name" : "eqx-chi-owamp.es.net"
             },
@@ -8801,9 +8795,6 @@
            "name" : "wash-owamp.es.net"
         },
         {
-           "name" : "eqx-ash-owamp.es.net"
-        },
-        {
            "name" : "east-dc-owamp.es.net"
         }
     ],
@@ -8833,9 +8824,6 @@
      },
      {
         "name" : "lbl-pt1.es.net"
-     },
-     {
-        "name" : "eqx-ash-pt1.es.net"
      },
      {
         "name" : "east-dc-pt1.es.net"
