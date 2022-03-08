@@ -6,7 +6,7 @@
             "name" : "Andy Lake"
          },
          {
-            "email" : "en@es.net",
+            "email" : "ken@es.net",
             "name" : "Ken Miller"
          }
       ],
@@ -8227,42 +8227,12 @@
       "group_39" : {
          "a-addresses" : [
             {
-               "name" : "lsvn-pt1.es.net__backup"
-            },
-            {
-               "name" : "bost-pt1.es.net__backup"
-            },
-            {
-               "name" : "newy-pt1.es.net__backup"
-            },
-            {
                "name" : "wash-pt1.es.net__backup"
-            },
-            {
-               "name" : "aofa-pt1.es.net__neaar"
-            },
-            {
-               "name" : "aofa-pt1.es.net__aqua"
             }
          ],
          "b-addresses" : [
             {
-               "name" : "ga-pt1.es.net__backup"
-            },
-            {
-               "name" : "amst-pt1.es.net__backup"
-            },
-            {
-               "name" : "lond-pt1.es.net__backup"
-            },
-            {
                "name" : "cern-513-pt1.es.net__backup"
-            },
-            {
-               "name" : "lond-pt1.es.net__neaar"
-            },
-            {
-               "name" : "lond-pt1.es.net__aqua"
             }
          ],
          "excludes": [
@@ -8392,42 +8362,12 @@
       "group_40" : {
          "a-addresses" : [
             {
-               "name" : "lsvn-owamp.es.net__backup"
-            },
-            {
-               "name" : "bost-owamp.es.net__backup"
-            },
-            {
-               "name" : "newy-owamp.es.net__backup"
-            },
-            {
                "name" : "wash-owamp.es.net__backup"
-            },
-            {
-               "name" : "aofa-owamp.es.net__neaar"
-            },
-            {
-               "name" : "aofa-owamp.es.net__aqua"
             }
          ],
          "b-addresses" : [
             {
-               "name" : "ga-owamp.es.net__backup"
-            },
-            {
-               "name" : "amst-owamp.es.net__backup"
-            },
-            {
-               "name" : "lond-owamp.es.net__backup"
-            },
-            {
                "name" : "cern-513-owamp.es.net__backup"
-            },
-            {
-               "name" : "lond-owamp.es.net__neaar"
-            },
-            {
-               "name" : "lond-owamp.es.net__aqua"
             }
          ],
          "excludes": [
