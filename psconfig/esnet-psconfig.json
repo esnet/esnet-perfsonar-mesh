@@ -7312,9 +7312,6 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "ga-owamp.es.net"
-            },
-            {
                "name" : "pppl-owamp.es.net"
             }
          ],
@@ -7671,9 +7668,6 @@
                "name" : "lbl-owamp.es.net"
             },
             {
-               "name" : "ga-owamp.es.net"
-            },
-            {
                "name" : "wash-owamp.es.net"
             }
          ],
@@ -7682,10 +7676,10 @@
       "group_30" : {
          "a-addresses" : [
             {
-               "name" : "bost-pt2.es.net"
+               "name" : "wash-pt1.es.net"
             },
             {
-               "name" : "elpa-pt2.es.net"
+               "name" : "star-pt1.es.net"
             }
          ],
          "b-addresses" : [
@@ -8395,9 +8389,6 @@
                 "local-address": { "name": "bost-owamp.es.net__backup" },
                 "target-addresses": [
                     {
-                       "name" : "ga-owamp.es.net__backup"
-                    },
-                    {
                        "name" : "lond-owamp.es.net__backup"
                     },
                     {
@@ -8414,9 +8405,6 @@
              {
                 "local-address": { "name": "newy-owamp.es.net__backup" },
                 "target-addresses": [
-                    {
-                       "name" : "ga-owamp.es.net__backup"
-                    },
                     {
                        "name" : "amst-owamp.es.net__backup"
                     },
@@ -8435,9 +8423,6 @@
                 "local-address": { "name": "wash-owamp.es.net__backup" },
                 "target-addresses": [
                     {
-                       "name" : "ga-owamp.es.net__backup"
-                    },
-                    {
                        "name" : "amst-owamp.es.net__backup"
                     },
                     {
@@ -8455,9 +8440,6 @@
                 "local-address": { "name": "aofa-owamp.es.net__neaar" },
                 "target-addresses": [
                     {
-                       "name" : "ga-owamp.es.net__backup"
-                    },
-                    {
                        "name" : "amst-owamp.es.net__backup"
                     },
                     {
@@ -8474,9 +8456,6 @@
              {
                 "local-address": { "name": "aofa-owamp.es.net__aqua" },
                 "target-addresses": [
-                    {
-                       "name" : "ga-owamp.es.net__backup"
-                    },
                     {
                        "name" : "amst-owamp.es.net__backup"
                     },
@@ -8538,9 +8517,6 @@
     "group_doenetoro_owamp" : {
        "a-addresses" : [
           {
-             "name" : "doenetoro-pt1.es.net"
-          },
-          {
              "name" : "doe-gtn-owamp.es.net"
           },
           {
@@ -8550,17 +8526,14 @@
              "name" : "lbl-owamp.es.net"
           },
           {
-             "name" : "lbnl59-doenet-owamp.es.net"
+             "name" : "star-owamp.es.net"
           },
           {
-             "name" : "lbnl59-doenet-owamp-v6.es.net"
+             "name" : "wash-owamp.es.net"
           }
        ],
        "b-addresses" : [
           {
-             "name" : "doenetoro-pt1.es.net"
-          },
-          {
              "name" : "doe-gtn-owamp.es.net"
           },
           {
@@ -8570,10 +8543,10 @@
              "name" : "lbl-owamp.es.net"
           },
           {
-             "name" : "lbnl59-doenet-owamp.es.net"
+             "name" : "star-owamp.es.net"
           },
           {
-             "name" : "lbnl59-doenet-owamp-v6.es.net"
+             "name" : "wash-owamp.es.net"
           }
        ],
        "type" : "disjoint"
