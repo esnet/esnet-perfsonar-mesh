@@ -6559,15 +6559,6 @@
                "name" : "doe-gtn-pt1.es.net"
             },
             {
-               "name" : "eqx-ash-pt1.es.net"
-            },
-            {
-               "name" : "eqx-chi-pt1.es.net"
-            },
-            {
-               "name" : "eqx-sj-pt1.es.net"
-            },
-            {
                "name" : "lbl-pt1.es.net"
             },
             {
@@ -6640,15 +6631,6 @@
       "group_2" : {
          "a-addresses" : [
            {
-              "name" : "eqx-ash-pt1.es.net"
-           },
-           {
-              "name" : "eqx-chi-pt1.es.net"
-           },
-           {
-              "name" : "eqx-sj-pt1.es.net"
-           },
-           {
               "name" : "lbl-pt1.es.net"
            },
            {
@@ -6659,15 +6641,6 @@
            }
          ],
          "b-addresses" : [
-           {
-              "name" : "eqx-ash-pt1.es.net"
-           },
-           {
-              "name" : "eqx-chi-pt1.es.net"
-           },
-           {
-              "name" : "eqx-sj-pt1.es.net"
-           },
            {
               "name" : "lbl-pt1.es.net"
            },
@@ -6684,15 +6657,6 @@
          "a-addresses" : [
             {
                "name" : "doe-gtn-pt1.es.net"
-            },
-            {
-               "name" : "eqx-ash-pt1.es.net"
-            },
-            {
-               "name" : "eqx-chi-pt1.es.net"
-            },
-            {
-               "name" : "eqx-sj-pt1.es.net"
             },
             {
                "name" : "forr-pt1.es.net"
@@ -6751,15 +6715,6 @@
             },
             {
                "name" : "doe-gtn-pt1.es.net"
-            },
-            {
-               "name" : "eqx-ash-owamp.es.net"
-            },
-            {
-               "name" : "eqx-chi-owamp.es.net"
-            },
-            {
-               "name" : "eqx-sj-owamp.es.net"
             },
             {
                "name" : "forr-pt1.es.net"
@@ -6885,15 +6840,6 @@
             },
             {
                "name" : "doe-gtn-pt1.es.net"
-            },
-            {
-               "name" : "eqx-ash-owamp.es.net"
-            },
-            {
-               "name" : "eqx-chi-owamp.es.net"
-            },
-            {
-               "name" : "eqx-sj-owamp.es.net"
             },
             {
                "name" : "forr-pt1.es.net"
@@ -8554,9 +8500,6 @@
    "group_doenetoro_pt1" : {
       "a-addresses" : [
          {
-            "name" : "doenetoro-pt1.es.net"
-         },
-         {
             "name" : "doe-gtn-pt1.es.net"
          },
          {
@@ -8570,9 +8513,6 @@
          },
          {
             "name" : "lbnl59-doenet-pt1.es.net"
-         },
-         {
-            "name" : "lbnl59-doenet-pt1-v6.es.net"
          }
       ],
       "b-addresses" : [
@@ -8580,7 +8520,7 @@
              "name" : "doe-gtn-pt1.es.net"
           },
           {
-             "name" : "doenetoro-pt1.es.net"
+             "name" : "star-pt1.es.net"
           },
           {
              "name" : "198.129.254.9"
@@ -8595,7 +8535,7 @@
              "name" : "lbnl59-doenet-pt1.es.net"
           },
           {
-             "name" : "lbnl59-doenet-pt1-v6.es.net"
+             "name" : "wash-pt1.es.net"
           }
       ],
       "type" : "disjoint"
