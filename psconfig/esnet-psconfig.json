@@ -7762,6 +7762,12 @@
          "b-addresses" : [
             {
                "name" : "amst-pt1.es.net"
+            },
+            {
+               "name" : "lbl-pt1.es.net"
+            },
+            {
+               "name" : "wash-pt1.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7832,6 +7838,12 @@
          "b-addresses" : [
             {
                "name" : "amst-owamp.es.net"
+            },
+            {
+               "name" : "lbl-owamp.es.net"
+            },
+            {
+               "name" : "wash-owamp.es.net"
             }
          ],
          "type" : "disjoint"
