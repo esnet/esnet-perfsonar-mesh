@@ -6553,9 +6553,6 @@
       "group_0" : {
          "a-addresses" : [
             {
-               "name" : "ameslab-pt1.es.net"
-            },
-            {
                "name" : "doe-gtn-pt1.es.net"
             },
             {
@@ -6578,9 +6575,6 @@
             },
             {
                "name" : "pantex-pt1.es.net"
-            },
-            {
-               "name" : "pppl-pt1.es.net"
             },
             {
                "name" : "snla-pt1.es.net"
@@ -6711,9 +6705,6 @@
                "name" : "wash-owamp.es.net"
             },
             {
-               "name" : "ameslab-owamp.es.net"
-            },
-            {
                "name" : "doe-gtn-pt1.es.net"
             },
             {
@@ -6835,9 +6826,6 @@
       },
       "group_9" : {
          "a-addresses" : [
-            {
-               "name" : "ameslab-owamp.es.net"
-            },
             {
                "name" : "doe-gtn-pt1.es.net"
             },
@@ -7169,9 +7157,6 @@
       "group_18" : {
          "a-addresses" : [
             {
-               "name" : "psmp-gn-bw-01-ams-nl.geant.net"
-            },
-            {
                "name" : "psmp-gn-bw-01-par-fr.geant.net"
             }
          ],
@@ -7278,9 +7263,6 @@
                "name" : "nsw-brwy-ps1.aarnet.net.au"
             },
             {
-               "name" : "act-actn-ps1.aarnet.net.au"
-            },
-            {
                "name" : "ps2.netherlight.net"
             },
             {
@@ -7316,9 +7298,6 @@
             },
             {
                "name" : "nsw-brwy-ps1.aarnet.net.au"
-            },
-            {
-               "name" : "act-actn-ps1.aarnet.net.au"
             },
             {
                "name" : "ps1.netherlight.net"
@@ -7525,16 +7504,10 @@
                "name" : "2001:252:0:304::2"
             },
             {
-               "name" : "ga-eastdtn-ps.gat.com"
-            },
-            {
                "name" : "2001:252:0:512::2"
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "lbl-pt1-v6.es.net"
-            },
             {
                "name" : "wash-pt1-v6.es.net"
             }
@@ -7551,17 +7524,11 @@
             },
             {
                "name" : "2001:400:1110:ff00:579::9"
-            },
-            {
-               "name" : "perf-v6.ipp.ac.cn"
             }
          ],
          "b-addresses" : [
             {
                "name" : "lbl-owamp-v6.es.net"
-            },
-            {
-               "name" : "ga-owamp-v6.es.net"
             },
             {
                "name" : "wash-owamp-v6.es.net"
@@ -7573,9 +7540,6 @@
          "a-addresses" : [
             {
                "name" : "210.25.189.78"
-            },
-            {
-               "name" : "ga-eastdtn-ps.gat.com"
             },
             {
                "name" : "210.25.189.178"
@@ -7604,9 +7568,6 @@
             },
             {
                "name" : "ga-eastdtn-ps.gat.com"
-            },
-            {
-               "name" : "perf.ipp.ac.cn"
             }
          ],
          "b-addresses" : [
