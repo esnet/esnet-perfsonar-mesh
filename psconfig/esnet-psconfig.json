@@ -13,6 +13,42 @@
       "display-name" : "ESnet"
    },
   "addresses" : {
+    "lbnl50-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "lbnl50-ps-tp.es.net",
+           "display-set" : "lbnl50-ps-tp.es.net"
+        },
+        "address" : "lbnl50-ps-tp.es.net",
+        "host" : "lbnl50-ps.es.net",
+        "no-agent" : true
+    },
+    "lbnl50-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "lbnl50-ps-lat.es.net",
+           "display-set" : "lbnl50-ps-lat.es.net"
+        },
+        "address" : "lbnl50-ps-lat.es.net",
+        "host" : "lbnl50-ps.es.net",
+        "no-agent" : true
+    },
+    "lbnl59-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "lbnl59-ps-tp.es.net",
+           "display-set" : "lbnl59-ps-tp.es.net"
+        },
+        "address" : "lbnl59-ps-tp.es.net",
+        "host" : "lbnl59-ps.es.net",
+        "no-agent" : true
+    },
+    "lbnl59-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "lbnl59-ps-lat.es.net",
+           "display-set" : "lbnl59-ps-lat.es.net"
+        },
+        "address" : "lbnl59-ps-lat.es.net",
+        "host" : "lbnl59-ps.es.net",
+        "no-agent" : true
+    },
     "perfsonar.rc.asu.edu" : {
         "_meta" : {
            "display-name" : "perfsonar.rc.asu.edu",
@@ -4105,6 +4141,20 @@
       }
    },
    "archives" : {
+     "lbnl50-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-west.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "lbnl59-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-west.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "perfsonar.rc.asu.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -6550,6 +6600,46 @@
       }
    },
    "groups" : {
+     "ESnet6_TP_HUB" : {
+        "addresses" : [
+      {
+         "name" : "lbnl50-ps-tp.es.net"
+      },
+      {
+         "name" : "lbnl59-ps-tp.es.net"
+      },
+      {
+         "name" : "star-pt1.es.net"
+      },
+      {
+         "name" : "lbl-pt1.es.net"
+      },
+      {
+         "name" : "wash-pt1.es.net"
+      }
+   ],
+   "type" : "mesh"
+},
+     "ESnet6_LAT_HUB" : {
+        "addresses" : [
+      {
+         "name" : "lbnl50-ps-tp.es.net"
+      },
+      {
+         "name" : "lbnl59-ps-tp.es.net"
+      },
+      {
+         "name" : "star-pt1.es.net"
+      },
+      {
+         "name" : "lbl-pt1.es.net"
+      },
+      {
+         "name" : "wash-pt1.es.net"
+      }
+   ],
+   "type" : "mesh"
+},
       "group_0" : {
          "a-addresses" : [
             {
@@ -8719,6 +8809,24 @@
  }
    },
    "hosts" : {
+     "lbnl50-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "lbnl50-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "lbnl50-ps.es.net"
+        ]
+     },
+     "lbnl59-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "lbnl59-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "lbnl59-ps.es.net"
+        ]
+     },
      "perfsonar.rc.asu.edu" : {
         "_meta" : {
            "display-name" : "perfsonar.rc.asu.edu",
@@ -12268,6 +12376,38 @@
       }
    },
    "tasks" : {
+     "100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv4_Throughput_Testing" : {
+        "_meta" : {
+           "display-name" : "100G ESnet6 Hub to 100G ESnet6 Hub IPv4 Throughput Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "ESnet6_TP_HUB",
+        "schedule" : "schedule_0",
+        "test" : "ESnet6_TP_1_v4",
+        "tools" : [
+           "bwctliperf3",
+           "iperf3"
+        ]
+     },
+     "100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv6_Throughput_Testing" : {
+        "_meta" : {
+           "display-name" : "100G ESnet6 Hub to 100G ESnet6 Hub IPv6 Throughput Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "ESnet6_TP_HUB",
+        "schedule" : "schedule_0",
+        "test" : "ESnet6_TP_1_v6",
+        "tools" : [
+           "bwctliperf3",
+           "iperf3"
+        ]
+     },
       "100G_ESnet_Hub_to_100G_ESnet_Hub_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "100G ESnet Hub to 100G ESnet Hub Throughput Testing"
@@ -13160,6 +13300,32 @@
           }
    },
    "tests" : {
+     "ESnet6_TP_1_v4" : {
+        "spec" : {
+           "dest" : "{% address[1] %}",
+           "dest-node" : "{% pscheduler_address[1] %}",
+           "duration" : "PT12S",
+           "omit" : "PT5S",
+           "source" : "{% address[0] %}",
+           "source-node" : "{% pscheduler_address[0] %}",
+           "window-size" : 67108864,
+           "ip-version": 4
+        },
+        "type" : "throughput"
+     },
+     "ESNet_TP_1_v6" : {
+        "spec" : {
+           "dest" : "{% address[1] %}",
+           "dest-node" : "{% pscheduler_address[1] %}",
+           "duration" : "PT12S",
+           "omit" : "PT5S",
+           "source" : "{% address[0] %}",
+           "source-node" : "{% pscheduler_address[0] %}",
+           "window-size" : 67108864,
+           "ip-version": 6
+        },
+        "type" : "throughput"
+     },
       "latencybg_0" : {
          "spec" : {
             "dest" : "{% address[1] %}",
