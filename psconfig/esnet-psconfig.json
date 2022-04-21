@@ -13334,7 +13334,7 @@
         },
         "type" : "throughput"
      },
-     "ESNet_TP_1_v6" : {
+     "ESNet6_TP_1_v6" : {
         "spec" : {
            "dest" : "{% address[1] %}",
            "dest-node" : "{% pscheduler_address[1] %}",
