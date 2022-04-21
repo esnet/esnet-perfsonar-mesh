@@ -6719,6 +6719,12 @@
            },
            {
               "name" : "wash-pt1.es.net"
+           },
+           {
+              "name" : "lbnl50-ps-tp.es.net"
+           },
+           {
+              "name" : "lbnl59-ps-tp.es.net"
            }
          ],
          "b-addresses" : [
@@ -6730,6 +6736,12 @@
            },
            {
               "name" : "wash-pt1.es.net"
+           },
+           {
+              "name" : "lbnl50-ps-tp.es.net"
+           },
+           {
+              "name" : "lbnl59-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -6814,6 +6826,12 @@
             },
             {
                "name" : "srs-pt1.es.net"
+            },
+            {
+               "name" : "lbnl50-ps-lat.es.net"
+            },
+            {
+               "name" : "lbnl59-ps-lat.es.net"
             }
          ],
          "type" : "mesh"
@@ -6941,6 +6959,12 @@
             },
             {
                "name" : "wash-owamp.es.net"
+            },
+            {
+               "name" : "lbnl50-ps-lat.es.net"
+            },
+            {
+               "name" : "lbnl59-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7192,6 +7216,12 @@
             },
             {
                "name" : "jlab4.jlab.org"
+            },
+            {
+               "name" : "perfsonar.ornl.gov"
+            },
+            {
+               "name" : "anlborder-ps.it.anl.gov"
             }
          ],
          "b-addresses" : [
@@ -7203,6 +7233,12 @@
            },
            {
               "name" : "wash-pt1.es.net"
+           },
+           {
+              "name" : "lbnl50-ps-tp.es.net"
+           },
+           {
+              "name" : "lbnl59-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7217,6 +7253,12 @@
             },
             {
                "name" : "jlab4.jlab.org"
+            },
+            {
+               "name" : "perfsonar.ornl.gov"
+            },
+            {
+               "name" : "anlborder-ps.it.anl.gov"
             }
          ],
          "b-addresses" : [
@@ -7228,6 +7270,12 @@
             },
             {
                "name" : "wash-owamp.es.net"
+            },
+            {
+               "name" : "lbnl50-ps-lat.es.net"
+            },
+            {
+               "name" : "lbnl59-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
