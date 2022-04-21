@@ -4145,14 +4145,14 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-west.es.net/esmond/perfsonar/archive/"
+            "url" : "http://lbnl50-ps.es.net/esmond/perfsonar/archive/"
          }
      },
      "lbnl59-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-west.es.net/esmond/perfsonar/archive/"
+            "url" : "http://lbnl59-ps.es.net/esmond/perfsonar/archive/"
          }
      },
      "perfsonar.rc.asu.edu" : {
@@ -6658,9 +6658,6 @@
                "name" : "netl-pgh-pt1.es.net"
             },
             {
-               "name" : "orau-pt1.es.net"
-            },
-            {
                "name" : "osti-pt1.es.net"
             },
             {
@@ -6755,9 +6752,6 @@
                "name" : "netl-pgh-pt1.es.net"
             },
             {
-               "name" : "orau-pt1.es.net"
-            },
-            {
                "name" : "osti-pt1.es.net"
             },
             {
@@ -6808,9 +6802,6 @@
             },
             {
                "name" : "netl-pgh-owamp.es.net"
-            },
-            {
-               "name" : "orau-pt1.es.net"
             },
             {
                "name" : "osti-pt1.es.net"
@@ -6930,9 +6921,6 @@
             },
             {
                "name" : "netl-pgh-owamp.es.net"
-            },
-            {
-               "name" : "orau-pt1.es.net"
             },
             {
                "name" : "osti-pt1.es.net"
@@ -7690,9 +7678,6 @@
                "name" : "fiona-40g.ucsc.edu"
             },
             {
-               "name" : "sdm01.rcc.uchicago.edu"
-            },
-            {
                "name" : "netw-ps1.stanford.edu"
             },
             {
@@ -7702,25 +7687,13 @@
                "name" : "perfsonar.sci.cwru.edu"
             },
             {
-               "name" : "56m-ps-4x10.sox.net"
-            },
-            {
                "name" : "198.59.193.60"
-            },
-            {
-               "name" : "tsunami.pub.alcf.anl.gov"
             },
             {
                "name" : "ps-40g-hpr01.stanford.edu"
             },
             {
                "name" : "bcdc-gw-40g-ps.gatech.edu"
-            },
-            {
-               "name" : "fiona-ps.ucsc.edu"
-            },
-            {
-               "name" : "fiona.tools.ucla.net"
             },
             {
                "name" : "204.99.128.11"
