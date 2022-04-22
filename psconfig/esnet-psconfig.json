@@ -4129,14 +4129,14 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-west.es.net/esmond/perfsonar/archive/"
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "lbnl59-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-west.es.net/esmond/perfsonar/archive/"
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "perfsonar.rc.asu.edu" : {
