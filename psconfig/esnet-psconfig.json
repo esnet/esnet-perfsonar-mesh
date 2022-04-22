@@ -12471,6 +12471,28 @@
       }
    },
    "tasks" : {
+     "ESnet_to_ESnet_v4_Packet_Loss_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet to ESnet IPv4 Packet Loss Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "ESnet6_LAT_1_v4",
+        "test" : "ESnet6_LAT_1_v4"
+     },
+     "ESnet_to_ESnet_v6_Packet_Loss_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet to ESnet IPv6 Packet Loss Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "ESnet6_LAT_1_v6",
+        "test" : "ESnet6_LAT_1_v6"
+     },
      "100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv4_Throughput_Testing" : {
         "_meta" : {
            "display-name" : "100G ESnet6 Hub to 100G ESnet6 Hub IPv4 Throughput Testing"
@@ -13395,32 +13417,60 @@
           }
    },
    "tests" : {
-     "ESnet6_TP_1_v4" : {
-        "spec" : {
-           "dest" : "{% address[1] %}",
-           "dest-node" : "{% pscheduler_address[1] %}",
-           "duration" : "PT12S",
-           "omit" : "PT5S",
-           "source" : "{% address[0] %}",
-           "source-node" : "{% pscheduler_address[0] %}",
-           "window-size" : 67108864,
-           "ip-version": 4
-        },
-        "type" : "throughput"
-     },
-     "ESnet6_TP_1_v6" : {
-        "spec" : {
-           "dest" : "{% address[1] %}",
-           "dest-node" : "{% pscheduler_address[1] %}",
-           "duration" : "PT12S",
-           "omit" : "PT5S",
-           "source" : "{% address[0] %}",
-           "source-node" : "{% pscheduler_address[0] %}",
-           "window-size" : 67108864,
-           "ip-version": 6
-        },
-        "type" : "throughput"
-     },
+      "ESnet6_TP_1_v4" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "duration" : "PT12S",
+            "omit" : "PT5S",
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "window-size" : 67108864,
+            "ip-version": 4
+         },
+         "type" : "throughput"
+      },
+      "ESnet6_TP_1_v6" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "duration" : "PT12S",
+            "omit" : "PT5S",
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "window-size" : 67108864,
+            "ip-version": 6
+         },
+         "type" : "throughput"
+      },
+      "ESnet6_LAT_1_v4" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "flip" : "{% flip %}",
+            "packet-count" : 600,
+            "packet-interval" : 0.1,
+            "packet-padding" : 0,
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "ip-version": 4
+         },
+         "type" : "latencybg"
+      },
+      "ESnet6_LAT_1_v6" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "flip" : "{% flip %}",
+            "packet-count" : 600,
+            "packet-interval" : 0.1,
+            "packet-padding" : 0,
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "ip-version": 6
+         },
+         "type" : "latencybg"
+      },
       "latencybg_0" : {
          "spec" : {
             "dest" : "{% address[1] %}",
