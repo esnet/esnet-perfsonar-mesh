@@ -6596,9 +6596,6 @@
          "name" : "star-pt1.es.net"
       },
       {
-         "name" : "lbnl59-ps-tp.es.net"
-      },
-      {
          "name" : "wash-pt1.es.net"
       }
    ],
@@ -6614,9 +6611,6 @@
       },
       {
          "name" : "star-pt1.es.net"
-      },
-      {
-         "name" : "lbnl59-ps-tp.es.net"
       },
       {
          "name" : "wash-pt1.es.net"
@@ -12479,7 +12473,7 @@
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
         },
-        "group" : "ESnet6_LAT_1_v4",
+        "group" : "ESnet6_LAT_1_v6_HUB",
         "test" : "ESnet6_LAT_1_v4"
      },
      "ESnet_to_ESnet_v6_Packet_Loss_Testing" : {
@@ -12490,7 +12484,7 @@
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
         },
-        "group" : "ESnet6_LAT_1_v6",
+        "group" : "ESnet6_LAT_HUB",
         "test" : "ESnet6_LAT_1_v6"
      },
      "100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv4_Throughput_Testing" : {
