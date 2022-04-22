@@ -12473,7 +12473,7 @@
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
         },
-        "group" : "ESnet6_LAT_1_v6_HUB",
+        "group" : "ESnet6_LAT_HUB",
         "test" : "ESnet6_LAT_1_v4"
      },
      "ESnet_to_ESnet_v6_Packet_Loss_Testing" : {
