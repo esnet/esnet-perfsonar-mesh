@@ -6591,12 +6591,6 @@
       },
       {
          "name" : "lbnl59-ps-tp.es.net"
-      },
-      {
-         "name" : "star-pt1.es.net"
-      },
-      {
-         "name" : "wash-pt1.es.net"
       }
    ],
    "type" : "mesh"
@@ -6608,12 +6602,6 @@
       },
       {
          "name" : "lbnl59-ps-tp.es.net"
-      },
-      {
-         "name" : "star-pt1.es.net"
-      },
-      {
-         "name" : "wash-pt1.es.net"
       }
    ],
    "type" : "mesh"
@@ -6622,6 +6610,9 @@
          "a-addresses" : [
             {
                "name" : "doe-gtn-pt1.es.net"
+            },
+            {
+               "name" : "lbnl50-ps-tp.es.net"
             },
             {
                "name" : "lbnl59-ps-tp.es.net"
@@ -6654,6 +6645,9 @@
                "name" : "star-pt1.es.net"
             },
             {
+               "name" : "lbnl50-ps-tp.es.net"
+            },
+            {
                "name" : "lbnl59-ps-tp.es.net"
             },
             {
@@ -6675,6 +6669,9 @@
             }
          ],
          "b-addresses" : [
+           {
+              "name" : "lbnl50-ps-tp.es.net"
+           },
             {
                "name" : "lbnl59-ps-tp.es.net"
             },
@@ -6706,9 +6703,6 @@
            }
          ],
          "b-addresses" : [
-           {
-              "name" : "lbnl59-ps-tp.es.net"
-           },
            {
               "name" : "star-pt1.es.net"
            },
@@ -6755,6 +6749,9 @@
             }
          ],
          "b-addresses" : [
+           {
+              "name" : "lbnl50-ps-tp.es.net"
+           },
            {
               "name" : "lbnl59-ps-tp.es.net"
            },
@@ -6803,11 +6800,8 @@
                "name" : "srs-pt1.es.net"
             },
             {
-               "name" : "lbnl50-ps-lat.es.net"
+               "name" : "lbnl59-ps-tp.es.net"
             },
-            {
-               "name" : "lbnl59-ps-lat.es.net"
-            }
          ],
          "type" : "mesh"
       },
@@ -12467,7 +12461,7 @@
    "tasks" : {
      "ESnet_to_ESnet_v4_Packet_Loss_Testing" : {
         "_meta" : {
-           "display-name" : "ESnet to ESnet IPv4 Packet Loss Testing"
+           "display-name" : "ESnet6 to ESnet6 IPv4 Packet Loss Testing"
         },
         "reference": {
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -12478,7 +12472,7 @@
      },
      "ESnet_to_ESnet_v6_Packet_Loss_Testing" : {
         "_meta" : {
-           "display-name" : "ESnet to ESnet IPv6 Packet Loss Testing"
+           "display-name" : "ESnet6 to ESnet6 IPv6 Packet Loss Testing"
         },
         "reference": {
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
