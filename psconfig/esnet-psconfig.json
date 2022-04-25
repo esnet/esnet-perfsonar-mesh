@@ -6802,6 +6802,9 @@
             {
                "name" : "lbnl59-ps-tp.es.net"
             },
+            {
+               "name" : "lbnl50-ps-tp.es.net"
+            }
          ],
          "type" : "mesh"
       },
