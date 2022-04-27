@@ -12603,7 +12603,7 @@
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
         },
-        "group" : "ESnet4_TP_HUB",
+        "group" : "ESnet6_TP_HUB",
         "schedule" : "schedule_1",
         "test" : "ESnet6_v6_trace"
      },
