@@ -13,6 +13,42 @@
       "display-name" : "ESnet"
    },
   "addresses" : {
+    "eqxsv5-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "eqxsv5-ps-tp.es.net",
+           "display-set" : "eqxsv5-ps.es.net"
+        },
+        "address" : "eqxsv5-ps-tp.es.net",
+        "host" : "eqxsv5-ps.es.net",
+        "no-agent" : true
+    },
+    "eqxsv5-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "eqxsv5-ps-lat.es.net",
+           "display-set" : "eqxsv5-ps.es.net"
+        },
+        "address" : "eqxsv5-ps-lat.es.net",
+        "host" : "eqxsv5-ps.es.net",
+        "no-agent" : true
+    },
+    "sunn-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "sunn-ps-tp.es.net",
+           "display-set" : "sunn-ps.es.net"
+        },
+        "address" : "sunn-ps-tp.es.net",
+        "host" : "sunn-ps.es.net",
+        "no-agent" : true
+    },
+    "sunn-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "sunn-ps-lat.es.net",
+           "display-set" : "sunn-ps.es.net"
+        },
+        "address" : "sunn-ps-lat.es.net",
+        "host" : "sunn-ps.es.net",
+        "no-agent" : true
+    },
     "lbnl50-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "lbnl50-ps-tp.es.net",
@@ -4125,6 +4161,20 @@
       }
    },
    "archives" : {
+     "eqxsv5-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "sunn-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "lbnl50-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6587,10 +6637,16 @@
      "ESnet6_TP_HUB" : {
         "addresses" : [
       {
+         "name" : "eqxsv5-ps-tp.es.net"
+      },
+      {
          "name" : "lbnl50-ps-tp.es.net"
       },
       {
          "name" : "lbnl59-ps-tp.es.net"
+      },
+      {
+         "name" : "sunn-ps-tp.es.net"
       }
    ],
    "type" : "mesh"
@@ -6598,10 +6654,16 @@
      "ESnet6_LAT_HUB" : {
         "addresses" : [
       {
+         "name" : "eqxsv5-ps-tp.es.net"
+      },
+      {
          "name" : "lbnl50-ps-tp.es.net"
       },
       {
          "name" : "lbnl59-ps-tp.es.net"
+      },
+      {
+         "name" : "sunn-ps-tp.es.net"
       }
    ],
    "type" : "mesh"
@@ -6640,7 +6702,6 @@
             }
          ],
          "b-addresses" : [
-
             {
                "name" : "star-pt1.es.net"
             },
@@ -8895,6 +8956,24 @@
  }
    },
    "hosts" : {
+     "eqxsv5-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "eqxsv5-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "eqxsv5-ps.es.net"
+        ]
+     },
+     "sunn-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "sunn-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "sunn-ps.es.net"
+        ]
+     },
      "lbnl50-ps.es.net" : {
         "_meta" : {
            "display-name" : "lbnl50-ps.es.net",
@@ -12516,6 +12595,30 @@
            "iperf3"
         ]
      },
+     "ESnet6_Hub_to_ESnet6_Hub_v4_Traceroute_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet6 Hub to ESnet6 Hub IPv4 Traceroute Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "ESnet4_TP_HUB",
+        "schedule" : "schedule_1",
+        "test" : "ESnet6_v6_trace"
+     },
+     "ESnet6_Hub_to_ESnet6_Hub_v6_Traceroute_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet6 Hub to ESnet6 Hub IPv6 Traceroute Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "ESnet6_TP_HUB",
+        "schedule" : "schedule_1",
+        "test" : "ESnet6_v6_trace"
+     },
       "100G_ESnet_Hub_to_100G_ESnet_Hub_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "100G ESnet Hub to 100G ESnet Hub Throughput Testing"
@@ -13568,6 +13671,30 @@
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
             "wait" : "PT30S"
+         },
+         "type" : "trace"
+      },
+      "ESnet6_v4_trace" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "probe-type" : "icmp",
+            "sendwait" : "PT5S",
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "wait" : "PT30S",
+            "ip-version": 4
+         },
+         "type" : "trace"
+      },
+      "ESnet6_v6_trace" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "probe-type" : "icmp",
+            "sendwait" : "PT5S",
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "wait" : "PT30S",
+            "ip-version": 6
          },
          "type" : "trace"
       }
