@@ -13,6 +13,42 @@
       "display-name" : "ESnet"
    },
   "addresses" : {
+    "bost-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "bost-ps-tp.es.net",
+           "display-set" : "bost-ps.es.net"
+        },
+        "address" : "bost-ps-tp.es.net",
+        "host" : "bost-ps.es.net",
+        "no-agent" : true
+    },
+    "bost-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "bost-ps-lat.es.net",
+           "display-set" : "bost-ps.es.net"
+        },
+        "address" : "bost-ps-lat.es.net",
+        "host" : "bost-ps.es.net",
+        "no-agent" : true
+    },
+    "wash-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "wash-ps-tp.es.net",
+           "display-set" : "wash-ps.es.net"
+        },
+        "address" : "wash-ps-tp.es.net",
+        "host" : "wash-ps.es.net",
+        "no-agent" : true
+    },
+    "wash-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "wash-ps-lat.es.net",
+           "display-set" : "wash-ps.es.net"
+        },
+        "address" : "wash-ps-lat.es.net",
+        "host" : "wash-ps.es.net",
+        "no-agent" : true
+    },
     "eqxsv5-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "eqxsv5-ps-tp.es.net",
@@ -4161,6 +4197,20 @@
       }
    },
    "archives" : {
+     "bost-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "wash-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "eqxsv5-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6637,6 +6687,9 @@
      "ESnet6_TP_HUB" : {
         "addresses" : [
       {
+         "name" : "bost-ps-tp.es.net"
+      },
+      {
          "name" : "eqxsv5-ps-tp.es.net"
       },
       {
@@ -6647,6 +6700,9 @@
       },
       {
          "name" : "sunn-ps-tp.es.net"
+      },
+      {
+         "name" : "wash-ps-tp.es.net"
       }
    ],
    "type" : "mesh"
@@ -6654,6 +6710,9 @@
      "ESnet6_LAT_HUB" : {
         "addresses" : [
       {
+         "name" : "bost-ps-tp.es.net"
+      },
+      {
          "name" : "eqxsv5-ps-tp.es.net"
       },
       {
@@ -6664,6 +6723,9 @@
       },
       {
          "name" : "sunn-ps-tp.es.net"
+      },
+      {
+         "name" : "wash-ps-tp.es.net"
       }
    ],
    "type" : "mesh"
@@ -8956,6 +9018,24 @@
  }
    },
    "hosts" : {
+     "bost-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "bost-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "bost-ps.es.net"
+        ]
+     },
+     "wash-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "wash-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "wash-ps.es.net"
+        ]
+     },
      "eqxsv5-ps.es.net" : {
         "_meta" : {
            "display-name" : "eqxsv5-ps.es.net",
