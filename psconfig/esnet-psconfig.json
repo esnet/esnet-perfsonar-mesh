@@ -4133,54 +4133,6 @@
          "address" : "vu-perf2.it.vanderbilt.edu",
          "host" : "vu-perf2.it.vanderbilt.edu"
       },
-      "wash-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "wash-owamp.es.net",
-            "display-set" : "wash-pt1.es.net"
-         },
-         "address" : "wash-owamp-v6.es.net",
-         "host" : "wash-pt1.es.net"
-      },
-      "wash-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "wash-owamp.es.net",
-            "display-set" : "wash-pt1.es.net"
-         },
-         "address" : "wash-owamp.es.net",
-         "host" : "wash-pt1.es.net"
-      },
-      "wash-owamp.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "wash-owamp.es.net",
-            "display-set" : "wash_backup"
-         },
-         "address" : "192.168.14.29",
-         "host" : "wash-pt1.es.net"
-      },
-      "wash-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "wash-pt1.es.net",
-            "display-set" : "wash-pt1.es.net"
-         },
-         "address" : "wash-pt1-v6.es.net",
-         "host" : "wash-pt1.es.net"
-      },
-      "wash-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "wash-pt1.es.net",
-            "display-set" : "wash-pt1.es.net"
-         },
-         "address" : "wash-pt1.es.net",
-         "host" : "wash-pt1.es.net"
-      },
-      "wash-pt1.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "wash-pt1.es.net",
-            "display-set" : "wash_backup"
-         },
-         "address" : "192.168.14.25",
-         "host" : "wash-pt1.es.net"
-      },
       "web100.pnw-gigapop.net" : {
          "_meta" : {
             "display-name" : "web100.pnw-gigapop.net"
@@ -6661,13 +6613,6 @@
             "url" : "http://vu-perf2.it.vanderbilt.edu/esmond/perfsonar/archive/"
          }
       },
-      "wash-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://wash-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "web100.pnw-gigapop.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6774,7 +6719,7 @@
                "name" : "lbnl59-ps-tp.es.net"
             },
             {
-               "name" : "wash-pt1.es.net"
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6802,7 +6747,7 @@
                "name" : "star-pt1.es.net"
             },
             {
-               "name" : "wash-pt1.es.net"
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6816,7 +6761,7 @@
               "name" : "star-pt1.es.net"
            },
            {
-              "name" : "wash-pt1.es.net"
+              "name" : "wash-ps-tp.es.net"
            },
            {
               "name" : "lbnl50-ps-tp.es.net"
@@ -6830,7 +6775,7 @@
               "name" : "star-pt1.es.net"
            },
            {
-              "name" : "wash-pt1.es.net"
+              "name" : "wash-ps-tp.es.net"
            },
            {
               "name" : "lbnl50-ps-tp.es.net"
@@ -6882,7 +6827,7 @@
               "name" : "star-pt1.es.net"
            },
            {
-              "name" : "wash-pt1.es.net"
+              "name" : "wash-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -6893,7 +6838,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             },
             {
                "name" : "doe-gtn-pt1.es.net"
@@ -6957,7 +6902,7 @@
               "name" : "star-pt1.es.net"
            },
            {
-              "name" : "wash-pt1.es.net"
+              "name" : "wash-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -6982,7 +6927,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             },
             {
                "name" : "lbnl50-ps-lat.es.net"
@@ -7062,7 +7007,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             },
             {
                "name" : "lbnl50-ps-lat.es.net"
@@ -7120,7 +7065,7 @@
               "name" : "star-pt1.es.net"
            },
            {
-              "name" : "wash-pt1.es.net"
+              "name" : "wash-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7169,7 +7114,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             },
             {
                "name" : "lbnl50-ps-lat.es.net"
@@ -7209,7 +7154,7 @@
                "name" : "star-pt1.es.net"
             },
             {
-               "name" : "wash-pt1.es.net"
+               "name" : "wash-ps-tp.es.net"
             },
             {
                "name" : "lbnl50-ps-tp.es.net"
@@ -7267,7 +7212,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             },
             {
                "name" : "lbnl50-ps-lat.es.net"
@@ -7298,7 +7243,7 @@
               "name" : "star-pt1.es.net"
            },
            {
-              "name" : "wash-pt1.es.net"
+              "name" : "wash-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7323,7 +7268,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7351,7 +7296,7 @@
               "name" : "star-pt1.es.net"
            },
            {
-              "name" : "wash-pt1.es.net"
+              "name" : "wash-ps-tp.es.net"
            },
            {
               "name" : "lbnl50-ps-tp.es.net"
@@ -7385,7 +7330,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             },
             {
                "name" : "lbnl50-ps-lat.es.net"
@@ -7413,7 +7358,7 @@
                "name" : "lond-pt1.es.net"
             },
             {
-               "name" : "wash-pt1.es.net"
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7469,7 +7414,7 @@
                "name" : "ga-pt1.es.net"
             },
             {
-               "name" : "wash-pt1.es.net"
+               "name" : "wash-ps-tp.es.net"
             },
             {
                "name" : "lbnl50-ps-tp.es.net"
@@ -7534,7 +7479,7 @@
                "name" : "lond-pt1.es.net"
             },
             {
-               "name" : "wash-pt1.es.net"
+               "name" : "wash-ps-tp.es.net"
             },
             {
                "name" : "star-pt1.es.net"
@@ -7580,7 +7525,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             },
             {
                "name" : "lbnl50-ps-lat.es.net"
@@ -7680,7 +7625,7 @@
               "name" : "star-pt1.es.net"
            },
            {
-              "name" : "wash-pt1.es.net"
+              "name" : "wash-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7762,7 +7707,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             },
             {
                "name" : "lbnl50-ps-tp.es.net"
@@ -7784,7 +7729,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "wash-pt1-v6.es.net"
+               "name" : "wash-ps-tp-v6.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7809,7 +7754,7 @@
                "name" : "lbnl59-ps-lat.es.net"
             },
             {
-               "name" : "wash-owamp-v6.es.net"
+               "name" : "wash-ps-lat-v6.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7834,7 +7779,7 @@
               "name" : "star-pt1.es.net"
            },
            {
-              "name" : "wash-pt1.es.net"
+              "name" : "wash-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7862,7 +7807,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7876,7 +7821,7 @@
                "name" : "lbnl59-ps-tp.es.net"
             },
             {
-               "name" : "wash-pt1.es.net"
+               "name" : "wash-ps-tp.es.net"
             },
             {
                "name" : "star-pt1.es.net"
@@ -7934,7 +7879,7 @@
                "name" : "cern-773-pt1.es.net"
             },
             {
-               "name" : "wash-pt1.es.net"
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "type" : "mesh"
@@ -7951,7 +7896,7 @@
               "name" : "star-pt1.es.net"
            },
            {
-              "name" : "wash-pt1.es.net"
+              "name" : "wash-ps-tp.es.net"
            }
          ],
          "type" : "mesh"
@@ -8015,7 +7960,7 @@
                "name" : "lbnl59-ps-tp.es.net"
             },
             {
-               "name" : "wash-pt1.es.net"
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -8094,7 +8039,7 @@
                "name" : "lbnl59-ps-lat.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -8135,7 +8080,7 @@
                "name" : "lond-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             },
             {
                "name" : "star-owamp.es.net"
@@ -8286,7 +8231,7 @@
                "name" : "star-pt1.es.net"
             },
             {
-               "name" : "wash-pt1.es.net"
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -8431,7 +8376,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -8439,7 +8384,7 @@
       "group_39" : {
          "a-addresses" : [
             {
-               "name" : "wash-pt1.es.net__backup"
+               "name" : "wash-ps-tp.es.net__backup"
             }
          ],
          "b-addresses" : [
@@ -8509,7 +8454,7 @@
                 ]
              },
              {
-                "local-address": { "name": "wash-pt1.es.net__backup" },
+                "local-address": { "name": "wash-ps-tp.es.net__backup" },
                 "target-addresses": [
                     {
                        "name" : "ga-pt1.es.net__backup"
@@ -8574,7 +8519,7 @@
       "group_40" : {
          "a-addresses" : [
             {
-               "name" : "wash-owamp.es.net__backup"
+               "name" : "wash-ps-lat.es.net__backup"
             }
          ],
          "b-addresses" : [
@@ -8638,7 +8583,7 @@
                 ]
              },
              {
-                "local-address": { "name": "wash-owamp.es.net__backup" },
+                "local-address": { "name": "wash-ps-lat.es.net__backup" },
                 "target-addresses": [
                     {
                        "name" : "amst-owamp.es.net__backup"
@@ -8733,7 +8678,7 @@
                "name" : "star-owamp.es.net"
             },
             {
-               "name" : "wash-owamp.es.net"
+               "name" : "wash-ps-lat.es.net"
             }
         ],
         "type" : "disjoint"
@@ -8756,7 +8701,7 @@
              "name" : "star-owamp.es.net"
           },
           {
-             "name" : "wash-owamp.es.net"
+             "name" : "wash-ps-lat.es.net"
           }
        ],
        "b-addresses" : [
@@ -8776,7 +8721,7 @@
              "name" : "star-owamp.es.net"
           },
           {
-             "name" : "wash-owamp.es.net"
+             "name" : "wash-ps-lat.es.net"
           }
        ],
        "type" : "disjoint"
@@ -8819,7 +8764,7 @@
              "name" : "lbnl59-doenet-pt1.es.net"
           },
           {
-             "name" : "wash-pt1.es.net"
+             "name" : "wash-ps-tp.es.net"
           }
       ],
       "type" : "disjoint"
@@ -8853,7 +8798,7 @@
               "name" : "star-owamp.es.net"
            },
            {
-              "name" : "wash-owamp.es.net"
+              "name" : "wash-ps-lat.es.net"
            }
        ],
        "type" : "disjoint"
@@ -8887,7 +8832,7 @@
              "name" : "star-pt1.es.net"
           },
           {
-             "name" : "wash-pt1.es.net"
+             "name" : "wash-ps-tp.es.net"
           }
         ],
         "type" : "disjoint"
@@ -8946,7 +8891,7 @@
             "name" : "star-pt1.es.net"
          },
          {
-            "name" : "wash-pt1.es.net"
+            "name" : "wash-ps-tp.es.net"
          },
          {
             "name" : "owamp-scz.pnl.gov"
@@ -8980,7 +8925,7 @@
            "name" : "lbnl59-ps-lat.es.net"
         },
         {
-           "name" : "wash-owamp.es.net"
+           "name" : "wash-ps-lat.es.net"
         }
     ],
     "type" : "disjoint"
@@ -9005,7 +8950,7 @@
       "name" : "sciphy-ps.jlab.org"
      },
      {
-        "name" : "wash-pt1.es.net"
+        "name" : "wash-ps-tp.es.net"
      },
      {
         "name" : "lbnl50-ps-tp.es.net"
@@ -12573,13 +12518,13 @@
          ],
          "no-agent" : true
       },
-      "wash-pt1.es.net" : {
+      "wash-ps-tp.es.net" : {
          "_meta" : {
-            "display-name" : "wash-pt1.es.net",
+            "display-name" : "wash-ps-tp.es.net",
             "organization-display-name" : "ESnet"
          },
          "archives" : [
-            "wash-pt1.es.net"
+            "wash-ps-tp.es.net"
          ]
       },
       "web100.pnw-gigapop.net" : {
@@ -13595,7 +13540,7 @@
          "spec" : {
             "dest" : "{% address[1] %}",
             "dest-node" : "{% pscheduler_address[1] %}",
-            "duration" : "PT12S",
+            "duration" : "PT10S",
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
@@ -13608,7 +13553,7 @@
          "spec" : {
             "dest" : "{% address[1] %}",
             "dest-node" : "{% pscheduler_address[1] %}",
-            "duration" : "PT12S",
+            "duration" : "PT10S",
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
