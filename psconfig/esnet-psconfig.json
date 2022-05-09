@@ -7729,7 +7729,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "wash-ps-tp-v6.es.net"
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7754,7 +7754,7 @@
                "name" : "lbnl59-ps-lat.es.net"
             },
             {
-               "name" : "wash-ps-lat-v6.es.net"
+               "name" : "wash-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -8384,7 +8384,7 @@
       "group_39" : {
          "a-addresses" : [
             {
-               "name" : "wash-ps-tp.es.net__backup"
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
@@ -8519,12 +8519,12 @@
       "group_40" : {
          "a-addresses" : [
             {
-               "name" : "wash-ps-lat.es.net__backup"
+               "name" : "wash-ps-lat.es.net"
             }
          ],
          "b-addresses" : [
             {
-               "name" : "cern-513-owamp.es.net__backup"
+               "name" : "cern-513-owamp.es.net"
             }
          ],
          "excludes": [
@@ -12524,7 +12524,7 @@
             "organization-display-name" : "ESnet"
          },
          "archives" : [
-            "wash-ps-tp.es.net"
+            "wash-ps.es.net"
          ]
       },
       "web100.pnw-gigapop.net" : {
