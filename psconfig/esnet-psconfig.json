@@ -124,7 +124,7 @@
     "lbnl50-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "lbnl50-ps-tp.es.net",
-           "display-set" : "lbnl50-ps-tp.es.net"
+           "display-set" : "lbnl50-ps.es.net"
         },
         "address" : "lbnl50-ps-tp.es.net",
         "host" : "lbnl50-ps.es.net",
@@ -133,7 +133,7 @@
     "lbnl50-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "lbnl50-ps-lat.es.net",
-           "display-set" : "lbnl50-ps-lat.es.net"
+           "display-set" : "lbnl50-ps.es.net"
         },
         "address" : "lbnl50-ps-lat.es.net",
         "host" : "lbnl50-ps.es.net",
@@ -142,7 +142,7 @@
     "lbnl59-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "lbnl59-ps-tp.es.net",
-           "display-set" : "lbnl59-ps-tp.es.net"
+           "display-set" : "lbnl59-ps.es.net"
         },
         "address" : "lbnl59-ps-tp.es.net",
         "host" : "lbnl59-ps.es.net",
@@ -151,7 +151,7 @@
     "lbnl59-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "lbnl59-ps-lat.es.net",
-           "display-set" : "lbnl59-ps-lat.es.net"
+           "display-set" : "lbnl59-ps.es.net"
         },
         "address" : "lbnl59-ps-lat.es.net",
         "host" : "lbnl59-ps.es.net",
