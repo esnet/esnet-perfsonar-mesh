@@ -174,7 +174,11 @@ dashboards:
        - name: "ESnet - ESnet to GA-EAST IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to GA-EAST IPv6 Throughput Testing - Throughput"
        - name: "ESnet - ESnet to GA-EAST IPv6 Packet Loss Testing - Loss"
-   - name: "10: ESnet6 Testing"
+   - name: "9: ESnet Backup Paths"
+     grids:
+       - name: "ESnet - ESnet Backup Paths - Loss"
+       - name: "ESnet - ESnet Backup Paths - Throughput"
+   - name: "99: ESnet6 Testing"
      grids:
        - name: "ESnet_to_ESnet_v4_Packet_Loss_Testing"
        - name: "ESnet_to_ESnet_v6_Packet_Loss_Testing"
