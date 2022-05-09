@@ -4,7 +4,7 @@ database: /var/lib/maddash/
 
 ##
 # Set the number of jobs that can run in parallel. Default is 50.
-jobThreadPoolSize: 20 
+jobThreadPoolSize: 20
 
 ##
 # Set number of jobs that can be in queue at one time. Default is 250.
@@ -16,7 +16,7 @@ jobThreadPoolSize: 20
 
 ###
 # Skips table and index rebuild at start-up. It can speed up start-up time if set to 1.
-skipTableBuild: 0 
+skipTableBuild: 0
 
 ##
 # Set the host where the REST server listens
@@ -24,7 +24,7 @@ serverHost: "localhost"
 
 ##
 # Activate http and set the port where it listens
-http: 
+http:
     port: 8881
 
 ##
@@ -111,11 +111,11 @@ notifications:
 # Manually defined groups
 
 groups:
-    
-# 'groupMembers' allow you to assign special properties to items in 'groups': 
+
+# 'groupMembers' allow you to assign special properties to items in 'groups':
 #     - Set the "id" to the value used in the "group" list. This is required.
-#     - Set the "label" to the name  you want displayed. This block 
-#         is useful in cases where you want  a value such as an IP address or port 
+#     - Set the "label" to the name  you want displayed. This block
+#         is useful in cases where you want  a value such as an IP address or port
 #         number passed to a check but on the GUI you want a human-readable value displayed
 #     - Set the "pstoolkiturl" to the URL of a perfSONAR Toolkit web page
 #     - Map to create special mapped template variables dependent on the opposing row or column
@@ -166,7 +166,7 @@ dashboards:
        - name: "ESnet - ESnet to International Packet Loss Testing - Loss"
    - name: "7: ESnet to ESGF Sites"
      grids:
-       - name: "ESnet - ESnet to ESGF Site Packet Loss Testing - Loss" 
+       - name: "ESnet - ESnet to ESGF Site Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to ESGF Site Throughput Testing - Throughput"
    - name: "8: ESnet to GA-EAST"
      grids:
@@ -174,8 +174,11 @@ dashboards:
        - name: "ESnet - ESnet to GA-EAST IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to GA-EAST IPv6 Throughput Testing - Throughput"
        - name: "ESnet - ESnet to GA-EAST IPv6 Packet Loss Testing - Loss"
-   - name: "9: ESnet Backup Paths"
+   - name: "10: ESnet6 Testing"
      grids:
-       - name: "ESnet - ESnet Backup Paths - Loss"
-       - name: "ESnet - ESnet Backup Paths - Throughput"
-
+       - name: "ESnet_to_ESnet_v4_Packet_Loss_Testing"
+       - name: "ESnet_to_ESnet_v6_Packet_Loss_Testing"
+       - name: "100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv4_Throughput_Testing"
+       - name: "100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv6_Throughput_Testing"
+       - name: "ESnet6_Hub_to_ESnet6_Hub_v4_Traceroute_Testing"
+       - name: "ESnet6_Hub_to_ESnet6_Hub_v6_Traceroute_Testing"
