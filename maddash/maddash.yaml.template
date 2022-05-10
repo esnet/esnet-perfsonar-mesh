@@ -184,5 +184,3 @@ dashboards:
        - name: "ESnet - ESnet_to_ESnet_v6_Packet_Loss_Testing - Loss"
        - name: "ESnet - 100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv4_Throughput_Testing - Throughput"
        - name: "ESnet - 100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv6_Throughput_Testing - Throughput"
-       - name: "ESnet - ESnet6_Hub_to_ESnet6_Hub_v4_Traceroute_Testing - Traceroute"
-       - name: "ESnet - ESnet6_Hub_to_ESnet6_Hub_v6_Traceroute_Testing - Traceroute"
