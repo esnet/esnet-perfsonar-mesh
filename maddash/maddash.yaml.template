@@ -180,7 +180,7 @@ dashboards:
        - name: "ESnet - ESnet Backup Paths - Throughput"
    - name: "99: ESnet6 Testing"
      grids:
-       - name: "ESnet - ESnet_to_ESnet_v4_Packet_Loss_Testing - Loss"
-       - name: "ESnet - ESnet_to_ESnet_v6_Packet_Loss_Testing - Loss"
-       - name: "ESnet - 100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv4_Throughput_Testing - Throughput"
-       - name: "ESnet - 100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv6_Throughput_Testing - Throughput"
+       - name: "ESnet - ESnet6 to ESnet6 IPv4 Packet Loss Testing - Loss"
+       - name: "ESnet - ESnet6 to ESnet6 IPv6 Packet Loss Testing - Loss"
+       - name: "ESnet - 100G ESnet6 Hub to 100G ESnet6 Hub IPv4 Throughput Testing - Throughput"
+       - name: "ESnet - 100G ESnet6 Hub to 100G ESnet6 Hub IPv6 Throughput Testing - Throughput"
