@@ -55,8 +55,7 @@
            "display-set" : "bost-ps.es.net"
         },
         "address" : "bost-ps-tp.es.net",
-        "host" : "bost-ps.es.net",
-        "no-agent" : true
+        "host" : "bost-ps.es.net"
     },
     "bost-ps-lat.es.net" : {
         "_meta" : {
@@ -64,8 +63,7 @@
            "display-set" : "bost-ps.es.net"
         },
         "address" : "bost-ps-lat.es.net",
-        "host" : "bost-ps.es.net",
-        "no-agent" : true
+        "host" : "bost-ps.es.net"
     },
     "wash-ps-tp.es.net" : {
         "_meta" : {
@@ -73,8 +71,7 @@
            "display-set" : "wash-ps.es.net"
         },
         "address" : "wash-ps-tp.es.net",
-        "host" : "wash-ps.es.net",
-        "no-agent" : true
+        "host" : "wash-ps.es.net"
     },
     "wash-ps-lat.es.net" : {
         "_meta" : {
@@ -82,8 +79,7 @@
            "display-set" : "wash-ps.es.net"
         },
         "address" : "wash-ps-lat.es.net",
-        "host" : "wash-ps.es.net",
-        "no-agent" : true
+        "host" : "wash-ps.es.net"
     },
     "eqxsv5-ps-tp.es.net" : {
         "_meta" : {
@@ -91,8 +87,7 @@
            "display-set" : "eqxsv5-ps.es.net"
         },
         "address" : "eqxsv5-ps-tp.es.net",
-        "host" : "eqxsv5-ps.es.net",
-        "no-agent" : true
+        "host" : "eqxsv5-ps.es.net"
     },
     "eqxsv5-ps-lat.es.net" : {
         "_meta" : {
@@ -100,8 +95,7 @@
            "display-set" : "eqxsv5-ps.es.net"
         },
         "address" : "eqxsv5-ps-lat.es.net",
-        "host" : "eqxsv5-ps.es.net",
-        "no-agent" : true
+        "host" : "eqxsv5-ps.es.net"
     },
     "sunn-ps-tp.es.net" : {
         "_meta" : {
@@ -127,8 +121,7 @@
            "display-set" : "lbnl50-ps.es.net"
         },
         "address" : "lbnl50-ps-tp.es.net",
-        "host" : "lbnl50-ps.es.net",
-        "no-agent" : true
+        "host" : "lbnl50-ps.es.net"
     },
     "lbnl50-ps-lat.es.net" : {
         "_meta" : {
@@ -136,8 +129,7 @@
            "display-set" : "lbnl50-ps.es.net"
         },
         "address" : "lbnl50-ps-lat.es.net",
-        "host" : "lbnl50-ps.es.net",
-        "no-agent" : true
+        "host" : "lbnl50-ps.es.net"
     },
     "lbnl59-ps-tp.es.net" : {
         "_meta" : {
@@ -145,8 +137,7 @@
            "display-set" : "lbnl59-ps.es.net"
         },
         "address" : "lbnl59-ps-tp.es.net",
-        "host" : "lbnl59-ps.es.net",
-        "no-agent" : true
+        "host" : "lbnl59-ps.es.net"
     },
     "lbnl59-ps-lat.es.net" : {
         "_meta" : {
@@ -154,8 +145,7 @@
            "display-set" : "lbnl59-ps.es.net"
         },
         "address" : "lbnl59-ps-lat.es.net",
-        "host" : "lbnl59-ps.es.net",
-        "no-agent" : true
+        "host" : "lbnl59-ps.es.net"
     },
     "perfsonar.rc.asu.edu" : {
         "_meta" : {
