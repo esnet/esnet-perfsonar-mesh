@@ -3947,45 +3947,6 @@
          "address" : "srcf-ps.stanford.edu",
          "host" : "srcf-ps.stanford.edu"
       },
-      "srs-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "srs-opt1.es.net"
-         },
-         "address" : "srs-opt1.es.net",
-         "host" : "srs-opt1.es.net"
-      },
-      "srs-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "srs-owamp.es.net",
-            "display-set" : "srs"
-         },
-         "address" : "srs-owamp-v6.es.net",
-         "host" : "srs-opt1.es.net"
-      },
-      "srs-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "srs-owamp.es.net",
-            "display-set" : "srs"
-         },
-         "address" : "srs-owamp.es.net",
-         "host" : "srs-opt1.es.net"
-      },
-      "srs-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "srs-pt1.es.net",
-            "display-set" : "srs"
-         },
-         "address" : "srs-pt1-v6.es.net",
-         "host" : "srs-opt1.es.net"
-      },
-      "srs-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "srs-pt1.es.net",
-            "display-set" : "srs"
-         },
-         "address" : "srs-pt1.es.net",
-         "host" : "srs-opt1.es.net"
-      },
       "star-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "star-owamp.es.net",
@@ -6560,13 +6521,6 @@
             "url" : "http://srcf-ps.stanford.edu/esmond/perfsonar/archive/"
          }
       },
-      "srs-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://srs-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "star-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6774,9 +6728,6 @@
             },
             {
                "name" : "snla-pt1.es.net"
-            },
-            {
-               "name" : "srs-pt1.es.net"
             }
          ],
          "b-addresses" : [
@@ -6813,7 +6764,7 @@
          ],
          "b-addresses" : [
            {
-              "name" : "srs-pt1.es.net"
+              "name" : "lbnl59-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -6843,9 +6794,6 @@
             },
             {
                "name" : "snla-pt1.es.net"
-            },
-            {
-               "name" : "srs-pt1.es.net"
             }
          ],
          "b-addresses" : [
@@ -6883,9 +6831,6 @@
             },
             {
                "name" : "snla-pt1.es.net"
-            },
-            {
-               "name" : "srs-pt1.es.net"
             }
          ],
          "type" : "mesh"
@@ -6993,9 +6938,6 @@
             },
             {
                "name" : "snla-pt1.es.net"
-            },
-            {
-               "name" : "srs-pt1.es.net"
             }
          ],
          "b-addresses" : [
@@ -12055,15 +11997,6 @@
             "srcf-ps.stanford.edu"
          ],
          "no-agent" : true
-      },
-      "srs-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "srs-opt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "srs-pt1.es.net"
-         ]
       },
       "star-pt1.es.net" : {
          "_meta" : {
