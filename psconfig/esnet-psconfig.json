@@ -8553,6 +8553,12 @@
       ],
       "b-addresses" : [
           {
+             "name" : "bois-ps-lat.es.net"
+          },
+          {
+             "name" : "denv-ps-lat.es.net"
+          },
+          {
              "name" : "owamp-scz.pnl.gov"
           }
       ],
@@ -8574,6 +8580,12 @@
          }
      ],
      "b-addresses" : [
+         {
+            "name" : "bois-ps-tp.es.net"
+         },
+         {
+            "name" : "denv-ps-tp.es.net"
+         },
          {
             "name" : "star-pt1.es.net"
          },
