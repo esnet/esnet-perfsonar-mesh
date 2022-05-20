@@ -281,22 +281,6 @@
         "host" : "psmp-gn-owd-01.lon.uk.geant.net",
         "no-agent" : true
      },
-     "bost-dtn.es.net" : {
-        "_meta" : {
-           "display-name" : "bost-dtn.es.net",
-           "display-set" : "bost-dtn.es.net"
-        },
-        "address" : "bost-dtn.es.net",
-        "host" : "bost-dtn.es.net"
-     },
-     "elpa-dtn.es.net" : {
-        "_meta" : {
-           "display-name" : "elpa-dtn.es.net",
-           "display-set" : "elpa-dtn.es.net"
-        },
-        "address" : "elpa-dtn.es.net",
-        "host" : "elpa-dtn.es.net"
-     },
      "perfsonar-hpcrc.princeton.edu" : {
         "_meta" : {
            "display-name" : "perfsonar-hpcrc.princeton.edu",
@@ -8564,6 +8548,15 @@
  }
    },
    "hosts" : {
+     "star-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "star-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "star-ps.es.net"
+        ]
+     },
      "bois-ps.es.net" : {
         "_meta" : {
            "display-name" : "bois-ps.es.net",
@@ -9266,60 +9259,6 @@
             "perfsonar.llnl.gov"
          ],
          "no-agent" : true
-      },
-      "bois-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "bois-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "bois-pt1.es.net"
-         ]
-      },
-      "bost-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "bost-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "bost-pt1.es.net"
-         ]
-      },
-      "bost-pt2.es.net" : {
-         "_meta" : {
-            "display-name" : "bost-pt2.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "bost-pt2.es.net"
-         ]
-      },
-      "elpa-pt2.es.net" : {
-         "_meta" : {
-            "display-name" : "elpa-pt2.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "elpa-pt2.es.net"
-         ]
-      },
-      "bost-dtn.es.net" : {
-         "_meta" : {
-            "display-name" : "bost-dtn.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "bost-dtn.es.net"
-         ]
-      },
-      "elpa-dtn.es.net" : {
-         "_meta" : {
-            "display-name" : "elpa-dtn.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "elpa-dtn.es.net"
-         ]
       },
       "bwctl-10g-ps.singaren.net.sg" : {
          "_meta" : {
