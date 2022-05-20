@@ -13,6 +13,22 @@
       "display-name" : "ESnet"
    },
   "addresses" : {
+    "star-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "star-ps-tp.es.net",
+           "display-set" : "star-ps.es.net"
+        },
+        "address" : "star-ps-tp.es.net",
+        "host" : "star-ps.es.net"
+    },
+    "star-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "star-ps-lat.es.net",
+           "display-set" : "star-ps.es.net"
+        },
+        "address" : "star-ps-lat.es.net",
+        "host" : "star-ps.es.net"
+    },
     "bois-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "bois-ps-tp.es.net",
@@ -28,6 +44,22 @@
         },
         "address" : "bois-ps-lat.es.net",
         "host" : "bois-ps.es.net"
+    },
+    "newy32aoa-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "newy32aoa-ps-tp.es.net",
+           "display-set" : "newy32aoa-ps.es.net"
+        },
+        "address" : "newy32aoa-ps-tp.es.net",
+        "host" : "newy32aoa-ps.es.net"
+    },
+    "newy32aoa-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "newy32aoa-ps-lat.es.net",
+           "display-set" : "newy32aoa-ps.es.net"
+        },
+        "address" : "newy32aoa-ps-lat.es.net",
+        "host" : "newy32aoa-ps.es.net"
     },
     "newy1118th-ps-tp.es.net" : {
         "_meta" : {
@@ -877,117 +909,6 @@
          },
          "address" : "perfsonar.llnl.gov",
          "host" : "perfsonar.llnl.gov"
-      },
-      "bois-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "bois-owamp.es.net",
-            "display-set" : "bois"
-         },
-         "address" : "bois-owamp-v6.es.net",
-         "host" : "bois-pt1.es.net"
-      },
-      "bois-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "bois-owamp.es.net",
-            "display-set" : "bois"
-         },
-         "address" : "bois-owamp.es.net",
-         "host" : "bois-pt1.es.net"
-      },
-      "bois-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "bois-pt1.es.net",
-            "display-set" : "bois"
-         },
-         "address" : "bois-pt1-v6.es.net",
-         "host" : "bois-pt1.es.net"
-      },
-      "bois-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "bois-pt1.es.net",
-            "display-set" : "bois"
-         },
-         "address" : "bois-pt1.es.net",
-         "host" : "bois-pt1.es.net"
-      },
-      "bost-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "bost-owamp.es.net",
-            "display-set" : "bost-pt1.es.net"
-         },
-         "address" : "bost-owamp-v6.es.net",
-         "host" : "bost-pt1.es.net"
-      },
-      "bost-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "bost-owamp.es.net",
-            "display-set" : "bost-pt1.es.net"
-         },
-         "address" : "bost-owamp.es.net",
-         "host" : "bost-pt1.es.net"
-      },
-      "bost-owamp.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "bost-owamp.es.net",
-            "display-set" : "bost_backup"
-         },
-         "address" : "192.168.14.5",
-         "host" : "bost-pt1.es.net"
-      },
-      "bost-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "bost-pt1.es.net",
-            "display-set" : "bost-pt1.es.net"
-         },
-         "address" : "bost-pt1-v6.es.net",
-         "host" : "bost-pt1.es.net"
-      },
-      "bost-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "bost-pt1.es.net",
-            "display-set" : "bost-pt1.es.net"
-         },
-         "address" : "bost-pt1.es.net",
-         "host" : "bost-pt1.es.net"
-      },
-      "bost-pt1.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "bost-pt1.es.net",
-            "display-set" : "bost_backup"
-         },
-         "address" : "192.168.14.1",
-         "host" : "bost-pt1.es.net"
-      },
-      "bost-pt2-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "bost-pt2.es.net",
-            "display-set" : "bost-pt2.es.net"
-         },
-         "address" : "bost-pt2-v6.es.net",
-         "host" : "bost-pt2.es.net"
-      },
-      "bost-pt2.es.net" : {
-         "_meta" : {
-            "display-name" : "bost-pt2.es.net",
-            "display-set" : "bost-pt2.es.net"
-         },
-         "address" : "bost-pt2.es.net",
-         "host" : "bost-pt2.es.net"
-      },
-      "elpa-pt2-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "elpa-pt2.es.net",
-            "display-set" : "elpa-pt2.es.net"
-         },
-         "address" : "elpa-pt2-v6.es.net",
-         "host" : "elpa-pt2.es.net"
-      },
-      "elpa-pt2.es.net" : {
-         "_meta" : {
-            "display-name" : "elpa-pt2.es.net"
-         },
-         "address" : "elpa-pt2.es.net",
-         "host" : "elpa-pt2.es.net"
       },
       "bwctl-10g-ps.singaren.net.sg" : {
          "_meta" : {
@@ -4148,7 +4069,28 @@
       }
    },
    "archives" : {
+     "star-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "bois-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "newy32aoa-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "newy32aoa-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
@@ -4622,48 +4564,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://perfsonar.llnl.gov/esmond/perfsonar/archive/"
-         }
-      },
-      "bois-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://bois-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "bost-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://bost-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "bost-pt2.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://bost-pt2.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "elpa-pt2.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://elpa-pt2.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "bost-dtn.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://bost-dtn.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "elpa-dtn.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://elpa-dtn.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "bwctl-10g-ps.singaren.net.sg" : {
@@ -6666,6 +6566,12 @@
          "name" : "newy1118th-ps-tp.es.net"
       },
       {
+         "name" : "newy32aoa-ps-tp.es.net"
+      },
+      {
+         "name" : "star-ps-tp.es.net"
+      },
+      {
          "name" : "sunn-ps-tp.es.net"
       },
       {
@@ -6696,6 +6602,12 @@
       },
       {
          "name" : "newy1118th-ps-lat.es.net"
+      },
+      {
+         "name" : "newy32aoa-ps-lat.es.net"
+      },
+      {
+         "name" : "star-ps-lat.es.net"
       },
       {
          "name" : "sunn-ps-lat.es.net"
@@ -6733,6 +6645,9 @@
          "b-addresses" : [
             {
                "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "star-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6752,6 +6667,9 @@
          "b-addresses" : [
             {
                "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "star-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6760,6 +6678,9 @@
          "a-addresses" : [
            {
               "name" : "star-pt1.es.net"
+           },
+           {
+              "name" : "star-ps-tp.es.net"
            }
          ],
          "b-addresses" : [
@@ -6799,6 +6720,9 @@
          "b-addresses" : [
            {
               "name" : "star-pt1.es.net"
+           },
+           {
+              "name" : "star-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -6853,6 +6777,9 @@
          "b-addresses" : [
            {
               "name" : "star-pt1.es.net"
+           },
+           {
+              "name" : "star-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -6986,6 +6913,9 @@
          "b-addresses" : [
            {
               "name" : "star-pt1.es.net"
+           },
+           {
+              "name" : "star-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7063,6 +6993,9 @@
          "b-addresses" : [
             {
                "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "star-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7128,6 +7061,9 @@
          "b-addresses" : [
            {
               "name" : "star-pt1.es.net"
+           },
+           {
+              "name" : "star-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7169,6 +7105,9 @@
          "b-addresses" : [
            {
               "name" : "star-pt1.es.net"
+           },
+           {
+              "name" : "star-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7259,6 +7198,9 @@
                "name" : "star-pt1.es.net"
             },
             {
+               "name" : "star-ps-tp.es.net"
+            },
+            {
                "name" : "ga-pt1.es.net"
             }
          ],
@@ -7313,6 +7255,9 @@
             },
             {
                "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "star-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7432,6 +7377,9 @@
          "b-addresses" : [
            {
               "name" : "star-pt1.es.net"
+           },
+           {
+              "name" : "star-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7527,6 +7475,9 @@
          "b-addresses" : [
             {
                "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "star-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7546,6 +7497,9 @@
          "b-addresses" : [
             {
                "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "star-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7562,6 +7516,9 @@
          "b-addresses" : [
            {
               "name" : "star-pt1.es.net"
+           },
+           {
+              "name" : "star-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7589,6 +7546,9 @@
          "a-addresses" : [
             {
                "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "star-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
@@ -7631,6 +7591,9 @@
                "name" : "star-pt1.es.net"
             },
             {
+               "name" : "star-ps-tp.es.net"
+            },
+            {
                "name" : "east-dc-pt1.es.net"
             },
             {
@@ -7643,6 +7606,9 @@
          "addresses" : [
            {
               "name" : "star-pt1.es.net"
+           },
+           {
+              "name" : "star-ps-tp.es.net"
            }
          ],
          "type" : "mesh"
@@ -7948,6 +7914,9 @@
          "b-addresses" : [
             {
                "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "star-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -8092,6 +8061,9 @@
          "a-addresses" : [
             {
                "name" : "star-pt1.es.net"
+            },
+            {
+               "name" : "star-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
@@ -8420,6 +8392,9 @@
              "name" : "star-pt1.es.net"
           },
           {
+             "name" : "star-ps-tp.es.net"
+          },
+          {
              "name" : "198.129.254.9"
           },
           {
@@ -8474,6 +8449,9 @@
         "b-addresses" : [
           {
              "name" : "star-pt1.es.net"
+          },
+          {
+             "name" : "star-ps-tp.es.net"
           }
         ],
         "type" : "disjoint"
@@ -8530,6 +8508,9 @@
          },
          {
             "name" : "star-pt1.es.net"
+         },
+         {
+            "name" : "star-ps-tp.es.net"
          },
          {
             "name" : "owamp-scz.pnl.gov"
@@ -8599,6 +8580,15 @@
         },
         "archives" : [
            "newy1118th-ps.es.net"
+        ]
+     },
+     "newy32aoa-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "newy32aoa-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "newy32aoa-ps.es.net"
         ]
      },
      "denv-ps.es.net" : {
