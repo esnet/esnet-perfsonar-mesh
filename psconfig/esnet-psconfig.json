@@ -147,8 +147,7 @@
            "display-set" : "sunn-ps.es.net"
         },
         "address" : "sunn-ps-tp.es.net",
-        "host" : "sunn-ps.es.net",
-        "no-agent" : true
+        "host" : "sunn-ps.es.net"
     },
     "sunn-ps-lat.es.net" : {
         "_meta" : {
@@ -156,8 +155,7 @@
            "display-set" : "sunn-ps.es.net"
         },
         "address" : "sunn-ps-lat.es.net",
-        "host" : "sunn-ps.es.net",
-        "no-agent" : true
+        "host" : "sunn-ps.es.net"
     },
     "lbnl50-ps-tp.es.net" : {
         "_meta" : {
@@ -197,8 +195,7 @@
            "display-set" : "perfsonar.rc.asu.edu"
         },
         "address" : "perfsonar.rc.asu.edu",
-        "host" : "perfsonar.rc.asu.edu",
-        "no-agent" : true
+        "host" : "perfsonar.rc.asu.edu"
     },
      "grinch.phys.uconn.edu" : {
          "_meta" : {
@@ -206,8 +203,7 @@
             "display-set" : "grinch.phys.uconn.edu"
          },
          "address" : "grinch.phys.uconn.edu",
-         "host" : "grinch.phys.uconn.edu",
-         "no-agent" : true
+         "host" : "grinch.phys.uconn.edu"
      },
      "sciphy-ps.jlab.org" : {
          "_meta" : {
@@ -215,8 +211,7 @@
                  "display-set" : "sciphy-ps.jlab.org"
           },
           "address" : "sciphy-ps.jlab.org",
-          "host" : "sciphy-ps.jlab.org",
-          "no-agent" : true
+          "host" : "sciphy-ps.jlab.org"
     },
      "dmz-ps.jlab.org" : {
          "_meta" : {
@@ -224,8 +219,7 @@
             "display-set" : "dmz-ps.jlab.org"
          },
          "address" : "dmz-ps.jlab.org",
-         "host" : "dmz-ps.jlab.org",
-         "no-agent" : true
+         "host" : "dmz-ps.jlab.org"
      },
      "doenetemla-pt1.es.net" : {
          "_meta" : {
@@ -251,8 +245,7 @@
            "display-set" : "holyperfsonar.rc.fas.harvard.edu"
         },
         "address" : "holyperfsonar.rc.fas.harvard.edu",
-        "host" : "holyperfsonar.rc.fas.harvard.edu",
-        "no-agent" : true
+        "host" : "holyperfsonar.rc.fas.harvard.edu"
      },
      "ps-lt.ampath.ampath.net" : {
         "_meta" : {
@@ -260,8 +253,7 @@
            "display-set" : "ps-lt.ampath.ampath.net"
         },
         "address" : "ps-lt.ampath.ampath.net",
-        "host" : "ps-lt.ampath.ampath.net",
-        "no-agent" : true
+        "host" : "ps-lt.ampath.ampath.net"
      },
      "psmp-gn-bw-01-lon-uk.geant.net" : {
         "_meta" : {
@@ -269,8 +261,7 @@
            "display-set" : "psmp-gn-bw-01-lon-uk.geant.net"
         },
         "address" : "psmp-gn-bw-01-lon-uk.geant.net",
-        "host" : "psmp-gn-bw-01-lon-uk.geant.net",
-        "no-agent" : true
+        "host" : "psmp-gn-bw-01-lon-uk.geant.net"
      },
      "psmp-gn-owd-01.lon.uk.geant.net" : {
         "_meta" : {
@@ -278,8 +269,7 @@
            "display-set" : "psmp-gn-owd-01.lon.uk.geant.net"
         },
         "address" : "psmp-gn-owd-01.lon.uk.geant.net",
-        "host" : "psmp-gn-owd-01.lon.uk.geant.net",
-        "no-agent" : true
+        "host" : "psmp-gn-owd-01.lon.uk.geant.net"
      },
      "perfsonar-hpcrc.princeton.edu" : {
         "_meta" : {
@@ -287,8 +277,7 @@
            "display-set" : "perfsonar-hpcrc.princeton.edu"
         },
         "address" : "perfsonar-hpcrc.princeton.edu",
-        "host" : "perfsonar-hpcrc.princeton.edu",
-        "no-agent" : true
+        "host" : "perfsonar-hpcrc.princeton.edu"
      },
      "perfsonar-ma-2.princeton.edu" : {
         "_meta" : {
@@ -296,8 +285,7 @@
            "display-set" : "perfsonar-ma-2.princeton.edu"
         },
         "address" : "perfsonar-ma-2.princeton.edu",
-        "host" : "perfsonar-ma-2.princeton.edu",
-        "no-agent" : true
+        "host" : "perfsonar-ma-2.princeton.edu"
      },
      "nrel-pt1.nrel.gov" : {
         "_meta" : {
@@ -305,8 +293,7 @@
            "display-set" : "nrel-pt1.nrel.gov"
                  },
         "address" : "nrel-pt1.nrel.gov",
-        "host" : "nrel-pt1.nrel.gov",
-        "no-agent" : true
+        "host" : "nrel-pt1.nrel.gov"
      },
      "nrel-perf01-100g.nrel.gov" : {
         "_meta" : {
@@ -315,17 +302,14 @@
                  },
         "address" : "nrel-perf01-100g.nrel.gov",
         "host" : "nrel-perf01-100g.nrel.gov",
-        "no-agent" : true
      },
      "ps0.nrel.gov" : {
         "_meta" : {
            "display-name" : "ps0.nrel.gov",
            "display-set" : "ps0.nrel.gov"
-
         },
         "address" : "ps0.nrel.gov",
-        "host" : "ps0.nrel.gov",
-        "no-agent" : true
+        "host" : "ps0.nrel.gov"
      },
      "ps2-61.nrel.gov" : {
         "_meta" : {
@@ -333,8 +317,7 @@
            "display-set" : "ps2-61.nrel.gov"
         },
         "address" : "ps2-61.nrel.gov",
-        "host" : "ps2-61.nrel.gov",
-        "no-agent" : true
+        "host" : "ps2-61.nrel.gov"
      },
      "perfsonar1.alaska.edu" : {
          "_meta" : {
@@ -1082,38 +1065,6 @@
          },
          "address" : "cs-perfsonar-2.cs.wisc.edu",
          "host" : "cs-perfsonar-2.cs.wisc.edu"
-      },
-      "denv-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "denv-owamp.es.net",
-            "display-set" : "denv"
-         },
-         "address" : "denv-owamp-v6.es.net",
-         "host" : "denv-pt1.es.net"
-      },
-      "denv-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "denv-owamp.es.net",
-            "display-set" : "denv"
-         },
-         "address" : "denv-owamp.es.net",
-         "host" : "denv-pt1.es.net"
-      },
-      "denv-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "denv-pt1.es.net",
-            "display-set" : "denv"
-         },
-         "address" : "denv-pt1-v6.es.net",
-         "host" : "denv-pt1.es.net"
-      },
-      "denv-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "denv-pt1.es.net",
-            "display-set" : "denv"
-         },
-         "address" : "denv-pt1.es.net",
-         "host" : "denv-pt1.es.net"
       },
       "doe-gtn-opt1.es.net" : {
          "_meta" : {
@@ -4646,13 +4597,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://cs-perfsonar-2.cs.wisc.edu/esmond/perfsonar/archive/"
-         }
-      },
-      "denv-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://denv-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "doe-gtn-pt1.es.net" : {
@@ -9398,15 +9342,6 @@
             "cs-perfsonar-2.cs.wisc.edu"
          ],
          "no-agent" : true
-      },
-      "denv-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "denv-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "denv-pt1.es.net"
-         ]
       },
       "doe-gtn-opt1.es.net" : {
          "_meta" : {
