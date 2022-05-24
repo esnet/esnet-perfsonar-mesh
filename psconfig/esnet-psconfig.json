@@ -227,8 +227,7 @@
             "display-set" : "doenetemla-pt1.es.net"
          },
          "address" : "doenetemla-pt1.es.net",
-         "host" : "doenetemla-pt1.es.net",
-         "no-agent" : true
+         "host" : "doenetemla-pt1.es.net"
      },
      "rc-dc-perfsonar.rc.sc.edu" : {
         "_meta" : {
@@ -236,8 +235,7 @@
            "display-set" : "rc-dc-perfsonar.rc.sc.edu"
         },
         "address" : "rc-dc-perfsonar.rc.sc.edu",
-        "host" : "rc-dc-perfsonar.rc.sc.edu",
-        "no-agent" : true
+        "host" : "rc-dc-perfsonar.rc.sc.edu"
      },
      "holyperfsonar.rc.fas.harvard.edu" : {
         "_meta" : {
@@ -301,7 +299,7 @@
            "display-set" : "nrel-perf01-100g.nrel.gov"
                  },
         "address" : "nrel-perf01-100g.nrel.gov",
-        "host" : "nrel-perf01-100g.nrel.gov",
+        "host" : "nrel-perf01-100g.nrel.gov"
      },
      "ps0.nrel.gov" : {
         "_meta" : {
