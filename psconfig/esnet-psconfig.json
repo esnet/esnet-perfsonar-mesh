@@ -8405,6 +8405,15 @@
  }
    },
    "hosts" : {
+     "elpa-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "elpa-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "elpa-ps.es.net"
+        ]
+     },
      "sand-ps.es.net" : {
         "_meta" : {
            "display-name" : "sand-ps.es.net",
