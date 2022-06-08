@@ -6567,7 +6567,7 @@
             },
             {
                "name" : "sunn-ps-tp.es.net"
-            }
+            },
             {
                "name" : "wash-ps-tp.es.net"
             }
@@ -6589,6 +6589,12 @@
          "b-addresses" : [
             {
                "name" : "star-ps-tp.es.net"
+            },
+            {
+               "name" : "sunn-ps-tp.es.net"
+            },
+            {
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6644,7 +6650,7 @@
            },
            {
               "name" : "sunn-ps-tp.es.net"
-           }
+           },
            {
               "name" : "wash-ps-tp.es.net"
            }
@@ -6681,7 +6687,7 @@
            },
            {
               "name" : "sunn-ps-tp.es.net"
-           }
+           },
            {
               "name" : "wash-ps-tp.es.net"
            }
@@ -6814,6 +6820,12 @@
          "b-addresses" : [
             {
                "name" : "star-ps-lat.es.net"
+            },
+            {
+               "name" : "sunn-ps-lat.es.net"
+            },
+            {
+               "name" : "wash-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6983,7 +6995,7 @@
             },
             {
                "name" : "sunn-ps-lat.es.net"
-            }
+            },
             {
                "name" : "wash-ps-lat.es.net"
             }
@@ -7066,6 +7078,12 @@
          "b-addresses" : [
             {
                "name" : "star-ps-lat.es.net"
+            },
+            {
+               "name" : "sunn-ps-lat.es.net"
+            },
+            {
+               "name" : "wash-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7098,6 +7116,12 @@
          "b-addresses" : [
             {
                "name" : "star-ps-lat.es.net"
+            },
+            {
+               "name" : "sunn-ps-lat.es.net"
+            },
+            {
+               "name" : "wash-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7126,7 +7150,7 @@
            },
            {
               "name" : "sunn-ps-tp.es.net"
-           }
+           },
            {
               "name" : "wash-ps-tp.es.net"
            }
@@ -7157,7 +7181,7 @@
             },
             {
                "name" : "sunn-ps-lat.es.net"
-            }
+            },
             {
                "name" : "wash-ps-lat.es.net"
             }
@@ -7282,7 +7306,7 @@
             },
             {
                "name" : "sunn-ps-tp.es.net"
-            }
+            },
             {
                "name" : "wash-ps-tp.es.net"
             }
@@ -7322,7 +7346,7 @@
             },
             {
                "name" : "sunn-ps-lat.es.net"
-            }
+            },
             {
                "name" : "wash-ps-lat.es.net"
             }
@@ -7555,7 +7579,7 @@
            },
            {
               "name" : "sunn-ps-tp.es.net"
-           }
+           },
            {
               "name" : "wash-ps-tp.es.net"
            }
@@ -7580,7 +7604,7 @@
             },
             {
                "name" : "sunn-ps-lat.es.net"
-            }
+            },
             {
                "name" : "wash-ps-lat.es.net"
             }
