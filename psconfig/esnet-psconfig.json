@@ -45,6 +45,22 @@
         "address" : "anl221-ps-lat.es.net",
         "host" : "anl221-ps.es.net"
     },
+    "atla-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "atla-ps-tp.es.net",
+           "display-set" : "atla-ps.es.net"
+        },
+        "address" : "atla-ps-tp.es.net",
+        "host" : "atla-ps.es.net"
+    },
+    "atla-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "atla-ps-lat.es.net",
+           "display-set" : "atla-ps.es.net"
+        },
+        "address" : "atla-ps-lat.es.net",
+        "host" : "atla-ps.es.net"
+    },
     "bois-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "bois-ps-tp.es.net",
@@ -801,38 +817,6 @@
          "address" : "ah-bonsai-perfsonar.bonsai.uoregon.edu",
          "host" : "ah-bonsai-perfsonar.bonsai.uoregon.edu"
       },
-      "albq-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "albq-owamp.es.net",
-            "display-set" : "albq"
-         },
-         "address" : "albq-owamp-v6.es.net",
-         "host" : "albq-pt1.es.net"
-      },
-      "albq-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "albq-owamp.es.net",
-            "display-set" : "albq"
-         },
-         "address" : "albq-owamp.es.net",
-         "host" : "albq-pt1.es.net"
-      },
-      "albq-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "albq-pt1.es.net",
-            "display-set" : "albq"
-         },
-         "address" : "albq-pt1-v6.es.net",
-         "host" : "albq-pt1.es.net"
-      },
-      "albq-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "albq-pt1.es.net",
-            "display-set" : "albq"
-         },
-         "address" : "albq-pt1.es.net",
-         "host" : "albq-pt1.es.net"
-      },
       "ameslab-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "ameslab-owamp.es.net",
@@ -1036,38 +1020,6 @@
          },
          "address" : "192.168.14.45",
          "host" : "aofa-pt1.es.net"
-      },
-      "atla-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "atla-owamp-v6.es.net",
-            "display-set" : "atla"
-         },
-         "address" : "atla-owamp-v6.es.net",
-         "host" : "atla-pt1.es.net"
-      },
-      "atla-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "atla-owamp.es.net",
-            "display-set" : "atla"
-         },
-         "address" : "atla-owamp.es.net",
-         "host" : "atla-pt1.es.net"
-      },
-      "atla-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "atla-pt1-v6.es.net",
-            "display-set" : "atla"
-         },
-         "address" : "atla-pt1-v6.es.net",
-         "host" : "atla-pt1.es.net"
-      },
-      "atla-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "atla-pt1.es.net",
-            "display-set" : "atla"
-         },
-         "address" : "atla-pt1.es.net",
-         "host" : "atla-pt1.es.net"
       },
       "bcdc-gw-40g-ps.gatech.edu" : {
          "_meta" : {
@@ -1664,54 +1616,6 @@
          },
          "address" : "ga-eastdtn-ps.gat.com",
          "host" : "ga-eastdtn-ps.gat.com"
-      },
-      "ga-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "ga-owamp.es.net",
-            "display-set" : "ga"
-         },
-         "address" : "ga-owamp-v6.es.net",
-         "host" : "ga-pt1.es.net"
-      },
-      "ga-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "ga-owamp.es.net",
-            "display-set" : "ga"
-         },
-         "address" : "ga-owamp.es.net",
-         "host" : "ga-pt1.es.net"
-      },
-      "ga-owamp.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "ga-owamp.es.net",
-            "display-set" : "ga_backup"
-         },
-         "address" : "192.168.14.38",
-         "host" : "ga-pt1.es.net"
-      },
-      "ga-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "ga-pt1.es.net",
-            "display-set" : "ga"
-         },
-         "address" : "ga-pt1-v6.es.net",
-         "host" : "ga-pt1.es.net"
-      },
-      "ga-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "ga-pt1.es.net",
-            "display-set" : "ga"
-         },
-         "address" : "ga-pt1.es.net",
-         "host" : "ga-pt1.es.net"
-      },
-      "ga-pt1.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "ga-pt1.es.net",
-            "display-set" : "ga_backup"
-         },
-         "address" : "192.168.14.34",
-         "host" : "ga-pt1.es.net"
       },
       "hcc-ps01.unl.edu" : {
          "_meta" : {
@@ -4096,6 +4000,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "atla-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "elpa-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -4642,20 +4553,6 @@
             "url" : "http://anlborder-ps.it.anl.gov/esmond/perfsonar/archive/"
          }
       },
-      "aofa-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://aofa-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "atla-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://atla-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "bcdc-gw-40g-ps.gatech.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -4906,13 +4803,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://ga-eastdtn-ps.gat.com/esmond/perfsonar/archive/"
-         }
-      },
-      "ga-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ga-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "hcc-ps01.unl.edu" : {
@@ -8451,9 +8341,6 @@
                 "local-address": { "name": "bost-pt1.es.net__backup" },
                 "target-addresses": [
                     {
-                       "name" : "ga-pt1.es.net__backup"
-                    },
-                    {
                        "name" : "lond-pt1.es.net__backup"
                     },
                     {
@@ -8470,9 +8357,6 @@
              {
                 "local-address": { "name": "newy-pt1.es.net__backup" },
                 "target-addresses": [
-                    {
-                       "name" : "ga-pt1.es.net__backup"
-                    },
                     {
                        "name" : "amst-pt1.es.net__backup"
                     },
@@ -8491,9 +8375,6 @@
                 "local-address": { "name": "wash-ps-tp.es.net__backup" },
                 "target-addresses": [
                     {
-                       "name" : "ga-pt1.es.net__backup"
-                    },
-                    {
                        "name" : "amst-pt1.es.net__backup"
                     },
                     {
@@ -8511,9 +8392,6 @@
                 "local-address": { "name": "aofa-pt1.es.net__neaar" },
                 "target-addresses": [
                     {
-                       "name" : "ga-pt1.es.net__backup"
-                    },
-                    {
                        "name" : "amst-pt1.es.net__backup"
                     },
                     {
@@ -8530,9 +8408,6 @@
              {
                 "local-address": { "name": "aofa-pt1.es.net__aqua" },
                 "target-addresses": [
-                    {
-                       "name" : "ga-pt1.es.net__backup"
-                    },
                     {
                        "name" : "amst-pt1.es.net__backup"
                     },
@@ -8941,6 +8816,15 @@
         },
         "archives" : [
            "anl221-ps.es.net"
+        ]
+     },
+     "atla-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "atla-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "atla-ps.es.net"
         ]
      },
      "elpa-ps.es.net" : {
@@ -10077,15 +9961,6 @@
             "ga-eastdtn-ps.gat.com"
          ],
          "no-agent" : true
-      },
-      "ga-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "ga-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "ga-pt1.es.net"
-         ]
       },
       "hcc-ps01.unl.edu" : {
          "_meta" : {
