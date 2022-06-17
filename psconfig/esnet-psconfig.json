@@ -6621,7 +6621,7 @@
      "ESnet6_TP_HUB" : {
         "addresses" : [
       {
-         "name" : "alqb-ps-tp.es.net"
+         "name" : "albq-ps-tp.es.net"
       },
       {
          "name" : "anl221-ps-tp.es.net"
@@ -6698,7 +6698,7 @@
      "ESnet6_LAT_HUB" : {
         "addresses" : [
       {
-         "name" : "alqb-ps-lat.es.net"
+         "name" : "albq-ps-lat.es.net"
       },
       {
          "name" : "anl221-ps-lat.es.net"
