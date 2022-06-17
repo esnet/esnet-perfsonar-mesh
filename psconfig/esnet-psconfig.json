@@ -6795,7 +6795,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "star-ps-tp.es.net"
+               "name" : "chic-ps-tp.es.net"
             },
             {
                "name" : "sunn-ps-tp.es.net"
@@ -6819,8 +6819,11 @@
             }
          ],
          "b-addresses" : [
+           {
+              "name" : "atla-ps-tp.es.net"
+           },
             {
-               "name" : "star-ps-tp.es.net"
+               "name" : "chic-ps-tp.es.net"
             },
             {
                "name" : "sunn-ps-tp.es.net"
@@ -6878,7 +6881,10 @@
          ],
          "b-addresses" : [
            {
-              "name" : "star-ps-tp.es.net"
+              "name" : "atla-ps-tp.es.net"
+           },
+           {
+              "name" : "chic-ps-tp.es.net"
            },
            {
               "name" : "sunn-ps-tp.es.net"
@@ -6915,7 +6921,10 @@
          ],
          "b-addresses" : [
            {
-              "name" : "star-ps-tp.es.net"
+              "name" : "atla-ps-tp.es.net"
+           },
+           {
+              "name" : "chic-ps-tp.es.net"
            },
            {
               "name" : "sunn-ps-tp.es.net"
@@ -7017,16 +7026,19 @@
          ],
          "b-addresses" : [
            {
+              "name" : "atla-ps-lat.es.net"
+           },
+           {
               "name" : "bost-ps-lat.es.net"
+           },
+           {
+              "name" : "chic-ps-tp.es.net"
            },
            {
               "name" : "newy1118th-ps-lat.es.net"
            },
            {
               "name" : "newy32aoa-ps-lat.es.net"
-           },
-           {
-              "name" : "star-ps-tp.es.net"
            },
            {
               "name" : "wash-ps-lat.es.net"
@@ -7050,8 +7062,11 @@
             }
          ],
          "b-addresses" : [
+           {
+              "name" : "atla-ps-lat.es.net"
+           },
             {
-               "name" : "star-ps-lat.es.net"
+               "name" : "chic-ps-lat.es.net"
             },
             {
                "name" : "sunn-ps-lat.es.net"
@@ -7122,10 +7137,13 @@
          ],
          "b-addresses" : [
            {
+              "name" : "atla-ps-lat.es.net"
+           },
+           {
               "name" : "lbnl59-ps-lat.es.net"
            },
             {
-               "name" : "star-ps-lat.es.net"
+               "name" : "chic-ps-lat.es.net"
             },
             {
                "name" : "wash-ps-lat.es.net"
@@ -7171,7 +7189,10 @@
          ],
          "b-addresses" : [
            {
-              "name" : "star-ps-tp.es.net"
+              "name" : "atla-ps-tp.es.net"
+           },
+           {
+              "name" : "chic-ps-tp.es.net"
            },
            {
               "name" : "sunn-ps-tp.es.net"
@@ -7222,8 +7243,11 @@
             }
          ],
          "b-addresses" : [
+           {
+              "name" : "atla-ps-lat.es.net"
+           },
             {
-               "name" : "star-ps-lat.es.net"
+               "name" : "chic-ps-lat.es.net"
             },
             {
                "name" : "sunn-ps-lat.es.net"
@@ -7260,7 +7284,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "star-ps-tp.es.net"
+               "name" : "chic-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7309,7 +7333,10 @@
          ],
          "b-addresses" : [
             {
-               "name" : "star-ps-lat.es.net"
+               "name" : "atla-ps-lat.es.net"
+            },
+            {
+               "name" : "chic-ps-lat.es.net"
             },
             {
                "name" : "sunn-ps-lat.es.net"
@@ -7331,7 +7358,7 @@
          ],
          "b-addresses" : [
            {
-              "name" : "star-ps-tp.es.net"
+              "name" : "chic-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7346,9 +7373,12 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "star-ps-lat.es.net"
-            },
+           {
+              "name" : "atla-ps-lat.es.net"
+           },
+           {
+              "name" : "chic-ps-lat.es.net"
+           },
             {
                "name" : "sunn-ps-lat.es.net"
             },
@@ -7378,7 +7408,10 @@
          ],
          "b-addresses" : [
            {
-              "name" : "star-ps-tp.es.net"
+              "name" : "atla-ps-tp.es.net"
+           },
+           {
+              "name" : "chic-ps-tp.es.net"
            },
            {
               "name" : "sunn-ps-tp.es.net"
@@ -7408,9 +7441,12 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "star-ps-lat.es.net"
-            },
+           {
+              "name" : "atla-ps-lat.es.net"
+           },
+           {
+              "name" : "chic-ps-lat.es.net"
+           },
             {
                "name" : "sunn-ps-lat.es.net"
             },
@@ -7477,11 +7513,14 @@
             }
          ],
          "b-addresses" : [
+           {
+              "name" : "atla-ps-tp.es.net"
+           },
             {
-               "name" : "star-ps-tp.es.net"
+               "name" : "chic-ps-tp.es.net"
             },
             {
-               "name" : "ga-pt1.es.net"
+               "name" : "ga-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7499,9 +7538,12 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "star-ps-lat.es.net"
-            },
+           {
+              "name" : "atla-ps-lat.es.net"
+           },
+           {
+              "name" : "chic-ps-lat.es.net"
+           },
             {
                "name" : "pppl-owamp.es.net"
             }
@@ -7534,7 +7576,7 @@
                "name" : "lond-pt1.es.net"
             },
             {
-               "name" : "star-ps-tp.es.net"
+               "name" : "chic-ps-tp.es.net"
             },
             {
                "name" : "sunn-ps-tp.es.net"
@@ -7574,7 +7616,10 @@
                "name" : "lond-owamp.es.net"
             },
             {
-               "name" : "star-ps-lat.es.net"
+               "name" : "atla-ps-lat.es.net"
+            },
+            {
+               "name" : "chic-ps-lat.es.net"
             },
             {
                "name" : "sunn-ps-lat.es.net"
@@ -7665,7 +7710,7 @@
          ],
          "b-addresses" : [
            {
-              "name" : "star-ps-tp.es.net"
+              "name" : "chic-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -7743,9 +7788,12 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "star-ps-lat.es.net"
-            }
+           {
+              "name" : "atla-ps-lat.es.net"
+           },
+           {
+              "name" : "chic-ps-lat.es.net"
+           }
          ],
          "type" : "disjoint"
       },
@@ -7759,8 +7807,11 @@
             }
          ],
          "b-addresses" : [
+           {
+              "name" : "atla-ps-tp.es.net"
+           },
             {
-               "name" : "star-ps-tp.es.net"
+               "name" : "chic-ps-tp.es.net"
             },
             {
                "name" : "sunn-ps-tp.es.net"
@@ -7784,8 +7835,11 @@
             }
          ],
          "b-addresses" : [
+           {
+              "name" : "atla-ps-tp.es.net"
+           },
             {
-               "name" : "star-ps-tp.es.net"
+               "name" : "chic-ps-tp.es.net"
             },
             {
                "name" : "sunn-ps-tp.es.net"
@@ -7807,7 +7861,10 @@
          ],
          "b-addresses" : [
            {
-              "name" : "star-ps-tp.es.net"
+              "name" : "atla-ps-tp.es.net"
+           },
+           {
+              "name" : "chic-ps-tp.es.net"
            },
            {
               "name" : "sunn-ps-tp.es.net"
@@ -7831,9 +7888,12 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "star-ps-lat.es.net"
-            },
+           {
+              "name" : "atla-ps-lat.es.net"
+           },
+           {
+              "name" : "chic-ps-lat.es.net"
+           },
             {
                "name" : "sunn-ps-lat.es.net"
             },
@@ -7846,7 +7906,7 @@
       "group_30" : {
          "a-addresses" : [
             {
-               "name" : "star-ps-tp.es.net"
+               "name" : "chic-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
@@ -7885,8 +7945,11 @@
       },
       "group_31" : {
          "addresses" : [
+           {
+              "name" : "atla-ps-tp.es.net"
+           },
             {
-               "name" : "star-ps-tp.es.net"
+               "name" : "chic-ps-tp.es.net"
             },
             {
                "name" : "east-dc-pt1.es.net"
@@ -7900,7 +7963,7 @@
       "group_32" : {
          "addresses" : [
            {
-              "name" : "star-ps-tp.es.net"
+              "name" : "chic-ps-tp.es.net"
            }
          ],
          "type" : "mesh"
@@ -8066,7 +8129,10 @@
                "name" : "lond-owamp.es.net"
             },
             {
-               "name" : "star-ps-lat.es.net"
+               "name" : "atla-ps-lat.es.net"
+            },
+            {
+               "name" : "chic-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -8205,7 +8271,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "star-ps-tp.es.net"
+               "name" : "chic-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -8340,16 +8406,19 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "star-ps-lat.es.net"
-            }
+           {
+              "name" : "atla-ps-lat.es.net"
+           },
+           {
+              "name" : "chic-ps-lat.es.net"
+           }
          ],
          "type" : "disjoint"
       },
       "group_39" : {
          "a-addresses" : [
             {
-               "name" : "star-ps-tp.es.net"
+               "name" : "chic-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
@@ -8483,9 +8552,12 @@
       },
       "group_40" : {
          "a-addresses" : [
-            {
-               "name" : "star-ps-lat.es.net"
-            }
+           {
+              "name" : "atla-ps-lat.es.net"
+           },
+           {
+              "name" : "chic-ps-lat.es.net"
+           }
          ],
          "b-addresses" : [
             {
@@ -8627,9 +8699,12 @@
            }
         ],
         "b-addresses" : [
-            {
-               "name" : "star-ps-lat.es.net"
-            }
+          {
+             "name" : "atla-ps-lat.es.net"
+          },
+          {
+             "name" : "chic-ps-lat.es.net"
+          }
         ],
         "type" : "disjoint"
     },
@@ -8642,7 +8717,10 @@
              "name" : "198.129.252.138"
           },
           {
-             "name" : "star-ps-lat.es.net"
+             "name" : "atla-ps-lat.es.net"
+          },
+          {
+             "name" : "chic-ps-lat.es.net"
           }
        ],
        "b-addresses" : [
@@ -8653,7 +8731,10 @@
              "name" : "198.129.252.138"
           },
           {
-             "name" : "star-ps-lat.es.net"
+             "name" : "atla-ps-lat.es.net"
+          },
+          {
+             "name" : "chic-ps-lat.es.net"
           }
        ],
        "type" : "disjoint"
@@ -8675,7 +8756,7 @@
              "name" : "doe-gtn-pt1.es.net"
           },
           {
-             "name" : "star-ps-tp.es.net"
+             "name" : "chic-ps-tp.es.net"
           },
           {
              "name" : "198.129.254.9"
@@ -8705,9 +8786,12 @@
            }
        ],
        "b-addresses" : [
-           {
-              "name" : "star-ps-lat.es.net"
-           }
+         {
+            "name" : "atla-ps-lat.es.net"
+         },
+         {
+            "name" : "chic-ps-lat.es.net"
+         }
        ],
        "type" : "disjoint"
      },
@@ -8731,7 +8815,7 @@
         ],
         "b-addresses" : [
           {
-             "name" : "star-ps-tp.es.net"
+             "name" : "chic-ps-tp.es.net"
           }
         ],
         "type" : "disjoint"
@@ -8787,7 +8871,7 @@
             "name" : "denv-ps-tp.es.net"
          },
          {
-            "name" : "star-ps-tp.es.net"
+            "name" : "chic-ps-tp.es.net"
          },
          {
             "name" : "owamp-scz.pnl.gov"
