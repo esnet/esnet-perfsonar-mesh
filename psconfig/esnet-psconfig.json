@@ -957,70 +957,6 @@
          "address" : "antg-staging.es.net",
          "host" : "antg-staging.es.net"
       },
-      "aofa-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "aofa-owamp.es.net",
-            "display-set" : "aofa"
-         },
-         "address" : "aofa-owamp-v6.es.net",
-         "host" : "aofa-pt1.es.net"
-      },
-      "aofa-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "aofa-owamp.es.net",
-            "display-set" : "aofa"
-         },
-         "address" : "aofa-owamp.es.net",
-         "host" : "aofa-pt1.es.net"
-      },
-      "aofa-owamp.es.net__aqua" : {
-         "_meta" : {
-            "display-name" : "aofa-owamp.es.net (Aqua Comms)",
-            "display-set" : "aofa_aqua"
-         },
-         "address" : "192.168.14.49",
-         "host" : "aofa-pt1.es.net"
-      },
-      "aofa-owamp.es.net__neaar" : {
-         "_meta" : {
-            "display-name" : "aofa-owamp.es.net (NEAAR)",
-            "display-set" : "aofa_neaar"
-         },
-         "address" : "192.168.14.41",
-         "host" : "aofa-pt1.es.net"
-      },
-      "aofa-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "aofa-pt1.es.net",
-            "display-set" : "aofa"
-         },
-         "address" : "aofa-pt1-v6.es.net",
-         "host" : "aofa-pt1.es.net"
-      },
-      "aofa-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "aofa-pt1.es.net",
-            "display-set" : "aofa"
-         },
-         "address" : "aofa-pt1.es.net",
-         "host" : "aofa-pt1.es.net"
-      },
-      "aofa-pt1.es.net__aqua" : {
-         "_meta" : {
-            "display-name" : "aofa-pt1.es.net (Aqua Comms)",
-            "display-set" : "aofa_aqua"
-         },
-         "address" : "192.168.14.53",
-         "host" : "aofa-pt1.es.net"
-      },
-      "aofa-pt1.es.net__neaar" : {
-         "_meta" : {
-            "display-name" : "aofa-pt1.es.net (NEAAR)",
-            "display-set" : "aofa_neaar"
-         },
-         "address" : "192.168.14.45",
-         "host" : "aofa-pt1.es.net"
-      },
       "bcdc-gw-40g-ps.gatech.edu" : {
          "_meta" : {
             "display-name" : "bcdc-gw-40g-ps.gatech.edu"
@@ -9598,24 +9534,6 @@
          },
          "archives" : [
             "lbnl59-ps-tp.es.net"
-         ]
-      },
-      "aofa-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "aofa-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "aofa-pt1.es.net"
-         ]
-      },
-      "atla-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "atla-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "atla-pt1.es.net"
          ]
       },
       "bcdc-gw-40g-ps.gatech.edu" : {
