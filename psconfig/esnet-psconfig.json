@@ -7732,7 +7732,10 @@
       "group_30" : {
          "a-addresses" : [
             {
-               "name" : "chic-ps-tp.es.net"
+               "name" : "star-ps-tp.es.net"
+            },
+            {
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
