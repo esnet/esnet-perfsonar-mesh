@@ -13,6 +13,38 @@
       "display-name" : "ESnet"
    },
   "addresses" : {
+   "albq-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "albq-ps-tp.es.net",
+           "display-set" : "albq-ps.es.net"
+        },
+        "address" : "albq-ps-tp.es.net",
+        "host" : "albq-ps.es.net"
+    },
+    "albq-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "albq-ps-lat.es.net",
+           "display-set" : "albq-ps.es.net"
+        },
+        "address" : "albq-ps-lat.es.net",
+        "host" : "albq-ps.es.net"
+    },
+    "anl221-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "anl221-ps-tp.es.net",
+           "display-set" : "anl221-ps.es.net"
+        },
+        "address" : "anl221-ps-tp.es.net",
+        "host" : "anl221-ps.es.net"
+    },
+    "anl221-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "anl221-ps-lat.es.net",
+           "display-set" : "anl221-ps.es.net"
+        },
+        "address" : "anl221-ps-lat.es.net",
+        "host" : "anl221-ps.es.net"
+    },
     "bois-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "bois-ps-tp.es.net",
@@ -109,6 +141,22 @@
         "address" : "eqxch2-ps-lat.es.net",
         "host" : "eqxch2-ps.es.net"
     },
+   "eqxdc4-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "eqxdc4-ps-tp.es.net",
+           "display-set" : "eqxdc4-ps.es.net"
+        },
+        "address" : "eqxdc4-ps-tp.es.net",
+        "host" : "eqxdc4-ps.es.net"
+    },
+    "eqxdc4-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "eqxdc4-ps-lat.es.net",
+           "display-set" : "eqxdc4-ps.es.net"
+        },
+        "address" : "eqxdc4-ps-lat.es.net",
+        "host" : "eqxdc4-ps.es.net"
+    },
     "eqxsv5-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "eqxsv5-ps-tp.es.net",
@@ -124,6 +172,22 @@
         },
         "address" : "eqxsv5-ps-lat.es.net",
         "host" : "eqxsv5-ps.es.net"
+    },
+    "ga-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "ga-ps-tp.es.net",
+           "display-set" : "ga-ps.es.net"
+        },
+        "address" : "ga-ps-tp.es.net",
+        "host" : "ga-ps.es.net"
+    },
+    "ga-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "ga-ps-lat.es.net",
+           "display-set" : "ga-ps.es.net"
+        },
+        "address" : "ga-ps-lat.es.net",
+        "host" : "ga-ps.es.net"
     },
     "kans-ps-tp.es.net" : {
         "_meta" : {
@@ -165,6 +229,54 @@
         "address" : "lbnl59-ps-lat.es.net",
         "host" : "lbnl59-ps.es.net"
     },
+    "llnl-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "llnl-ps-tp.es.net",
+           "display-set" : "llnl-ps.es.net"
+        },
+        "address" : "llnl-ps-tp.es.net",
+        "host" : "llnl-ps.es.net"
+    },
+    "llnl-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "llnl-ps-lat.es.net",
+           "display-set" : "llnl-ps.es.net"
+        },
+        "address" : "llnl-ps-lat.es.net",
+        "host" : "llnl-ps.es.net"
+    },
+    "losa-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "losa-ps-tp.es.net",
+           "display-set" : "losa-ps.es.net"
+        },
+        "address" : "losa-ps-tp.es.net",
+        "host" : "losa-ps.es.net"
+    },
+    "losa-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "losa-ps-lat.es.net",
+           "display-set" : "losa-ps.es.net"
+        },
+        "address" : "losa-ps-lat.es.net",
+        "host" : "losa-ps.es.net"
+    },
+   "nash-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "nash-ps-tp.es.net",
+           "display-set" : "nash-ps.es.net"
+        },
+        "address" : "nash-ps-tp.es.net",
+        "host" : "nash-ps.es.net"
+    },
+    "nash-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "nash-ps-lat.es.net",
+           "display-set" : "nash-ps.es.net"
+        },
+        "address" : "nash-ps-lat.es.net",
+        "host" : "nash-ps.es.net"
+    },
     "newy32aoa-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "newy32aoa-ps-tp.es.net",
@@ -196,6 +308,22 @@
         },
         "address" : "newy1118th-ps-lat.es.net",
         "host" : "newy1118th-ps.es.net"
+    },
+   "salt-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "salt-ps-tp.es.net",
+           "display-set" : "salt-ps.es.net"
+        },
+        "address" : "salt-ps-tp.es.net",
+        "host" : "salt-ps.es.net"
+    },
+    "salt-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "salt-ps-lat.es.net",
+           "display-set" : "salt-ps.es.net"
+        },
+        "address" : "salt-ps-lat.es.net",
+        "host" : "salt-ps.es.net"
     },
     "sand-ps-tp.es.net" : {
         "_meta" : {
@@ -3954,6 +4082,20 @@
       }
    },
    "archives" : {
+     "albq-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "anl221-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "elpa-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -3961,7 +4103,21 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "ga-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "kans-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+    "salt-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
@@ -3983,6 +4139,13 @@
          }
      },
      "bois-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "losa-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
@@ -4045,6 +4208,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "eqxdc4-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "eqxsv5-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -4067,6 +4237,20 @@
          }
      },
      "lbnl59-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "llnl-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "nash-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
@@ -6437,6 +6621,12 @@
      "ESnet6_TP_HUB" : {
         "addresses" : [
       {
+         "name" : "alqb-ps-tp.es.net"
+      },
+      {
+         "name" : "anl221-ps-tp.es.net"
+      },
+      {
          "name" : "bois-ps-tp.es.net"
       },
       {
@@ -6455,7 +6645,13 @@
          "name" : "eqxch2-ps-tp.es.net"
       },
       {
+         "name" : "eqxdc4-ps-tp.es.net"
+      },
+      {
          "name" : "eqxsv5-ps-tp.es.net"
+      },
+      {
+         "name" : "ga-ps-tp.es.net"
       },
       {
          "name" : "kans-ps-tp.es.net"
@@ -6467,10 +6663,22 @@
          "name" : "lbnl59-ps-tp.es.net"
       },
       {
+         "name" : "llnl-ps-tp.es.net"
+      },
+      {
+         "name" : "losa-ps-tp.es.net"
+      },
+      {
          "name" : "newy1118th-ps-tp.es.net"
       },
       {
          "name" : "newy32aoa-ps-tp.es.net"
+      },
+      {
+         "name" : "nash-ps-tp.es.net"
+      },
+      {
+         "name" : "salt-ps-tp.es.net"
       },
       {
          "name" : "sand-ps-tp.es.net"
@@ -6490,6 +6698,12 @@
      "ESnet6_LAT_HUB" : {
         "addresses" : [
       {
+         "name" : "alqb-ps-lat.es.net"
+      },
+      {
+         "name" : "anl221-ps-lat.es.net"
+      },
+      {
          "name" : "bois-ps-lat.es.net"
       },
       {
@@ -6508,7 +6722,13 @@
          "name" : "eqxch2-ps-lat.es.net"
       },
       {
+         "name" : "eqxdc4-ps-tp.es.net"
+      },
+      {
          "name" : "eqxsv5-ps-lat.es.net"
+      },
+      {
+         "name" : "ga-ps-tp.es.net"
       },
       {
          "name" : "kans-ps-lat.es.net"
@@ -6520,10 +6740,22 @@
          "name" : "lbnl59-ps-lat.es.net"
       },
       {
+         "name" : "llnl-ps-lat.es.net"
+      },
+      {
+         "name" : "losa-ps-tp.es.net"
+      },
+      {
          "name" : "newy1118th-ps-lat.es.net"
       },
       {
          "name" : "newy32aoa-ps-lat.es.net"
+      },
+      {
+         "name" : "nash-ps-tp.es.net"
+      },
+      {
+         "name" : "salt-ps-lat.es.net"
       },
       {
          "name" : "sand-ps-lat.es.net"
@@ -8609,6 +8841,24 @@
  }
    },
    "hosts" : {
+     "albq-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "albq-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "albq-ps.es.net"
+        ]
+     },
+     "anl221-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "anl221-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "anl221-ps.es.net"
+        ]
+     },
      "elpa-ps.es.net" : {
         "_meta" : {
            "display-name" : "elpa-ps.es.net",
@@ -8616,6 +8866,24 @@
         },
         "archives" : [
            "elpa-ps.es.net"
+        ]
+     },
+     "ga-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "ga-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "ga-ps.es.net"
+        ]
+     },
+    "salt-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "salt-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "salt-ps.es.net"
         ]
      },
      "sand-ps.es.net" : {
@@ -8672,6 +8940,15 @@
            "newy32aoa-ps.es.net"
         ]
      },
+     "nash-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "nash-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "nash-ps.es.net"
+        ]
+     },
      "chic-ps.es.net" : {
         "_meta" : {
            "display-name" : "chic-ps.es.net",
@@ -8717,6 +8994,15 @@
            "eqxsv5-ps.es.net"
         ]
      },
+     "eqxdc4-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "eqxdc4-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "eqxdc4-ps.es.net"
+        ]
+     },
      "eqxsv5-ps.es.net" : {
         "_meta" : {
            "display-name" : "eqxsv5-ps.es.net",
@@ -8751,6 +9037,24 @@
         },
         "archives" : [
            "lbnl59-ps.es.net"
+        ]
+     },
+     "llnl-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "llnl-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "llnl-ps.es.net"
+        ]
+     },
+     "losa-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "losa-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "losa-ps.es.net"
         ]
      },
      "perfsonar.rc.asu.edu" : {
