@@ -221,21 +221,21 @@
         "address" : "kans-ps-lat.es.net",
         "host" : "kans-ps.es.net"
     },
-    "lbnl50-ps-lat.es.net" : {
+    "lasv-ps-lat.es.net" : {
         "_meta" : {
-           "display-name" : "lbnl50-ps-lat.es.net",
-           "display-set" : "lbnl50-ps.es.net"
+           "display-name" : "lasv-ps-lat.es.net",
+           "display-set" : "lasv-ps.es.net"
         },
-        "address" : "lbnl50-ps-lat.es.net",
-        "host" : "lbnl50-ps.es.net"
+        "address" : "lasv-ps-lat.es.net",
+        "host" : "lasv-ps.es.net"
     },
-    "lbnl59-ps-tp.es.net" : {
+    "lasv-ps-tp.es.net" : {
         "_meta" : {
-           "display-name" : "lbnl59-ps-tp.es.net",
-           "display-set" : "lbnl59-ps.es.net"
+           "display-name" : "lasv-ps-tp.es.net",
+           "display-set" : "lasv-ps.es.net"
         },
-        "address" : "lbnl59-ps-tp.es.net",
-        "host" : "lbnl59-ps.es.net"
+        "address" : "lasv-ps-tp.es.net",
+        "host" : "lasv-ps.es.net"
     },
     "lbnl59-ps-lat.es.net" : {
         "_meta" : {
@@ -243,6 +243,30 @@
            "display-set" : "lbnl59-ps.es.net"
         },
         "address" : "lbnl59-ps-lat.es.net",
+        "host" : "lbnl59-ps.es.net"
+    },
+    "lbnl50-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "lbnl50-ps-tp.es.net",
+           "display-set" : "lbnl50-ps.es.net"
+        },
+        "address" : "lbnl50-ps-tp.es.net",
+        "host" : "lbnl50-ps.es.net"
+    },
+    "lbnl59-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "lbnl59-ps-lat.es.net",
+           "display-set" : "lbnl59-ps.es.net"
+        },
+        "address" : "lbnl59-ps-lat.es.net",
+        "host" : "lbnl59-ps.es.net"
+    },
+    "lbnl59-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "lbnl59-ps-tp.es.net",
+           "display-set" : "lbnl59-ps.es.net"
+        },
+        "address" : "lbnl59-ps-tp.es.net",
         "host" : "lbnl59-ps.es.net"
     },
     "llnl-ps-tp.es.net" : {
@@ -404,14 +428,6 @@
         },
         "address" : "wash-ps-lat.es.net",
         "host" : "wash-ps.es.net"
-    },
-    "lbnl50-ps-tp.es.net" : {
-        "_meta" : {
-           "display-name" : "lbnl50-ps-tp.es.net",
-           "display-set" : "lbnl50-ps.es.net"
-        },
-        "address" : "lbnl50-ps-tp.es.net",
-        "host" : "lbnl50-ps.es.net"
     },
     "perfsonar.rc.asu.edu" : {
         "_meta" : {
@@ -1298,38 +1314,6 @@
          "address" : "du-perfsonar-outside.du.edu",
          "host" : "du-perfsonar-outside.du.edu"
       },
-      "east-dc-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "east-dc-owamp-v6.es.net",
-            "display-set" : "east-dc"
-         },
-         "address" : "east-dc-owamp-v6.es.net",
-         "host" : "east-dc-pt1.es.net"
-      },
-      "east-dc-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "east-dc-owamp.es.net",
-            "display-set" : "east-dc"
-         },
-         "address" : "east-dc-owamp.es.net",
-         "host" : "east-dc-pt1.es.net"
-      },
-      "east-dc-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "east-dc-pt1.es.net",
-            "display-set" : "east-dc"
-         },
-         "address" : "east-dc-pt1.es.net",
-         "host" : "east-dc-pt1.es.net"
-      },
-      "east-dc-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "east-dc-pt1-v6.es.net",
-            "display-set" : "east-dc"
-         },
-         "address" : "east-dc-pt1-v6.es.net",
-         "host" : "east-dc-pt1.es.net"
-      },
       "ec-perfsonar.earlham.edu" : {
          "_meta" : {
             "display-name" : "ec-perfsonar.earlham.edu"
@@ -2022,70 +2006,6 @@
          },
          "address" : "ndt.itcc.unc.edu",
          "host" : "ndt.itcc.unc.edu"
-      },
-      "netl-mgn-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "netl-mgn-owamp.es.net",
-            "display-set" : "netl-mgn"
-         },
-         "address" : "netl-mgn-owamp-v6.es.net",
-         "host" : "netl-mgn-pt1.es.net"
-      },
-      "netl-mgn-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "netl-mgn-owamp.es.net",
-            "display-set" : "netl-mgn"
-         },
-         "address" : "netl-mgn-owamp.es.net",
-         "host" : "netl-mgn-pt1.es.net"
-      },
-      "netl-mgn-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "netl-mgn-pt1.es.net",
-            "display-set" : "netl-mgn"
-         },
-         "address" : "netl-mgn-pt1-v6.es.net",
-         "host" : "netl-mgn-pt1.es.net"
-      },
-      "netl-mgn-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "netl-mgn-pt1.es.net",
-            "display-set" : "netl-mgn"
-         },
-         "address" : "netl-mgn-pt1.es.net",
-         "host" : "netl-mgn-pt1.es.net"
-      },
-      "netl-alb-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "netl-alb-owamp.es.net",
-            "display-set" : "netl-alb"
-         },
-         "address" : "netl-alb-owamp-v6.es.net",
-         "host" : "netl-alb-pt1.es.net"
-      },
-      "netl-alb-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "netl-alb-owamp.es.net",
-            "display-set" : "netl-alb"
-         },
-         "address" : "netl-alb-owamp.es.net",
-         "host" : "netl-alb-pt1.es.net"
-      },
-      "netl-alb-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "netl-alb-pt1.es.net",
-            "display-set" : "netl-alb"
-         },
-         "address" : "netl-alb-pt1-v6.es.net",
-         "host" : "netl-alb-pt1.es.net"
-      },
-      "netl-alb-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "netl-alb-pt1.es.net",
-            "display-set" : "netl-alb"
-         },
-         "address" : "netl-alb-pt1.es.net",
-         "host" : "netl-alb-pt1.es.net"
       },
       "nettest-outside.it.wsu.edu" : {
          "_meta" : {
@@ -3943,48 +3863,6 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
-     "elpa-ps.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
-         }
-     },
-     "ga-ps.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
-         }
-     },
-     "kans-ps.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
-         }
-     },
-    "salt-ps.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
-         }
-     },
-     "sand-ps.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
-         }
-     },
-     "star-ps.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
-         }
-     },
      "bois-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -3992,28 +3870,7 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
-     "losa-ps.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
-         }
-     },
-     "newy32aoa-ps.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
-         }
-     },
-     "newy32aoa-ps.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
-         }
-     },
-     "newy1118th-ps.es.net" : {
+     "bost-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
@@ -4034,14 +3891,7 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
-     "bost-ps.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
-         }
-     },
-     "wash-ps.es.net" : {
+     "elpa-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
@@ -4069,7 +3919,21 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
-     "sunn-ps.es.net" : {
+     "ga-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "kans-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "lasv-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
@@ -4097,7 +3961,63 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "losa-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "nash-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "newy32aoa-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "newy1118th-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+    "salt-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "sand-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "star-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "wash-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "sunn-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
@@ -4643,13 +4563,6 @@
             "url" : "http://du-perfsonar-outside.du.edu/esmond/perfsonar/archive/"
          }
       },
-      "east-dc-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://east-dc-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "ec-perfsonar.earlham.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -4977,20 +4890,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://ndt.itcc.unc.edu/esmond/perfsonar/archive/"
-         }
-      },
-      "netl-mgn-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://netl-mgn-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "netl-alb-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://netl-alb-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "nettest-outside.it.wsu.edu" : {
@@ -6483,6 +6382,9 @@
          "name" : "kans-ps-tp.es.net"
       },
       {
+         "name" : "lasv-ps-tp.es.net"
+      },
+      {
          "name" : "lbnl50-ps-tp.es.net"
       },
       {
@@ -6560,6 +6462,9 @@
          "name" : "kans-ps-lat.es.net"
       },
       {
+         "name" : "lasv-ps-lat.es.net"
+      },
+      {
          "name" : "lbnl50-ps-lat.es.net"
       },
       {
@@ -6604,12 +6509,6 @@
                "name" : "doe-gtn-pt1.es.net"
             },
             {
-               "name" : "netl-alb-pt1.es.net"
-            },
-            {
-               "name" : "netl-mgn-pt1.es.net"
-            },
-            {
                "name" : "osti-pt1.es.net"
             },
             {
@@ -6634,9 +6533,6 @@
       },
       "group_1" : {
          "a-addresses" : [
-            {
-               "name" : "east-dc-pt1.es.net"
-            },
             {
                "name" : "fnal-pt1.es.net"
             },
@@ -6730,12 +6626,6 @@
                "name" : "forr-pt1.es.net"
             },
             {
-               "name" : "netl-mgn-pt1.es.net"
-            },
-            {
-               "name" : "netl-alb-pt1.es.net"
-            },
-            {
                "name" : "osti-pt1.es.net"
             },
             {
@@ -6816,12 +6706,6 @@
             },
             {
                "name" : "forr-pt1.es.net"
-            },
-            {
-               "name" : "netl-mgn-owamp.es.net"
-            },
-            {
-               "name" : "netl-alb-owamp.es.net"
             },
             {
                "name" : "osti-pt1.es.net"
@@ -6944,12 +6828,6 @@
             },
             {
                "name" : "forr-pt1.es.net"
-            },
-            {
-               "name" : "netl-mgn-owamp.es.net"
-            },
-            {
-               "name" : "netl-alb-owamp.es.net"
             },
             {
                "name" : "osti-pt1.es.net"
@@ -7781,9 +7659,6 @@
                "name" : "chic-ps-tp.es.net"
             },
             {
-               "name" : "east-dc-pt1.es.net"
-            },
-            {
                "name" : "cern-773-pt1.es.net"
             }
          ],
@@ -7934,9 +7809,6 @@
             },
             {
                "name" : "lond-pt1.es.net"
-            },
-            {
-               "name" : "east-dc-pt1.es.net"
             },
             {
                "name" : "fnal-pt1.es.net"
@@ -8928,6 +8800,15 @@
            "sunn-ps.es.net"
         ]
      },
+     "lasv-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "lasv-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "lasv-ps.es.net"
+        ]
+     },
      "lbnl50-ps.es.net" : {
         "_meta" : {
            "display-name" : "lbnl50-ps.es.net",
@@ -9748,15 +9629,6 @@
          ],
          "no-agent" : true
       },
-      "east-dc-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "east-dc-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "east-dc-pt1.es.net"
-         ]
-      },
       "ec-perfsonar.earlham.edu" : {
          "_meta" : {
             "display-name" : "ec-perfsonar.earlham.edu",
@@ -10243,24 +10115,6 @@
             "ndt.itcc.unc.edu"
          ],
          "no-agent" : true
-      },
-      "netl-mgn-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "netl-mgn-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "netl-mgn-pt1.es.net"
-         ]
-      },
-      "netl-alb-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "netl-alb-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "netl-alb-pt1.es.net"
-         ]
       },
       "nettest-outside.it.wsu.edu" : {
          "_meta" : {
