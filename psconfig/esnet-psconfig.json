@@ -61,6 +61,22 @@
         "address" : "atla-ps-lat.es.net",
         "host" : "atla-ps.es.net"
     },
+    "bnl515b-ps-tp.es.net" : {
+         "_meta" : {
+            "display-name" : "bnl515b-ps-tp.es.net",
+            "display-set" : "bnl515b-ps.es.net"
+         },
+         "address" : "bnl515b-ps-tp.es.net",
+         "host" : "bnl515b-ps.es.net"
+     },
+     "bnl515b-ps-lat.es.net" : {
+         "_meta" : {
+            "display-name" : "bnl515b-ps-lat.es.net",
+            "display-set" : "bnl515b-ps.es.net"
+         },
+         "address" : "bnl515b-ps-lat.es.net",
+         "host" : "bnl515b-ps.es.net"
+     },
     "bois-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "bois-ps-tp.es.net",
@@ -276,7 +292,7 @@
         },
         "address" : "llnl-ps-lat.es.net",
         "host" : "llnl-ps.es.net"
-    },    
+    },
     "llnl-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "llnl-ps-tp.es.net",
@@ -3863,6 +3879,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "bnl515b-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "bois-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6352,6 +6375,12 @@
          "name" : "anl221-ps-tp.es.net"
       },
       {
+         "name" : "atla-ps-tp.es.net"
+      },
+      {
+         "name" : "bnl515b-ps-tp.es.net"
+      },
+      {
          "name" : "bois-ps-tp.es.net"
       },
       {
@@ -6430,6 +6459,12 @@
       },
       {
          "name" : "anl221-ps-lat.es.net"
+      },
+      {
+         "name" : "atla-ps-lat.es.net"
+      },
+      {
+         "name" : "bnl515b-ps-lat.es.net"
       },
       {
          "name" : "bois-ps-lat.es.net"
@@ -8636,6 +8671,15 @@
         },
         "archives" : [
            "atla-ps.es.net"
+        ]
+     },
+     "bnl515b-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "bnl515b-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "bnl515b-ps.es.net"
         ]
      },
      "elpa-ps.es.net" : {
