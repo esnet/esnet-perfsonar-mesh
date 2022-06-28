@@ -61,6 +61,22 @@
         "address" : "atla-ps-lat.es.net",
         "host" : "atla-ps.es.net"
     },
+     "bnl515-ps-lat.es.net" : {
+         "_meta" : {
+            "display-name" : "bnl515-ps-lat.es.net",
+            "display-set" : "bnl515-ps.es.net"
+         },
+         "address" : "bnl515-ps-lat.es.net",
+         "host" : "bnl515-ps.es.net"
+     },
+     "bnl515-ps-tp.es.net" : {
+          "_meta" : {
+             "display-name" : "bnl515-ps-tp.es.net",
+             "display-set" : "bnl515-ps.es.net"
+          },
+          "address" : "bnl515-ps-tp.es.net",
+          "host" : "bnl515-ps.es.net"
+      },
     "bnl515b-ps-tp.es.net" : {
          "_meta" : {
             "display-name" : "bnl515b-ps-tp.es.net",
@@ -1192,53 +1208,6 @@
          "address" : "cs-perfsonar-2.cs.wisc.edu",
          "host" : "cs-perfsonar-2.cs.wisc.edu"
       },
-      "doe-gtn-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "doe-gtn-opt1.es.net"
-         },
-         "address" : "doe-gtn-opt1.es.net",
-         "host" : "doe-gtn-opt1.es.net"
-      },
-      "doe-gtn-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "doe-gtn-owamp.es.net",
-            "display-set" : "doe-gtn"
-         },
-         "address" : "doe-gtn-owamp-v6.es.net",
-         "host" : "doe-gtn-opt1.es.net"
-      },
-      "doe-gtn-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "doe-gtn-owamp.es.net",
-            "display-set" : "doe-gtn"
-         },
-         "address" : "doe-gtn-owamp.es.net",
-         "host" : "doe-gtn-opt1.es.net"
-      },
-      "doe-gtn-owamp-v4.es.net" : {
-         "_meta" : {
-            "display-name" : "doe-gtn-owamp.es.net",
-            "display-set" : "doe-gtn"
-         },
-         "address" : "doe-gtn-owamp-v4.es.net",
-         "host" : "doe-gtn-opt1.es.net"
-      },
-      "doe-gtn-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "doe-gtn-pt1.es.net",
-            "display-set" : "doe-gtn"
-         },
-         "address" : "doe-gtn-pt1-v6.es.net",
-         "host" : "doe-gtn-opt1.es.net"
-      },
-      "doe-gtn-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "doe-gtn-pt1.es.net",
-            "display-set" : "doe-gtn"
-         },
-         "address" : "doe-gtn-pt1.es.net",
-         "host" : "doe-gtn-opt1.es.net"
-      },
       "lbnl59-doenet-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "lbnl59-doenet-owamp.es.net v6",
@@ -1506,45 +1475,6 @@
          },
          "address" : "fnal-pt1.es.net",
          "host" : "fnal-pt1.es.net"
-      },
-      "forr-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "forr-opt1.es.net"
-         },
-         "address" : "forr-opt1.es.net",
-         "host" : "forr-opt1.es.net"
-      },
-      "forr-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "forr-owamp.es.net",
-            "display-set" : "forr"
-         },
-         "address" : "forr-owamp-v6.es.net",
-         "host" : "forr-opt1.es.net"
-      },
-      "forr-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "forr-owamp.es.net",
-            "display-set" : "forr"
-         },
-         "address" : "forr-owamp.es.net",
-         "host" : "forr-opt1.es.net"
-      },
-      "forr-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "forr-pt1.es.net",
-            "display-set" : "forr"
-         },
-         "address" : "forr-pt1-v6.es.net",
-         "host" : "forr-opt1.es.net"
-      },
-      "forr-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "forr-pt1.es.net",
-            "display-set" : "forr"
-         },
-         "address" : "forr-pt1.es.net",
-         "host" : "forr-opt1.es.net"
       },
       "ga-eastdtn-ps.gat.com" : {
          "_meta" : {
@@ -2265,90 +2195,12 @@
          "address" : "ornl-pt1.es.net",
          "host" : "ornl-pt1.es.net"
       },
-      "osti-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "osti-opt1.es.net"
-         },
-         "address" : "osti-opt1.es.net",
-         "host" : "osti-opt1.es.net"
-      },
-      "osti-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "osti-owamp.es.net",
-            "display-set" : "osti"
-         },
-         "address" : "osti-owamp-v6.es.net",
-         "host" : "osti-opt1.es.net"
-      },
-      "osti-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "osti-owamp.es.net",
-            "display-set" : "osti"
-         },
-         "address" : "osti-owamp.es.net",
-         "host" : "osti-opt1.es.net"
-      },
-      "osti-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "osti-pt1.es.net",
-            "display-set" : "osti"
-         },
-         "address" : "osti-pt1-v6.es.net",
-         "host" : "osti-opt1.es.net"
-      },
-      "osti-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "osti-pt1.es.net",
-            "display-set" : "osti"
-         },
-         "address" : "osti-pt1.es.net",
-         "host" : "osti-opt1.es.net"
-      },
       "owamp-scz.pnl.gov" : {
          "_meta" : {
             "display-name" : "owamp-scz.pnl.gov"
          },
          "address" : "owamp-scz.pnl.gov",
          "host" : "owamp-scz.pnl.gov"
-      },
-      "pantex-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "pantex-opt1.es.net"
-         },
-         "address" : "pantex-opt1.es.net",
-         "host" : "pantex-opt1.es.net"
-      },
-      "pantex-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "pantex-owamp.es.net",
-            "display-set" : "pantex"
-         },
-         "address" : "pantex-owamp-v6.es.net",
-         "host" : "pantex-opt1.es.net"
-      },
-      "pantex-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "pantex-owamp.es.net",
-            "display-set" : "pantex"
-         },
-         "address" : "pantex-owamp.es.net",
-         "host" : "pantex-opt1.es.net"
-      },
-      "pantex-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "pantex-pt1.es.net",
-            "display-set" : "pantex"
-         },
-         "address" : "pantex-pt1-v6.es.net",
-         "host" : "pantex-opt1.es.net"
-      },
-      "pantex-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "pantex-pt1.es.net",
-            "display-set" : "pantex"
-         },
-         "address" : "pantex-pt1.es.net",
-         "host" : "pantex-opt1.es.net"
       },
       "pas-adhoc.chic.net.internet2.edu" : {
          "_meta" : {
@@ -3879,6 +3731,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "bnl515-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "bnl515b-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -4544,13 +4403,6 @@
             "url" : "http://cs-perfsonar-2.cs.wisc.edu/esmond/perfsonar/archive/"
          }
       },
-      "doe-gtn-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://doe-gtn-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "lbnl59-doenet-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -4661,13 +4513,6 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://fnal-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "forr-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://forr-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "ga-eastdtn-ps.gat.com" : {
@@ -5027,25 +4872,11 @@
             "url" : "http://ornl-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
-      "osti-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://osti-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "owamp-scz.pnl.gov" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://owamp-scz.pnl.gov/esmond/perfsonar/archive/"
-         }
-      },
-      "pantex-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://pantex-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
       "pas-adhoc.chic.net.internet2.edu" : {
@@ -6378,6 +6209,9 @@
          "name" : "atla-ps-tp.es.net"
       },
       {
+         "name" : "bnl515-ps-tp.es.net"
+      },
+      {
          "name" : "bnl515b-ps-tp.es.net"
       },
       {
@@ -6464,6 +6298,9 @@
          "name" : "atla-ps-lat.es.net"
       },
       {
+         "name" : "bnl515-ps-lat.es.net"
+      },
+      {
          "name" : "bnl515b-ps-lat.es.net"
       },
       {
@@ -6540,15 +6377,6 @@
 },
       "group_0" : {
          "a-addresses" : [
-            {
-               "name" : "doe-gtn-pt1.es.net"
-            },
-            {
-               "name" : "osti-pt1.es.net"
-            },
-            {
-               "name" : "pantex-pt1.es.net"
-            },
             {
                "name" : "snla-pt1.es.net"
             }
@@ -6655,18 +6483,6 @@
       "group_3" : {
          "a-addresses" : [
             {
-               "name" : "doe-gtn-pt1.es.net"
-            },
-            {
-               "name" : "forr-pt1.es.net"
-            },
-            {
-               "name" : "osti-pt1.es.net"
-            },
-            {
-               "name" : "pantex-pt1.es.net"
-            },
-            {
                "name" : "snla-pt1.es.net"
             }
          ],
@@ -6736,18 +6552,6 @@
            {
               "name" : "wash-ps-lat.es.net"
            },
-            {
-               "name" : "doe-gtn-pt1.es.net"
-            },
-            {
-               "name" : "forr-pt1.es.net"
-            },
-            {
-               "name" : "osti-pt1.es.net"
-            },
-            {
-               "name" : "pantex-pt1.es.net"
-            },
             {
                "name" : "snla-pt1.es.net"
             }
@@ -6859,18 +6663,6 @@
       "group_9" : {
          "a-addresses" : [
             {
-               "name" : "doe-gtn-pt1.es.net"
-            },
-            {
-               "name" : "forr-pt1.es.net"
-            },
-            {
-               "name" : "osti-pt1.es.net"
-            },
-            {
-               "name" : "pantex-pt1.es.net"
-            },
-            {
                "name" : "snla-pt1.es.net"
             }
          ],
@@ -6892,6 +6684,12 @@
       },
       "group_10" : {
          "a-addresses" : [
+            {
+               "name" : "bnl515-ps-tp.es.net"
+            },
+            {
+               "name" : "bnl515b-ps-tp.es.net"
+            },
             {
                "name" : "ps.ncsa.xsede.org"
             },
@@ -7130,6 +6928,12 @@
       "group_16" : {
          "a-addresses" : [
             {
+               "name" : "bnl515-ps-tp.es.net"
+            },
+            {
+               "name" : "bnl515b-ps-tp.es.net"
+            },
+            {
                "name" : "lhcmon.bnl.gov"
             },
             {
@@ -7163,6 +6967,12 @@
       },
       "group_17" : {
          "a-addresses" : [
+            {
+               "name" : "bnl515-ps-lat.es.net"
+            },
+            {
+               "name" : "bnl515b-ps-lat.es.net"
+            },
             {
                "name" : "lhcperfmon.bnl.gov"
             },
@@ -7654,9 +7464,6 @@
          "b-addresses" : [
             {
                "name" : "amst-pt1.es.net"
-            },
-            {
-               "name" : "pantex-pt1.es.net"
             },
             {
                "name" : "fiona-40g.ucsc.edu"
@@ -8432,9 +8239,6 @@
     "group_doenetoro_owamp" : {
        "a-addresses" : [
           {
-             "name" : "doe-gtn-owamp.es.net"
-          },
-          {
              "name" : "198.129.252.138"
           },
           {
@@ -8445,9 +8249,6 @@
           }
        ],
        "b-addresses" : [
-          {
-             "name" : "doe-gtn-owamp.es.net"
-          },
           {
              "name" : "198.129.252.138"
           },
@@ -8463,9 +8264,6 @@
    "group_doenetoro_pt1" : {
       "a-addresses" : [
          {
-            "name" : "doe-gtn-pt1.es.net"
-         },
-         {
             "name" : "198.129.254.9"
          },
          {
@@ -8473,9 +8271,6 @@
          }
       ],
       "b-addresses" : [
-          {
-             "name" : "doe-gtn-pt1.es.net"
-          },
           {
              "name" : "chic-ps-tp.es.net"
           },
@@ -8671,6 +8466,15 @@
         },
         "archives" : [
            "atla-ps.es.net"
+        ]
+     },
+     "bnl515-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "bnl515-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "bnl515-ps.es.net"
         ]
      },
      "bnl515b-ps.es.net" : {
@@ -9623,15 +9427,6 @@
          ],
          "no-agent" : true
       },
-      "doe-gtn-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "doe-gtn-opt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "doe-gtn-pt1.es.net"
-         ]
-      },
       "dps10.ucsc.edu" : {
          "_meta" : {
             "display-name" : "dps10.ucsc.edu",
@@ -9777,15 +9572,6 @@
          },
          "archives" : [
             "fnal-pt1.es.net"
-         ]
-      },
-      "forr-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "forr-opt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "forr-pt1.es.net"
          ]
       },
       "ga-eastdtn-ps.gat.com" : {
@@ -10317,15 +10103,6 @@
             "ornl-pt1.es.net"
          ]
       },
-      "osti-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "osti-opt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "osti-pt1.es.net"
-         ]
-      },
       "owamp-scz.pnl.gov" : {
          "_meta" : {
             "display-name" : "owamp-scz.pnl.gov",
@@ -10335,15 +10112,6 @@
             "owamp-scz.pnl.gov"
          ],
          "no-agent" : true
-      },
-      "pantex-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "pantex-opt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "pantex-pt1.es.net"
-         ]
       },
       "pas-adhoc.chic.net.internet2.edu" : {
          "_meta" : {
