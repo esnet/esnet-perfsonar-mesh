@@ -8770,43 +8770,43 @@
          "_meta" : {
             "display-name" : "nrel-pt1.nrel.gov",
             "organization-display-name" : "NREL"
-         },
+         }
      },
      "nrel-perf01-100g.nrel.gov" : {
          "_meta" : {
             "display-name" : "nrel-perf01-100g.nrel.gov",
             "organization-display-name" : "NREL"
-         },
+         }
      },
      "grinch.phys.uconn.edu" : {
          "_meta" : {
             "display-name" : "grinch.phys.uconn.edu",
             "organization-display-name" : "UCONN"
-         },
+         }
      },
      "sciphy-ps.jlab.org" : {
          "_meta" : {
             "display-name" : "sciphy-ps.jlab.org",
             "organization-display-name" : "JLAB"
-         },
+         }
      },
      "dmz-ps.jlab.org" : {
          "_meta" : {
             "display-name" : "dmz-ps.jlab.org",
             "organization-display-name" : "JLAB"
-         },
+         }
      },
      "ps2-61.nrel.gov" : {
          "_meta" : {
             "display-name" : "ps2-61.nrel.gov",
             "organization-display-name" : "NREL"
-         },
+         }
      },
      "ps0.nrel.gov" : {
          "_meta" : {
             "display-name" : "ps0.nrel.gov",
             "organization-display-name" : "NREL"
-         },
+         }
      },
      "perfsonar-ma-2.princeton.edu" : {
          "_meta" : {
