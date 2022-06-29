@@ -125,6 +125,22 @@
         "address" : "bost-ps-lat.es.net",
         "host" : "bost-ps.es.net"
     },
+    "chat-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "chat-lat.es.net",
+           "display-set" : "chat.es.net"
+        },
+        "address" : "chat-lat.es.net",
+        "host" : "chat.es.net"
+    },
+   "chat-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "chat-tp.es.net",
+           "display-set" : "chat.es.net"
+        },
+        "address" : "chat-tp.es.net",
+        "host" : "chat.es.net"
+    },
     "chic-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "chic-ps-tp.es.net",
@@ -3460,45 +3476,6 @@
          "address" : "slac-pt1.es.net",
          "host" : "slac-pt1.es.net"
       },
-      "snla-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "snla-opt1.es.net"
-         },
-         "address" : "snla-opt1.es.net",
-         "host" : "snla-opt1.es.net"
-      },
-      "snla-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "snla-owamp.es.net",
-            "display-set" : "snla"
-         },
-         "address" : "snla-owamp-v6.es.net",
-         "host" : "snla-opt1.es.net"
-      },
-      "snla-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "snla-owamp.es.net",
-            "display-set" : "snla"
-         },
-         "address" : "snla-owamp.es.net",
-         "host" : "snla-opt1.es.net"
-      },
-      "snla-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "snla-pt1.es.net",
-            "display-set" : "snla"
-         },
-         "address" : "snla-pt1-v6.es.net",
-         "host" : "snla-opt1.es.net"
-      },
-      "snla-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "snla-pt1.es.net",
-            "display-set" : "snla"
-         },
-         "address" : "snla-pt1.es.net",
-         "host" : "snla-opt1.es.net"
-      },
       "snll-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "snll-owamp.es.net",
@@ -3753,6 +3730,13 @@
          }
      },
      "bost-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "chat.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
@@ -6027,13 +6011,6 @@
             "url" : "http://slac-pt1.es.net:8085/esmond/perfsonar/archive/"
          }
       },
-      "snla-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://snla-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "snll-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6221,6 +6198,9 @@
          "name" : "bost-ps-tp.es.net"
       },
       {
+         "name" : "chat-tp.es.net"
+      },
+      {
          "name" : "chic-ps-tp.es.net"
       },
       {
@@ -6310,6 +6290,9 @@
          "name" : "bost-ps-lat.es.net"
       },
       {
+         "name" : "chat-lat.es.net"
+      },
+      {
          "name" : "chic-ps-lat.es.net"
       },
       {
@@ -6377,11 +6360,30 @@
 },
       "group_0" : {
          "a-addresses" : [
+           {
+              "name" : "anl221-tp.es.net"
+           },
+           {
+              "name" : "bnl515-tp.es.net"
+           },
+           {
+              "name" : "bnl515b-tp.es.net"
+           },
             {
-               "name" : "snla-pt1.es.net"
-            }
+               "name" : "lbnl50-tp.es.net"
+            },
+            {
+               "name" : "lbnl59-tp.es.net"
+            },
+            {
+               "name" : "llnl-tp.es.net"
+            },
+
          ],
          "b-addresses" : [
+            {
+               "name" : "atla-ps-tp.es.net"
+            },
             {
                "name" : "chic-ps-tp.es.net"
             },
@@ -6483,7 +6485,7 @@
       "group_3" : {
          "a-addresses" : [
             {
-               "name" : "snla-pt1.es.net"
+               "name" : "ga-tp.es.net"
             }
          ],
          "b-addresses" : [
@@ -6551,10 +6553,7 @@
            },
            {
               "name" : "wash-ps-lat.es.net"
-           },
-            {
-               "name" : "snla-pt1.es.net"
-            }
+           }
          ],
          "type" : "mesh"
       },
@@ -6663,7 +6662,7 @@
       "group_9" : {
          "a-addresses" : [
             {
-               "name" : "snla-pt1.es.net"
+               "name" : "ga-ps-lat.es.net"
             }
          ],
          "b-addresses" : [
@@ -6967,6 +6966,9 @@
       },
       "group_17" : {
          "a-addresses" : [
+           {
+              "name" : "anl221-ps-lat.es.net"
+           },
             {
                "name" : "bnl515-ps-lat.es.net"
             },
@@ -6974,19 +6976,19 @@
                "name" : "bnl515b-ps-lat.es.net"
             },
             {
+               "name" : "ga-ps-lat.es.net"
+            },
+            {
+               "name" : "lbnl50-ps-lat.es.net"
+            },
+            {
+               "name" : "lbnl59-ps-lat.es.net"
+            },
+            {
+               "name" : "llnl-ps-lat.es.net"
+            },
+            {
                "name" : "lhcperfmon.bnl.gov"
-            },
-            {
-               "name" : "perfsonar.ornl.gov"
-            },
-            {
-               "name" : "jlab4.jlab.org"
-            },
-            {
-               "name" : "perfsonar.ornl.gov"
-            },
-            {
-               "name" : "anlborder-ps.it.anl.gov"
             }
          ],
          "b-addresses" : [
@@ -8486,60 +8488,6 @@
            "bnl515b-ps.es.net"
         ]
      },
-     "elpa-ps.es.net" : {
-        "_meta" : {
-           "display-name" : "elpa-ps.es.net",
-           "organization-display-name" : "ESnet"
-        },
-        "archives" : [
-           "elpa-ps.es.net"
-        ]
-     },
-     "ga-ps.es.net" : {
-        "_meta" : {
-           "display-name" : "ga-ps.es.net",
-           "organization-display-name" : "ESnet"
-        },
-        "archives" : [
-           "ga-ps.es.net"
-        ]
-     },
-    "salt-ps.es.net" : {
-        "_meta" : {
-           "display-name" : "salt-ps.es.net",
-           "organization-display-name" : "ESnet"
-        },
-        "archives" : [
-           "salt-ps.es.net"
-        ]
-     },
-     "sand-ps.es.net" : {
-        "_meta" : {
-           "display-name" : "sand-ps.es.net",
-           "organization-display-name" : "ESnet"
-        },
-        "archives" : [
-           "sand-ps.es.net"
-        ]
-     },
-     "kans-ps.es.net" : {
-        "_meta" : {
-           "display-name" : "kans-ps.es.net",
-           "organization-display-name" : "ESnet"
-        },
-        "archives" : [
-           "kans-ps.es.net"
-        ]
-     },
-     "star-ps.es.net" : {
-        "_meta" : {
-           "display-name" : "star-ps.es.net",
-           "organization-display-name" : "ESnet"
-        },
-        "archives" : [
-           "star-ps.es.net"
-        ]
-     },
      "bois-ps.es.net" : {
         "_meta" : {
            "display-name" : "bois-ps.es.net",
@@ -8549,31 +8497,22 @@
            "bois-ps.es.net"
         ]
      },
-     "newy1118th-ps.es.net" : {
+     "bost-ps.es.net" : {
         "_meta" : {
-           "display-name" : "newy1118th-ps.es.net",
+           "display-name" : "bost-ps.es.net",
            "organization-display-name" : "ESnet"
         },
         "archives" : [
-           "newy1118th-ps.es.net"
+           "bost-ps.es.net"
         ]
      },
-     "newy32aoa-ps.es.net" : {
+     "chat.es.net" : {
         "_meta" : {
-           "display-name" : "newy32aoa-ps.es.net",
+           "display-name" : "chat.es.net",
            "organization-display-name" : "ESnet"
         },
         "archives" : [
-           "newy32aoa-ps.es.net"
-        ]
-     },
-     "nash-ps.es.net" : {
-        "_meta" : {
-           "display-name" : "nash-ps.es.net",
-           "organization-display-name" : "ESnet"
-        },
-        "archives" : [
-           "nash-ps.es.net"
+           "chat.es.net"
         ]
      },
      "chic-ps.es.net" : {
@@ -8594,22 +8533,13 @@
            "denv-ps.es.net"
         ]
      },
-     "bost-ps.es.net" : {
+     "elpa-ps.es.net" : {
         "_meta" : {
-           "display-name" : "bost-ps.es.net",
+           "display-name" : "elpa-ps.es.net",
            "organization-display-name" : "ESnet"
         },
         "archives" : [
-           "bost-ps.es.net"
-        ]
-     },
-     "wash-ps.es.net" : {
-        "_meta" : {
-           "display-name" : "wash-ps.es.net",
-           "organization-display-name" : "ESnet"
-        },
-        "archives" : [
-           "wash-ps.es.net"
+           "elpa-ps.es.net"
         ]
      },
      "eqxch2-ps.es.net" : {
@@ -8639,13 +8569,22 @@
            "eqxsv5-ps.es.net"
         ]
      },
-     "sunn-ps.es.net" : {
+     "ga-ps.es.net" : {
         "_meta" : {
-           "display-name" : "sunn-ps.es.net",
+           "display-name" : "ga-ps.es.net",
            "organization-display-name" : "ESnet"
         },
         "archives" : [
-           "sunn-ps.es.net"
+           "ga-ps.es.net"
+        ]
+     },
+     "kans-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "kans-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "kans-ps.es.net"
         ]
      },
      "lasv-ps.es.net" : {
@@ -8691,6 +8630,78 @@
         },
         "archives" : [
            "losa-ps.es.net"
+        ]
+     },
+     "nash-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "nash-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "nash-ps.es.net"
+        ]
+     },
+     "newy1118th-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "newy1118th-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "newy1118th-ps.es.net"
+        ]
+     },
+     "newy32aoa-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "newy32aoa-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "newy32aoa-ps.es.net"
+        ]
+     },
+    "salt-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "salt-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "salt-ps.es.net"
+        ]
+     },
+     "sand-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "sand-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "sand-ps.es.net"
+        ]
+     },
+     "star-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "star-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "star-ps.es.net"
+        ]
+     },
+     "sunn-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "sunn-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "sunn-ps.es.net"
+        ]
+     },
+     "wash-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "wash-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "wash-ps.es.net"
         ]
      },
      "perfsonar.rc.asu.edu" : {
@@ -8761,49 +8772,42 @@
             "display-name" : "nrel-pt1.nrel.gov",
             "organization-display-name" : "NREL"
          },
-         "no-agent" : true
      },
      "nrel-perf01-100g.nrel.gov" : {
          "_meta" : {
             "display-name" : "nrel-perf01-100g.nrel.gov",
             "organization-display-name" : "NREL"
          },
-         "no-agent" : true
      },
      "grinch.phys.uconn.edu" : {
          "_meta" : {
             "display-name" : "grinch.phys.uconn.edu",
             "organization-display-name" : "UCONN"
          },
-         "no-agent" : true
      },
      "sciphy-ps.jlab.org" : {
          "_meta" : {
             "display-name" : "sciphy-ps.jlab.org",
             "organization-display-name" : "JLAB"
          },
-         "no-agent" : true
      },
      "dmz-ps.jlab.org" : {
          "_meta" : {
             "display-name" : "dmz-ps.jlab.org",
             "organization-display-name" : "JLAB"
          },
-         "no-agent" : true
      },
      "ps2-61.nrel.gov" : {
          "_meta" : {
             "display-name" : "ps2-61.nrel.gov",
             "organization-display-name" : "NREL"
          },
-         "no-agent" : true
      },
      "ps0.nrel.gov" : {
          "_meta" : {
             "display-name" : "ps0.nrel.gov",
             "organization-display-name" : "NREL"
          },
-         "no-agent" : true
      },
      "perfsonar-ma-2.princeton.edu" : {
          "_meta" : {
@@ -11775,15 +11779,6 @@
          },
          "archives" : [
             "slac-pt1.es.net"
-         ]
-      },
-      "snla-opt1.es.net" : {
-         "_meta" : {
-            "display-name" : "snla-opt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "snla-pt1.es.net"
          ]
       },
       "snll-pt1.es.net" : {
