@@ -6361,22 +6361,22 @@
       "group_0" : {
          "a-addresses" : [
            {
-              "name" : "anl221-tp.es.net"
+              "name" : "anl221-ps-tp.es.net"
            },
            {
-              "name" : "bnl515-tp.es.net"
+              "name" : "bnl515-ps-tp.es.net"
            },
            {
-              "name" : "bnl515b-tp.es.net"
+              "name" : "bnl515b-ps-tp.es.net"
            },
             {
-               "name" : "lbnl50-tp.es.net"
+               "name" : "lbnl50-ps-tp.es.net"
             },
             {
-               "name" : "lbnl59-tp.es.net"
+               "name" : "lbnl59-ps-tp.es.net"
             },
             {
-               "name" : "llnl-tp.es.net"
+               "name" : "llnl-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
