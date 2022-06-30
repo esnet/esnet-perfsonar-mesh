@@ -125,21 +125,21 @@
         "address" : "bost-ps-lat.es.net",
         "host" : "bost-ps.es.net"
     },
-    "chat-lat.es.net" : {
+    "chat-ps-lat.es.net" : {
         "_meta" : {
-           "display-name" : "chat-lat.es.net",
-           "display-set" : "chat.es.net"
+           "display-name" : "chat-ps-lat.es.net",
+           "display-set" : "chat-ps.es.net"
         },
-        "address" : "chat-lat.es.net",
-        "host" : "chat.es.net"
+        "address" : "chat-ps-lat.es.net",
+        "host" : "chat-ps.es.net"
     },
-   "chat-tp.es.net" : {
+   "chat-ps-tp.es.net" : {
         "_meta" : {
-           "display-name" : "chat-tp.es.net",
-           "display-set" : "chat.es.net"
+           "display-name" : "chat-ps-tp.es.net",
+           "display-set" : "chat-ps.es.net"
         },
-        "address" : "chat-tp.es.net",
-        "host" : "chat.es.net"
+        "address" : "chat-ps-tp.es.net",
+        "host" : "chat-ps.es.net"
     },
     "chic-ps-tp.es.net" : {
         "_meta" : {
@@ -6198,7 +6198,7 @@
          "name" : "bost-ps-tp.es.net"
       },
       {
-         "name" : "chat-tp.es.net"
+         "name" : "chat-ps-tp.es.net"
       },
       {
          "name" : "chic-ps-tp.es.net"
@@ -6290,7 +6290,7 @@
          "name" : "bost-ps-lat.es.net"
       },
       {
-         "name" : "chat-lat.es.net"
+         "name" : "chat-ps-lat.es.net"
       },
       {
          "name" : "chic-ps-lat.es.net"
@@ -13061,7 +13061,6 @@
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
-            "window-size" : 67108864,
             "ip-version": 4
          },
          "type" : "throughput"
@@ -13074,7 +13073,6 @@
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
-            "window-size" : 67108864,
             "ip-version": 6
          },
          "type" : "throughput"
@@ -13128,8 +13126,7 @@
             "ip-tos" : 32,
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
-            "source-node" : "{% pscheduler_address[0] %}",
-            "window-size" : 67108864
+            "source-node" : "{% pscheduler_address[0] %}"
          },
          "type" : "throughput"
       },
@@ -13140,8 +13137,7 @@
             "duration" : "PT10S",
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
-            "source-node" : "{% pscheduler_address[0] %}",
-            "window-size" : 67108864
+            "source-node" : "{% pscheduler_address[0] %}"
          },
          "type" : "throughput"
       },
@@ -13152,8 +13148,7 @@
             "duration" : "PT10S",
             "omit" : "PT10S",
             "source" : "{% address[0] %}",
-            "source-node" : "{% pscheduler_address[0] %}",
-            "window-size" : 67108864
+            "source-node" : "{% pscheduler_address[0] %}"
          },
          "type" : "throughput"
       },
@@ -13164,8 +13159,7 @@
             "duration" : "PT20S",
             "omit" : "PT20S",
             "source" : "{% address[0] %}",
-            "source-node" : "{% pscheduler_address[0] %}",
-            "window-size" : 67108864
+            "source-node" : "{% pscheduler_address[0] %}"
          },
          "type" : "throughput"
       },
@@ -13176,8 +13170,7 @@
             "duration" : "PT25S",
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
-            "source-node" : "{% pscheduler_address[0] %}",
-            "window-size" : 67108864
+            "source-node" : "{% pscheduler_address[0] %}"
          },
          "type" : "throughput"
       },
@@ -13188,8 +13181,7 @@
             "duration" : "PT15S",
             "omit" : "PT10S",
             "source" : "{% address[0] %}",
-            "source-node" : "{% pscheduler_address[0] %}",
-            "window-size" : 67108864
+            "source-node" : "{% pscheduler_address[0] %}"
          },
          "type" : "throughput"
       },
@@ -13200,9 +13192,7 @@
             "duration" : "PT20S",
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
-            "source-node" : "{% pscheduler_address[0] %}",
-            "window-size" : 67108864
-         },
+            "source-node" : "{% pscheduler_address[0] %}"         },
          "type" : "throughput"
       },
       "trace_0" : {
