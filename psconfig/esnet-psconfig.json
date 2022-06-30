@@ -6506,6 +6506,21 @@
       "group_4" : {
          "addresses" : [
            {
+              "name" : "albq-ps-lat.es.net"
+           },
+           {
+              "name" : "anl221-ps-lat.es.net"
+           },
+           {
+              "name" : "atla-ps-lat.es.net"
+           },
+           {
+              "name" : "bnl515-ps-lat.es.net"
+           },
+           {
+              "name" : "bnl515b-ps-lat.es.net"
+           },
+           {
               "name" : "bois-ps-lat.es.net"
            },
            {
@@ -6524,10 +6539,19 @@
               "name" : "eqxch2-ps-lat.es.net"
            },
            {
+              "name" : "eqxdc4-ps-lat.es.net"
+           },
+           {
               "name" : "eqxsv5-ps-lat.es.net"
            },
            {
+              "name" : "ga-ps-lat.es.net"
+           },
+           {
               "name" : "kans-ps-lat.es.net"
+           },
+           {
+              "name" : "lasv-ps-lat.es.net"
            },
            {
               "name" : "lbnl50-ps-lat.es.net"
@@ -6536,10 +6560,22 @@
               "name" : "lbnl59-ps-lat.es.net"
            },
            {
+              "name" : "llnl-ps-lat.es.net"
+           },
+           {
+              "name" : "losa-ps-lat.es.net"
+           },
+           {
+              "name" : "nash-ps-lat.es.net"
+           },
+           {
               "name" : "newy1118th-ps-lat.es.net"
            },
            {
               "name" : "newy32aoa-ps-lat.es.net"
+           },
+           {
+              "name" : "salt-ps-lat.es.net"
            },
            {
               "name" : "sand-ps-lat.es.net"
