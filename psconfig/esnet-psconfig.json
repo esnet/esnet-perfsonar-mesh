@@ -3736,7 +3736,7 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
-     "chat.es.net" : {
+     "chat-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
