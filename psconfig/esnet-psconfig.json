@@ -8541,13 +8541,13 @@
            "bost-ps.es.net"
         ]
      },
-     "chat.es.net" : {
+     "chat-ps.es.net" : {
         "_meta" : {
-           "display-name" : "chat.es.net",
+           "display-name" : "chat-ps.es.net",
            "organization-display-name" : "ESnet"
         },
         "archives" : [
-           "chat.es.net"
+           "chat-ps.es.net"
         ]
      },
      "chic-ps.es.net" : {
