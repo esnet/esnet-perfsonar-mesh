@@ -6305,13 +6305,13 @@
          "name" : "eqxch2-ps-lat.es.net"
       },
       {
-         "name" : "eqxdc4-ps-tp.es.net"
+         "name" : "eqxdc4-ps-lat.es.net"
       },
       {
          "name" : "eqxsv5-ps-lat.es.net"
       },
       {
-         "name" : "ga-ps-tp.es.net"
+         "name" : "ga-ps-lat.es.net"
       },
       {
          "name" : "kans-ps-lat.es.net"
@@ -6329,7 +6329,7 @@
          "name" : "llnl-ps-lat.es.net"
       },
       {
-         "name" : "losa-ps-tp.es.net"
+         "name" : "losa-ps-lat.es.net"
       },
       {
          "name" : "newy1118th-ps-lat.es.net"
@@ -6338,7 +6338,7 @@
          "name" : "newy32aoa-ps-lat.es.net"
       },
       {
-         "name" : "nash-ps-tp.es.net"
+         "name" : "nash-ps-lat.es.net"
       },
       {
          "name" : "salt-ps-lat.es.net"
@@ -6561,9 +6561,6 @@
            },
            {
               "name" : "llnl-ps-lat.es.net"
-           },
-           {
-              "name" : "losa-ps-lat.es.net"
            },
            {
               "name" : "nash-ps-lat.es.net"
@@ -6961,6 +6958,9 @@
       },
       "group_16" : {
          "a-addresses" : [
+           {
+              "name" : "anl221-ps-tp.es.net"
+           },
             {
                "name" : "bnl515-ps-tp.es.net"
             },
@@ -6968,19 +6968,7 @@
                "name" : "bnl515b-ps-tp.es.net"
             },
             {
-               "name" : "lhcmon.bnl.gov"
-            },
-            {
                "name" : "ps-border1-bwctl.lbl.gov"
-            },
-            {
-               "name" : "jlab4.jlab.org"
-            },
-            {
-               "name" : "perfsonar.ornl.gov"
-            },
-            {
-               "name" : "anlborder-ps.it.anl.gov"
             }
          ],
          "b-addresses" : [
