@@ -6177,91 +6177,13 @@
      "ESnet6_TP_HUB" : {
         "addresses" : [
       {
-         "name" : "albq-ps-tp.es.net"
-      },
-      {
-         "name" : "anl221-ps-tp.es.net"
-      },
-      {
-         "name" : "atla-ps-tp.es.net"
-      },
-      {
-         "name" : "bnl515-ps-tp.es.net"
-      },
-      {
-         "name" : "bnl515b-ps-tp.es.net"
-      },
-      {
-         "name" : "bois-ps-tp.es.net"
-      },
-      {
-         "name" : "bost-ps-tp.es.net"
-      },
-      {
-         "name" : "chat-ps-tp.es.net"
-      },
-      {
-         "name" : "chic-ps-tp.es.net"
-      },
-      {
-         "name" : "denv-ps-tp.es.net"
-      },
-      {
-         "name" : "elpa-ps-tp.es.net"
-      },
-      {
-         "name" : "eqxch2-ps-tp.es.net"
-      },
-      {
-         "name" : "eqxdc4-ps-tp.es.net"
-      },
-      {
-         "name" : "eqxsv5-ps-tp.es.net"
-      },
-      {
-         "name" : "ga-ps-tp.es.net"
-      },
-      {
-         "name" : "kans-ps-tp.es.net"
-      },
-      {
-         "name" : "lasv-ps-tp.es.net"
-      },
-      {
          "name" : "lbnl50-ps-tp.es.net"
       },
       {
          "name" : "lbnl59-ps-tp.es.net"
       },
       {
-         "name" : "llnl-ps-tp.es.net"
-      },
-      {
          "name" : "losa-ps-tp.es.net"
-      },
-      {
-         "name" : "newy1118th-ps-tp.es.net"
-      },
-      {
-         "name" : "newy32aoa-ps-tp.es.net"
-      },
-      {
-         "name" : "nash-ps-tp.es.net"
-      },
-      {
-         "name" : "salt-ps-tp.es.net"
-      },
-      {
-         "name" : "sand-ps-tp.es.net"
-      },
-      {
-         "name" : "star-ps-tp.es.net"
-      },
-      {
-         "name" : "sunn-ps-tp.es.net"
-      },
-      {
-         "name" : "wash-ps-tp.es.net"
       }
    ],
    "type" : "mesh"
@@ -6269,91 +6191,13 @@
      "ESnet6_LAT_HUB" : {
         "addresses" : [
       {
-         "name" : "albq-ps-lat.es.net"
-      },
-      {
-         "name" : "anl221-ps-lat.es.net"
-      },
-      {
-         "name" : "atla-ps-lat.es.net"
-      },
-      {
-         "name" : "bnl515-ps-lat.es.net"
-      },
-      {
-         "name" : "bnl515b-ps-lat.es.net"
-      },
-      {
-         "name" : "bois-ps-lat.es.net"
-      },
-      {
-         "name" : "bost-ps-lat.es.net"
-      },
-      {
-         "name" : "chat-ps-lat.es.net"
-      },
-      {
-         "name" : "chic-ps-lat.es.net"
-      },
-      {
-         "name" : "denv-ps-lat.es.net"
-      },
-      {
-         "name" : "elpa-ps-lat.es.net"
-      },
-      {
-         "name" : "eqxch2-ps-lat.es.net"
-      },
-      {
-         "name" : "eqxdc4-ps-lat.es.net"
-      },
-      {
-         "name" : "eqxsv5-ps-lat.es.net"
-      },
-      {
-         "name" : "ga-ps-lat.es.net"
-      },
-      {
-         "name" : "kans-ps-lat.es.net"
-      },
-      {
-         "name" : "lasv-ps-lat.es.net"
-      },
-      {
          "name" : "lbnl50-ps-lat.es.net"
       },
       {
          "name" : "lbnl59-ps-lat.es.net"
       },
       {
-         "name" : "llnl-ps-lat.es.net"
-      },
-      {
          "name" : "losa-ps-lat.es.net"
-      },
-      {
-         "name" : "newy1118th-ps-lat.es.net"
-      },
-      {
-         "name" : "newy32aoa-ps-lat.es.net"
-      },
-      {
-         "name" : "nash-ps-lat.es.net"
-      },
-      {
-         "name" : "salt-ps-lat.es.net"
-      },
-      {
-         "name" : "sand-ps-lat.es.net"
-      },
-      {
-         "name" : "star-ps-lat.es.net"
-      },
-      {
-         "name" : "sunn-ps-lat.es.net"
-      },
-      {
-         "name" : "wash-ps-lat.es.net"
       }
    ],
    "type" : "mesh"
