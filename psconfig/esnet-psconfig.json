@@ -6688,9 +6688,6 @@
             },
             {
                "name" : "kans-ps-tp.es.net"
-            },
-            {
-               "name" : "sacr-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6743,9 +6740,6 @@
             },
             {
                "name" : "kans-ps-lat.es.net"
-            },
-            {
-               "name" : "sacr-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
