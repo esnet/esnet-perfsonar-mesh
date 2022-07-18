@@ -101,7 +101,7 @@
       "throughput_1" : {
          "check" : {
             "check-interval" : "PT14400S",
-            "critical-threshold" : "6.67",
+            "critical-threshold" : "2.22",
             "params" : {
                "time-range" : 86400
             },

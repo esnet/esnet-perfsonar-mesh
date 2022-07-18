@@ -253,6 +253,22 @@
         "address" : "ga-ps-lat.es.net",
         "host" : "ga-ps.es.net"
     },
+    "fnalgcc-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "fnalgcc-ps-lat.es.net",
+           "display-set" : "fnalgcc-ps.es.net"
+        },
+        "address" : "fnalgcc-ps-lat.es.net",
+        "host" : "fnalgcc-ps.es.net"
+    },
+   "fnalgcc-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "fnalgcc-ps-tp.es.net",
+           "display-set" : "fnalgcc-ps.es.net"
+        },
+        "address" : "fnalgcc-ps-tp.es.net",
+        "host" : "fnalgcc-ps.es.net"
+    },
     "kans-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "kans-ps-tp.es.net",
@@ -3785,6 +3801,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "fnalgcc-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "ga-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6183,16 +6206,19 @@
           "name" : "chat-ps-tp.es.net"
       },
       {
-          "name" : "chic-ps-tp.es.net"
+         "name" : "eqxch2-ps-tp.es.net"
       },
       {
-         "name" : "lbnl50-ps-tp.es.net"
+         "name" : "eqxdc4-ps-tp.es.net"
       },
       {
-         "name" : "lbnl59-ps-tp.es.net"
+         "name" : "eqxsv5-ps-tp.es.net"
       },
       {
-         "name" : "losa-ps-tp.es.net"
+          "name" : "fnalgcc-ps-tp.es.net"
+      },
+      {
+          "name" : "losa-ps-tp.es.net"
       }
    ],
    "type" : "mesh"
@@ -6200,37 +6226,25 @@
      "ESnet6_LAT_HUB" : {
         "addresses" : [
       {
-         "name" : "atla-ps-lat.es.net"
-     },
-      {
-         "name" : "chat-ps-lat.es.net"
+         "name" : "eqxch2-ps-lat.es.net"
       },
       {
-         "name" : "chic-ps-lat.es.net"
+         "name" : "eqxdc4-ps-lat.es.net"
       },
       {
-         "name" : "lbnl50-ps-lat.es.net"
+         "name" : "eqxsv5-ps-lat.es.net"
       },
       {
-         "name" : "lbnl59-ps-lat.es.net"
+         "name" : "fnalgcc-ps-lat.es.net"
       },
       {
          "name" : "losa-ps-lat.es.net"
-      },
-      {
-         "name" : "sunn-ps-lat.es.net"
-      },
-      {
-         "name" : "wash-ps-lat.es.net"
       }
    ],
    "type" : "mesh"
 },
       "group_0" : {
          "a-addresses" : [
-           {
-              "name" : "atla-ps-tp.es.net"
-           },
            {
               "name" : "anl221-ps-tp.es.net"
            },
@@ -6248,12 +6262,6 @@
             },
             {
                "name" : "llnl-ps-tp.es.net"
-            },
-            {
-               "name" : "sunn-ps-tp.es.net"
-            },
-            {
-               "name" : "wash-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
@@ -6261,10 +6269,10 @@
                "name" : "eqxch2-ps-tp.es.net"
             },
             {
-               "name" : "sunn-ps-tp.es.net"
+               "name" : "eqxdc4-ps-tp.es.net"
             },
             {
-               "name" : "wash-ps-tp.es.net"
+               "name" : "eqxsv5-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6297,7 +6305,7 @@
               "name" : "bost-ps-tp.es.net"
            },
            {
-              "name" : "chic-ps-tp.es.net"
+               "name" : "chat-ps-tp.es.net"
            },
            {
               "name" : "denv-ps-tp.es.net"
@@ -6307,6 +6315,9 @@
            },
            {
               "name" : "eqxch2-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxdc4-ps-tp.es.net"
            },
            {
               "name" : "eqxsv5-ps-tp.es.net"
@@ -6325,20 +6336,17 @@
            },
            {
               "name" : "star-ps-tp.es.net"
-           },
-           {
-              "name" : "sunn-ps-tp.es.net"
-           },
-           {
-              "name" : "wash-ps-tp.es.net"
            }
          ],
          "b-addresses" : [
            {
-              "name" : "sunn-ps-tp.es.net"
+              "name" : "eqxch2-ps-tp.es.net"
            },
            {
-              "name" : "wash-ps-tp.es.net"
+              "name" : "eqxdc4-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxsv5-ps-tp.es.net"
            }
          ],
          "type" : "disjoint"
@@ -6381,6 +6389,9 @@
            },
            {
               "name" : "bost-ps-lat.es.net"
+           },
+           {
+              "name" : "chat-ps-lat.es.net"
            },
            {
               "name" : "chic-ps-lat.es.net"
@@ -8365,6 +8376,15 @@
         },
         "archives" : [
            "eqxsv5-ps.es.net"
+        ]
+     },
+     "fnalgcc-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "fnalgcc-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "fnalgcc-ps.es.net"
         ]
      },
      "ga-ps.es.net" : {
