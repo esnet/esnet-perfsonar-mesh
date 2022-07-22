@@ -137,12 +137,12 @@
       "throughput_2" : {
          "check" : {
             "check-interval" : "PT14400S",
-            "critical-threshold" : "1",
+            "critical-threshold" : "2.22",
             "params" : {
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "2.5",
+            "warning-threshold" : "13.23",
             "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
