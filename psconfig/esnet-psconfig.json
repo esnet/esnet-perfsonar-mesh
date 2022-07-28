@@ -429,6 +429,22 @@
         "address" : "newy1118th-ps-lat.es.net",
         "host" : "newy1118th-ps.es.net"
     },
+    "ornl1064-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "ornl1064-ps-lat.es.net",
+           "display-set" : "ornl1064-ps.es.net"
+        },
+        "address" : "ornl1064-ps-lat.es.net",
+        "host" : "ornl1064-ps.es.net"
+    },
+   "ornl1064-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "ornl1064-ps-tp.es.net",
+           "display-set" : "ornl1064-ps.es.net"
+        },
+        "address" : "ornl1064-ps-tp.es.net",
+        "host" : "ornl1064-ps.es.net"
+    },
     "ornl5600-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "ornl5600-ps-lat.es.net",
@@ -3885,6 +3901,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "ornl1064-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "ornl5600-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6228,6 +6251,9 @@
           "name" : "fnalgcc-ps-tp.es.net"
       },
       {
+          "name" : "ornl1064-ps-tp.es.net"
+      },
+      {
           "name" : "ornl5600-ps-tp.es.net"
       },
       {
@@ -6252,6 +6278,9 @@
       },
       {
          "name" : "fnalgcc-ps-lat.es.net"
+      },
+      {
+         "name" : "ornl1064-ps-lat.es.net"
       },
       {
          "name" : "ornl5600-ps-lat.es.net"
@@ -8530,6 +8559,15 @@
         },
         "archives" : [
            "newy32aoa-ps.es.net"
+        ]
+     },
+     "ornl1064-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "ornl1064-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "ornl1064-ps.es.net"
         ]
      },
      "ornl5600-ps.es.net" : {
