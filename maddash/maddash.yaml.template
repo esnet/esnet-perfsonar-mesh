@@ -186,3 +186,5 @@ dashboards:
        - name: "ESnet - 100G ESnet6 Hub to 100G ESnet6 Hub IPv6 Throughput Testing - Throughput"
        - name: "ESnet - ESnet6 Hub to ESnet6 Hub IPv4 Traceroute Testing - Path Count"
        - name: "ESnet - ESnet6 Hub to ESnet6 Hub IPv6 Traceroute Testing - Path Count"
+       - name: "ESnet - 100G ESnet6 Hub to 100G ESnet6 Hub Only IPv4 Throughput Testing - Throughput"
+       - name: "ESnet - 100G ESnet6 Hub to 100G ESnet6 Hub Only IPv6 Throughput Testing - Throughput"

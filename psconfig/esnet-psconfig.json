@@ -6250,7 +6250,7 @@
       }
    },
    "groups" : {
-     "ESnet6_TP_HUB" : {
+     "ESnet6_TP_HUB_test" : {
         "addresses" : [
           {
              "name" : "ameshwh-ps-tp.es.net"
@@ -7998,9 +7998,78 @@
                        "name" : "lond-pt1.es.net__neaar"
                     }
                 ]
-             }
+             },
+             "ESnet6_TP_HUB" : {
+                "addresses" : [
+                  {
+                     "name" : "chic-ps-tp.es.net"
+                  },
+                   {
+                      "name" : "eqxch2-ps-tp.es.net"
+                   },
+                   {
+                      "name" : "eqxdc4-ps-tp.es.net"
+                   },
+                   {
+                      "name" : "eqxsv5-ps-tp.es.net"
+                   },
+                   {
+                      "name" : "losa-ps-tp.es.net"
+                   },
+                   {
+                      "name" : "star-ps-tp.es.net"
+                   },
+                   {
+                      "name" : "sunn-ps-tp.es.net"
+                   },
+                   {
+                      "name" : "wash-ps-tp.es.net"
+                   }
+                ],
+                "excludes": [
+                  {
+                     "local-address": { "name": "chic-ps-tp.es.net" },
+                     "target-addresses": [
+                         {
+                            "name" : "star-ps-tp.es.net"
+                         },
+                         {
+                            "name" : "eqxch2-ps-tp.es.net"
+                         }
+                     ]
+                  },
+                    {
+                       "local-address": { "name": "eqxch2-ps-tp.es.net" },
+                       "target-addresses": [
+                           {
+                              "name" : "chic-ps-tp.es.net"
+                           },
+                           {
+                              "name" : "eqxdc4-ps-tp.es.net"
+                           }
+                       ]
+                    },
+                    {
+                       "local-address": { "name": "eqxdc4-ps-tp.es.net" },
+                       "target-addresses": [
+                           {
+                              "name" : "eqxch2-ps-tp.es.net"
+                           },
+                           {
+                              "name" : "wash-ps-tp.es.net"
+                           }
+                       ]
+                    },
+                    {
+                       "local-address": { "name": "eqxsv5-ps-tp.es.net" },
+                       "target-addresses": [
+                           {
+                            "name" : "sunn-ps-tp.es.net"
+                           }
+                       ]
+                    }
          ],
-         "type" : "disjoint"
+         "type" : "mesh"
       },
       "group_40" : {
          "a-addresses" : [
@@ -12027,7 +12096,7 @@
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
         },
-        "group" : "ESnet6_TP_HUB",
+        "group" : "ESnet6_TP_HUB_test",
         "schedule" : "schedule_0",
         "test" : "ESnet6_TP_1_v4",
         "tools" : [
@@ -12038,6 +12107,38 @@
      "100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv6_Throughput_Testing" : {
         "_meta" : {
            "display-name" : "100G ESnet6 Hub to 100G ESnet6 Hub IPv6 Throughput Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "ESnet6_TP_HUB_test",
+        "schedule" : "schedule_0",
+        "test" : "ESnet6_TP_1_v6",
+        "tools" : [
+           "bwctliperf3",
+           "iperf3"
+        ]
+     },
+     "100G_ESnet6_Hub_to_100G_ESnet6_Hub_Only_IPv4_Throughput_Testing" : {
+        "_meta" : {
+           "display-name" : "100G ESnet6 Hub to 100G ESnet6 Hub Only IPv4 Throughput Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "ESnet6_TP_HUB",
+        "schedule" : "schedule_0",
+        "test" : "ESnet6_TP_1_v4",
+        "tools" : [
+           "bwctliperf3",
+           "iperf3"
+        ]
+     },
+     "100G_ESnet6_Hub_to_100G_ESnet6_Hub_Only_IPv6_Throughput_Testing" : {
+        "_meta" : {
+           "display-name" : "100G ESnet6 Hub to 100G ESnet6 Hub Only IPv6 Throughput Testing"
         },
         "reference": {
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -12059,7 +12160,7 @@
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
         },
-        "group" : "ESnet6_TP_HUB",
+        "group" : "ESnet6_TP_HUB_test",
         "schedule" : "schedule_1",
         "test" : "ESnet6_v6_trace"
      },
@@ -12071,7 +12172,7 @@
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
         },
-        "group" : "ESnet6_TP_HUB",
+        "group" : "ESnet6_TP_HUB_test",
         "schedule" : "schedule_1",
         "test" : "ESnet6_v6_trace"
      },
