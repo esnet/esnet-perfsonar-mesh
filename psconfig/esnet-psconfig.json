@@ -29,22 +29,6 @@
         "address" : "albq-ps-lat.es.net",
         "host" : "albq-ps.es.net"
     },
-    "ameshwh-ps-lat.es.net" : {
-        "_meta" : {
-           "display-name" : "ameshwh-ps-lat.es.net",
-           "display-set" : "ameshwh-ps.es.net"
-        },
-        "address" : "ameshwh-ps-lat.es.net",
-        "host" : "ameshwh-ps.es.net"
-    },
-   "ameshwh-ps-tp.es.net" : {
-        "_meta" : {
-           "display-name" : "ameshwh-ps-tp.es.net",
-           "display-set" : "ameshwh-ps.es.net"
-        },
-        "address" : "ameshwh-ps-tp.es.net",
-        "host" : "ameshwh-ps.es.net"
-    },
     "anl221-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "anl221-ps-tp.es.net",
@@ -3742,13 +3726,6 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
-     "ameshwh-ps.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
-         }
-     },
      "anl221-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6252,71 +6229,65 @@
    "groups" : {
      "ESnet6_TP_HUB_test" : {
         "addresses" : [
-          {
-             "name" : "ameshwh-ps-tp.es.net"
-          },
-          {
-             "name" : "atla-ps-tp.es.net"
-          },
-          {
-             "name" : "chat-ps-tp.es.net"
-          },
-          {
-             "name" : "eqxch2-ps-tp.es.net"
-          },
-          {
-             "name" : "eqxdc4-ps-tp.es.net"
-          },
-          {
-             "name" : "eqxsv5-ps-tp.es.net"
-          },
-          {
-             "name" : "fnalfcc-ps-tp.es.net"
-          },
-          {
-             "name" : "fnalgcc-ps-tp.es.net"
-          },
-          {
-             "name" : "ornl1064-ps-tp.es.net"
-          },
-          {
-             "name" : "ornl5600-ps-tp.es.net"
-          },
-          {
-             "name" : "losa-ps-tp.es.net"
-          }
+      {
+          "name" : "atla-ps-tp.es.net"
+      },
+      {
+          "name" : "chat-ps-tp.es.net"
+      },
+      {
+         "name" : "eqxch2-ps-tp.es.net"
+      },
+      {
+         "name" : "eqxdc4-ps-tp.es.net"
+      },
+      {
+         "name" : "eqxsv5-ps-tp.es.net"
+      },
+      {
+          "name" : "fnalfcc-ps-tp.es.net"
+      },
+      {
+          "name" : "fnalgcc-ps-tp.es.net"
+      },
+      {
+          "name" : "ornl1064-ps-tp.es.net"
+      },
+      {
+          "name" : "ornl5600-ps-tp.es.net"
+      },
+      {
+          "name" : "losa-ps-tp.es.net"
+      }
    ],
    "type" : "mesh"
 },
      "ESnet6_LAT_HUB" : {
         "addresses" : [
-          {
-             "name" : "ameshwh-ps-lat.es.net"
-          },
-          {
-             "name" : "eqxch2-ps-lat.es.net"
-          },
-          {
-             "name" : "eqxdc4-ps-lat.es.net"
-          },
-          {
-             "name" : "eqxsv5-ps-lat.es.net"
-          },
-          {
-             "name" : "fnalfcc-ps-lat.es.net"
-          },
-          {
-             "name" : "fnalgcc-ps-lat.es.net"
-          },
-          {
-             "name" : "ornl1064-ps-lat.es.net"
-          },
-          {
-             "name" : "ornl5600-ps-lat.es.net"
-          },
-          {
-             "name" : "losa-ps-lat.es.net"
-          }
+      {
+         "name" : "eqxch2-ps-lat.es.net"
+      },
+      {
+         "name" : "eqxdc4-ps-lat.es.net"
+      },
+      {
+         "name" : "eqxsv5-ps-lat.es.net"
+      },
+      {
+         "name" : "fnalfcc-ps-lat.es.net"
+      },
+      {
+         "name" : "fnalgcc-ps-lat.es.net"
+      },
+      {
+         "name" : "ornl1064-ps-lat.es.net"
+      },
+      {
+         "name" : "ornl5600-ps-lat.es.net"
+      },
+      {
+         "name" : "losa-ps-lat.es.net"
+      }
    ],
    "type" : "mesh"
 },
@@ -8432,15 +8403,6 @@
         },
         "archives" : [
            "albq-ps.es.net"
-        ]
-     },
-     "ameshwh-ps.es.net" : {
-        "_meta" : {
-           "display-name" : "ameshwh-ps.es.net",
-           "organization-display-name" : "ESnet"
-        },
-        "archives" : [
-           "ameshwh-ps.es.net"
         ]
      },
      "anl221-ps.es.net" : {
