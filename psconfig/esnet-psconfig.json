@@ -29,6 +29,22 @@
         "address" : "albq-ps-lat.es.net",
         "host" : "albq-ps.es.net"
     },
+    "ameshwh-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "ameshwh-ps-lat.es.net",
+           "display-set" : "ameshwh-ps.es.net"
+        },
+        "address" : "ameshwh-ps-lat.es.net",
+        "host" : "ameshwh-ps.es.net"
+    },
+   "ameshwh-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "ameshwh-ps-tp.es.net",
+           "display-set" : "ameshwh-ps.es.net"
+        },
+        "address" : "ameshwh-ps-tp.es.net",
+        "host" : "ameshwh-ps.es.net"
+    },
     "anl221-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "anl221-ps-tp.es.net",
@@ -3726,6 +3742,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "ameshwh-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "anl221-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6229,6 +6252,9 @@
    "groups" : {
      "ESnet6_TP_HUB" : {
         "addresses" : [
+          {
+             "name" : "ameshwh-ps-tp.es.net"
+          }, 
       {
           "name" : "atla-ps-tp.es.net"
       },
@@ -6264,6 +6290,9 @@
 },
      "ESnet6_LAT_HUB" : {
         "addresses" : [
+          {
+             "name" : "ameshwh-ps-lat.es.net"
+          },
       {
          "name" : "eqxch2-ps-lat.es.net"
       },
@@ -8334,6 +8363,15 @@
         },
         "archives" : [
            "albq-ps.es.net"
+        ]
+     },
+     "ameshwh-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "ameshwh-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "ameshwh-ps.es.net"
         ]
      },
      "anl221-ps.es.net" : {
