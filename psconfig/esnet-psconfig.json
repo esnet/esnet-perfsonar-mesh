@@ -221,6 +221,22 @@
         "address" : "eqxch2-ps-lat.es.net",
         "host" : "eqxch2-ps.es.net"
     },
+    "eqxda3-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "eqxda3-ps-lat.es.net",
+           "display-set" : "eqxda3-ps.es.net"
+        },
+        "address" : "eqxda3-ps-lat.es.net",
+        "host" : "eqxda3-ps.es.net"
+    },
+   "eqxda3-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "eqxda3-ps-tp.es.net",
+           "display-set" : "eqxda3-ps.es.net"
+        },
+        "address" : "eqxda3-ps-tp.es.net",
+        "host" : "eqxda3-ps.es.net"
+    },
    "eqxdc4-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "eqxdc4-ps-tp.es.net",
@@ -3826,6 +3842,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "eqxda3-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "eqxdc4-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6254,7 +6277,7 @@
         "addresses" : [
           {
              "name" : "ameshwh-ps-tp.es.net"
-          }, 
+          },
       {
           "name" : "atla-ps-tp.es.net"
       },
@@ -6264,6 +6287,9 @@
       {
          "name" : "eqxch2-ps-tp.es.net"
       },
+      {
+         "name" : "eqxda3-ps-tp.es.net"
+      }, 
       {
          "name" : "eqxdc4-ps-tp.es.net"
       },
@@ -6295,6 +6321,9 @@
           },
       {
          "name" : "eqxch2-ps-lat.es.net"
+      },
+      {
+         "name" : "eqxda3-ps-lat.es.net"
       },
       {
          "name" : "eqxdc4-ps-lat.es.net"
@@ -8471,6 +8500,15 @@
         },
         "archives" : [
            "eqxsv5-ps.es.net"
+        ]
+     },
+     "eqxda3-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "eqxda3-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "eqxda3-ps.es.net"
         ]
      },
      "eqxdc4-ps.es.net" : {
