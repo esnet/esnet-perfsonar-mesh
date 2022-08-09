@@ -269,22 +269,6 @@
         "address" : "eqxsv5-ps-lat.es.net",
         "host" : "eqxsv5-ps.es.net"
     },
-    "ga-ps-tp.es.net" : {
-        "_meta" : {
-           "display-name" : "ga-ps-tp.es.net",
-           "display-set" : "ga-ps.es.net"
-        },
-        "address" : "ga-ps-tp.es.net",
-        "host" : "ga-ps.es.net"
-    },
-    "ga-ps-lat.es.net" : {
-        "_meta" : {
-           "display-name" : "ga-ps-lat.es.net",
-           "display-set" : "ga-ps.es.net"
-        },
-        "address" : "ga-ps-lat.es.net",
-        "host" : "ga-ps.es.net"
-    },
     "fnalfcc-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "fnalfcc-ps-lat.es.net",
@@ -316,6 +300,38 @@
         },
         "address" : "fnalgcc-ps-tp.es.net",
         "host" : "fnalgcc-ps.es.net"
+    },
+    "ga-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "ga-ps-tp.es.net",
+           "display-set" : "ga-ps.es.net"
+        },
+        "address" : "ga-ps-tp.es.net",
+        "host" : "ga-ps.es.net"
+    },
+    "ga-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "ga-ps-lat.es.net",
+           "display-set" : "ga-ps.es.net"
+        },
+        "address" : "ga-ps-lat.es.net",
+        "host" : "ga-ps.es.net"
+    },
+    "hous-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "hous-ps-lat.es.net",
+           "display-set" : "hous-ps.es.net"
+        },
+        "address" : "hous-ps-lat.es.net",
+        "host" : "hous-ps.es.net"
+    },
+   "hous-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "hous-ps-tp.es.net",
+           "display-set" : "hous-ps.es.net"
+        },
+        "address" : "hous-ps-tp.es.net",
+        "host" : "hous-ps.es.net"
     },
     "kans-ps-tp.es.net" : {
         "_meta" : {
@@ -3852,6 +3868,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "hous-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "kans-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6264,6 +6287,9 @@
           "name" : "fnalgcc-ps-tp.es.net"
       },
       {
+         "name" : "hous-ps-tp.es.net"
+      },
+      {
           "name" : "ornl1064-ps-tp.es.net"
       },
       {
@@ -6297,6 +6323,9 @@
       },
       {
          "name" : "fnalgcc-ps-lat.es.net"
+      },
+      {
+         "name" : "hous-ps-lat.es.net"
       },
       {
          "name" : "ornl1064-ps-lat.es.net"
@@ -8512,6 +8541,15 @@
         },
         "archives" : [
            "ga-ps.es.net"
+        ]
+     },
+     "hous-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "hous-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "hous-ps.es.net"
         ]
      },
      "kans-ps.es.net" : {
