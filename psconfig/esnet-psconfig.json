@@ -3508,38 +3508,6 @@
          "address" : "sdm01.rcc.uchicago.edu",
          "host" : "sdm01.rcc.uchicago.edu"
       },
-      "slac-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "slac-owamp.es.net",
-            "display-set" : "slac"
-         },
-         "address" : "slac-owamp-v6.es.net",
-         "host" : "slac-pt1.es.net"
-      },
-      "slac-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "slac-owamp.es.net",
-            "display-set" : "slac"
-         },
-         "address" : "slac-owamp.es.net",
-         "host" : "slac-pt1.es.net"
-      },
-      "slac-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "slac-pt1.es.net",
-            "display-set" : "slac"
-         },
-         "address" : "slac-pt1-v6.es.net",
-         "host" : "slac-pt1.es.net"
-      },
-      "slac-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "slac-pt1.es.net",
-            "display-set" : "slac"
-         },
-         "address" : "slac-pt1.es.net",
-         "host" : "slac-pt1.es.net"
-      },
       "snll-owamp-v6.es.net" : {
          "_meta" : {
             "display-name" : "snll-owamp.es.net",
@@ -6103,13 +6071,6 @@
             "url" : "http://sdm01.rcc.uchicago.edu/esmond/perfsonar/archive/"
          }
       },
-      "slac-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://slac-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "snll-pt1.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6289,7 +6250,7 @@
       },
       {
          "name" : "eqxda3-ps-tp.es.net"
-      }, 
+      },
       {
          "name" : "eqxdc4-ps-tp.es.net"
       },
@@ -6396,9 +6357,6 @@
            },
             {
                "name" : "fnalgcc-ps-tp.es.net"
-            },
-            {
-               "name" : "slac-pt1.es.net"
             }
          ],
          "b-addresses" : [
@@ -11758,15 +11716,6 @@
             "sdm01.rcc.uchicago.edu"
          ],
          "no-agent" : true
-      },
-      "slac-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "slac-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "slac-pt1.es.net"
-         ]
       },
       "snll-pt1.es.net" : {
          "_meta" : {
