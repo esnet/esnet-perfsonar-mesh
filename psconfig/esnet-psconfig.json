@@ -509,6 +509,22 @@
         "address" : "ornl5600-ps-tp.es.net",
         "host" : "ornl5600-ps.es.net"
     },
+    "sacr-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "sacr-ps-lat.es.net",
+           "display-set" : "sacr-ps.es.net"
+        },
+        "address" : "sacr-ps-lat.es.net",
+        "host" : "sacr-ps.es.net"
+    },
+   "sacr-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "sacr-ps-tp.es.net",
+           "display-set" : "sacr-ps.es.net"
+        },
+        "address" : "sacr-ps-tp.es.net",
+        "host" : "sacr-ps.es.net"
+    },
    "salt-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "salt-ps-tp.es.net",
@@ -3968,6 +3984,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "sacr-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
     "salt-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6322,8 +6345,11 @@
           "name" : "ornl5600-ps-tp.es.net"
       },
       {
-         "name" : "snlca-ps-tp.es.net"
+         "name" : "sacr-ps-tp.es.net"
       },
+      {
+         "name" : "snlca-ps-tp.es.net"
+      }
 
    ],
    "type" : "mesh"
@@ -6362,6 +6388,9 @@
       },
       {
          "name" : "ornl5600-ps-lat.es.net"
+      },
+      {
+         "name" : "sacr-ps-lat.es.net"
       },
       {
          "name" : "snlca-ps-lat.es.net"
@@ -8679,6 +8708,15 @@
         },
         "archives" : [
            "ornl5600-ps.es.net"
+        ]
+     },
+     "sacr-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "sacr-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "sacr-ps.es.net"
         ]
      },
     "salt-ps.es.net" : {
