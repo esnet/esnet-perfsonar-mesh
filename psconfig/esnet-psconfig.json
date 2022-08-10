@@ -541,6 +541,22 @@
         "address" : "sand-ps-lat.es.net",
         "host" : "sand-ps.es.net"
     },
+    "snlca-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "snlca-ps-lat.es.net",
+           "display-set" : "snlca-ps.es.net"
+        },
+        "address" : "snlca-ps-lat.es.net",
+        "host" : "snlca-ps.es.net"
+    },
+   "snlca-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "snlca-ps-tp.es.net",
+           "display-set" : "snlca-ps.es.net"
+        },
+        "address" : "snlca-ps-tp.es.net",
+        "host" : "snlca-ps.es.net"
+    },
     "star-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "star-ps-tp.es.net",
@@ -3966,6 +3982,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "snlca-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "star-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6288,6 +6311,9 @@
       },
       {
          "name" : "hous-ps-tp.es.net"
+       },
+       {
+           "name" : "losa-ps-tp.es.net"
       },
       {
           "name" : "ornl1064-ps-tp.es.net"
@@ -6296,8 +6322,9 @@
           "name" : "ornl5600-ps-tp.es.net"
       },
       {
-          "name" : "losa-ps-tp.es.net"
-      }
+         "name" : "snlca-ps-tp.es.net"
+      },
+
    ],
    "type" : "mesh"
 },
@@ -6326,6 +6353,9 @@
       },
       {
          "name" : "hous-ps-lat.es.net"
+       },
+       {
+          "name" : "losa-ps-lat.es.net"
       },
       {
          "name" : "ornl1064-ps-lat.es.net"
@@ -6334,7 +6364,7 @@
          "name" : "ornl5600-ps-lat.es.net"
       },
       {
-         "name" : "losa-ps-lat.es.net"
+         "name" : "snlca-ps-lat.es.net"
       }
    ],
    "type" : "mesh"
@@ -8667,6 +8697,15 @@
         },
         "archives" : [
            "sand-ps.es.net"
+        ]
+     },
+     "snlca-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "snlca-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "snlca-ps.es.net"
         ]
      },
      "star-ps.es.net" : {
