@@ -6312,43 +6312,16 @@
           "name" : "atla-ps-tp.es.net"
       },
       {
-          "name" : "chat-ps-tp.es.net"
-      },
-      {
          "name" : "eqxch2-ps-tp.es.net"
       },
       {
          "name" : "eqxda3-ps-tp.es.net"
       },
       {
-         "name" : "eqxdc4-ps-tp.es.net"
-      },
-      {
-         "name" : "eqxsv5-ps-tp.es.net"
-      },
-      {
-          "name" : "fnalfcc-ps-tp.es.net"
-      },
-      {
           "name" : "fnalgcc-ps-tp.es.net"
       },
-      {
-         "name" : "hous-ps-tp.es.net"
-       },
        {
            "name" : "losa-ps-tp.es.net"
-      },
-      {
-          "name" : "ornl1064-ps-tp.es.net"
-      },
-      {
-          "name" : "ornl5600-ps-tp.es.net"
-      },
-      {
-         "name" : "sacr-ps-tp.es.net"
-      },
-      {
-         "name" : "snlca-ps-tp.es.net"
       }
 
    ],
@@ -6366,34 +6339,10 @@
          "name" : "eqxda3-ps-lat.es.net"
       },
       {
-         "name" : "eqxdc4-ps-lat.es.net"
-      },
-      {
-         "name" : "eqxsv5-ps-lat.es.net"
-      },
-      {
-         "name" : "fnalfcc-ps-lat.es.net"
-      },
-      {
          "name" : "fnalgcc-ps-lat.es.net"
       },
-      {
-         "name" : "hous-ps-lat.es.net"
-       },
        {
           "name" : "losa-ps-lat.es.net"
-      },
-      {
-         "name" : "ornl1064-ps-lat.es.net"
-      },
-      {
-         "name" : "ornl5600-ps-lat.es.net"
-      },
-      {
-         "name" : "sacr-ps-lat.es.net"
-      },
-      {
-         "name" : "snlca-ps-lat.es.net"
       }
    ],
    "type" : "mesh"
@@ -6423,12 +6372,18 @@
             },
             {
                "name" : "llnl-ps-tp.es.net"
+            },
+            {
+               "name" : "ornl1064-ps-tp.es.net"
+            },
+            {
+               "name" : "ornl5600-ps-tp.es.net"
+            },
+            {
+               "name" : "snlca-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "eqxch2-ps-tp.es.net"
-            },
             {
                "name" : "eqxdc4-ps-tp.es.net"
             },
@@ -6449,9 +6404,6 @@
          ],
          "b-addresses" : [
             {
-               "name" : "eqxch2-ps-tp.es.net"
-            },
-            {
                "name" : "eqxdc4-ps-tp.es.net"
             },
             {
@@ -6462,9 +6414,6 @@
       },
       "group_2" : {
          "a-addresses" : [
-           {
-              "name" : "atla-ps-tp.es.net"
-           },
            {
               "name" : "bois-ps-tp.es.net"
            },
@@ -6481,16 +6430,10 @@
               "name" : "elpa-ps-tp.es.net"
            },
            {
-              "name" : "eqxch2-ps-tp.es.net"
-           },
-           {
-              "name" : "eqxdc4-ps-tp.es.net"
-           },
-           {
-              "name" : "eqxsv5-ps-tp.es.net"
-           },
-           {
               "name" : "kans-ps-tp.es.net"
+           },
+           {
+              "name" : "hous-ps-tp.es.net"
            },
            {
               "name" : "newy1118th-ps-tp.es.net"
@@ -6502,13 +6445,13 @@
               "name" : "sand-ps-tp.es.net"
            },
            {
+              "name" : "sacr-ps-tp.es.net"
+           },
+           {
               "name" : "star-ps-tp.es.net"
            }
          ],
          "b-addresses" : [
-           {
-              "name" : "eqxch2-ps-tp.es.net"
-           },
            {
               "name" : "eqxdc4-ps-tp.es.net"
            },
@@ -6585,6 +6528,9 @@
               "name" : "ga-ps-lat.es.net"
            },
            {
+              "name" : "hous-ps-lat.es.net"
+           },
+           {
               "name" : "kans-ps-lat.es.net"
            },
            {
@@ -6607,6 +6553,9 @@
            },
            {
               "name" : "newy32aoa-ps-lat.es.net"
+           },
+           {
+              "name" : "sacr-ps-lat.es.net"
            },
            {
               "name" : "salt-ps-lat.es.net"
