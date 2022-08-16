@@ -6329,9 +6329,12 @@
 },
      "ESnet6_LAT_HUB" : {
         "addresses" : [
-          {
-             "name" : "ameshwh-ps-lat.es.net"
-          },
+      {
+         "name" : "ameshwh-ps-lat.es.net"
+      },
+      {
+         "name" : "anl221-ps-lat.es.net"
+      },
       {
          "name" : "eqxch2-ps-lat.es.net"
       },
@@ -6484,9 +6487,6 @@
          "addresses" : [
            {
               "name" : "albq-ps-lat.es.net"
-           },
-           {
-              "name" : "anl221-ps-lat.es.net"
            },
            {
               "name" : "atla-ps-lat.es.net"
