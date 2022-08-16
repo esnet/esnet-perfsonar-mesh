@@ -6418,6 +6418,9 @@
       "group_2" : {
          "a-addresses" : [
            {
+              "name" : "atla-ps-tp.es.net"
+           },
+           {
               "name" : "bois-ps-tp.es.net"
            },
            {
@@ -6427,22 +6430,31 @@
               "name" : "chat-ps-tp.es.net"
            },
            {
+              "name" : "chic-ps-tp.es.net"
+           },
+           {
               "name" : "denv-ps-tp.es.net"
            },
            {
               "name" : "elpa-ps-tp.es.net"
            },
            {
-              "name" : "kans-ps-tp.es.net"
+              "name" : "hous-ps-tp.es.net"
            },
            {
-              "name" : "hous-ps-tp.es.net"
+              "name" : "nash-ps-tp.es.net"
+           },
+           {
+              "name" : "kans-ps-tp.es.net"
            },
            {
               "name" : "newy1118th-ps-tp.es.net"
            },
            {
               "name" : "newy32aoa-ps-tp.es.net"
+           },
+           {
+              "name" : "salt-ps-tp.es.net"
            },
            {
               "name" : "sand-ps-tp.es.net"
@@ -6452,6 +6464,12 @@
            },
            {
               "name" : "star-ps-tp.es.net"
+           },
+           {
+               "name" : "sunn-ps-tp.es.net"
+           },
+           {
+               "name" : "wash-ps-tp.es.net"
            }
          ],
          "b-addresses" : [
