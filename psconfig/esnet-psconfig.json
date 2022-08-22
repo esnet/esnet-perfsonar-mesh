@@ -6348,9 +6348,6 @@
       "group_0" : {
          "a-addresses" : [
            {
-              "name" : "anl221-ps-tp.es.net"
-           },
-           {
               "name" : "bnl515-ps-tp.es.net"
            },
            {
@@ -6563,9 +6560,6 @@
            },
            {
               "name" : "newy32aoa-ps-lat.es.net"
-           },
-           {
-              "name" : "sacr-ps-lat.es.net"
            },
            {
               "name" : "salt-ps-lat.es.net"
@@ -7920,6 +7914,9 @@
          "a-addresses" : [
             {
                "name" : "eqxch2-ps-tp.es.net"
+            },
+            {
+               "name" : "eqxdc4-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
@@ -8040,6 +8037,9 @@
          "a-addresses" : [
            {
               "name" : "eqxch2-ps-lat.es.net"
+           },
+           {
+              "name" : "eqxdc4-ps-lat.es.net"
            }
          ],
          "b-addresses" : [
