@@ -8387,7 +8387,101 @@
      }
    ],
    "type" : "disjoint"
- }
+ },
+ "group_ESnet6_HUB_to_HUB_TP_Mesh" : {
+    "addresses" : [
+      {
+         "name" : "bost-ps-tp.es.net"
+      },
+      {
+         "name" : "chic-ps-tp.es.net"
+      },
+      {
+         "name" : "eqxch2-ps-tp.es.net"
+      },
+      {
+         "name" : "eqxdc4-ps-tp.es.net"
+      },
+      {
+         "name" : "star-ps-tp.es.net"
+      },
+      {
+         "name" : "wash-ps-tp.es.net"
+      }
+    ],
+    "excludes": [
+        {
+           "local-address": { "name": "bost-ps-tp.es.net" },
+           "target-addresses": [
+               {
+                  "name" : "wash-ps-tp.es.net"
+               },
+               {
+                  "name" : "eqxdc4-ps-tp.es.net"
+               },
+               {
+                  "name" : "chic-ps-tp.es.net"
+               }
+           ]
+        },
+        {
+           "local-address": { "name": "chic-ps-tp.es.net" },
+           "target-addresses": [
+             {
+                "name" : "bost-ps-tp.es.net"
+             },
+             {
+                "name" : "eqxdc4-ps-tp.es.net"
+             }
+           ]
+        },
+        {
+           "local-address": { "name": "eqxch2-ps-tp.es.net" },
+           "target-addresses": [
+             {
+                "name" : "wash-ps-tp.es.net"
+             }
+           ]
+        },
+        {
+           "local-address": { "name": "eqxdc4-ps-tp.es.net" },
+           "target-addresses": [
+             {
+                "name" : "bost-ps-tp.es.net"
+             },
+             {
+                "name" : "chic-ps-tp.es.net"
+             },
+             {
+                "name" : "star-ps-tp.es.net"
+             }
+           ]
+        },
+        {
+           "local-address": { "name": "star-ps-tp.es.net" },
+           "target-addresses": [
+             {
+                "name" : "eqxdc4-ps-tp.es.net"
+             },
+             {
+                "name" : "wash-ps-tp.es.net"
+             }
+           ]
+        },
+        {
+           "local-address": { "name": "wash-ps-tp.es.net" },
+           "target-addresses": [
+             {
+                "name" : "bost-ps-tp.es.net"
+             },
+             {
+                "name" : "star-ps-tp.es.net"
+             }
+           ]
+        }
+    ],
+    "type" : "mesh"
+}
    },
    "hosts" : {
      "albq-ps.es.net" : {
@@ -12058,6 +12152,22 @@
       }
    },
    "tasks" : {
+     "100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv4_Throughput_Testing_Mesh_Excludes" : {
+        "_meta" : {
+           "display-name" : "100G ESnet6 Hub to 100G ESnet6 Hub IPv4 Throughput Testing Mesh"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "group_ESnet6_HUB_to_HUB_TP_Mesh",
+        "schedule" : "schedule_0",
+        "test" : "ESnet6_TP_1_v4",
+        "tools" : [
+           "bwctliperf3",
+           "iperf3"
+        ]
+     },
      "ESnet_to_ESnet_v4_Packet_Loss_Testing" : {
         "_meta" : {
            "display-name" : "ESnet6 to ESnet6 IPv4 Packet Loss Testing"
