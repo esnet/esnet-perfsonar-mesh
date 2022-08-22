@@ -61,6 +61,22 @@
         "address" : "anl221-ps-lat.es.net",
         "host" : "anl221-ps.es.net"
     },
+    "anl541b-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "anl541b-ps-lat.es.net",
+           "display-set" : "anl541b-ps.es.net"
+        },
+        "address" : "anl541b-ps-lat.es.net",
+        "host" : "anl541b-ps.es.net"
+    },
+   "anl541b-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "anl541b-ps-tp.es.net",
+           "display-set" : "anl541b-ps.es.net"
+        },
+        "address" : "anl541b-ps-tp.es.net",
+        "host" : "anl541b-ps.es.net"
+    },
     "atla-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "atla-ps-tp.es.net",
@@ -3482,38 +3498,6 @@
          "address" : "rneonly-ps.ps.uhnet.net",
          "host" : "rneonly-ps.ps.uhnet.net"
       },
-      "sacr-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "sacr-owamp-v6.es.net",
-            "display-set" : "sacr"
-         },
-         "address" : "sacr-owamp-v6.es.net",
-         "host" : "sacr-pt1.es.net"
-      },
-      "sacr-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "sacr-owamp.es.net",
-            "display-set" : "sacr"
-         },
-         "address" : "sacr-owamp.es.net",
-         "host" : "sacr-pt1.es.net"
-      },
-      "sacr-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "sacr-pt1-v6.es.net",
-            "display-set" : "sacr"
-         },
-         "address" : "sacr-pt1-v6.es.net",
-         "host" : "sacr-pt1.es.net"
-      },
-      "sacr-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "sacr-pt1.es.net",
-            "display-set" : "sacr"
-         },
-         "address" : "sacr-pt1.es.net",
-         "host" : "sacr-pt1.es.net"
-      },
       "sampaps01.if.usp.br" : {
          "_meta" : {
             "display-name" : "sampaps01.if.usp.br"
@@ -3782,6 +3766,13 @@
          }
      },
      "anl221-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "anl541b-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
@@ -6091,13 +6082,6 @@
             "url" : "http://rneonly-ps.ps.uhnet.net/esmond/perfsonar/archive/"
          }
       },
-      "sacr-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://sacr-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "sampaps01.if.usp.br" : {
          "archiver" : "esmond",
          "data" : {
@@ -6312,6 +6296,12 @@
           "name" : "atla-ps-tp.es.net"
       },
       {
+         "name" : "anl221-ps-tp.es.net"
+      },
+      {
+         "name" : "anl541b-ps-tp.es.net"
+      },
+      {
          "name" : "eqxch2-ps-tp.es.net"
       },
       {
@@ -6323,7 +6313,6 @@
        {
            "name" : "losa-ps-tp.es.net"
       }
-
    ],
    "type" : "mesh"
 },
@@ -6336,6 +6325,9 @@
          "name" : "anl221-ps-lat.es.net"
       },
       {
+         "name" : "anl541b-ps-lat.es.net"
+      },
+      {
          "name" : "eqxch2-ps-lat.es.net"
       },
       {
@@ -6344,8 +6336,11 @@
       {
          "name" : "fnalgcc-ps-lat.es.net"
       },
-       {
-          "name" : "losa-ps-lat.es.net"
+      {
+        "name" : "losa-ps-lat.es.net"
+      },
+      {
+         "name" : "sacr-ps-lat.es.net"
       }
    ],
    "type" : "mesh"
@@ -6384,6 +6379,9 @@
             },
             {
                "name" : "snlca-ps-tp.es.net"
+            },
+            {
+               "name" : "sacr-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
@@ -6458,9 +6456,6 @@
            },
            {
               "name" : "sand-ps-tp.es.net"
-           },
-           {
-              "name" : "sacr-ps-tp.es.net"
            },
            {
               "name" : "star-ps-tp.es.net"
@@ -8423,6 +8418,15 @@
         },
         "archives" : [
            "anl221-ps.es.net"
+        ]
+     },
+     "anl541b-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "anl541b-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "anl541b-ps.es.net"
         ]
      },
      "atla-ps.es.net" : {
@@ -11729,15 +11733,6 @@
             "rneonly-ps.ps.uhnet.net"
          ],
          "no-agent" : true
-      },
-      "sacr-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "sacr-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "sacr-pt1.es.net"
-         ]
       },
       "sampaps01.if.usp.br" : {
          "_meta" : {
