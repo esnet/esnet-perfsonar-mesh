@@ -573,6 +573,22 @@
         "address" : "sand-ps-lat.es.net",
         "host" : "sand-ps.es.net"
     },
+    "seat-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "seat-ps-lat.es.net",
+           "display-set" : "seat-ps.es.net"
+        },
+        "address" : "seat-ps-lat.es.net",
+        "host" : "seat-ps.es.net"
+    },
+   "seat-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "seat-ps-tp.es.net",
+           "display-set" : "seat-ps.es.net"
+        },
+        "address" : "seat-ps-tp.es.net",
+        "host" : "seat-ps.es.net"
+    },
     "snlca-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "snlca-ps-lat.es.net",
@@ -3996,6 +4012,13 @@
             "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "seat-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "snlca-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6312,6 +6335,12 @@
       },
        {
            "name" : "losa-ps-tp.es.net"
+      },
+      {
+         "name" : "sacr-ps-tp.es.net"
+      },
+      {
+         "name" : "seat-ps-tp.es.net"
       }
    ],
    "type" : "mesh"
@@ -6341,6 +6370,9 @@
       },
       {
          "name" : "sacr-ps-lat.es.net"
+      },
+      {
+         "name" : "seat-ps-lat.es.net"
       }
    ],
    "type" : "mesh"
@@ -10453,6 +10485,15 @@
         },
         "archives" : [
            "sand-ps.es.net"
+        ]
+     },
+     "seat-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "seat-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "seat-ps.es.net"
         ]
      },
      "snlca-ps.es.net" : {
