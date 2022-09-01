@@ -8489,6 +8489,9 @@
          "name" : "salt-ps-tp.es.net"
       },
       {
+         "name" : "seat-ps-tp.es.net"
+      },
+      {
          "name" : "star-ps-tp.es.net"
       },
       {
@@ -8563,6 +8566,9 @@
               "name" : "salt-ps-tp.es.net"
            },
            {
+              "name" : "seat-ps-tp.es.net"
+           },
+           {
               "name" : "star-ps-tp.es.net"
            },
            {
@@ -8626,6 +8632,9 @@
            },
            {
               "name" : "salt-ps-tp.es.net"
+           },
+           {
+              "name" : "seat-ps-tp.es.net"
            },
            {
               "name" : "star-ps-tp.es.net"
@@ -8699,6 +8708,9 @@
               "name" : "sacr-ps-tp.es.net"
            },
            {
+              "name" : "seat-ps-tp.es.net"
+           },
+           {
               "name" : "star-ps-tp.es.net"
            },
            {
@@ -8770,6 +8782,9 @@
                 "name" : "salt-ps-tp.es.net"
              },
              {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
                 "name" : "sunn-ps-tp.es.net"
              },
              {
@@ -8832,6 +8847,9 @@
                 "name" : "salt-ps-tp.es.net"
              },
              {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
                 "name" : "star-ps-tp.es.net"
              },
              {
@@ -8886,6 +8904,9 @@
              },
              {
                 "name" : "salt-ps-tp.es.net"
+             },
+             {
+                "name" : "seat-ps-tp.es.net"
              },
              {
                 "name" : "sunn-ps-tp.es.net"
@@ -8945,6 +8966,9 @@
              },
              {
                 "name" : "sand-ps-tp.es.net"
+             },
+             {
+                "name" : "seat-ps-tp.es.net"
              },
              {
                 "name" : "star-ps-tp.es.net"
@@ -9015,12 +9039,14 @@
                 "name" : "salt-ps-tp.es.net"
              },
              {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
                 "name" : "star-ps-tp.es.net"
              },
              {
                 "name" : "wash-ps-tp.es.net"
              }
-
            ]
         },
         {
@@ -9079,6 +9105,9 @@
              },
              {
                 "name" : "salt-ps-tp.es.net"
+             },
+             {
+                "name" : "seat-ps-tp.es.net"
              },
              {
                 "name" : "sunn-ps-tp.es.net"
@@ -9152,6 +9181,9 @@
                 "name" : "star-ps-tp.es.net"
              },
              {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
                 "name" : "sunn-ps-tp.es.net"
              },
              {
@@ -9221,6 +9253,9 @@
              },
              {
                 "name" : "salt-ps-tp.es.net"
+             },
+             {
+                "name" : "seat-ps-tp.es.net"
              },
              {
                 "name" : "star-ps-tp.es.net"
@@ -9294,6 +9329,9 @@
                 "name" : "salt-ps-tp.es.net"
              },
              {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
                 "name" : "star-ps-tp.es.net"
              },
              {
@@ -9359,6 +9397,9 @@
                 "name" : "salt-ps-tp.es.net"
              },
              {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
                 "name" : "star-ps-tp.es.net"
              },
              {
@@ -9422,6 +9463,9 @@
              },
              {
                 "name" : "salt-ps-tp.es.net"
+             },
+             {
+                "name" : "seat-ps-tp.es.net"
              },
              {
                 "name" : "star-ps-tp.es.net"
@@ -9495,6 +9539,9 @@
                 "name" : "sacr-ps-tp.es.net"
              },
              {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
                 "name" : "star-ps-tp.es.net"
              },
              {
@@ -9566,6 +9613,9 @@
                 "name" : "salt-ps-tp.es.net"
              },
              {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
                 "name" : "star-ps-tp.es.net"
              },
              {
@@ -9626,6 +9676,9 @@
              },
              {
                 "name" : "salt-ps-tp.es.net"
+             },
+             {
+                "name" : "seat-ps-tp.es.net"
              },
              {
                 "name" : "star-ps-tp.es.net"
@@ -9694,6 +9747,9 @@
              },
              {
                 "name" : "salt-ps-tp.es.net"
+             },
+             {
+                "name" : "seat-ps-tp.es.net"
              },
              {
                 "name" : "sunn-ps-tp.es.net"
@@ -9767,6 +9823,9 @@
                 "name" : "salt-ps-tp.es.net"
              },
              {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
                 "name" : "sunn-ps-tp.es.net"
              }
            ]
@@ -9830,6 +9889,9 @@
              },
              {
                 "name" : "salt-ps-tp.es.net"
+             },
+             {
+                "name" : "seat-ps-tp.es.net"
              },
              {
                 "name" : "star-ps-tp.es.net"
@@ -9962,6 +10024,83 @@
                 "name" : "sand-ps-tp.es.net"
              },
              {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
+                "name" : "star-ps-tp.es.net"
+             },
+             {
+                "name" : "sunn-ps-tp.es.net"
+             },
+             {
+                "name" : "wash-ps-tp.es.net"
+             }
+           ]
+        },
+        {
+           "local-address": { "name": "seat-ps-tp.es.net" },
+           "target-addresses": [
+             {
+                "name" : "albq-ps-tp.es.net"
+             },
+             {
+                "name" : "atla-ps-tp.es.net"
+             },
+             {
+                "name" : "bost-ps-tp.es.net"
+             },
+             {
+                "name" : "chat-ps-tp.es.net"
+             },
+             {
+                "name" : "chic-ps-tp.es.net"
+             },
+             {
+                "name" : "elpa-ps-tp.es.net"
+             },
+             {
+                "name" : "eqxch2-ps-tp.es.net"
+             },
+             {
+                "name" : "eqxda3-ps-tp.es.net"
+             },
+             {
+                "name" : "eqxdc4-ps-tp.es.net"
+             },
+             {
+                "name" : "eqxsv5-ps-tp.es.net"
+             },
+             {
+                "name" : "hous-ps-tp.es.net"
+             },
+             {
+                "name" : "kans-ps-tp.es.net"
+             },
+             {
+                "name" : "lasv-ps-tp.es.net"
+             },
+             {
+                "name" : "losa-ps-tp.es.net"
+             },
+             {
+                "name" : "nash-ps-tp.es.net"
+             },
+             {
+                "name" : "newy1118th-ps-tp.es.net"
+             },
+             {
+                "name" : "newy32aoa-ps-tp.es.net"
+             },
+             {
+                "name" : "sand-ps-tp.es.net"
+             },
+             {
+                "name" : "salt-ps-tp.es.net"
+             },
+             {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
                 "name" : "star-ps-tp.es.net"
              },
              {
@@ -10025,6 +10164,9 @@
              },
              {
                 "name" : "sacr-ps-tp.es.net"
+             },
+             {
+                "name" : "seat-ps-tp.es.net"
              },
              {
                 "name" : "star-ps-tp.es.net"
@@ -10095,6 +10237,9 @@
                 "name" : "salt-ps-tp.es.net"
              },
              {
+                "name" : "seat-ps-tp.es.net"
+             },
+             {
                 "name" : "star-ps-tp.es.net"
              },
              {
@@ -10158,6 +10303,9 @@
              },
              {
                 "name" : "salt-ps-tp.es.net"
+             },
+             {
+                "name" : "seat-ps-tp.es.net"
              },
              {
                 "name" : "star-ps-tp.es.net"
