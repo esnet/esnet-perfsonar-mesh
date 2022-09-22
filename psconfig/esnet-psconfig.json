@@ -1253,118 +1253,6 @@
          "address" : "ccperfsonar2.in2p3.fr",
          "host" : "ccperfsonar2.in2p3.fr"
       },
-      "cern-513-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "cern-513-owamp.es.net",
-            "display-set" : "cern-513"
-         },
-         "address" : "cern-513-owamp-v6.es.net",
-         "host" : "cern-513-pt1.es.net"
-      },
-      "cern-513-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "cern-513-owamp.es.net",
-            "display-set" : "cern-513"
-         },
-         "address" : "cern-513-owamp.es.net",
-         "host" : "cern-513-pt1.es.net"
-      },
-      "cern-513-owamp.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "cern-513-owamp.es.net",
-            "display-set" : "cern-513_backup"
-         },
-         "address" : "192.168.14.30",
-         "host" : "cern-513-pt1.es.net"
-      },
-      "cern-513-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "cern-513-pt1.es.net",
-            "display-set" : "cern-513"
-         },
-         "address" : "cern-513-pt1-v6.es.net",
-         "host" : "cern-513-pt1.es.net"
-      },
-      "cern-513-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "cern-513-pt1.es.net",
-            "display-set" : "cern-513"
-         },
-         "address" : "cern-513-pt1.es.net",
-         "host" : "cern-513-pt1.es.net"
-      },
-      "cern-513-pt1.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "cern-513-pt1.es.net",
-            "display-set" : "cern-513_backup"
-         },
-         "address" : "192.168.14.26",
-         "host" : "cern-513-pt1.es.net"
-      },
-      "cern-773-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "cern-773-owamp.es.net",
-            "display-set" : "cern-773"
-         },
-         "address" : "cern-773-owamp-v6.es.net",
-         "host" : "cern-773-pt1.es.net"
-      },
-      "cern-773-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "cern-773-owamp.es.net",
-            "display-set" : "cern-773"
-         },
-         "address" : "cern-773-owamp.es.net",
-         "host" : "cern-773-pt1.es.net"
-      },
-      "cern-773-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "cern-773-pt1.es.net",
-            "display-set" : "cern-773"
-         },
-         "address" : "cern-773-pt1-v6.es.net",
-         "host" : "cern-773-pt1.es.net"
-      },
-      "cern-773-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "cern-773-pt1.es.net",
-            "display-set" : "cern-773"
-         },
-         "address" : "cern-773-pt1.es.net",
-         "host" : "cern-773-pt1.es.net"
-      },
-      "chic-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "chic-owamp.es.net",
-            "display-set" : "chic"
-         },
-         "address" : "chic-owamp-v6.es.net",
-         "host" : "chic-pt1.es.net"
-      },
-      "chic-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "chic-owamp.es.net",
-            "display-set" : "chic"
-         },
-         "address" : "chic-owamp.es.net",
-         "host" : "chic-pt1.es.net"
-      },
-      "chic-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "chic-pt1.es.net",
-            "display-set" : "chic"
-         },
-         "address" : "chic-pt1-v6.es.net",
-         "host" : "chic-pt1.es.net"
-      },
-      "chic-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "chic-pt1.es.net",
-            "display-set" : "chic"
-         },
-         "address" : "chic-pt1.es.net",
-         "host" : "chic-pt1.es.net"
-      },
       "cl-perfsonar0-prod.cssd.pitt.edu" : {
          "_meta" : {
             "display-name" : "cl-perfsonar0-prod.cssd.pitt.edu"
@@ -4488,27 +4376,6 @@
             "url" : "http://ccperfsonar2.in2p3.fr/esmond/perfsonar/archive/"
          }
       },
-      "cern-513-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://cern-513-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "cern-773-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://cern-773-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "chic-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://chic-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "cl-perfsonar0-prod.cssd.pitt.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -6618,12 +6485,6 @@
             },
             {
                "name" : "lond-pt1.es.net"
-            },
-            {
-               "name" : "cern-773-pt1.es.net"
-            },
-            {
-               "name" : "cern-513-pt1.es.net"
             }
          ],
          "b-addresses" : [
@@ -6649,12 +6510,6 @@
             },
             {
                "name" : "lond-owamp.es.net"
-            },
-            {
-               "name" : "cern-773-owamp.es.net"
-            },
-            {
-               "name" : "cern-513-owamp.es.net"
             }
          ],
          "b-addresses" : [
@@ -6677,12 +6532,6 @@
             },
             {
                "name" : "lond-pt1.es.net"
-            },
-            {
-               "name" : "cern-773-pt1.es.net"
-            },
-            {
-               "name" : "cern-513-pt1.es.net"
             }
          ],
          "type" : "mesh"
@@ -6694,12 +6543,6 @@
             },
             {
                "name" : "lond-owamp.es.net"
-            },
-            {
-               "name" : "cern-773-owamp.es.net"
-            },
-            {
-               "name" : "cern-513-owamp.es.net"
             }
          ],
          "type" : "mesh"
@@ -7027,9 +6870,6 @@
                "name" : "amst-pt1.es.net"
             },
             {
-               "name" : "cern-773-pt1.es.net"
-            },
-            {
                "name" : "lond-pt1.es.net"
             }
          ],
@@ -7050,9 +6890,6 @@
          "b-addresses" : [
             {
                "name" : "amst-owamp.es.net"
-            },
-            {
-               "name" : "cern-773-owamp.es.net"
             },
             {
                "name" : "lond-owamp.es.net"
@@ -7488,7 +7325,7 @@
               "name" : "eqxch2-ps-tp.es.net"
            },
             {
-               "name" : "cern-773-pt1.es.net"
+               "name" : "amst-pt1.es.net"
             }
          ],
          "type" : "mesh"
@@ -7634,9 +7471,6 @@
          ],
          "b-addresses" : [
             {
-               "name" : "cern-773-pt1.es.net"
-            },
-            {
                "name" : "lond-pt1.es.net"
             },
             {
@@ -7655,9 +7489,6 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "cern-773-owamp.es.net"
-            },
             {
                "name" : "lond-owamp.es.net"
             },
@@ -7953,7 +7784,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "cern-513-pt1.es.net__backup"
+               "name" : "amst-pt1.es.net"
             }
          ],
          "excludes": [
@@ -7967,98 +7798,10 @@
                        "name" : "lond-pt1.es.net__backup"
                     },
                     {
-                       "name" : "cern-513-pt1.es.net__backup"
-                    },
-                    {
                        "name" : "lond-pt1.es.net__neaar"
                     },
                     {
                        "name" : "lond-pt1.es.net__aqua"
-                    }
-                ]
-             },
-             {
-                "local-address": { "name": "bost-pt1.es.net__backup" },
-                "target-addresses": [
-                    {
-                       "name" : "lond-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "cern-513-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__neaar"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__aqua"
-                    }
-                ]
-             },
-             {
-                "local-address": { "name": "newy-pt1.es.net__backup" },
-                "target-addresses": [
-                    {
-                       "name" : "amst-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "cern-513-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__neaar"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__aqua"
-                    }
-                ]
-             },
-             {
-                "local-address": { "name": "wash-ps-tp.es.net__backup" },
-                "target-addresses": [
-                    {
-                       "name" : "amst-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__neaar"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__aqua"
-                    }
-                ]
-             },
-             {
-                "local-address": { "name": "aofa-pt1.es.net__neaar" },
-                "target-addresses": [
-                    {
-                       "name" : "amst-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "cern-513-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__aqua"
-                    }
-                ]
-             },
-             {
-                "local-address": { "name": "aofa-pt1.es.net__aqua" },
-                "target-addresses": [
-                    {
-                       "name" : "amst-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "cern-513-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__neaar"
                     }
                 ]
              }
@@ -8076,7 +7819,7 @@
          ],
          "b-addresses" : [
             {
-               "name" : "cern-513-owamp.es.net"
+               "name" : "amst-owamp.es.net"
             }
          ],
          "excludes": [
@@ -8090,98 +7833,10 @@
                        "name" : "lond-owamp.es.net__backup"
                     },
                     {
-                       "name" : "cern-513-owamp.es.net__backup"
-                    },
-                    {
                        "name" : "lond-owamp.es.net__neaar"
                     },
                     {
                        "name" : "lond-owamp.es.net__aqua"
-                    }
-                ]
-             },
-             {
-                "local-address": { "name": "bost-owamp.es.net__backup" },
-                "target-addresses": [
-                    {
-                       "name" : "lond-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "cern-513-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__neaar"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__aqua"
-                    }
-                ]
-             },
-             {
-                "local-address": { "name": "newy-owamp.es.net__backup" },
-                "target-addresses": [
-                    {
-                       "name" : "amst-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "cern-513-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__neaar"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__aqua"
-                    }
-                ]
-             },
-             {
-                "local-address": { "name": "wash-ps-lat.es.net__backup" },
-                "target-addresses": [
-                    {
-                       "name" : "amst-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__neaar"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__aqua"
-                    }
-                ]
-             },
-             {
-                "local-address": { "name": "aofa-owamp.es.net__neaar" },
-                "target-addresses": [
-                    {
-                       "name" : "amst-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "cern-513-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__aqua"
-                    }
-                ]
-             },
-             {
-                "local-address": { "name": "aofa-owamp.es.net__aqua" },
-                "target-addresses": [
-                    {
-                       "name" : "amst-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "cern-513-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__neaar"
                     }
                 ]
              }
@@ -11329,33 +10984,6 @@
             "ccperfsonar2.in2p3.fr"
          ],
          "no-agent" : true
-      },
-      "cern-513-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "cern-513-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "cern-513-pt1.es.net"
-         ]
-      },
-      "cern-773-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "cern-773-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "cern-773-pt1.es.net"
-         ]
-      },
-      "chic-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "chic-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "chic-pt1.es.net"
-         ]
       },
       "cl-perfsonar0-prod.cssd.pitt.edu" : {
          "_meta" : {
