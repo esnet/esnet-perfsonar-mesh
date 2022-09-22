@@ -3659,280 +3659,280 @@
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "ameshwh-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "anl221-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "anl541b-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "atla-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "bnl515-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "bnl515b-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "bois-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "bost-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "chat-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "chic-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "denv-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "elpa-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "eqxch2-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "eqxda3-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "eqxdc4-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "eqxsv5-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "fnalfcc-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "fnalgcc-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "ga-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "hous-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "kans-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "lasv-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "lbnl50-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "lbnl59-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "llnl-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "losa-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "nash-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "newy32aoa-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "newy1118th-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "ornl1064-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "ornl5600-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "sacr-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
     "salt-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "sand-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "seat-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "snlca-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "star-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "wash-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "sunn-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-east.es.net/esmond/perfsonar/archive/"
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
      "perfsonar.rc.asu.edu" : {
