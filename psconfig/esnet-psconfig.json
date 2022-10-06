@@ -6617,13 +6617,11 @@
       },
       "group_9" : {
          "a-addresses" : [
-            {
-               "name" : "ga-ps-lat.es.net"
-            }
-         ],
-         "b-addresses" : [
            {
               "name" : "eqxch2-ps-lat.es.net"
+           },
+           {
+              "name" : "eqxda3-ps-lat.es.net"
            },
            {
               "name" : "eqxdc4-ps-lat.es.net"
@@ -6631,6 +6629,14 @@
             {
                "name" : "eqxsv5-ps-lat.es.net"
             }
+         ],
+         "b-addresses" : [
+           {
+              "name" : "ga-ps-lat.es.net"
+           },
+           {
+              "name" : "snlca-lat.es.net"
+           }
          ],
          "type" : "disjoint"
       },
@@ -6862,6 +6868,20 @@
       "group_16" : {
          "a-addresses" : [
            {
+              "name" : "eqxch2-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxda3-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxdc4-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxsv5-ps-tp.es.net"
+           }
+         ],
+         "b-addresses" : [
+           {
               "name" : "anl221-ps-tp.es.net"
            },
             {
@@ -6874,23 +6894,29 @@
                "name" : "ps-border1-bwctl.lbl.gov"
             }
          ],
-         "b-addresses" : [
-           {
-              "name" : "eqxch2-ps-tp.es.net"
-           },
-           {
-              "name" : "eqxdc4-ps-tp.es.net"
-           },
-           {
-              "name" : "eqxsv5-ps-tp.es.net"
-           }
-         ],
          "type" : "disjoint"
       },
       "group_17" : {
          "a-addresses" : [
            {
+              "name" : "eqxch2-ps-lat.es.net"
+           },
+           {
+              "name" : "eqxda3-ps-lat.es.net"
+           },
+            {
+               "name" : "eqxdc4-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxsv5-ps-lat.es.net"
+            }
+         ],
+         "b-addresses" : [
+           {
               "name" : "anl221-ps-lat.es.net"
+           },
+           {
+              "name" : "anl541b-ps-lat.es.net"
            },
             {
                "name" : "bnl515-ps-lat.es.net"
@@ -6913,17 +6939,7 @@
             {
                "name" : "lhcperfmon.bnl.gov"
             }
-         ],
-         "b-addresses" : [
-           {
-              "name" : "eqxch2-ps-lat.es.net"
-           },
-            {
-               "name" : "eqxdc4-ps-lat.es.net"
-            },
-            {
-               "name" : "eqxsv5-ps-lat.es.net"
-            }
+
          ],
          "type" : "disjoint"
       },
