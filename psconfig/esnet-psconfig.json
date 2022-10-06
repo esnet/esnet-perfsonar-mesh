@@ -6635,7 +6635,7 @@
               "name" : "ga-ps-lat.es.net"
            },
            {
-              "name" : "snlca-lat.es.net"
+              "name" : "snlca-ps-lat.es.net"
            }
          ],
          "type" : "disjoint"
@@ -6884,15 +6884,18 @@
            {
               "name" : "anl221-ps-tp.es.net"
            },
-            {
-               "name" : "bnl515-ps-tp.es.net"
-            },
-            {
-               "name" : "bnl515b-ps-tp.es.net"
-            },
-            {
-               "name" : "ps-border1-bwctl.lbl.gov"
-            }
+           {
+              "name" : "bnl515-ps-tp.es.net"
+           },
+           {
+              "name" : "bnl515b-ps-tp.es.net"
+           },
+           {
+              "name" : "lhcperfmon.bnl.gov"
+           },
+           {
+              "name" : "ps-border1-bwctl.lbl.gov"
+           }
          ],
          "type" : "disjoint"
       },
@@ -6925,9 +6928,6 @@
                "name" : "bnl515b-ps-lat.es.net"
             },
             {
-               "name" : "ga-ps-lat.es.net"
-            },
-            {
                "name" : "lbnl50-ps-lat.es.net"
             },
             {
@@ -6935,11 +6935,7 @@
             },
             {
                "name" : "llnl-ps-lat.es.net"
-            },
-            {
-               "name" : "lhcperfmon.bnl.gov"
             }
-
          ],
          "type" : "disjoint"
       },
