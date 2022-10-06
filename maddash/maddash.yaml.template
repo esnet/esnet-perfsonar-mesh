@@ -137,17 +137,12 @@ dashboards:
      grids:
        - name: "ESnet - ESnet to ESnet Packet Loss Testing - Loss"
        - name: "ESnet - ESnet Hub to Small DOE Site Border Packet Loss Testing - Loss"
-       - name: "ESnet - ESnet to ESnet European Packet Loss Testing - Loss"
-       - name: "ESnet - ESnet Backup Paths - Loss"
+       - name: "ESnet - ESnet to DOE Site Packet Loss Testing - Loss"
    - name: "2: ESnet to ESnet Throughput Testing"
      grids:
        - name: "ESnet - 100G ESnet Hub to 100G ESnet Hub Throughput Testing - Throughput"
        - name: "ESnet - ESnet Hub to Large DOE Site Border Throughput Testing - Throughput"
        - name: "ESnet - ESnet Hub to Small DOE Site Border Throughput Testing - Throughput"
-       - name: "ESnet - ESnet Hub to DOE Site Backup Path Throughput Testing - Throughput"
-       - name: "ESnet - ESnet to ESnet Intercontinental Throughput Testing - Throughput"
-       - name: "ESnet - ESnet to ESnet European Throughput Testing - Throughput"
-       - name: "ESnet - ESnet Backup Paths - Throughput"
    - name: "3: ESnet to DOE Sites"
      grids:
        - name: "ESnet - ESnet to DOE Site Packet Loss Testing - Loss"
