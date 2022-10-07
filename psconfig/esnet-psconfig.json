@@ -6721,20 +6721,47 @@
          ],
          "b-addresses" : [
            {
+              "name" : "ameshwh-ps-tp.es.net"
+           },
+           {
               "name" : "anl221-ps-tp.es.net"
            },
            {
-              "name" : "bnl515-ps-tp.es.net"
+              "name" : "anl541b-ps-tp.es.net"
            },
-           {
-              "name" : "bnl515b-ps-tp.es.net"
-           },
-           {
-              "name" : "lhcperfmon.bnl.gov"
-           },
-           {
-              "name" : "ps-border1-bwctl.lbl.gov"
-           }
+            {
+               "name" : "bnl515-ps-tp.es.net"
+            },
+            {
+               "name" : "bnl515b-ps-tp.es.net"
+            },
+            {
+               "name" : "fnalfcc-ps-tp.es.net"
+            },
+            {
+               "name" : "fnalgcc-ps-tp.es.net"
+            },
+            {
+               "name" : "ga-ps-tp.es.net"
+            },
+            {
+               "name" : "lbnl50-ps-tp.es.net"
+            },
+            {
+               "name" : "lbnl59-ps-tp.es.net"
+            },
+            {
+               "name" : "llnl-ps-tp.es.net"
+            },
+            {
+               "name" : "ornl5600-ps-tp.es.net"
+            },
+            {
+               "name" : "ornl1064-ps-tp.es.net"
+            },
+            {
+               "name" : "snlca-ps-tp.es.net"
+            }
          ],
          "type" : "disjoint"
       },
