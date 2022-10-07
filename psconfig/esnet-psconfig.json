@@ -6410,9 +6410,6 @@
          "a-addresses" : [
             {
                "name" : "amst-owamp.es.net"
-            },
-            {
-               "name" : "lond-owamp.es.net"
             }
          ],
          "b-addresses" : [
@@ -6440,9 +6437,6 @@
          "addresses" : [
             {
                "name" : "amst-owamp.es.net"
-            },
-            {
-               "name" : "lond-owamp.es.net"
             }
          ],
          "type" : "mesh"
@@ -6968,9 +6962,6 @@
          ],
          "b-addresses" : [
             {
-               "name" : "lond-owamp.es.net"
-            },
-            {
                "name" : "eqxch2-ps-lat.es.net"
             },
             {
@@ -7448,9 +7439,6 @@
          ],
          "b-addresses" : [
             {
-               "name" : "lond-owamp.es.net"
-            },
-            {
                "name" : "eqxch2-ps-lat.es.net"
             }
          ],
@@ -7777,15 +7765,6 @@
                 "target-addresses": [
                     {
                        "name" : "amst-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__neaar"
-                    },
-                    {
-                       "name" : "lond-owamp.es.net__aqua"
                     }
                 ]
              }
