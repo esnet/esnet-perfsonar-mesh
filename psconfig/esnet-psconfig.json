@@ -6278,6 +6278,12 @@
       "group_0" : {
          "a-addresses" : [
            {
+              "name" : "eqxch2-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxda3-ps-tp.es.net"
+           },
+           {
               "name" : "eqxdc4-ps-tp.es.net"
            },
            {
@@ -6297,6 +6303,9 @@
            },
            {
               "name" : "fnalgcc-ps-tp.es.net"
+           },
+           {
+              "name" : "ga-ps-tp.es.net"
            },
             {
                "name" : "lbnl50-ps-tp.es.net"
@@ -6919,6 +6928,9 @@
          ],
          "b-addresses" : [
            {
+              "name" : "ameshwh-ps-lat.es.net"
+           },
+           {
               "name" : "anl221-ps-lat.es.net"
            },
            {
@@ -6931,6 +6943,15 @@
                "name" : "bnl515b-ps-lat.es.net"
             },
             {
+               "name" : "fnalfcc-ps-lat.es.net"
+            },
+            {
+               "name" : "fnalgcc-ps-lat.es.net"
+            },
+            {
+               "name" : "ga-ps-lat.es.net"
+            },
+            {
                "name" : "lbnl50-ps-lat.es.net"
             },
             {
@@ -6938,6 +6959,15 @@
             },
             {
                "name" : "llnl-ps-lat.es.net"
+            },
+            {
+               "name" : "onrl5600-ps-lat.es.net"
+            },
+            {
+               "name" : "ornl1064-ps-lat.es.net"
+            },
+            {
+               "name" : "snlca-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
