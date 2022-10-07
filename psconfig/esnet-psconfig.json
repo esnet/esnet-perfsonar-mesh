@@ -6388,9 +6388,6 @@
          "a-addresses" : [
             {
                "name" : "amst-pt1.es.net"
-            },
-            {
-               "name" : "lond-pt1.es.net"
             }
          ],
          "b-addresses" : [
@@ -6435,9 +6432,6 @@
          "addresses" : [
             {
                "name" : "amst-pt1.es.net"
-            },
-            {
-               "name" : "lond-pt1.es.net"
             }
          ],
          "type" : "mesh"
@@ -6936,9 +6930,6 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "lond-pt1.es.net"
-            },
             {
                "name" : "eqxch2-ps-tp.es.net"
             },
@@ -7441,9 +7432,6 @@
          ],
          "b-addresses" : [
             {
-               "name" : "lond-pt1.es.net"
-            },
-            {
                "name" : "fnalfcc-ps-tp.es.net"
             },
             {
@@ -7763,15 +7751,6 @@
                 "target-addresses": [
                     {
                        "name" : "amst-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__backup"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__neaar"
-                    },
-                    {
-                       "name" : "lond-pt1.es.net__aqua"
                     }
                 ]
              }
@@ -11310,33 +11289,6 @@
             "lhcperfmon.bnl.gov"
          ],
          "no-agent" : true
-      },
-      "llnl-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "llnl-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "llnl-pt1.es.net"
-         ]
-      },
-      "lond-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "lond-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "lond-pt1.es.net"
-         ]
-      },
-      "lsvn-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "lsvn-pt1.es.net",
-            "organization-display-name" : "ESnet"
-         },
-         "archives" : [
-            "198.129.254.94"
-         ]
       },
       "m-cssc-b380-11.net.wisc.edu" : {
          "_meta" : {
