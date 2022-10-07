@@ -6492,7 +6492,6 @@
            {
               "name" : "eqxsv5-ps-tp.es.net"
            }
-
          ],
          "b-addresses" : [
            {
@@ -6529,10 +6528,10 @@
               "name": "perfsonar.luxzeplin.org"
            },
            {
-              "ps-border1-bwctl.lbl.gov"
+              "name": "ps-border1-bwctl.lbl.gov"
            },
            {
-             "lhcperfmon.bnl.gov"
+             "name": "lhcperfmon.bnl.gov"
            }
          ],
          "type" : "disjoint"
@@ -6591,10 +6590,10 @@
               "name": "perfsonar.luxzeplin.org"
            },
            {
-              "ps-border1-bwctl.lbl.gov"
+              "name": "ps-border1-bwctl.lbl.gov"
            },
            {
-             "lhcperfmon.bnl.gov"
+              "name": "lhcperfmon.bnl.gov"
            }
          ],
          "type" : "disjoint"
