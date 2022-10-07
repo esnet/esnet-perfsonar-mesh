@@ -1700,166 +1700,6 @@
          "address" : "lhcperfmon.bnl.gov",
          "host" : "lhcperfmon.bnl.gov"
       },
-      "llnl-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "llnl-owamp.es.net",
-            "display-set" : "llnl"
-         },
-         "address" : "llnl-owamp-v6.es.net",
-         "host" : "llnl-pt1.es.net"
-      },
-      "llnl-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "llnl-owamp.es.net",
-            "display-set" : "llnl"
-         },
-         "address" : "llnl-owamp.es.net",
-         "host" : "llnl-pt1.es.net"
-      },
-      "llnl-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "llnl-pt1.es.net",
-            "display-set" : "llnl"
-         },
-         "address" : "llnl-pt1-v6.es.net",
-         "host" : "llnl-pt1.es.net"
-      },
-      "llnl-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "llnl-pt1.es.net",
-            "display-set" : "llnl"
-         },
-         "address" : "llnl-pt1.es.net",
-         "host" : "llnl-pt1.es.net"
-      },
-      "lond-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "lond-owamp.es.net",
-            "display-set" : "lond"
-         },
-         "address" : "lond-owamp-v6.es.net",
-         "host" : "lond-pt1.es.net"
-      },
-      "lond-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "lond-owamp.es.net",
-            "display-set" : "lond"
-         },
-         "address" : "lond-owamp.es.net",
-         "host" : "lond-pt1.es.net"
-      },
-      "lond-owamp.es.net__aqua" : {
-         "_meta" : {
-            "display-name" : "lond-owamp.es.net (Aqua Comms)",
-            "display-set" : "lond_aqua"
-         },
-         "address" : "192.168.14.50",
-         "host" : "lond-pt1.es.net"
-      },
-      "lond-owamp.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "lond-owamp.es.net",
-            "display-set" : "lond_backup"
-         },
-         "address" : "192.168.14.14",
-         "host" : "lond-pt1.es.net"
-      },
-      "lond-owamp.es.net__neaar" : {
-         "_meta" : {
-            "display-name" : "lond-owamp.es.net (NEAAR)",
-            "display-set" : "lond_neaar"
-         },
-         "address" : "192.168.14.42",
-         "host" : "lond-pt1.es.net"
-      },
-      "lond-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "lond-pt1-v6.es.net",
-            "display-set" : "lond"
-         },
-         "address" : "lond-pt1-v6.es.net",
-         "host" : "lond-pt1.es.net"
-      },
-      "lond-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "lond-pt1.es.net",
-            "display-set" : "lond"
-         },
-         "address" : "lond-pt1.es.net",
-         "host" : "lond-pt1.es.net"
-      },
-      "lond-pt1.es.net__aqua" : {
-         "_meta" : {
-            "display-name" : "lond-pt1.es.net (Aqua Comms)",
-            "display-set" : "lond_aqua"
-         },
-         "address" : "192.168.14.54",
-         "host" : "lond-pt1.es.net"
-      },
-      "lond-pt1.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "lond-pt1.es.net",
-            "display-set" : "lond_backup"
-         },
-         "address" : "192.168.14.10",
-         "host" : "lond-pt1.es.net"
-      },
-      "lond-pt1.es.net__neaar" : {
-         "_meta" : {
-            "display-name" : "lond-pt1.es.net (NEAAR)",
-            "display-set" : "lond_neaar"
-         },
-         "address" : "192.168.14.46",
-         "host" : "lond-pt1.es.net"
-      },
-      "lsvn-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "lsvn-owamp.es.net",
-            "display-set" : "lsvn"
-         },
-         "address" : "lsvn-owamp-v6.es.net",
-         "host" : "lsvn-pt1.es.net"
-      },
-      "lsvn-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "lsvn-owamp.es.net",
-            "display-set" : "lsvn"
-         },
-         "address" : "lsvn-owamp.es.net",
-         "host" : "lsvn-pt1.es.net"
-      },
-      "lsvn-owamp.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "lsvn-owamp.es.net",
-            "display-set" : "lsvn_backup"
-         },
-         "address" : "192.168.14.37",
-         "host" : "lsvn-pt1.es.net"
-      },
-      "lsvn-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "lsvn-pt1.es.net",
-            "display-set" : "lsvn"
-         },
-         "address" : "lsvn-pt1-v6.es.net",
-         "host" : "lsvn-pt1.es.net"
-      },
-      "lsvn-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "lsvn-pt1.es.net",
-            "display-set" : "lsvn"
-         },
-         "address" : "lsvn-pt1.es.net",
-         "host" : "lsvn-pt1.es.net"
-      },
-      "lsvn-pt1.es.net__backup" : {
-         "_meta" : {
-            "display-name" : "lsvn-pt1.es.net",
-            "display-set" : "lsvn_backup"
-         },
-         "address" : "192.168.14.33",
-         "host" : "lsvn-pt1.es.net"
-      },
       "m-cssc-b380-11.net.wisc.edu" : {
          "_meta" : {
             "display-name" : "m-cssc-b380-11.net.wisc.edu"
@@ -4628,20 +4468,6 @@
             "url" : "http://lhcperfmon.bnl.gov/esmond/perfsonar/archive/"
          }
       },
-      "llnl-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://llnl-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
-      "lond-pt1.es.net" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://lond-pt1.es.net:8085/esmond/perfsonar/archive/"
-         }
-      },
       "m-cssc-b380-11.net.wisc.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -6654,49 +6480,11 @@
       },
       "group_10" : {
          "a-addresses" : [
-            {
-               "name" : "bnl515-ps-tp.es.net"
-            },
-            {
-               "name" : "bnl515b-ps-tp.es.net"
-            },
-            {
-               "name" : "ps.ncsa.xsede.org"
-            },
-            {
-               "name" : "ps.sdsc.xsede.org"
-            },
-            {
-               "name" : "ps.nics.utk.edu"
-            },
-            {
-               "name" : "ps.iu.xsede.org"
-            },
-            {
-               "name" : "ps.tacc.xsede.org"
-            },
-            {
-               "name" : "ps.ncar.xsede.org"
-            },
-            {
-               "name" : "ps.psc.xsede.org"
-            },
-            {
-               "name" : "mwt2-ps02.campuscluster.illinois.edu"
-            },
-            {
-               "name" : "psb-bw.ncsa.illinois.edu"
-            },
-            {
-               "name": "psonar-bw.hpc.osc.edu"
-            },
-            {
-               "name": "perfsonar.luxzeplin.org"
-            }
-         ],
-         "b-addresses" : [
            {
               "name" : "eqxch2-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxda3-ps-tp.es.net"
            },
            {
               "name" : "eqxdc4-ps-tp.es.net"
@@ -6704,58 +6492,110 @@
            {
               "name" : "eqxsv5-ps-tp.es.net"
            }
+
+         ],
+         "b-addresses" : [
+           {
+              "name" : "ps.ncsa.xsede.org"
+           },
+           {
+              "name" : "ps.sdsc.xsede.org"
+           },
+           {
+              "name" : "ps.nics.utk.edu"
+           },
+           {
+              "name" : "ps.iu.xsede.org"
+           },
+           {
+              "name" : "ps.tacc.xsede.org"
+           },
+           {
+              "name" : "ps.ncar.xsede.org"
+           },
+           {
+              "name" : "ps.psc.xsede.org"
+           },
+           {
+              "name" : "mwt2-ps02.campuscluster.illinois.edu"
+           },
+           {
+              "name" : "psb-bw.ncsa.illinois.edu"
+           },
+           {
+              "name": "psonar-bw.hpc.osc.edu"
+           },
+           {
+              "name": "perfsonar.luxzeplin.org"
+           },
+           {
+              "ps-border1-bwctl.lbl.gov"
+           },
+           {
+             "lhcperfmon.bnl.gov"
+           }
          ],
          "type" : "disjoint"
       },
       "group_11" : {
          "a-addresses" : [
-            {
-               "name" : "nate.sdsc.edu"
-            },
-            {
-               "name" : "ps.ncsa.xsede.org"
-            },
-            {
-               "name" : "ps.sdsc.xsede.org"
-            },
-            {
-               "name" : "ps.nics.utk.edu"
-            },
-            {
-               "name" : "ps.iu.xsede.org"
-            },
-            {
-               "name" : "ps.tacc.xsede.org"
-            },
-            {
-               "name" : "ps.ncar.xsede.org"
-            },
-            {
-               "name" : "ps.psc.xsede.org"
-            },
-            {
-               "name" : "psmsu01.aglt2.org"
-            },
-            {
-               "name" : "ps-latency.hepnetcanada.ca"
-            },
-            {
-               "name": "psonar-lat.hpc.osc.edu"
-            },
-            {
-               "name": "perfsonar.luxzeplin.org"
-            }
+           {
+              "name" : "eqxch2-ps-lat.es.net"
+           },
+           {
+              "name" : "eqxda3-ps-lat.es.net"
+           },
+           {
+              "name" : "eqxdc4-ps-lat.es.net"
+           },
+           {
+              "name" : "eqxsv5-ps-lat.es.net"
+           }
+
          ],
          "b-addresses" : [
-            {
-               "name" : "eqxch2-ps-lat.es.net"
-            },
-            {
-               "name" : "eqxdc4-ps-lat.es.net"
-            },
-            {
-               "name" : "eqxsv5-ps-lat.es.net"
-            }
+           {
+              "name" : "nate.sdsc.edu"
+           },
+           {
+              "name" : "ps.ncsa.xsede.org"
+           },
+           {
+              "name" : "ps.sdsc.xsede.org"
+           },
+           {
+              "name" : "ps.nics.utk.edu"
+           },
+           {
+              "name" : "ps.iu.xsede.org"
+           },
+           {
+              "name" : "ps.tacc.xsede.org"
+           },
+           {
+              "name" : "ps.ncar.xsede.org"
+           },
+           {
+              "name" : "ps.psc.xsede.org"
+           },
+           {
+              "name" : "psmsu01.aglt2.org"
+           },
+           {
+              "name" : "ps-latency.hepnetcanada.ca"
+           },
+           {
+              "name": "psonar-lat.hpc.osc.edu"
+           },
+           {
+              "name": "perfsonar.luxzeplin.org"
+           },
+           {
+              "ps-border1-bwctl.lbl.gov"
+           },
+           {
+             "lhcperfmon.bnl.gov"
+           }
          ],
          "type" : "disjoint"
       },
@@ -6979,11 +6819,20 @@
             }
          ],
          "b-addresses" : [
+           {
+              "name" : "bost-ps-lat.es.net"
+           },
             {
-               "name" : "amst-pt1.es.net"
+               "name" : "newy32aoa-ps-lat.es.net"
             },
             {
-               "name" : "lond-pt1.es.net"
+               "name" : "newy1118th-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxsv5-ps-lat.es.net"
+            },
+            {
+               "name" : "wash-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7001,11 +6850,20 @@
             }
          ],
          "b-addresses" : [
+           {
+              "name" : "bost-ps-lat.es.net"
+           },
             {
-               "name" : "amst-owamp.es.net"
+               "name" : "newy32aoa-ps-lat.es.net"
             },
             {
-               "name" : "lond-owamp.es.net"
+               "name" : "newy1118th-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxsv5-ps-lat.es.net"
+            },
+            {
+               "name" : "wash-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
