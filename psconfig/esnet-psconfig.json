@@ -6180,6 +6180,9 @@
      "ESnet6_TP_TUNING" : {
         "a-addresses" : [
           {
+             "name" : "eqxsv5-ps-tp.es.net"
+          },
+          {
              "name" : "lbnl50-ps-tp.es.net"
           },
           {
@@ -6626,9 +6629,9 @@
            {
               "name" : "eqxdc4-ps-lat.es.net"
            },
-            {
-               "name" : "eqxsv5-ps-lat.es.net"
-            }
+           {
+              "name" : "eqxsv5-ps-lat.es.net"
+           }
          ],
          "b-addresses" : [
            {
