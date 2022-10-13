@@ -2349,12 +2349,12 @@
          "address" : "perfsonar-vm01.jc.rl.ac.uk",
          "host" : "perfsonar-vm01.jc.rl.ac.uk"
       },
-      "perfsonar.dkrz.de" : {
+      "perfsonar7.dkrz.de" : {
          "_meta" : {
-            "display-name" : "perfsonar.dkrz.de"
+            "display-name" : "perfsonar7.dkrz.de"
          },
-         "address" : "perfsonar.dkrz.de",
-         "host" : "perfsonar.dkrz.de"
+         "address" : "perfsonar7.dkrz.de",
+         "host" : "perfsonar7.dkrz.de"
       },
       "perfsonar.fsl.byu.edu" : {
          "_meta" : {
@@ -4965,11 +4965,11 @@
             "url" : "http://perfsonar-vm01.jc.rl.ac.uk/esmond/perfsonar/archive/"
          }
       },
-      "perfsonar.dkrz.de" : {
+      "perfsonar7.dkrz.de" : {
          "archiver" : "esmond",
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://perfsonar.dkrz.de/esmond/perfsonar/archive/"
+            "url" : "http://perfsonar7.dkrz.de/esmond/perfsonar/archive/"
          }
       },
       "perfsonar.fsl.byu.edu" : {
@@ -6938,7 +6938,7 @@
                "name" : "perfsonar2.alaska.edu"
             },
             {
-               "name" : "perfsonar.dkrz.de"
+               "name" : "perfsonar7.dkrz.de"
             },
             {
                "name" : "nsw-brwy-ps1.aarnet.net.au"
@@ -6972,7 +6972,7 @@
                "name" : "perfsonar2.alaska.edu"
             },
             {
-               "name" : "perfsonar.dkrz.de"
+               "name" : "perfsonar7.dkrz.de"
             },
             {
                "name" : "nsw-brwy-ps1.aarnet.net.au"
@@ -12064,13 +12064,13 @@
          ],
          "no-agent" : true
       },
-      "perfsonar.dkrz.de" : {
+      "perfsonar7.dkrz.de" : {
          "_meta" : {
-            "display-name" : "perfsonar.dkrz.de",
+            "display-name" : "perfsonar7.dkrz.de",
             "organization-display-name" : "DKRZ"
          },
          "archives" : [
-            "perfsonar.dkrz.de"
+            "perfsonar7.dkrz.de"
          ],
          "no-agent" : true
       },
