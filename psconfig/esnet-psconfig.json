@@ -7367,7 +7367,16 @@
          ],
          "b-addresses" : [
             {
-               "name" : "amst-pt1.es.net"
+               "name" : "bost-ps-tp.es.net"
+            },
+            {
+               "name" : "newy1118th-ps-tp.es.net"
+            },
+            {
+               "name" : "newy32aoa-ps-tp.es.net"
+            },
+            {
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7436,9 +7445,18 @@
             }
          ],
          "b-addresses" : [
-            {
-               "name" : "amst-owamp.es.net"
-            }
+           {
+              "name" : "bost-ps-lat.es.net"
+           },
+           {
+              "name" : "newy1118th-ps-lat.es.net"
+           },
+           {
+              "name" : "newy32aoa-ps-lat.es.net"
+           },
+           {
+              "name" : "wash-ps-lat.es.net"
+           }
          ],
          "type" : "disjoint"
       },
