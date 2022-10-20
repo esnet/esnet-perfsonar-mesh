@@ -6046,31 +6046,13 @@
              "name" : "ameshwh-ps-tp.es.net"
           },
       {
-          "name" : "atla-ps-tp.es.net"
-      },
-      {
-         "name" : "anl221-ps-tp.es.net"
-      },
-      {
-         "name" : "anl541b-ps-tp.es.net"
-      },
-      {
          "name" : "eqxch2-ps-tp.es.net"
-      },
-      {
-         "name" : "eqxda3-ps-tp.es.net"
       },
       {
           "name" : "fnalgcc-ps-tp.es.net"
       },
        {
            "name" : "losa-ps-tp.es.net"
-      },
-      {
-         "name" : "sacr-ps-tp.es.net"
-      },
-      {
-         "name" : "seat-ps-tp.es.net"
       }
    ],
    "type" : "mesh"
@@ -6078,19 +6060,7 @@
      "ESnet6_LAT_HUB" : {
         "addresses" : [
       {
-         "name" : "ameshwh-ps-lat.es.net"
-      },
-      {
-         "name" : "anl221-ps-lat.es.net"
-      },
-      {
-         "name" : "anl541b-ps-lat.es.net"
-      },
-      {
          "name" : "eqxch2-ps-lat.es.net"
-      },
-      {
-         "name" : "eqxda3-ps-lat.es.net"
       },
       {
          "name" : "fnalgcc-ps-lat.es.net"
@@ -6103,9 +6073,6 @@
 },
       "group_0" : {
          "a-addresses" : [
-           {
-              "name" : "eqxch2-ps-tp.es.net"
-           },
            {
               "name" : "eqxda3-ps-tp.es.net"
            },
@@ -6183,9 +6150,6 @@
            },
            {
               "name" : "bost-ps-tp.es.net"
-           },
-           {
-              "name" : "eqxch2-ps-tp.es.net"
            },
            {
               "name" : "eqxda3-ps-tp.es.net"
@@ -6469,9 +6433,6 @@
       "group_10" : {
          "a-addresses" : [
            {
-              "name" : "eqxch2-ps-tp.es.net"
-           },
-           {
               "name" : "eqxda3-ps-tp.es.net"
            },
            {
@@ -6495,13 +6456,7 @@
               "name" : "ps.iu.xsede.org"
            },
            {
-              "name" : "ps.tacc.xsede.org"
-           },
-           {
               "name" : "ps.ncar.xsede.org"
-           },
-           {
-              "name" : "ps.psc.xsede.org"
            },
            {
               "name" : "mwt2-ps02.campuscluster.illinois.edu"
@@ -6555,9 +6510,6 @@
            },
            {
               "name" : "ps.iu.xsede.org"
-           },
-           {
-              "name" : "ps.tacc.xsede.org"
            },
            {
               "name" : "ps.ncar.xsede.org"
@@ -6706,9 +6658,6 @@
       },
       "group_16" : {
          "a-addresses" : [
-           {
-              "name" : "eqxch2-ps-tp.es.net"
-           },
            {
               "name" : "eqxda3-ps-tp.es.net"
            },
@@ -6941,9 +6890,6 @@
                "name" : "perfsonar7.dkrz.de"
             },
             {
-               "name" : "nsw-brwy-ps1.aarnet.net.au"
-            },
-            {
                "name" : "ps2.netherlight.net"
             },
             {
@@ -6953,6 +6899,9 @@
          "b-addresses" : [
             {
                "name" : "eqxch2-ps-tp.es.net"
+            },
+            {
+               "name" : "eqxda3-ps-tp.es.net"
             },
             {
                "name" : "eqxdc4-ps-tp.es.net"
@@ -6972,12 +6921,6 @@
                "name" : "perfsonar2.alaska.edu"
             },
             {
-               "name" : "perfsonar7.dkrz.de"
-            },
-            {
-               "name" : "nsw-brwy-ps1.aarnet.net.au"
-            },
-            {
                "name" : "ps1.netherlight.net"
             },
             {
@@ -6990,6 +6933,9 @@
          "b-addresses" : [
             {
                "name" : "eqxch2-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxda3-ps-lat.es.net"
             },
             {
                "name" : "eqxdc4-ps-lat.es.net"
@@ -7177,6 +7123,9 @@
            {
               "name" : "eqxch2-ps-tp.es.net"
            },
+           {
+              "name" : "eqxda3-ps-tp.es.net"
+           },
             {
                "name" : "eqxdc4-ps-tp.es.net"
             },
@@ -7202,6 +7151,9 @@
            {
               "name" : "eqxch2-ps-tp.es.net"
            },
+           {
+              "name" : "eqxda3-ps-tp.es.net"
+           },
             {
                "name" : "eqxdc4-ps-tp.es.net"
             },
@@ -7223,6 +7175,9 @@
          "b-addresses" : [
            {
               "name" : "eqxch2-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxda3-ps-tp.es.net"
            },
            {
               "name" : "eqxdc4-ps-tp.es.net"
@@ -7248,6 +7203,9 @@
          "b-addresses" : [
            {
               "name" : "eqxch2-ps-lat.es.net"
+           },
+           {
+              "name" : "eqxda3-ps-lat.es.net"
            },
             {
                "name" : "eqxdc4-ps-lat.es.net"
@@ -7329,19 +7287,10 @@
                "name" : "cpt-is-10g.perfsonar.ac.za"
             },
             {
-               "name" : "pfsnr-pu.kenet.or.ke"
-            },
-            {
                "name" : "perfsonar-bw.sprace.org.br"
             },
             {
-               "name" : "perfSONAR.myren.net.my"
-            },
-            {
                "name" : "nms1-10g.jp.apan.net"
-            },
-            {
-               "name" : "nsw-brwy-ps1.aarnet.net.au"
             },
             {
                "name" : "ps-bandwidth.atlas.unimelb.edu.au"
@@ -7357,9 +7306,6 @@
             },
             {
                "name" : "ccperfsonar1.in2p3.fr"
-            },
-            {
-               "name" : "200.0.207.49"
             },
             {
                "name" : "epgperf.ph.bham.ac.uk"
@@ -7396,9 +7342,6 @@
                "name" : "pfsnr-pu.kenet.or.ke"
             },
             {
-               "name" : "ps-lt.sdmz.rnp.br"
-            },
-            {
                "name" : "perfsonar-lt.sprace.org.br"
             },
             {
@@ -7412,9 +7355,6 @@
             },
             {
                "name" : "nms4.jp.apan.net"
-            },
-            {
-               "name" : "nsw-brwy-ps1.aarnet.net.au"
             },
             {
                "name" : "perfsonar-test4.kek.jp"
