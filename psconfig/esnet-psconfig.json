@@ -493,6 +493,22 @@
         "address" : "newy1118th-ps-lat.es.net",
         "host" : "newy1118th-ps.es.net"
     },
+    "orau-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "orau-ps-tp.es.net",
+           "display-set" : "orau-ps.es.net"
+        },
+        "address" : "orau-ps-tp.es.net",
+        "host" : "orau-ps.es.net"
+    },
+    "orau-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "orau-ps-lat.es.net",
+           "display-set" : "orau-ps.es.net"
+        },
+        "address" : "orau-ps-lat.es.net",
+        "host" : "orau-ps.es.net"
+    },
     "ornl1064-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "ornl1064-ps-lat.es.net",
@@ -3705,6 +3721,13 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "orau-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "ornl1064-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6042,9 +6065,6 @@
      },
      "ESnet6_TP_HUB" : {
         "addresses" : [
-          {
-             "name" : "ameshwh-ps-tp.es.net"
-          },
       {
          "name" : "eqxch2-ps-tp.es.net"
       },
@@ -6053,6 +6073,9 @@
       },
        {
            "name" : "losa-ps-tp.es.net"
+      },
+      {
+          "name" : "orau-ps-tp.es.net"
       }
    ],
    "type" : "mesh"
@@ -6067,6 +6090,9 @@
       },
       {
         "name" : "losa-ps-lat.es.net"
+      },
+      {
+        "name" : "orau-ps-lat.es.net"
       }
    ],
    "type" : "mesh"
@@ -10156,6 +10182,15 @@
         },
         "archives" : [
            "newy32aoa-ps.es.net"
+        ]
+     },
+     "orau-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "orau-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "orau-ps.es.net"
         ]
      },
      "ornl1064-ps.es.net" : {
