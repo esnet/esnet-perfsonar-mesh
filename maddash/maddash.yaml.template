@@ -176,6 +176,7 @@ dashboards:
        - name: "ESnet - 100G ESnet6 IPv4 Throughput Testing Mesh iperf3 - Throughput"
        - name: "ESnet - 100G ESnet6 IPv4 Throughput Testing Mesh iperf2 - Throughput"
        - name: "ESnet - 100G ESnet6 Hub to 100G ESnet6 Hub IPv4 Throughput Testing Mesh - Throughput"
+       - name: "ESnet - ESnet6 Packet Loss Path Testing - Loss"
        - name: "ESnet - ESnet6 to ESnet6 IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - ESnet6 to ESnet6 IPv6 Packet Loss Testing - Loss"
        - name: "ESnet - 100G ESnet6 Hub to 100G ESnet6 Hub IPv4 Throughput Testing - Throughput"

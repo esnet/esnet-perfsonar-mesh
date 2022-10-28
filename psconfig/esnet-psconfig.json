@@ -9911,7 +9911,1905 @@
         }
     ],
     "type" : "mesh"
-}
+  },
+  "group_ESnet6_Path_Loss_Path_Mesh" : {
+     "addresses" : [
+       {
+          "name" : "albq-ps-lat.es.net"
+       },
+       {
+          "name" : "atla-ps-lat.es.net"
+       },
+       {
+          "name" : "bois-ps-lat.es.net"
+       },
+       {
+          "name" : "bost-ps-lat.es.net"
+       },
+       {
+          "name" : "chat-ps-lat.es.net"
+       },
+       {
+          "name" : "chic-ps-lat.es.net"
+       },
+       {
+          "name" : "denv-ps-lat.es.net"
+       },
+       {
+          "name" : "elpa-ps-lat.es.net"
+       },
+       {
+          "name" : "eqxch2-ps-lat.es.net"
+       },
+       {
+          "name" : "eqxda3-ps-lat.es.net"
+       },
+       {
+          "name" : "eqxdc4-ps-lat.es.net"
+       },
+       {
+          "name" : "eqxsv5-ps-lat.es.net"
+       },
+       {
+          "name" : "hous-ps-lat.es.net"
+       },
+       {
+          "name" : "kans-ps-lat.es.net"
+       },
+       {
+          "name" : "lasv-ps-lat.es.net"
+       },
+       {
+          "name" : "losa-ps-lat.es.net"
+       },
+       {
+          "name" : "nash-ps-lat.es.net"
+       },
+       {
+          "name" : "newy1118th-ps-lat.es.net"
+       },
+       {
+          "name" : "newy32aoa-ps-lat.es.net"
+       },
+       {
+          "name" : "sand-ps-lat.es.net"
+       },
+       {
+          "name" : "sacr-ps-lat.es.net"
+       },
+       {
+          "name" : "salt-ps-lat.es.net"
+       },
+       {
+          "name" : "seat-ps-lat.es.net"
+       },
+       {
+          "name" : "star-ps-lat.es.net"
+       },
+       {
+          "name" : "sunn-ps-lat.es.net"
+       },
+       {
+          "name" : "wash-ps-lat.es.net"
+       }
+     ],
+     "excludes": [
+       {
+          "local-address": { "name": "albq-ps-lat.es.net" },
+          "target-addresses": [
+            {
+               "name" : "albq-ps-lat.es.net"
+            },
+            {
+               "name" : "atla-ps-lat.es.net"
+            },
+            {
+               "name" : "bois-ps-lat.es.net"
+            },
+            {
+               "name" : "bost-ps-lat.es.net"
+            },
+            {
+               "name" : "chat-ps-lat.es.net"
+            },
+            {
+               "name" : "chic-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxch2-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxda3-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxdc4-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxsv5-ps-lat.es.net"
+            },
+            {
+               "name" : "hous-ps-lat.es.net"
+            },
+            {
+               "name" : "kans-ps-lat.es.net"
+            },
+            {
+               "name" : "lasv-ps-lat.es.net"
+            },
+            {
+               "name" : "losa-ps-lat.es.net"
+            },
+            {
+               "name" : "nash-ps-lat.es.net"
+            },
+            {
+               "name" : "newy1118th-ps-lat.es.net"
+            },
+            {
+               "name" : "newy32aoa-ps-lat.es.net"
+            },
+            {
+               "name" : "sand-ps-lat.es.net"
+            },
+            {
+               "name" : "sacr-ps-lat.es.net"
+            },
+            {
+               "name" : "salt-ps-lat.es.net"
+            },
+            {
+               "name" : "seat-ps-lat.es.net"
+            },
+            {
+               "name" : "star-ps-lat.es.net"
+            },
+            {
+               "name" : "sunn-ps-lat.es.net"
+            },
+            {
+               "name" : "wash-ps-lat.es.net"
+            }
+          ]
+       },
+       {
+          "local-address": { "name": "atla-ps-lat.es.net" },
+          "target-addresses": [
+            {
+               "name" : "albq-ps-lat.es.net"
+            },
+            {
+               "name" : "bois-ps-lat.es.net"
+            },
+            {
+               "name" : "bost-ps-lat.es.net"
+            },
+            {
+               "name" : "denv-ps-lat.es.net"
+            },
+            {
+               "name" : "elpa-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxch2-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxda3-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxdc4-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxsv5-ps-lat.es.net"
+            },
+            {
+               "name" : "kans-ps-lat.es.net"
+            },
+            {
+               "name" : "lasv-ps-lat.es.net"
+            },
+            {
+               "name" : "losa-ps-lat.es.net"
+            },
+            {
+               "name" : "newy1118th-ps-lat.es.net"
+            },
+            {
+               "name" : "newy32aoa-ps-lat.es.net"
+            },
+            {
+               "name" : "sand-ps-lat.es.net"
+            },
+            {
+               "name" : "sacr-ps-lat.es.net"
+            },
+            {
+               "name" : "salt-ps-lat.es.net"
+            },
+            {
+               "name" : "seat-ps-lat.es.net"
+            },
+            {
+               "name" : "star-ps-lat.es.net"
+            },
+            {
+               "name" : "sunn-ps-lat.es.net"
+            }
+          ]
+       },
+       {
+          "local-address": { "name": "bois-ps-lat.es.net" },
+          "target-addresses": [
+            {
+               "name" : "albq-ps-lat.es.net"
+            },
+            {
+               "name" : "atla-ps-lat.es.net"
+            },
+            {
+               "name" : "bost-ps-lat.es.net"
+            },
+            {
+               "name" : "chat-ps-lat.es.net"
+            },
+            {
+               "name" : "chic-ps-lat.es.net"
+            },
+            {
+               "name" : "denv-ps-lat.es.net"
+            },
+            {
+               "name" : "elpa-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxch2-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxda3-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxdc4-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxsv5-ps-lat.es.net"
+            },
+            {
+               "name" : "hous-ps-lat.es.net"
+            },
+            {
+               "name" : "kans-ps-lat.es.net"
+            },
+            {
+               "name" : "lasv-ps-lat.es.net"
+            },
+            {
+               "name" : "losa-ps-lat.es.net"
+            },
+            {
+               "name" : "nash-ps-lat.es.net"
+            },
+            {
+               "name" : "newy1118th-ps-lat.es.net"
+            },
+            {
+               "name" : "newy32aoa-ps-lat.es.net"
+            },
+            {
+               "name" : "sand-ps-lat.es.net"
+            },
+            {
+               "name" : "sacr-ps-lat.es.net"
+            },
+            {
+               "name" : "seat-ps-lat.es.net"
+            },
+            {
+               "name" : "star-ps-lat.es.net"
+            },
+            {
+               "name" : "sunn-ps-lat.es.net"
+            },
+            {
+               "name" : "wash-ps-lat.es.net"
+            }
+          ]
+       },
+         {
+            "local-address": { "name": "bost-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "chat-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "chic-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "denv-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "elpa-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "eqxch2-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "eqxda3-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "eqxdc4-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "eqxsv5-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "hous-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "kans-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "lasv-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "losa-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "nash-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "newy1118th-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "newy32aoa-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "sand-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "sacr-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "salt-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "seat-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "star-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "sunn-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "atla-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "chic-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxch2-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy32aoa-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "wash-ps-lat.es.net"
+              }
+            ]
+         },
+         {
+            "local-address": { "name": "wash-ps-lat.es.net" },
+            "target-addresses": [
+              {
+                 "name" : "albq-ps-lat.es.net"
+              },
+              {
+                 "name" : "bois-ps-lat.es.net"
+              },
+              {
+                 "name" : "bost-ps-lat.es.net"
+              },
+              {
+                 "name" : "chat-ps-lat.es.net"
+              },
+              {
+                 "name" : "denv-ps-lat.es.net"
+              },
+              {
+                 "name" : "elpa-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxda3-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxdc4-ps-lat.es.net"
+              },
+              {
+                 "name" : "eqxsv5-ps-lat.es.net"
+              },
+              {
+                 "name" : "hous-ps-lat.es.net"
+              },
+              {
+                 "name" : "kans-ps-lat.es.net"
+              },
+              {
+                 "name" : "lasv-ps-lat.es.net"
+              },
+              {
+                 "name" : "losa-ps-lat.es.net"
+              },
+              {
+                 "name" : "nash-ps-lat.es.net"
+              },
+              {
+                 "name" : "newy1118th-ps-lat.es.net"
+              },
+              {
+                 "name" : "sand-ps-lat.es.net"
+              },
+              {
+                 "name" : "sacr-ps-lat.es.net"
+              },
+              {
+                 "name" : "salt-ps-lat.es.net"
+              },
+              {
+                 "name" : "seat-ps-lat.es.net"
+              },
+              {
+                 "name" : "star-ps-lat.es.net"
+              },
+              {
+                 "name" : "sunn-ps-lat.es.net"
+              }
+            ]
+         }
+     ],
+     "type" : "mesh"
+     }
    },
    "hosts" : {
      "albq-ps.es.net" : {
@@ -13591,6 +15489,17 @@
            "bwctliperf3",
            "iperf3"
         ]
+     },
+     "ESnet6_Packet_Loss_Path_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet6 Packet Loss Path Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "group_ESnet6_Path_Loss_Path_Mesh",
+        "test" : "latencybg_0"
      },
      "ESnet_to_ESnet_v4_Packet_Loss_Testing" : {
         "_meta" : {
