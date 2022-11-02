@@ -16529,8 +16529,7 @@
             "packet-padding" : 0,
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
-            "ip-version": 6,
-            "flow-label": "ESnet6_LAT"
+            "ip-version": 6
          },
          "type" : "latencybg"
       },
