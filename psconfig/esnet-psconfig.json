@@ -16500,7 +16500,8 @@
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
-            "ip-version": 6
+            "ip-version": 6,
+            "flow-label": "ESnet6_TP"
          },
          "type" : "throughput"
       },
@@ -16528,7 +16529,8 @@
             "packet-padding" : 0,
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
-            "ip-version": 6
+            "ip-version": 6,
+            "flow-label": "ESnet6_LAT"
          },
          "type" : "latencybg"
       },
@@ -16653,7 +16655,8 @@
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
             "wait" : "PT30S",
-            "ip-version": 6
+            "ip-version": 6,
+            "flow-label": "ESnet6_TRACE"
          },
          "type" : "trace"
       }
