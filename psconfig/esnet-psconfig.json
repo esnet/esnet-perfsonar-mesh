@@ -16501,7 +16501,7 @@
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
             "ip-version": 6,
-            "flow-label": "ESnet6_TP"
+            "flow-label": "2946"
          },
          "type" : "throughput"
       },
@@ -16655,7 +16655,7 @@
             "source-node" : "{% pscheduler_address[0] %}",
             "wait" : "PT30S",
             "ip-version": 6,
-            "flow-label": "ESnet6_TRACE"
+            "flow-label": "2946"
          },
          "type" : "trace"
       }
