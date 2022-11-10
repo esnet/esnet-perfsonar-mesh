@@ -701,6 +701,14 @@
         "address" : "wash-ps-lat.es.net",
         "host" : "wash-ps.es.net"
     },
+    "noc-ps-1-meas.scconf.org" : {
+        "_meta" : {
+           "display-name" : "noc-ps-1-meas.scconf.org",
+           "display-set" : "noc-ps-1-meas.scconf.org"
+        },
+        "address" : "noc-ps-1-meas.scconf.org",
+        "host" : "noc-ps-1-meas.scconf.org"
+    },
     "perfsonar.rc.asu.edu" : {
         "_meta" : {
            "display-name" : "perfsonar.rc.asu.edu",
@@ -3842,6 +3850,13 @@
          "data" : {
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "noc-ps-1-meas.scconf.org" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://noc-ps-1-meas.scconf.org:8085/esmond/perfsonar/archive/"
          }
      },
      "perfsonar.rc.asu.edu" : {
@@ -12293,6 +12308,15 @@
         },
         "archives" : [
            "wash-ps.es.net"
+        ]
+     },
+     "noc-ps-1-meas.scconf.org" : {
+        "_meta" : {
+           "display-name" : "noc-ps-1-meas.scconf.org",
+           "organization-display-name" : "SCinet"
+        },
+        "archives" : [
+           "noc-ps-1-meas.scconf.org"
         ]
      },
      "perfsonar.rc.asu.edu" : {
