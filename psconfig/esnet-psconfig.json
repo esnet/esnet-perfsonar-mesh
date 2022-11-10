@@ -6205,6 +6205,29 @@
          ],
          "type" : "disjoint"
       },
+      "group_SCinet_tp" : {
+         "a-addresses" : [
+           {
+              "name" : "eqxch2-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxda3-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxdc4-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxsv5-ps-tp.es.net"
+           }
+         ],
+         "b-addresses" : [
+
+           {
+              "name" : "noc-ps-1-meas.scconf.org"
+            }
+         ],
+         "type" : "disjoint"
+      },
       "group_1" : {
          "a-addresses" : [
            {
@@ -15769,6 +15792,22 @@
          "group" : "group_0",
          "schedule" : "schedule_0",
          "test" : "throughput_0",
+         "tools" : [
+            "bwctliperf3",
+            "iperf3"
+         ]
+      },
+      "ESnet_Hub_to_SCinet_IPv6_FlowLabel_Throughput_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet Hub to SCinet IPv6 Flow Label Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
+         "group" : "group_SCinet_tp",
+         "schedule" : "schedule_0",
+         "test" : "ESnet6_TP_1_v6",
          "tools" : [
             "bwctliperf3",
             "iperf3"
