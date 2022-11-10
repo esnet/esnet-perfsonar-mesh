@@ -621,6 +621,38 @@
         "address" : "snlca-ps-tp.es.net",
         "host" : "snlca-ps.es.net"
     },
+    "slac50n-ps-tp.es.net" : {
+         "_meta" : {
+            "display-name" : "slac50n-ps-tp.es.net",
+            "display-set" : "slac50n-ps.es.net"
+         },
+         "address" : "slac50n-ps-tp.es.net",
+         "host" : "slac50n-ps.es.net"
+     },
+     "slac50n-ps-lat.es.net" : {
+         "_meta" : {
+            "display-name" : "slac50n-ps-lat.es.net",
+            "display-set" : "slac50n-ps.es.net"
+         },
+         "address" : "slac50n-ps-lat.es.net",
+         "host" : "slac50n-ps.es.net"
+     },
+     "slac50s-ps-tp.es.net" : {
+          "_meta" : {
+             "display-name" : "slac50s-ps-tp.es.net",
+             "display-set" : "slac50s-ps.es.net"
+          },
+          "address" : "slac50s-ps-tp.es.net",
+          "host" : "slac50s-ps.es.net"
+      },
+      "slac50s-ps-lat.es.net" : {
+          "_meta" : {
+             "display-name" : "slac50s-ps-lat.es.net",
+             "display-set" : "slac50s-ps.es.net"
+          },
+          "address" : "slac50s-ps-lat.es.net",
+          "host" : "slac50s-ps.es.net"
+      },
     "star-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "star-ps-tp.es.net",
@@ -3777,6 +3809,20 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "slac50n-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
+     "slac50s-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "star-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6075,7 +6121,10 @@
            "name" : "losa-ps-tp.es.net"
       },
       {
-          "name" : "orau-ps-tp.es.net"
+          "name" : "slac50n-ps-tp.es.net"
+      },
+      {
+          "name" : "slac50s-ps-tp.es.net"
       }
    ],
    "type" : "mesh"
@@ -6092,7 +6141,10 @@
         "name" : "losa-ps-lat.es.net"
       },
       {
-        "name" : "orau-ps-lat.es.net"
+        "name" : "slac50n-ps-lat.es.net"
+      },
+      {
+        "name" : "slac50s-ps-lat.es.net"
       }
    ],
    "type" : "mesh"
@@ -6143,6 +6195,9 @@
             },
             {
                "name" : "ornl5600-ps-tp.es.net"
+            },
+            {
+               "name" : "orau-ps-tp.es.net"
             },
             {
                "name" : "snlca-ps-tp.es.net"
@@ -6270,6 +6325,9 @@
          "a-addresses" : [
             {
                "name" : "ga-ps-tp.es.net"
+            },
+            {
+               "name" : "orau-ps-tp.es.net"
             }
          ],
          "b-addresses" : [
@@ -6355,6 +6413,9 @@
            },
            {
               "name" : "newy32aoa-ps-lat.es.net"
+           },
+           {
+              "name" : "orau-ps-lat.es.net"
            },
            {
               "name" : "sacr-ps-lat.es.net"
@@ -6455,6 +6516,9 @@
          "b-addresses" : [
            {
               "name" : "ga-ps-lat.es.net"
+           },
+           {
+              "name" : "orau-ps-lat.es.net"
            },
            {
               "name" : "snlca-ps-lat.es.net"
@@ -12152,6 +12216,24 @@
         },
         "archives" : [
            "seat-ps.es.net"
+        ]
+     },
+     "slac50n-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "slac50n-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "slac50n-ps.es.net"
+        ]
+     },
+     "slac50s-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "slac50s-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "slac50s-ps.es.net"
         ]
      },
      "snlca-ps.es.net" : {
