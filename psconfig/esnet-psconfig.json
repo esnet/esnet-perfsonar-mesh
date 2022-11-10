@@ -709,6 +709,46 @@
         "address" : "noc-ps-1-meas.scconf.org",
         "host" : "noc-ps-1-meas.scconf.org"
     },
+    "ps-10g-dnoc420.scconf.org" : {
+        "_meta" : {
+           "display-name" : "ps-10g-dnoc420.scconf.org",
+           "display-set" : "ps-10g-dnoc420.scconf.org"
+        },
+        "address" : "ps-10g-dnoc420.scconf.org",
+        "host" : "ps-10g-dnoc420.scconf.org"
+    },
+    "ps-10g-dnoc1034.scconf.org" : {
+        "_meta" : {
+           "display-name" : "ps-10g-dnoc1034.scconf.org",
+           "display-set" : "ps-10g-dnoc1034.scconf.org"
+        },
+        "address" : "ps-10g-dnoc1034.scconf.org",
+        "host" : "ps-10g-dnoc1034.scconf.org"
+    },
+    "ps-10g-dnoc2316.scconf.org" : {
+        "_meta" : {
+           "display-name" : "ps-10g-dnoc2316.scconf.org",
+           "display-set" : "ps-10g-dnoc2316.scconf.org"
+        },
+        "address" : "ps-10g-dnoc2316.scconf.org",
+        "host" : "ps-10g-dnoc2316.scconf.org"
+    },
+    "ps-10g-dnoc2639.scconf.org" : {
+        "_meta" : {
+           "display-name" : "ps-10g-dnoc2639.scconf.org",
+           "display-set" : "ps-10g-dnoc2639.scconf.org"
+        },
+        "address" : "ps-10g-dnoc2639.scconf.org",
+        "host" : "ps-10g-dnoc2639.scconf.org"
+    },
+    "ps-10g-dnoc4026.scconf.org" : {
+        "_meta" : {
+           "display-name" : "ps-10g-dnoc4026.scconf.org",
+           "display-set" : "ps-10g-dnoc4026.scconf.org"
+        },
+        "address" : "ps-10g-dnoc4026.scconf.org",
+        "host" : "ps-10g-dnoc4026.scconf.org"
+    },
     "perfsonar.rc.asu.edu" : {
         "_meta" : {
            "display-name" : "perfsonar.rc.asu.edu",
@@ -3859,6 +3899,41 @@
             "url" : "http://noc-ps-1-meas.scconf.org:8085/esmond/perfsonar/archive/"
          }
      },
+     "ps-10g-dnoc420.scconf.org" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-10g-dnoc420.scconf.org:8085/esmond/perfsonar/archive/"
+         }
+     },
+     "ps-10g-dnoc1034.scconf.org" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-10g-dnoc1034.scconf.org:8085/esmond/perfsonar/archive/"
+         }
+     },
+     "ps-10g-dnoc2316.scconf.org" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-10g-dnoc2316.scconf.org:8085/esmond/perfsonar/archive/"
+         }
+     },
+     "ps-10g-dnoc2639.scconf.org" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-10g-dnoc2639.scconf.org:8085/esmond/perfsonar/archive/"
+         }
+     },
+     "ps-10g-dnoc4026.scconf.org" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://ps-10g-dnoc4026.scconf.org:8085/esmond/perfsonar/archive/"
+         }
+     },
      "perfsonar.rc.asu.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -6236,10 +6311,61 @@
            }
          ],
          "b-addresses" : [
-
            {
               "name" : "noc-ps-1-meas.scconf.org"
-            }
+           },
+           {
+              "name" : "ps-10g-dnoc420.scconf.org"
+           },
+           {
+              "name" : "ps-10g-dnoc1034.scconf.org"
+           },
+           {
+              "name" : "ps-10g-dnoc2316.scconf.org"
+           },
+           {
+              "name" : "ps-10g-dnoc2639.scconf.org"
+           },
+           {
+              "name" : "ps-10g-dnoc4026.scconf.org"
+           },
+         ],
+         "type" : "disjoint"
+      },
+      "group_SCinet_lat" : {
+         "a-addresses" : [
+           {
+              "name" : "eqxch2-ps-lat.es.net"
+           },
+           {
+              "name" : "eqxda3-ps-lat.es.net"
+           },
+           {
+              "name" : "eqxdc4-ps-lat.es.net"
+           },
+           {
+              "name" : "eqxsv5-ps-lat.es.net"
+           }
+         ],
+         "b-addresses" : [
+           {
+              "name" : "noc-ps-1-meas.scconf.org"
+           },
+           {
+              "name" : "ps-10g-dnoc420.scconf.org"
+           },
+           {
+              "name" : "ps-10g-dnoc1034.scconf.org"
+           },
+           {
+              "name" : "ps-10g-dnoc2316.scconf.org"
+           },
+           {
+              "name" : "ps-10g-dnoc2639.scconf.org"
+           },
+           {
+              "name" : "ps-10g-dnoc4026.scconf.org"
+           },
          ],
          "type" : "disjoint"
       },
@@ -12319,6 +12445,51 @@
            "noc-ps-1-meas.scconf.org"
         ]
      },
+     "ps-10g-dnoc420.scconf.org" : {
+        "_meta" : {
+           "display-name" : "ps-10g-dnoc420.scconf.org",
+           "organization-display-name" : "SCinet"
+        },
+        "archives" : [
+           "ps-10g-dnoc420.scconf.org"
+        ]
+     },
+     "ps-10g-dnoc1034.scconf.org" : {
+        "_meta" : {
+           "display-name" : "ps-10g-dnoc1034.scconf.org",
+           "organization-display-name" : "SCinet"
+        },
+        "archives" : [
+           "ps-10g-dnoc1034.scconf.org"
+        ]
+     },
+     "ps-10g-dnoc2316.scconf.org" : {
+        "_meta" : {
+           "display-name" : "ps-10g-dnoc2316.scconf.org",
+           "organization-display-name" : "SCinet"
+        },
+        "archives" : [
+           "ps-10g-dnoc2316.scconf.org"
+        ]
+     },
+     "ps-10g-dnoc2639.scconf.org" : {
+        "_meta" : {
+           "display-name" : "ps-10g-dnoc2639.scconf.org",
+           "organization-display-name" : "SCinet"
+        },
+        "archives" : [
+           "ps-10g-dnoc2639.scconf.org"
+        ]
+     },
+     "ps-10g-dnoc4026.scconf.org" : {
+        "_meta" : {
+           "display-name" : "ps-10g-dnoc4026.scconf.org",
+           "organization-display-name" : "SCinet"
+        },
+        "archives" : [
+           "ps-10g-dnoc4026.scconf.org"
+        ]
+     },
      "perfsonar.rc.asu.edu" : {
         "_meta" : {
            "display-name" : "perfsonar.rc.asu.edu",
@@ -15703,7 +15874,7 @@
         },
         "group" : "ESnet6_TP_HUB",
         "schedule" : "schedule_1",
-        "test" : "ESnet6_v6_trace"
+        "test" : "ESnet6_v4_trace"
      },
      "ESnet6_Hub_to_ESnet6_Hub_v6_Traceroute_Testing" : {
         "_meta" : {
@@ -15714,6 +15885,18 @@
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
         },
         "group" : "ESnet6_TP_HUB",
+        "schedule" : "schedule_1",
+        "test" : "ESnet6_v6_trace"
+     },
+     "ESnet6_Hub_to_SCinet_v6_Traceroute_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet6 Hub to SCinet IPv6 Traceroute Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "group_SCinet_tp",
         "schedule" : "schedule_1",
         "test" : "ESnet6_v6_trace"
      },
@@ -16082,6 +16265,17 @@
          },
          "group" : "group_4",
          "test" : "latencybg_0"
+      },
+      "ESnet_to_SCInet_Loss_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to SCinet IPv6 Loss Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
+         "group" : "group_SCinet_lat",
+         "test" : "ESnet6_LAT_1_v6"
       },
       "ESnet_to_GA-EAST_IPv4_Packet_Loss_Testing" : {
          "_meta" : {
