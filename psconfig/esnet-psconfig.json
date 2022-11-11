@@ -17019,8 +17019,7 @@
             "source-node" : "{% pscheduler_address[0] %}",
             "deadline" : "PT30S",
             "ip-version": 6,
-            "flow-label": 2946,
-            "protocol": "icmp"
+            "flow-label": 2946
          },
          "type" : "rtt"
       }
