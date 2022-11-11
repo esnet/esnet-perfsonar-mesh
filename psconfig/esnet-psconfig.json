@@ -15900,6 +15900,18 @@
         "schedule" : "schedule_1",
         "test" : "ESnet6_v6_trace"
      },
+     "ESnet6_Hub_to_SCinet_v6_RTT_ICMP_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet6 Hub to SCinet IPv6 RTT ICMP Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "group_SCinet_tp",
+        "schedule" : "schedule_1",
+        "test" : "ESnet6_v6_rtt_icmp"
+     },
       "100G_ESnet_Hub_to_100G_ESnet_Hub_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "100G ESnet Hub to 100G ESnet Hub Throughput Testing"
@@ -16997,6 +17009,20 @@
             "flow-label": 2946
          },
          "type" : "trace"
+      },
+      "ESnet6_v6_rtt_icmp" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "count" : "10",
+            "timeout" : "PT5S",
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "deadline" : "PT30S",
+            "ip-version": 6,
+            "flow-label": 2946,
+            "protocol": "icmp"
+         },
+         "type" : "rtt"
       }
    }
 }
