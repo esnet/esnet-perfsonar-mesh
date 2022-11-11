@@ -17013,7 +17013,7 @@
       "ESnet6_v6_rtt_icmp" : {
          "spec" : {
             "dest" : "{% address[1] %}",
-            "count" : "10",
+            "count" : 10,
             "timeout" : "PT5S",
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
