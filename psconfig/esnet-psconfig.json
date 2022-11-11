@@ -17014,10 +17014,9 @@
          "spec" : {
             "dest" : "{% address[1] %}",
             "count" : 10,
-            "timeout" : "PT5S",
             "source" : "{% address[0] %}",
-            "source-node" : "{% pscheduler_address[0] %}",
-            "deadline" : "PT30S",
+            "interval": "PT2S",
+            "length": 1000,
             "ip-version": 6,
             "flow-label": 2946
          },
