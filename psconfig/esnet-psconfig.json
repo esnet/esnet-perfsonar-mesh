@@ -6328,7 +6328,7 @@
            },
            {
               "name" : "ps-10g-dnoc4026.scconf.org"
-           },
+           }
          ],
          "type" : "disjoint"
       },
@@ -6365,7 +6365,7 @@
            },
            {
               "name" : "ps-10g-dnoc4026.scconf.org"
-           },
+           }
          ],
          "type" : "disjoint"
       },
