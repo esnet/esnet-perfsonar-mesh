@@ -16032,6 +16032,22 @@
             "iperf3"
          ]
       },
+      "ESnet_Hub_to_SCinet_IPv4_Throughput_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet Hub to SCinet IPv4 Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
+         "group" : "group_SCinet_tp",
+         "schedule" : "schedule_0",
+         "test" : "ESnet6_TP_1_v4",
+         "tools" : [
+            "bwctliperf3",
+            "iperf3"
+         ]
+      },
       "ESnet_Hub_to_Large_DOE_Site_Border_Traceroute_Testing" : {
          "_meta" : {
             "display-name" : "ESnet Hub to Large DOE Site Border Traceroute Testing"
