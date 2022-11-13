@@ -16278,7 +16278,7 @@
          "group" : "group_4",
          "test" : "latencybg_0"
       },
-      "ESnet_to_SCInet_Loss_Testing" : {
+      "ESnet_to_SCInet_IPv6_Loss_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to SCinet IPv6 Loss Testing"
          },
@@ -16288,6 +16288,17 @@
          },
          "group" : "group_SCinet_lat",
          "test" : "ESnet6_LAT_1_v6"
+      },
+      "ESnet_to_SCInet_IPv4_Loss_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to SCinet IPv4 Loss Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+         },
+         "group" : "group_SCinet_lat",
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_GA-EAST_IPv4_Packet_Loss_Testing" : {
          "_meta" : {
