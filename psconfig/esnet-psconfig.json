@@ -16852,7 +16852,7 @@
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
             "ip-version": 6,
-            "flow-label": 2946
+            "flow-label": 131080
          },
          "type" : "throughput"
       },
@@ -17006,7 +17006,7 @@
             "source-node" : "{% pscheduler_address[0] %}",
             "wait" : "PT30S",
             "ip-version": 6,
-            "flow-label": 2946
+            "flow-label": 131080
          },
          "type" : "trace"
       },
@@ -17018,7 +17018,7 @@
             "interval": "PT2S",
             "length": 1000,
             "ip-version": 6,
-            "flow-label": 2946
+            "flow-label": 131080
          },
          "type" : "rtt"
       }
