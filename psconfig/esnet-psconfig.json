@@ -709,6 +709,14 @@
         "address" : "noc-ps-1-meas.scconf.org",
         "host" : "noc-ps-1-meas.scconf.org"
     },
+    "perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org" : {
+        "_meta" : {
+           "display-name" : "perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org",
+           "display-set" : "perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org"
+        },
+        "address" : "perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org",
+        "host" : "perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org"
+    },
     "ps-10g-dnoc420.scconf.org" : {
         "_meta" : {
            "display-name" : "ps-10g-dnoc420.scconf.org",
@@ -3899,6 +3907,13 @@
             "url" : "http://noc-ps-1-meas.scconf.org:8085/esmond/perfsonar/archive/"
          }
      },
+     "perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org:8085/esmond/perfsonar/archive/"
+         }
+     },
      "ps-10g-dnoc420.scconf.org" : {
          "archiver" : "esmond",
          "data" : {
@@ -6315,6 +6330,9 @@
               "name" : "noc-ps-1-meas.scconf.org"
            },
            {
+              "name" : "perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org"
+           },
+           {
               "name" : "ps-10g-dnoc420.scconf.org"
            },
            {
@@ -6350,6 +6368,9 @@
          "b-addresses" : [
            {
               "name" : "noc-ps-1-meas.scconf.org"
+           },
+           {
+              "name" : "perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org"
            },
            {
               "name" : "ps-10g-dnoc420.scconf.org"
@@ -6922,6 +6943,9 @@
       "group_16" : {
          "a-addresses" : [
            {
+              "name" : "eqxch2-ps-tp.es.net"
+           },
+           {
               "name" : "eqxda3-ps-tp.es.net"
            },
            {
@@ -6966,10 +6990,19 @@
                "name" : "llnl-ps-tp.es.net"
             },
             {
+               "name" : "orau-ps-tp.es.net"
+            },
+            {
                "name" : "ornl5600-ps-tp.es.net"
             },
             {
                "name" : "ornl1064-ps-tp.es.net"
+            },
+            {
+               "name" : "slac50n-ps-tp.es.net"
+            },
+            {
+               "name" : "slac50s-ps-tp.es.net"
             },
             {
                "name" : "snlca-ps-tp.es.net"
@@ -7027,10 +7060,19 @@
                "name" : "llnl-ps-lat.es.net"
             },
             {
+               "name" : "orau-ps-lat.es.net"
+            },
+            {
                "name" : "ornl5600-ps-lat.es.net"
             },
             {
                "name" : "ornl1064-ps-lat.es.net"
+            },
+            {
+               "name" : "slac50n-ps-lat.es.net"
+            },
+            {
+               "name" : "slac50s-ps-lat.es.net"
             },
             {
                "name" : "snlca-ps-lat.es.net"
@@ -12445,6 +12487,15 @@
            "noc-ps-1-meas.scconf.org"
         ]
      },
+     "perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org" : {
+        "_meta" : {
+           "display-name" : "perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org",
+           "organization-display-name" : "SCinet"
+        },
+        "archives" : [
+           "perfsonar-conf-conf-rtr-jnpr-1.22.scconf.org"
+        ]
+     },
      "ps-10g-dnoc420.scconf.org" : {
         "_meta" : {
            "display-name" : "ps-10g-dnoc420.scconf.org",
@@ -15912,6 +15963,18 @@
         "schedule" : "schedule_1",
         "test" : "ESnet6_v6_rtt_icmp"
      },
+     "ESnet6_Hub_to_SCinet_v4_RTT_ICMP_Testing" : {
+        "_meta" : {
+           "display-name" : "ESnet6 Hub to SCinet IPv44 RTT ICMP Testing"
+        },
+        "reference": {
+           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
+        },
+        "group" : "group_SCinet_tp",
+        "schedule" : "schedule_1",
+        "test" : "ESnet6_v4_rtt_icmp"
+     },
       "100G_ESnet_Hub_to_100G_ESnet_Hub_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "100G ESnet Hub to 100G ESnet Hub Throughput Testing"
@@ -17046,6 +17109,17 @@
             "length": 1000,
             "ip-version": 6,
             "flow-label": 131080
+         },
+         "type" : "rtt"
+      },
+      "ESnet6_v4_rtt_icmp" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "count" : 10,
+            "source" : "{% address[0] %}",
+            "interval": "PT2S",
+            "length": 1000,
+            "ip-version": 4
          },
          "type" : "rtt"
       }

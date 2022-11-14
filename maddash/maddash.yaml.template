@@ -179,6 +179,7 @@ dashboards:
        - name: "ESnet - ESnet6 Hub to SCinet IPv6 RTT ICMP Testing - Ping Loss"
        - name: "ESnet - ESnet Hub to SCinet IPv4 Throughput Testing - Throughput"
        - name: "ESnet - ESnet to SCinet IPv4 Loss Testing - Loss"
+       - name: "ESnet - ESnet6 Hub to SCinet IPv4 RTT ICMP Testing - Ping Loss"
        - name: "ESnet - 100G ESnet6 IPv4 Throughput Testing Mesh iperf3 - Throughput"
        - name: "ESnet - 100G ESnet6 IPv4 Throughput Testing Mesh iperf2 - Throughput"
        - name: "ESnet - 100G ESnet6 Hub to 100G ESnet6 Hub IPv4 Throughput Testing Mesh - Throughput"
