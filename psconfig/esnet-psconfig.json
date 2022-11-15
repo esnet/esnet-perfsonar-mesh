@@ -8267,7 +8267,19 @@
     "b-addresses" : [
         {
          "name" : "sciphy-ps.jlab.org"
-        }
+       },
+       {
+        "name" : "dmz-ps.jlab.org"
+       },
+       {
+        "name" : "jlab4.jlab.org"
+      },
+      {
+       "name" : "atla-ps-lat.es.net"
+      },
+      {
+       "name" : "wash-ps-lat.es.net"
+      }
     ],
     "type" : "disjoint"
   },
@@ -8287,9 +8299,21 @@
      }
  ],
  "b-addresses" : [
-     {
-      "name" : "sciphy-ps.jlab.org"
-     }
+   {
+    "name" : "sciphy-ps.jlab.org"
+  },
+  {
+   "name" : "dmz-ps.jlab.org"
+  },
+  {
+   "name" : "jlab4.jlab.org"
+ },
+ {
+  "name" : "atla-ps-tp.es.net"
+ },
+ {
+  "name" : "wash-ps-tp.es.net"
+ }
    ],
    "type" : "disjoint"
  },
@@ -16088,7 +16112,7 @@
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_SCinet_tp",
-         "schedule" : "schedule_0",
+         "schedule" : "schedule_1",
          "test" : "ESnet6_TP_1_v6",
          "tools" : [
             "bwctliperf3",
@@ -16104,7 +16128,7 @@
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}"
          },
          "group" : "group_SCinet_tp",
-         "schedule" : "schedule_0",
+         "schedule" : "schedule_2",
          "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
