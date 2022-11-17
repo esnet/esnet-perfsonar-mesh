@@ -757,6 +757,14 @@
         "address" : "ps-10g-dnoc4026.scconf.org",
         "host" : "ps-10g-dnoc4026.scconf.org"
     },
+    "perf-dal.tx-learn.net" : {
+        "_meta" : {
+           "display-name" : "perf-dal.tx-learn.net",
+           "display-set" : "perf-dal.tx-learn.net"
+        },
+        "address" : "perf-dal.tx-learn.net",
+        "host" : "perf-dal.tx-learn.net"
+    },
     "perfsonar.rc.asu.edu" : {
         "_meta" : {
            "display-name" : "perfsonar.rc.asu.edu",
@@ -3949,6 +3957,13 @@
             "url" : "http://ps-10g-dnoc4026.scconf.org:8085/esmond/perfsonar/archive/"
          }
      },
+     "perf-dal.tx-learn.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://perf-dal.tx-learn.net:8085/esmond/perfsonar/archive/"
+         }
+     },
      "perfsonar.rc.asu.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -6346,6 +6361,9 @@
            },
            {
               "name" : "ps-10g-dnoc4026.scconf.org"
+           },
+           {
+              "name" : "perf-dal.tx-learn.net"
            }
          ],
          "type" : "disjoint"
@@ -6386,6 +6404,9 @@
            },
            {
               "name" : "ps-10g-dnoc4026.scconf.org"
+           },
+           {
+              "name" : "perf-dal.tx-learn.net"
            }
          ],
          "type" : "disjoint"
@@ -12563,6 +12584,15 @@
         },
         "archives" : [
            "ps-10g-dnoc4026.scconf.org"
+        ]
+     },
+     "perf-dal.tx-learn.net" : {
+        "_meta" : {
+           "display-name" : "perf-dal.tx-learn.net",
+           "organization-display-name" : "LEARN"
+        },
+        "archives" : [
+           "perf-dal.tx-learn.net"
         ]
      },
      "perfsonar.rc.asu.edu" : {
