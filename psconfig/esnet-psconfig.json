@@ -333,6 +333,22 @@
         "address" : "ga-ps-lat.es.net",
         "host" : "ga-ps.es.net"
     },
+    "germantown-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "germantown-ps-tp.es.net",
+           "display-set" : "germantown-ps.es.net"
+        },
+        "address" : "germantown-ps-tp.es.net",
+        "host" : "germantown-ps.es.net"
+    },
+    "germantown-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "germantown-ps-lat.es.net",
+           "display-set" : "germantown-ps.es.net"
+        },
+        "address" : "germantown-ps-lat.es.net",
+        "host" : "germantown-ps.es.net"
+    },
     "hous-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "hous-ps-lat.es.net",
@@ -3747,6 +3763,13 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "germantown-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "hous-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6231,41 +6254,47 @@
      },
      "ESnet6_TP_HUB" : {
         "addresses" : [
-      {
-         "name" : "eqxch2-ps-tp.es.net"
-      },
-      {
-          "name" : "fnalgcc-ps-tp.es.net"
-      },
-       {
-           "name" : "losa-ps-tp.es.net"
-      },
-      {
-          "name" : "slac50n-ps-tp.es.net"
-      },
-      {
-          "name" : "slac50s-ps-tp.es.net"
-      }
+          {
+            "name" : "eqxch2-ps-tp.es.net"
+          },
+          {
+            "name" : "fnalgcc-ps-tp.es.net"
+          },
+          {
+            "name" : "germantown-ps-tp.es.net"
+          },
+          {
+            "name" : "losa-ps-tp.es.net"
+          },
+          {
+            "name" : "slac50n-ps-tp.es.net"
+          },
+          {
+            "name" : "slac50s-ps-tp.es.net"
+          }
    ],
    "type" : "mesh"
 },
      "ESnet6_LAT_HUB" : {
         "addresses" : [
-      {
-         "name" : "eqxch2-ps-lat.es.net"
-      },
-      {
-         "name" : "fnalgcc-ps-lat.es.net"
-      },
-      {
-        "name" : "losa-ps-lat.es.net"
-      },
-      {
-        "name" : "slac50n-ps-lat.es.net"
-      },
-      {
-        "name" : "slac50s-ps-lat.es.net"
-      }
+          {
+            "name" : "eqxch2-ps-lat.es.net"
+          },
+          {
+            "name" : "fnalgcc-ps-lat.es.net"
+          },
+          {
+            "name" : "germantown-ps-lat.es.net"
+          },
+          {
+            "name" : "losa-ps-lat.es.net"
+          },
+          {
+            "name" : "slac50n-ps-lat.es.net"
+          },
+          {
+            "name" : "slac50s-ps-lat.es.net"
+          }
    ],
    "type" : "mesh"
 },
@@ -12314,6 +12343,15 @@
         },
         "archives" : [
            "ga-ps.es.net"
+        ]
+     },
+     "germantown-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "germantown-ps.es.net",
+           "organization-display-name" : "ESnet"
+        },
+        "archives" : [
+           "germantown-ps.es.net"
         ]
      },
      "hous-ps.es.net" : {
