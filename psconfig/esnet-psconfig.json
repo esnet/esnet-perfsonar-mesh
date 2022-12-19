@@ -15948,6 +15948,24 @@
            "iperf3"
         ]
      },
+     "100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv6_Throughput_Testing_Mesh_Excludes" : {
+      "_meta" : {
+         "display-name" : "100G ESnet6 Hub to 100G ESnet6 Hub IPv6 Throughput Testing Mesh"
+      },
+      "reference": {
+         "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+         "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+         "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+         "display-task-group": ["99: ESnet6 Testing"]
+      },
+      "group" : "group_ESnet6_HUB_to_HUB_TP_Mesh",
+      "schedule" : "schedule_0",
+      "test" : "ESnet6_TP_1_v6",
+      "tools" : [
+         "bwctliperf3",
+         "iperf3"
+      ]
+   },
      "ESnet6_Packet_Loss_Path_Testing" : {
         "_meta" : {
            "display-name" : "ESnet6 Packet Loss Path Testing"
