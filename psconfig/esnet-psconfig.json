@@ -6254,6 +6254,15 @@
      },
      "ESnet6_TP_HUB" : {
         "addresses" : [
+         {
+            "name" : "albq-ps-tp.es.net"
+          }, 
+          {
+            "name" : "denv-ps-tp.es.net"
+          },
+          {
+            "name" : "elpa-ps-tp.es.net"
+          },
           {
             "name" : "eqxch2-ps-tp.es.net"
           },
@@ -6262,9 +6271,6 @@
           },
           {
             "name" : "germantown-ps-tp.es.net"
-          },
-          {
-            "name" : "losa-ps-tp.es.net"
           },
           {
             "name" : "slac50n-ps-tp.es.net"
@@ -6278,6 +6284,15 @@
      "ESnet6_LAT_HUB" : {
         "addresses" : [
           {
+            "name" : "albq-ps-tp.es.net"
+          },
+          {
+            "name" : "denv-ps-lat.es.net"
+          },
+          {
+            "name" : "elpa-ps-lat.es.net"
+          },
+          {
             "name" : "eqxch2-ps-lat.es.net"
           },
           {
@@ -6285,9 +6300,6 @@
           },
           {
             "name" : "germantown-ps-lat.es.net"
-          },
-          {
-            "name" : "losa-ps-lat.es.net"
           },
           {
             "name" : "slac50n-ps-lat.es.net"
