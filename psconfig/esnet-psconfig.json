@@ -15978,9 +15978,9 @@
          "iperf3"
       ]
    },
-     "ESnet6_Packet_Loss_Path_Testing" : {
+     "ESnet6_Packet_Loss_IPv4_Path_Testing" : {
         "_meta" : {
-           "display-name" : "ESnet6 Packet Loss Path Testing"
+           "display-name" : "ESnet6 Packet Loss IPv4 Path Testing"
         },
         "reference": {
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -15989,8 +15989,21 @@
            "display-task-group": ["99: ESnet6 Testing"]
         },
         "group" : "group_ESnet6_Path_Loss_Path_Mesh",
-        "test" : "latencybg_0"
+        "test" : "ESnet6_LAT_1_v4"
      },
+     "ESnet6_Packet_Loss_IPv6_Path_Testing" : {
+      "_meta" : {
+         "display-name" : "ESnet6 Packet Loss IPv6 Path Testing"
+      },
+      "reference": {
+         "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+         "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+         "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+         "display-task-group": ["99: ESnet6 Testing"]
+      },
+      "group" : "group_ESnet6_Path_Loss_Path_Mesh",
+      "test" : "ESnet6_LAT_1_v6"
+   },
      "ESnet_to_ESnet_v4_Packet_Loss_Testing" : {
         "_meta" : {
            "display-name" : "ESnet6 to ESnet6 IPv4 Packet Loss Testing"
