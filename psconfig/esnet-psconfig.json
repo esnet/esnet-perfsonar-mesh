@@ -16471,6 +16471,19 @@
          "group" : "group_4",
          "test" : "latencybg_0"
       },
+      "ESnet_to_ESnet_Packet_Loss_Testing_IPv4" : {
+         "_meta" : {
+            "display-name" : "ESnet to ESnet Packet Loss Testing IPv4"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["1: ESnet to ESnet Packet Loss"]
+         },
+         "group" : "group_4",
+         "test" : "latencybg_0_IPv4"
+      },
       "ESnet_to_GA-EAST_IPv4_Packet_Loss_Testing" : {
          "_meta" : {
             "display-name" : "ESnet to GA-EAST IPv4 Packet Loss Testing"
@@ -17133,6 +17146,20 @@
             "packet-padding" : 0,
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}"
+         },
+         "type" : "latencybg"
+      },
+      "latencybg_0_IPv4" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "flip" : "{% flip %}",
+            "packet-count" : 600,
+            "packet-interval" : 0.1,
+            "packet-padding" : 0,
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "ip-version": 4
          },
          "type" : "latencybg"
       },
