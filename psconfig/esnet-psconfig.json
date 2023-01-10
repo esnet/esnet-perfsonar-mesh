@@ -17091,7 +17091,8 @@
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
-            "ip-version": 4
+            "ip-version": 4,
+            "bandwidth": "26G"
          },
          "type" : "throughput"
       },
@@ -17104,7 +17105,8 @@
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
             "ip-version": 6,
-            "flow-label": 131080
+            "flow-label": 131080,
+            "bandwidth": "26G"
          },
          "type" : "throughput"
       },
