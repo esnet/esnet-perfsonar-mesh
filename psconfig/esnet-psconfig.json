@@ -16230,7 +16230,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_9",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_Hub_to_Small_DOE_Site_Border_Throughput_Testing" : {
          "_meta" : {
@@ -16298,7 +16298,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_15",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_ANL_Pilot_Throughput_Testing" : {
          "_meta" : {
@@ -16341,7 +16341,7 @@
             "display-task-group": ["1: ESnet to ESnet Packet Loss", "3: ESnet to DOE Sites"]
          },
          "group" : "group_17",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_DOE_Site_Throughput_Testing" : {
          "_meta" : {
@@ -16384,7 +16384,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_8",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_ESnet_European_Throughput_Testing" : {
          "_meta" : {
@@ -16426,7 +16426,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_6",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_ESnet_Intercontinental_Throughput_Testing" : {
          "_meta" : {
@@ -16469,7 +16469,7 @@
             "display-task-group": ["1: ESnet to ESnet Packet Loss"]
          },
          "group" : "group_4",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_ESnet_Packet_Loss_Testing_IPv4" : {
          "_meta" : {
@@ -16482,7 +16482,7 @@
             "display-task-group": ["1: ESnet to ESnet Packet Loss"]
          },
          "group" : "group_4",
-         "test" : "latencybg_0_IPv4"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_GA-EAST_IPv4_Packet_Loss_Testing" : {
          "_meta" : {
@@ -16495,7 +16495,7 @@
             "display-task-group": ["8: ESnet to GA-EAST"]
          },
          "group" : "group_29",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_GA-EAST_IPv4_Throughput_Testing" : {
          "_meta" : {
@@ -16526,7 +16526,7 @@
             "display-task-group": ["8: ESnet to GA-EAST"]
          },
          "group" : "group_27",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v6"
       },
       "ESnet_to_GA-EAST_IPv6_Throughput_Testing" : {
          "_meta" : {
@@ -16557,7 +16557,7 @@
             "display-task-group": ["5: ESnet to Europe"]
          },
          "group" : "group_19",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_GEANT_Throughput_Testing" : {
          "_meta" : {
@@ -16601,7 +16601,7 @@
             "display-task-group": ["7: ESnet to ESGF Sites"]
          },
          "group" : "group_23",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_ESGF_Site_Throughput_Testing" : {
          "_meta" : {
@@ -16645,7 +16645,7 @@
             "display-task-group": ["6: ESnet to International"]
          },
          "group" : "group_34",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_International_Throughput_Testing" : {
          "_meta" : {
@@ -16688,7 +16688,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_21",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_KSTAR_Sites_Throughput_Testing" : {
          "_meta" : {
@@ -16718,7 +16718,7 @@
             "display-task-group": ["4: ESnet to Large Facilities"]
          },
          "group" : "group_11",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_Large_Facility_Throughput_Testing" : {
          "_meta" : {
@@ -16761,7 +16761,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_25",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_US_Regional_Networks_Throughput" : {
          "_meta" : {
@@ -16790,7 +16790,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_13",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_University_Throughput_Testing" : {
          "_meta" : {
@@ -16832,7 +16832,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_38",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "IU_Training_Throughput_Testing" : {
          "_meta" : {
@@ -16861,7 +16861,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_36",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
       },
       "KAUST_Testing_-_Throughput" : {
          "_meta" : {
@@ -16918,7 +16918,7 @@
             "display-task-group": ["9: ESnet Backup Paths"]
          },
          "group" : "group_40",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
      },
      "ESnet_EQX_Packet_Loss_Testing" : {
         "_meta" : {
@@ -16930,7 +16930,7 @@
            "display-task-name": "{% jq .task._meta.\"display-name\" %}"
         },
         "group" : "group_eqx",
-        "test" : "latencybg_0"
+        "test" : "ESnet6_LAT_1_v4"
      },
      "ESnet_NetLab_Packet_Loss_Testing" : {
         "_meta" : {
@@ -16942,7 +16942,7 @@
            "display-task-name": "{% jq .task._meta.\"display-name\" %}"
         },
         "group" : "group_netlab",
-        "test" : "latencybg_0"
+        "test" : "ESnet6_LAT_1_v4"
      },
      "DOENET_ORO_Packet_Loss_Testing" : {
         "_meta" : {
@@ -16954,7 +16954,7 @@
            "display-task-name": "{% jq .task._meta.\"display-name\" %}"
         },
         "group" : "group_doenetoro_owamp",
-        "test" : "latencybg_0"
+        "test" : "ESnet6_LAT_1_v4"
     },
     "DOENET_ORO_Throughput_Testing" : {
        "_meta" : {
@@ -16979,7 +16979,7 @@
           "display-task-name": "{% jq .task._meta.\"display-name\" %}"
        },
        "group" : "group_simons_observ_owamp",
-       "test" : "latencybg_0"
+       "test" : "ESnet6_LAT_1_v4"
      },
      "ESnet_to_Simons_Observatory_Throughput_Testing" : {
         "_meta" : {
@@ -17029,7 +17029,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_nrel_owamp",
-         "test" : "latencybg_0"
+         "test" : "ESnet6_LAT_1_v4"
        },
         "ESnet_to_NREL_Traceroute_Testing" : {
            "_meta" : {
@@ -17066,7 +17066,7 @@
               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
            },
            "group" : "group_gluex_owamp",
-           "test" : "latencybg_0"
+           "test" : "ESnet6_LAT_1_v4"
          },
           "JLAB_GlueX_Traceroute_Testing" : {
              "_meta" : {
