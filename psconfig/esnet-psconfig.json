@@ -17170,7 +17170,6 @@
             "dest" : "{% address[1] %}",
             "dest-node" : "{% pscheduler_address[1] %}",
             "duration" : "PT15S",
-            "ip-tos" : 32,
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}"
