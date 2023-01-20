@@ -58,7 +58,7 @@
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "13.23",
+            "warning-threshold" : "13.34",
             "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
@@ -86,7 +86,7 @@
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "6.67",
+            "warning-threshold" : "13.34",
             "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
@@ -106,7 +106,7 @@
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "13.23",
+            "warning-threshold" : "13.34",
             "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
@@ -142,7 +142,7 @@
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "13.23",
+            "warning-threshold" : "13.34",
             "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
@@ -170,7 +170,7 @@
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "6.67",
+            "warning-threshold" : "13.34",
             "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
@@ -196,7 +196,7 @@
                "time-range" : 86400
             },
             "type" : "ps-nagios-throughput",
-            "warning-threshold" : "6.67",
+            "warning-threshold" : "13.34",
             "report-yaml-file": "/etc/perfsonar/psconfig/ps-nagios-throughput-report.yaml"
          },
          "display-name" : "Throughput",
