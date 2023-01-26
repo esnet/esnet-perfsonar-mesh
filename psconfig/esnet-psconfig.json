@@ -6821,15 +6821,6 @@
            },
            {
               "name": "lhcperfmon.bnl.gov"
-           },
-           {
-              "name": "perfsonar01.frib.msu.edu"
-           },
-           {
-              "name": "ps-border1-pt.lbl.gov"
-           },
-           {
-            "name": "ps-border1-pt.lbl.gov"
            }          
          ],
          "type" : "disjoint"
