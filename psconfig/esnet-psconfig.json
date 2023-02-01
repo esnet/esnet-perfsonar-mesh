@@ -718,12 +718,12 @@
         "host" : "wash-ps.es.net"
     },
     "perfsonar01.frib.msu.edu" : {
-      "meta" : {
-         "display-name" : "perfsonar01.frib.msu.edu",
-         "display-set" : "perfsonar01.frib.msu.edu"
-      },
-      "address" : "perfsonar01.frib.msu.edu",
-      "host" : "perfsonar01.frib.msu.edu"
+        "_meta" : {
+           "display-name" : "perfsonar01.frib.msu.edu",
+           "display-set" : "perfsonar01.frib.msu.edu"
+         },
+         "address" : "perfsonar01.frib.msu.edu",
+         "host" : "perfsonar01.frib.msu.edu"
     },
     "noc-ps-1-meas.scconf.org" : {
         "_meta" : {
