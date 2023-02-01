@@ -3943,7 +3943,7 @@
          "archiver" : "esmond",
          "data" : {
              "measurement-agent" : "{% scheduled_by_address %}",
-             "url" : "https://perfsonar01.frib.msu.edu.es.net/esmond/perfsonar/archive/"
+             "url" : "https://perfsonar01.frib.msu.edu/esmond/perfsonar/archive/"
       }
      },
      "noc-ps-1-meas.scconf.org" : {
@@ -6900,7 +6900,7 @@
               "name": "lhcperfmon.bnl.gov"
            },
            {
-                "name": "perfsonar01.frib.msu.edu"
+              "name": "perfsonar01.frib.msu.edu"
            }
          ],
          "type" : "disjoint"
@@ -12595,12 +12595,12 @@
         ]
      },
      "perfsonar01.frib.msu.edu" : {
-      "_meta" : {
-         "display-name" : "perfsonar01.frib.msu.edu",
-         "organization-display-name" : "FRIB"
-      },
-      "archives" : [
-         "perfsonar01.frib.msu.edu"
+        "_meta" : {
+           "display-name" : "perfsonar01.frib.msu.edu",
+           "organization-display-name" : "FRIB"
+         },
+         "archives" : [
+            "perfsonar01.frib.msu.edu"
       ]
    },
      "noc-ps-1-meas.scconf.org" : {
