@@ -717,6 +717,14 @@
         "address" : "wash-ps-lat.es.net",
         "host" : "wash-ps.es.net"
     },
+    "perfsonar01.frib.msu.edu" : {
+      "meta" : {
+         "display-name" : "perfsonar01.frib.msu.edu",
+         "display-set" : "perfsonar01.frib.msu.edu"
+      },
+      "address" : "perfsonar01.frib.msu.edu",
+      "host" : "perfsonar01.frib.msu.edu"
+    },
     "noc-ps-1-meas.scconf.org" : {
         "_meta" : {
            "display-name" : "noc-ps-1-meas.scconf.org",
@@ -3917,6 +3925,13 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "sunn-ps.es.net" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     },
      "wash-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -3924,12 +3939,12 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
-     "sunn-ps.es.net" : {
+     "perfsonar01.frib.msu.edu" : {
          "archiver" : "esmond",
          "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
-         }
+             "measurement-agent" : "{% scheduled_by_address %}",
+             "url" : "https://perfsonar01.frib.msu.edu.es.net/esmond/perfsonar/archive/"
+      }
      },
      "noc-ps-1-meas.scconf.org" : {
          "archiver" : "esmond",
@@ -6821,6 +6836,9 @@
            },
            {
               "name": "lhcperfmon.bnl.gov"
+           },
+           {
+               "name": "perfsonar01.frib.msu.edu"
            }          
          ],
          "type" : "disjoint"
@@ -6880,6 +6898,9 @@
            },
            {
               "name": "lhcperfmon.bnl.gov"
+           },
+           {
+                "name": "perfsonar01.frib.msu.edu"
            }
          ],
          "type" : "disjoint"
@@ -12573,6 +12594,15 @@
            "wash-ps.es.net"
         ]
      },
+     "perfsonar01.frib.msu.edu" : {
+      "_meta" : {
+         "display-name" : "perfsonar01.frib.msu.edu",
+         "organization-display-name" : "FRIB"
+      },
+      "archives" : [
+         "perfsonar01.frib.msu.edu"
+      ]
+   },
      "noc-ps-1-meas.scconf.org" : {
         "_meta" : {
            "display-name" : "noc-ps-1-meas.scconf.org",
