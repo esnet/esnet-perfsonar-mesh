@@ -16136,7 +16136,7 @@
          },
          "group" : "group_2",
          "schedule" : "schedule_0",
-         "test" : "throughput_1",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16153,7 +16153,7 @@
          },
          "group" : "group_30",
          "schedule" : "schedule_0",
-         "test" : "throughput_5",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16170,7 +16170,7 @@
          },
          "group" : "group_31",
          "schedule" : "schedule_0",
-         "test" : "throughput_2",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16187,7 +16187,7 @@
          },
          "group" : "group_1",
          "schedule" : "schedule_0",
-         "test" : "throughput_0",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16231,7 +16231,7 @@
          },
          "group" : "group_0",
          "schedule" : "schedule_0",
-         "test" : "throughput_0",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16273,7 +16273,7 @@
          },
          "group" : "group_3",
          "schedule" : "schedule_0",
-         "test" : "throughput_0",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16341,7 +16341,7 @@
          },
          "group" : "group_14",
          "schedule" : "schedule_0",
-         "test" : "throughput_1",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16385,7 +16385,7 @@
          },
          "group" : "group_16",
          "schedule" : "schedule_0",
-         "test" : "throughput_0",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16427,7 +16427,7 @@
          },
          "group" : "group_7",
          "schedule" : "schedule_0",
-         "test" : "throughput_1",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16469,7 +16469,7 @@
          },
          "group" : "group_5",
          "schedule" : "schedule_0",
-         "test" : "throughput_2",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16539,7 +16539,7 @@
          },
          "group" : "group_28",
          "schedule" : "schedule_0",
-         "test" : "throughput_1",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16570,7 +16570,7 @@
          },
          "group" : "group_26",
          "schedule" : "schedule_0",
-         "test" : "throughput_1",
+         "test" : "ESnet6_TP_1_v6",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16601,7 +16601,7 @@
          },
          "group" : "group_18",
          "schedule" : "schedule_0",
-         "test" : "throughput_1",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16645,7 +16645,7 @@
          },
          "group" : "group_22",
          "schedule" : "schedule_0",
-         "test" : "throughput_4",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16689,7 +16689,7 @@
          },
          "group" : "group_33",
          "schedule" : "schedule_0",
-         "test" : "throughput_2",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16731,7 +16731,7 @@
          },
          "group" : "group_20",
          "schedule" : "schedule_2",
-         "test" : "throughput_3",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16762,7 +16762,7 @@
          },
          "group" : "group_10",
          "schedule" : "schedule_0",
-         "test" : "throughput_1",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16804,7 +16804,7 @@
          },
          "group" : "group_24",
          "schedule" : "schedule_0",
-         "test" : "throughput_1",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16833,7 +16833,7 @@
          },
          "group" : "group_12",
          "schedule" : "schedule_0",
-         "test" : "throughput_1",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16875,7 +16875,7 @@
          },
          "group" : "group_37",
          "schedule" : "schedule_0",
-         "test" : "throughput_6",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16904,7 +16904,7 @@
          },
          "group" : "group_35",
          "schedule" : "schedule_2",
-         "test" : "throughput_3",
+         "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
             "iperf3"
@@ -16935,7 +16935,7 @@
          },
          "group" : "group_39",
          "schedule" : "schedule_0",
-         "test" : "throughput_0"
+         "test" : "ESnet6_TP_1_v4"
       },
       "ESnet_Backup_Paths_-_Loss" : {
          "_meta" : {
@@ -16996,7 +16996,7 @@
           "display-task-name": "{% jq .task._meta.\"display-name\" %}"
        },
        "group" : "group_doenetoro_pt1",
-       "test" : "throughput_0",
+       "test" : "ESnet6_TP_1_v4",
        "schedule": "schedule_0"
     },
     "ESnet_to_Simons_Observatory_Loss_Testing" : {
@@ -17022,7 +17022,7 @@
         },
         "group" : "group_simons_observ_pt",
         "schedule" : "schedule_0",
-        "test" : "throughput_1"
+        "test" : "ESnet6_TP_1_v4"
       },
       "ESnet_to_Simons_Observatory_Traceroute_Testing" : {
          "_meta" : {
@@ -17047,7 +17047,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_nrel_thrupt",
-         "test" : "throughput_1"
+         "test" : "ESnet6_TP_1_v4"
        },
       "ESnet_to_NREL_Loss_Testing" : {
          "_meta" : {
@@ -17084,7 +17084,7 @@
               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
            },
            "group" : "group_gluex_thrupt",
-           "test" : "throughput_1"
+           "test" : "ESnet6_TP_1_v4"
          },
         "JLAB_GlueX_Loss_Testing" : {
            "_meta" : {
