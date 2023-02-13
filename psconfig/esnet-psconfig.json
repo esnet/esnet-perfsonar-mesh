@@ -16204,7 +16204,7 @@
          },
          "group" : "group_1",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_Hub_to_ESnet_Hub_Traceroute_Testing" : {
          "_meta" : {
@@ -16217,7 +16217,7 @@
          },
          "group" : "group_2",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_Hub_to_Large_DOE_Site_Border_Throughput_Testing" : {
          "_meta" : {
@@ -16248,7 +16248,7 @@
          },
          "group" : "group_0",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_Hub_to_Small_DOE_Site_Border_Packet_Loss_Testing" : {
          "_meta" : {
@@ -16290,7 +16290,7 @@
          },
          "group" : "group_9",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_Iperf3_Traceroute_Testing" : {
          "_meta" : {
@@ -16303,7 +16303,7 @@
          },
          "group" : "group_32",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_Traceroute_Measurements" : {
          "_meta" : {
@@ -16316,7 +16316,7 @@
          },
          "group" : "group_4",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_ANL_Pilot_Packet_Loss_Testing" : {
          "_meta" : {
@@ -16358,7 +16358,7 @@
          },
          "group" : "group_14",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_DOE_Site_Packet_Loss_Testing" : {
          "_meta" : {
@@ -16402,7 +16402,7 @@
          },
          "group" : "group_16",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_ESnet_European_Packet_Loss_Testing" : {
          "_meta" : {
@@ -16444,7 +16444,7 @@
          },
          "group" : "group_8",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_ESnet_Intercontinental_Packet_Loss_Testing" : {
          "_meta" : {
@@ -16486,7 +16486,7 @@
          },
          "group" : "group_6",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_ESnet_Packet_Loss_Testing" : {
          "_meta" : {
@@ -16618,7 +16618,7 @@
          },
          "group" : "group_18",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_ESGF_Site_Packet_Loss_Testing" : {
          "_meta" : {
@@ -16662,7 +16662,7 @@
          },
          "group" : "group_22",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_International_Packet_Loss_Testing" : {
          "_meta" : {
@@ -16706,7 +16706,7 @@
          },
          "group" : "group_33",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_KSTAR_Sites_Packet_Loss_Testing" : {
          "_meta" : {
@@ -16779,7 +16779,7 @@
          },
          "group" : "group_10",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_US_Regional_Networks_Packet_Loss" : {
          "_meta" : {
@@ -16850,7 +16850,7 @@
          },
          "group" : "group_12",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "IU_Training_Packet_Loss_Testing" : {
          "_meta" : {
@@ -16921,7 +16921,7 @@
          },
          "group" : "group_36",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_Backup_Paths_-_Throughput" : {
          "_meta" : {
@@ -17035,7 +17035,7 @@
          },
          "group" : "group_simons_observ_pt",
          "schedule" : "schedule_1",
-         "test" : "trace_0"
+         "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_NREL_Throughput_Testing" : {
          "_meta" : {
@@ -17072,7 +17072,7 @@
            },
            "group" : "group_nrel_owamp",
            "schedule" : "schedule_1",
-           "test" : "trace_0"
+           "test" : "ESnet6_v4_trace"
         },
         "JLAB_GlueX_Throughput_Testing" : {
            "_meta" : {
@@ -17109,7 +17109,7 @@
              },
              "group" : "group_gluex_thrupt",
              "schedule" : "schedule_1",
-             "test" : "trace_0"
+             "test" : "ESnet6_v4_trace"
           }
    },
    "tests" : {
