@@ -12601,7 +12601,8 @@
          },
          "archives" : [
             "perfsonar01.frib.msu.edu"
-      ]
+      ],
+      "no-agent" : true
    },
      "noc-ps-1-meas.scconf.org" : {
         "_meta" : {
