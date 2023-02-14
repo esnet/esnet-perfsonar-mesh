@@ -3628,6 +3628,13 @@
          },
          "address" : "wuit-s-00045.wustl.edu",
          "host" : "wuit-s-00045.wustl.edu"
+      },
+      "132.170.30.38" : {
+         "_meta" : {
+            "display-name" : "UCF-P3-132-170-30-38"
+         },
+         "address" : "132.170.30.38",
+         "host" : "132.170.30.38"
       }
    },
    "archives" : {
@@ -6227,6 +6234,13 @@
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "http://wuit-s-00045.wustl.edu/esmond/perfsonar/archive/"
          }
+      },
+      "132.170.30.38" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://132.170.30.38/esmond/perfsonar/archive/"
+         }
       }
    },
    "groups" : {
@@ -6927,14 +6941,23 @@
             },
             {
                "name" : "ps3.crc.rice.edu"
+            },
+            {
+               "name" : "132.170.30.38"
             }
          ],
          "b-addresses" : [
             {
+               "name" : "eqxch2-ps-tp.es.net"
+            },
+            {
+               "name" : "eqxda3-ps-tp.es.net"
+            },
+            {
                "name" : "eqxdc4-ps-tp.es.net"
             },
             {
-               "name" : "kans-ps-tp.es.net"
+               "name" : "eqxsv5-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -6979,14 +7002,23 @@
             },
             {
                "name" : "uct2-net1.mwt2.org"
+            },
+            {
+               "name" : "132.170.30.38"
             }
          ],
          "b-addresses" : [
             {
+               "name" : "eqxch2-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxda3-ps-lat.es.net"
+            },
+            {
                "name" : "eqxdc4-ps-lat.es.net"
             },
             {
-               "name" : "kans-ps-lat.es.net"
+               "name" : "eqxsv5-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7001,9 +7033,18 @@
             }
          ],
          "b-addresses" : [
-           {
-              "name" : "eqxch2-ps-tp.es.net"
-           }
+            {
+               "name" : "eqxch2-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxda3-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxdc4-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxsv5-ps-lat.es.net"
+            }
          ],
          "type" : "disjoint"
       },
@@ -7017,9 +7058,18 @@
             }
          ],
          "b-addresses" : [
-           {
-              "name" : "eqxch2-ps-lat.es.net"
-           }
+            {
+               "name" : "eqxch2-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxda3-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxdc4-ps-lat.es.net"
+            },
+            {
+               "name" : "eqxsv5-ps-lat.es.net"
+            }
          ],
          "type" : "disjoint"
       },
@@ -15917,6 +15967,16 @@
          },
          "archives" : [
             "wuit-s-00045.wustl.edu"
+         ],
+         "no-agent" : true
+      },
+      "132.170.30.38" : {
+         "_meta" : {
+            "display-name" : "UCF-P3-132-170-30-38",
+            "organization-display-name" : "UCF"
+         },
+         "archives" : [
+            "132.170.30.38"
          ],
          "no-agent" : true
       }
