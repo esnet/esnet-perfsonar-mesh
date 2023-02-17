@@ -6313,7 +6313,7 @@
      "ESnet6_LAT_HUB" : {
         "addresses" : [
           {
-            "name" : "albq-ps-tp.es.net"
+            "name" : "albq-ps-lat.es.net"
           },
           {
             "name" : "denv-ps-lat.es.net"
@@ -16974,7 +16974,7 @@
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
-         "group" : "group_36",
+         "group" : "group_35",
          "schedule" : "schedule_1",
          "test" : "ESnet6_v4_trace"
       },
