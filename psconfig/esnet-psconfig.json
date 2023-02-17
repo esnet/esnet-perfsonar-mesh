@@ -7221,19 +7221,16 @@
          ],
          "b-addresses" : [
            {
-              "name" : "bost-ps-lat.es.net"
+              "name" : "bost-ps-tp.es.net"
            },
             {
-               "name" : "newy32aoa-ps-lat.es.net"
+               "name" : "newy32aoa-ps-tp.es.net"
             },
             {
-               "name" : "newy1118th-ps-lat.es.net"
+               "name" : "newy1118th-ps-tp.es.net"
             },
             {
-               "name" : "eqxsv5-ps-lat.es.net"
-            },
-            {
-               "name" : "wash-ps-lat.es.net"
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -7259,9 +7256,6 @@
             },
             {
                "name" : "newy1118th-ps-lat.es.net"
-            },
-            {
-               "name" : "eqxsv5-ps-lat.es.net"
             },
             {
                "name" : "wash-ps-lat.es.net"
