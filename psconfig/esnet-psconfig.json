@@ -6717,6 +6717,104 @@
          ],
          "type" : "mesh"
       },
+      "group_4_tp" : {
+         "addresses" : [
+           {
+              "name" : "albq-ps-tp.es.net"
+           },
+           {
+              "name" : "atla-ps-tp.es.net"
+           },
+           {
+              "name" : "bnl515-ps-tp.es.net"
+           },
+           {
+              "name" : "bnl515b-ps-ltpat.es.net"
+           },
+           {
+              "name" : "bois-ps-tp.es.net"
+           },
+           {
+              "name" : "bost-ps-tp.es.net"
+           },
+           {
+              "name" : "chat-ps-tp.es.net"
+           },
+           {
+              "name" : "chic-ps-tp.es.net"
+           },
+           {
+              "name" : "denv-ps-tp.es.net"
+           },
+           {
+              "name" : "elpa-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxch2-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxdc4-ps-tp.es.net"
+           },
+           {
+              "name" : "eqxsv5-ps-tp.es.net"
+           },
+           {
+              "name" : "ga-ps-tp.es.net"
+           },
+           {
+              "name" : "hous-ps-tp.es.net"
+           },
+           {
+              "name" : "kans-ps-tp.es.net"
+           },
+           {
+              "name" : "lasv-ps-tp.es.net"
+           },
+           {
+              "name" : "lbnl50-ps-tp.es.net"
+           },
+           {
+              "name" : "lbnl59-ps-tp.es.net"
+           },
+           {
+              "name" : "llnl-ps-tp.es.net"
+           },
+           {
+              "name" : "nash-ps-ltpat.es.net"
+           },
+           {
+              "name" : "newy1118th-ps-tp.es.net"
+           },
+           {
+              "name" : "newy32aoa-ps-tp.es.net"
+           },
+           {
+              "name" : "orau-ps-tp.es.net"
+           },
+           {
+              "name" : "sacr-ps-tp.es.net"
+           },
+           {
+              "name" : "salt-ps-tp.es.net"
+           },
+           {
+              "name" : "sand-ps-tp.es.net"
+           },
+           {
+              "name" : "seat-ps-tp.es.net"
+           },
+           {
+              "name" : "star-ps-tp.es.net"
+           },
+           {
+              "name" : "sunn-ps-tp.es.net"
+           },
+           {
+              "name" : "wash-ps-tp.es.net"
+           }
+         ],
+         "type" : "mesh"
+      },
       "group_5" : {
          "a-addresses" : [
             {
@@ -16556,9 +16654,9 @@
          "group" : "group_4",
          "test" : "ESnet6_LAT_1_v4"
       },
-      "ESnet_to_ESnet_Packet_Loss_Testing_IPv4" : {
+      "ESnet_to_ESnet_Packet_Loss_Testing_on_Throughput_Interfaces" : {
          "_meta" : {
-            "display-name" : "ESnet to ESnet Packet Loss Testing IPv4"
+            "display-name" : "ESnet to ESnet Packet Loss Testing on Throughput Interfaces"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -16566,7 +16664,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
             "display-task-group": ["1: ESnet to ESnet Packet Loss"]
          },
-         "group" : "group_4",
+         "group" : "group_4_tp",
          "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_GA-EAST_IPv4_Packet_Loss_Testing" : {
