@@ -3946,6 +3946,13 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "grinch.phys.uconn.edu" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+      }
+  },
      "perfsonar01.frib.msu.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -12897,7 +12904,10 @@
          "_meta" : {
             "display-name" : "grinch.phys.uconn.edu",
             "organization-display-name" : "UCONN"
-         }
+         },
+         "archives" : [
+            "grinch.phys.uconn.edu"
+         ]
      },
      "sciphy-ps.jlab.org" : {
          "_meta" : {
