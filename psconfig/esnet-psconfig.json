@@ -3952,7 +3952,28 @@
          "measurement-agent" : "{% scheduled_by_address %}",
          "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
       }
-  },
+     },
+     "sciphy-ps.jlab.org" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+      }
+     },
+     "jlab4.jlab.org" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+      }
+     },
+     "dmz-ps.jlab.org" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+      }
+     },
      "perfsonar01.frib.msu.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -12907,19 +12928,28 @@
          },
          "archives" : [
             "grinch.phys.uconn.edu"
-         ]
+         ],
+         "no-agent" : true
      },
      "sciphy-ps.jlab.org" : {
          "_meta" : {
             "display-name" : "sciphy-ps.jlab.org",
             "organization-display-name" : "JLAB"
-         }
+         },
+         "archives" : [
+            "sciphy-ps.jlab.org"
+         ],
+         "no-agent" : true
      },
      "dmz-ps.jlab.org" : {
          "_meta" : {
             "display-name" : "dmz-ps.jlab.org",
             "organization-display-name" : "JLAB"
-         }
+         },
+         "archives" : [
+            "dmz-ps.jlab.org"
+         ],
+         "no-agent" : true
      },
      "ps2-61.nrel.gov" : {
          "_meta" : {
