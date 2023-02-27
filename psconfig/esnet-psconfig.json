@@ -6941,6 +6941,12 @@
            },
            {
               "name" : "eqxsv5-ps-tp.es.net"
+           },
+           {
+            "name" : "lbnl50-ps-tp.es.net"
+           },
+           {
+            "name" : "lbnl59-ps-tp.es.net"
            }
          ],
          "b-addresses" : [
@@ -6996,8 +7002,13 @@
            },
            {
               "name" : "eqxsv5-ps-lat.es.net"
+           },
+           {
+              "name" : "lbnl50-ps-lat.es.net"
            }
-
+           {
+              "name" : "lbnl59-ps-lat.es.net"
+           }
          ],
          "b-addresses" : [
            {
