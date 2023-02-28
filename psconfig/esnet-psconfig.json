@@ -557,6 +557,22 @@
         "address" : "ornl5600-ps-tp.es.net",
         "host" : "ornl5600-ps.es.net"
     },
+    "pppl-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "pppl-ps-lat.es.net",
+         "display-set" : "pppl-ps.es.net"
+      },
+      "address" : "pppl-ps-lat.es.net",
+      "host" : "pppl-ps.es.net"
+    },
+     "pppl-ps-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "pppl-ps-tp.es.net",
+         "display-set" : "pppl-ps.es.net"
+      },
+      "address" : "pppl-ps-tp.es.net",
+      "host" : "pppl-ps.es.net"
+  },
     "sacr-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "sacr-ps-lat.es.net",
@@ -7307,6 +7323,9 @@
                "name" : "ornl1064-ps-tp.es.net"
             },
             {
+               "name" : "pppl-ps-tp.es.net"
+            },
+            {
                "name" : "slac50n-ps-tp.es.net"
             },
             {
@@ -7375,6 +7394,9 @@
             },
             {
                "name" : "ornl1064-ps-lat.es.net"
+            },
+            {
+               "name" : "pppl-ps-lat.es.net"
             },
             {
                "name" : "slac50n-ps-lat.es.net"
@@ -12723,6 +12745,15 @@
            "ornl5600-ps.es.net"
         ]
      },
+     "pppl-ps.es.net" : {
+      "_meta" : {
+         "display-name" : "pppl-ps.es.net",
+         "organization-display-name" : "ESnet"
+      },
+      "archives" : [
+         "pppl-ps.es.net"
+      ]
+   },
      "sacr-ps.es.net" : {
         "_meta" : {
            "display-name" : "sacr-ps.es.net",
