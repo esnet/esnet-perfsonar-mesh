@@ -6930,7 +6930,13 @@
       },
       "group_10" : {
          "a-addresses" : [
-           {
+            {
+               "name" : "anl221-ps-tp.es.net"
+            },
+            {
+               "name" : "anl541b-ps-tp.es.net"
+            },
+            {
               "name" : "eqxch2-ps-tp.es.net"
            },
            {
@@ -6947,6 +6953,12 @@
            },
            {
             "name" : "lbnl59-ps-tp.es.net"
+           },
+           {
+            "name" : "ornl1064-ps-tp.es.net"
+           },
+           {
+            "name" : "ornl5600-ps-tp.es.net"
            }
          ],
          "b-addresses" : [
@@ -6991,7 +7003,13 @@
       },
       "group_11" : {
          "a-addresses" : [
-           {
+            {
+               "name" : "anl221-ps-lat.es.net"
+            },
+            {
+               "name" : "anl541b-ps-lat.es.net"
+            },
+            {
               "name" : "eqxch2-ps-lat.es.net"
            },
            {
@@ -7008,6 +7026,12 @@
            },
            {
               "name" : "lbnl59-ps-lat.es.net"
+           },
+           {
+              "name" : "ornl1064-ps-lat.es.net"
+           },
+           {
+              "name" : "ornl5600-ps-lat.es.net"
            }
          ],
          "b-addresses" : [
