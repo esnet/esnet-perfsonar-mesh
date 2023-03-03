@@ -137,6 +137,7 @@ dashboards:
      grids:
        - name: "ESnet - ESnet to ESnet Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to ESnet Packet Loss Testing on Throughput Interfaces - Loss"
+       - name: "ESnet - ESnet to ESnet Packet Loss Testing IPv6 - Loss"
        - name: "ESnet - ESnet6 Packet Loss IPv4 Path Testing - Loss"
        - name: "ESnet - ESnet to DOE Site Packet Loss Testing - Loss"
    - name: "2: ESnet to ESnet Throughput Testing"

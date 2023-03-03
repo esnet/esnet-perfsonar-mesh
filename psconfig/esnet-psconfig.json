@@ -317,6 +317,38 @@
         "address" : "fnalgcc-ps-tp.es.net",
         "host" : "fnalgcc-ps.es.net"
     },
+    "frib-ps-a-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "frib-ps-a-tp.es.net",
+         "display-set" : "frib-ps-a.es.net"
+      },
+      "address" : "frib-ps-a-tp.es.net",
+      "host" : "frib-ps-a.es.net"
+    },
+    "frib-ps-a-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "frib-ps-a-lat.es.net",
+         "display-set" : "frib-ps-a.es.net"
+      },
+      "address" : "frib-ps-a-lat.es.net",
+      "host" : "frib-ps-a.es.net"
+    },
+    "frib-ps-b-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "frib-ps-b-tp.es.net",
+         "display-set" : "frib-ps-b.es.net"
+      },
+      "address" : "frib-ps-b-tp.es.net",
+      "host" : "frib-ps-b.es.net"
+    },
+    "frib-ps-b-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "frib-ps-b-lat.es.net",
+         "display-set" : "frib-ps-b.es.net"
+      },
+      "address" : "frib-ps-b-lat.es.net",
+      "host" : "frib-ps-b.es.net"
+    },
     "ga-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "ga-ps-tp.es.net",
@@ -3787,6 +3819,20 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "frib-ps-a.es.net" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+      }
+      },
+      "frib-ps-b.es.net" : {
+       "archiver" : "esmond",
+       "data" : {
+          "measurement-agent" : "{% scheduled_by_address %}",
+          "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+       }
+    },
      "ga-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -3898,7 +3944,7 @@
             "measurement-agent" : "{% scheduled_by_address %}",
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
-  },
+     },
      "sacr-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -7309,6 +7355,12 @@
                "name" : "fnalgcc-ps-tp.es.net"
             },
             {
+               "name" : "frib-ps-a-tp.es.net"
+            },
+            {
+               "name" : "frib-ps-b-tp.es.net"
+            },
+            {
                "name" : "ga-ps-tp.es.net"
             },
             {
@@ -7380,6 +7432,12 @@
             },
             {
                "name" : "fnalgcc-ps-lat.es.net"
+            },
+            {
+               "name" : "frib-ps-a-lat.es.net"
+            },
+            {
+               "name" : "frib-ps-b-lat.es.net"
             },
             {
                "name" : "ga-ps-lat.es.net"
@@ -12617,6 +12675,24 @@
            "fnalgcc-ps.es.net"
         ]
      },
+     "frib-ps-a.es.net" : {
+      "_meta" : {
+         "display-name" : "frib-ps-a.es.net",
+         "organization-display-name" : "ESnet"
+      },
+      "archives" : [
+         "frib-ps-a.es.net"
+      ]
+   },
+   "frib-ps-b.es.net" : {
+      "_meta" : {
+         "display-name" : "frib-ps-b.es.net",
+         "organization-display-name" : "ESnet"
+      },
+      "archives" : [
+         "frib-ps-b.es.net"
+      ]
+   },
      "ga-ps.es.net" : {
         "_meta" : {
            "display-name" : "ga-ps.es.net",
@@ -16788,6 +16864,19 @@
          },
          "group" : "group_4",
          "test" : "ESnet6_LAT_1_v4"
+      },
+      "ESnet_to_ESnet_Packet_Loss_Testing_IPv6" : {
+         "_meta" : {
+            "display-name" : "ESnet to ESnet Packet Loss Testing IPv6"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["1: ESnet to ESnet Packet Loss"]
+         },
+         "group" : "group_4",
+         "test" : "ESnet6_LAT_1_v6"
       },
       "ESnet_to_ESnet_Packet_Loss_Testing_on_Throughput_Interfaces" : {
          "_meta" : {
