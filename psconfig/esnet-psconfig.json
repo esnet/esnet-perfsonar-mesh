@@ -269,6 +269,22 @@
         "address" : "eqxdc4-ps-lat.es.net",
         "host" : "eqxdc4-ps.es.net"
     },
+    "eqxld8-ps-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "eqxld8-ps-tp.es.net",
+         "display-set" : "eqxld8-ps.es.net"
+      },
+      "address" : "eqxld8-ps-tp.es.net",
+      "host" : "eqxld8-ps.es.net"
+  },
+  "eqxld8-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "eqxld8-ps-lat.es.net",
+         "display-set" : "eqxld8-ps.es.net"
+      },
+      "address" : "eqxld8-ps-lat.es.net",
+      "host" : "eqxld8-ps.es.net"
+  },
     "eqxsv5-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "eqxsv5-ps-tp.es.net",
@@ -3798,6 +3814,13 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "eqxld8-ps.es.net" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+      }
+  },
      "eqxsv5-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -6970,7 +6993,16 @@
       "group_7" : {
          "addresses" : [
             {
-               "name" : "amst-pt1.es.net"
+               "name" : "bost-ps-tp.es.net"
+            },
+            {
+               "name" : "newy1118th-ps-tp.es.net"
+            },
+            {
+               "name" : "newy32aoa-ps-tp.es.net"
+            },
+            {
+               "name" : "wash-ps-tp.es.net"
             }
          ],
          "type" : "mesh"
@@ -6978,7 +7010,28 @@
       "group_8" : {
          "addresses" : [
             {
-               "name" : "amst-owamp.es.net"
+               "name" : "bost-ps-lat.es.net"
+            },
+            {
+               "name" : "newy1118th-ps-lat.es.net"
+            },
+            {
+               "name" : "newy32aoa-ps-lat.es.net"
+            },
+            {
+               "name" : "wash-ps-lat.es.net"
+            },
+            {
+               "name" : "psmp-gn-owd-ams-nl.geant.org"
+            },
+            {
+               "name" : "psmp-gn-owd-lon-uk.geant.org"
+            },
+            {
+               "name" : "psmp-gn-owd-lon2-uk.geant.org"
+            },
+            {
+               "name" : "psmp-lhc-owd-gen-ch.geant.org"
             }
          ],
          "type" : "mesh"
@@ -7478,6 +7531,9 @@
       "group_18" : {
          "a-addresses" : [
             {
+               "name" : "eqxld8-ps-tp.es.net"
+            },
+            {
                "name" : "psmp-gn-bw-01-par-fr.geant.net"
             }
          ],
@@ -7499,6 +7555,9 @@
       },
       "group_19" : {
          "a-addresses" : [
+            {
+               "name" : "eqxld8-ps-lat.es.net"
+            },
             {
                "name" : "psmp-gn-owd-01.ams.nl.geant.net"
             },
@@ -12648,6 +12707,15 @@
            "eqxdc4-ps.es.net"
         ]
      },
+     "eqxld8-ps.es.net" : {
+      "_meta" : {
+         "display-name" : "eqxld8-ps.es.net",
+         "organization-display-name" : "ESnet"
+      },
+      "archives" : [
+         "eqxld8-ps.es.net"
+      ]
+   },
      "eqxsv5-ps.es.net" : {
         "_meta" : {
            "display-name" : "eqxsv5-ps.es.net",
