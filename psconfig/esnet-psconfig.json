@@ -7020,18 +7020,6 @@
             },
             {
                "name" : "wash-ps-lat.es.net"
-            },
-            {
-               "name" : "psmp-gn-owd-ams-nl.geant.org"
-            },
-            {
-               "name" : "psmp-gn-owd-lon-uk.geant.org"
-            },
-            {
-               "name" : "psmp-gn-owd-lon2-uk.geant.org"
-            },
-            {
-               "name" : "psmp-lhc-owd-gen-ch.geant.org"
             }
          ],
          "type" : "mesh"
