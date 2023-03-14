@@ -164,6 +164,11 @@ dashboards:
      grids:
        - name: "ESnet - ESnet to ESGF Site Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to ESGF Site Throughput Testing - Throughput"
+   - name: "71: ESnet to FRIB"
+     grids:
+       - name: "ESnet - FRIB Packet Loss Testing - Loss"
+       - name: "ESnet - FRIB Throughput Testing - Throughput"
+       - name: "ESnet - FRIB Traceroute Testing - Path Count"
    - name: "8: ESnet to GA-EAST"
      grids:
        - name: "ESnet - ESnet to GA-EAST IPv4 Throughput Testing - Throughput"

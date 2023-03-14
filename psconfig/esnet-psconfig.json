@@ -12548,7 +12548,76 @@
          }
      ],
      "type" : "mesh"
-     }
+     },
+     "group_frib" : {
+       "a-addresses" : [
+         {
+            "name" : "frib-a-ps-tp.es.net"
+         },
+         {
+            "name" : "frib-b-ps-tp.es.net"
+         },
+         {
+            "name" : "lbnl50-ps-tp.es.net"
+         },
+         {
+            "name" : "lbnl59-ps-tp.es.net"
+         }
+      ],
+      "b-addresses" : [
+        {
+          "name" : "frib-a-ps-tp.es.net"
+        },
+        {
+          "name" : "frib-b-ps-lat.es.net"
+        }
+      ],
+      "type" : "disjoint"
+    },
+    "group_lhcone_latency" : {
+      "a-addresses" : [
+        {
+           "name" : "bost-ps-lat.es.net"
+        },
+        {
+           "name" : "newy1118th-b-ps-lat.es.net"
+        },
+        {
+           "name" : "newy32aoa-ps-lat.es.net"
+        },
+        {
+           "name" : "wash-ps-lat.es.net"
+        }
+     ],
+     "b-addresses" : [
+       {
+         "name" : "eqxld8-ps-lat.es.net"
+       }
+     ],
+     "type" : "disjoint"
+   },
+   "group_lhcone_throughput" : {
+      "a-addresses" : [
+        {
+           "name" : "bost-ps-tp.es.net"
+        },
+        {
+           "name" : "eqx1118th-ps-tp.es.net"
+        },
+        {
+           "name" : "eqx32aoa-ps-tp.es.net"
+        },
+        {
+           "name" : "wash-ps-tp.es.net"
+        }
+     ],
+     "b-addresses" : [
+       {
+         "name" : "eqxld8-ps-tp.es.net"
+       }
+     ],
+     "type" : "disjoint"
+   }, 
    },
    "hosts" : {
      "albq-ps.es.net" : {
@@ -17543,7 +17612,81 @@
              "group" : "group_gluex_thrupt",
              "schedule" : "schedule_1",
              "test" : "ESnet6_v4_trace"
-          }
+          },
+          "FRIB_Throughput_Testing" : {
+            "_meta" : {
+               "display-name" : "FRIB Throughput Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            },
+            "group" : "group_frib",
+            "test" : "ESnet6_TP_1_v4"
+          },
+         "FRIB_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "FRIB Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            },
+            "group" : "group_frib",
+            "test" : "ESnet6_LAT_1_v4"
+          },
+           "FRIB_Traceroute_Testing" : {
+              "_meta" : {
+                 "display-name" : "FRIB Traceroute Testing"
+              },
+              "reference": {
+                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+                 "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+              },
+              "group" : "group_frib",
+              "schedule" : "schedule_1",
+              "test" : "ESnet6_v4_trace"
+           },
+           "LHCONE_Throughput_Testing" : {
+            "_meta" : {
+               "display-name" : "LHCONE Throughput Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            },
+            "group" : "group_lhcone_Throughput",
+            "test" : "ESnet6_TP_1_v4"
+          },
+         "LHCONE_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "LHCONE Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            },
+            "group" : "group_lhcone_latency",
+            "test" : "ESnet6_LAT_1_v4"
+          },
+           "LHCONE_Traceroute_Testing" : {
+              "_meta" : {
+                 "display-name" : "LHCONE Traceroute Testing"
+              },
+              "reference": {
+                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+                 "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+              },
+              "group" : "group_lhcone_Throughput",
+              "schedule" : "schedule_1",
+              "test" : "ESnet6_v4_trace"
+           }          
    },
    "tests" : {
       "ESnet6_TP_1_v4" : {
