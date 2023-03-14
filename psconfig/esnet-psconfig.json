@@ -12562,6 +12562,9 @@
          },
          {
             "name" : "lbnl59-ps-tp.es.net"
+         },
+         {
+            "name" : "perfsonar01.frib.msu.edu"
          }
       ],
       "b-addresses" : [
@@ -12570,6 +12573,9 @@
         },
         {
           "name" : "frib-b-ps-lat.es.net"
+        },
+        {
+         "name" : "perfsonar01.frib.msu.edu"
         }
       ],
       "type" : "disjoint"
