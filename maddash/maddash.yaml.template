@@ -133,34 +133,39 @@ grids:
 ##
 # Manually defined dashboards
 dashboards:
-   - name: "1: ESnet to ESnet Packet Loss"
+   - name: "10: ESnet to ESnet Packet Loss"
      grids:
        - name: "ESnet - ESnet to ESnet Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to ESnet Packet Loss Testing on Throughput Interfaces - Loss"
        - name: "ESnet - ESnet to ESnet Packet Loss Testing IPv6 - Loss"
        - name: "ESnet - ESnet6 Packet Loss IPv4 Path Testing - Loss"
        - name: "ESnet - ESnet to DOE Site Packet Loss Testing - Loss"
-   - name: "2: ESnet to ESnet Throughput Testing"
+   - name: "20: ESnet to ESnet Throughput Testing"
      grids:
        - name: "ESnet - 100G ESnet Hub to 100G ESnet Hub Throughput Testing - Throughput"
        - name: "ESnet - ESnet Hub to Large DOE Site Border Throughput Testing - Throughput"
-   - name: "3: ESnet to DOE Sites"
+   - name: "30: ESnet to DOE Sites"
      grids:
        - name: "ESnet - ESnet to DOE Site Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to DOE Site Throughput Testing - Throughput"
-   - name: "4: ESnet to Large Facilities"
+   - name: "40: ESnet to Large Facilities"
      grids:
        - name: "ESnet - ESnet to Large Facility Throughput Testing - Throughput"
        - name: "ESnet - ESnet to Large Facility Packet Loss Testing - Loss"
-   - name: "5: ESnet to Europe"
+   - name: "50: ESnet to Europe"
      grids:
        - name: "ESnet - ESnet to GEANT Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to GEANT Throughput Testing - Throughput"
-   - name: "6: ESnet to International"
+   - name: "51: ESnet-LHCONE"
+     grids:
+       - name: "ESnet - LHCONE Packet Loss Testing - Loss"
+       - name: "ESnet - LHCONE Throughput Testing - Throughput"
+       - name: "ESnet - LHCONE Tracreoute Testing - Path Count"
+   - name: "60: ESnet to International"
      grids:
        - name: "ESnet - ESnet to International Throughput Testing - Throughput"
        - name: "ESnet - ESnet to International Packet Loss Testing - Loss"
-   - name: "7: ESnet to ESGF Sites"
+   - name: "70: ESnet to ESGF Sites"
      grids:
        - name: "ESnet - ESnet to ESGF Site Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to ESGF Site Throughput Testing - Throughput"
@@ -169,13 +174,13 @@ dashboards:
        - name: "ESnet - FRIB Packet Loss Testing - Loss"
        - name: "ESnet - FRIB Throughput Testing - Throughput"
        - name: "ESnet - FRIB Traceroute Testing - Path Count"
-   - name: "8: ESnet to GA-EAST"
+   - name: "80: ESnet to GA-EAST"
      grids:
        - name: "ESnet - ESnet to GA-EAST IPv4 Throughput Testing - Throughput"
        - name: "ESnet - ESnet to GA-EAST IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to GA-EAST IPv6 Throughput Testing - Throughput"
        - name: "ESnet - ESnet to GA-EAST IPv6 Packet Loss Testing - Loss"
-   - name: "9: ESnet Backup Paths"
+   - name: "90: ESnet Backup Paths"
      grids:
        - name: "ESnet - ESnet Backup Paths - Loss"
        - name: "ESnet - ESnet Backup Paths - Throughput"
