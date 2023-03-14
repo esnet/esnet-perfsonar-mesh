@@ -12580,7 +12580,7 @@
            "name" : "bost-ps-lat.es.net"
         },
         {
-           "name" : "newy1118th-b-ps-lat.es.net"
+           "name" : "newy1118th-ps-lat.es.net"
         },
         {
            "name" : "newy32aoa-ps-lat.es.net"
@@ -12602,10 +12602,10 @@
            "name" : "bost-ps-tp.es.net"
         },
         {
-           "name" : "eqx1118th-ps-tp.es.net"
+           "name" : "newy1118th-ps-tp.es.net"
         },
         {
-           "name" : "eqx32aoa-ps-tp.es.net"
+           "name" : "newy32aoa-ps-tp.es.net"
         },
         {
            "name" : "wash-ps-tp.es.net"
@@ -17659,7 +17659,7 @@
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}"
             },
-            "group" : "group_lhcone_Throughput",
+            "group" : "group_lhcone_throughput",
             "test" : "ESnet6_TP_1_v4"
           },
          "LHCONE_Loss_Testing" : {
@@ -17683,7 +17683,7 @@
                  "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                  "display-task-name": "{% jq .task._meta.\"display-name\" %}"
               },
-              "group" : "group_lhcone_Throughput",
+              "group" : "group_lhcone_throughput",
               "schedule" : "schedule_1",
               "test" : "ESnet6_v4_trace"
            }          
