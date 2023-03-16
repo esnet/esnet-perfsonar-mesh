@@ -12625,7 +12625,10 @@
         }
      ],
      "b-addresses" : [
-       {
+      {
+         "name" : "eqxam3-ps-lat.es.net"
+       },
+      {
          "name" : "eqxld8-ps-lat.es.net"
        }
      ],
@@ -12647,7 +12650,10 @@
         }
      ],
      "b-addresses" : [
-       {
+      {
+         "name" : "eqxld8-ps-tp.es.net"
+       },
+      {
          "name" : "eqxld8-ps-tp.es.net"
        }
      ],
@@ -17708,7 +17714,7 @@
           },
          "LHCONE_Loss_Testing" : {
             "_meta" : {
-               "display-name" : "LHCONE Loss Testing"
+               "display-name" : "LHCONE Packet Loss Testing"
             },
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
