@@ -17724,9 +17724,9 @@
               "schedule" : "schedule_1",
               "test" : "ESnet6_v4_trace"
            },
-           "LHCONE_Throughput_Testing" : {
+           "LHCONE_IPv4_Throughput_Testing" : {
             "_meta" : {
-               "display-name" : "LHCONE Throughput Testing"
+               "display-name" : "LHCONE IPv4 Throughput Testing"
             },
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -17736,9 +17736,9 @@
             "group" : "group_lhcone_throughput",
             "test" : "ESnet6_TP_1_v4"
           },
-         "LHCONE_Loss_Testing" : {
+         "LHCONE_IPv4_Loss_Testing" : {
             "_meta" : {
-               "display-name" : "LHCONE Packet Loss Testing"
+               "display-name" : "LHCONE IPv4 Packet Loss Testing"
             },
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -17748,9 +17748,9 @@
             "group" : "group_lhcone_latency",
             "test" : "ESnet6_LAT_1_v4"
           },
-           "LHCONE_Traceroute_Testing" : {
+           "LHCONE_IPv4_Traceroute_Testing" : {
               "_meta" : {
-                 "display-name" : "LHCONE Traceroute Testing"
+                 "display-name" : "LHCONE IPv4 Traceroute Testing"
               },
               "reference": {
                  "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
