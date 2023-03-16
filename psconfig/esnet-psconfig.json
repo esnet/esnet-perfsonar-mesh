@@ -12611,7 +12611,19 @@
     },
     "group_lhcone_latency" : {
       "a-addresses" : [
-        {
+         {
+            "name" : "bnl515-ps-lat.es.net"
+         },
+         {
+            "name" : "bnl515b-ps-lat.es.net"
+         },
+         {
+            "name" : "fnalfcc-ps-lat.es.net"
+         },
+         {
+            "name" : "fnalgcc-ps-lat.es.net"
+         },
+         {
            "name" : "bost-ps-lat.es.net"
         },
         {
@@ -12636,7 +12648,19 @@
    },
    "group_lhcone_throughput" : {
       "a-addresses" : [
-        {
+         {
+            "name" : "bnl515-ps-tp.es.net"
+         },
+         {
+            "name" : "bnl515b-ps-tp.es.net"
+         },
+         {
+            "name" : "fnalfcc-ps-tp.es.net"
+         },
+         {
+            "name" : "fnalgcc-ps-tp.es.net"
+         },
+         {
            "name" : "bost-ps-tp.es.net"
         },
         {
