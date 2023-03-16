@@ -160,7 +160,7 @@ dashboards:
      grids:
        - name: "ESnet - LHCONE Packet Loss Testing - Loss"
        - name: "ESnet - LHCONE Throughput Testing - Throughput"
-       - name: "ESnet - LHCONE Tracreoute Testing - Path Count"
+       - name: "ESnet - LHCONE Traceroute Testing - Path Count"
    - name: "60: ESnet to International"
      grids:
        - name: "ESnet - ESnet to International Throughput Testing - Throughput"
