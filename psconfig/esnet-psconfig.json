@@ -12683,6 +12683,9 @@
            "name" : "bost-ps-lat.es.net"
         },
         {
+         "name" : "bost-ps-lhc-lat.es.net"
+      },
+        {
            "name" : "newy1118th-ps-lat.es.net"
         },
         {
@@ -12720,6 +12723,12 @@
            "name" : "bost-ps-tp.es.net"
         },
         {
+         "name" : "bost-ps-lhc-tp.es.net"
+      },
+      {
+         "name" : "lbnl59-ps-lhc-tp.es.net"
+      },
+        {
            "name" : "newy1118th-ps-tp.es.net"
         },
         {
@@ -12731,11 +12740,17 @@
      ],
      "b-addresses" : [
       {
+         "name" : "bost-ps-lhc-tp.es.net"
+      },
+      {
          "name" : "eqxam3-ps-tp.es.net"
        },
       {
          "name" : "eqxld8-ps-tp.es.net"
-       }
+       },
+       {
+         "name" : "boslbnl59t-ps-lhc-tp.es.net"
+      }
      ],
      "type" : "disjoint"
    }
