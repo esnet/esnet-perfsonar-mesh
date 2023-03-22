@@ -12697,10 +12697,16 @@
      ],
      "b-addresses" : [
       {
+         "name" : "bost-ps-lhc-lat.es.net"
+       },
+      {
          "name" : "eqxam3-ps-lat.es.net"
        },
       {
          "name" : "eqxld8-ps-lat.es.net"
+       },
+       {
+         "name" : "lbnl59-ps-lhc-lat.es.net"
        }
      ],
      "type" : "disjoint"
