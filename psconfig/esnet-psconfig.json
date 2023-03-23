@@ -12755,7 +12755,7 @@
      ],
      "type" : "disjoint"
      },
-     "group_lhcone_latency" : {
+     "group_NSF_SC_latency" : {
       "a-addresses" : [
          {
             "name" : "eqxch2-ps-lat.es.net"
@@ -12782,7 +12782,7 @@
      ],
      "b-addresses" : [
        {
-         "name" : "ps-100g.tacc.utexes.edu"
+         "name" : "ps-100g.tacc.utexas.edu"
        }
      ],
      "type" : "disjoint"
@@ -13236,7 +13236,7 @@
          "organization-display-name" : "TACC"
       },
       "archives" : [
-         "ps-100g.tacc.utexas.edu"
+         "ps-100g.tacc.utexas.edu"  
       ],
       "no-agent" : true
    },
