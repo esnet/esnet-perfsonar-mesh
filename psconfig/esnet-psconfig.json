@@ -4095,14 +4095,12 @@
          }
      },
      "ps-100g.tacc.utexas.edu" : {
-      "_meta" : {
-         "display-name" : "ps-100g.tacc.utexas.edu",
-         "organization-display-name" : "TACC"
-      },
-      "archives" : [
-         "ps-100g.tacc.utexas.edu"
-      ]
-   },
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+      }
+  },
      "nrel-pt1.nrel.gov" : {
       "archiver" : "esmond",
       "data" : {
