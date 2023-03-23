@@ -829,6 +829,14 @@
         "address" : "wash-ps-lat.es.net",
         "host" : "wash-ps.es.net"
     },
+    "ps-100g.tacc.utexas.edu" : {
+      "_meta" : {
+         "display-name" : "ps-100g.tacc.utexas.edu",
+         "display-set" : "ps-100g.tacc.utexas.edu"
+      },
+      "address" : "ps-100g.tacc.utexas.edu",
+      "host" : "ps-100g.tacc.utexas.edu"
+    },
     "perfsonar01.frib.msu.edu" : {
         "_meta" : {
            "display-name" : "perfsonar01.frib.msu.edu",
@@ -3067,13 +3075,6 @@
          "address" : "ps-bw.sdmz.rnp.br",
          "host" : "ps-bw.sdmz.rnp.br"
       },
-      "ps-bwctl-10g.rn.psu.edu" : {
-         "_meta" : {
-            "display-name" : "ps-bwctl-10g.rn.psu.edu"
-         },
-         "address" : "ps-bwctl-10g.rn.psu.edu",
-         "host" : "ps-bwctl-10g.rn.psu.edu"
-      },
       "ps-datacenter.netserv.wayne.edu" : {
          "_meta" : {
             "display-name" : "ps-datacenter.netserv.wayne.edu"
@@ -4093,6 +4094,15 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "ps-100g.tacc.utexas.edu" : {
+      "_meta" : {
+         "display-name" : "ps-100g.tacc.utexas.edu",
+         "organization-display-name" : "TACC"
+      },
+      "archives" : [
+         "ps-100g.tacc.utexas.edu"
+      ]
+   },
      "nrel-pt1.nrel.gov" : {
       "archiver" : "esmond",
       "data" : {
@@ -5808,13 +5818,6 @@
             "url" : "http://ps-bw.sdmz.rnp.br/esmond/perfsonar/archive/"
          }
       },
-      "ps-bwctl-10g.rn.psu.edu" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "http://ps-bwctl-10g.rn.psu.edu/esmond/perfsonar/archive/"
-         }
-      },
       "ps-datacenter.netserv.wayne.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -7271,9 +7274,6 @@
                "name" : "perfsonar.unm.edu"
             },
             {
-               "name" : "ps-bwctl-10g.rn.psu.edu"
-            },
-            {
                "name" : "updc4.rtm.tns.its.psu.edu"
             },
             {
@@ -7318,9 +7318,6 @@
             },
             {
                "name" : "ntg-perfsonar4.services.brown.edu"
-            },
-            {
-               "name" : "ps-bwctl-10g.rn.psu.edu"
             },
             {
                "name" : "updc4.rtm.tns.its.psu.edu"
@@ -12759,7 +12756,39 @@
       }
      ],
      "type" : "disjoint"
-   }
+     },
+     "group_lhcone_latency" : {
+      "a-addresses" : [
+         {
+            "name" : "eqxch2-ps-lat.es.net"
+         },
+         {
+            "name" : "eqxdc4-ps-lat.es.net"
+         }
+     ],
+     "b-addresses" : [
+       {
+         "name" : "ps-100g.tacc.utexas.edu"
+       }
+     ],
+     "type" : "disjoint"
+   },
+   "group_NSF_SC_throughput" : {
+      "a-addresses" : [
+        {
+           "name" : "eqxch2-ps-tp.es.net"
+        },
+        {
+         "name" : "eqxdc4-ps-tp.es.net"
+      }
+     ],
+     "b-addresses" : [
+       {
+         "name" : "ps-100g.tacc.utexes.edu"
+       }
+     ],
+     "type" : "disjoint"
+     }
    },
    "hosts" : {
      "albq-ps.es.net" : {
@@ -13203,6 +13232,16 @@
            "wash-ps.es.net"
         ]
      },
+     "ps-100g.tacc.utexas.edu" : {
+      "_meta" : {
+         "display-name" : "ps-100g.tacc.utexas.edu",
+         "organization-display-name" : "TACC"
+      },
+      "archives" : [
+         "ps-100g.tacc.utexas.edu"
+      ],
+      "no-agent" : true
+   },
      "perfsonar01.frib.msu.edu" : {
         "_meta" : {
            "display-name" : "perfsonar01.frib.msu.edu",
@@ -15667,17 +15706,6 @@
          ],
          "no-agent" : true
       },
-      "ps-bwctl-10g.rn.psu.edu" : {
-         "_meta" : {
-            "display-name" : "ps-bwctl-10g.rn.psu.edu",
-            "organization-display-name" : "The Pennsylvania State University",
-            "site-display-name" : "PSU Research Network"
-         },
-         "archives" : [
-            "ps-bwctl-10g.rn.psu.edu"
-         ],
-         "no-agent" : true
-      },
       "ps-datacenter.netserv.wayne.edu" : {
          "_meta" : {
             "display-name" : "ps-datacenter.netserv.wayne.edu",
@@ -17837,7 +17865,44 @@
               "group" : "group_lhcone_throughput",
               "schedule" : "schedule_1",
               "test" : "ESnet6_v4_trace"
-           }          
+           },
+           "NSF_SuperComputers_IPv4_Throughput_Testing" : {
+            "_meta" : {
+               "display-name" : "NSF SuperComputers IPv4 Throughput Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            },
+            "group" : "group_NSF_SC_throughput",
+            "test" : "ESnet6_TP_1_v4"
+          },
+         "NSF_SuperComputers_IPv4_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "NSF SuperComputers IPv4 Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            },
+            "group" : "group_NSF_SC_latency",
+            "test" : "ESnet6_LAT_1_v4"
+          },
+           "NSF_SuperComputers_IPv4_Traceroute_Testing" : {
+              "_meta" : {
+                 "display-name" : "NSF SuperComputers IPv4 Traceroute Testing"
+              },
+              "reference": {
+                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+                 "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+              },
+              "group" : "group_NSF_SC_throughput",
+              "schedule" : "schedule_1",
+              "test" : "ESnet6_v4_trace"
+           }         
    },
    "tests" : {
       "ESnet6_TP_1_v4" : {
