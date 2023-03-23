@@ -157,7 +157,6 @@ dashboards:
        - name: "ESnet - NSF SuperComputers IPv4 Throughput Testing - Throughput"
        - name: "ESnet - NSF SuperComputers IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - NSF SuperComputers IPv4 Traceroute Testing - Path Count"
-
    - name: "50: ESnet to Europe"
      grids:
        - name: "ESnet - ESnet to GEANT Packet Loss Testing - Loss"
