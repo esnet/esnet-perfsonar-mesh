@@ -152,7 +152,7 @@ dashboards:
      grids:
        - name: "ESnet - ESnet to Large Facility Throughput Testing - Throughput"
        - name: "ESnet - ESnet to Large Facility Packet Loss Testing - Loss"
-   - name: "41: ESnet to NSF-SUPPORTED SUPERCOMPUTERS"
+   - name: "41: ESnet to NSF-Supported SuperComputers"
      grids:
        - name: "ESnet - NSF SuperComputers IPv4 Throughput Testing - Throughput"
        - name: "ESnet - NSF SuperComputers IPv4 Packet Loss Testing - Loss"
