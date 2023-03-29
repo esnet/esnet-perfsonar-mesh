@@ -12823,12 +12823,30 @@
             "name" : "eqxch2-ps-lat.es.net"
          },
          {
+            "name" : "eqxda3-ps-lat.es.net"
+         },
+         {
             "name" : "eqxdc4-ps-lat.es.net"
+         },
+         {
+            "name" : "eqxsv5-ps-lat.es.net"
          }
      ],
      "b-addresses" : [
-       {
+      {
+         "name" : "nate.sdsc.edu"
+       },
+      {
          "name" : "ps-100g.tacc.utexas.edu"
+       },
+       {
+         "name" : "ps.ncar.xsede.org"
+       },
+       {
+         "name" : "ps.psc.xsede.org"
+       },
+       {
+         "name" : "ps.sdsc.xsede.org"
        }
      ],
      "type" : "disjoint"
@@ -12839,12 +12857,30 @@
            "name" : "eqxch2-ps-tp.es.net"
         },
         {
+         "name" : "eqxcda3-ps-tp.es.net"
+      },
+        {
          "name" : "eqxdc4-ps-tp.es.net"
+      },
+      {
+         "name" : "eqxsv5-ps-tp.es.net"
       }
      ],
      "b-addresses" : [
-       {
+      {
+         "name" : "nate.sdsc.edu"
+       },
+      {
          "name" : "ps-100g.tacc.utexas.edu"
+       },
+       {
+         "name" : "ps.ncar.xsede.org"
+       },
+       {
+         "name" : "ps.psc.xsede.org"
+       },
+       {
+         "name" : "ps.sdsc.xsede.org"
        }
      ],
      "type" : "disjoint"
