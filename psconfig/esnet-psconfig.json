@@ -1956,6 +1956,13 @@
          "address" : "lhcperfmon.bnl.gov",
          "host" : "lhcperfmon.bnl.gov"
       },
+      "lhcmon3.bnl.gov" : {
+         "_meta" : {
+            "display-name" : "lhcmon3.bnl.gov"
+         },
+         "address" : "lhcmon3.bnl.gov",
+         "host" : "lhcmon3.bnl.gov"
+      },
       "m-cssc-b380-11.net.wisc.edu" : {
          "_meta" : {
             "display-name" : "m-cssc-b380-11.net.wisc.edu"
@@ -4899,6 +4906,13 @@
             "url" : "http://lhcperfmon.bnl.gov/esmond/perfsonar/archive/"
          }
       },
+      "lhcmon3.bnl.gov" : {
+         "archiver" : "esmond",
+         "data" : {
+            "measurement-agent" : "{% scheduled_by_address %}",
+            "url" : "http://lhcmon3.bnl.gov/esmond/perfsonar/archive/"
+         }
+      },
       "m-cssc-b380-11.net.wisc.edu" : {
          "archiver" : "esmond",
          "data" : {
@@ -7176,6 +7190,12 @@
               "name": "lhcperfmon.bnl.gov"
            },
            {
+            "name": "lhcmon3.bnl.gov"
+           },
+           {
+            "name": "lhcmon.bnl.gov"
+           },
+           {
                "name": "perfsonar01.frib.msu.edu"
            }          
          ],
@@ -7253,6 +7273,12 @@
            },
            {
               "name": "lhcperfmon.bnl.gov"
+           },
+           {
+            "name": "lhcmon3.bnl.gov"
+           },
+           {
+            "name": "lhcmon.bnl.gov"
            },
            {
               "name": "perfsonar01.frib.msu.edu"
@@ -12688,7 +12714,16 @@
         },
         {
            "name" : "wash-ps-lat.es.net"
-        }
+        },
+        {
+         "name" : "lhcmon.bnl.gov"
+        },
+        {
+         "name" : "lhcmon3.bnl.gov"
+        },
+        {
+         "name" : "lhcperfmon.bnl.gov"
+      }
      ],
      "b-addresses" : [
       {
@@ -12702,7 +12737,16 @@
        },
        {
          "name" : "lbnl59-ps-lhc-lat.es.net"
-       }
+       },
+       {
+         "name" : "lhcmon.bnl.gov"
+        },
+        {
+         "name" : "lhcmon3.bnl.gov"
+        },
+        {
+         "name" : "lhcperfmon.bnl.gov"
+      }
      ],
      "type" : "disjoint"
    },
@@ -12737,7 +12781,16 @@
         },
         {
            "name" : "wash-ps-tp.es.net"
-        }
+        },
+        {
+         "name" : "lhcmon.bnl.gov"
+        },
+        {
+         "name" : "lhcmon3.bnl.gov"
+        },
+        {
+         "name" : "lhcperfmon.bnl.gov"
+      }
      ],
      "b-addresses" : [
       {
@@ -12751,6 +12804,15 @@
        },
        {
          "name" : "lbnl59-ps-lhc-tp.es.net"
+      },
+      {
+         "name" : "lhcmon.bnl.gov"
+        },
+        {
+         "name" : "lhcmon3.bnl.gov"
+        },
+        {
+         "name" : "lhcperfmon.bnl.gov"
       }
      ],
      "type" : "disjoint"
@@ -14345,6 +14407,16 @@
          },
          "archives" : [
             "lhcperfmon.bnl.gov"
+         ],
+         "no-agent" : true
+      },
+      "lhcmon3.bnl.gov" : {
+         "_meta" : {
+            "display-name" : "lhcmon3.bnl.gov",
+            "organization-display-name" : "Brookhaven National Lab"
+         },
+         "archives" : [
+            "lhcmon3.bnl.gov"
          ],
          "no-agent" : true
       },
