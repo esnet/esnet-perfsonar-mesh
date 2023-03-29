@@ -17936,6 +17936,43 @@
               "schedule" : "schedule_1",
               "test" : "ESnet6_v4_trace"
            },
+           "LHCONE_IPv6_Throughput_Testing" : {
+            "_meta" : {
+               "display-name" : "LHCONE IPv6 Throughput Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            },
+            "group" : "group_lhcone_throughput",
+            "test" : "ESnet6_TP_1_v6"
+          },
+         "LHCONE_IPv6_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "LHCONE IPv6 Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            },
+            "group" : "group_lhcone_latency",
+            "test" : "ESnet6_LAT_1_v6"
+          },
+           "LHCONE_IPv6_Traceroute_Testing" : {
+              "_meta" : {
+                 "display-name" : "LHCONE IPv6 Traceroute Testing"
+              },
+              "reference": {
+                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+                 "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+              },
+              "group" : "group_lhcone_throughput",
+              "schedule" : "schedule_1",
+              "test" : "ESnet6_v6_trace"
+           },
            "NSF_SuperComputers_IPv4_Throughput_Testing" : {
             "_meta" : {
                "display-name" : "NSF SuperComputers IPv4 Throughput Testing"
