@@ -12724,16 +12724,10 @@
      ],
      "b-addresses" : [
       {
-         "name" : "bost-ps-lhc-lat.es.net"
-       },
-      {
          "name" : "eqxam3-ps-lat.es.net"
        },
       {
          "name" : "eqxld8-ps-lat.es.net"
-       },
-       {
-         "name" : "lbnl59-ps-lhc-lat.es.net"
        },
        {
          "name" : "lhcmon.bnl.gov"
@@ -12785,17 +12779,11 @@
      ],
      "b-addresses" : [
       {
-         "name" : "bost-ps-lhc-tp.es.net"
-      },
-      {
          "name" : "eqxam3-ps-tp.es.net"
        },
       {
          "name" : "eqxld8-ps-tp.es.net"
        },
-       {
-         "name" : "lbnl59-ps-lhc-tp.es.net"
-      },
       {
          "name" : "lhcmon.bnl.gov"
         },
