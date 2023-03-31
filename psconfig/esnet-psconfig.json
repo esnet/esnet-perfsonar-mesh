@@ -16947,7 +16947,7 @@
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-           "display-task-group": ["99: ESnet6 Testing"]
+           "display-task-group": ["10: ESnet to ESnet Packet Loss"]
         },
         "group" : "group_ESnet6_Path_Loss_Path_Mesh",
         "test" : "ESnet6_LAT_1_v4"
@@ -17063,7 +17063,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["2: ESnet to ESnet Throughput Testing"]
+            "display-task-group": ["20: ESnet to ESnet Throughput Testing"]
          },
          "group" : "group_2",
          "schedule" : "schedule_0",
@@ -17158,7 +17158,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["2: ESnet to ESnet Throughput Testing"]
+            "display-task-group": ["20: ESnet to ESnet Throughput Testing"]
          },
          "group" : "group_0",
          "schedule" : "schedule_0",
@@ -17299,7 +17299,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["1: ESnet to ESnet Packet Loss", "3: ESnet to DOE Sites"]
+            "display-task-group": ["10: ESnet to ESnet Packet Loss", "30: ESnet to DOE Sites"]
          },
          "group" : "group_17",
          "test" : "ESnet6_LAT_1_v4"
@@ -17312,7 +17312,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["3: ESnet to DOE Sites"]
+            "display-task-group": ["30: ESnet to DOE Sites"]
          },
          "group" : "group_16",
          "schedule" : "schedule_0",
@@ -17427,7 +17427,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["1: ESnet to ESnet Packet Loss"]
+            "display-task-group": ["10: ESnet to ESnet Packet Loss"]
          },
          "group" : "group_4",
          "test" : "ESnet6_LAT_1_v4"
@@ -17440,7 +17440,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["1: ESnet to ESnet Packet Loss"]
+            "display-task-group": ["10: ESnet to ESnet Packet Loss"]
          },
          "group" : "group_4",
          "test" : "ESnet6_LAT_1_v6"
@@ -17453,7 +17453,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["1: ESnet to ESnet Packet Loss"]
+            "display-task-group": ["10: ESnet to ESnet Packet Loss"]
          },
          "group" : "group_4_tp",
          "test" : "ESnet6_LAT_1_v4"
@@ -17466,7 +17466,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["8: ESnet to GA-EAST"]
+            "display-task-group": ["80: ESnet to GA-EAST"]
          },
          "group" : "group_29",
          "test" : "ESnet6_LAT_1_v4"
@@ -17479,7 +17479,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["8: ESnet to GA-EAST"]
+            "display-task-group": ["80: ESnet to GA-EAST"]
          },
          "group" : "group_28",
          "schedule" : "schedule_0",
@@ -17497,7 +17497,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["8: ESnet to GA-EAST"]
+            "display-task-group": ["80: ESnet to GA-EAST"]
          },
          "group" : "group_27",
          "test" : "ESnet6_LAT_1_v6"
@@ -17510,7 +17510,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["8: ESnet to GA-EAST"]
+            "display-task-group": ["80: ESnet to GA-EAST"]
          },
          "group" : "group_26",
          "schedule" : "schedule_0",
@@ -17528,7 +17528,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["5: ESnet to Europe"]
+            "display-task-group": ["50: ESnet to Europe"]
          },
          "group" : "group_19",
          "test" : "ESnet6_LAT_1_v4"
@@ -17541,7 +17541,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["5: ESnet to Europe"]
+            "display-task-group": ["50: ESnet to Europe"]
          },
          "group" : "group_18",
          "schedule" : "schedule_0",
@@ -17572,7 +17572,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["7: ESnet to ESGF Sites"]
+            "display-task-group": ["70: ESnet to ESGF Sites"]
          },
          "group" : "group_23",
          "test" : "ESnet6_LAT_1_v4"
@@ -17585,7 +17585,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["7: ESnet to ESGF Sites"]
+            "display-task-group": ["70: ESnet to ESGF Sites"]
          },
          "group" : "group_22",
          "schedule" : "schedule_0",
@@ -17616,7 +17616,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["6: ESnet to International"]
+            "display-task-group": ["60: ESnet to International"]
          },
          "group" : "group_34",
          "test" : "ESnet6_LAT_1_v4"
@@ -17629,7 +17629,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["6: ESnet to International"]
+            "display-task-group": ["60: ESnet to International"]
          },
          "group" : "group_33",
          "schedule" : "schedule_0",
@@ -17689,7 +17689,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["4: ESnet to Large Facilities"]
+            "display-task-group": ["40: ESnet to Large Facilities"]
          },
          "group" : "group_11",
          "test" : "ESnet6_LAT_1_v4"
@@ -17702,7 +17702,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["4: ESnet to Large Facilities"]
+            "display-task-group": ["40: ESnet to Large Facilities"]
          },
          "group" : "group_10",
          "schedule" : "schedule_0",
@@ -17761,7 +17761,8 @@
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-            "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["91: ESnet to Universities"]
          },
          "group" : "group_13",
          "test" : "ESnet6_LAT_1_v4"
@@ -17773,7 +17774,8 @@
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-            "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["91: ESnet to Universities"]
          },
          "group" : "group_12",
          "schedule" : "schedule_0",
@@ -17790,7 +17792,8 @@
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-            "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["91: ESnet to Universities"]
          },
          "group" : "group_12",
          "schedule" : "schedule_1",
@@ -17875,7 +17878,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["9: ESnet Backup Paths"]
+            "display-task-group": ["90: ESnet Backup Paths"]
          },
          "group" : "group_39",
          "schedule" : "schedule_0",
@@ -17889,7 +17892,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["9: ESnet Backup Paths"]
+            "display-task-group": ["90: ESnet Backup Paths"]
          },
          "group" : "group_40",
          "test" : "ESnet6_LAT_1_v4"
@@ -18062,7 +18065,8 @@
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["71: ESnet to FRIB"]
             },
             "group" : "group_frib",
             "test" : "ESnet6_TP_1_v4"
@@ -18074,7 +18078,8 @@
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["71: ESnet to FRIB"]
             },
             "group" : "group_frib",
             "test" : "ESnet6_LAT_1_v4"
@@ -18086,7 +18091,8 @@
               "reference": {
                  "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                  "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-                 "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+                 "display-task-group": ["71: ESnet to FRIB"]
               },
               "group" : "group_frib",
               "schedule" : "schedule_1",
@@ -18099,7 +18105,8 @@
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_throughput",
             "test" : "ESnet6_TP_1_v4"
@@ -18111,7 +18118,8 @@
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_latency",
             "test" : "ESnet6_LAT_1_v4"
@@ -18123,7 +18131,8 @@
               "reference": {
                  "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                  "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-                 "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+                 "display-task-group": ["51: ESnet-LHCONE"]
               },
               "group" : "group_lhcone_throughput",
               "schedule" : "schedule_1",
@@ -18136,7 +18145,8 @@
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_throughput",
             "test" : "ESnet6_TP_1_v6"
@@ -18148,7 +18158,8 @@
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_latency",
             "test" : "ESnet6_LAT_1_v6"
@@ -18160,7 +18171,8 @@
               "reference": {
                  "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                  "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-                 "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+                 "display-task-group": ["51: ESnet-LHCONE"]
               },
               "group" : "group_lhcone_throughput",
               "schedule" : "schedule_1",
@@ -18173,7 +18185,8 @@
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["41: ESnet to NSF-Supported SuperComputers"]
             },
             "group" : "group_NSF_SC_throughput",
             "test" : "ESnet6_TP_1_v4"
@@ -18185,7 +18198,8 @@
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["41: ESnet to NSF-Supported SuperComputers"]
             },
             "group" : "group_NSF_SC_latency",
             "test" : "ESnet6_LAT_1_v4"
@@ -18197,7 +18211,8 @@
               "reference": {
                  "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                  "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-                 "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+                 "display-task-group": ["41: ESnet to NSF-Supported SuperComputers"]
               },
               "group" : "group_NSF_SC_throughput",
               "schedule" : "schedule_1",
