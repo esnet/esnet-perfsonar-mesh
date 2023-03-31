@@ -173,6 +173,38 @@
    "address" : "bost-ps-lhc-tp.es.net",
    "host" : "bost-ps.es.net"
 },
+"cern513-ps-lat.es.net" : {
+   "_meta" : {
+      "display-name" : "cern513-ps-lat.es.net",
+      "display-set" : "cern513-ps.es.net"
+   },
+   "address" : "cern513-ps-lat.es.net",
+   "host" : "cern513-ps.es.net"
+},
+"cern513-ps-tp.es.net" : {
+   "_meta" : {
+      "display-name" : "cern513-ps-tp.es.net",
+      "display-set" : "cern513-ps.es.net"
+   },
+   "address" : "cern513-ps-tp.es.net",
+   "host" : "cern513-ps.es.net"
+},
+"cern773-ps-lat.es.net" : {
+   "_meta" : {
+      "display-name" : "cern773-ps-lat.es.net",
+      "display-set" : "cern773-ps.es.net"
+   },
+   "address" : "cern773-ps-lat.es.net",
+   "host" : "cern773-ps.es.net"
+},
+"cern773-ps-tp.es.net" : {
+   "_meta" : {
+      "display-name" : "cern773-ps-tp.es.net",
+      "display-set" : "cern773-ps.es.net"
+   },
+   "address" : "cern773-ps-tp.es.net",
+   "host" : "cern773-ps.es.net"
+},
     "chat-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "chat-ps-lat.es.net",
@@ -445,6 +477,38 @@
         "address" : "hous-ps-tp.es.net",
         "host" : "hous-ps.es.net"
     },
+    "inleil-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "inleil-ps-lat.es.net",
+         "display-set" : "inleil-ps.es.net"
+      },
+      "address" : "inleil-ps-lat.es.net",
+      "host" : "inleil-ps.es.net"
+  },
+  "inleil-ps-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "inleil-ps-tp.es.net",
+         "display-set" : "inleil-ps.es.net"
+      },
+      "address" : "inleil-ps-tp.es.net",
+      "host" : "inleil-ps.es.net"
+  },
+  "inlerob-ps-lat.es.net" : {
+   "_meta" : {
+      "display-name" : "inlerob-ps-lat.es.net",
+      "display-set" : "inlerob-ps.es.net"
+   },
+   "address" : "inlerob-ps-lat.es.net",
+   "host" : "inlerob-ps.es.net"
+},
+"inlerob-ps-tp.es.net" : {
+   "_meta" : {
+      "display-name" : "inlerob-ps-tp.es.net",
+      "display-set" : "inlerob-ps.es.net"
+   },
+   "address" : "inlerob-ps-tp.es.net",
+   "host" : "inlerob-ps.es.net"
+},
     "kans-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "kans-ps-tp.es.net",
@@ -573,6 +637,22 @@
         "address" : "nash-ps-lat.es.net",
         "host" : "nash-ps.es.net"
     },
+    "netlpgh-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "netlpgh-ps-lat.es.net",
+         "display-set" : "netlpgh-ps.es.net"
+      },
+      "address" : "netlpgh-ps-lat.es.net",
+      "host" : "netlpgh-ps.es.net"
+  },
+  "netlpgh-ps-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "netlpgh-ps-tp.es.net",
+         "display-set" : "netlpgh-ps.es.net"
+      },
+      "address" : "netlpgh-ps-tp.es.net",
+      "host" : "netlpgh-ps.es.net"
+  },
     "newy32aoa-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "newy32aoa-ps-tp.es.net",
@@ -3821,6 +3901,20 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "cern513-ps.es.net" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+      }
+  }, 
+  "cern773-ps.es.net" : {
+   "archiver" : "esmond",
+   "data" : {
+      "measurement-agent" : "{% scheduled_by_address %}",
+      "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+   }
+}, 
      "chat-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -3940,6 +4034,20 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "inleil-ps.es.net" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+      }
+  }, 
+  "inlerob-ps.es.net" : {
+   "archiver" : "esmond",
+   "data" : {
+      "measurement-agent" : "{% scheduled_by_address %}",
+      "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+   }
+}, 
      "kans-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -3989,6 +4097,13 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "netlpgh-ps.es.net" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+      }
+  },     
      "newy32aoa-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -7481,6 +7596,12 @@
                "name" : "ga-ps-tp.es.net"
             },
             {
+               "name" : "inleil-ps-tp.es.net"
+            },
+            {
+               "name" : "inlerob-ps-tp.es.net"
+            },
+            {
                "name" : "lbnl50-ps-tp.es.net"
             },
             {
@@ -7497,6 +7618,9 @@
             },
             {
                "name" : "ornl1064-ps-tp.es.net"
+            },
+            {
+               "name" : "netlpgh-ps-tp.es.net"
             },
             {
                "name" : "pppl-ps-tp.es.net"
@@ -7560,6 +7684,12 @@
                "name" : "ga-ps-lat.es.net"
             },
             {
+               "name" : "inleil-ps-lat.es.net"
+            },
+            {
+               "name" : "inlerob-ps-lat.es.net"
+            },
+            {
                "name" : "lbnl50-ps-lat.es.net"
             },
             {
@@ -7576,6 +7706,9 @@
             },
             {
                "name" : "ornl1064-ps-lat.es.net"
+            },
+            {
+               "name" : "netlpgh-ps-lat.es.net"
             },
             {
                "name" : "pppl-ps-lat.es.net"
@@ -12947,6 +13080,24 @@
            "bost-ps.es.net"
         ]
      },
+     "cern513-ps.es.net" : {
+      "_meta" : {
+         "display-name" : "cern513-ps.es.net",
+         "organization-display-name" : "ESnet"
+      },
+      "archives" : [
+         "cern513-ps.es.net"
+      ]
+   },
+   "cern773-ps.es.net" : {
+      "_meta" : {
+         "display-name" : "cern773-ps.es.net",
+         "organization-display-name" : "ESnet"
+      },
+      "archives" : [
+         "cern773-ps.es.net"
+      ]
+   },
      "chat-ps.es.net" : {
         "_meta" : {
            "display-name" : "chat-ps.es.net",
@@ -13100,6 +13251,24 @@
            "hous-ps.es.net"
         ]
      },
+     "inleil-ps.es.net" : {
+      "_meta" : {
+         "display-name" : "inleil-ps.es.net",
+         "organization-display-name" : "ESnet"
+      },
+      "archives" : [
+         "inleil-ps.es.net"
+      ]
+   },
+   "inlerob-ps.es.net" : {
+      "_meta" : {
+         "display-name" : "inlerob-ps.es.net",
+         "organization-display-name" : "ESnet"
+      },
+      "archives" : [
+         "inlerob-ps.es.net"
+      ]
+   },
      "kans-ps.es.net" : {
         "_meta" : {
            "display-name" : "kans-ps.es.net",
@@ -13163,6 +13332,15 @@
            "nash-ps.es.net"
         ]
      },
+     "netlpgh-ps.es.net" : {
+      "_meta" : {
+         "display-name" : "netlpgh-ps.es.net",
+         "organization-display-name" : "ESnet"
+      },
+      "archives" : [
+         "netlpgh-ps.es.net"
+      ]
+   },
      "newy1118th-ps.es.net" : {
         "_meta" : {
            "display-name" : "newy1118th-ps.es.net",
