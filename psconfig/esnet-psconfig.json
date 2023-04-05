@@ -509,6 +509,38 @@
    "address" : "inlerob-ps-tp.es.net",
    "host" : "inlerob-ps.es.net"
 },
+   "jlab12-ps-lat.es.net" : {
+     "_meta" : {
+       "display-name" : "jlab12-ps-lat.es.net",
+       "display-set" : "jlab12-ps.es.net"
+     },
+     "address" : "jlab12-ps-lat.es.net",
+     "host" : "jlab12-ps.es.net"
+   },
+   "jlab12-ps-tp.es.net" : {
+     "_meta" : {
+       "display-name" : "jlab12-ps-tp.es.net",
+       "display-set" : "jlab12-ps.es.net"
+     },
+     "address" : "jlab12-ps-tp.es.net",
+     "host" : "jlab12-ps.es.net"
+    },
+    "jlab205-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "jlab205-ps-lat.es.net",
+         "display-set" : "jlab205-ps.es.net"
+      },
+      "address" : "jlab205-ps-lat.es.net",
+      "host" : "jlab205-ps.es.net"
+  },
+  "jlab205-ps-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "jlab205-ps-tp.es.net",
+         "display-set" : "jlab205-ps.es.net"
+      },
+      "address" : "jlab205-ps-tp.es.net",
+      "host" : "jlab205-ps.es.net"
+  },
     "kans-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "kans-ps-tp.es.net",
@@ -4048,6 +4080,20 @@
       "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
    }
 }, 
+     "jlab12-ps.es.net" : {
+       "archiver" : "esmond",
+       "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+         }
+     }, 
+     "jlab205-ps.es.net" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
+      }
+     }, 
      "kans-ps.es.net" : {
          "archiver" : "esmond",
          "data" : {
@@ -7602,6 +7648,12 @@
                "name" : "inlerob-ps-tp.es.net"
             },
             {
+               "name" : "jlab12-ps-tp.es.net"
+            },
+            {
+               "name" : "jlab205-ps-tp.es.net"
+            },
+            {
                "name" : "lbnl50-ps-tp.es.net"
             },
             {
@@ -7688,6 +7740,12 @@
             },
             {
                "name" : "inlerob-ps-lat.es.net"
+            },
+            {
+               "name" : "jlab12-ps-lat.es.net"
+            },
+            {
+               "name" : "jlab205-ps-lat.es.net"
             },
             {
                "name" : "lbnl50-ps-lat.es.net"
@@ -8940,17 +8998,11 @@
         }
     ],
     "b-addresses" : [
-        {
-         "name" : "sciphy-ps.jlab.org"
-       },
-       {
-        "name" : "dmz-ps.jlab.org"
-       },
-       {
-        "name" : "jlab4.jlab.org"
-      },
       {
        "name" : "atla-ps-lat.es.net"
+      },
+      {
+         "name" : "jlab12-ps-lat.es.net"
       },
       {
        "name" : "wash-ps-lat.es.net"
@@ -8972,23 +9024,20 @@
      {
         "name" : "dmz-ps.jlab.org"
      }
- ],
- "b-addresses" : [
-   {
-    "name" : "sciphy-ps.jlab.org"
-  },
-  {
-   "name" : "dmz-ps.jlab.org"
-  },
-  {
-   "name" : "jlab4.jlab.org"
- },
- {
-  "name" : "atla-ps-tp.es.net"
- },
- {
-  "name" : "wash-ps-tp.es.net"
- }
+   ],
+   "b-addresses" : [
+     {
+       "name" : "atla-ps-tp.es.net"
+     },
+     { 
+       "name" : "jlab12-ps-tp.es.net"
+     },
+     {
+       "name" : "jlab205-ps-tp.es.net"
+     },
+     {
+       "name" : "wash-ps-tp.es.net"
+     }
    ],
    "type" : "disjoint"
  },
@@ -13267,6 +13316,24 @@
       },
       "archives" : [
          "inlerob-ps.es.net"
+      ]
+   },
+   "jlab12-ps.es.net" : {
+      "_meta" : {
+         "display-name" : "jlab12-ps.es.net",
+         "organization-display-name" : "ESnet"
+      },
+      "archives" : [
+         "jlab12-ps.es.net"
+      ]
+   },
+   "jlab205-ps.es.net" : {
+      "_meta" : {
+         "display-name" : "jlab205-ps.es.net",
+         "organization-display-name" : "ESnet"
+      },
+      "archives" : [
+         "jlab205-ps.es.net"
       ]
    },
      "kans-ps.es.net" : {
