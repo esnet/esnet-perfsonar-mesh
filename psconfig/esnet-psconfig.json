@@ -1165,6 +1165,22 @@
         "address" : "wash-ps-lat.es.net",
         "host" : "wash-ps.es.net"
     },
+    "wash-ps-lhc-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "wash-ps-lhc-tp.es.net",
+         "display-set" : "wash-ps.es.net"
+      },
+      "address" : "wash-ps-lhc-tp.es.net",
+      "host" : "wash-ps.es.net"
+  },
+  "wash-ps-lhc-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "wash-ps-lhc-lat.es.net",
+         "display-set" : "wash-ps.es.net"
+      },
+      "address" : "wash-ps-lhc-lat.es.net",
+      "host" : "wash-ps.es.net"
+  },
     "ps-100g.tacc.utexas.edu" : {
       "_meta" : {
          "display-name" : "ps-100g.tacc.utexas.edu",
