@@ -239,10 +239,10 @@
 },    
 "cern773-ps-lhc-lat.es.net" : {
    "_meta" : {
-      "display-name" : "cern773-ps-lat.es.net",
+      "display-name" : "cern773-ps-lhclat.es.net",
       "display-set" : "cern773-ps.es.net"
    },
-   "address" : "cern773-ps-lat.es.net",
+   "address" : "cern773-ps-lhclat.es.net",
    "host" : "cern773-ps.es.net"
 },
 "cern773-ps-lhc-tp.es.net" : {
