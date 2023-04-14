@@ -13329,6 +13329,130 @@
      ],
      "type" : "disjoint"
      },
+     "group_lhcone_US_latency" : {
+      "a-addresses" : [
+         {
+         "name" : "atla-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "bost-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "cern513-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "cern773-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "chic-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "eqxam3-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "eqxld8-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "bost-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "hous-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "kans-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "lbnl59-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "losa-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "nash-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "newy32aoa-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "newy1118th-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "star-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "sunn-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "wash-ps-lhc-lat.es.net"
+        }
+     ],
+     "b-addresses" : [
+       {
+         "name" : "lhcmon.bnl.gov"
+        },
+        {
+         "name" : "lhcmon3.bnl.gov"
+        },
+        {
+         "name" : "lhcperfmon.bnl.gov"
+        },
+        {
+         "name" : "atla-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "bost-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "cern513-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "cern773-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "chic-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "eqxam3-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "eqxld8-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "bost-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "hous-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "kans-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "lbnl59-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "losa-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "nash-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "newy32aoa-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "newy1118th-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "star-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "sunn-ps-lhc-lat.es.net"
+        },
+        {
+         "name" : "wash-ps-lhc-lat.es.net"
+        }
+     ],
+     "type" : "disjoint"
+   },
      "group_NSF_SC_latency" : {
       "a-addresses" : [
          {
@@ -18596,6 +18720,19 @@
               "schedule" : "schedule_1",
               "test" : "ESnet6_v6_trace"
            },
+           "LHCONE_US_IPv6_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "LHCONE US IPv6 Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
+            },
+            "group" : "group_lhcone_us_latency",
+            "test" : "ESnet6_LAT_1_v6"
+          },
            "NSF_SuperComputers_IPv4_Throughput_Testing" : {
             "_meta" : {
                "display-name" : "NSF SuperComputers IPv4 Throughput Testing"
