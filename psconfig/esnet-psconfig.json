@@ -13208,6 +13208,12 @@
       {
          "name" : "eqxld8-ps-lat.es.net"
        },
+        {
+         "name" : "cern513-ps-lat.es.net"
+        },
+        {
+         "name" : "cern773-ps-lat.es.net"
+        },
        {
          "name" : "lhcmon.bnl.gov"
         },
