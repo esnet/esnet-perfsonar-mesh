@@ -17603,9 +17603,27 @@
         "schedule" : "schedule_1",
         "test" : "ESnet6_v6_trace"
      },
-      "100G_ESnet_Hub_to_100G_ESnet_Hub_Throughput_Testing" : {
+      "100G_ESnet_Hub_to_100G_ESnet_Hub_IPv6_Throughput_Testing" : {
          "_meta" : {
-            "display-name" : "100G ESnet Hub to 100G ESnet Hub Throughput Testing"
+            "display-name" : "100G ESnet Hub to 100G ESnet Hub IPv6 Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["20: ESnet to ESnet Throughput Testing"]
+         },
+         "group" : "group_2",
+         "schedule" : "schedule_0",
+         "test" : "ESnet6_TP_1_v6",
+         "tools" : [
+            "bwctliperf3",
+            "iperf3"
+         ]
+      },
+      "100G_ESnet_Hub_to_100G_ESnet_Hub_IPv4_Throughput_Testing" : {
+         "_meta" : {
+            "display-name" : "100G ESnet Hub to 100G ESnet Hub IPv4 Throughput Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -17839,9 +17857,22 @@
          "schedule" : "schedule_1",
          "test" : "ESnet6_v4_trace"
       },
-      "ESnet_to_DOE_Site_Packet_Loss_Testing" : {
+      "ESnet_to_DOE_Site_IPv6_Packet_Loss_Testing" : {
          "_meta" : {
-            "display-name" : "ESnet to DOE Site Packet Loss Testing"
+            "display-name" : "ESnet to DOE Site IPv6 Packet Loss Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["10: ESnet to ESnet Packet Loss", "30: ESnet to DOE Sites"]
+         },
+         "group" : "group_17",
+         "test" : "ESnet6_LAT_1_v6"
+      },
+      "ESnet_to_DOE_Site_IPv4_Packet_Loss_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to DOE Site IPv4 Packet Loss Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -17852,9 +17883,27 @@
          "group" : "group_17",
          "test" : "ESnet6_LAT_1_v4"
       },
-      "ESnet_to_DOE_Site_Throughput_Testing" : {
+      "ESnet_to_DOE_Site_IPv6_Throughput_Testing" : {
          "_meta" : {
-            "display-name" : "ESnet to DOE Site Throughput Testing"
+            "display-name" : "ESnet to DOE Site IPv6 Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["30: ESnet to DOE Sites"]
+         },
+         "group" : "group_16",
+         "schedule" : "schedule_0",
+         "test" : "ESnet6_TP_1_v6",
+         "tools" : [
+            "bwctliperf3",
+            "iperf3"
+         ]
+      },
+      "ESnet_to_DOE_Site_IPv4_Throughput_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to DOE Site IPv4 Throughput Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
