@@ -18070,9 +18070,9 @@
          "schedule" : "schedule_1",
          "test" : "ESnet6_v4_trace"
       },
-      "ESnet_to_ESnet_Packet_Loss_Testing" : {
+      "ESnet_to_ESnet_IPv4_Packet_Loss_Testing" : {
          "_meta" : {
-            "display-name" : "ESnet to ESnet Packet Loss Testing"
+            "display-name" : "ESnet to ESnet IPv4 Packet Loss Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",

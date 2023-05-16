@@ -135,11 +135,12 @@ grids:
 dashboards:
    - name: "10: ESnet to ESnet Packet Loss"
      grids:
-       - name: "ESnet - ESnet to ESnet Packet Loss Testing - Loss"
+       - name: "ESnet - ESnet to ESnet IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to ESnet Packet Loss Testing on Throughput Interfaces - Loss"
        - name: "ESnet - ESnet to ESnet Packet Loss Testing IPv6 - Loss"
        - name: "ESnet - ESnet6 Packet Loss IPv4 Path Testing - Loss"
-       - name: "ESnet - ESnet to DOE Site Packet Loss Testing - Loss"
+       - name: "ESnet - ESnet to DOE Site IPv6 Packet Loss Testing - Loss"
+       - name: "ESnet - ESnet to DOE Site IPv4 Packet Loss Testing - Loss"
    - name: "20: ESnet to ESnet Throughput Testing"
      grids:
        - name: "ESnet - 100G ESnet Hub to 100G ESnet Hub IPv6 Throughput Testing - Throughput"
