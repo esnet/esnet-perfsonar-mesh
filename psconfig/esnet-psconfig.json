@@ -17716,9 +17716,27 @@
          "schedule" : "schedule_1",
          "test" : "ESnet6_v4_trace"
       },
-      "ESnet_Hub_to_Large_DOE_Site_Border_Throughput_Testing" : {
+      "ESnet_Hub_to_DOE_Site_Border_IPv6_Throughput_Testing" : {
          "_meta" : {
-            "display-name" : "ESnet Hub to Large DOE Site Border Throughput Testing"
+            "display-name" : "ESnet Hub to DOE Site Border IPv6 Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["20: ESnet to ESnet Throughput Testing"]
+         },
+         "group" : "group_0",
+         "schedule" : "schedule_0",
+         "test" : "ESnet6_TP_1_v6",
+         "tools" : [
+            "bwctliperf3",
+            "iperf3"
+         ]
+      },
+      "ESnet_Hub_to_DOE_Site_Border_IPv4_Throughput_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet Hub to DOE Site Border IPv4 Throughput Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
