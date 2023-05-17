@@ -18332,9 +18332,22 @@
             "iperf3"
          ]
       },
-      "ESnet_to_Large_Facility_Packet_Loss_Testing" : {
+      "ESnet_to_Large_Facility_IPv6_Packet_Loss_Testing" : {
          "_meta" : {
-            "display-name" : "ESnet to Large Facility Packet Loss Testing"
+            "display-name" : "ESnet to Large Facility IPv6 Packet Loss Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["40: ESnet to Large Facilities"]
+         },
+         "group" : "group_11",
+         "test" : "ESnet6_LAT_1_v6"
+      },
+      "ESnet_to_Large_Facility_IPv4_Packet_Loss_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to Large Facility IPv4 Packet Loss Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -18345,9 +18358,27 @@
          "group" : "group_11",
          "test" : "ESnet6_LAT_1_v4"
       },
-      "ESnet_to_Large_Facility_Throughput_Testing" : {
+      "ESnet_to_Large_Facility_IPv6_Throughput_Testing" : {
          "_meta" : {
-            "display-name" : "ESnet to Large Facility Throughput Testing"
+            "display-name" : "ESnet to Large Facility IPv6 Throughput Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["40: ESnet to Large Facilities"]
+         },
+         "group" : "group_10",
+         "schedule" : "schedule_0",
+         "test" : "ESnet6_TP_1_v6",
+         "tools" : [
+            "bwctliperf3",
+            "iperf3"
+         ]
+      },
+      "ESnet_to_Large_Facility_IPv4_Throughput_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to Large Facility IPv4 Throughput Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
