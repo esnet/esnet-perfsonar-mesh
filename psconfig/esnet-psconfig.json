@@ -1181,13 +1181,13 @@
       "address" : "wash-ps-lhc-lat.es.net",
       "host" : "wash-ps.es.net"
   },
-    "ps-100g.tacc.utexas.edu" : {
+    "roc-ps-tp.tacc.utexas.edu" : {
       "_meta" : {
-         "display-name" : "ps-100g.tacc.utexas.edu",
-         "display-set" : "ps-100g.tacc.utexas.edu"
+         "display-name" : "roc-ps-tp.tacc.utexas.edu",
+         "display-set" : "roc-ps-tp.tacc.utexas.edu"
       },
-      "address" : "ps-100g.tacc.utexas.edu",
-      "host" : "ps-100g.tacc.utexas.edu"
+      "address" : "roc-ps-tp.tacc.utexas.edu",
+      "host" : "roc-ps-tp.tacc.utexas.edu"
     },
     "perfsonar01.frib.msu.edu" : {
         "_meta" : {
@@ -4502,7 +4502,7 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
-     "ps-100g.tacc.utexas.edu" : {
+     "roc-ps-tp.tacc.utexas.edu" : {
       "archiver" : "esmond",
       "data" : {
          "measurement-agent" : "{% scheduled_by_address %}",
@@ -13515,7 +13515,7 @@
          "name" : "nate.sdsc.edu"
        },
       {
-         "name" : "ps-100g.tacc.utexas.edu"
+         "name" : "roc-ps-tp.tacc.utexas.edu"
        },
        {
          "name" : "ps.ncar.xsede.org"
@@ -13549,7 +13549,7 @@
          "name" : "nate.sdsc.edu"
        },
       {
-         "name" : "ps-100g.tacc.utexas.edu"
+         "name" : "roc-ps-tp.tacc.utexas.edu"
        },
        {
          "name" : "ps.ncar.xsede.org"
@@ -14069,13 +14069,13 @@
            "wash-ps.es.net"
         ]
      },
-     "ps-100g.tacc.utexas.edu" : {
+     "roc-ps-tp.tacc.utexas.edu" : {
       "_meta" : {
-         "display-name" : "ps-100g.tacc.utexas.edu",
+         "display-name" : "roc-ps-tp.tacc.utexas.edu",
          "organization-display-name" : "TACC"
       },
       "archives" : [
-         "ps-100g.tacc.utexas.edu"  
+         "roc-ps-tp.tacc.utexas.edu"  
       ],
       "no-agent" : true
    },
