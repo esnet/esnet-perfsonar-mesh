@@ -6950,9 +6950,6 @@
               "name" : "eqxch2-ps-tp.es.net"
            },
            {
-              "name" : "eqxda3-ps-tp.es.net"
-           },
-           {
               "name" : "eqxdc4-ps-tp.es.net"
            },
            {
@@ -7118,9 +7115,6 @@
            },
            {
               "name" : "eqxch2-ps-tp.es.net"
-           },
-           {
-              "name" : "eqxda3-ps-tp.es.net"
            },
            {
               "name" : "eqxdc4-ps-tp.es.net"
@@ -7957,9 +7951,6 @@
             },
             {
               "name" : "eqxch2-ps-lat.es.net"
-           },
-           {
-              "name" : "eqxda3-ps-lat.es.net"
            },
             {
                "name" : "eqxdc4-ps-lat.es.net"
@@ -11246,9 +11237,6 @@
        },
        {
           "name" : "eqxch2-ps-lat.es.net"
-       },
-       {
-          "name" : "eqxda3-ps-lat.es.net"
        },
        {
           "name" : "eqxdc4-ps-lat.es.net"
