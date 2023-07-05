@@ -13,6 +13,14 @@
       "display-name" : "ESnet"
    },
   "addresses" : {
+   "albq-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "albq-ps-lat.es.net",
+         "display-set" : "albq-ps.es.net"
+      },
+      "address" : "albq-ps-lat.es.net",
+      "host" : "albq-ps.es.net"
+  },
    "albq-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "albq-ps-tp.es.net",
@@ -21,14 +29,22 @@
         "address" : "albq-ps-tp.es.net",
         "host" : "albq-ps.es.net"
     },
-    "albq-ps-lat.es.net" : {
-        "_meta" : {
-           "display-name" : "albq-ps-lat.es.net",
-           "display-set" : "albq-ps.es.net"
-        },
-        "address" : "albq-ps-lat.es.net",
-        "host" : "albq-ps.es.net"
-    },
+    "albq-ps-lhc-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "albq-ps-lhc-lat.es.net",
+         "display-set" : "albq-ps.es.net"
+      },
+      "address" : "albq-ps-lhc-lat.es.net",
+      "host" : "albq-ps.es.net"
+  },
+    "albq-ps-lhc-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "albq-ps-lhc-tp.es.net",
+         "display-set" : "albq-ps.es.net"
+      },
+      "address" : "albq-ps-lhc-tp.es.net",
+      "host" : "albq-ps.es.net"
+  },
     "ameshwh-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "ameshwh-ps-lat.es.net",
@@ -45,6 +61,14 @@
         "address" : "ameshwh-ps-tp.es.net",
         "host" : "ameshwh-ps.es.net"
     },
+    "anl221-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "anl221-ps-lat.es.net",
+         "display-set" : "anl221-ps.es.net"
+      },
+      "address" : "anl221-ps-lat.es.net",
+      "host" : "anl221-ps.es.net"
+  },
     "anl221-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "anl221-ps-tp.es.net",
@@ -53,14 +77,22 @@
         "address" : "anl221-ps-tp.es.net",
         "host" : "anl221-ps.es.net"
     },
-    "anl221-ps-lat.es.net" : {
-        "_meta" : {
-           "display-name" : "anl221-ps-lat.es.net",
-           "display-set" : "anl221-ps.es.net"
-        },
-        "address" : "anl221-ps-lat.es.net",
-        "host" : "anl221-ps.es.net"
-    },
+    "anl221-ps-lhc-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "anl221-ps-lhc-lat.es.net",
+         "display-set" : "anl221-ps.es.net"
+      },
+      "address" : "anl221-ps-lhc-lat.es.net",
+      "host" : "anl221-ps.es.net"
+  },
+    "anl221-ps-lhc-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "anl221-ps-lhc-tp.es.net",
+         "display-set" : "anl221-ps.es.net"
+      },
+      "address" : "anl221-ps-lhc-tp.es.net",
+      "host" : "anl221-ps.es.net"
+  },
     "anl541b-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "anl541b-ps-lat.es.net",
@@ -364,6 +396,21 @@
       },
       "address" : "eqxam3-ps-lhc-lat.es.net",
       "host" : "eqxam3-ps.es.net"
+  },    "eqxch2-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "eqxch2-ps-lat.es.net",
+           "display-set" : "eqxch2-ps.es.net"
+        },
+        "address" : "eqxch2-ps-lat.es.net",
+        "host" : "eqxch2-ps.es.net"
+    },
+    "eqxch2-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "eqxch2-ps-lat.es.net",
+         "display-set" : "eqxch2-ps.es.net"
+      },
+      "address" : "eqxch2-ps-lat.es.net",
+      "host" : "eqxch2-ps.es.net"
   },
     "eqxch2-ps-tp.es.net" : {
         "_meta" : {
@@ -373,12 +420,20 @@
         "address" : "eqxch2-ps-tp.es.net",
         "host" : "eqxch2-ps.es.net"
     },
-    "eqxch2-ps-lat.es.net" : {
+    "eqxch2-ps-lhc-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "eqxch2-ps-lhc-lat.es.net",
+         "display-set" : "eqxch2-ps.es.net"
+      },
+      "address" : "eqxch2-ps-lhc-lat.es.net",
+      "host" : "eqxch2-ps.es.net"
+  },
+    "eqxch2-ps-lhc-tp.es.net" : {
         "_meta" : {
-           "display-name" : "eqxch2-ps-lat.es.net",
+           "display-name" : "eqxch2-ps-lhc-tp.es.net",
            "display-set" : "eqxch2-ps.es.net"
         },
-        "address" : "eqxch2-ps-lat.es.net",
+        "address" : "eqxch2-ps-lhc-tp.es.net",
         "host" : "eqxch2-ps.es.net"
     },
     "eqxda3-ps-lat.es.net" : {
@@ -13189,6 +13244,9 @@
          "name" : "eqxam3-ps-lhc-lat.es.net"
         },
         {
+         "name" : "eqxch2-ps-lhc-lat.es.net"
+        },
+        {
          "name" : "eqxld8-ps-lhc-lat.es.net"
         },
         {
@@ -13266,6 +13324,9 @@
          "name" : "eqxam3-ps-lhc-lat.es.net"
         },
         {
+         "name" : "eqxch2-ps-lhc-lat.es.net"
+        },
+        {
          "name" : "eqxld8-ps-lhc-lat.es.net"
         },
         {
@@ -13307,6 +13368,21 @@
    "group_lhcone_throughput" : {
       "a-addresses" : [
          {
+            "name" : "albq-ps-lhc-tp.es.net"
+          },
+         {
+            "name" : "anl221-ps-lhc-tp.es.net"
+          },
+         {
+            "name" : "bost-ps-lhc-tp.es.net"
+          },
+         {
+            "name" : "eqxch2-ps-lhc-tp.es.net"
+          },
+          {
+            "name" : "lbnl59-ps-lhc-tp.es.net"
+          },
+         {
             "name" : "bnl515-ps-tp.es.net"
          },
          {
@@ -13342,10 +13418,19 @@
      ],
      "b-addresses" : [
       {
-         "name" : "eqxam3-ps-tp.es.net"
+         "name" : "albq-ps-lhc-tp.es.net"
        },
       {
-         "name" : "eqxld8-ps-tp.es.net"
+         "name" : "anl221-ps-lhc-tp.es.net"
+       },
+      {
+         "name" : "bost-ps-lhc-tp.es.net"
+       },
+      {
+         "name" : "eqxch2-ps-lhc-tp.es.net"
+       },
+       {
+         "name" : "lbnl59-ps-lhc-tp.es.net"
        },
       {
          "name" : "lhcmon.bnl.gov"

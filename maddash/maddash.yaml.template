@@ -170,12 +170,12 @@ dashboards:
        - name: "ESnet - ESnet to GEANT Throughput Testing - Throughput"
    - name: "51: ESnet-LHCONE"
      grids:
-       - name: "ESnet - LHCONE IPv4 Packet Loss Testing - Loss"
-       - name: "ESnet - LHCONE IPv4 Throughput Testing - Throughput"
-       - name: "ESnet - LHCONE IPv4 Traceroute Testing - Path Count"
        - name: "ESnet - LHCONE IPv6 Packet Loss Testing - Loss"
        - name: "ESnet - LHCONE IPv6 Throughput Testing - Throughput"
        - name: "ESnet - LHCONE IPv6 Traceroute Testing - Path Count"
+       - name: "ESnet - LHCONE IPv4 Packet Loss Testing - Loss"
+       - name: "ESnet - LHCONE IPv4 Throughput Testing - Throughput"
+       - name: "ESnet - LHCONE IPv4 Traceroute Testing - Path Count"
    - name: "60: ESnet to International"
      grids:
        - name: "ESnet - ESnet to International Packet Loss Testing - Loss"
