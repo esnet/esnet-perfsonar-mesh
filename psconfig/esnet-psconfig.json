@@ -13193,9 +13193,6 @@
     "group_lhcone_latency" : {
       "a-addresses" : [
          {
-            "name" : "albq-ps-lat.lhcone.es.net"
-         },
-         {
             "name" : "bnl515-ps-lat.es.net"
          },
          {
@@ -13207,9 +13204,6 @@
          {
             "name" : "fnalgcc-ps-lat.es.net"
          },
-         {
-           "name" : "bost-ps-lat.es.net"
-        },
         {
            "name" : "newy1118th-ps-lat.es.net"
         },
@@ -13228,6 +13222,12 @@
         {
          "name" : "lhcperfmon.bnl.gov"
         },
+        {
+         "name" : "albq-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "anl221-ps-lat.lhcone.es.net"
+      },        
         {
          "name" : "atla-ps-lat.lhcone.es.net"
         },
@@ -13287,21 +13287,6 @@
         }
      ],
      "b-addresses" : [
-      {
-         "name" : "albq-ps-lat.lhcone.es.net"
-      },
-      {
-         "name" : "eqxam3-ps-lat.es.net"
-       },
-      {
-         "name" : "eqxld8-ps-lat.es.net"
-       },
-        {
-         "name" : "cern513-ps-lat.es.net"
-        },
-        {
-         "name" : "cern773-ps-lat.es.net"
-        },
        {
          "name" : "lhcmon.bnl.gov"
         },
@@ -13311,6 +13296,12 @@
         {
          "name" : "lhcperfmon.bnl.gov"
         },
+        {
+         "name" : "albq-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "anl221-ps-lat.lhcone.es.net"
+      },
         {
          "name" : "atla-ps-lat.lhcone.es.net"
         },
@@ -13400,9 +13391,6 @@
          {
             "name" : "fnalgcc-ps-tp.es.net"
          },
-         {
-           "name" : "bost-ps-tp.es.net"
-        },
         {
            "name" : "newy1118th-ps-tp.es.net"
         },
