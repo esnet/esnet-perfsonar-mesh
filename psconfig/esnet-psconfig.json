@@ -109,6 +109,22 @@
         "address" : "anl541b-ps-tp.es.net",
         "host" : "anl541b-ps.es.net"
     },
+    "anl541b-ps-lat.lhcone.es.net" : {
+      "_meta" : {
+         "display-name" : "anl541b-ps-lat.lhcone.es.net",
+         "display-set" : "anl541b-ps.es.net"
+      },
+      "address" : "anl541b-ps-lat.lhcone.es.net",
+      "host" : "anl541b-ps.es.net"
+  },
+ "anl541b-ps-tp.lhcone.es.net" : {
+      "_meta" : {
+         "display-name" : "anl541b-ps-tp.lhcone.es.net",
+         "display-set" : "anl541b-ps.es.net"
+      },
+      "address" : "anl541b-ps-tp.lhcone.es.net",
+      "host" : "anl541b-ps.es.net"
+  },
     "atla-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "atla-ps-tp.es.net",
@@ -13205,15 +13221,6 @@
             "name" : "fnalgcc-ps-lat.es.net"
          },
         {
-           "name" : "newy1118th-ps-lat.es.net"
-        },
-        {
-           "name" : "newy32aoa-ps-lat.es.net"
-        },
-        {
-           "name" : "wash-ps-lat.es.net"
-        },
-        {
          "name" : "lhcmon.bnl.gov"
         },
         {
@@ -13227,7 +13234,10 @@
         },
         {
          "name" : "anl221-ps-lat.lhcone.es.net"
-      },        
+        },   
+        {
+         "name" : "anl541b-ps-lat.lhcone.es.net"
+        },        
         {
          "name" : "atla-ps-lat.lhcone.es.net"
         },
@@ -13301,7 +13311,10 @@
         },
         {
          "name" : "anl221-ps-lat.lhcone.es.net"
-      },
+        },
+        {
+         "name" : "anl541b-ps-lat.lhcone.es.net"
+        },
         {
          "name" : "atla-ps-lat.lhcone.es.net"
         },
@@ -13370,11 +13383,29 @@
          {
             "name" : "anl221-ps-tp.lhcone.es.net"
           },
+          {
+            "name" : "anl541b-ps-tp.lhcone.es.net"
+          },
+          {
+            "name" : "atla-ps-tp.lhcone.es.net"
+           },
          {
             "name" : "bost-ps-tp.lhcone.es.net"
           },
+          {
+            "name" : "cern513-ps-tp.lhcone.es.net"
+          },
+          {
+            "name" : "cern773-ps-tp.lhcone.es.net"
+          },
+          {
+            "name" : "eqxam3-ps-tp.lhcone.es.net"
+          },
          {
             "name" : "eqxch2-ps-tp.lhcone.es.net"
+          },
+          {
+            "name" : "eqxld8-ps-tp.lhcone.es.net"
           },
           {
             "name" : "lbnl59-ps-tp.lhcone.es.net"
@@ -13392,15 +13423,6 @@
             "name" : "fnalgcc-ps-tp.es.net"
          },
         {
-           "name" : "newy1118th-ps-tp.es.net"
-        },
-        {
-           "name" : "newy32aoa-ps-tp.es.net"
-        },
-        {
-           "name" : "wash-ps-tp.es.net"
-        },
-        {
          "name" : "lhcmon.bnl.gov"
         },
         {
@@ -13417,11 +13439,26 @@
       {
          "name" : "anl221-ps-tp.lhcone.es.net"
        },
+       {
+         "name" : "anl541b-ps-tp.lhcone.es.net"
+       },
+       {
+         "name" : "atla-ps-tp.lhcone.es.net"
+        },
       {
          "name" : "bost-ps-tp.lhcone.es.net"
        },
+       {
+         "name" : "cern513-ps-tp.lhcone.es.net"
+       },
+       {
+         "name" : "cern773-ps-tp.lhcone.es.net"
+       },
       {
          "name" : "eqxch2-ps-tp.lhcone.es.net"
+       },
+       {
+         "name" : "eqxld8-ps-tp.lhcone.es.net"
        },
        {
          "name" : "lbnl59-ps-tp.lhcone.es.net"
