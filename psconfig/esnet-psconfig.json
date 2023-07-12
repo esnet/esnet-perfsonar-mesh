@@ -173,6 +173,22 @@
           "address" : "bnl515-ps-tp.es.net",
           "host" : "bnl515-ps.es.net"
       },
+      "bnl515-ps-lat.lhcone.es.net" : {
+         "_meta" : {
+            "display-name" : "bnl515-ps-lat.lhcone.es.net",
+            "display-set" : "bnl515-ps.es.net"
+         },
+         "address" : "bnl515-ps-lat.lhcone.es.net",
+         "host" : "bnl515-ps.es.net"
+     },
+     "bnl515-ps-tp.lhcone.es.net" : {
+          "_meta" : {
+             "display-name" : "bnl515-ps-tp.lhcone.es.net",
+             "display-set" : "bnl515-ps.es.net"
+          },
+          "address" : "bnl515-ps-tp.lhcone.es.net",
+          "host" : "bnl515-ps.es.net"
+      },
     "bnl515b-ps-tp.es.net" : {
          "_meta" : {
             "display-name" : "bnl515b-ps-tp.es.net",
@@ -189,6 +205,22 @@
          "address" : "bnl515b-ps-lat.es.net",
          "host" : "bnl515b-ps.es.net"
      },
+     "bnl515b-ps-tp.lhcone.es.net" : {
+      "_meta" : {
+         "display-name" : "bnl515b-ps-tp.lhcone.es.net",
+         "display-set" : "bnl515b-ps.es.net"
+      },
+      "address" : "bnl515b-ps-tp.lhcone.es.net",
+      "host" : "bnl515b-ps.es.net"
+  },
+  "bnl515b-ps-lat.lhcone.es.net" : {
+      "_meta" : {
+         "display-name" : "bnl515b-ps-lat.lhcone.es.net",
+         "display-set" : "bnl515b-ps.es.net"
+      },
+      "address" : "bnl515b-ps-lat.lhcone.es.net",
+      "host" : "bnl515b-ps.es.net"
+  },
     "bois-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "bois-ps-tp.es.net",
@@ -548,6 +580,22 @@
         "address" : "fnalfcc-ps-tp.es.net",
         "host" : "fnalfcc-ps.es.net"
     },
+    "fnalfcc-ps-lat.lhcone.es.net" : {
+      "_meta" : {
+         "display-name" : "fnalfcc-ps-lat.lhcone.es.net",
+         "display-set" : "fnalfcc-ps.es.net"
+      },
+      "address" : "fnalfcc-ps-lat.lhcone.es.net",
+      "host" : "fnalfcc-ps.es.net"
+  },
+ "fnalfcc-ps-tp.lhcone.es.net" : {
+      "_meta" : {
+         "display-name" : "fnalfcc-ps-tp.lhcone.es.net",
+         "display-set" : "fnalfcc-ps.es.net"
+      },
+      "address" : "fnalfcc-ps-tp.lhcone.es.net",
+      "host" : "fnalfcc-ps.es.net"
+  },
     "fnalgcc-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "fnalgcc-ps-lat.es.net",
@@ -564,6 +612,22 @@
         "address" : "fnalgcc-ps-tp.es.net",
         "host" : "fnalgcc-ps.es.net"
     },
+    "fnalgcc-ps-lat.lhcone.es.net" : {
+      "_meta" : {
+         "display-name" : "fnalgcc-ps-lat.lhcone.es.net",
+         "display-set" : "fnalgcc-ps.es.net"
+      },
+      "address" : "fnalgcc-ps-lat.lhcone.es.net",
+      "host" : "fnalgcc-ps.es.net"
+  },
+ "fnalgcc-ps-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "fnalgcc-ps-tp.es.net",
+         "display-set" : "fnalgcc-ps.es.net"
+      },
+      "address" : "fnalgcc-ps-tp.es.net",
+      "host" : "fnalgcc-ps.es.net"
+  },
     "frib-a-ps-tp.es.net" : {
       "_meta" : {
          "display-name" : "frib-a-ps-tp.es.net",
@@ -13242,6 +13306,12 @@
          "name" : "atla-ps-lat.lhcone.es.net"
         },
         {
+         "name" : "bnl515-ps-lat.lhcone.es.net"
+      },
+      {
+         "name" : "bnl515b-ps-lat.lhcone.es.net"
+      },
+        {
          "name" : "bost-ps-lat.lhcone.es.net"
         },
         {
@@ -13263,8 +13333,11 @@
          "name" : "eqxld8-ps-lat.lhcone.es.net"
         },
         {
-         "name" : "bost-ps-lat.lhcone.es.net"
-        },
+         "name" : "fnalfcc-ps-lat.lhcone.es.net"
+      },
+      {
+         "name" : "fnalgcc-ps-lat.lhcone.es.net"
+      },
         {
          "name" : "hous-ps-lat.lhcone.es.net"
         },
@@ -13319,6 +13392,12 @@
          "name" : "atla-ps-lat.lhcone.es.net"
         },
         {
+         "name" : "bnl515-ps-lat.lhcone.es.net"
+      },
+      {
+         "name" : "bnl515b-ps-lat.lhcone.es.net"
+      },
+        {
          "name" : "bost-ps-lat.lhcone.es.net"
         },
         {
@@ -13340,8 +13419,11 @@
          "name" : "eqxld8-ps-lat.lhcone.es.net"
         },
         {
-         "name" : "bost-ps-lat.lhcone.es.net"
-        },
+         "name" : "fnalfcc-ps-lat.lhcone.es.net"
+      },
+      {
+         "name" : "fnalgcc-ps-lat.lhcone.es.net"
+      },
         {
          "name" : "hous-ps-lat.lhcone.es.net"
         },
@@ -13389,6 +13471,12 @@
           {
             "name" : "atla-ps-tp.lhcone.es.net"
            },
+           {
+            "name" : "bnl515-ps-tp.lhcone.es.net"
+         },
+         {
+            "name" : "bnl515b-ps-tp.lhcone.es.net"
+         },
          {
             "name" : "bost-ps-tp.lhcone.es.net"
           },
@@ -13407,6 +13495,12 @@
           {
             "name" : "eqxld8-ps-tp.lhcone.es.net"
           },
+          {
+            "name" : "fnalfcc-ps-tp.lhcone.es.net"
+         },
+         {
+            "name" : "fnalgcc-ps-tp.lhcone.es.net"
+         },
           {
             "name" : "lbnl59-ps-tp.lhcone.es.net"
           },
@@ -13449,6 +13543,12 @@
          "name" : "bost-ps-tp.lhcone.es.net"
        },
        {
+         "name" : "bnl515-ps-tp.lhcone.es.net"
+      },
+      {
+         "name" : "bnl515b-ps-tp.lhcone.es.net"
+      },
+       {
          "name" : "cern513-ps-tp.lhcone.es.net"
        },
        {
@@ -13460,6 +13560,12 @@
        {
          "name" : "eqxld8-ps-tp.lhcone.es.net"
        },
+       {
+         "name" : "fnalfcc-ps-tp.lhcone.es.net"
+      },
+      {
+         "name" : "fnalgcc-ps-tp.lhcone.es.net"
+      },
        {
          "name" : "lbnl59-ps-tp.lhcone.es.net"
        },
