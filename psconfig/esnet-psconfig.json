@@ -620,12 +620,12 @@
       "address" : "fnalgcc-ps-lat.lhcone.es.net",
       "host" : "fnalgcc-ps.es.net"
   },
- "fnalgcc-ps-tp.es.net" : {
+ "fnalgcc-ps-tp.lhcone.es.net" : {
       "_meta" : {
-         "display-name" : "fnalgcc-ps-tp.es.net",
+         "display-name" : "fnalgcc-ps-tp.lhcone.es.net",
          "display-set" : "fnalgcc-ps.es.net"
       },
-      "address" : "fnalgcc-ps-tp.es.net",
+      "address" : "fnalgcc-ps-tp.lhcone.es.net",
       "host" : "fnalgcc-ps.es.net"
   },
     "frib-a-ps-tp.es.net" : {
