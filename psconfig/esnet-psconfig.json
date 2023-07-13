@@ -1476,6 +1476,38 @@
         "address" : "psmp-gn-owd-01.lon.uk.geant.net",
         "host" : "psmp-gn-owd-01.lon.uk.geant.net"
      },
+     "psmp-lhc-bw-fra-de.geant.org" : {
+      "_meta" : {
+         "display-name" : "psmp-lhc-bw-fra-de.geant.org",
+         "display-set" : "psmp-lhc-bw-fra-de.geant.org"
+      },
+      "address" : "psmp-lhc-bw-fra-de.geant.org",
+      "host" : "psmp-lhc-bw-fra-de.geant.org"
+   },
+   "psmp-lhc-owd-fra-de.geant.org" : {
+      "_meta" : {
+         "display-name" : "psmp-lhc-owd-fra-de.geant.org",
+         "display-set" : "psmp-lhc-owd-fra-de.geant.org"
+      },
+      "address" : "psmp-lhc-owd-fra-de.geant.org",
+      "host" : "psmp-lhc-owd-fra-de.geant.org"
+   },
+     "psmp-lhc-bw-fra-de.geant.org" : {
+      "_meta" : {
+         "display-name" : "psmp-lhc-bw-fra-de.geant.org",
+         "display-set" : "psmp-lhc-bw-fra-de.geant.org"
+      },
+      "address" : "psmp-lhc-bw-fra-de.geant.org",
+      "host" : "psmp-lhc-bw-fra-de.geant.org"
+   },
+   "psmp-lhc-owd-fra-de.geant.org" : {
+      "_meta" : {
+         "display-name" : "psmp-lhc-owd-fra-de.geant.org",
+         "display-set" : "psmp-lhc-owd-fra-de.geant.org"
+      },
+      "address" : "psmp-lhc-owd-fra-de.geant.org",
+      "host" : "psmp-lhc-owd-fra-de.geant.org"
+   },
      "perfsonar-hpcrc.princeton.edu" : {
         "_meta" : {
            "display-name" : "perfsonar-hpcrc.princeton.edu",
@@ -4826,6 +4858,20 @@
              "url" : "http://psmp-gn-owd-01.lon.uk.geant.net:8085/esmond/perfsonar/archive/"
           }
      },
+     "psmp-lhc-bw-fra-de.geant.org" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "http://psmp-lhc-bw-fra-de.geant.org:8085/esmond/perfsonar/archive/"
+      }
+ },
+ "psmp-lhc-owd-fra-de.geant.org" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "http://psmp-lhc-owd-fra-de.geant.org:8085/esmond/perfsonar/archive/"
+      }
+ },
      "perfsonar-ma-2.princeton.edu" : {
           "archiver" : "esmond",
           "data" : {
@@ -13273,6 +13319,9 @@
     "group_lhcone_latency" : {
       "a-addresses" : [
          {
+            "name" : "psmp-lhc-owd-fra-de.geant.org"
+         },
+         {
             "name" : "bnl515-ps-lat.es.net"
          },
          {
@@ -13370,7 +13419,10 @@
         }
      ],
      "b-addresses" : [
-       {
+      {
+         "name" : "psmp-lhc-owd-fra-de.geant.org"
+      },
+      {
          "name" : "lhcmon.bnl.gov"
         },
         {
@@ -13460,6 +13512,9 @@
    "group_lhcone_throughput" : {
       "a-addresses" : [
          {
+            "name" : "psmp-lhc-bw-fra-de.geant.org"
+          },
+         {
             "name" : "albq-ps-tp.lhcone.es.net"
           },
          {
@@ -13527,6 +13582,9 @@
       }
      ],
      "b-addresses" : [
+      {
+         "name" : "psmp-lhc-bw-fra-de.geant.org"
+       },
       {
          "name" : "albq-ps-tp.lhcone.es.net"
        },
@@ -13639,6 +13697,9 @@
         }
      ],
      "b-addresses" : [
+      {
+         "name" : "psmp-lhc-bw-fra-de.geant.org"
+       },
        {
          "name" : "lhcmon.bnl.gov"
         },
@@ -14434,6 +14495,24 @@
             "psmp-gn-bw-01-lon-uk.geant.net"
          ]
      },
+     "psmp-lhc-owd-fra-de.geant.org" : {
+      "_meta" : {
+         "display-name" : "psmp-lhc-owd-fra-de.geant.org",
+         "organization-display-name" : "GEANT"
+      },
+      "archives" : [
+         "psmp-lhc-owd-fra-de.geant.org"
+      ]
+  },
+  "psmp-lhc-bw-fra-de.geant.org" : {
+      "_meta" : {
+         "display-name" : "psmp-lhc-bw-fra-de.geant.org",
+         "organization-display-name" : "GEANT"
+      },
+      "archives" : [
+         "psmp-lhc-bw-fra-de.geant.org"
+      ]
+  },
      "nrel-pt1.nrel.gov" : {
          "_meta" : {
             "display-name" : "nrel-pt1.nrel.gov",
