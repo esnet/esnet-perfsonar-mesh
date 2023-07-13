@@ -198,6 +198,7 @@ dashboards:
        - name: "ESnet - ESnet Backup Paths - Throughput"
    - name: "99: ESnet6 Testing"
      grids:
+       - name: "ESnet - ESnet6 IPv4 DNS Testing - Loss"
        - name: "ESnet - 100G ESnet6 IPv4 Throughput Testing Mesh iperf3 - Throughput"
        - name: "ESnet - 100G ESnet6 IPv4 Throughput Testing Mesh iperf2 - Throughput"
        - name: "ESnet - ESnet6 Packet Loss IPv4 Path Testing - Loss"
