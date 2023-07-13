@@ -7120,7 +7120,26 @@
       }
    },
    "groups" : {
-     "ESnet6_TP_TUNING" : {
+      "ESnet6_IPv4_DNS" : {
+         "a-addresses" : [
+           {
+              "name" : "anl221-ps-tp.es.net"
+           },
+           {
+              "name" : "lbnl50-ps-tp.es.net"
+           }
+         ],
+         "b-addresses" : [
+            {
+               "name" : "172.64.36.1"
+            },
+            {
+               "name" : "172.64.36.2"
+            }
+         ],
+         "type" : "disjoint"
+      },
+      "ESnet6_TP_TUNING" : {
         "a-addresses" : [
           {
              "name" : "eqxsv5-ps-tp.es.net"
@@ -18108,6 +18127,20 @@
         "schedule" : "schedule_1",
         "test" : "ESnet6_v6_trace"
      },
+     "ESnet6_v4_DNS_Testing" : {
+      "_meta" : {
+         "display-name" : "ESnet6 IPv4 DNS Testing"
+      },
+      "reference": {
+         "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+         "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+         "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+         "display-task-group": ["99: ESnet6 Testing"]
+      },
+      "group" : "ESnet6_IPv4_DNS",
+      "schedule" : "schedule_1",
+      "test" : "ESnet6_v4_DNS"
+   },
       "100G_ESnet_Hub_to_100G_ESnet_Hub_IPv6_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "100G ESnet Hub to 100G ESnet Hub IPv6 Throughput Testing"
@@ -19600,6 +19633,24 @@
             "ip-version": 4
          },
          "type" : "rtt"
+      },
+      "ESnet6_v6_DNS" : {
+         "spec" : {
+            "nameserver" : "{% address[1] %}",
+            "query" : "fasterdata.es.net",
+            "record" : "aaaa",
+            "host" : "{% address[0] %}"
+         },
+         "type" : "dns"
+      },
+      "ESnet6_v4_dns" : {
+         "spec" : {
+            "nameserver" : "{% address[1] %}",
+            "query" : "fasterdata.es.net",
+            "record" : "a",
+            "host" : "{% address[0] %}"
+         },
+         "type" : "dns"
       }
    }
 }
