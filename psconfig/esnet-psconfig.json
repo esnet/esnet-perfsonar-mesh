@@ -1316,6 +1316,23 @@
       "address" : "wash-ps-lat.lhcone.es.net",
       "host" : "wash-ps.es.net"
   },
+    
+  "172.64.36.1" : {
+   "_meta" : {
+      "display-name" : "172.64.36.1",
+      "display-set" : "172.64.36.1"
+   },
+   "address" : "172.64.36.1",
+   "host" : "172.64.36.1"
+},
+"172.64.36.2" : {
+   "_meta" : {
+      "display-name" : "172.64.36.2",
+      "display-set" : "172.64.36.2"
+   },
+   "address" : "172.64.36.2",
+   "host" : "172.64.36.2"
+},
     "roc-ps-tp.tacc.utexas.edu" : {
       "_meta" : {
          "display-name" : "roc-ps-tp.tacc.utexas.edu",
@@ -4717,6 +4734,20 @@
             "url" : "https://ps-east.es.net/esmond/perfsonar/archive/"
          }
      },
+     "172.64.36.1" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "http://172.64.36.1:8085/esmond/perfsonar/archive/"
+      }
+ },
+ "172.64.36.2" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "http://172.64.36.2:8085/esmond/perfsonar/archive/"
+      }
+ },
      "roc-ps-tp.tacc.utexas.edu" : {
       "archiver" : "esmond",
       "data" : {
@@ -14485,6 +14516,28 @@
            "wash-ps.es.net"
         ]
      },
+     "172.64.36.1" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "http://172.64.36.1:8085/esmond/perfsonar/archive/"
+      },
+      "archives" : [
+         "172.64.36.1"  
+      ],
+      "no-agent" : true
+ },
+ "172.64.36.2" : {
+      "archiver" : "esmond",
+      "data" : {
+         "measurement-agent" : "{% scheduled_by_address %}",
+         "url" : "http://172.64.36.2:8085/esmond/perfsonar/archive/"
+      },
+      "archives" : [
+         "172.64.36.2"  
+      ],
+      "no-agent" : true
+ },
      "roc-ps-tp.tacc.utexas.edu" : {
       "_meta" : {
          "display-name" : "roc-ps-tp.tacc.utexas.edu",
