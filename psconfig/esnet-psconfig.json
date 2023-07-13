@@ -14517,27 +14517,23 @@
         ]
      },
      "172.64.36.1" : {
-      "archiver" : "esmond",
-      "data" : {
-         "measurement-agent" : "{% scheduled_by_address %}",
-         "url" : "http://172.64.36.1:8085/esmond/perfsonar/archive/"
+      "_meta" : {
+         "display-name" : "172.64.36.1",
+         "organization-display-name" : "Cloudflare DNS"
       },
       "archives" : [
-         "172.64.36.1"  
-      ],
-      "no-agent" : true
- },
- "172.64.36.2" : {
-      "archiver" : "esmond",
-      "data" : {
-         "measurement-agent" : "{% scheduled_by_address %}",
-         "url" : "http://172.64.36.2:8085/esmond/perfsonar/archive/"
+         "172.64.36.1"
+      ]
+  },
+  "172.64.36.2" : {
+      "_meta" : {
+         "display-name" : "172.64.36.2",
+         "organization-display-name" : "Cloudflare DNS"
       },
       "archives" : [
-         "172.64.36.2"  
-      ],
-      "no-agent" : true
- },
+         "172.64.36.2"
+      ]
+  },
      "roc-ps-tp.tacc.utexas.edu" : {
       "_meta" : {
          "display-name" : "roc-ps-tp.tacc.utexas.edu",
@@ -19696,7 +19692,7 @@
          },
          "type" : "dns"
       },
-      "ESnet6_v4_dns" : {
+      "ESnet6_v4_DNS" : {
          "spec" : {
             "nameserver" : "{% address[1] %}",
             "query" : "fasterdata.es.net",
