@@ -1540,13 +1540,13 @@
       "address" : "psmp-lhc-owd-lon-uk.geant.org",
       "host" : "psmp-lhc-owd-lon-uk.geant.org"
    },
-   "psmp-lhc-owd-par-fr.geant.org" : {
+   "psmp-lhc-bw-par-fr.geant.org" : {
       "_meta" : {
-         "display-name" : "psmp-lhc-owd-par-fr.geant.org",
-         "display-set" : "psmp-lhc-owd-par-fr.geant.org"
+         "display-name" : "psmp-lhc-bw-par-fr.geant.org",
+         "display-set" : "psmp-lhc-bw-par-fr.geant.org"
       },
-      "address" : "psmp-lhc-owd-par-fr.geant.org",
-      "host" : "psmp-lhc-owd-par-fr.geant.org"
+      "address" : "psmp-lhc-bw-par-fr.geant.org",
+      "host" : "psmp-lhc-bw-par-fr.geant.org"
    },
    "psmp-lhc-owd-par-fr.geant.org" : {
       "_meta" : {
@@ -4948,11 +4948,11 @@
       "url" : "http://psmp-lhc-owd-lon-uk.geant.org:8085/esmond/perfsonar/archive/"
    }
 },
-"psmp-lhc-owd-par-fr.geant.org" : {
+"psmp-lhc-bw-par-fr.geant.org" : {
    "archiver" : "esmond",
    "data" : {
       "measurement-agent" : "{% scheduled_by_address %}",
-      "url" : "http://psmp-lhc-owd-par-fr.geant.org:8085/esmond/perfsonar/archive/"
+      "url" : "http://psmp-lhc-bw-par-fr.geant.org:8085/esmond/perfsonar/archive/"
    }
 },
 "psmp-lhc-owd-par-fr.geant.org" : {
@@ -13418,7 +13418,7 @@
             "name" : "psmp-lhc-owd-lon-uk.geant.org"
          },
          {
-            "name" : "psmp-lhc-owd-pat-fr.geant.org"
+            "name" : "psmp-lhc-owd-par-fr.geant.org"
          },
          {
             "name" : "bnl515-ps-lat.es.net"
@@ -13528,7 +13528,7 @@
          "name" : "psmp-lhc-owd-lon-uk.geant.org"
       },
       {
-         "name" : "psmp-lhc-owd-pat-fr.geant.org"
+         "name" : "psmp-lhc-owd-par-fr.geant.org"
       },
       {
          "name" : "lhcmon.bnl.gov"
@@ -14675,13 +14675,13 @@
       "psmp-lhc-bw-lon-uk.geant.org"
    ]
 },
-"psmp-lhc-owd-par-fr.geant.org" : {
+"psmp-lhc-bw-par-fr.geant.org" : {
    "_meta" : {
-      "display-name" : "psmp-lhc-owd-par-fr.geant.org",
+      "display-name" : "psmp-lhc-bw-par-fr.geant.org",
       "organization-display-name" : "GEANT"
    },
    "archives" : [
-      "psmp-lhc-owd-par-fr.geant.org"
+      "psmp-lhc-bw-par-fr.geant.org"
    ]
 },
 "psmp-lhc-owd-par-fr.geant.org" : {
