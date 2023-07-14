@@ -13470,18 +13470,6 @@
          {
             "name" : "psmp-lhc-owd-par-fr.geant.org"
          },
-         {
-            "name" : "bnl515-ps-lat.es.net"
-         },
-         {
-            "name" : "bnl515b-ps-lat.es.net"
-         },
-         {
-            "name" : "fnalfcc-ps-lat.es.net"
-         },
-         {
-            "name" : "fnalgcc-ps-lat.es.net"
-         },
         {
          "name" : "lhcmon.bnl.gov"
         },
@@ -13726,18 +13714,6 @@
           {
             "name" : "lbnl59-ps-tp.lhcone.es.net"
           },
-         {
-            "name" : "bnl515-ps-tp.es.net"
-         },
-         {
-            "name" : "bnl515b-ps-tp.es.net"
-         },
-         {
-            "name" : "fnalfcc-ps-tp.es.net"
-         },
-         {
-            "name" : "fnalgcc-ps-tp.es.net"
-         },
         {
          "name" : "lhcmon.bnl.gov"
         },
