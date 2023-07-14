@@ -14678,7 +14678,8 @@
          },
          "archives" : [
             "psmp-gn-owd-01.lon.uk.geant.net"
-         ]
+         ],
+         "no-agent" : true
      },
      "psmp-gn-bw-01-lon-uk.geant.net" : {
          "_meta" : {
@@ -14687,7 +14688,8 @@
          },
          "archives" : [
             "psmp-gn-bw-01-lon-uk.geant.net"
-         ]
+         ],
+         "no-agent" : true
      },
      "psmp-lhc-owd-fra-de.geant.org" : {
       "_meta" : {
@@ -14696,7 +14698,8 @@
       },
       "archives" : [
          "psmp-lhc-owd-fra-de.geant.org"
-      ]
+      ],
+      "no-agent" : true
   },
   "psmp-lhc-bw-fra-de.geant.org" : {
       "_meta" : {
@@ -14705,7 +14708,8 @@
       },
       "archives" : [
          "psmp-lhc-bw-fra-de.geant.org"
-      ]
+      ],
+      "no-agent" : true
   },
   "psmp-lhc-owd-gen-ch.geant.org" : {
    "_meta" : {
@@ -14714,7 +14718,8 @@
    },
    "archives" : [
       "psmp-lhc-owd-gen-ch.geant.org"
-   ]
+   ],
+   "no-agent" : true
 },
 "psmp-lhc-bw-gen-ch.geant.org" : {
    "_meta" : {
@@ -14723,7 +14728,8 @@
    },
    "archives" : [
       "psmp-lhc-bw-gen-ch.geant.org"
-   ]
+   ],
+   "no-agent" : true
 },  
 "psmp-lhc-owd-lon-uk.geant.org" : {
    "_meta" : {
@@ -14732,7 +14738,8 @@
    },
    "archives" : [
       "psmp-lhc-owd-lon-uk.geant.org"
-   ]
+   ],
+   "no-agent" : true
 },
 "psmp-lhc-bw-lon-uk.geant.org" : {
    "_meta" : {
@@ -14741,7 +14748,8 @@
    },
    "archives" : [
       "psmp-lhc-bw-lon-uk.geant.org"
-   ]
+   ],
+   "no-agent" : true
 },
 "psmp-lhc-bw-par-fr.geant.org" : {
    "_meta" : {
@@ -14750,7 +14758,8 @@
    },
    "archives" : [
       "psmp-lhc-bw-par-fr.geant.org"
-   ]
+   ],
+   "no-agent" : true
 },
 "psmp-lhc-owd-par-fr.geant.org" : {
    "_meta" : {
@@ -14759,7 +14768,8 @@
    },
    "archives" : [
       "psmp-lhc-owd-par-fr.geant.org"
-   ]
+   ],
+   "no-agent" : true
 },
      "nrel-pt1.nrel.gov" : {
          "_meta" : {
