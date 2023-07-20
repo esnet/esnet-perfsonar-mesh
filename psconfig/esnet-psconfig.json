@@ -2528,21 +2528,26 @@
       },
       "lhcmon.bnl.gov" : {
          "_meta" : {
-            "display-name" : "lhcmon.bnl.gov"
+            "display-name" : "lhcmon.bnl.gov",
+            "display-set" : "lhcmon.bnl.gov"
          },
          "address" : "lhcmon.bnl.gov",
          "host" : "lhcmon.bnl.gov"
       },
       "lhcperfmon.bnl.gov" : {
          "_meta" : {
-            "display-name" : "lhcperfmon.bnl.gov"
+            "display-name" : "lhcperfmon.bnl.gov",
+            "display-set" : "lhcperfmon.bnl.gov"
+
          },
          "address" : "lhcperfmon.bnl.gov",
          "host" : "lhcperfmon.bnl.gov"
       },
       "lhcmon3.bnl.gov" : {
          "_meta" : {
-            "display-name" : "lhcmon3.bnl.gov"
+            "display-name" : "lhcmon3.bnl.gov",
+            "display-set" : "lhcmon3.bnl.gov"
+
          },
          "address" : "lhcmon3.bnl.gov",
          "host" : "lhcmon3.bnl.gov"
@@ -19672,7 +19677,7 @@
       "ESnet6_v6_DNS" : {
          "spec" : {
             "nameserver" : "{% address[1] %}",
-            "query" : "fasterdata.es.net",
+            "query" : "{% address[1] %}",
             "record" : "aaaa",
             "host" : "{% address[0] %}"
          },
@@ -19681,7 +19686,7 @@
       "ESnet6_v4_DNS" : {
          "spec" : {
             "nameserver" : "{% address[1] %}",
-            "query" : "fasterdata.es.net",
+            "query" : "{% address[1] %}",
             "record" : "a",
             "host" : "{% address[0] %}"
          },
