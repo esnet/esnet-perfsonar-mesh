@@ -460,14 +460,8 @@
       },
       "address" : "eqxam3-ps-lat.lhcone.es.net",
       "host" : "eqxam3-ps.es.net"
-  },    "eqxch2-ps-lat.es.net" : {
-        "_meta" : {
-           "display-name" : "eqxch2-ps-lat.es.net",
-           "display-set" : "eqxch2-ps.es.net"
-        },
-        "address" : "eqxch2-ps-lat.es.net",
-        "host" : "eqxch2-ps.es.net"
-    },
+  },
+
     "eqxch2-ps-lat.es.net" : {
       "_meta" : {
          "display-name" : "eqxch2-ps-lat.es.net",
@@ -1525,22 +1519,6 @@
       "address" : "psmp-lhc-owd-fra-de.geant.org",
       "host" : "psmp-lhc-owd-fra-de.geant.org"
    },
-     "psmp-lhc-bw-fra-de.geant.org" : {
-      "_meta" : {
-         "display-name" : "psmp-lhc-bw-fra-de.geant.org",
-         "display-set" : "psmp-lhc-bw-fra-de.geant.org"
-      },
-      "address" : "psmp-lhc-bw-fra-de.geant.org",
-      "host" : "psmp-lhc-bw-fra-de.geant.org"
-   },
-   "psmp-lhc-owd-fra-de.geant.org" : {
-      "_meta" : {
-         "display-name" : "psmp-lhc-owd-fra-de.geant.org",
-         "display-set" : "psmp-lhc-owd-fra-de.geant.org"
-      },
-      "address" : "psmp-lhc-owd-fra-de.geant.org",
-      "host" : "psmp-lhc-owd-fra-de.geant.org"
-   },
    "psmp-lhc-bw-gen-ch.geant.org" : {
       "_meta" : {
          "display-name" : "psmp-lhc-bw-gen-ch.geant.org",
@@ -2518,22 +2496,6 @@
          },
          "address" : "kans-pt1.es.net",
          "host" : "kans-pt1.es.net"
-      },
-      "lbnl59-ps-lat.es.net" : {
-         "_meta" : {
-            "display-name" : "lbnl59-ps-lat.es.net",
-            "display-set" : "lbnl59-ps.es.net"
-         },
-         "address" : "lbnl59-ps-lat.es.net",
-         "host" : "lbnl59-ps.es.net"
-      },
-      "lbnl59-ps-tp.es.net" : {
-         "_meta" : {
-            "display-name" : "lbnl59-ps-tp.es.net",
-            "display-set" : "lbnl59-ps.es.net"
-         },
-         "address" : "lbnl59-ps-tp.es.net",
-         "host" : "lbnl59-ps.es.net"
       },
       "lhc-bandwidth.twgrid.org" : {
          "_meta" : {
