@@ -14046,7 +14046,7 @@
            "display-task-group": ["10: ESnet to ESnet Packet Loss"]
         },
         "group" : "group_ESnet6_Path_Loss_Path_Mesh",
-        "archives": [ "ps-east" ],
+        "archives": [ "ps-west" ],
         "test" : "ESnet6_LAT_1_v4"
      },
      "ESnet6_Packet_Loss_IPv6_Path_Testing" : {
@@ -14475,7 +14475,7 @@
             "display-task-group": ["10: ESnet to ESnet Packet Loss", "30: ESnet to DOE Sites"]
          },
          "group" : "group_17",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_LAT_1_v6"
       },
       "ESnet_to_DOE_Site_IPv4_Packet_Loss_Testing" : {
@@ -14489,7 +14489,7 @@
             "display-task-group": ["10: ESnet to ESnet Packet Loss", "30: ESnet to DOE Sites"]
          },
          "group" : "group_17",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_DOE_Site_IPv6_Throughput_Testing" : {
@@ -14673,7 +14673,7 @@
             "display-task-group": ["10: ESnet to ESnet Packet Loss"]
          },
          "group" : "group_4_tp",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_GA-EAST_IPv4_Packet_Loss_Testing" : {
@@ -15449,7 +15449,7 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_throughput",
-            "archives": [ "ps-east" ],
+            "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v6"
           },
          "LHCONE_IPv6_Loss_Testing" : {
@@ -15463,7 +15463,7 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_latency",
-            "archives": [ "ps-east" ],
+            "archives": [ "ps-west" ],
             "test" : "ESnet6_LAT_1_v6"
           },
            "LHCONE_IPv6_Traceroute_Testing" : {
@@ -15478,7 +15478,7 @@
               },
               "group" : "group_lhcone_throughput",
               "schedule" : "schedule_1",
-              "archives": [ "ps-east" ],
+              "archives": [ "ps-west" ],
               "test" : "ESnet6_v6_trace"
            },
            "LHCONE_US_IPv6_Loss_Testing" : {
