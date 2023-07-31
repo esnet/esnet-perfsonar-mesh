@@ -1182,21 +1182,21 @@
         "address" : "seat-ps-tp.es.net",
         "host" : "seat-ps.es.net"
     },
-    "snlca-ps-lat.es.net" : {
+    "snlca902-ps-lat.es.net" : {
         "_meta" : {
-           "display-name" : "snlca-ps-lat.es.net",
-           "display-set" : "snlca-ps.es.net"
+           "display-name" : "snlca902-ps-lat.es.net",
+           "display-set" : "snlca902-ps.es.net"
         },
-        "address" : "snlca-ps-lat.es.net",
-        "host" : "snlca-ps.es.net"
+        "address" : "snlca902-ps-lat.es.net",
+        "host" : "snlca902-ps.es.net"
     },
-   "snlca-ps-tp.es.net" : {
+   "snlca902-ps-tp.es.net" : {
         "_meta" : {
-           "display-name" : "snlca-ps-tp.es.net",
-           "display-set" : "snlca-ps.es.net"
+           "display-name" : "snlca902-ps-tp.es.net",
+           "display-set" : "snlca902-ps.es.net"
         },
-        "address" : "snlca-ps-tp.es.net",
-        "host" : "snlca-ps.es.net"
+        "address" : "snlca902-ps-tp.es.net",
+        "host" : "snlca902-ps.es.net"
     },
     "slac50n-ps-tp.es.net" : {
          "_meta" : {
@@ -4445,6 +4445,9 @@
               "name" : "eqxch2-ps-tp.es.net"
            },
            {
+            "name" : "eqxda3-ps-tp.es.net"
+           },
+           {
               "name" : "eqxdc4-ps-tp.es.net"
            },
            {
@@ -4452,7 +4455,12 @@
            }
          ],
          "b-addresses" : [
-
+            {
+               "name" : "anl221-ps-tp.es.net"
+            },
+            {
+               "name" : "anl541b-ps-tp.es.net"
+            },
            {
               "name" : "bnl515-ps-tp.es.net"
            },
@@ -4487,7 +4495,7 @@
                "name" : "orau-ps-tp.es.net"
             },
             {
-               "name" : "snlca-ps-tp.es.net"
+               "name" : "snlca902-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -4610,6 +4618,9 @@
            },
            {
               "name" : "eqxch2-ps-tp.es.net"
+           },
+           {
+            "name" : "eqxda3-ps-tp.es.net"
            },
            {
               "name" : "eqxdc4-ps-tp.es.net"
@@ -5007,7 +5018,7 @@
               "name" : "orau-ps-lat.es.net"
            },
            {
-              "name" : "snlca-ps-lat.es.net"
+              "name" : "snlca902-ps-lat.es.net"
            }
          ],
          "type" : "disjoint"
@@ -5431,7 +5442,7 @@
                "name" : "slac50s-ps-tp.es.net"
             },
             {
-               "name" : "snlca-ps-tp.es.net"
+               "name" : "snlca902-ps-tp.es.net"
             }
          ],
          "type" : "disjoint"
@@ -5540,7 +5551,7 @@
                "name" : "slac50s-ps-lat.es.net"
             },
             {
-               "name" : "snlca-ps-lat.es.net"
+               "name" : "snlca902-ps-lat.es.net"
             }
          ],
          "type" : "disjoint"
@@ -11474,9 +11485,9 @@
            "organization-display-name" : "ESnet"
         }
      },
-     "snlca-ps.es.net" : {
+     "snlca902-ps.es.net" : {
         "_meta" : {
-           "display-name" : "snlca-ps.es.net",
+           "display-name" : "snlca902-ps.es.net",
            "organization-display-name" : "ESnet"
         }
      },
