@@ -14515,7 +14515,7 @@
          },
          "group" : "group_16",
          "schedule" : "schedule_0",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_TP_1_v6",
          "tools" : [
             "bwctliperf3",
@@ -14534,7 +14534,7 @@
          },
          "group" : "group_16",
          "schedule" : "schedule_0",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
@@ -14936,7 +14936,7 @@
             "display-task-group": ["40: ESnet to Large Facilities"]
          },
          "group" : "group_11",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_LAT_1_v6"
       },
       "ESnet_to_Large_Facility_IPv4_Packet_Loss_Testing" : {
@@ -14950,7 +14950,7 @@
             "display-task-group": ["40: ESnet to Large Facilities"]
          },
          "group" : "group_11",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_Large_Facility_IPv6_Throughput_Testing" : {
@@ -14965,7 +14965,7 @@
          },
          "group" : "group_10",
          "schedule" : "schedule_0",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_TP_1_v6",
          "tools" : [
             "bwctliperf3",
@@ -14984,7 +14984,7 @@
          },
          "group" : "group_10",
          "schedule" : "schedule_0",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
@@ -15002,7 +15002,7 @@
          },
          "group" : "group_10",
          "schedule" : "schedule_1",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_US_Regional_Networks_Packet_Loss" : {
@@ -15015,7 +15015,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_25",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_LAT_1_v4"
       },
       "ESnet_to_US_Regional_Networks_Throughput" : {
@@ -15029,7 +15029,7 @@
          },
          "group" : "group_24",
          "schedule" : "schedule_0",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_TP_1_v4",
          "tools" : [
             "bwctliperf3",
@@ -15252,7 +15252,7 @@
           "display-task-name": "{% jq .task._meta.\"display-name\" %}"
        },
        "group" : "group_simons_observ_owamp",
-       "archives": [ "ps-east" ],
+       "archives": [ "ps-west" ],
        "test" : "ESnet6_LAT_1_v4"
      },
      "ESnet_to_Simons_Observatory_Throughput_Testing" : {
@@ -15266,7 +15266,7 @@
         },
         "group" : "group_simons_observ_pt",
         "schedule" : "schedule_0",
-        "archives": [ "ps-east" ],
+        "archives": [ "ps-west" ],
         "test" : "ESnet6_TP_1_v4"
       },
       "ESnet_to_Simons_Observatory_Traceroute_Testing" : {
@@ -15280,7 +15280,7 @@
          },
          "group" : "group_simons_observ_pt",
          "schedule" : "schedule_1",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_v4_trace"
       },
       "ESnet_to_NREL_Throughput_Testing" : {
@@ -15293,7 +15293,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_nrel_thrupt",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_TP_1_v4"
        },
       "ESnet_to_NREL_Loss_Testing" : {
@@ -15306,7 +15306,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_nrel_owamp",
-         "archives": [ "ps-east" ],
+         "archives": [ "ps-west" ],
          "test" : "ESnet6_LAT_1_v4"
        },
         "ESnet_to_NREL_Traceroute_Testing" : {
@@ -15320,7 +15320,7 @@
            },
            "group" : "group_nrel_owamp",
            "schedule" : "schedule_1",
-           "archives": [ "ps-east" ],
+           "archives": [ "ps-west" ],
            "test" : "ESnet6_v4_trace"
         },
         "JLAB_GlueX_Throughput_Testing" : {
@@ -15333,7 +15333,7 @@
               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
            },
            "group" : "group_gluex_thrupt",
-           "archives": [ "ps-east" ],
+           "archives": [ "ps-west" ],
            "test" : "ESnet6_TP_1_v4"
          },
         "JLAB_GlueX_Loss_Testing" : {
@@ -15346,7 +15346,7 @@
               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
            },
            "group" : "group_gluex_owamp",
-           "archives": [ "ps-east" ],
+           "archives": [ "ps-west" ],
            "test" : "ESnet6_LAT_1_v4"
          },
           "JLAB_GlueX_Traceroute_Testing" : {
@@ -15360,7 +15360,7 @@
              },
              "group" : "group_gluex_thrupt",
              "schedule" : "schedule_1",
-             "archives": [ "ps-east" ],
+             "archives": [ "ps-west" ],
              "test" : "ESnet6_v4_trace"
           },
           "FRIB_Throughput_Testing" : {
@@ -15374,7 +15374,7 @@
                "display-task-group": ["71: ESnet to FRIB"]
             },
             "group" : "group_frib",
-            "archives": [ "ps-east" ],
+            "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v4"
           },
          "FRIB_Loss_Testing" : {
@@ -15388,7 +15388,7 @@
                "display-task-group": ["71: ESnet to FRIB"]
             },
             "group" : "group_frib",
-            "archives": [ "ps-east" ],
+            "archives": [ "ps-west" ],
             "test" : "ESnet6_LAT_1_v4"
           },
            "FRIB_Traceroute_Testing" : {
@@ -15403,7 +15403,7 @@
               },
               "group" : "group_frib",
               "schedule" : "schedule_1",
-              "archives": [ "ps-east" ],
+              "archives": [ "ps-west" ],
               "test" : "ESnet6_v4_trace"
            },
            "LHCONE_IPv4_Throughput_Testing" : {
@@ -15417,7 +15417,7 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_throughput",
-            "archives": [ "ps-east" ],
+            "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v4"
           },
          "LHCONE_IPv4_Loss_Testing" : {
@@ -15431,7 +15431,7 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_latency",
-            "archives": [ "ps-east" ],
+            "archives": [ "ps-west" ],
             "test" : "ESnet6_LAT_1_v4"
           },
            "LHCONE_IPv4_Traceroute_Testing" : {
@@ -15446,7 +15446,7 @@
               },
               "group" : "group_lhcone_throughput",
               "schedule" : "schedule_1",
-              "archives": [ "ps-east" ],
+              "archives": [ "ps-west" ],
               "test" : "ESnet6_v4_trace"
            },
            "LHCONE_IPv6_Throughput_Testing" : {
@@ -15503,7 +15503,7 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_us_latency",
-            "archives": [ "ps-east" ],
+            "archives": [ "ps-west" ],
             "test" : "ESnet6_LAT_1_v6"
           },
            "NSF_SuperComputers_IPv4_Throughput_Testing" : {
@@ -15517,7 +15517,7 @@
                "display-task-group": ["41: ESnet to NSF-Supported SuperComputers"]
             },
             "group" : "group_NSF_SC_throughput",
-            "archives": [ "ps-east" ],
+            "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v4"
           },
          "NSF_SuperComputers_IPv4_Loss_Testing" : {
@@ -15531,7 +15531,7 @@
                "display-task-group": ["41: ESnet to NSF-Supported SuperComputers"]
             },
             "group" : "group_NSF_SC_latency",
-            "archives": [ "ps-east" ],
+            "archives": [ "ps-west" ],
             "test" : "ESnet6_LAT_1_v4"
           },
            "NSF_SuperComputers_IPv4_Traceroute_Testing" : {
@@ -15546,7 +15546,7 @@
               },
               "group" : "group_NSF_SC_throughput",
               "schedule" : "schedule_1",
-              "archives": [ "ps-east" ],
+              "archives": [ "ps-west" ],
               "test" : "ESnet6_v4_trace"
            }         
    },
