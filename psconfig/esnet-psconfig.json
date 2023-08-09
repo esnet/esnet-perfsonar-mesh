@@ -10643,27 +10643,6 @@
     },
     "group_lhcone_latency" : {
       "a-addresses" : [
-         {
-            "name" : "psmp-lhc-owd-fra-de.geant.org"
-         },
-         {
-            "name" : "psmp-lhc-owd-gen-ch.geant.org"
-         },
-         {
-            "name" : "psmp-lhc-owd-lon-uk.geant.org"
-         },
-         {
-            "name" : "psmp-lhc-owd-par-fr.geant.org"
-         },
-        {
-         "name" : "lhcmon.bnl.gov"
-        },
-        {
-         "name" : "lhcmon3.bnl.gov"
-        },
-        {
-         "name" : "lhcperfmon.bnl.gov"
-        },
         {
          "name" : "albq-ps-lat.lhcone.es.net"
         },
@@ -10741,19 +10720,99 @@
         }
      ],
      "b-addresses" : [
-      {
-         "name" : "psmp-lhc-owd-fra-de.geant.org"
+        {
+         "name" : "albq-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "anl221-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "anl541b-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "atla-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "bnl515-ps-lat.lhcone.es.net"
       },
       {
-         "name" : "psmp-lhc-owd-gen-ch.geant.org"
+         "name" : "bnl515b-ps-lat.lhcone.es.net"
+      },
+        {
+         "name" : "bost-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "cern513-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "cern773-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "chic-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "eqxam3-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "eqxch2-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "eqxld8-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "fnalfcc-ps-lat.lhcone.es.net"
       },
       {
-         "name" : "psmp-lhc-owd-lon-uk.geant.org"
+         "name" : "fnalgcc-ps-lat.lhcone.es.net"
       },
-      {
-         "name" : "psmp-lhc-owd-par-fr.geant.org"
-      },
-      {
+        {
+         "name" : "hous-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "kans-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "lbnl59-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "losa-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "nash-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "newy32aoa-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "newy1118th-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "star-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "sunn-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "wash-ps-lat.lhcone.es.net"
+        }
+     ],
+     "type" : "disjoint"
+   },
+   "group_lhcone_wlcg_latency" : {
+      "a-addresses" : [
+         {
+            "name" : "psmp-lhc-owd-fra-de.geant.org"
+         },
+         {
+            "name" : "psmp-lhc-owd-gen-ch.geant.org"
+         },
+         {
+            "name" : "psmp-lhc-owd-lon-uk.geant.org"
+         },
+         {
+            "name" : "psmp-lhc-owd-par-fr.geant.org"
+         },
+        {
          "name" : "lhcmon.bnl.gov"
         },
         {
@@ -10761,7 +10820,9 @@
         },
         {
          "name" : "lhcperfmon.bnl.gov"
-        },
+        }
+     ],
+     "b-addresses" : [
         {
          "name" : "albq-ps-lat.lhcone.es.net"
         },
@@ -15474,6 +15535,20 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_latency",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_LAT_1_v6"
+          },
+          "LHCONE_WLCG_IPv6_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "LHCONE WLCG IPv6 Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
+            },
+            "group" : "group_lhcone_wlcg_latency",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_LAT_1_v6"
           },
