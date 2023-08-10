@@ -14778,6 +14778,7 @@
             "display-task-group": ["10: ESnet to ESnet Packet Loss"]
          },
          "group" : "group_4_tp",
+         "schedule" : "schedule_0",
          "archives": [ "ps-west" ],
          "test" : "ESnet6_LAT_1_v4"
       },
@@ -15387,6 +15388,7 @@
             "display-task-name": "{% jq .task._meta.\"display-name\" %}"
          },
          "group" : "group_nrel_thrupt",
+         "schedule" : "schedule_0",
          "archives": [ "ps-west" ],
          "test" : "ESnet6_TP_1_v4"
        },
@@ -15427,6 +15429,7 @@
               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
            },
            "group" : "group_gluex_thrupt",
+           "schedule" : "schedule_0",
            "archives": [ "ps-west" ],
            "test" : "ESnet6_TP_1_v4"
          },
@@ -15468,6 +15471,7 @@
                "display-task-group": ["71: ESnet to FRIB"]
             },
             "group" : "group_frib",
+            "schedule" : "schedule_0",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v4"
           },
@@ -15511,6 +15515,7 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_throughput",
+            "schedule" : "schedule_0",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v4"
           },
@@ -15554,6 +15559,7 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_throughput",
+            "schedule" : "schedule_0",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v6"
           },
@@ -15568,6 +15574,7 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_wlcg_throughput",
+            "schedule" : "schedule_0",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v6"
           },
@@ -15654,6 +15661,7 @@
                "display-task-group": ["41: ESnet to NSF-Supported SuperComputers"]
             },
             "group" : "group_NSF_SC_throughput",
+            "schedule" : "schedule_0",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v4"
           },
