@@ -14,13 +14,6 @@
    },
    "archives" : {
      "ps-west" : {
-         "archiver" : "esmond",
-         "data" : {
-            "measurement-agent" : "{% scheduled_by_address %}",
-            "url" : "https://ps-west.es.net/esmond/perfsonar/archive/"
-         }
-     },
-     "ps-west" : {
       "archiver" : "esmond",
       "data" : {
          "measurement-agent" : "{% scheduled_by_address %}",
