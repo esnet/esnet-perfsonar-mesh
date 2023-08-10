@@ -461,7 +461,6 @@
       "address" : "eqxam3-ps-lat.lhcone.es.net",
       "host" : "eqxam3-ps.es.net"
   },
-
     "eqxch2-ps-lat.es.net" : {
       "_meta" : {
          "display-name" : "eqxch2-ps-lat.es.net",
@@ -10904,18 +10903,6 @@
    "group_lhcone_throughput" : {
       "a-addresses" : [
          {
-            "name" : "psmp-lhc-bw-fra-de.geant.org"
-          },
-          {
-            "name" : "psmp-lhc-bw-gen-ch.geant.org"
-          },
-          {
-            "name" : "psmp-lhc-bw-lon-uk.geant.org"
-          },
-          {
-            "name" : "psmp-lhc-bw-par-fr.geant.org"
-          },
-         {
             "name" : "albq-ps-tp.lhcone.es.net"
           },
          {
@@ -10959,30 +10946,9 @@
          },
           {
             "name" : "lbnl59-ps-tp.lhcone.es.net"
-          },
-        {
-         "name" : "lhcmon.bnl.gov"
-        },
-        {
-         "name" : "lhcmon3.bnl.gov"
-        },
-        {
-         "name" : "lhcperfmon.bnl.gov"
       }
      ],
      "b-addresses" : [
-      {
-         "name" : "psmp-lhc-bw-fra-de.geant.org"
-       },
-       {
-         "name" : "psmp-lhc-bw-gen-ch.geant.org"
-       },
-       {
-         "name" : "psmp-lhc-bw-lon-uk.geant.org"
-       },
-       {
-         "name" : "psmp-lhc-bw-par-fr.geant.org"
-       },
       {
          "name" : "albq-ps-tp.lhcone.es.net"
        },
@@ -11010,6 +10976,9 @@
        {
          "name" : "cern773-ps-tp.lhcone.es.net"
        },
+       {
+         "name" : "eqxam3-ps-tp.lhcone.es.net"
+       },
       {
          "name" : "eqxch2-ps-tp.lhcone.es.net"
        },
@@ -11024,15 +10993,6 @@
       },
        {
          "name" : "lbnl59-ps-tp.lhcone.es.net"
-       },
-      {
-         "name" : "lhcmon.bnl.gov"
-        },
-        {
-         "name" : "lhcmon3.bnl.gov"
-        },
-        {
-         "name" : "lhcperfmon.bnl.gov"
       }
      ],
      "type" : "disjoint"
@@ -11088,6 +11048,9 @@
        },
        {
          "name" : "cern773-ps-tp.lhcone.es.net"
+       },
+       {
+         "name" : "eqxam3-ps-tp.lhcone.es.net"
        },
       {
          "name" : "eqxch2-ps-tp.lhcone.es.net"
