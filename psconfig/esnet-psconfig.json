@@ -15692,7 +15692,7 @@
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
                "display-task-group": ["51: ESnet-LHCONE"]
             },
-            "group" : "group_lhc_USATLAS_latency",
+            "group" : "group_lhc_usatlas_latency",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_LAT_1_v6"
           },
