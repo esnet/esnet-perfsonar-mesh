@@ -176,6 +176,9 @@ dashboards:
        - name: "ESnet - LHCONE WLCG IPv6 Packet Loss Testing - Loss"
        - name: "ESnet - LHCONE WLCG IPv6 Throughput Testing - Throughput"
        - name: "ESnet - LHCONE WLCG IPv6 Traceroute Testing - Path Count"
+       - name: "ESnet - LHC USATLAS IPv6 Packet Loss Testing - Loss"
+       - name: "ESnet - LHC USATLAS IPv6 Throughput Testing - Throughput"
+       - name: "ESnet - LHC USATLAS IPv6 Traceroute Testing - Path Count"
    - name: "60: ESnet to International"
      grids:
        - name: "ESnet - ESnet to International Packet Loss Testing - Loss"

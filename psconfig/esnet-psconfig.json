@@ -4245,6 +4245,13 @@
          "address" : "uct2-net2.mwt2.org",
          "host" : "uct2-net2.mwt2.org"
       },
+      "psuta02.atlas-swt2.org" : {
+         "_meta" : {
+            "display-name" : "psuta02.atlas-swt2.org"
+         },
+         "address" : "psuta02.atlas-swt2.org",
+         "host" : "psuta02.atlas-swt2.org"
+      },
       "uhmanoa-dl.ps.uhnet.net" : {
          "_meta" : {
             "display-name" : "uhmanoa-dl.ps.uhnet.net"
@@ -10893,6 +10900,32 @@
      ],
      "type" : "disjoint"
    },
+   "group_lhc_usatlas_latency" : {
+      "a-addresses" : [
+         {
+            "name" : "uct2-net2.mwt2.org"
+         },
+         {
+            "name" : "psuta02.atlas-swt2.org"
+         },
+         {
+            "name" : "psmsu02.aglt2.org"
+        }
+     ],
+     "b-addresses" : [
+
+        {
+         "name" : "bnl515-ps-lat.lhcone.es.net"
+      },
+      {
+         "name" : "bnl515b-ps-lat.lhcone.es.net"
+      },   
+      {
+         "name" : "lhcmon.bnl.gov"
+        }
+     ],
+     "type" : "disjoint"
+   },
    "group_lhcone_throughput" : {
       "a-addresses" : [
          {
@@ -11059,6 +11092,34 @@
       },
        {
          "name" : "lbnl59-ps-tp.lhcone.es.net"
+      }
+     ],
+     "type" : "disjoint"
+     },
+     "group_lhc_usatlas_throughput" : {
+      "a-addresses" : [
+         {
+            "name" : "uct2-net2.mwt2.org"
+         },
+         {
+            "name" : "psuta02.atlas-swt2.org"
+         },
+         {
+            "name" : "psmsu02.aglt2.org"
+        },
+        {
+         "name" : "lhcmon.bnl.gov"
+        }
+     ],
+     "b-addresses" : [
+       {
+         "name" : "bnl515-ps-tp.lhcone.es.net"
+      },
+      {
+         "name" : "bnl515b-ps-tp.lhcone.es.net"
+      },
+      {
+         "name" : "lhcmon.bnl.gov"
       }
      ],
      "type" : "disjoint"
@@ -13964,6 +14025,13 @@
          },
          "no-agent" : true
       },
+      "psuta02.atlas-swt2.org" : {
+         "_meta" : {
+            "display-name" : "psuta02.atlas-swt2.org",
+            "organization-display-name" : "University of Texas at Arlington"
+         },
+         "no-agent" : true
+      },
       "uhmanoa-dl.ps.uhnet.net" : {
          "_meta" : {
             "display-name" : "uhmanoa-dl.ps.uhnet.net",
@@ -15571,6 +15639,21 @@
             "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v6"
           },
+          "LHC_USATLAS_IPv6_Throughput_Testing" : {
+            "_meta" : {
+               "display-name" : "LHC USATLAS IPv6 Throughput Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
+            },
+            "group" : "group_lhc_usatlas_throughput",
+            "schedule" : "schedule_0",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_TP_1_v6"
+          },
          "LHCONE_IPv6_Loss_Testing" : {
             "_meta" : {
                "display-name" : "LHCONE IPv6 Packet Loss Testing"
@@ -15596,6 +15679,20 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_wlcg_latency",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_LAT_1_v6"
+          },
+          "LHC_USATLAS_IPv6_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "LHC USATLAS IPv6 Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
+            },
+            "group" : "group_lhc_USATLAS_latency",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_LAT_1_v6"
           },
@@ -15625,6 +15722,21 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhcone_wlcg_throughput",
+            "schedule" : "schedule_1",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_v6_trace"
+         },
+         "LHC_USATLAS_IPv6_Traceroute_Testing" : {
+            "_meta" : {
+               "display-name" : "LHC USATLAS IPv6 Traceroute Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
+            },
+            "group" : "group_lhc_usatlas_throughput",
             "schedule" : "schedule_1",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_v6_trace"
