@@ -15439,9 +15439,9 @@
          "archives": [ "ps-west" ],
          "test" : "ESnet6_v4_trace"
       },
-      "ESnet_to_NREL_Throughput_Testing" : {
+      "ARIES Throughput Testing" : {
          "_meta" : {
-            "display-name" : "ESnet to NREL Packet Throughput Testing"
+            "display-name" : "ARIES Throughput Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -15453,9 +15453,9 @@
          "archives": [ "ps-west" ],
          "test" : "ESnet6_TP_1_v4"
        },
-      "ESnet_to_NREL_Loss_Testing" : {
+      "ARIES Packet Loss Testing" : {
          "_meta" : {
-            "display-name" : "ESnet to NREL Packet Loss Testing"
+            "display-name" : "ARIES Packet Loss Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -15466,9 +15466,9 @@
          "archives": [ "ps-west" ],
          "test" : "ESnet6_LAT_1_v4"
        },
-        "ESnet_to_NREL_Traceroute_Testing" : {
+        "ARIES Traceroute Testing" : {
            "_meta" : {
-              "display-name" : "ESnet to NREL Traceroute Testing"
+              "display-name" : "ARIES Traceroute Testing"
            },
            "reference": {
               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",

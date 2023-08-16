@@ -200,6 +200,11 @@ dashboards:
        - name: "ESnet - FRIB Packet Loss Testing - Loss"
        - name: "ESnet - FRIB Throughput Testing - Throughput"
        - name: "ESnet - FRIB Traceroute Testing - Path Count"
+   - name: "72: ARIES - FLEX Live Demos"
+     grids:
+       - name: "ESnet - ARIES Packet Loss Testing - Loss"
+       - name: "ESnet - ARIES Throughput Testing - Throughput"
+       - name: "ESnet - ARIES Traceroute Testing - Path Count"
    - name: "80: ESnet to GA-EAST"
      grids:
        - name: "ESnet - ESnet to GA-EAST IPv4 Packet Loss Testing - Loss"
