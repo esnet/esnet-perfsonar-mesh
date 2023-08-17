@@ -2364,12 +2364,68 @@
          "address" : "hcc-ps01.unl.edu",
          "host" : "hcc-ps01.unl.edu"
       },
+      "pslhc1.hepgrid.uerj.br" : {
+         "_meta" : {
+            "display-name" : "pslhc1.hepgrid.uerj.br"
+         },
+         "address" : "pslhc1.hepgrid.uerj.br",
+         "host" : "pslhc1.hepgrid.uerj.br"
+      },
+      "perfsonar.ultralight.org" : {
+         "_meta" : {
+            "display-name" : "perfsonar.ultralight.org"
+         },
+         "address" : "perfsonar.ultralight.org",
+         "host" : "perfsonar.ultralight.org"
+      },
+      "psb01-gva-100g.cern.ch" : {
+         "_meta" : {
+            "display-name" : "psb01-gva-100g.cern.ch"
+         },
+         "address" : "psb01-gva-100g.cern.ch",
+         "host" : "psb01-gva-100g.cern.ch"
+      },
+            "psonar3.fnal.gov" : {
+         "_meta" : {
+            "display-name" : "psonar3.fnal.gov"
+         },
+         "address" : "psonar3.fnal.gov",
+         "host" : "psonar3.fnal.gov"
+      },
+      "perfsonar-cms2.itns.purdue.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar-cms2.itns.purdue.edu"
+         },
+         "address" : "perfsonar-cms2.itns.purdue.edu",
+         "host" : "perfsonar-cms2.itns.purdue.edu"
+      },
+      "perfsonar2.rc.ufl.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar2.rc.ufl.edu"
+         },
+         "address" : "perfsonar2.rc.ufl.edu",
+         "host" : "perfsonar2.rc.ufl.edu"
+      },
       "hcc-ps02.unl.edu" : {
          "_meta" : {
             "display-name" : "hcc-ps02.unl.edu"
          },
          "address" : "hcc-ps02.unl.edu",
          "host" : "hcc-ps02.unl.edu"
+      },
+      "perfsonar02.hep.wisc.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar02.hep.wisc.edu"
+         },
+         "address" : "perfsonar02.hep.wisc.edu",
+         "host" : "perfsonar02.hep.wisc.edu"
+      },
+      "iperf-research-2.accre.vanderbilt.edu" : {
+         "_meta" : {
+            "display-name" : "iperf-research-2.accre.vanderbilt.edu"
+         },
+         "address" : "iperf-research-2.accre.vanderbilt.edu",
+         "host" : "iperf-research-2.accre.vanderbilt.edu"
       },
       "hive02.swarm.uhnet.net" : {
          "_meta" : {
@@ -10926,6 +10982,110 @@
      ],
      "type" : "disjoint"
    },
+   "group_lhc_cms_latency" : {
+      "a-addresses" : [
+         {
+            "name" : "pslhc1.hepgrid.uerj.br"
+         },
+         {
+            "name" : "perfsonar.ultralight.org"
+         },
+         {
+            "name" : "psb01-gva-100g.cern.ch"
+        },
+        {
+         "name" : "psonar3.fnal.gov"
+        },
+        {
+         "name" : "perfsonar02.cmsaf.mit.edu"
+        },
+        {
+         "name" : "perfsonar-cms2.itns.purdue.edu"
+        },
+        {
+         "name" : "perfsonar-bw.sprace.org.br"
+        },
+        {
+         "name" : "perfsonar2.rc.ufl.edu"
+        },
+        {
+         "name" : "hcc-ps02.unl.edu"
+        },
+        {
+         "name" : "perfsonar02.hep.wisc.edu"
+        },
+        {
+         "name" : "iperf-research-2.accre.vanderbilt.edu"
+        }
+     ],
+     "b-addresses" : [
+      {
+         "name" : "psb01-gva-100g.cern.ch"
+      },
+      {
+         "name" : "psonar3.fnal.gov"
+        },
+      {
+         "name" : "fnalfcc-ps-lat.lhcone.es.net"
+      },
+      {
+         "name" : "fnalgcc-ps-lat.lhcone.es.net"
+        }
+     ],
+     "type" : "disjoint"
+   },
+   "group_lhc_cms_throughput" : {
+      "a-addresses" : [
+         {
+            "name" : "pslhc1.hepgrid.uerj.br"
+         },
+         {
+            "name" : "perfsonar.ultralight.org"
+         },
+         {
+            "name" : "psb01-gva-100g.cern.ch"
+        },
+        {
+         "name" : "psonar3.fnal.gov"
+        },
+        {
+         "name" : "perfsonar02.cmsaf.mit.edu"
+        },
+        {
+         "name" : "perfsonar-cms2.itns.purdue.edu"
+        },
+        {
+         "name" : "perfsonar-bw.sprace.org.br"
+        },
+        {
+         "name" : "perfsonar2.rc.ufl.edu"
+        },
+        {
+         "name" : "hcc-ps02.unl.edu"
+        },
+        {
+         "name" : "perfsonar02.hep.wisc.edu"
+        },
+        {
+         "name" : "iperf-research-2.accre.vanderbilt.edu"
+        }
+     ],
+     "b-addresses" : [
+      {
+         "name" : "psb01-gva-100g.cern.ch"
+      },
+      {
+         "name" : "psonar3.fnal.gov"
+        },
+      {
+         "name" : "fnalfcc-ps-tp.lhcone.es.net"
+      },
+      {
+         "name" : "fnalgcc-ps-tp.lhcone.es.net"
+        }
+     ],
+     "type" : "disjoint"
+   },
    "group_lhcone_throughput" : {
       "a-addresses" : [
          {
@@ -12407,11 +12567,75 @@
          },
          "no-agent" : true
       },
+      "pslhc1.hepgrid.uerj.br" : {
+         "_meta" : {
+            "display-name" : "pslhc1.hepgrid.uerj.br",
+            "organization-display-name" : "HEPGrid Brazil",
+            "site-display-name" : "HEPGrid Brazil"
+         },
+         "no-agent" : true
+      },
+      "perfsonar.ultralight.org" : {
+         "_meta" : {
+            "display-name" : "perfsonar.ultralight.org",
+            "organization-display-name" : "CALTECH",
+            "site-display-name" : "CALTECH"
+         },
+         "no-agent" : true
+      },
+      "psb01-gva-100g.cern.ch" : {
+         "_meta" : {
+            "display-name" : "psb01-gva-100g.cern.ch",
+            "organization-display-name" : "CERN-100G",
+            "site-display-name" : "CERN-100G"
+         },
+         "no-agent" : true
+      },
+      "psonar3.fnal.gov" : {
+         "_meta" : {
+            "display-name" : "psonar3.fnal.gov",
+            "organization-display-name" : "Fermilab",
+            "site-display-name" : "Fermilab"
+         },
+         "no-agent" : true
+      },
+      "perfsonar-cms2.itns.purdue.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar-cms2.itns.purdue.edu",
+            "organization-display-name" : "Purdue University",
+            "site-display-name" : "Purdue University"
+         },
+         "no-agent" : true
+      },
+      "perfsonar2.rc.ufl.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar2.rc.ufl.edu",
+            "organization-display-name" : "T2_US_Florida",
+            "site-display-name" : "T2_US_Florida"
+         },
+         "no-agent" : true
+      },
       "hcc-ps02.unl.edu" : {
          "_meta" : {
             "display-name" : "hcc-ps02.unl.edu",
             "organization-display-name" : "University of Nebraska, Lincoln",
             "site-display-name" : "University of Nebraska, Lincoln"
+         },
+         "no-agent" : true
+      },
+      "perfsonar02.hep.wisc.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar02.hep.wisc.edu",
+            "organization-display-name" : "University of Wisconsin-Madison",
+            "site-display-name" : "University of Wisconsin-Madison"
+         },
+         "no-agent" : true
+      },
+      "iperf-research-2.accre.vanderbilt.edu" : {
+         "_meta" : {
+            "display-name" : "iperf-research-2.accre.vanderbilt.edu",
+            "organization-display-name" : "Vanderbilt University - Science DMZ - 2",
+            "site-display-name" : "Vanderbilt University - Science DMZ - 2"
          },
          "no-agent" : true
       },
@@ -15654,6 +15878,21 @@
             "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v6"
           },
+          "LHC_USCMS_IPv6_Throughput_Testing" : {
+            "_meta" : {
+               "display-name" : "LHC USCMS IPv6 Throughput Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
+            },
+            "group" : "group_lhc_uscms_throughput",
+            "schedule" : "schedule_0",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_TP_1_v6"
+          },
          "LHCONE_IPv6_Loss_Testing" : {
             "_meta" : {
                "display-name" : "LHCONE IPv6 Packet Loss Testing"
@@ -15693,6 +15932,20 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhc_usatlas_latency",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_LAT_1_v6"
+          },
+          "LHC_USCMS_IPv6_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "LHC USCMS IPv6 Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
+            },
+            "group" : "group_lhc_uscms_latency",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_LAT_1_v6"
           },
@@ -15737,6 +15990,21 @@
                "display-task-group": ["51: ESnet-LHCONE"]
             },
             "group" : "group_lhc_usatlas_throughput",
+            "schedule" : "schedule_1",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_v6_trace"
+         },
+         "LHC_USCMS_IPv6_Traceroute_Testing" : {
+            "_meta" : {
+               "display-name" : "LHC USCMS IPv6 Traceroute Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["51: ESnet-LHCONE"]
+            },
+            "group" : "group_lhc_uscms_throughput",
             "schedule" : "schedule_1",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_v6_trace"
