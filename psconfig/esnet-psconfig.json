@@ -10982,7 +10982,7 @@
      ],
      "type" : "disjoint"
    },
-   "group_lhc_cms_latency" : {
+   "group_lhc_uscms_latency" : {
       "a-addresses" : [
          {
             "name" : "pslhc1.hepgrid.uerj.br"
@@ -11034,7 +11034,7 @@
      ],
      "type" : "disjoint"
    },
-   "group_lhc_cms_throughput" : {
+   "group_lhc_uscms_throughput" : {
       "a-addresses" : [
          {
             "name" : "pslhc1.hepgrid.uerj.br"
