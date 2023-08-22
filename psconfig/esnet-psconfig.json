@@ -16288,19 +16288,15 @@
       },
       "ESnet6_v6_DNS" : {
          "spec" : {
-            "nameserver" : "{% address[1] %}",
             "query" : "{% address[1] %}",
-            "record" : "aaaa",
-            "host" : "{% address[0] %}"
+            "record" : "aaaa"
          },
          "type" : "dns"
       },
       "ESnet6_v4_DNS" : {
          "spec" : {
-            "nameserver" : "{% address[1] %}",
             "query" : "{% address[1] %}",
-            "record" : "a",
-            "host" : "{% address[0] %}"
+            "record" : "a"
          },
          "type" : "dns"
       }
