@@ -1326,31 +1326,47 @@
    },
    "address" : "172.64.36.1",
    "host" : "172.64.36.1"
-},
-"172.64.36.2" : {
-   "_meta" : {
+  },
+  "172.64.36.2" : {
+    "_meta" : {
       "display-name" : "172.64.36.2",
       "display-set" : "172.64.36.2"
-   },
+    },
    "address" : "172.64.36.2",
    "host" : "172.64.36.2"
-},
-"8.8.4.4" : {
-   "_meta" : {
-      "display-name" : "8.8.4.4",
-      "display-set" : "8.8.4.4"
    },
-   "address" : "8.8.4.4",
-   "host" : "8.8.4.4"
-},
-"8.8.8.8" : {
-   "_meta" : {
-      "display-name" : "8.8.8.8",
-      "display-set" : "8.8.8.8"
-   },
-   "address" : "8.8.8.8",
-   "host" : "8.8.8.8"
-},
+   "8.8.4.4" : {
+     "_meta" : {
+       "display-name" : "8.8.4.4",
+       "display-set" : "8.8.4.4"
+     },
+     "address" : "8.8.4.4",
+     "host" : "8.8.4.4"
+    },
+    "8.8.8.8" : {
+      "_meta" : {
+        "display-name" : "8.8.8.8",
+        "display-set" : "8.8.8.8"
+      },
+      "address" : "8.8.8.8",
+      "host" : "8.8.8.8"
+    },
+    "2001:4860:4860::8844" : {
+      "_meta" : {
+        "display-name" : "2001:4860:4860::8844",
+        "display-set" : "2001:4860:4860::8844"
+      },
+      "address" : "2001:4860:4860::8844",
+      "host" : "2001:4860:4860::8844"
+     },
+     "2001:4860:4860::8888" : {
+       "_meta" : {
+         "display-name" : "2001:4860:4860::8888",
+         "display-set" : "2001:4860:4860::8888"
+       },
+       "address" : "2001:4860:4860::8888",
+       "host" : "2001:4860:4860::8888"
+     },
     "roc-ps-tp.tacc.utexas.edu" : {
       "_meta" : {
          "display-name" : "roc-ps-tp.tacc.utexas.edu",
@@ -4424,6 +4440,34 @@
          ],
          "type" : "disjoint"
       },
+      "ESnet6_IPv6_DNS" : {
+         "a-addresses" : [
+           {
+              "name" : "anl221-ps-tp.es.net"
+           },
+           {
+              "name" : "lbnl50-ps-tp.es.net"
+           },
+           {
+            "name" : "lbnl59-ps-tp.es.net"
+           }
+         ],
+         "b-addresses" : [
+            {
+               "name" : "172.64.36.1"
+            },
+            {
+               "name" : "172.64.36.2"
+            },
+            {
+               "name" : "2001:4860:4860::8844"
+            },
+            {
+               "name" : "2001:4860:4860::8888"
+            }
+         ],
+         "type" : "disjoint"
+      },      
       "ESnet6_TP_TUNING" : {
         "a-addresses" : [
           {
@@ -11847,25 +11891,37 @@
          "display-name" : "172.64.36.1-Cloudflare",
          "organization-display-name" : "Cloudflare DNS"
       }
-  },
-  "172.64.36.2" : {
+     },
+     "172.64.36.2" : {
       "_meta" : {
          "display-name" : "172.64.36.2-Cloudflare",
          "organization-display-name" : "Cloudflare DNS"
       }
-  },
-  "8.8.4.4" : {
-   "_meta" : {
-      "display-name" : "8.8.4.4-Google",
-      "organization-display-name" : "Google DNS"
-   }
-},
-"8.8.8.8" : {
-   "_meta" : {
-      "display-name" : "8.8.8.8-Google",
-      "organization-display-name" : "Google DNS"
-   }
-},
+     },
+     "8.8.4.4" : {
+       "_meta" : {
+       "display-name" : "8.8.4.4-Google",
+       "organization-display-name" : "Google DNS"
+       }
+      },
+      "8.8.8.8" : {
+      "_meta" : {
+        "display-name" : "8.8.8.8-Google",
+        "organization-display-name" : "Google DNS"
+        }
+      },
+      "2001:4860:4860::8844" : {
+         "_meta" : {
+         "display-name" : "2001:4860:4860::8844-Google",
+         "organization-display-name" : "Google DNS"
+         }
+      },
+      "2001:4860:4860::8888" : {
+        "_meta" : {
+          "display-name" : "2001:4860:4860::8888-Google",
+          "organization-display-name" : "Google DNS"
+          }
+       },
      "roc-ps-tp.tacc.utexas.edu" : {
       "_meta" : {
          "display-name" : "roc-ps-tp.tacc.utexas.edu",
@@ -14600,7 +14656,22 @@
       "schedule" : "schedule_1",
       "archives": [ "ps-west" ],
       "test" : "ESnet6_v4_DNS"
-   },
+      },
+      "ESnet6_v6_DNS_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet6 IPv6 DNS Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["99: ESnet6 Testing"]
+         },
+         "group" : "ESnet6_IPv6_DNS",
+         "schedule" : "schedule_1",
+         "archives": [ "ps-west" ],
+         "test" : "ESnet6_v6_DNS"
+      },
       "100G_ESnet_Hub_to_100G_ESnet_Hub_IPv6_Throughput_Testing" : {
          "_meta" : {
             "display-name" : "100G ESnet Hub to 100G ESnet Hub IPv6 Throughput Testing"
