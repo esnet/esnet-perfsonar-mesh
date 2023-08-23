@@ -16627,6 +16627,7 @@
       },
       "ESnet6_v6_DNS" : {
          "spec" : {
+            "host": "{% address[0] %}",
             "query" : "{% address[1] %}",
             "record" : "aaaa"
          },
@@ -16634,6 +16635,7 @@
       },
       "ESnet6_v4_DNS" : {
          "spec" : {
+            "host": "{% address[0] %}",
             "query" : "{% address[1] %}",
             "record" : "a"
          },
@@ -16642,9 +16644,31 @@
       "http_pscheduler_api_test": {
          "spec": {
          "url": "https://{% address[1] %}/pscheduler",
-         "parse": "API server"
+         "parse": "perfSONAR API server"
          },
          "type": "http"
-         }
+      },
+      "test_dns": {
+         "spec": {
+             "record": "a",
+             "query": "{% address[1] %}",
+             "host": "{% address[0] %}"
+         },
+         "type": "dns"
+      },
+      "test_http": {
+         "spec": {
+            "url": "{% address[1] %}",
+           "host": "{% address[0] %}"
+         },
+         "type": "http"
+      },
+      "test_rtt": {
+         "spec": {
+             "source": "{% address[0] %}",
+             "dest": "{% address[1] %}"
+         },
+         "type": "rtt"
+     }
    }
 }
