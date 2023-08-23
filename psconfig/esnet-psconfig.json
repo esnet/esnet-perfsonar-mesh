@@ -11035,6 +11035,27 @@
          },
          {
             "name" : "psmsu02.aglt2.org"
+        },
+        {
+         "name" : "perfsonar.nersc.gov"
+        },
+        {
+        "name" : "lhcperfmon.bnl.gov"
+        },
+        {
+          "name" : "iut2-net09.iu.edu"
+        },     
+        {
+         "name" : "uct2-net2.mwt2.org"
+       }, 
+       {
+         "name" : "psuta02.atlas-swt2.org"
+       }, 
+       {
+         "name" : "psuta01.atlas-swt2.org"
+       },         
+        {
+         "name" : "lhcmon.bnl.gov"
         }
      ],
      "b-addresses" : [
@@ -11336,6 +11357,24 @@
          {
             "name" : "psmsu02.aglt2.org"
         },
+        {
+         "name" : "perfsonar.nersc.gov"
+        },
+        {
+        "name" : "lhcperfmon.bnl.gov"
+        },
+        {
+          "name" : "iut2-net09.iu.edu"
+        },     
+        {
+         "name" : "uct2-net2.mwt2.org"
+       }, 
+       {
+         "name" : "psuta02.atlas-swt2.org"
+       }, 
+       {
+         "name" : "psuta01.atlas-swt2.org"
+       },         
         {
          "name" : "lhcmon.bnl.gov"
         }
