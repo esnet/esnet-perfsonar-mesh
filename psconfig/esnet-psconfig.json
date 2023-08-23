@@ -16638,6 +16638,13 @@
             "record" : "a"
          },
          "type" : "dns"
-      }
+      },
+      "http_pscheduler_api_test": {
+         "spec": {
+         "url": "https://{% address[1] %}/pscheduler",
+         "parse": "API server"
+         },
+         "type": "http"
+         }
    }
 }
