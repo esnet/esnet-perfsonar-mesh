@@ -11031,8 +11031,14 @@
             "name" : "uct2-net2.mwt2.org"
          },
          {
+            "name" : "psuta01.atlas-swt2.org"
+         },
+         {
             "name" : "psuta02.atlas-swt2.org"
          },
+         {
+            "name" : "psmsu01.aglt2.org"
+        },
          {
             "name" : "psmsu02.aglt2.org"
         },
@@ -11043,10 +11049,34 @@
         "name" : "lhcperfmon.bnl.gov"
         },
         {
-          "name" : "iut2-net09.iu.edu"
-        },     
+         "name" : "atlas-npt1.bu.edu"
+     },
+      {
+         "name" : "atlas-npt2.bu.edu"
+     },
         {
+         "name" : "mwt2-ps03.campuscluster.illinois.edu"
+       }, 
+       {
+         "name" : "uct2-net1.mwt2.org"
+       }, 
+       {
+         "name" : "iut2-net09.iu.edu"
+       }, 
+       {
          "name" : "uct2-net2.mwt2.org"
+       }, 
+       {
+         "name" : "mwt2-ps02.campuscluster.illinois.edu"
+       }, 
+       {
+         "name" : "psnr-farm10.slac.stanford.edu"
+       },        
+       {
+         "name" : "ps2.ochep.ou.edu"
+       }, 
+       {
+         "name" : "ps1.ochep.ou.edu"
        }, 
        {
          "name" : "psuta02.atlas-swt2.org"
@@ -11054,6 +11084,9 @@
        {
          "name" : "psuta01.atlas-swt2.org"
        },         
+       {
+         "name" : "lhcperfmon.bnl.gov"
+        },
         {
          "name" : "lhcmon.bnl.gov"
         }
@@ -11066,7 +11099,10 @@
       {
          "name" : "bnl515b-ps-lat.lhcone.es.net"
       },   
-      {
+        {
+         "name" : "lhcperfmon.bnl.gov"
+        },
+        {
          "name" : "lhcmon.bnl.gov"
         }
      ],
@@ -11352,8 +11388,14 @@
             "name" : "uct2-net2.mwt2.org"
          },
          {
+            "name" : "psuta01.atlas-swt2.org"
+         },
+         {
             "name" : "psuta02.atlas-swt2.org"
          },
+         {
+            "name" : "psmsu01.aglt2.org"
+        },
          {
             "name" : "psmsu02.aglt2.org"
         },
@@ -11364,10 +11406,34 @@
         "name" : "lhcperfmon.bnl.gov"
         },
         {
-          "name" : "iut2-net09.iu.edu"
-        },     
+         "name" : "atlas-npt1.bu.edu"
+     },
+      {
+         "name" : "atlas-npt2.bu.edu"
+     },
         {
+         "name" : "mwt2-ps03.campuscluster.illinois.edu"
+       }, 
+       {
+         "name" : "uct2-net1.mwt2.org"
+       }, 
+       {
+         "name" : "iut2-net09.iu.edu"
+       }, 
+       {
          "name" : "uct2-net2.mwt2.org"
+       }, 
+       {
+         "name" : "mwt2-ps02.campuscluster.illinois.edu"
+       }, 
+       {
+         "name" : "psnr-farm10.slac.stanford.edu"
+       },        
+       {
+         "name" : "ps2.ochep.ou.edu"
+       }, 
+       {
+         "name" : "ps1.ochep.ou.edu"
        }, 
        {
          "name" : "psuta02.atlas-swt2.org"
@@ -11375,6 +11441,9 @@
        {
          "name" : "psuta01.atlas-swt2.org"
        },         
+       {
+         "name" : "lhcperfmon.bnl.gov"
+        },
         {
          "name" : "lhcmon.bnl.gov"
         }
@@ -11387,8 +11456,11 @@
          "name" : "bnl515b-ps-tp.lhcone.es.net"
       },
       {
+         "name" : "lhcperfmon.bnl.gov"
+        },
+        {
          "name" : "lhcmon.bnl.gov"
-      }
+        }
      ],
      "type" : "disjoint"
      },
