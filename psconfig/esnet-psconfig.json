@@ -2592,6 +2592,30 @@
          "address" : "lhcmon.bnl.gov",
          "host" : "lhcmon.bnl.gov"
       },
+      "perfsonar.nersc.gov" : {
+         "_meta" : {
+            "display-name" : "perfsonar.nersc.gov",
+            "display-set" : "perfsonar.nersc.gov"
+         },
+         "address" : "perfsonar.nersc.gov",
+         "host" : "perfsonar.nersc.gov"
+      },
+      "iut2-net09.iu.edu" : {
+         "_meta" : {
+            "display-name" : "iut2-net09.iu.edu",
+            "display-set" : "iut2-net09.iu.edu"
+         },
+         "address" : "iut2-net09.iu.edu",
+         "host" : "iut2-net09.iu.edu"
+      },
+      "psuta01.atlas-swt2.org" : {
+         "_meta" : {
+            "display-name" : "psuta01.atlas-swt2.org",
+            "display-set" : "psuta01.atlas-swt2.org"
+         },
+         "address" : "psuta01.atlas-swt2.org",
+         "host" : "psuta01.atlas-swt2.org"
+      },
       "lhcperfmon.bnl.gov" : {
          "_meta" : {
             "display-name" : "lhcperfmon.bnl.gov",
@@ -12929,6 +12953,27 @@
          "_meta" : {
             "display-name" : "lhcmon.bnl.gov",
             "organization-display-name" : "Brookhaven National Lab"
+         },
+         "no-agent" : true
+      },
+      "perfsonar.nersc.gov" : {
+         "_meta" : {
+            "display-name" : "perfsonar.nersc.gov",
+            "organization-display-name" : "NERSC"
+         },
+         "no-agent" : true
+      },
+      "iut2-net09.iu.edu" : {
+         "_meta" : {
+            "display-name" : "iut2-net09.iu.edu",
+            "organization-display-name" : "Indiana University"
+         },
+         "no-agent" : true
+      },
+      "psuta01.atlas-swt2.org" : {
+         "_meta" : {
+            "display-name" : "psuta01.atlas-swt2.org",
+            "organization-display-name" : "psuta01.atlas-swt2.org"
          },
          "no-agent" : true
       },
