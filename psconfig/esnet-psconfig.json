@@ -2600,6 +2600,46 @@
          "address" : "perfsonar.nersc.gov",
          "host" : "perfsonar.nersc.gov"
       },
+      "atlas-npt1.bu.edu" : {
+         "_meta" : {
+            "display-name" : "atlas-npt1.bu.edu",
+            "display-set" : "atlas-npt1.bu.edu"
+         },
+         "address" : "atlas-npt1.bu.edu",
+         "host" : "atlas-npt1.bu.edu"
+      },
+      "atlas-npt2.bu.edu" : {
+         "_meta" : {
+            "display-name" : "atlas-npt2.bu.edu",
+            "display-set" : "atlas-npt2.bu.edu"
+         },
+         "address" : "atlas-npt2.bu.edu",
+         "host" : "atlas-npt2.bu.edu"
+      },
+      "mwt2-ps03.campuscluster.illinois.edu" : {
+         "_meta" : {
+            "display-name" : "mwt2-ps03.campuscluster.illinois.edu",
+            "display-set" : "mwt2-ps03.campuscluster.illinois.edu"
+         },
+         "address" : "mwt2-ps03.campuscluster.illinois.edu",
+         "host" : "mwt2-ps03.campuscluster.illinois.edu"
+      },
+      "ps1.ochep.ou.edu" : {
+         "_meta" : {
+            "display-name" : "ps1.ochep.ou.edu",
+            "display-set" : "ps1.ochep.ou.edu"
+         },
+         "address" : "ps1.ochep.ou.edu",
+         "host" : "ps1.ochep.ou.edu"
+      },
+      "ps2.ochep.ou.edu" : {
+         "_meta" : {
+            "display-name" : "ps2.ochep.ou.edu",
+            "display-set" : "ps2.ochep.ou.edu"
+         },
+         "address" : "ps2.ochep.ou.edu",
+         "host" : "ps2.ochep.ou.edu"
+      },
       "iut2-net09.iu.edu" : {
          "_meta" : {
             "display-name" : "iut2-net09.iu.edu",
@@ -12960,6 +13000,41 @@
          "_meta" : {
             "display-name" : "perfsonar.nersc.gov",
             "organization-display-name" : "NERSC"
+         },
+         "no-agent" : true
+      },
+      "atlas-npt2.bu.edu" : {
+         "_meta" : {
+            "display-name" : "atlas-npt2.bu.edu",
+            "organization-display-name" : "Boston University"
+         },
+         "no-agent" : true
+      },
+      "atlas-npt1.bu.edu" : {
+         "_meta" : {
+            "display-name" : "atlas-npt1.bu.edu",
+            "organization-display-name" : "Boston University"
+         },
+         "no-agent" : true
+      },
+      "mwt2-ps03.campuscluster.illinois.edu" : {
+         "_meta" : {
+            "display-name" : "mwt2-ps03.campuscluster.illinois.edu",
+            "organization-display-name" : "Illinois University"
+         },
+         "no-agent" : true
+      },
+      "ps1.ochep.ou.edu" : {
+         "_meta" : {
+            "display-name" : "ps1.ochep.ou.edu",
+            "organization-display-name" : "Oklahoma University"
+         },
+         "no-agent" : true
+      },
+      "ps2.ochep.ou.edu" : {
+         "_meta" : {
+            "display-name" : "ps2.ochep.ou.edu",
+            "organization-display-name" : "Oklahoma University"
          },
          "no-agent" : true
       },
