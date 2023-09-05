@@ -494,14 +494,30 @@
         "address" : "eqxda3-ps-lat.es.net",
         "host" : "eqxda3-ps.es.net"
     },
-   "eqxda3-ps-tp.es.net" : {
+    "eqxda3-ps-lat.lhcone.es.net" : {
+      "_meta" : {
+         "display-name" : "eqxda3-ps-lat.lhcone.es.net",
+         "display-set" : "eqxda3-ps.es.net"
+      },
+      "address" : "eqxda3-ps-lat.lhcone.es.net",
+      "host" : "eqxda3-ps.es.net"
+  },
+   "eqxda3-ps-tp.lhcone.es.net" : {
         "_meta" : {
-           "display-name" : "eqxda3-ps-tp.es.net",
+           "display-name" : "eqxda3-ps-tp.lhcone.es.net",
            "display-set" : "eqxda3-ps.es.net"
         },
-        "address" : "eqxda3-ps-tp.es.net",
+        "address" : "eqxda3-ps-tp.lhcone.es.net",
         "host" : "eqxda3-ps.es.net"
     },
+    "eqxda3-ps-tp.es.net" : {
+      "_meta" : {
+         "display-name" : "eqxda3-ps-tp.es.net",
+         "display-set" : "eqxda3-ps.es.net"
+      },
+      "address" : "eqxda3-ps-tp.es.net",
+      "host" : "eqxda3-ps.es.net"
+  },
    "eqxdc4-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "eqxdc4-ps-tp.es.net",
@@ -1134,14 +1150,30 @@
         "address" : "salt-ps-tp.es.net",
         "host" : "salt-ps.es.net"
     },
-    "salt-ps-lat.es.net" : {
+    "salt-ps-tp.lhcone.es.net" : {
+      "_meta" : {
+         "display-name" : "salt-ps-tp.lhcone.es.net",
+         "display-set" : "salt-ps.es.net"
+      },
+      "address" : "salt-ps-tp.lhcone.es.net",
+      "host" : "salt-ps.es.net"
+  },
+    "salt-ps-lat.lhcone.es.net" : {
         "_meta" : {
-           "display-name" : "salt-ps-lat.es.net",
+           "display-name" : "salt-ps-lat.lhcone.es.net",
            "display-set" : "salt-ps.es.net"
         },
-        "address" : "salt-ps-lat.es.net",
+        "address" : "salt-ps-lat.lhcone.es.net",
         "host" : "salt-ps.es.net"
     },
+    "salt-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "salt-ps-lat.es.net",
+         "display-set" : "salt-ps.es.net"
+      },
+      "address" : "salt-ps-lat.es.net",
+      "host" : "salt-ps.es.net"
+  },
     "sand-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "sand-ps-tp.es.net",
