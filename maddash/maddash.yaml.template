@@ -135,9 +135,8 @@ grids:
 dashboards:
    - name: "10: ESnet to ESnet Packet Loss"
      grids:
-       - name: "ESnet - ESnet to ESnet IPv4 Packet Loss Testing - Loss"
-       - name: "ESnet - ESnet to ESnet Packet Loss Testing on Throughput Interfaces - Loss"
        - name: "ESnet - ESnet to ESnet Packet Loss Testing IPv6 - Loss"
+       - name: "ESnet - ESnet to ESnet IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - ESnet6 Packet Loss IPv4 Path Testing - Loss"
        - name: "ESnet - ESnet to DOE Site IPv6 Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to DOE Site IPv4 Packet Loss Testing - Loss"
@@ -176,9 +175,6 @@ dashboards:
        - name: "ESnet - LHCONE WLCG IPv6 Packet Loss Testing - Loss"
        - name: "ESnet - LHCONE WLCG IPv6 Throughput Testing - Throughput"
        - name: "ESnet - LHCONE WLCG IPv6 Traceroute Testing - Path Count"
-       - name: "ESnet - LHC USATLAS IPv6 Packet Loss Testing - Loss"
-       - name: "ESnet - LHC USATLAS IPv6 Throughput Testing - Throughput"
-       - name: "ESnet - LHC USATLAS IPv6 Traceroute Testing - Path Count"
    - name: "52: ESnet-LHC-USATLAS"
      grids:
        - name: "ESnet - LHC USATLAS IPv6 Packet Loss Testing - Loss"
@@ -223,20 +219,21 @@ dashboards:
      grids:
        - name: "ESnet - ESnet Backup Paths - Loss"
        - name: "ESnet - ESnet Backup Paths - Throughput"
+   - name: "91: ESnet to Universities"
+     grids:
+       - name: "ESnet - ESnet to University Packet Loss Testing - Loss"
+       - name: "ESnet - ESnet to University Throughput Testing - Throughput"
+       - name: "ESnet - ESnet to University Traceroute Testing - Path Count"
    - name: "99: ESnet6 Testing"
      grids:
        - name: "ESnet - ESnet6 IPv4 DNS Testing - DNS Query Time"
        - name: "ESnet - ESnet6 IPv6 DNS Testing - DNS Query Time"
        - name: "ESnet - 100G ESnet6 IPv4 Throughput Testing Mesh iperf3 - Throughput"
        - name: "ESnet - 100G ESnet6 IPv4 Throughput Testing Mesh iperf2 - Throughput"
+       - name: "ESnet - ESnet to ESnet Packet Loss Testing on Throughput Interfaces - Loss"
        - name: "ESnet - ESnet6 Packet Loss IPv4 Path Testing - Loss"
        - name: "ESnet - 100G ESnet6 Hub to 100G ESnet6 Hub IPv4 Throughput Testing Mesh - Throughput"
        - name: "ESnet - ESnet6 to ESnet6 IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - 100G ESnet6 Hub to 100G ESnet6 Hub IPv4 Throughput Testing - Throughput"
        - name: "ESnet - ESnet6 Hub to ESnet6 Hub IPv4 Traceroute Testing - Path Count"
-   - name: "91: ESnet to Universities"
-     grids:
-       - name: "ESnet - ESnet to University Packet Loss Testing - Loss"
-       - name: "ESnet - ESnet to University Throughput Testing - Throughput"
-       - name: "ESnet - ESnet to University Traceroute Testing - Path Count"
 

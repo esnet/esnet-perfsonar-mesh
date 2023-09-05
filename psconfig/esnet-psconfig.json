@@ -11156,18 +11156,53 @@
         }
      ],
      "b-addresses" : [
-
         {
          "name" : "bnl515-ps-lat.lhcone.es.net"
       },
       {
          "name" : "bnl515b-ps-lat.lhcone.es.net"
-      },   
+      },  
+      {
+         "name" : "cern513-ps-lat.lhcone.es.net"
+        }, 
         {
-         "name" : "lhcperfmon.bnl.gov"
+         "name" : "cern773-ps-lat.lhcone.es.net"
         },
         {
-         "name" : "lhcmon.bnl.gov"
+         "name" : "eqxam3-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "eqxld8-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "bost-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "newy1118th-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "newy32aoa-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "wash-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "chic-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "star-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "kans-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "losa-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "salt-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "eqxda3-ps-lat.lhcone.es.net"
         }
      ],
      "type" : "disjoint"
@@ -11210,16 +11245,52 @@
      ],
      "b-addresses" : [
       {
-         "name" : "psb01-gva-100g.cern.ch"
-      },
-      {
-         "name" : "psonar3.fnal.gov"
-        },
-      {
          "name" : "fnalfcc-ps-lat.lhcone.es.net"
       },
       {
          "name" : "fnalgcc-ps-lat.lhcone.es.net"
+        }, 
+      {
+         "name" : "cern513-ps-lat.lhcone.es.net"
+        }, 
+        {
+         "name" : "cern773-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "eqxam3-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "eqxld8-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "bost-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "newy1118th-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "newy32aoa-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "wash-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "chic-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "star-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "kans-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "losa-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "salt-ps-lat.lhcone.es.net"
+        },
+        {
+         "name" : "eqxda3-ps-lat.lhcone.es.net"
         }
      ],
      "type" : "disjoint"
@@ -11262,16 +11333,52 @@
      ],
      "b-addresses" : [
       {
-         "name" : "psb01-gva-100g.cern.ch"
-      },
-      {
-         "name" : "psonar3.fnal.gov"
-        },
-      {
          "name" : "fnalfcc-ps-tp.lhcone.es.net"
       },
       {
          "name" : "fnalgcc-ps-tp.lhcone.es.net"
+        },
+      {
+         "name" : "cern513-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "cern773-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "eqxam3-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "eqxld8-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "bost-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "newy1118th-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "newy32aoa-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "wash-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "chic-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "star-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "kans-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "losa-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "salt-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "eqxda3-ps-tp.lhcone.es.net"
         }
      ],
      "type" : "disjoint"
@@ -11520,10 +11627,46 @@
          "name" : "bnl515b-ps-tp.lhcone.es.net"
       },
       {
-         "name" : "lhcperfmon.bnl.gov"
+         "name" : "cern513-ps-tp.lhcone.es.net"
         },
         {
-         "name" : "lhcmon.bnl.gov"
+         "name" : "cern773-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "eqxam3-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "eqxld8-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "bost-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "newy1118th-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "newy32aoa-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "wash-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "chic-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "star-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "kans-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "losa-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "salt-ps-tp.lhcone.es.net"
+        },
+        {
+         "name" : "eqxda3-ps-tp.lhcone.es.net"
         }
      ],
      "type" : "disjoint"
@@ -16669,6 +16812,17 @@
              "dest": "{% address[1] %}"
          },
          "type": "rtt"
-     }
+     },
+      "throughput_mt_8_streams" : {
+        "spec" : {
+         "dest" : "{% address[1] %}",
+         "dest-node" : "{% pscheduler_address[1] %}",
+         "duration" : "PT15S",
+         "omit" : "PT5S",
+         "source" : "{% address[0] %}",
+         "source-node" : "{% pscheduler_address[0] %}"
+         },
+      "type" : "throughput"
+      }
    }
 }
