@@ -14932,7 +14932,7 @@
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-           "display-task-group": ["10: ESnet to ESnet Packet Loss"]
+           "display-task-group": ["10: ESnet to ESnet Packet Loss", "99: ESnet6 Testing"]
         },
         "group" : "group_ESnet6_Path_Loss_Path_Mesh",
         "archives": [ "ps-west" ],
@@ -15574,7 +15574,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": ["10: ESnet to ESnet Packet Loss"]
+            "display-task-group": ["99: ESnet6 Testing"]
          },
          "group" : "group_4_tp",
          "schedule" : "schedule_0",
@@ -16184,7 +16184,8 @@
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-            "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": "72: ARIES - FLEX Live Demos"
          },
          "group" : "group_nrel_thrupt",
          "schedule" : "schedule_0",
@@ -16198,7 +16199,8 @@
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-            "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": "72: ARIES - FLEX Live Demos"
          },
          "group" : "group_nrel_owamp",
          "archives": [ "ps-west" ],
@@ -16211,7 +16213,8 @@
            "reference": {
               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-              "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+              "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+              "display-task-group": "72: ARIES - FLEX Live Demos"
            },
            "group" : "group_nrel_owamp",
            "schedule" : "schedule_1",
@@ -16303,50 +16306,6 @@
               "archives": [ "ps-west" ],
               "test" : "ESnet6_v4_trace"
            },
-           "LHCONE_IPv4_Throughput_Testing" : {
-            "_meta" : {
-               "display-name" : "LHCONE IPv4 Throughput Testing"
-            },
-            "reference": {
-               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
-               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["51: ESnet-LHCONE"]
-            },
-            "group" : "group_lhcone_throughput",
-            "schedule" : "schedule_0",
-            "archives": [ "ps-west" ],
-            "test" : "ESnet6_TP_1_v4"
-          },
-         "LHCONE_IPv4_Loss_Testing" : {
-            "_meta" : {
-               "display-name" : "LHCONE IPv4 Packet Loss Testing"
-            },
-            "reference": {
-               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
-               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["51: ESnet-LHCONE"]
-            },
-            "group" : "group_lhcone_latency",
-            "archives": [ "ps-west" ],
-            "test" : "ESnet6_LAT_1_v4"
-          },
-           "LHCONE_IPv4_Traceroute_Testing" : {
-              "_meta" : {
-                 "display-name" : "LHCONE IPv4 Traceroute Testing"
-              },
-              "reference": {
-                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
-                 "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-                 "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-                 "display-task-group": ["51: ESnet-LHCONE"]
-              },
-              "group" : "group_lhcone_throughput",
-              "schedule" : "schedule_1",
-              "archives": [ "ps-west" ],
-              "test" : "ESnet6_v4_trace"
-           },
            "LHCONE_IPv6_Throughput_Testing" : {
             "_meta" : {
                "display-name" : "LHCONE IPv6 Throughput Testing"
@@ -16355,7 +16314,7 @@
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["51: ESnet-LHCONE"]
+               "display-task-group": ["51: ESnet-LHCONE","52: ESnet-LHC-USATLAS","53: ESnet-LHC-USCMS"]
             },
             "group" : "group_lhcone_throughput",
             "schedule" : "schedule_0",
@@ -16385,7 +16344,7 @@
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["51: ESnet-LHCONE"]
+               "display-task-group": ["52: ESnet-LHC-USATLAS"]
             },
             "group" : "group_lhc_usatlas_throughput",
             "schedule" : "schedule_0",
@@ -16400,7 +16359,7 @@
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["51: ESnet-LHCONE"]
+               "display-task-group": ["53: ESnet-LHC-USCMS"]
             },
             "group" : "group_lhc_uscms_throughput",
             "schedule" : "schedule_0",
@@ -16415,7 +16374,7 @@
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["51: ESnet-LHCONE"]
+               "display-task-group": ["51: ESnet-LHCONE","52: ESnet-LHC-USATLAS","53: ESnet-LHC-USCMS"]
             },
             "group" : "group_lhcone_latency",
             "archives": [ "ps-west" ],
@@ -16443,7 +16402,7 @@
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["51: ESnet-LHCONE"]
+               "display-task-group": ["52: ESnet-LHC-USATLAS"]
             },
             "group" : "group_lhc_usatlas_latency",
             "archives": [ "ps-west" ],
@@ -16457,7 +16416,7 @@
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["51: ESnet-LHCONE"]
+               "display-task-group": ["53: ESnet-LHC-USCMS"]
             },
             "group" : "group_lhc_uscms_latency",
             "archives": [ "ps-west" ],
@@ -16471,7 +16430,7 @@
                  "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                  "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                  "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-                 "display-task-group": ["51: ESnet-LHCONE"]
+                 "display-task-group": ["51: ESnet-LHCONE","52: ESnet-LHC-USATLAS","53: ESnet-LHC-USCMS"]
               },
               "group" : "group_lhcone_throughput",
               "schedule" : "schedule_1",
@@ -16501,7 +16460,7 @@
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["51: ESnet-LHCONE"]
+               "display-task-group": ["52: ESnet-LHC-USATLAS"]
             },
             "group" : "group_lhc_usatlas_throughput",
             "schedule" : "schedule_1",
@@ -16516,22 +16475,21 @@
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["51: ESnet-LHCONE"]
+               "display-task-group": ["53: ESnet-LHC-USCMS"]
             },
             "group" : "group_lhc_uscms_throughput",
             "schedule" : "schedule_1",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_v6_trace"
          },
-           "LHCONE_US_IPv6_Loss_Testing" : {
+         "LHCONE_US_IPv6_Loss_Testing" : {
             "_meta" : {
                "display-name" : "LHCONE US IPv6 Packet Loss Testing"
             },
             "reference": {
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["51: ESnet-LHCONE"]
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}"
             },
             "group" : "group_lhcone_us_latency",
             "archives": [ "ps-west" ],
