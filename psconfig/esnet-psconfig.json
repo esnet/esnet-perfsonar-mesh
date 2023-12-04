@@ -4534,7 +4534,8 @@
                "name" : "8.8.8.8"
             }
          ],
-         "type" : "disjoint"
+         "type" : "disjoint",
+         "unidirectional": true
       },
       "ESnet6_IPv6_DNS" : {
          "a-addresses" : [
@@ -4562,7 +4563,8 @@
                "name" : "2001:4860:4860::8888"
             }
          ],
-         "type" : "disjoint"
+         "type" : "disjoint",
+         "unidirectional": true
       },      
       "ESnet6_TP_TUNING" : {
         "a-addresses" : [
@@ -16761,7 +16763,8 @@
       "ESnet6_v6_DNS" : {
          "spec" : {
             "host": "{% address[0] %}",
-            "query" : "{% address[1] %}",
+            "nameserver" : "{% address[1] %}",
+            "query": "fasterdata.es.net",
             "record" : "aaaa"
          },
          "type" : "dns"
@@ -16769,7 +16772,8 @@
       "ESnet6_v4_DNS" : {
          "spec" : {
             "host": "{% address[0] %}",
-            "query" : "{% address[1] %}",
+            "nameserver" : "{% address[1] %}",
+            "query": "fasterdata.es.net",
             "record" : "a"
          },
          "type" : "dns"
@@ -16780,14 +16784,6 @@
          "parse": "perfSONAR API server"
          },
          "type": "http"
-      },
-      "test_dns": {
-         "spec": {
-             "record": "a",
-             "query": "{% address[1] %}",
-             "host": "{% address[0] %}"
-         },
-         "type": "dns"
       },
       "test_http": {
          "spec": {
