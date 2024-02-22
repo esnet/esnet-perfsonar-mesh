@@ -198,37 +198,37 @@
           "address" : "bnl515-ps-tp.lhcone.es.net",
           "host" : "bnl515-ps.es.net"
       },
-    "bnl515b-ps-tp.es.net" : {
+    "bnl725-ps-tp.es.net" : {
          "_meta" : {
-            "display-name" : "bnl515b-ps-tp.es.net",
-            "display-set" : "bnl515b-ps.es.net"
+            "display-name" : "bnl725-ps-tp.es.net",
+            "display-set" : "bnl725-ps.es.net"
          },
-         "address" : "bnl515b-ps-tp.es.net",
-         "host" : "bnl515b-ps.es.net"
+         "address" : "bnl725-ps-tp.es.net",
+         "host" : "bnl725-ps.es.net"
      },
-     "bnl515b-ps-lat.es.net" : {
+     "bnl725-ps-lat.es.net" : {
          "_meta" : {
-            "display-name" : "bnl515b-ps-lat.es.net",
-            "display-set" : "bnl515b-ps.es.net"
+            "display-name" : "bnl725-ps-lat.es.net",
+            "display-set" : "bnl725-ps.es.net"
          },
-         "address" : "bnl515b-ps-lat.es.net",
-         "host" : "bnl515b-ps.es.net"
+         "address" : "bnl725-ps-lat.es.net",
+         "host" : "bnl725-ps.es.net"
      },
-     "bnl515b-ps-tp.lhcone.es.net" : {
+     "bnl725-ps-tp.lhcone.es.net" : {
       "_meta" : {
-         "display-name" : "bnl515b-ps-tp.lhcone.es.net",
-         "display-set" : "bnl515b-ps.lhcone.es.net"
+         "display-name" : "bnl725-ps-tp.lhcone.es.net",
+         "display-set" : "bnl725-ps.lhcone.es.net"
       },
-      "address" : "bnl515b-ps-tp.lhcone.es.net",
-      "host" : "bnl515b-ps.es.net"
+      "address" : "bnl725-ps-tp.lhcone.es.net",
+      "host" : "bnl725-ps.es.net"
   },
-  "bnl515b-ps-lat.lhcone.es.net" : {
+  "bnl725-ps-lat.lhcone.es.net" : {
       "_meta" : {
-         "display-name" : "bnl515b-ps-lat.lhcone.es.net",
-         "display-set" : "bnl515b-ps.lhcone.es.net"
+         "display-name" : "bnl725-ps-lat.lhcone.es.net",
+         "display-set" : "bnl725-ps.lhcone.es.net"
       },
-      "address" : "bnl515b-ps-lat.lhcone.es.net",
-      "host" : "bnl515b-ps.es.net"
+      "address" : "bnl725-ps-lat.lhcone.es.net",
+      "host" : "bnl725-ps.es.net"
   },
     "bois-ps-tp.es.net" : {
         "_meta" : {
@@ -4687,7 +4687,7 @@
               "name" : "bnl515-ps-tp.es.net"
            },
            {
-              "name" : "bnl515b-ps-tp.es.net"
+              "name" : "bnl725-ps-tp.es.net"
            },
            {
               "name" : "fnalfcc-ps-tp.es.net"
@@ -4958,7 +4958,7 @@
               "name" : "bnl515-ps-lat.es.net"
            },
            {
-              "name" : "bnl515b-ps-lat.es.net"
+              "name" : "bnl725-ps-lat.es.net"
            },
            {
               "name" : "bois-ps-lat.es.net"
@@ -5056,7 +5056,7 @@
               "name" : "bnl515-ps-tp.es.net"
            },
            {
-              "name" : "bnl515b-ps-tp.es.net"
+              "name" : "bnl725-ps-tp.es.net"
            },
            {
               "name" : "bois-ps-tp.es.net"
@@ -5604,7 +5604,7 @@
                "name" : "bnl515-ps-tp.es.net"
             },
             {
-               "name" : "bnl515b-ps-tp.es.net"
+               "name" : "bnl725-ps-tp.es.net"
             },
             {
                "name" : "fnalfcc-ps-tp.es.net"
@@ -5713,7 +5713,7 @@
                "name" : "bnl515-ps-lat.es.net"
             },
             {
-               "name" : "bnl515b-ps-lat.es.net"
+               "name" : "bnl725-ps-lat.es.net"
             },
             {
                "name" : "fnalfcc-ps-lat.es.net"
@@ -10881,7 +10881,7 @@
          "name" : "bnl515-ps-lat.lhcone.es.net"
       },
       {
-         "name" : "bnl515b-ps-lat.lhcone.es.net"
+         "name" : "bnl725-ps-lat.lhcone.es.net"
       },
         {
          "name" : "bost-ps-lat.lhcone.es.net"
@@ -10958,7 +10958,7 @@
          "name" : "bnl515-ps-lat.lhcone.es.net"
       },
       {
-         "name" : "bnl515b-ps-lat.lhcone.es.net"
+         "name" : "bnl725-ps-lat.lhcone.es.net"
       },
         {
          "name" : "bost-ps-lat.lhcone.es.net"
@@ -11061,7 +11061,7 @@
          "name" : "bnl515-ps-lat.lhcone.es.net"
       },
       {
-         "name" : "bnl515b-ps-lat.lhcone.es.net"
+         "name" : "bnl725-ps-lat.lhcone.es.net"
       },
         {
          "name" : "bost-ps-lat.lhcone.es.net"
@@ -11194,7 +11194,7 @@
          "name" : "bnl515-ps-lat.lhcone.es.net"
       },
       {
-         "name" : "bnl515b-ps-lat.lhcone.es.net"
+         "name" : "bnl725-ps-lat.lhcone.es.net"
       },  
       {
          "name" : "cern513-ps-lat.lhcone.es.net"
@@ -11435,7 +11435,7 @@
             "name" : "bnl515-ps-tp.lhcone.es.net"
          },
          {
-            "name" : "bnl515b-ps-tp.lhcone.es.net"
+            "name" : "bnl725-ps-tp.lhcone.es.net"
          },
          {
             "name" : "bost-ps-tp.lhcone.es.net"
@@ -11485,7 +11485,7 @@
          "name" : "bnl515-ps-tp.lhcone.es.net"
       },
       {
-         "name" : "bnl515b-ps-tp.lhcone.es.net"
+         "name" : "bnl725-ps-tp.lhcone.es.net"
       },
        {
          "name" : "cern513-ps-tp.lhcone.es.net"
@@ -11558,7 +11558,7 @@
          "name" : "bnl515-ps-tp.lhcone.es.net"
       },
       {
-         "name" : "bnl515b-ps-tp.lhcone.es.net"
+         "name" : "bnl725-ps-tp.lhcone.es.net"
       },
        {
          "name" : "cern513-ps-tp.lhcone.es.net"
@@ -11658,7 +11658,7 @@
          "name" : "bnl515-ps-tp.lhcone.es.net"
       },
       {
-         "name" : "bnl515b-ps-tp.lhcone.es.net"
+         "name" : "bnl725-ps-tp.lhcone.es.net"
       },
       {
          "name" : "cern513-ps-tp.lhcone.es.net"
@@ -11938,9 +11938,9 @@
            "organization-display-name" : "ESnet"
         }
      },
-     "bnl515b-ps.es.net" : {
+     "bnl725-ps.es.net" : {
         "_meta" : {
-           "display-name" : "bnl515b-ps.es.net",
+           "display-name" : "bnl725-ps.es.net",
            "organization-display-name" : "ESnet"
         }
      },
