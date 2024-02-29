@@ -5784,13 +5784,7 @@
                "name" : "bost-ps-tp.es.net"
             },
             {
-               "name" : "bost-ps-tp.lhcone.es.net"
-            },
-            {
                "name" : "lbnl59-ps-tp.es.net"
-            },
-            {
-               "name" : "lbnl59-ps-tp.lhcone.es.net"
             },
              {
                 "name" : "newy32aoa-ps-tp.es.net"
@@ -5821,13 +5815,10 @@
                "name" : "bost-ps-lat.es.net"
             },
             {
-               "name" : "bost-ps-lat.lhcone.es.net"
+               "name" : "lbnl50-ps-lat.es.net"
             },
             {
                "name" : "lbnl59-ps-lat.es.net"
-            },
-            {
-               "name" : "lbnl59-ps-lat.lhcone.es.net"
             },
              {
                 "name" : "newy32aoa-ps-lat.es.net"
@@ -5841,16 +5832,10 @@
          ],
          "b-addresses" : [
             {
-               "name" : "bost-ps-lat.lhcone.es.net"
-            },
-            {
                "name" : "eqxam3-ps-lat.es.net"
             },
             {
                "name" : "eqxld8-ps-lat.es.net"
-            },
-            {
-               "name" : "lbnl59-ps-lat.lhcone.es.net"
             },
             {
                "name" : "psmp-gn-owd-01.ams.nl.geant.net"
