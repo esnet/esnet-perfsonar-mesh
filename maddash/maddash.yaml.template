@@ -209,6 +209,11 @@ dashboards:
        - name: "ESnet - ARIES Packet Loss Testing - Loss"
        - name: "ESnet - ARIES Throughput Testing - Throughput"
        - name: "ESnet - ARIES Traceroute Testing - Path Count"
+   - name: "73: JLab - GlueX"
+     grids:
+       - name: "ESnet - JLAB GlueX Packet Loss Testing - Loss"
+       - name: "ESnet - JLAB GlueX Packet Throughput Testing - Throughput"
+       - name: "ESnet - JLAB GlueX Traceroute Testing - Path Count"
    - name: "80: ESnet to GA-EAST"
      grids:
        - name: "ESnet - ESnet to GA-EAST IPv4 Packet Loss Testing - Loss"
