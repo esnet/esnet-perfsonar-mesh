@@ -4505,7 +4505,23 @@
          },
          "address" : "132.170.30.38",
          "host" : "132.170.30.38"
-      }
+      },
+      "perfsonar.reuna.cl" : {
+         "_meta" : {
+            "display-name" : "perfsonar.reuna.cl",
+            "display-set" : "perfsonar.reuna.cl"
+         },
+         "address" : "perfsonar.reuna.cl",
+         "host" : "perfsonar.reuna.cl"
+     }
+      "perfsonar-10g.reuna.cl" : {
+         "_meta" : {
+            "display-name" : "perfsonar-10g.reuna.cl",
+            "display-set" : "perfsonar-10g.reuna.cl"
+         },
+         "address" : "perfsonar-10g.reuna.cl",
+         "host" : "perfsonar-10g.reuna.cl"
+     }
    },
    "groups" : {
       "ESnet6_IPv4_DNS" : {
@@ -10852,7 +10868,10 @@
       "a-addresses" : [
         {
            "name" : "perfsonar.reuna.cl"
-        }
+        },
+        {
+         "name" : "perfsonar-10g.reuna.cl"
+      }
      ],
      "b-addresses" : [
        {
@@ -10868,7 +10887,10 @@
       "a-addresses" : [
         {
            "name" : "perfsonar.reuna.cl"
-        }
+        },
+        {
+         "name" : "perfsonar-10g.reuna.cl"
+      }
      ],
      "b-addresses" : [
        {
@@ -14856,6 +14878,13 @@
             "organization-display-name" : “REUNA”
          },
           "no-agent" : true
+      },
+      "perfsonar-10g.reuna.cl" : {
+         "_meta" : {
+            "display-name" : "perfsonar-10g.reuna.cl",
+            "organization-display-name" : “REUNA”
+         },
+          "no-agent" : true
       }
    },
    "schedules" : {
@@ -16611,6 +16640,33 @@
           }       
    },
    "tests" : {
+      "ESnet6_TP_1_v4_10G" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "duration" : "PT10S",
+            "omit" : "PT5S",
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "ip-version": 4,
+            "bandwidth": 9000000000
+         },
+         "type" : "throughput"
+      },
+      "ESnet6_TP_1_v6_10g" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "duration" : "PT10S",
+            "omit" : "PT5S",
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "ip-version": 6,
+            "flow-label": 131080,
+            "bandwidth": 9000000000
+         },
+         "type" : "throughput"
+      },
       "ESnet6_TP_1_v4" : {
          "spec" : {
             "dest" : "{% address[1] %}",
