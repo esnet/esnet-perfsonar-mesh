@@ -4505,7 +4505,8 @@
          },
          "address" : "132.170.30.38",
          "host" : "132.170.30.38"
-      }
+      },
+
    },
    "groups" : {
       "ESnet6_IPv4_DNS" : {
@@ -10848,6 +10849,38 @@
       ],
       "type" : "disjoint"
     },
+    "group_reuna_latency" : {
+      "a-addresses" : [
+        {
+           "name" : "perfsonar.reuna.cl"
+        }
+     ],
+     "b-addresses" : [
+       {
+         "name" : "lbnl50-ps-lat.es.net"
+      },
+      {
+         "name" : "lbnl59-ps-lat.es.net"
+       }
+     ],
+     "type" : "disjoint"
+   },
+    "group_reuna_throughput" : {
+      "a-addresses" : [
+        {
+           "name" : "perfsonar.reuna.cl"
+        }
+     ],
+     "b-addresses" : [
+       {
+         "name" : "lbnl50-ps-tp.es.net"
+      },
+      {
+         "name" : "lbnl59-ps-tp.es.net"
+       }
+     ],
+     "type" : "disjoint"
+   },
     "group_lhcone_latency" : {
       "a-addresses" : [
         {
@@ -14817,6 +14850,13 @@
             "organization-display-name" : "UCF"
          },
          "no-agent" : true
+      },
+      "perfsonar.reuna.cl" : {
+         "_meta" : {
+            "display-name" : "perfsonar.reuna.cl",
+            "organization-display-name" : “REUNA”
+         },
+          "no-agent" : true
       }
    },
    "schedules" : {
@@ -16525,7 +16565,51 @@
               "schedule" : "schedule_1",
               "archives": [ "ps-west" ],
               "test" : "ESnet6_v4_trace"
-           }         
+           } ,
+         "REUNA_IPv4_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "REUNA IPv4 Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["74: ESnet to REUNA"]
+            },
+            "group" : "group_reuna_latency",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_LAT_1_v4"
+          },
+           "REUNA_IPv4_Traceroute_Testing" : {
+              "_meta" : {
+                 "display-name" : "REUNA IPv4 Traceroute Testing"
+              },
+              "reference": {
+                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+                 "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+                 "display-task-group": ["74: ESnet to REUNA"]
+              },
+              "group" : "group_reuna_throughput",
+              "schedule" : "schedule_1",
+              "archives": [ "ps-west" ],
+              "test" : "ESnet6_v4_trace"
+           },
+           "REUNA_IPv4_Throughput_Testing" : {
+            "_meta" : {
+               "display-name" : "REUNA IPv4 Throughput Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["74: ESnet to REUNA"]
+            },
+            "group" : "group_reuna_throughput",
+            "schedule" : "schedule_0",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_TP_1_v4"
+          }       
    },
    "tests" : {
       "ESnet6_TP_1_v4" : {
