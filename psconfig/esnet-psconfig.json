@@ -4505,23 +4505,7 @@
          },
          "address" : "132.170.30.38",
          "host" : "132.170.30.38"
-      },
-      "perfsonar.reuna.cl" : {
-         "_meta" : {
-            "display-name" : "perfsonar.reuna.cl",
-            "display-set" : "perfsonar.reuna.cl"
-         },
-         "address" : "perfsonar.reuna.cl",
-         "host" : "perfsonar.reuna.cl"
-     },
-      "perfsonar-10g.reuna.cl" : {
-         "_meta" : {
-            "display-name" : "perfsonar-10g.reuna.cl",
-            "display-set" : "perfsonar-10g.reuna.cl"
-         },
-         "address" : "perfsonar-10g.reuna.cl",
-         "host" : "perfsonar-10g.reuna.cl"
-     }
+      }
    },
    "groups" : {
       "ESnet6_IPv4_DNS" : {
@@ -10864,44 +10848,6 @@
       ],
       "type" : "disjoint"
     },
-    "group_reuna_latency" : {
-      "a-addresses" : [
-        {
-           "name" : "perfsonar.reuna.cl"
-        },
-        {
-           "name" : "perfsonar-10g.reuna.cl"
-        }
-     ],
-     "b-addresses" : [
-         {
-            "name" : "lbnl50-ps-lat.es.net"
-         },
-         {
-            "name" : "lbnl59-ps-lat.es.net"
-         }
-      ],
-         "type" : "disjoint"
-      },
-    "group_reuna_throughput" : {
-      "a-addresses" : [
-        {
-           "name" : "perfsonar.reuna.cl"
-        },
-        {
-         "name" : "perfsonar-10g.reuna.cl"
-      }
-     ],
-     "b-addresses" : [
-       {
-         "name" : "lbnl50-ps-tp.es.net"
-      },
-      {
-         "name" : "lbnl59-ps-tp.es.net"
-       }
-     ],
-     "type" : "disjoint"
-   },
     "group_lhcone_latency" : {
       "a-addresses" : [
         {
@@ -14871,20 +14817,6 @@
             "organization-display-name" : "UCF"
          },
          "no-agent" : true
-      },
-      "perfsonar.reuna.cl" : {
-         "_meta" : {
-            "display-name" : "perfsonar.reuna.cl",
-            "organization-display-name" : “REUNA”
-         },
-          "no-agent" : true
-      },
-      "perfsonar-10g.reuna.cl" : {
-         "_meta" : {
-            "display-name" : "perfsonar-10g.reuna.cl",
-            "organization-display-name" : “REUNA”
-         },
-          "no-agent" : true
       }
    },
    "schedules" : {
