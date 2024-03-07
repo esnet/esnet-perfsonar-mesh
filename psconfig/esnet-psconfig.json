@@ -16528,6 +16528,33 @@
            }
    },
    "tests" : {
+      "ESnet6_TP_1_v4_10G" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "duration" : "PT10S",
+            "omit" : "PT5S",
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "ip-version": 4,
+            "bandwidth": 9000000000
+         },
+         "type" : "throughput"
+      },
+      "ESnet6_TP_1_v6_10G" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "duration" : "PT10S",
+            "omit" : "PT5S",
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "ip-version": 6,
+            "flow-label": 131080,
+            "bandwidth": 9000000000
+         },
+         "type" : "throughput"
+      },
       "ESnet6_TP_1_v4" : {
          "spec" : {
             "dest" : "{% address[1] %}",
