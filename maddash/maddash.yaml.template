@@ -214,7 +214,7 @@ dashboards:
        - name: "ESnet - JLAB GlueX Packet Loss Testing - Loss"
        - name: "ESnet - JLAB GlueX Packet Throughput Testing - Throughput"
        - name: "ESnet - JLAB GlueX Traceroute Testing - Path Count"
-   - name: "74: ESnet - REUNA"
+   - name: "74: ESnet - REUNA Atacama Networking"
      grids:
        - name: "ESnet - ESnet to REUNA Atacama Networking IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to REUNA Atacama Networking IPv4 Throughput Testing - Throughput"
