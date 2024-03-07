@@ -4513,14 +4513,6 @@
          },
          "address" : "perfsonar.reuna.cl",
          "host" : "perfsonar.reuna.cl"
-     },
-      "perfsonar-10g.reuna.cl" : {
-         "_meta" : {
-            "display-name" : "perfsonar-10g.reuna.cl",
-            "display-set" : "perfsonar-10g.reuna.cl"
-         },
-         "address" : "perfsonar-10g.reuna.cl",
-         "host" : "perfsonar-10g.reuna.cl"
      }
    },
    "groups" : {
@@ -11905,9 +11897,6 @@
       "a-addresses" : [
         {
            "name" : "perfsonar.reuna.cl"
-        },
-        {
-           "name" : "perfsonar-10g.reuna.cl"
         }
      ],
      "b-addresses" : [
@@ -11924,9 +11913,6 @@
        "a-addresses" : [
          {
            "name" : "perfsonar.reuna.cl"
-         },
-         {
-         "name" : "perfsonar-10g.reuna.cl"
          }
          ],
      "b-addresses" : [
@@ -14875,13 +14861,6 @@
       "perfsonar.reuna.cl" : {
          "_meta" : {
             "display-name" : "perfsonar.reuna.cl",
-            "organization-display-name" : "REUNA"
-         },
-          "no-agent" : true
-      },
-      "perfsonar-10g.reuna.cl" : {
-         "_meta" : {
-            "display-name" : "perfsonar-10g.reuna.cl",
             "organization-display-name" : "REUNA"
          },
           "no-agent" : true
