@@ -4513,7 +4513,7 @@
          },
          "address" : "perfsonar.reuna.cl",
          "host" : "perfsonar.reuna.cl"
-     }
+     },
       "perfsonar-10g.reuna.cl" : {
          "_meta" : {
             "display-name" : "perfsonar-10g.reuna.cl",
@@ -10870,19 +10870,19 @@
            "name" : "perfsonar.reuna.cl"
         },
         {
-         "name" : "perfsonar-10g.reuna.cl"
+           "name" : "perfsonar-10g.reuna.cl"
       }
      ],
      "b-addresses" : [
-       {
-         "name" : "lbnl50-ps-lat.es.net"
+         {
+            "name" : "lbnl50-ps-lat.es.net"
+         },
+         {
+            "name" : "lbnl59-ps-lat.es.net"
+         }
+      ],
+         "type" : "disjoint"
       },
-      {
-         "name" : "lbnl59-ps-lat.es.net"
-       }
-     ],
-     "type" : "disjoint"
-   },
     "group_reuna_throughput" : {
       "a-addresses" : [
         {
