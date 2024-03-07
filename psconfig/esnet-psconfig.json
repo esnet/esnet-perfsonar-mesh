@@ -11885,6 +11885,25 @@
      ],
      "type" : "disjoint"
      },
+     "group_reuna_latency" : {
+      "a-addresses" : [
+        {
+           "name" : "perfsonar.reuna.cl"
+        },
+        {
+           "name" : "perfsonar-10g.reuna.cl"
+        }
+     ],
+     "b-addresses" : [
+         {
+            "name" : "lbnl50-ps-lat.es.net"
+         },
+         {
+            "name" : "lbnl59-ps-lat.es.net"
+         }
+      ],
+         "type" : "disjoint"
+      },
      "group_reuna_throughput" : {
        "a-addresses" : [
          {
