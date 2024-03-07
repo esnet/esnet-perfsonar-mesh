@@ -11922,7 +11922,7 @@
        }
      ],
      "type" : "disjoint"
-   },
+   }
    },
    "hosts" : {
      "albq-ps.es.net" : {
