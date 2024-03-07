@@ -16525,8 +16525,7 @@
               "schedule" : "schedule_1",
               "archives": [ "ps-west" ],
               "test" : "ESnet6_v4_trace"
-           },
-
+           }
    },
    "tests" : {
       "ESnet6_TP_1_v4_10G" : {
