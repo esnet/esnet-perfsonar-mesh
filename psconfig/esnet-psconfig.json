@@ -11884,6 +11884,25 @@
        }
      ],
      "type" : "disjoint"
+     },
+     "group_reuna_throughput" : {
+       "a-addresses" : [
+         {
+           "name" : "perfsonar.reuna.cl"
+         },
+         {
+         "name" : "perfsonar-10g.reuna.cl"
+         }
+         ],
+     "b-addresses" : [
+        {
+           "name" : "lbnl50-ps-tp.es.net"
+        },
+        {
+           "name" : "lbnl59-ps-tp.es.net"
+        }
+        ],
+     "type" : "disjoint"
      }
    },
    "hosts" : {
