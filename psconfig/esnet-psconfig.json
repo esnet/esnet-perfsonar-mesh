@@ -16871,7 +16871,7 @@
       },
       "REUNA_IPv4_Loss_Testing" : {
          "_meta" : {
-            "display-name" : "REUNA IPv4 Packet Loss Testing"
+            "display-name" : "ESnet to REUNA Atacama Networking IPv4 Packet Loss Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -16885,7 +16885,7 @@
        },
         "REUNA_IPv4_Traceroute_Testing" : {
            "_meta" : {
-              "display-name" : "REUNA IPv4 Traceroute Testing"
+              "display-name" : "ESnet to REUNA Atacama Networking IPv4 Traceroute Testing"
            },
            "reference": {
               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -16900,7 +16900,7 @@
         },
         "REUNA_IPv4_Throughput_Testing" : {
          "_meta" : {
-            "display-name" : "REUNA IPv4 Throughput Testing"
+            "display-name" : "ESnet to REUNA Atacama Networking IPv4 Throughput Testing"
          },
          "reference": {
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
