@@ -4505,7 +4505,23 @@
          },
          "address" : "132.170.30.38",
          "host" : "132.170.30.38"
-      }
+      },
+      "perfsonar.reuna.cl" : {
+         "_meta" : {
+            "display-name" : "perfsonar.reuna.cl",
+            "display-set" : "perfsonar.reuna.cl"
+         },
+         "address" : "perfsonar.reuna.cl",
+         "host" : "perfsonar.reuna.cl"
+     },
+      "perfsonar-10g.reuna.cl" : {
+         "_meta" : {
+            "display-name" : "perfsonar-10g.reuna.cl",
+            "display-set" : "perfsonar-10g.reuna.cl"
+         },
+         "address" : "perfsonar-10g.reuna.cl",
+         "host" : "perfsonar-10g.reuna.cl"
+     }
    },
    "groups" : {
       "ESnet6_IPv4_DNS" : {
