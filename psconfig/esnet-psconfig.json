@@ -14875,14 +14875,14 @@
       "perfsonar.reuna.cl" : {
          "_meta" : {
             "display-name" : "perfsonar.reuna.cl",
-            "organization-display-name" : “REUNA”
+            "organization-display-name" : "REUNA"
          },
           "no-agent" : true
       },
       "perfsonar-10g.reuna.cl" : {
          "_meta" : {
             "display-name" : "perfsonar-10g.reuna.cl",
-            "organization-display-name" : “REUNA”
+            "organization-display-name" : "REUNA"
          },
           "no-agent" : true
       }
