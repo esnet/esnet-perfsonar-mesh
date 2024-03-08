@@ -4513,7 +4513,23 @@
          },
          "address" : "perfsonar.reuna.cl",
          "host" : "perfsonar.reuna.cl"
-     }
+     },
+  "146.83.182.4" : {
+   "_meta" : {
+      "display-name" : "146.83.182.4",
+      "display-set" : "146.83.182.4"
+   },
+   "address" : "146.83.182.4",
+   "host" : "146.83.182.4"
+},
+"perfsonar-10g.chivo.cl" : {
+   "_meta" : {
+      "display-name" : "perfsonar-10g.chivo.cl",
+      "display-set" : "perfsonar-10g.chivo.cl"
+   },
+   "address" : "perfsonar-10g.chivo.cl",
+   "host" : "perfsonar-10g.chivo.cl"
+}    
    },
    "groups" : {
       "ESnet6_IPv4_DNS" : {
@@ -11897,10 +11913,19 @@
       "a-addresses" : [
         {
            "name" : "perfsonar.reuna.cl"
-        }
+        },
+        {
+         "name" : "perfsonar-10g.chivo.cl"
+      },
+      {
+         "name" : "146.83.182.4"
+      }
      ],
      "b-addresses" : [
-         {
+      {
+         "name" : "atla-ps-lat.es.net"
+      },
+      {
             "name" : "lbnl50-ps-lat.es.net"
          },
          {
@@ -11913,10 +11938,19 @@
        "a-addresses" : [
          {
            "name" : "perfsonar.reuna.cl"
+         },
+         {
+            "name" : "perfsonar-10g.chivo.cl"
+         },
+         {
+            "name" : "146.83.182.4"
          }
          ],
      "b-addresses" : [
-        {
+      {
+         "name" : "atla-ps-tp.es.net"
+      },
+      {
            "name" : "lbnl50-ps-tp.es.net"
         },
         {
@@ -14861,6 +14895,20 @@
       "perfsonar.reuna.cl" : {
          "_meta" : {
             "display-name" : "perfsonar.reuna.cl",
+            "organization-display-name" : "REUNA"
+         },
+          "no-agent" : true
+      },
+      "perfsonar-10g.chivo.cl" : {
+         "_meta" : {
+            "display-name" : "perfsonar-10g.chivo.cl",
+            "organization-display-name" : "REUNA"
+         },
+          "no-agent" : true
+      },
+      "146.83.182.4" : {
+         "_meta" : {
+            "display-name" : "146.83.182.4",
             "organization-display-name" : "REUNA"
          },
           "no-agent" : true
