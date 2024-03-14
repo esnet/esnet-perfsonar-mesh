@@ -2688,6 +2688,14 @@
          "address" : "psuta01.atlas-swt2.org",
          "host" : "psuta01.atlas-swt2.org"
       },
+      "psuta02.atlas-swt2.org" : {
+         "_meta" : {
+            "display-name" : "psuta02.atlas-swt2.org",
+            "display-set" : "psuta02.atlas-swt2.org"
+         },
+         "address" : "psuta02.atlas-swt2.org",
+         "host" : "psuta02.atlas-swt2.org"
+      },
       "lhcperfmon.bnl.gov" : {
          "_meta" : {
             "display-name" : "lhcperfmon.bnl.gov",
@@ -4127,6 +4135,13 @@
          },
          "address" : "psmp-gn-bw-01-fra-de.geant.net",
          "host" : "GEANT_Frankfurt"
+      },
+      "psmp-gn-bw-01-gen-ch.geant.net" : {
+         "_meta" : {
+            "display-name" : "GEANT Geneva"
+         },
+         "address" : "psmp-gn-bw-01-gen-ch.geant.net",
+         "host" : "GEANT_Geneva"
       },
       "psmp-gn-bw-01-gen-ch.geant.net" : {
          "_meta" : {
@@ -11147,9 +11162,6 @@
             "name" : "psuta01.atlas-swt2.org"
          },
          {
-            "name" : "psuta02.atlas-swt2.org"
-         },
-         {
             "name" : "psmsu01.aglt2.org"
         },
          {
@@ -11190,12 +11202,6 @@
        }, 
        {
          "name" : "ps1.ochep.ou.edu"
-       }, 
-       {
-         "name" : "psuta02.atlas-swt2.org"
-       }, 
-       {
-         "name" : "psuta01.atlas-swt2.org"
        },         
        {
          "name" : "lhcperfmon.bnl.gov"
@@ -11608,9 +11614,6 @@
             "name" : "uct2-net2.mwt2.org"
          },
          {
-            "name" : "psuta01.atlas-swt2.org"
-         },
-         {
             "name" : "psuta02.atlas-swt2.org"
          },
          {
@@ -11654,12 +11657,6 @@
        }, 
        {
          "name" : "ps1.ochep.ou.edu"
-       }, 
-       {
-         "name" : "psuta02.atlas-swt2.org"
-       }, 
-       {
-         "name" : "psuta01.atlas-swt2.org"
        },         
        {
          "name" : "lhcperfmon.bnl.gov"
@@ -13285,6 +13282,13 @@
          "_meta" : {
             "display-name" : "psuta01.atlas-swt2.org",
             "organization-display-name" : "psuta01.atlas-swt2.org"
+         },
+         "no-agent" : true
+      },
+      "psuta02.atlas-swt2.org" : {
+         "_meta" : {
+            "display-name" : "psuta02.atlas-swt2.org",
+            "organization-display-name" : "psuta02.atlas-swt2.org"
          },
          "no-agent" : true
       },
