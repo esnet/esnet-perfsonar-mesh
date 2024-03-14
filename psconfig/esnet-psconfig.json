@@ -1543,21 +1543,21 @@
         "address" : "ps-lt.ampath.ampath.net",
         "host" : "ps-lt.ampath.ampath.net"
      },
-     "psmp-gn-bw-01-lon-uk.geant.net" : {
+     "psmp-gn-bw-lon-uk.geant.org" : {
         "_meta" : {
-           "display-name" : "psmp-gn-bw-01-lon-uk.geant.net",
-           "display-set" : "psmp-gn-bw-01-lon-uk.geant.net"
+           "display-name" : "psmp-gn-bw-lon-uk.geant.org",
+           "display-set" : "psmp-gn-bw-lon-uk.geant.org"
         },
-        "address" : "psmp-gn-bw-01-lon-uk.geant.net",
-        "host" : "psmp-gn-bw-01-lon-uk.geant.net"
+        "address" : "psmp-gn-bw-lon-uk.geant.org",
+        "host" : "psmp-gn-bw-lon-uk.geant.org"
      },
-     "psmp-gn-owd-01.lon.uk.geant.net" : {
+     "psmp-gn-owd-lon-uk.geant.org" : {
         "_meta" : {
-           "display-name" : "psmp-gn-owd-01.lon.uk.geant.net",
-           "display-set" : "psmp-gn-owd-01.lon.uk.geant.net"
+           "display-name" : "psmp-gn-owd-lon-uk.geant.org",
+           "display-set" : "psmp-gn-owd-lon-uk.geant.org"
         },
-        "address" : "psmp-gn-owd-01.lon.uk.geant.net",
-        "host" : "psmp-gn-owd-01.lon.uk.geant.net"
+        "address" : "psmp-gn-owd-lon-uk.geant.org",
+        "host" : "psmp-gn-owd-lon-uk.geant.org"
      },
      "psmp-lhc-bw-fra-de.geant.org" : {
       "_meta" : {
@@ -5829,6 +5829,9 @@
             },
             {
                "name" : "psmp-gn-bw-01-par-fr.geant.net"
+            },
+            {
+               "name" : "psmp-gn-bw-lon-uk.geant.org"
             }
          ],
          "type" : "disjoint"
@@ -5866,6 +5869,9 @@
             },
             {
                "name" : "psmp-gn-owd-01.gen.ch.geant.net"
+            },
+            {
+               "name" : "psmp-gn-owd-lon-uk.geant.org"
             },
             {
                "name" : "psmp-gn-owd-01.par.fr.geant.net"
@@ -12419,16 +12425,16 @@
             "organization-display-name" : "Harvard"
          }
      },
-     "psmp-gn-owd-01.lon.uk.geant.net" : {
+     "psmp-gn-owd-lon-uk.geant.org" : {
          "_meta" : {
-            "display-name" : "psmp-gn-owd-01.lon.uk.geant.net",
+            "display-name" : "psmp-gn-owd-lon-uk.geant.org",
             "organization-display-name" : "GEANT"
          },
          "no-agent" : true
      },
-     "psmp-gn-bw-01-lon-uk.geant.net" : {
+     "psmp-gn-bw-lon-uk.geant.org" : {
          "_meta" : {
-            "display-name" : "psmp-gn-bw-01-lon-uk.geant.net",
+            "display-name" : "psmp-gn-bw-lon-uk.geant.org",
             "organization-display-name" : "GEANT"
          },
          "no-agent" : true
