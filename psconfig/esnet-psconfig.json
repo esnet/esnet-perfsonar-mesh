@@ -12031,7 +12031,7 @@
      "group_lsst_latency" : {
       "a-addresses" : [
         {
-         "name" : " perfsonar1-360.ls.lsst.org"
+         "name" : "perfsonar1-360.ls.lsst.org"
       }
      ],
      "b-addresses" : [
@@ -12053,7 +12053,7 @@
      "group_lsst_throughput" : {
        "a-addresses" : [
          {
-            "name" : " perfsonar1-360.ls.lsst.org"
+            "name" : "perfsonar1-360.ls.lsst.org"
          }
          ],
      "b-addresses" : [
