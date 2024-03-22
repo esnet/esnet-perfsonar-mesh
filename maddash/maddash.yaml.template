@@ -219,6 +219,11 @@ dashboards:
        - name: "ESnet - ESnet to REUNA Atacama Networking IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to REUNA Atacama Networking IPv4 Throughput Testing - Throughput"
        - name: "ESnet - ESnet to REUNA Atacama Networking IPv4 Traceroute Testing - Path Count"
+   - name: "75: ESnet - LSST Networking"
+     grids:
+       - name: "ESnet - ESnet to LSST Networking IPv4 Packet Loss Testing - Loss"
+       - name: "ESnet - ESnet to LSST Networking IPv4 Throughput Testing - Throughput"
+       - name: "ESnet - ESnet to LSST Networking IPv4 Traceroute Testing - Path Count"
    - name: "80: ESnet to GA-EAST"
      grids:
        - name: "ESnet - ESnet to GA-EAST IPv4 Packet Loss Testing - Loss"

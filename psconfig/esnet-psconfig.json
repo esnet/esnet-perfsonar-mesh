@@ -12027,6 +12027,50 @@
         }
         ],
      "type" : "disjoint"
+     },
+     "group_lsst_latency" : {
+      "a-addresses" : [
+        {
+         "name" : " perfsonar1-360.ls.lsst.org"
+      }
+     ],
+     "b-addresses" : [
+      {
+         "name" : "atla-ps-lat.lsst.es.net"
+      },
+      {
+         "name" : "chat-ps-lat.lsst.es.net"
+      },
+      {
+            "name" : "slac50n-ps-lat.lsst.es.net"
+         },
+         {
+            "name" : "slac50s-ps-lat.lsst.es.net"
+         }
+      ],
+         "type" : "disjoint"
+      },
+     "group_lsst_throughput" : {
+       "a-addresses" : [
+         {
+            "name" : " perfsonar1-360.ls.lsst.org"
+         }
+         ],
+     "b-addresses" : [
+      {
+         "name" : "atla-ps-tp.lsst.es.net"
+      },
+      {
+         "name" : "chat-ps-tp.lsst.es.net"
+      },
+      {
+           "name" : "slac50n-ps-tp.lsst.es.net"
+        },
+        {
+           "name" : "slac50s-ps-tp.lsst.es.net"
+        }
+        ],
+     "type" : "disjoint"
      }
    },
    "hosts" : {
@@ -16747,7 +16791,51 @@
         "schedule" : "schedule_0",
         "archives": [ "ps-west" ],
         "test" : "ESnet6_TP_1_v4"
-      } 
+      },
+      "LSST_IPv4_Loss_Testing" : {
+         "_meta" : {
+            "display-name" : "ESnet to LSST Networking IPv4 Packet Loss Testing"
+         },
+         "reference": {
+            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+            "display-task-group": ["75: ESnet to LSST"]
+         },
+         "group" : "group_lsst_latency",
+         "archives": [ "ps-west" ],
+         "test" : "ESnet6_LAT_1_v4"
+       },
+   "REUNA_IPv4_Traceroute_Testing" : {
+       "_meta" : {
+          "display-name" : "ESnet to LSST Networking IPv4 Traceroute Testing"
+       },
+       "reference": {
+          "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+          "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+          "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+          "display-task-group": ["75: ESnet to LSST"]
+       },
+       "group" : "group_lsst_throughput",
+       "schedule" : "schedule_1",
+       "archives": [ "ps-west" ],
+       "test" : "ESnet6_v4_trace"
+    },
+    "LSST_IPv4_Throughput_Testing" : {
+     "_meta" : {
+        "display-name" : "ESnet to LSST Networking IPv4 Throughput Testing"
+     },
+     "reference": {
+        "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+        "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+        "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+        "display-task-group": ["75: ESnet to LSST"]
+     },
+     "group" : "group_lsst_throughput",
+     "schedule" : "schedule_0",
+     "archives": [ "ps-west" ],
+     "test" : "ESnet6_TP_1_v4"
+   } 
    },
    "tests" : {
       "ESnet6_TP_1_v4_10G" : {
