@@ -166,6 +166,22 @@
       "address" : "atla-ps-lat.lhcone.es.net",
       "host" : "atla-ps.es.net"
   },
+  "atla-ps-tp.lsst.es.net" : {
+   "_meta" : {
+      "display-name" : "atla-ps-tp.lsst.es.net",
+      "display-set" : "atla-ps.lsst.es.net"
+   },
+   "address" : "atla-ps-tp.lsst.es.net",
+   "host" : "atla-ps.es.net"
+},
+   "atla-ps-lat.lsst.es.net" : {
+      "_meta" : {
+         "display-name" : "atla-ps-lat.lsst.es.net",
+         "display-set" : "atla-ps.lsst.es.net"
+      },
+         "address" : "atla-ps-lat.lsst.es.net",
+         "host" : "atla-ps.es.net"
+      },
      "bnl515-ps-lat.es.net" : {
          "_meta" : {
             "display-name" : "bnl515-ps-lat.es.net",
@@ -358,6 +374,22 @@
         "address" : "chat-ps-tp.es.net",
         "host" : "chat-ps.es.net"
     },
+    "chat-ps-lat.lsst.es.net" : {
+      "_meta" : {
+         "display-name" : "chat-ps-lat.lsst.es.net",
+         "display-set" : "chat-ps.es.lsst.net"
+      },
+      "address" : "chat-ps-lat.lsst.es.net",
+      "host" : "chat-ps.es.net"
+  },
+     "chat-ps-tp.lsst.es.net" : {
+      "_meta" : {
+         "display-name" : "chat-ps-tp.lsst.es.net",
+         "display-set" : "chat-ps.lsst.es.net"
+      },
+      "address" : "chat-ps-tp.lsst.es.net",
+      "host" : "chat-ps.es.net"
+  },
     "chic-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "chic-ps-tp.es.net",
@@ -1238,6 +1270,22 @@
          "address" : "slac50n-ps-lat.es.net",
          "host" : "slac50n-ps.es.net"
      },
+     "slac50n-ps-tp.lsst.es.net" : {
+      "_meta" : {
+         "display-name" : "slac50n-ps-tp.lsst.es.net",
+         "display-set" : "slac50n-ps.lsst.es.net"
+      },
+      "address" : "slac50n-ps-tp.lsst.es.net",
+      "host" : "slac50n-ps.es.net"
+  },
+      "slac50n-ps-lat.lsst.es.net" : {
+      "_meta" : {
+         "display-name" : "slac50n-ps-lat.lsst.es.net",
+         "display-set" : "slac50n-ps.lsst.es.net"
+      },
+      "address" : "slac50n-ps-lat.lsst.es.net",
+      "host" : "slac50n-ps.es.net"
+  },
      "slac50s-ps-tp.es.net" : {
           "_meta" : {
              "display-name" : "slac50s-ps-tp.es.net",
@@ -1254,6 +1302,22 @@
           "address" : "slac50s-ps-lat.es.net",
           "host" : "slac50s-ps.es.net"
       },
+      "slac50s-ps-tp.lsst.es.net" : {
+         "_meta" : {
+            "display-name" : "slac50s-ps-tp.lsst.es.net",
+            "display-set" : "slac50s-ps.lsst.es.net"
+         },
+         "address" : "slac50s-ps-tp.lsst.es.net",
+         "host" : "slac50s-ps.es.net"
+     },
+     "slac50s-ps-lat.lsst.es.net" : {
+         "_meta" : {
+            "display-name" : "slac50s-ps-lat.lsst.es.net",
+            "display-set" : "slac50s-ps.lsst.es.net"
+         },
+         "address" : "slac50s-ps-lat.lsst.es.net",
+         "host" : "slac50s-ps.es.net"
+     },
     "star-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "star-ps-tp.es.net",
@@ -4544,7 +4608,15 @@
    },
    "address" : "perfsonar-10g.chivo.cl",
    "host" : "perfsonar-10g.chivo.cl"
-}    
+},
+      "perfsonar1-360.ls.lsst.org" : {
+         "_meta" : {
+            "display-name" : "perfsonar1-360.ls.lsst.org",
+            "display-set" : "perfsonar1-360.ls.lsst.org"
+         },
+         "address" : "perfsonar1-360.ls.lsst.org",
+         "host" : "perfsonar1-360.ls.lsst.org"
+         }     
    },
    "groups" : {
       "ESnet6_IPv4_DNS" : {
@@ -14907,6 +14979,13 @@
          "_meta" : {
             "display-name" : "perfsonar-10g.chivo.cl",
             "organization-display-name" : "REUNA"
+         },
+          "no-agent" : true
+      },
+      "perfsonar1-360.ls.lsst.org" : {
+         "_meta" : {
+            "display-name" : "perfsonar1-360.ls.lsst.org",
+            "organization-display-name" : "LSST"
          },
           "no-agent" : true
       },
