@@ -7043,6 +7043,15 @@
              "name" : "denv-ps-lat.es.net"
           },
           {
+            "name" : "eqxch2-ps-lat.es.net"
+          },
+          {
+            "name" : "inleil-ps-lat.es.net"
+          },
+          {
+            "name" : "inlerob-ps-lat.es.net"
+          },
+          {
              "name" : "owamp-scz.pnl.gov"
           }
       ],
@@ -7072,6 +7081,12 @@
          },
          {
             "name" : "eqxch2-ps-tp.es.net"
+         },
+         {
+            "name" : "inleil-ps-tp.es.net"
+         },
+         {
+            "name" : "inlerob-ps-tp.es.net"
          },
          {
             "name" : "owamp-scz.pnl.gov"
