@@ -4600,15 +4600,15 @@
    },
    "address" : "146.83.182.4",
    "host" : "146.83.182.4"
-},
-"perfsonar-10g.chivo.cl" : {
-   "_meta" : {
+    },
+    "perfsonar-10g.chivo.cl" : {
+      "_meta" : {
       "display-name" : "perfsonar-10g.chivo.cl",
       "display-set" : "perfsonar-10g.chivo.cl"
-   },
-   "address" : "perfsonar-10g.chivo.cl",
-   "host" : "perfsonar-10g.chivo.cl"
-},
+      },
+      "address" : "perfsonar-10g.chivo.cl",
+      "host" : "perfsonar-10g.chivo.cl"
+     },
       "perfsonar1-360.ls.lsst.org" : {
          "_meta" : {
             "display-name" : "perfsonar1-360.ls.lsst.org",
@@ -4616,7 +4616,23 @@
          },
          "address" : "perfsonar1-360.ls.lsst.org",
          "host" : "perfsonar1-360.ls.lsst.org"
-         }     
+         },
+         "ps-mia-lsr-lt.srv.ampath.net" : {
+            "_meta" : {
+               "display-name" : "ps-mia-lsr-lt.srv.ampath.net",
+               "display-set" : "ps-mia-lsr-lt.srv.ampath.net"
+            },
+            "address" : "ps-mia-lsr-lt.srv.ampath.net",
+            "host" : "ps-mia-lsr-lt.srv.ampath.net"
+        },
+        "ps-mia-lsr-bw.srv.ampath.net" : {
+         "_meta" : {
+            "display-name" : "ps-mia-lsr-bw.srv.ampath.net",
+            "display-set" : "ps-mia-lsr-bw.srv.ampath.net"
+         },
+         "address" : "ps-mia-lsr-bw.srv.ampath.net",
+         "host" : "ps-mia-lsr-bw.srv.ampath.net"
+         }
    },
    "groups" : {
       "ESnet6_IPv4_DNS" : {
@@ -12006,7 +12022,10 @@
         },
         {
          "name" : "perfsonar-10g.chivo.cl"
-      }
+        },
+        {
+         "name" : "ps-mia-lsr-lt.srv.ampath.net"
+      }     
      ],
      "b-addresses" : [
       {
@@ -12028,7 +12047,10 @@
          },
          {
             "name" : "perfsonar-10g.chivo.cl"
-         }
+         },
+         {
+            "name" : "ps-mia-lsr-bw.srv.ampath.net"
+         }     
          ],
      "b-addresses" : [
       {
@@ -15054,6 +15076,20 @@
             "organization-display-name" : "REUNA"
          },
           "no-agent" : true
+      },
+      "ps-mia-lsr-lt.srv.ampath.net" : {
+         "_meta" : {
+            "display-name" : "ps-mia-lsr-lt.srv.ampath.net",
+            "organization-display-name" : "REUNA"
+         },
+          "no-agent" : true
+      },
+      "ps-mia-lsr-bw.srv.ampath.net" : {
+         "_meta" : {
+            "display-name" : "ps-mia-lsr-bw.srv.ampath.net",
+            "organization-display-name" : "REUNA"
+         },
+          "no-agent" : true
       }
    },
    "schedules" : {
@@ -16409,7 +16445,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": "72: ARIES - FLEX Live Demos"
+            "display-task-group": ["72: ARIES - FLEX Live Demos"]
          },
          "group" : "group_nrel_thrupt",
          "schedule" : "schedule_0",
@@ -16424,7 +16460,7 @@
             "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
             "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
             "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-            "display-task-group": "72: ARIES - FLEX Live Demos"
+            "display-task-group": ["72: ARIES - FLEX Live Demos"]
          },
          "group" : "group_nrel_owamp",
          "archives": [ "ps-west" ],
@@ -16438,7 +16474,7 @@
               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-              "display-task-group": "72: ARIES - FLEX Live Demos"
+              "display-task-group": ["72: ARIES - FLEX Live Demos"]
            },
            "group" : "group_nrel_owamp",
            "schedule" : "schedule_1",
