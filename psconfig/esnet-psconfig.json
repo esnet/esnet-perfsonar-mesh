@@ -12069,7 +12069,10 @@
       "a-addresses" : [
         {
          "name" : "perfsonar1-360.ls.lsst.org"
-      }
+      },
+      {
+         "name" : "ps-mia-lsr-bw.srv.ampath.net"
+      }  
      ],
      "b-addresses" : [
       {
@@ -12091,7 +12094,10 @@
        "a-addresses" : [
          {
             "name" : "perfsonar1-360.ls.lsst.org"
-         }
+         },
+         {
+            "name" : "ps-mia-lsr-bw.srv.ampath.net"
+         }  
          ],
      "b-addresses" : [
       {
