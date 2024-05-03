@@ -12090,7 +12090,7 @@
       },
       {
          "name" : "slac50s-ps-tp.es.net"
-      },
+      }
         ],
      "type" : "disjoint"
      },
@@ -12102,7 +12102,7 @@
       {
          "name" : "ps-mia-lsr-lt.srv.ampath.net"
       },
-      {
+            {
          "name" : "198.32.252.195"
       }  
      ],
