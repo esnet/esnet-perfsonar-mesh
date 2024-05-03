@@ -4633,13 +4633,13 @@
          "address" : "198.32.252.195",
          "host" : "198.32.252.195"
      },
-        "ps-mia-lsr-bw.srv.ampath.net" : {
+        "ps-mia-lsr-bw.srv.ampath.net-DNS" : {
          "_meta" : {
-            "display-name" : "ps-mia-lsr-bw.srv.ampath.net",
-            "display-set" : "ps-mia-lsr-bw.srv.ampath.net"
+            "display-name" : "ps-mia-lsr-bw.srv.ampath.net-DNS",
+            "display-set" : "ps-mia-lsr-bw.srv.ampath.net-DNS"
          },
          "address" : "ps-mia-lsr-bw.srv.ampath.net",
-         "host" : "ps-mia-lsr-bw.srv.ampath.net"
+         "host" : "ps-mia-lsr-bw.srv.ampath.net-DNS"
          },
          "ps-mia-lsr-bw.srv.ampath.net-IP" : {
             "_meta" : {
@@ -12077,10 +12077,10 @@
             "name" : "perfsonar-10g.chivo.cl"
          },
          {
-            "name" : "ps-mia-lsr-bw.srv.ampath.net"
+            "name" : "ps-mia-lsr-bw.srv.ampath.net-DNS"
          },
          {
-            "name" : "198.32.252.193"
+            "name" : "ps-mia-lsr-bw.srv.ampath.net-IP"
          }     
          ],
      "b-addresses" : [
@@ -12148,10 +12148,10 @@
             "name" : "perfsonar1-360.ls.lsst.org"
          },
          {
-            "name" : "ps-mia-lsr-bw.srv.ampath.net"
+            "name" : "ps-mia-lsr-bw.srv.ampath.net-DNS"
          },
          {
-            "name" : "198.32.252.193"
+            "name" : "ps-mia-lsr-bw.srv.ampath.net-IP"
          }           
          ],
      "b-addresses" : [
@@ -15152,14 +15152,14 @@
          },
           "no-agent" : true
       },
-      "ps-mia-lsr-bw.srv.ampath.net" : {
+      "ps-mia-lsr-bw.srv.ampath.net-DNS" : {
          "_meta" : {
             "display-name" : "ps-mia-lsr-bw.srv.ampath.net-DNS",
             "organization-display-name" : "RUBIN"
          },
           "no-agent" : true
       },
-      "198.32.252.193" : {
+      "ps-mia-lsr-bw.srv.ampath.net-IP" : {
          "_meta" : {
             "display-name" : "ps-mia-lsr-bw.srv.ampath.net-IP",
             "organization-display-name" : "RUBIN"
