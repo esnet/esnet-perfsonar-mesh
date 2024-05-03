@@ -4619,12 +4619,20 @@
          },
          "ps-mia-lsr-lt.srv.ampath.net" : {
             "_meta" : {
-               "display-name" : "ps-mia-lsr-lt.srv.ampath.net",
-               "display-set" : "ps-mia-lsr-lt.srv.ampath.net"
+               "display-name" : "ps-mia-lsr-lt.srv.ampath.net-DNS",
+               "display-set" : "ps-mia-lsr-lt.srv.ampath.net-DNS"
             },
             "address" : "ps-mia-lsr-lt.srv.ampath.net",
             "host" : "ps-mia-lsr-lt.srv.ampath.net"
         },
+        "198.32.252.195" : {
+         "_meta" : {
+            "display-name" : "ps-mia-lsr-lt.srv.ampath.net-IP",
+            "display-set" : "ps-mia-lsr-lt.srv.ampath.net-IP"
+         },
+         "address" : "198.32.252.195",
+         "host" : "198.32.252.195"
+     },
         "ps-mia-lsr-bw.srv.ampath.net" : {
          "_meta" : {
             "display-name" : "ps-mia-lsr-bw.srv.ampath.net",
@@ -12025,17 +12033,29 @@
         },
         {
          "name" : "ps-mia-lsr-lt.srv.ampath.net"
-      }     
+      },
+      {
+         "name" : "198.32.252.195"
+      }
      ],
      "b-addresses" : [
       {
          "name" : "atla-ps-lat.es.net"
       },
       {
+         "name" : "chat-ps-lat.es.net"
+      },
+      {
             "name" : "lbnl50-ps-lat.es.net"
          },
          {
             "name" : "lbnl59-ps-lat.es.net"
+         },
+         {
+            "name" : "slac50n-ps-lat.es.net"
+         },
+         {
+            "name" : "slac50s-ps-lat.es.net"
          }
       ],
          "type" : "disjoint"
@@ -12057,11 +12077,20 @@
          "name" : "atla-ps-tp.es.net"
       },
       {
+         "name" : "chat-ps-tp.es.net"
+      },
+      {
            "name" : "lbnl50-ps-tp.es.net"
         },
         {
            "name" : "lbnl59-ps-tp.es.net"
-        }
+        },
+        {
+         "name" : "slac50n-ps-tp.es.net"
+      },
+      {
+         "name" : "slac50s-ps-tp.es.net"
+      },
         ],
      "type" : "disjoint"
      },
@@ -12071,7 +12100,10 @@
          "name" : "perfsonar1-360.ls.lsst.org"
       },
       {
-         "name" : "ps-mia-lsr-bw.srv.ampath.net"
+         "name" : "ps-mia-lsr-lt.srv.ampath.net"
+      },
+      {
+         "name" : "198.32.252.195"
       }  
      ],
      "b-addresses" : [
@@ -15085,7 +15117,14 @@
       },
       "ps-mia-lsr-lt.srv.ampath.net" : {
          "_meta" : {
-            "display-name" : "ps-mia-lsr-lt.srv.ampath.net",
+            "display-name" : "ps-mia-lsr-lt.srv.ampath.net-DNS",
+            "organization-display-name" : "REUNA"
+         },
+          "no-agent" : true
+      },
+      "198.32.252.195" : {
+         "_meta" : {
+            "display-name" : "ps-mia-lsr-lt.srv.ampath.net-IP",
             "organization-display-name" : "REUNA"
          },
           "no-agent" : true
