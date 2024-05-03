@@ -4640,7 +4640,15 @@
          },
          "address" : "ps-mia-lsr-bw.srv.ampath.net",
          "host" : "ps-mia-lsr-bw.srv.ampath.net"
-         }
+         },
+         "ps-mia-lsr-bw.srv.ampath.net-IP" : {
+            "_meta" : {
+               "display-name" : "ps-mia-lsr-bw.srv.ampath.net-IP",
+               "display-set" : "ps-mia-lsr-bw.srv.ampath.net-IP"
+            },
+            "address" : "198.32.252.193",
+            "host" : "ps-mia-lsr-bw.srv.ampath.net-IP"
+            }
    },
    "groups" : {
       "ESnet6_IPv4_DNS" : {
@@ -12070,6 +12078,9 @@
          },
          {
             "name" : "ps-mia-lsr-bw.srv.ampath.net"
+         },
+         {
+            "name" : "198.32.252.193"
          }     
          ],
      "b-addresses" : [
@@ -12096,6 +12107,9 @@
      },
      "group_lsst_latency" : {
       "a-addresses" : [
+         {
+            "name" : "atla-ps-lat.lsst.es.net"
+         },
         {
          "name" : "perfsonar1-360.ls.lsst.org"
       },
@@ -12104,7 +12118,10 @@
       },
             {
          "name" : "198.32.252.195"
-      }  
+      },
+      {
+         "name" : "atla-ps-lat.lsst.es.net"
+      }
      ],
      "b-addresses" : [
       {
@@ -12125,11 +12142,17 @@
      "group_lsst_throughput" : {
        "a-addresses" : [
          {
+            "name" : "atla-ps-tp.lsst.es.net"
+         },
+         {
             "name" : "perfsonar1-360.ls.lsst.org"
          },
          {
             "name" : "ps-mia-lsr-bw.srv.ampath.net"
-         }  
+         },
+         {
+            "name" : "198.32.252.193"
+         }           
          ],
      "b-addresses" : [
       {
@@ -15118,21 +15141,28 @@
       "ps-mia-lsr-lt.srv.ampath.net" : {
          "_meta" : {
             "display-name" : "ps-mia-lsr-lt.srv.ampath.net-DNS",
-            "organization-display-name" : "REUNA"
+            "organization-display-name" : "RUBIN"
          },
           "no-agent" : true
       },
       "198.32.252.195" : {
          "_meta" : {
             "display-name" : "ps-mia-lsr-lt.srv.ampath.net-IP",
-            "organization-display-name" : "REUNA"
+            "organization-display-name" : "RUBIN"
          },
           "no-agent" : true
       },
       "ps-mia-lsr-bw.srv.ampath.net" : {
          "_meta" : {
-            "display-name" : "ps-mia-lsr-bw.srv.ampath.net",
-            "organization-display-name" : "REUNA"
+            "display-name" : "ps-mia-lsr-bw.srv.ampath.net-DNS",
+            "organization-display-name" : "RUBIN"
+         },
+          "no-agent" : true
+      },
+      "198.32.252.193" : {
+         "_meta" : {
+            "display-name" : "ps-mia-lsr-bw.srv.ampath.net-IP",
+            "organization-display-name" : "RUBIN"
          },
           "no-agent" : true
       }
