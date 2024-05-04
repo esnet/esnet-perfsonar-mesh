@@ -4648,7 +4648,15 @@
             },
             "address" : "198.32.252.193",
             "host" : "ps-mia-lsr-bw.srv.ampath.net-IP"
-            }
+         },
+         "psnr-oct-v40.slac.stanford.edu" : {
+            "_meta" : {
+               "display-name" : "psnr-oct-v40.slac.stanford.edu",
+               "display-set" : "psnr-oct-v40.slac.stanford.edu"
+            },
+            "address" : "psnr-oct-v40.slac.stanford.edu",
+            "host" : "psnr-oct-v40.slac.stanford.edu"
+        }
    },
    "groups" : {
       "ESnet6_IPv4_DNS" : {
@@ -12117,10 +12125,13 @@
          "name" : "ps-mia-lsr-lt.srv.ampath.net"
       },
             {
-         "name" : "ps-mia-lsr-lt.srv.ampath.net-IP"
+         "name" : "198.32.252.195"
       },
       {
          "name" : "atla-ps-lat.lsst.es.net"
+      },
+      {
+         "name" : "psnr-oct-v40.slac.stanford.edu"
       }
      ],
      "b-addresses" : [
@@ -12152,6 +12163,9 @@
          },
          {
             "name" : "ps-mia-lsr-bw.srv.ampath.net-IP"
+         },
+         {
+            "name" : "psnr-oct-v40.slac.stanford.edu"
          }           
          ],
      "b-addresses" : [
@@ -15172,6 +15186,13 @@
             "organization-display-name" : "RUBIN"
          },
           "no-agent" : true
+      },
+      "psnr-oct-v40.slac.stanford.edu" : {
+         "_meta" : {
+            "display-name" : "psnr-oct-v40.slac.stanford.edu",
+            "organization-display-name" : "RUBIN"
+         },
+          "no-agent" : true
       }
    },
    "schedules" : {
@@ -16939,7 +16960,7 @@
          "archives": [ "ps-west" ],
          "test" : "ESnet6_LAT_1_v4"
        },
-   "REUNA_IPv4_Traceroute_Testing" : {
+   "LSST_IPv4_Traceroute_Testing" : {
        "_meta" : {
           "display-name" : "ESnet to LSST Networking IPv4 Traceroute Testing"
        },
@@ -16967,7 +16988,7 @@
      "group" : "group_lsst_throughput",
      "schedule" : "schedule_0",
      "archives": [ "ps-west" ],
-     "test" : "ESnet6_TP_1_v4"
+     "test" : "ESnet6_TP_1_v4_10G"
    } 
    },
    "tests" : {
