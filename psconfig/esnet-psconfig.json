@@ -4625,13 +4625,13 @@
             "address" : "ps-mia-lsr-lt.srv.ampath.net",
             "host" : "ps-mia-lsr-lt.srv.ampath.net"
         },
-        "198.32.252.195" : {
+        "ps-mia-lsr-lt.srv.ampath.net-IP" : {
          "_meta" : {
             "display-name" : "ps-mia-lsr-lt.srv.ampath.net-IP",
             "display-set" : "ps-mia-lsr-lt.srv.ampath.net-IP"
          },
          "address" : "198.32.252.195",
-         "host" : "198.32.252.195"
+         "host" : "ps-mia-lsr-lt.srv.ampath.net-IP"
      },
         "ps-mia-lsr-bw.srv.ampath.net-DNS" : {
          "_meta" : {
@@ -12043,7 +12043,7 @@
          "name" : "ps-mia-lsr-lt.srv.ampath.net"
       },
       {
-         "name" : "198.32.252.195"
+         "name" : "ps-mia-lsr-lt.srv.ampath.net-IP"
       }
      ],
      "b-addresses" : [
@@ -12117,7 +12117,7 @@
          "name" : "ps-mia-lsr-lt.srv.ampath.net"
       },
             {
-         "name" : "198.32.252.195"
+         "name" : "ps-mia-lsr-lt.srv.ampath.net-IP"
       },
       {
          "name" : "atla-ps-lat.lsst.es.net"
@@ -15145,7 +15145,14 @@
          },
           "no-agent" : true
       },
-      "198.32.252.195" : {
+      "ps-mia-lsr-lt.srv.ampath.net" : {
+         "_meta" : {
+            "display-name" : "ps-mia-lsr-lt.srv.ampath.net-DNS",
+            "organization-display-name" : "RUBIN"
+         },
+          "no-agent" : true
+      },
+      "ps-mia-lsr-lt.srv.ampath.net-IP" : {
          "_meta" : {
             "display-name" : "ps-mia-lsr-lt.srv.ampath.net-IP",
             "organization-display-name" : "RUBIN"
