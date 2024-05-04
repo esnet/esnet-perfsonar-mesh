@@ -12124,8 +12124,8 @@
       {
          "name" : "ps-mia-lsr-lt.srv.ampath.net"
       },
-            {
-         "name" : "198.32.252.195"
+      {
+         "name" : "ps-mia-lsr-lt.srv.ampath.net-IP"
       },
       {
          "name" : "atla-ps-lat.lsst.es.net"
@@ -12146,6 +12146,9 @@
          },
          {
             "name" : "slac50s-ps-lat.lsst.es.net"
+         },
+         {
+            "name" : "perfsonar1-360.ls.lsst.org"
          }
       ],
          "type" : "disjoint"
@@ -12180,6 +12183,9 @@
         },
         {
            "name" : "slac50s-ps-tp.lsst.es.net"
+        },
+        {
+         "name" : "perfsonar1-360.ls.lsst.org"
         }
         ],
      "type" : "disjoint"
