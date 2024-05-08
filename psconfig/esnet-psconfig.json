@@ -16689,7 +16689,8 @@
         "reference": {
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
            "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-           "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+           "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+           "display-task-group": ["35: ESnet DOEnet to DOEnet Sites"]
         },
         "group" : "group_doenet_owamp",
         "archives": [ "ps-west" ],
@@ -16702,7 +16703,8 @@
        "reference": {
           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
           "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-          "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+          "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+          "display-task-group": ["35: ESnet DOEnet to DOEnet Sites"]
        },
        "group" : "group_doenet_throughput",
        "archives": [ "ps-west" ],
@@ -16716,7 +16718,8 @@
       "reference": {
          "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
          "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-         "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+         "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+         "display-task-group": ["35: ESnet DOEnet to DOEnet Sites"]
       },
       "group" : "group_doenet_owamp",
       "archives": [ "ps-west" ],
@@ -16729,7 +16732,8 @@
      "reference": {
         "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
         "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
-        "display-task-name": "{% jq .task._meta.\"display-name\" %}"
+        "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+        "display-task-group": ["35: ESnet DOEnet to DOEnet Sites"]
      },
      "group" : "group_doenet_throughput",
      "archives": [ "ps-west" ],
