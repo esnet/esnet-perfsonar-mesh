@@ -152,6 +152,12 @@ dashboards:
        - name: "ESnet - ESnet to DOE Site IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to DOE Site IPv6 Throughput Testing - Throughput"
        - name: "ESnet - ESnet to DOE Site IPv4 Throughput Testing - Throughput"
+   - name: "35: ESnet DOEnet to DOEnet Sites"
+     grids:
+       - name: "ESnet - ESnet DOENet IPv6 Throughput Testing - Loss"
+       - name: "ESnet - ESnet DOENet IPv4 Throughput Testing - Loss"
+       - name: "ESnet - ESnet DOENet IPv6 Packet Loss Testing - Throughput"
+       - name: "ESnet - ESnet DOENet IPv4 Packet Loss Testing - Throughput"
    - name: "40: ESnet to Large Facilities"
      grids:
        - name: "ESnet - ESnet to Large Facility IPv6 Packet Loss Testing - Loss"
