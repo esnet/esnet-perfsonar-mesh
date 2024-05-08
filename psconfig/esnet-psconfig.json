@@ -16684,7 +16684,7 @@
      },
      "ESnet_DOENET_Packet_Loss_Testing_IPv4" : {
         "_meta" : {
-           "display-name" : "ESnet DOENet IPv4 Packet Loss Testing"
+           "display-name" : "ESnet DOEnet IPv4 Packet Loss Testing"
         },
         "reference": {
            "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -16697,7 +16697,7 @@
     },
     "ESnet_DOENET_Throughput_Testing_IPv4" : {
        "_meta" : {
-          "display-name" : "ESnet DOENet IPv4 Throughput Testing"
+          "display-name" : "ESnet DOEnet IPv4 Throughput Testing"
        },
        "reference": {
           "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -16706,12 +16706,12 @@
        },
        "group" : "group_doenet_throughput",
        "archives": [ "ps-west" ],
-       "test" : "",
+       "test" : "ESnet6_TP_1_v4_10G",
        "schedule": "schedule_0"
     },
     "ESnet_DOENET_Packet_Loss_Testing_IPv6" : {
       "_meta" : {
-         "display-name" : "ESnet DOENet IPv6 Packet Loss Testing"
+         "display-name" : "ESnet DOEnet IPv6 Packet Loss Testing"
       },
       "reference": {
          "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -16724,7 +16724,7 @@
   },
   "ESnet_DOENET_Throughput_Testing_IPv6" : {
      "_meta" : {
-        "display-name" : "ESnet DOENet IPv6 Throughput Testing"
+        "display-name" : "ESnet DOEnet IPv6 Throughput Testing"
      },
      "reference": {
         "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
