@@ -4656,7 +4656,103 @@
             },
             "address" : "psnr-oct-v40.slac.stanford.edu",
             "host" : "psnr-oct-v40.slac.stanford.edu"
-        }
+        },
+        "albq-doenet-ps-lat.es.net" : {
+         "_meta" : {
+            "display-name" : "albq-doenet-ps-lat.es.net",
+            "display-set" : "albq-doenet-ps.es.net"
+         },
+         "address" : "albq-doenet-ps-lat.es.net",
+         "host" : "albq-doenet-ps.es.net"
+     },
+      "albq-doenet-ps-tp.es.net" : {
+           "_meta" : {
+              "display-name" : "albq-doenet-ps-tp.es.net",
+              "display-set" : "albq-doenet-ps.es.net"
+           },
+           "address" : "albq-doenet-ps-tp.es.net",
+           "host" : "albq-doenet-ps.es.net"
+       },
+       "forrestal-doenet-ps-lat.es.net" : {
+         "_meta" : {
+            "display-name" : "forrestal-doenet-ps-lat.es.net",
+            "display-set" : "forrestal-doenet-ps.es.net"
+         },
+         "address" : "forrestal-doenet-ps-lat.es.net",
+         "host" : "forrestal-doenet-ps.es.net"
+     },
+      "forrestal-doenet-ps-tp.es.net" : {
+           "_meta" : {
+              "display-name" : "forrestal-doenet-ps-tp.es.net",
+              "display-set" : "forrestal-doenet-ps.es.net"
+           },
+           "address" : "forrestal-doenet-ps-tp.es.net",
+           "host" : "forrestal-doenet-ps.es.net"
+       },
+       "germantown-doenet-ps-lat.es.net" : {
+         "_meta" : {
+            "display-name" : "germantown-doenet-ps-lat.es.net",
+            "display-set" : "germantown-doenet-ps.es.net"
+         },
+         "address" : "germantown-doenet-ps-lat.es.net",
+         "host" : "germantown-doenet-ps.es.net"
+     },
+      "germantown-doenet-ps-tp.es.net" : {
+           "_meta" : {
+              "display-name" : "germantown-doenet-ps-tp.es.net",
+              "display-set" : "germantown-doenet-ps.es.net"
+           },
+           "address" : "germantown-doenet-ps-tp.es.net",
+           "host" : "germantown-doenet-ps.es.net"
+       },
+       "eqxash-doenet-ps-lat.es.net" : {
+         "_meta" : {
+            "display-name" : "eqxash-doenet-ps-lat.es.net",
+            "display-set" : "eqxash-doenet-ps.es.net"
+         },
+         "address" : "eqxash-doenet-ps-lat.es.net",
+         "host" : "eqxash-doenet-ps.es.net"
+     },
+      "eqxash-doenet-ps-tp.es.net" : {
+           "_meta" : {
+              "display-name" : "eqxash-doenet-ps-tp.es.net",
+              "display-set" : "eqxash-doenet-ps.es.net"
+           },
+           "address" : "eqxash-doenet-ps-tp.es.net",
+           "host" : "eqxash-doenet-ps.es.net"
+       },
+       "nnssnso-doenet-ps-lat.es.net" : {
+         "_meta" : {
+            "display-name" : "nnssnso-doenet-ps-lat.es.net",
+            "display-set" : "nnssnso-doenet-ps.es.net"
+         },
+         "address" : "nnssnso-doenet-ps-lat.es.net",
+         "host" : "nnssnso-doenet-ps.es.net"
+     },
+      "nnssnso-doenet-ps-tp.es.net" : {
+           "_meta" : {
+              "display-name" : "nnssnso-doenet-ps-tp.es.net",
+              "display-set" : "nnssnso-doenet-ps.es.net"
+           },
+           "address" : "nnssnso-doenet-ps-tp.es.net",
+           "host" : "nnssnso-doenet-ps.es.net"
+       },
+       "eqxda3-doenet-ps-lat.es.net" : {
+         "_meta" : {
+            "display-name" : "eqxda3-doenet-ps-lat.es.net",
+            "display-set" : "eqxda3-doenet-ps.es.net"
+         },
+         "address" : "eqxda3-doenet-ps-lat.es.net",
+         "host" : "eqxda3-doenet-ps.es.net"
+     },
+      "eqxda3-doenet-ps-tp.es.net" : {
+           "_meta" : {
+              "display-name" : "eqxda3-doenet-ps-tp.es.net",
+              "display-set" : "eqxda3-doenet-ps.es.net"
+           },
+           "address" : "eqxda3-doenet-ps-tp.es.net",
+           "host" : "eqxda3-doenet-ps.es.net"
+       }   
    },
    "groups" : {
       "ESnet6_IPv4_DNS" : {
@@ -15199,6 +15295,42 @@
             "organization-display-name" : "RUBIN"
          },
           "no-agent" : true
+      },
+      "albq-doenet-ps.es.net" : {
+         "_meta" : {
+            "display-name" : "albq-doenet-ps.es.net",
+            "organization-display-name" : "DOEnet"
+         }
+      },
+      "forrestal-doenet-ps.es.net" : {
+         "_meta" : {
+            "display-name" : "forrestal-doenet-ps.es.net",
+            "organization-display-name" : "DOEnet"
+         }
+      },
+      "germantown-doenet-ps.es.net" : {
+         "_meta" : {
+            "display-name" : "germantown-doenet-ps.es.net",
+            "organization-display-name" : "DOEnet"
+         }
+      },
+         "eqxash-doenet-ps.es.net" : {
+            "_meta" : {
+               "display-name" : "eqxash-doenet-ps.es.net",
+               "organization-display-name" : "DOEnet"
+            }
+         },
+      "nnssnso-doenet-ps.es.net" : {
+         "_meta" : {
+            "display-name" : "nnssnso-doenet-ps.es.net",
+            "organization-display-name" : "DOEnet"
+         }
+      },
+      "eqxda3-doenet-ps.es.net" : {
+         "_meta" : {
+            "display-name" : "eqxda3-doenet-ps.es.net",
+            "organization-display-name" : "DOEnet"
+         }
       }
    },
    "schedules" : {
