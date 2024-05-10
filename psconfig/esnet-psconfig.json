@@ -2242,69 +2242,6 @@
          "address" : "cs-perfsonar-2.cs.wisc.edu",
          "host" : "cs-perfsonar-2.cs.wisc.edu"
       },
-      "lbnl59-doenet-owamp-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "lbnl59-doenet-owamp.es.net v6",
-            "display-set" : "lbnl59-doenet-pt1.es.net"
-         },
-         "address" : "lbnl59-doenet-owamp-v6.es.net",
-         "host" : "lbnl59-doenet-pt1.es.net",
-         "no-agent" : true
-      },
-      "lbnl59-doenet-owamp.es.net" : {
-         "_meta" : {
-            "display-name" : "lbnl59-doenet-owamp.es.net",
-            "display-set" : "lbnl59-doenet-pt1.es.net"
-         },
-         "address" : "lbnl59-doenet-owamp.es.net",
-         "host" : "lbnl59-doenet-pt1.es.net",
-         "no-agent" : true
-      },
-      "lbnl59-doenet-owamp-v4.es.net" : {
-         "_meta" : {
-            "display-name" : "lbnl59-doenet-owamp.es.net",
-            "display-set" : "lbnl59-doenet-pt1.es.net"
-         },
-         "address" : "lbnl59-doenet-owamp-v4.es.net",
-         "host" : "lbnl59-doenet-pt1.es.net",
-         "no-agent" : true
-      },
-      "lbnl59-doenet-pt1-v6.es.net" : {
-         "_meta" : {
-            "display-name" : "lbnl59-doenet-pt1-v6.es.net",
-            "display-set" : "lbnl59-doenet-pt1.es.net"
-         },
-         "address" : "lbnl59-doenet-pt1-v6.es.net",
-         "host" : "lbnl59-doenet-pt1.es.net",
-         "no-agent" : true
-      },
-      "lbnl59-doenet-pt1.es.net" : {
-         "_meta" : {
-            "display-name" : "lbnl59-doenet-pt1.es.net",
-            "display-set" : "lbnl59-doenet-pt1.es.net"
-         },
-         "address" : "lbnl59-doenet-pt1.es.net",
-         "host" : "lbnl59-doenet-pt1.es.net",
-         "no-agent" : true
-      },
-      "198.129.254.9" : {
-         "_meta" : {
-            "display-name" : "lbnl59-doenet-pt1.es.net",
-            "display-set" : "lbnl59-doenet-pt1.es.net"
-         },
-         "address" : "198.129.254.9",
-         "host" : "lbnl59-doenet-pt1.es.net",
-         "no-agent" : true
-      },
-      "198.129.252.138" : {
-         "_meta" : {
-            "display-name" : "lbnl59-doenet-owamp1.es.net",
-            "display-set" : "lbnl59-doenet-pt1.es.net"
-         },
-         "address" : "198.129.252.138",
-         "host" : "lbnl59-doenet-pt1.es.net",
-         "no-agent" : true
-      },
       "dps10.ucsc.edu" : {
          "_meta" : {
             "display-name" : "dps10.ucsc.edu"
@@ -12926,42 +12863,6 @@
             "organization-display-name" : "Princeton"
          }
      },
-      "lbnl59-doenet-pt1.es.net" : {
-           "_meta" : {
-              "display-name" : "lbnl59-doenet-pt1.es.net",
-              "organization-display-name" : "ESnet"
-           }
-       },
-       "lbnl59-doenet-pt1-v6.es.net" : {
-            "_meta" : {
-               "display-name" : "lbnl59-doenet-pt1-v6.es.net",
-               "organization-display-name" : "ESnet"
-            }
-        },
-        "198.129.254.9" : {
-             "_meta" : {
-                "display-name" : "198.129.254.9",
-                "organization-display-name" : "ESnet"
-             }
-         },
-         "lbnl59-doenet-owamp.es.net" : {
-              "_meta" : {
-                 "display-name" : "lbnl59-doenet-owamp.es.net",
-                 "organization-display-name" : "ESnet"
-              }
-          },
-          "lbnl59-doenet-owamp-v6.es.net" : {
-               "_meta" : {
-                  "display-name" : "lbnl59-doenet-owamp-v6.es.net",
-                  "organization-display-name" : "ESnet"
-               }
-           },
-           "198.129.252.138" : {
-                "_meta" : {
-                   "display-name" : "198.129.252.138",
-                   "organization-display-name" : "ESnet"
-                }
-            },
        "psonar-bw.hpc.osc.edu" : {
           "_meta" : {
              "display-name" : "psonar-bw.hpc.osc.edu",
