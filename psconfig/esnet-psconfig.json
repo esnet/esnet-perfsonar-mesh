@@ -7084,12 +7084,6 @@
          },
          {
             "name" : "nnssnso-doenet-ps-lat.es.net"
-         },
-         {
-            "name" : "198.129.252.138"
-         },
-          {
-             "name" : "eqxch2-ps-lat.es.net"
           }
        ],
        "b-addresses" : [
@@ -7110,12 +7104,6 @@
         },
         {
            "name" : "nnssnso-doenet-ps-lat.es.net"
-        },
-         {
-             "name" : "198.129.252.138"
-          },
-          {
-             "name" : "eqxch2-ps-lat.es.net"
           }
        ],
        "type" : "disjoint"
@@ -7139,12 +7127,6 @@
         },
         {
            "name" : "nnssnso-doenet-ps-tp.es.net"
-        },
-         {
-            "name" : "198.129.254.9"
-         },
-         {
-            "name" : "lbnl59-doenet-pt1.es.net"
          }
       ],
       "b-addresses" : [
@@ -7165,15 +7147,6 @@
         },
         {
            "name" : "nnssnso-doenet-ps-tp.es.net"
-        },
-         {
-             "name" : "chic-ps-tp.es.net"
-          },
-          {
-             "name" : "198.129.254.9"
-          },
-          {
-             "name" : "lbnl59-doenet-pt1.es.net"
           }
       ],
       "type" : "disjoint"
