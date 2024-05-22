@@ -869,7 +869,39 @@
       },
       "address" : "kans-ps-lat.lhcone.es.net",
       "host" : "kans-ps.es.net"
+   },
+   "lanlta03-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "lanlta03-ps-lat.es.net",
+         "display-set" : "lanlta03-ps.es.net"
+      },
+      "address" : "lanlta03-ps-lat.es.net",
+      "host" : "lanlta03-ps.es.net"
+   },
+   "lanlta03-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "lanlta03-ps-tp.es.net",
+           "display-set" : "lanlta03-ps.es.net"
+        },
+        "address" : "lanlta03-ps-tp.es.net",
+        "host" : "lanlta03-ps.es.net"
+    },
+    "lanlta50-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "lanlta50-ps-lat.es.net",
+         "display-set" : "lanlta50-ps.es.net"
+      },
+      "address" : "lanlta50-ps-lat.es.net",
+      "host" : "lanlta50-ps.es.net"
   },
+   "lanlta50-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "lanlta50-ps-tp.es.net",
+           "display-set" : "lanlta50-ps.es.net"
+        },
+        "address" : "lanlta50-ps-tp.es.net",
+        "host" : "lanlta50-ps.es.net"
+    },
     "lasv-ps-lat.es.net" : {
         "_meta" : {
            "display-name" : "lasv-ps-lat.es.net",
@@ -5818,6 +5850,12 @@
                "name" : "jlab205-ps-tp.es.net"
             },
             {
+               "name" : "lanlta03-ps-tp.es.net"
+            },
+            {
+               "name" : "lanlta50-ps-tp.es.net"
+            },
+            {
                "name" : "lbnl50-ps-tp.es.net"
             },
             {
@@ -5925,6 +5963,12 @@
             },
             {
                "name" : "jlab205-ps-lat.es.net"
+            },
+            {
+               "name" : "lanlta03-ps-lat.es.net"
+            },
+            {
+               "name" : "lanlta50-ps-lat.es.net"
             },
             {
                "name" : "lbnl50-ps-lat.es.net"
@@ -12467,6 +12511,18 @@
            "display-name" : "kans-ps.es.net",
            "organization-display-name" : "ESnet"
         }
+     },
+     "lanlta03-ps.es.net" : {
+      "_meta" : {
+         "display-name" : "lanlta03-ps.es.net",
+         "organization-display-name" : "ESnet"
+      }
+     },
+     "lanlta50-ps.es.net" : {
+      "_meta" : {
+         "display-name" : "lanlta50-ps.es.net",
+         "organization-display-name" : "ESnet"
+      }
      },
      "lasv-ps.es.net" : {
         "_meta" : {
