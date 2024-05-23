@@ -4721,6 +4721,22 @@
            },
            "address" : "eqxda3-doenet-ps-tp.es.net",
            "host" : "eqxda3-doenet-ps.es.net"
+       },
+       "lhc-latency.twgrid.org" : {
+         "_meta" : {
+            "display-name" : "lhc-latency.twgrid.org",
+            "display-set" : "lhc-latency.twgrid.org"
+         },
+         "address" : "lhc-latency.twgrid.org",
+         "host" : "lhc-latency.twgrid.org"
+     },
+      "lhc-bandwidth.twgrid.org" : {
+           "_meta" : {
+              "display-name" : "lhc-bandwidth.twgrid.org",
+              "display-set" : "lhc-bandwidth.twgrid.org"
+           },
+           "address" : "lhc-bandwidth.twgrid.org",
+           "host" : "lhc-bandwidth.twgrid.org"
        }   
    },
    "groups" : {
@@ -11457,6 +11473,9 @@
         },
         {
          "name" : "lhcmon.bnl.gov"
+        },
+        {
+         "name" : "lhc-latency.twgrid.org"
         }
      ],
      "b-addresses" : [
@@ -11912,7 +11931,10 @@
         },
         {
          "name" : "lhcmon.bnl.gov"
-        }
+        },
+        {
+         "name" : "lhc-bandwidth.twgrid.org"
+        }        
      ],
      "b-addresses" : [
        {
@@ -15332,6 +15354,18 @@
          "_meta" : {
             "display-name" : "eqxda3-doenet-ps.es.net",
             "organization-display-name" : "DOEnet"
+         }
+      },
+      "lhc-latency.twgrid.org" : {
+         "_meta" : {
+            "display-name" : "lhc-latency.twgrid.org",
+            "organization-display-name" : "USATLAS"
+         }
+      },
+      "lhc-bandwidth.twgrid.org" : {
+         "_meta" : {
+            "display-name" : "lhc-bandwidth.twgrid.org",
+            "organization-display-name" : "USATLAS"
          }
       }
    },
