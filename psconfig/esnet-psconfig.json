@@ -12262,6 +12262,15 @@
          {
             "name" : "atla-ps-lat.lsst.es.net"
          },
+         {
+            "name" : "chat-ps-lat.lsst.es.net"
+         },
+         {
+               "name" : "slac50n-ps-lat.lsst.es.net"
+            },
+            {
+               "name" : "slac50s-ps-lat.lsst.es.net"
+            },
         {
          "name" : "perfsonar1-360.ls.lsst.org"
       },
@@ -12302,6 +12311,15 @@
          {
             "name" : "atla-ps-tp.lsst.es.net"
          },
+         {
+            "name" : "chat-ps-tp.lsst.es.net"
+         },
+         {
+              "name" : "slac50n-ps-tp.lsst.es.net"
+           },
+           {
+              "name" : "slac50s-ps-tp.lsst.es.net"
+           },
          {
             "name" : "perfsonar1-360.ls.lsst.org"
          },
