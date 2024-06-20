@@ -3543,6 +3543,27 @@
          "address" : "perfsonar.tamucc.edu",
          "host" : "perfsonar.tamucc.edu"
       },
+      "perfsonar-central.itec.tamu.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar-central.itec.tamu.edu"
+         },
+         "address" : "perfsonar-central.itec.tamu.edu",
+         "host" : "perfsonar-central.itec.tamu.edu"
+      },
+      "perfsonar-bin-seb.umnet.umich.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar-bin-seb.umnet.umich.edu"
+         },
+         "address" : "perfsonar-bin-seb.umnet.umich.edu",
+         "host" : "perfsonar-bin-seb.umnet.umich.edu"
+      },
+      "perfsonar-bin-arbl.umnet.umich.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar-bin-arbl.umnet.umich.edu"
+         },
+         "address" : "perfsonar-bin-arbl.umnet.umich.edu",
+         "host" : "perfsonar-bin-arbl.umnet.umich.edu"
+      },
       "perfsonar.ucad.sn" : {
          "_meta" : {
             "display-name" : "perfsonar.ucad.sn"
@@ -11158,6 +11179,26 @@
       ],
       "type" : "disjoint"
     },
+    "group_lanl" : {
+      "addresses" : [
+        {
+           "name" : "lanlta03-ps-tp.es.net"
+        },
+        {
+            "name" : "lanlta50-ps-tp.es.net"
+        },
+        {
+         "name" : "perfsonar-bin-seb.umnet.umich.edu"
+        },
+        {
+         "name" : "perfsonar-bin-arbl.umnet.umich.edu"
+        },
+        {
+         "name" : "perfsonar-central.itec.tamu.edu"
+        }
+      ],
+      "type" : "mesh"
+   },
     "group_lhcone_latency" : {
       "a-addresses" : [
         {
@@ -14360,6 +14401,30 @@
          },
          "no-agent" : true
       },
+      "perfsonar-central.itec.tamu.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar-central.itec.tamu.edu",
+            "organization-display-name" : "TAMU",
+            "site-display-name" : "Texas A&M"
+         },
+         "no-agent" : true
+      },
+      "perfsonar-bin-seb.umnet.umich.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar-bin-seb.umnet.umich.edu",
+            "organization-display-name" : "UMich",
+            "site-display-name" : "UMich"
+         },
+         "no-agent" : true
+      },
+      "perfsonar-bin-arbl.umnet.umich.edu" : {
+         "_meta" : {
+            "display-name" : "perfsonar-bin-arbl.umnet.umich.edu",
+            "organization-display-name" : "UMich",
+            "site-display-name" : "UMich"
+         },
+         "no-agent" : true
+      },
       "perfsonar.ucad.sn" : {
          "_meta" : {
             "display-name" : "perfsonar.ucad.sn",
@@ -16892,6 +16957,96 @@
               "archives": [ "ps-west" ],
               "test" : "ESnet6_v4_trace"
            },
+
+           "LANL_IPv4_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "LANL IPv4 Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["991: LANL to ESnet and others"]
+            },
+            "group" : "group_lanl",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_LAT_1_v4"
+          },
+           "LANL_IPv4_Throughput_Testing" : {
+            "_meta" : {
+               "display-name" : "LANL IPv4 Throughput Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["991: LANL to ESnet and others"]
+            },
+            "group" : "group_lanl",
+            "schedule" : "schedule_0",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_TP_1_v4"
+          },
+           "LANL_IPv4_Traceroute_Testing" : {
+              "_meta" : {
+                 "display-name" : "LANL IPv4 Traceroute Testing"
+              },
+              "reference": {
+                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+                 "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+                 "display-task-group": ["991: LANL to ESnet and others"]
+              },
+              "group" : "group_lanl",
+              "schedule" : "schedule_1",
+              "archives": [ "ps-west" ],
+              "test" : "ESnet6_v4_trace"
+           },
+           "LANL_IPv6_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "LANL IPv6 Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["991: LANL to ESnet and others"]
+            },
+            "group" : "group_lanl",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_LAT_1_v6"
+          },
+           "LANL_IPv6_Throughput_Testing" : {
+            "_meta" : {
+               "display-name" : "LANL IPv6 Throughput Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["991: LANL to ESnet and others"]
+            },
+            "group" : "group_lanl",
+            "schedule" : "schedule_0",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_TP_1_v6"
+          },
+           "LANL_IPv6_Traceroute_Testing" : {
+              "_meta" : {
+                 "display-name" : "LANL IPv6 Traceroute Testing"
+              },
+              "reference": {
+                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+                 "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+                 "display-task-group": ["991: LANL to ESnet and others"]
+              },
+              "group" : "group_lanl",
+              "schedule" : "schedule_1",
+              "archives": [ "ps-west" ],
+              "test" : "ESnet6_v6_trace"
+           },
+
            "LHCONE_IPv6_Throughput_Testing" : {
             "_meta" : {
                "display-name" : "LHCONE IPv6 Throughput Testing"

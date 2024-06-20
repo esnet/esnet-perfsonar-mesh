@@ -257,4 +257,13 @@ dashboards:
        - name: "ESnet - ESnet6 to ESnet6 IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - 100G ESnet6 Hub to 100G ESnet6 Hub IPv4 Throughput Testing - Throughput"
        - name: "ESnet - ESnet6 Hub to ESnet6 Hub IPv4 Traceroute Testing - Path Count"
+   - name: "991: LANL to ESnet and others"
+     grids:
+       - name: "ESnet - LANL IPv6 Packet Loss Testing - Loss"
+       - name: "ESnet - LANL IPv6 Throughput Testing - Throughput"
+       - name: "ESnet - LANL IPv6 Traceroute Testing - Path Count"
+       - name: "ESnet - LANL IPv4 Packet Loss Testing - Loss"
+       - name: "ESnet - LANL IPv4 Throughput Testing - Throughput"
+       - name: "ESnet - LANL IPv4 Traceroute Testing - Path Count"
+
 
