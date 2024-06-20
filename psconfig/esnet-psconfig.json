@@ -4829,29 +4829,23 @@
           },
           {
              "name" : "lbnl59-ps-tp.es.net"
-          }
+          },
+          {
+            "name" : "sacr-ps-tp.es.net"
+         }
         ],
         "b-addresses" : [
-           {
+         {
+            "name" : "eqxsv5-ps-tp.es.net"
+         },
+         {
+            "name" : "lbnl50-ps-tp.es.net"
+         },
+         {
+            "name" : "lbnl59-ps-tp.es.net"
+         },
+         {
               "name" : "sacr-ps-tp.es.net"
-           },
-           {
-              "name" : "salt-ps-tp.es.net"
-           },
-           {
-              "name" : "denv-ps-tp.es.net"
-           },
-           {
-              "name" : "kans-ps-tp.es.net"
-           },
-           {
-              "name" : "chic-ps-tp.es.net"
-           },
-           {
-              "name" : "bost-ps-tp.es.net"
-           },
-           {
-              "name" : "wash-ps-tp.es.net"
            }
         ],
         "type" : "disjoint"
@@ -15472,7 +15466,7 @@
    "tasks" : {
           "100G_ESnet6_IPv4_Throughput_Testing_iperf3" : {
              "_meta" : {
-                "display-name" : "100G ESnet6 IPv4 Throughput Testing Mesh iperf3"
+                "display-name" : "100G ESnet6 IPv4 Throughput Testing Mesh iperf3 multi 8"
              },
              "reference": {
                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -15483,14 +15477,14 @@
              "group" : "ESnet6_TP_TUNING",
              "schedule" : "schedule_0",
              "archives": [ "ps-west" ],
-             "test" : "ESnet6_TP_1_v4",
+             "test" : "ESnet6_TP_v4_multi_8",
              "tools" : [
                 "iperf3"
              ]
           },
           "100G_ESnet6_IPv4_Throughput_Testing_iperf2" : {
              "_meta" : {
-                "display-name" : "100G ESnet6 IPv4 Throughput Testing Mesh iperf2"
+                "display-name" : "100G ESnet6 IPv6 Throughput Testing Mesh iperf3 multi 8"
              },
              "reference": {
                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
@@ -15501,9 +15495,9 @@
              "group" : "ESnet6_TP_TUNING",
              "schedule" : "schedule_0",
              "archives": [ "ps-west" ],
-             "test" : "ESnet6_TP_1_v4",
+             "test" : "ESnet6_TP_v6_multi_8",
              "tools" : [
-                "iperf2"
+                "iperf3"
              ]
           },
      "100G_ESnet6_Hub_to_100G_ESnet6_Hub_IPv4_Throughput_Testing_Mesh_Excludes" : {
