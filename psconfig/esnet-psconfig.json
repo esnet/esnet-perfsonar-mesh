@@ -17424,6 +17424,35 @@
          },
          "type" : "throughput"
       },
+      "ESnet6_TP_v4_multi_8" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "duration" : "PT10S",
+            "omit" : "PT5S",
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "ip-version": 4,
+            "bandwidth": 64000000000,
+            "parallel": 8
+         },
+         "type" : "throughput"
+      },
+      "ESnet6_TP_v6_multi_8" : {
+         "spec" : {
+            "dest" : "{% address[1] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "duration" : "PT10S",
+            "omit" : "PT5S",
+            "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "ip-version": 6,
+            "flow-label": 131080,
+            "bandwidth": 64000000000,
+            "parallel": 8
+         },
+         "type" : "throughput"
+      },
       "ESnet6_LAT_1_v4" : {
          "spec" : {
             "dest" : "{% address[1] %}",
