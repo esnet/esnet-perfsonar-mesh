@@ -17427,7 +17427,7 @@
             "source" : "{% address[0] %}",
             "source-node" : "{% pscheduler_address[0] %}",
             "ip-version": 4,
-            "bandwidth": 64000000000,
+            "bandwidth": 8000000000,
             "parallel": 8
          },
          "type" : "throughput"
@@ -17442,7 +17442,7 @@
             "source-node" : "{% pscheduler_address[0] %}",
             "ip-version": 6,
             "flow-label": 131080,
-            "bandwidth": 64000000000,
+            "bandwidth": 8000000000,
             "parallel": 8
          },
          "type" : "throughput"
