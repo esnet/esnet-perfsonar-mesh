@@ -3564,6 +3564,13 @@
          "address" : "perfsonar-bin-arbl.umnet.umich.edu",
          "host" : "perfsonar-bin-arbl.umnet.umich.edu"
       },
+      "d3d-dtn5.gat.com" : {
+         "_meta" : {
+            "display-name" : "d3d-dtn5.gat.com"
+         },
+         "address" : "d3d-dtn5.gat.com",
+         "host" : "d3d-dtn5.gat.com"
+      },
       "perfsonar.ucad.sn" : {
          "_meta" : {
             "display-name" : "perfsonar.ucad.sn"
@@ -11193,6 +11200,20 @@
       ],
       "type" : "mesh"
    },
+   "group_doe_fes" : {
+      "addresses" : [
+        {
+           "name" : "ga-ps-tp.es.net"
+        },
+        {
+            "name" : "pppl-ps-tp.es.net"
+        },
+        {
+         "name" : "d3d-dtn5.gat.com"
+        }
+      ],
+      "type" : "mesh"
+   },
     "group_lhcone_latency" : {
       "a-addresses" : [
         {
@@ -14419,6 +14440,14 @@
          },
          "no-agent" : true
       },
+      "d3d-dtn5.gat.com" : {
+         "_meta" : {
+            "display-name" : "d3d-dtn5.gat.com",
+            "organization-display-name" : "General Atomics",
+            "site-display-name" : "GA"
+         },
+         "no-agent" : true
+      },
       "perfsonar.ucad.sn" : {
          "_meta" : {
             "display-name" : "perfsonar.ucad.sn",
@@ -16951,7 +16980,6 @@
               "archives": [ "ps-west" ],
               "test" : "ESnet6_v4_trace"
            },
-
            "LANL_IPv4_Loss_Testing" : {
             "_meta" : {
                "display-name" : "LANL IPv4 Packet Loss Testing"
@@ -17036,6 +17064,96 @@
                  "display-task-group": ["991: LANL to ESnet and others"]
               },
               "group" : "group_lanl",
+              "schedule" : "schedule_1",
+              "archives": [ "ps-west" ],
+              "test" : "ESnet6_v6_trace"
+           },
+
+
+           "DOE_FES_IPv4_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "DOE Fusion Energy Services IPv4 Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
+            },
+            "group" : "group_doe_fes",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_LAT_1_v4"
+          },
+           "DOE_FES_IPv4_Throughput_Testing" : {
+            "_meta" : {
+               "display-name" : "DOE Fusion Energy Services IPv4 Throughput Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
+            },
+            "group" : "group_doe_fes",
+            "schedule" : "schedule_0",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_TP_1_v4"
+          },
+           "DOE_FES_IPv4_Traceroute_Testing" : {
+              "_meta" : {
+                 "display-name" : "DOE Fusion Energy Services IPv4 Traceroute Testing"
+              },
+              "reference": {
+                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+                 "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+                 "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
+              },
+              "group" : "group_doe_fes",
+              "schedule" : "schedule_1",
+              "archives": [ "ps-west" ],
+              "test" : "ESnet6_v4_trace"
+           },
+           "DOE_FES_IPv6_Loss_Testing" : {
+            "_meta" : {
+               "display-name" : "DOE Fusion Energy Services IPv6 Packet Loss Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
+            },
+            "group" : "group_doe_fes",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_LAT_1_v6"
+          },
+           "DOE_FES_IPv6_Throughput_Testing" : {
+            "_meta" : {
+               "display-name" : "DOE Fusion Energy Services IPv6 Throughput Testing"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
+            },
+            "group" : "group_doe_fes",
+            "schedule" : "schedule_0",
+            "archives": [ "ps-west" ],
+            "test" : "ESnet6_TP_1_v6"
+          },
+           "DOE_FES_IPv6_Traceroute_Testing" : {
+              "_meta" : {
+                 "display-name" : "DOE Fusion Energy Services IPv6 Traceroute Testing"
+              },
+              "reference": {
+                 "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+                 "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+                 "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+                 "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
+              },
+              "group" : "group_doe_fes",
               "schedule" : "schedule_1",
               "archives": [ "ps-west" ],
               "test" : "ESnet6_v6_trace"
@@ -17238,7 +17356,7 @@
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["41: ESnet to NSF-Supported SuperComputers"]
+               "display-task-group": ["49: ESnet to NSF-Supported SuperComputers"]
             },
             "group" : "group_NSF_SC_throughput",
             "schedule" : "schedule_0",
@@ -17253,7 +17371,7 @@
                "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-               "display-task-group": ["41: ESnet to NSF-Supported SuperComputers"]
+               "display-task-group": ["49: ESnet to NSF-Supported SuperComputers"]
             },
             "group" : "group_NSF_SC_latency",
             "archives": [ "ps-west" ],
@@ -17267,7 +17385,7 @@
                  "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
                  "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
                  "display-task-name": "{% jq .task._meta.\"display-name\" %}",
-                 "display-task-group": ["41: ESnet to NSF-Supported SuperComputers"]
+                 "display-task-group": ["49: ESnet to NSF-Supported SuperComputers"]
               },
               "group" : "group_NSF_SC_throughput",
               "schedule" : "schedule_1",

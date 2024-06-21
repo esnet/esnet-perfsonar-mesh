@@ -164,7 +164,15 @@ dashboards:
        - name: "ESnet - ESnet to Large Facility IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - ESnet to Large Facility IPv6 Throughput Testing - Throughput"
        - name: "ESnet - ESnet to Large Facility IPv4 Throughput Testing - Throughput"
-   - name: "41: ESnet to NSF-Supported SuperComputers"
+   - name: "44: ESnet to DOE Fusion Energy Services"
+     grids:
+       - name: "ESnet - DOE Fusion Energy Services IPv6 Packet Loss Testing - Loss"
+       - name: "ESnet - DOE Fusion Energy Services IPv6 Throughput Testing - Throughput"
+       - name: "ESnet - DOE Fusion Energy Services IPv6 Traceroute Testing - Path Count"
+       - name: "ESnet - DOE Fusion Energy Services IPv4 Packet Loss Testing - Loss"
+       - name: "ESnet - DOE Fusion Energy Services IPv4 Throughput Testing - Throughput"
+       - name: "ESnet - DOE Fusion Energy Services IPv4 Traceroute Testing - Path Count"
+   - name: "49: ESnet to NSF-Supported SuperComputers"
      grids:
        - name: "ESnet - NSF SuperComputers IPv4 Packet Loss Testing - Loss"
        - name: "ESnet - NSF SuperComputers IPv4 Throughput Testing - Throughput"
