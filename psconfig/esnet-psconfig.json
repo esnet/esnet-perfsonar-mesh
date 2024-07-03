@@ -11200,7 +11200,24 @@
       ],
       "type" : "mesh"
    },
-   "group_doe_fes" : {
+   "group_doe_fes_latency" : {
+      "addresses" : [
+        {
+           "name" : "ga-ps-lat.es.net"
+        },
+        {
+            "name" : "pppl-ps-lat.es.net"
+        },
+        {
+         "name" : "cern513-ps-lat.es.net"
+     },
+        {
+         "name" : "d3d-dtn5.gat.com"
+        }
+      ],
+      "type" : "mesh"
+   },
+   "group_doe_fes_throughput" : {
       "addresses" : [
         {
            "name" : "ga-ps-tp.es.net"
@@ -11208,6 +11225,9 @@
         {
             "name" : "pppl-ps-tp.es.net"
         },
+        {
+         "name" : "cern513-ps-tp.es.net"
+     },
         {
          "name" : "d3d-dtn5.gat.com"
         }
@@ -17068,8 +17088,6 @@
               "archives": [ "ps-west" ],
               "test" : "ESnet6_v6_trace"
            },
-
-
            "DOE_FES_IPv4_Loss_Testing" : {
             "_meta" : {
                "display-name" : "DOE Fusion Energy Services IPv4 Packet Loss Testing"
@@ -17080,7 +17098,7 @@
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
                "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
             },
-            "group" : "group_doe_fes",
+            "group" : "group_doe_fes_latency",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_LAT_1_v4"
           },
@@ -17094,7 +17112,7 @@
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
                "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
             },
-            "group" : "group_doe_fes",
+            "group" : "group_doe_fes_throughput",
             "schedule" : "schedule_0",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v4"
@@ -17109,7 +17127,7 @@
                  "display-task-name": "{% jq .task._meta.\"display-name\" %}",
                  "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
               },
-              "group" : "group_doe_fes",
+              "group" : "group_doe_fes_throughput",
               "schedule" : "schedule_1",
               "archives": [ "ps-west" ],
               "test" : "ESnet6_v4_trace"
@@ -17124,7 +17142,7 @@
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
                "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
             },
-            "group" : "group_doe_fes",
+            "group" : "group_doe_fes_latency",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_LAT_1_v6"
           },
@@ -17138,7 +17156,7 @@
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
                "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
             },
-            "group" : "group_doe_fes",
+            "group" : "group_doe_fes_throughput",
             "schedule" : "schedule_0",
             "archives": [ "ps-west" ],
             "test" : "ESnet6_TP_1_v6"
@@ -17153,7 +17171,7 @@
                  "display-task-name": "{% jq .task._meta.\"display-name\" %}",
                  "display-task-group": ["44: ESnet to DOE Fusion Energy Services"]
               },
-              "group" : "group_doe_fes",
+              "group" : "group_doe_fes_throughput",
               "schedule" : "schedule_1",
               "archives": [ "ps-west" ],
               "test" : "ESnet6_v6_trace"
