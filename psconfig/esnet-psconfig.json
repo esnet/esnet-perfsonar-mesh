@@ -7223,16 +7223,13 @@
      "group_nrel_owamp" : {
       "a-addresses" : [
           {
-             "name" : "nrel-pt1.nrel.gov"
-          },
-          {
              "name" : "nrel-perf01-100g.nrel.gov"
           },
           {
-             "name" : "ps0.nrel.gov"
+             "name" : "ps0-hpc-25g.nrel.gov"
           },
           {
-             "name" : "ps2-61.nrel.gov"
+             "name" : "ps2-hpc-100g.nrel.gov"
           }
       ],
       "b-addresses" : [
@@ -7260,16 +7257,13 @@
     "group_nrel_thrupt" : {
      "a-addresses" : [
          {
-            "name" : "nrel-pt1.nrel.gov"
-         },
-         {
             "name" : "nrel-perf01-100g.nrel.gov"
          },
          {
-            "name" : "ps0.nrel.gov"
+            "name" : "ps0-hpc-25g.nrel.gov"
          },
          {
-            "name" : "ps2-61.nrel.gov"
+            "name" : "ps2-hpc-100g.nrel.gov"
          }
      ],
      "b-addresses" : [
