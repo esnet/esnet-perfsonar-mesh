@@ -1751,21 +1751,21 @@
         "address" : "nrel-perf01-100g.nrel.gov",
         "host" : "nrel-perf01-100g.nrel.gov"
      },
-     "ps0.nrel.gov" : {
+     "ps0-hpc-25g.nrel.gov" : {
         "_meta" : {
-           "display-name" : "ps0.nrel.gov",
-           "display-set" : "ps0.nrel.gov"
+           "display-name" : "ps0-hpc-25g.nrel.gov",
+           "display-set" : "ps0-hpc-25g.nrel.gov"
         },
-        "address" : "ps0.nrel.gov",
-        "host" : "ps0.nrel.gov"
+        "address" : "ps0-hpc-25g.nrel.gov",
+        "host" : "ps0-hpc-25g.nrel.gov"
      },
-     "ps2-61.nrel.gov" : {
+     "ps2-hpc-100g.nrel.gov" : {
         "_meta" : {
-           "display-name" : "ps2-61.nrel.gov",
-           "display-set" : "ps2-61.nrel.gov"
+           "display-name" : "ps2-hpc-100g.nrel.gov",
+           "display-set" : "ps2-hpc-100g.nrel.gov"
         },
-        "address" : "ps2-61.nrel.gov",
-        "host" : "ps2-61.nrel.gov"
+        "address" : "ps2-hpc-100g.nrel.gov",
+        "host" : "ps2-hpc-100g.nrel.gov"
      },
      "perfsonar1.alaska.edu" : {
          "_meta" : {
@@ -7229,6 +7229,9 @@
              "name" : "ps0-hpc-25g.nrel.gov"
           },
           {
+             "name" : "denv-ps-lat.es.net"
+          },
+          {
              "name" : "ps2-hpc-100g.nrel.gov"
           }
       ],
@@ -7261,6 +7264,9 @@
          },
          {
             "name" : "ps0-hpc-25g.nrel.gov"
+         },
+         {
+            "name" : "denv-ps-lat.es.net"
          },
          {
             "name" : "ps2-hpc-100g.nrel.gov"
@@ -13005,15 +13011,15 @@
          },
          "no-agent" : true
      },
-     "ps2-61.nrel.gov" : {
+     "ps2-hpc-100g.nrel.gov" : {
          "_meta" : {
-            "display-name" : "ps2-61.nrel.gov",
+            "display-name" : "ps2-hpc-100g.nrel.gov",
             "organization-display-name" : "NREL"
          }
      },
-     "ps0.nrel.gov" : {
+     "ps0-hpc-25g.nrel.gov" : {
          "_meta" : {
-            "display-name" : "ps0.nrel.gov",
+            "display-name" : "ps0-hpc-25g.nrel.gov",
             "organization-display-name" : "NREL"
          }
      },
