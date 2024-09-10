@@ -7232,6 +7232,9 @@
              "name" : "denv-ps-lat.es.net"
           },
           {
+             "name" : "salt-ps-lat.es.net"
+          },
+          {
              "name" : "ps2-hpc-100g.nrel.gov"
           }
       ],
@@ -7264,9 +7267,6 @@
          },
          {
             "name" : "ps0-hpc-25g.nrel.gov"
-         },
-         {
-            "name" : "denv-ps-lat.es.net"
          },
          {
             "name" : "ps2-hpc-100g.nrel.gov"
