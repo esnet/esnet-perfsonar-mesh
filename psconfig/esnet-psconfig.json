@@ -7255,6 +7255,15 @@
             "name" : "inlerob-ps-lat.es.net"
           },
           {
+            "name": "snlca902-ps-lat.es.net"
+          },
+          {
+            "name": "netlpgh-ps-lat.es.net"
+          },
+          {
+            "name": "lbnl59-ps-lat.es.net"
+          },
+          {
              "name" : "owamp-scz.pnl.gov"
           }
       ],
