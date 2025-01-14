@@ -1174,6 +1174,38 @@
         "address" : "ornl5600-ps-tp.es.net",
         "host" : "ornl5600-ps.es.net"
     },
+    "pantex-ps-lat.es.net" : {
+      "_meta" : {
+         "display-name" : "pantex-ps-lat.es.net",
+         "display-set" : "pantex-ps.es.net"
+      },
+      "address" : "pantex-ps-lat.es.net",
+      "host" : "pantex-ps.es.net"
+   },
+   "pantex-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "pantex-ps-tp.es.net",
+           "display-set" : "pantex-ps.es.net"
+        },
+        "address" : "pantex-ps-tp.es.net",
+        "host" : "pantex-ps.es.net"
+    },
+    "pantex-ps-tp.lhcone.es.net" : {
+      "_meta" : {
+         "display-name" : "pantex-ps-tp.lhcone.es.net",
+         "display-set" : "pantex-ps.es.net"
+      },
+      "address" : "pantex-ps-tp.lhcone.es.net",
+      "host" : "pantex-ps.es.net"
+   },
+   "pantex-ps-lat.lhcone.es.net" : {
+        "_meta" : {
+           "display-name" : "pantex-ps-lat.lhcone.es.net",
+           "display-set" : "pantex-ps.es.net"
+        },
+        "address" : "pantex-ps-lat.lhcone.es.net",
+        "host" : "pantex-ps.es.net"
+    },
     "pppl-ps-lat.es.net" : {
       "_meta" : {
          "display-name" : "pppl-ps-lat.es.net",
@@ -4962,6 +4994,9 @@
                "name" : "llnl-ps-tp.es.net"
             },
             {
+               "name" : "pantex-ps-tp.es.net"
+            },
+            {
                "name" : "ornl1064-ps-tp.es.net"
             },
             {
@@ -5275,6 +5310,9 @@
               "name" : "orau-ps-lat.es.net"
            },
            {
+              "name" : "pantex-ps-lat.es.net"
+           },
+           {
               "name" : "sacr-ps-lat.es.net"
            },
            {
@@ -5371,6 +5409,9 @@
            },
            {
               "name" : "orau-ps-tp.es.net"
+           },
+           {
+            "name" : "pantex-ps-tp.es.net"
            },
            {
               "name" : "sacr-ps-tp.es.net"
