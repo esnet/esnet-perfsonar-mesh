@@ -1179,32 +1179,28 @@
          "display-name" : "pantex-ps-lat.es.net",
          "display-set" : "pantex-ps.es.net"
       },
-      "address" : "pantex-ps-lat.es.net",
-      "host" : "pantex-ps.es.net"
+      "address" : "pantex-ps-lat.es.net"
    },
    "pantex-ps-tp.es.net" : {
         "_meta" : {
            "display-name" : "pantex-ps-tp.es.net",
            "display-set" : "pantex-ps.es.net"
         },
-        "address" : "pantex-ps-tp.es.net",
-        "host" : "pantex-ps.es.net"
+        "address" : "pantex-ps-tp.es.net"
     },
     "pantex-ps-tp.lhcone.es.net" : {
       "_meta" : {
          "display-name" : "pantex-ps-tp.lhcone.es.net",
          "display-set" : "pantex-ps.es.net"
       },
-      "address" : "pantex-ps-tp.lhcone.es.net",
-      "host" : "pantex-ps.es.net"
+      "address" : "pantex-ps-tp.lhcone.es.net"
    },
    "pantex-ps-lat.lhcone.es.net" : {
         "_meta" : {
            "display-name" : "pantex-ps-lat.lhcone.es.net",
            "display-set" : "pantex-ps.es.net"
         },
-        "address" : "pantex-ps-lat.lhcone.es.net",
-        "host" : "pantex-ps.es.net"
+        "address" : "pantex-ps-lat.lhcone.es.net"
     },
     "pppl-ps-lat.es.net" : {
       "_meta" : {
