@@ -2693,21 +2693,21 @@
          "address" : "perfsonar.nersc.gov",
          "host" : "perfsonar.nersc.gov"
       },
-      "atlas-npt1.bu.edu" : {
+      "argus-t1.net2.mghpcc.org" : {
          "_meta" : {
-            "display-name" : "atlas-npt1.bu.edu",
-            "display-set" : "atlas-npt1.bu.edu"
+            "display-name" : "argus-t1.net2.mghpcc.org",
+            "display-set" : "argus.net2.mghpcc.org"
          },
-         "address" : "atlas-npt1.bu.edu",
-         "host" : "atlas-npt1.bu.edu"
+         "address" : "argus-t1.net2.mghpcc.org",
+         "no-agent" : true
       },
-      "atlas-npt2.bu.edu" : {
+      "argus-l1.net2.mghpcc.org" : {
          "_meta" : {
-            "display-name" : "atlas-npt2.bu.edu",
-            "display-set" : "atlas-npt2.bu.edu"
+            "display-name" : "argus-l1.net2.mghpcc.org",
+            "display-set" : "argus.net2.mghpcc.org"
          },
-         "address" : "atlas-npt2.bu.edu",
-         "host" : "atlas-npt2.bu.edu"
+         "address" : "argus-l1.net2.mghpcc.org",
+         "no-agent" : true
       },
       "mwt2-ps03.campuscluster.illinois.edu" : {
          "_meta" : {
@@ -11561,11 +11561,8 @@
         "name" : "lhcperfmon.bnl.gov"
         },
         {
-         "name" : "atlas-npt1.bu.edu"
-     },
-      {
-         "name" : "atlas-npt2.bu.edu"
-     },
+         "name" : "argus-l1.net2.mghpcc.org"
+        },
         {
          "name" : "mwt2-ps03.campuscluster.illinois.edu"
        }, 
@@ -12019,11 +12016,8 @@
         "name" : "lhcperfmon.bnl.gov"
         },
         {
-         "name" : "atlas-npt1.bu.edu"
-     },
-      {
-         "name" : "atlas-npt2.bu.edu"
-     },
+         "name" : "argus-t1.net2.mghpcc.org"
+        },
         {
          "name" : "mwt2-ps03.campuscluster.illinois.edu"
        }, 
@@ -13727,20 +13721,6 @@
          "_meta" : {
             "display-name" : "perfsonar.nersc.gov",
             "organization-display-name" : "NERSC"
-         },
-         "no-agent" : true
-      },
-      "atlas-npt2.bu.edu" : {
-         "_meta" : {
-            "display-name" : "atlas-npt2.bu.edu",
-            "organization-display-name" : "Boston University"
-         },
-         "no-agent" : true
-      },
-      "atlas-npt1.bu.edu" : {
-         "_meta" : {
-            "display-name" : "atlas-npt1.bu.edu",
-            "organization-display-name" : "Boston University"
          },
          "no-agent" : true
       },
