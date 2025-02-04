@@ -1,0 +1,567 @@
+{
+   "_meta":{
+      "administrators":[
+         {
+            "email":"bae@es.net",
+            "name":"Brian Eschen"
+         },
+         {
+            "email":"andy@es.net",
+            "name":"Andy Lake"
+         }
+      ],
+      "display-name":"ESnet-DOEnet"
+   },
+   "archives":{},
+   "addresses":{
+      "albq-doenet-ps-lat.es.net":{
+         "_meta":{
+            "display-name":"albq-doenet-ps-lat.es.net",
+            "display-set":"albq-doenet-ps.es.net"
+         },
+         "address":"albq-doenet-ps-lat.es.net",
+         "host":"albq-doenet-ps.es.net"
+      },
+      "albq-doenet-ps-tp.es.net":{
+         "_meta":{
+            "display-name":"albq-doenet-ps-tp.es.net",
+            "display-set":"albq-doenet-ps.es.net"
+         },
+         "address":"albq-doenet-ps-tp.es.net",
+         "host":"albq-doenet-ps.es.net"
+      },
+      "forrestal-doenet-ps-lat.es.net":{
+         "_meta":{
+            "display-name":"forrestal-doenet-ps-lat.es.net",
+            "display-set":"forrestal-doenet-ps.es.net"
+         },
+         "address":"forrestal-doenet-ps-lat.es.net",
+         "host":"forrestal-doenet-ps.es.net"
+      },
+      "forrestal-doenet-ps-tp.es.net":{
+         "_meta":{
+            "display-name":"forrestal-doenet-ps-tp.es.net",
+            "display-set":"forrestal-doenet-ps.es.net"
+         },
+         "address":"forrestal-doenet-ps-tp.es.net",
+         "host":"forrestal-doenet-ps.es.net"
+      },
+      "germantown-doenet-ps-lat.es.net":{
+         "_meta":{
+            "display-name":"germantown-doenet-ps-lat.es.net",
+            "display-set":"germantown-doenet-ps.es.net"
+         },
+         "address":"germantown-doenet-ps-lat.es.net",
+         "host":"germantown-doenet-ps.es.net"
+      },
+      "germantown-doenet-ps-tp.es.net":{
+         "_meta":{
+            "display-name":"germantown-doenet-ps-tp.es.net",
+            "display-set":"germantown-doenet-ps.es.net"
+         },
+         "address":"germantown-doenet-ps-tp.es.net",
+         "host":"germantown-doenet-ps.es.net"
+      },
+      "eqxash-doenet-ps-lat.es.net":{
+         "_meta":{
+            "display-name":"eqxash-doenet-ps-lat.es.net",
+            "display-set":"eqxash-doenet-ps.es.net"
+         },
+         "address":"eqxash-doenet-ps-lat.es.net",
+         "host":"eqxash-doenet-ps.es.net"
+      },
+      "eqxash-doenet-ps-tp.es.net":{
+         "_meta":{
+            "display-name":"eqxash-doenet-ps-tp.es.net",
+            "display-set":"eqxash-doenet-ps.es.net"
+         },
+         "address":"eqxash-doenet-ps-tp.es.net",
+         "host":"eqxash-doenet-ps.es.net"
+      },
+      "nnssnso-doenet-ps-lat.es.net":{
+         "_meta":{
+            "display-name":"nnssnso-doenet-ps-lat.es.net",
+            "display-set":"nnssnso-doenet-ps.es.net"
+         },
+         "address":"nnssnso-doenet-ps-lat.es.net",
+         "host":"nnssnso-doenet-ps.es.net"
+      },
+      "nnssnso-doenet-ps-tp.es.net":{
+         "_meta":{
+            "display-name":"nnssnso-doenet-ps-tp.es.net",
+            "display-set":"nnssnso-doenet-ps.es.net"
+         },
+         "address":"nnssnso-doenet-ps-tp.es.net",
+         "host":"nnssnso-doenet-ps.es.net"
+      },
+      "eqxda3-doenet-ps-lat.es.net":{
+         "_meta":{
+            "display-name":"eqxda3-doenet-ps-lat.es.net",
+            "display-set":"eqxda3-doenet-ps.es.net"
+         },
+         "address":"eqxda3-doenet-ps-lat.es.net",
+         "host":"eqxda3-doenet-ps.es.net"
+      },
+      "eqxda3-doenet-ps-tp.es.net":{
+         "_meta":{
+            "display-name":"eqxda3-doenet-ps-tp.es.net",
+            "display-set":"eqxda3-doenet-ps.es.net"
+         },
+         "address":"eqxda3-doenet-ps-tp.es.net",
+         "host":"eqxda3-doenet-ps.es.net"
+      }
+   },
+   "groups":{
+      "group_doenet_owamp":{
+         "type":"mesh",
+         "addresses":[
+            {
+               "name":"albq-doenet-ps-lat.es.net"
+            },
+            {
+               "name":"eqxash-doenet-ps-lat.es.net"
+            },
+            {
+               "name":"eqxda3-doenet-ps-lat.es.net"
+            },
+            {
+               "name":"forrestal-doenet-ps-lat.es.net"
+            },
+            {
+               "name":"germantown-doenet-ps-lat.es.net"
+            },
+            {
+               "name":"nnssnso-doenet-ps-lat.es.net"
+            }
+         ]
+      },
+      "group_doenet_10g_tp":{
+         "type":"mesh",
+         "addresses":[
+            {
+               "name":"albq-doenet-ps-tp.es.net"
+            },
+            {
+               "name":"eqxash-doenet-ps-tp.es.net"
+            },
+            {
+               "name":"eqxda3-doenet-ps-tp.es.net"
+            },
+            {
+               "name":"forrestal-doenet-ps-tp.es.net"
+            },
+            {
+               "name":"germantown-doenet-ps-tp.es.net"
+            }
+         ]
+      },
+      "group_doenet_1gto10g_tp":{
+         "type":"disjoint",
+         "unidirectional":true,
+         "a-addresses":[
+            {
+               "name":"nnssnso-doenet-ps-tp.es.net"
+            }
+         ],
+         "b-addresses":[
+            {
+               "name":"albq-doenet-ps-tp.es.net"
+            },
+            {
+               "name":"eqxash-doenet-ps-tp.es.net"
+            },
+            {
+               "name":"eqxda3-doenet-ps-tp.es.net"
+            },
+            {
+               "name":"forrestal-doenet-ps-tp.es.net"
+            },
+            {
+               "name":"germantown-doenet-ps-tp.es.net"
+            }
+         ]
+      },
+      "group_doenet_1g_tp":{
+         "type":"mesh",
+         "addresses":[
+            {
+               "name":"nnssnso-doenet-ps-tp.es.net"
+            }
+         ]
+      }
+   },
+   "hosts":{
+      "albq-doenet-ps.es.net":{
+         "_meta":{
+            "display-name":"albq-doenet-ps.es.net",
+            "organization-display-name":"ESnet-DOEnet"
+         }
+      },
+      "forrestal-doenet-ps.es.net":{
+         "_meta":{
+            "display-name":"forrestal-doenet-ps.es.net",
+            "organization-display-name":"ESnet-DOEnet"
+         }
+      },
+      "germantown-doenet-ps.es.net":{
+         "_meta":{
+            "display-name":"germantown-doenet-ps.es.net",
+            "organization-display-name":"ESnet-DOEnet"
+         }
+      },
+      "eqxash-doenet-ps.es.net":{
+         "_meta":{
+            "display-name":"eqxash-doenet-ps.es.net",
+            "organization-display-name":"ESnet-DOEnet"
+         }
+      },
+      "nnssnso-doenet-ps.es.net":{
+         "_meta":{
+            "display-name":"nnssnso-doenet-ps.es.net",
+            "organization-display-name":"ESnet-DOEnet"
+         }
+      },
+      "eqxda3-doenet-ps.es.net":{
+         "_meta":{
+            "display-name":"eqxda3-doenet-ps.es.net",
+            "organization-display-name":"ESnet-DOEnet"
+         }
+      }
+   },
+   "schedules":{
+      "schedule_0":{
+         "repeat":"PT21600S",
+         "slip":"PT21600S",
+         "sliprand":true
+      },
+      "schedule_1":{
+         "repeat":"PT3600S",
+         "slip":"PT3600S",
+         "sliprand":true
+      },
+      "schedule_2":{
+         "repeat":"PT14400S",
+         "slip":"PT14400S",
+         "sliprand":true
+      }
+   },
+   "tests":{
+      "DOEnet_TP_1_v4_10G":{
+         "spec":{
+            "dest":"{% address[1] %}",
+            "dest-node":"{% pscheduler_address[1] %}",
+            "duration":"PT10S",
+            "omit":"PT5S",
+            "source":"{% address[0] %}",
+            "source-node":"{% pscheduler_address[0] %}",
+            "ip-version":4,
+            "bandwidth":8000000000
+         },
+         "type":"throughput"
+      },
+      "DOEnet_TP_1_v6_10G":{
+         "spec":{
+            "dest":"{% address[1] %}",
+            "dest-node":"{% pscheduler_address[1] %}",
+            "duration":"PT10S",
+            "omit":"PT5S",
+            "source":"{% address[0] %}",
+            "source-node":"{% pscheduler_address[0] %}",
+            "ip-version":6,
+            "flow-label":131080,
+            "bandwidth":8000000000
+         },
+         "type":"throughput"
+      },
+      "DOEnet_TP_1_v4_1G":{
+         "spec":{
+            "dest":"{% address[1] %}",
+            "dest-node":"{% pscheduler_address[1] %}",
+            "duration":"PT10S",
+            "omit":"PT5S",
+            "source":"{% address[0] %}",
+            "source-node":"{% pscheduler_address[0] %}",
+            "ip-version":4,
+            "bandwidth":800000000
+         },
+         "type":"throughput"
+      },
+      "DOEnet_TP_1_v6_1G":{
+         "spec":{
+            "dest":"{% address[1] %}",
+            "dest-node":"{% pscheduler_address[1] %}",
+            "duration":"PT10S",
+            "omit":"PT5S",
+            "source":"{% address[0] %}",
+            "source-node":"{% pscheduler_address[0] %}",
+            "ip-version":6,
+            "flow-label":131080,
+            "bandwidth":80000000
+         },
+         "type":"throughput"
+      },
+      "DOEnet_LAT_1_v4":{
+         "spec":{
+            "dest":"{% address[1] %}",
+            "dest-node":"{% pscheduler_address[1] %}",
+            "flip":"{% flip %}",
+            "packet-count":600,
+            "packet-interval":0.1,
+            "packet-padding":0,
+            "source":"{% address[0] %}",
+            "source-node":"{% pscheduler_address[0] %}",
+            "ip-version":4
+         },
+         "type":"latencybg"
+      },
+      "DOEnet_LAT_1_v6":{
+         "spec":{
+            "dest":"{% address[1] %}",
+            "dest-node":"{% pscheduler_address[1] %}",
+            "flip":"{% flip %}",
+            "packet-count":600,
+            "packet-interval":0.1,
+            "packet-padding":0,
+            "source":"{% address[0] %}",
+            "source-node":"{% pscheduler_address[0] %}",
+            "ip-version":6
+         },
+         "type":"latencybg"
+      },
+      "DOEnet_v4_trace":{
+         "spec":{
+            "dest":"{% address[1] %}",
+            "probe-type":"icmp",
+            "sendwait":"PT5S",
+            "source":"{% address[0] %}",
+            "source-node":"{% pscheduler_address[0] %}",
+            "wait":"PT30S",
+            "ip-version":4
+         },
+         "type":"trace"
+      },
+      "DOEnet_v6_trace":{
+         "spec":{
+            "dest":"{% address[1] %}",
+            "probe-type":"icmp",
+            "sendwait":"PT5S",
+            "source":"{% address[0] %}",
+            "source-node":"{% pscheduler_address[0] %}",
+            "wait":"PT30S",
+            "ip-version":6,
+            "flow-label":131080
+         },
+         "type":"trace"
+      },
+      "DOEnet_v4_DNS":{
+         "spec":{
+            "host":"{% address[0] %}",
+            "nameserver":"{% address[1] %}",
+            "query":"fasterdata.es.net",
+            "record":"a"
+         },
+         "type":"dns"
+      },
+      "DOEnet_v6_DNS":{
+         "spec":{
+            "host":"{% address[0] %}",
+            "nameserver":"{% address[1] %}",
+            "query":"fasterdata.es.net",
+            "record":"aaaa"
+         },
+         "type":"dns"
+      }
+   },
+   "tasks":{
+      "ESnet_DOENET_10G_Throughput_Testing_IPv4":{
+         "_meta":{
+            "display-name":"ESnet DOEnet 10G IPv4 Throughput Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_10g_tp",
+         "test":"DOEnet_TP_1_v4_10G",
+         "schedule":"schedule_0"
+      },
+      "ESnet_DOENET_10G_Throughput_Testing_IPv6":{
+         "_meta":{
+            "display-name":"ESnet DOEnet 10G IPv6 Throughput Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_10g_tp",
+         "test":"DOEnet_TP_1_v6_10G",
+         "schedule":"schedule_0"
+      },
+      "ESnet_DOENET_1G_Throughput_Testing_IPv4":{
+         "_meta":{
+            "display-name":"ESnet DOEnet 1G IPv4 Throughput Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_1g_tp",
+         "test":"DOEnet_TP_1_v4_1G",
+         "schedule":"schedule_0"
+      },
+      "ESnet_DOENET_1G_Throughput_Testing_IPv6":{
+         "_meta":{
+            "display-name":"ESnet DOEnet 1G IPv6 Throughput Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_1g_tp",
+         "test":"DOEnet_TP_1_v6_1G",
+         "schedule":"schedule_0"
+      },
+      "ESnet_DOENET_1G_to_10G_Throughput_Testing_IPv4":{
+         "_meta":{
+            "display-name":"ESnet DOEnet 1G IPv4 Throughput Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_1gto10g_tp",
+         "test":"DOEnet_TP_1_v4_1G",
+         "schedule":"schedule_0"
+      },
+      "ESnet_DOENET_1G_to_10G_Throughput_Testing_IPv6":{
+         "_meta":{
+            "display-name":"ESnet DOEnet 1G IPv6 Throughput Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_1gto10g_tp",
+         "test":"DOEnet_TP_1_v6_1G",
+         "schedule":"schedule_0"
+      },
+      "ESnet_DOENET_Packet_Loss_Testing_IPv4":{
+         "_meta":{
+            "display-name":"ESnet DOEnet IPv4 Packet Loss Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_owamp",
+         "test":"DOEnet_LAT_1_v4"
+      },
+      "ESnet_DOENET_Packet_Loss_Testing_IPv6":{
+         "_meta":{
+            "display-name":"ESnet DOEnet IPv6 Packet Loss Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_owamp",
+         "test":"DOEnet_LAT_1_v6"
+      },
+      "ESnet_DOENET_Traceroute_Testing_IPv4":{
+         "_meta":{
+            "display-name":"ESnet DOEnet IPv4 Traceroute Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_owamp",
+         "schedule":"schedule_1",
+         "test":"DOEnet_v4_trace"
+      },
+      "ESnet_DOENET_Traceroute_Testing_IPv6":{
+         "_meta":{
+            "display-name":"ESnet DOEnet IPv6 Traceroute Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_owamp",
+         "schedule":"schedule_1",
+         "test":"DOEnet_v6_trace"
+      },
+      "DOEnet_v4_DNS_Testing":{
+         "_meta":{
+            "display-name":"DOEnet IPv4 DNS Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_owamp",
+         "schedule":"schedule_1",
+         "test":"DOEnet_v4_DNS"
+      },
+      "DOEnet_v6_DNS_Testing":{
+         "_meta":{
+            "display-name":"DOEnet IPv6 DNS Testing"
+         },
+         "reference":{
+            "display-set-source":"{% jq .addresses[0]._meta.\"display-set\" %}",
+            "display-set-dest":"{% jq .addresses[1]._meta.\"display-set\" %}",
+            "display-task-name":"{% jq .task._meta.\"display-name\" %}",
+            "display-task-group":[
+               "35: ESnet DOEnet to DOEnet Sites"
+            ]
+         },
+         "group":"group_doenet_owamp",
+         "schedule":"schedule_1",
+         "test":"DOEnet_v6_DNS"
+      }
+   }
+}
