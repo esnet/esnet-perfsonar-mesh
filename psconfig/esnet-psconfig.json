@@ -1162,6 +1162,22 @@
         "address" : "ornl5600-ps-tp.es.net",
         "host" : "ornl5600-ps.es.net"
     },
+    "osti-ps-tp.es.net" : {
+        "_meta" : {
+           "display-name" : "osti-ps-tp.es.net",
+           "display-set" : "osti-ps.es.net"
+        },
+        "address" : "osti-ps-tp.es.net",
+        "host" : "osti-ps.es.net"
+    },
+    "osti-ps-lat.es.net" : {
+        "_meta" : {
+           "display-name" : "osti-ps-lat.es.net",
+           "display-set" : "osti-ps.es.net"
+        },
+        "address" : "osti-ps-lat.es.net",
+        "host" : "osti-ps.es.net"
+    },
     "pantex-ps-lat.es.net" : {
       "_meta" : {
          "display-name" : "pantex-ps-lat.es.net",
@@ -4990,6 +5006,9 @@
                "name" : "orau-ps-tp.es.net"
             },
             {
+               "name" : "osti-ps-tp.es.net"
+            },
+            {
                "name" : "snlca902-ps-tp.es.net"
             }
          ],
@@ -5294,6 +5313,9 @@
               "name" : "orau-ps-lat.es.net"
            },
            {
+              "name" : "osti-ps-lat.es.net"
+          },
+           {
               "name" : "pantex-ps-lat.es.net"
            },
            {
@@ -5393,6 +5415,9 @@
            },
            {
               "name" : "orau-ps-tp.es.net"
+           },
+           {
+              "name" : "osti-ps-tp.es.net"
            },
            {
             "name" : "pantex-ps-tp.es.net"
@@ -5931,6 +5956,9 @@
                "name" : "orau-ps-tp.es.net"
             },
             {
+               "name" : "osti-ps-tp.es.net"
+            },
+            {
                "name" : "ornl5600-ps-tp.es.net"
             },
             {
@@ -6044,6 +6072,9 @@
             },
             {
                "name" : "orau-ps-lat.es.net"
+            },
+            {
+               "name" : "osti-ps-lat.es.net"
             },
             {
                "name" : "ornl5600-ps-lat.es.net"
@@ -12736,6 +12767,12 @@
      "orau-ps.es.net" : {
         "_meta" : {
            "display-name" : "orau-ps.es.net",
+           "organization-display-name" : "ESnet"
+        }
+     },
+     "osti-ps.es.net" : {
+        "_meta" : {
+           "display-name" : "osti-ps.es.net",
            "organization-display-name" : "ESnet"
         }
      },
