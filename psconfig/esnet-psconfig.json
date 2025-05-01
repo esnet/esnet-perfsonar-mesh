@@ -12488,15 +12488,23 @@
      "type" : "disjoint"
      },
      "ESnet_Additional_TP" : {
-        "addresses" : [
+        "a-addresses" : [
           {
             "name" : "pantex-ps-tp.es.net"
+          }
+        ],
+        "b-addresses" : [
+          {
+            "name" : "lanl-ps-tp.es.net"
           },
           {
-            "name" : "llnl-ps-tp.es.net"
+            "name" : "lanlta03-ps-tp.es.net"
+          },
+          {
+            "name" : "lanlta50-ps-tp.es.net"
           }
          ],
-         "type" : "mesh"
+         "type" : "disjoint"
       }
    },
    "hosts" : {
