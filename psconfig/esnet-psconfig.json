@@ -15623,9 +15623,9 @@
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
                "display-task-group": ["99: ESnet6 Testing"]
             },
-            "group" : "ESnet_Additional_TP_Reverse",
+            "group" : "ESnet_Additional_TP",
             "schedule" : "schedule_0",
-            "test" : "ESnet6_TP_1_v4",
+            "test" : "ESnet6_TP_1_v4_Reverse",
             "tools" : [ "iperf3"]
          },
          "100G_ESnet6_Additional_Throughput_v6_Reverse" : {
@@ -15638,9 +15638,9 @@
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
                "display-task-group": ["99: ESnet6 Testing"]
             },
-            "group" : "ESnet_Additional_TP_Reverse",
+            "group" : "ESnet_Additional_TP",
             "schedule" : "schedule_0",
-            "test" : "ESnet6_TP_1_v6",
+            "test" : "ESnet6_TP_1_v6_Reverse",
             "tools" : [ "iperf3"]
          },
           "100G_ESnet6_IPv4_Throughput_Testing_iperf3" : {
