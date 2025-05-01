@@ -15618,8 +15618,8 @@
                "display-name" : "100G ESnet6 Additional IPv4 Throughput Testing - Reverse"
             },
             "reference": {
-               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
-               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-set-source": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
                "display-task-group": ["99: ESnet6 Testing"]
             },
@@ -15633,8 +15633,8 @@
                "display-name" : "100G ESnet6 Additional IPv6 Throughput Testing - Reverse"
             },
             "reference": {
-               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
-               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-set-source": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[0]._meta.\"display-set\" %}",
                "display-task-name": "{% jq .task._meta.\"display-name\" %}",
                "display-task-group": ["99: ESnet6 Testing"]
             },
@@ -17517,7 +17517,7 @@
             "dest-node" : "{% pscheduler_address[1] %}",
             "duration" : "PT10S",
             "omit" : "PT5S",
-            "source" : "{% address[] %}",
+            "source" : "{% address[1] %}",
             "source-node" : "{% pscheduler_address[0] %}",
             "ip-version": 4,
             "bandwidth": 26000000000
