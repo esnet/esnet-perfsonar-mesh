@@ -15590,7 +15590,7 @@
             "test" : "ESnet6_TP_1_v4",
             "tools" : [ "iperf3"]
          },
-         "100G_ESnet6_Additional_Throughput_vv" : {
+         "100G_ESnet6_Additional_Throughput_v6" : {
             "_meta" : {
                "display-name" : "100G ESnet6 Additional IPv6 Throughput Testing"
             },
@@ -15601,6 +15601,36 @@
                "display-task-group": ["99: ESnet6 Testing"]
             },
             "group" : "ESnet_Additional_TP",
+            "schedule" : "schedule_0",
+            "test" : "ESnet6_TP_1_v6",
+            "tools" : [ "iperf3"]
+         },
+         "100G_ESnet6_Additional_Throughput_v4_Reverse" : {
+            "_meta" : {
+               "display-name" : "100G ESnet6 Additional IPv4 Throughput Testing - Reverse"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["99: ESnet6 Testing"]
+            },
+            "group" : "ESnet_Additional_TP_Reverse",
+            "schedule" : "schedule_0",
+            "test" : "ESnet6_TP_1_v4",
+            "tools" : [ "iperf3"]
+         },
+         "100G_ESnet6_Additional_Throughput_v6_Reverse" : {
+            "_meta" : {
+               "display-name" : "100G ESnet6 Additional IPv6 Throughput Testing - Reverse"
+            },
+            "reference": {
+               "display-set-source": "{% jq .addresses[0]._meta.\"display-set\" %}",
+               "display-set-dest": "{% jq .addresses[1]._meta.\"display-set\" %}",
+               "display-task-name": "{% jq .task._meta.\"display-name\" %}",
+               "display-task-group": ["99: ESnet6 Testing"]
+            },
+            "group" : "ESnet_Additional_TP_Reverse",
             "schedule" : "schedule_0",
             "test" : "ESnet6_TP_1_v6",
             "tools" : [ "iperf3"]
@@ -17473,6 +17503,19 @@
          },
          "type" : "throughput"
       },
+      "ESnet6_TP_1_v4_Reverse" : {
+         "spec" : {
+            "dest" : "{% address[0] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "duration" : "PT10S",
+            "omit" : "PT5S",
+            "source" : "{% address[] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "ip-version": 4,
+            "bandwidth": 26000000000
+         },
+         "type" : "throughput"
+      },
       "ESnet6_TP_1_v6" : {
          "spec" : {
             "dest" : "{% address[1] %}",
@@ -17480,6 +17523,20 @@
             "duration" : "PT10S",
             "omit" : "PT5S",
             "source" : "{% address[0] %}",
+            "source-node" : "{% pscheduler_address[0] %}",
+            "ip-version": 6,
+            "flow-label": 131080,
+            "bandwidth": 26000000000
+         },
+         "type" : "throughput"
+      },
+      "ESnet6_TP_1_v6_Reverse" : {
+         "spec" : {
+            "dest" : "{% address[0] %}",
+            "dest-node" : "{% pscheduler_address[1] %}",
+            "duration" : "PT10S",
+            "omit" : "PT5S",
+            "source" : "{% address[1] %}",
             "source-node" : "{% pscheduler_address[0] %}",
             "ip-version": 6,
             "flow-label": 131080,
