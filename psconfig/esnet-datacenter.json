@@ -105,8 +105,7 @@
                "name":"lbnl50-ps-tp.es.net"
             }
          ]
-      }
-   },
+      },
       "HAL_tests_tcp_throughput":{
          "type":"disjoint",
          "a-addresses":[
@@ -137,8 +136,7 @@
                "name":"eqxsv5-ps-tp.es.net"
             }
          ]
-      }
-   },
+      },
       "EAST_tests_tcp_throughput":{
          "type":"disjoint",
          "a-addresses":[
@@ -169,8 +167,7 @@
                "name":"bnl725-ps-tp.es.net"
             }
          ]
-      }
-   },
+      },
       "WEST_tests_latency_loss":{
          "type":"disjoint",
          "a-addresses":[
@@ -201,8 +198,7 @@
                "name":"lbnl50-ps-lat.es.net"
             }
          ]
-      }
-   },
+      },
       "HAL_tests_latency_loss":{
          "type":"disjoint",
          "a-addresses":[
@@ -233,8 +229,7 @@
                "name":"eqxsv5-ps-lat.es.net"
             }
          ]
-      }
-   },
+      },
       "EAST_tests_latency_loss":{
          "type":"disjoint",
          "a-addresses":[
