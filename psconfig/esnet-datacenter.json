@@ -1,106 +1,423 @@
 {
    "archives":{},
    "addresses":{
-      "FILL_IN_ADDRESS_NAME_1":{
-         "address":"FILL_IN_HOSTNAME_OR_IP_1"
+      "esnetwest-ps-tp":{
+         "address":"esnetwest-ps-tp.es.net"
       },
-      "FILL_IN_ADDRESS_NAME_2":{
-         "address":"FILL_IN_HOSTNAME_OR_IP_2"
+      "esnetwest-ps-tp-fw":{
+         "address":"esnetwest-ps-tp-fw.es.net"
+      },
+      "esnetwest-ps-lat":{
+         "address":"esnetwest-ps-lat.es.net"
+      },
+      "esnetwest-ps-lat-fw":{
+         "address":"esnetwest-ps-tp-fw.es.net"
+      },
+      "esnethal-ps-tp":{
+         "address":"esnethal-ps-tp.es.net"
+      },
+      "esnethal-ps-tp-fw":{
+         "address":"esnethal-ps-tp-fw.es.net"
+      },
+      "esnethal-ps-lat":{
+         "address":"esnethal-ps-lat.es.net"
+      },
+      "esnethal-ps-lat-fw":{
+         "address":"esnethal-ps-tp-fw.es.net"
+      },
+      "esneteast-ps-tp":{
+         "address":"esneteast-ps-tp.es.net"
+      },
+      "esneteast-ps-tp-fw":{
+         "address":"esneteast-ps-tp-fw.es.net"
+      },
+      "esneteast-ps-lat":{
+         "address":"esneteast-ps-lat.es.net"
+      },
+      "esneteast-ps-lat-fw":{
+         "address":"esneteast-ps-tp-fw.es.net"
+      },
+      "lbnl59-ps-tp":{
+         "address":"lbnl59-ps-tp.es.net"
+      },
+      "lbnl59-ps-lat":{
+         "address":"lbnl59-ps-lat.es.net"
+      },
+      "lbnl50-ps-tp":{
+         "address":"lbnl50-ps-tp.es.net"
+      },
+      "lbnl50-ps-lat":{
+         "address":"lbnl50-ps-lat.es.net"
+      },
+      "eqxsv5-ps-tp":{
+         "address":"eqxsv5-ps-tp.es.net"
+      },
+      "eqxsv5-ps-lat":{
+         "address":"eqxsv5-ps-lat.es.net"
+      },
+      "sunn-ps-tp":{
+         "address":"sunn-ps-tp.es.net"
+      },
+      "sunn-ps-lat":{
+         "address":"sunn-ps-lat.es.net"
+      },
+      "bnl515-ps-tp":{
+         "address":"bnl515-ps-tp.es.net"
+      },
+      "bnl515-ps-lat":{
+         "address":"bnl515-ps-lat.es.net"
+      },
+      "bnl725-ps-tp":{
+         "address":"bnl725-ps-tp.es.net"
+      },
+      "bnl725-ps-lat":{
+         "address":"bnl725-ps-lat.es.net"
       }
    },
    "groups":{
-      "example_group_mesh":{
-         "type":"mesh",
-         "addresses":[
-            {
-               "name":"FILL_IN_ADDRESS_NAME_1"
-            },
-            {
-               "name":"FILL_IN_ADDRESS_NAME_2"
-            }
-         ]
-      },
-      "example_group_disjoint":{
+      "WEST_tests_tcp_throughput":{
          "type":"disjoint",
          "a-addresses":[
             {
-               "name":"FILL_IN_ADDRESS_NAME_1"
+               "name":"esnetwest-ps-tp.es.net"
+            },
+            {
+               "name":"esnetwest-ps-tp-fw.es.net"
             }
          ],
          "b-addresses":[
             {
-               "name":"FILL_IN_ADDRESS_NAME_2"
+               "name":"esnethal-ps-tp.es.net"
+            },
+            {
+               "name":"esnethal-ps-tp-fw.es.net"
+            },
+            {
+               "name":"esneteast-ps-tp.es.net"
+            },
+            {
+               "name":"esneteast-ps-tp-fw.es.net"
+            },
+            {
+               "name":"lbnl59-ps-tp.es.net"
+            },
+            {
+               "name":"lbnl50-ps-tp.es.net"
+            }
+         ]
+      }
+   },
+      "HAL_tests_tcp_throughput":{
+         "type":"disjoint",
+         "a-addresses":[
+            {
+               "name":"esnethal-ps-tp.es.net"
+            },
+            {
+               "name":"esnethal-ps-tp-fw.es.net"
+            }
+         ],
+         "b-addresses":[
+            {
+               "name":"esnetwest-ps-tp.es.net"
+            },
+            {
+               "name":"esnetwest-ps-tp-fw.es.net"
+            },
+            {
+               "name":"esneteast-ps-tp.es.net"
+            },
+            {
+               "name":"esneteast-ps-tp-fw.es.net"
+            },
+            {
+               "name":"sunn-ps-tp.es.net"
+            },
+            {
+               "name":"eqxsv5-ps-tp.es.net"
+            }
+         ]
+      }
+   },
+      "EAST_tests_tcp_throughput":{
+         "type":"disjoint",
+         "a-addresses":[
+            {
+               "name":"esneteast-ps-tp.es.net"
+            },
+            {
+               "name":"esneteast-ps-tp-fw.es.net"
+            }
+         ],
+         "b-addresses":[
+            {
+               "name":"esnethal-ps-tp.es.net"
+            },
+            {
+               "name":"esnethal-ps-tp-fw.es.net"
+            },
+            {
+               "name":"esnetwest-ps-tp.es.net"
+            },
+            {
+               "name":"esnetwest-ps-tp-fw.es.net"
+            },
+            {
+               "name":"bnl515-ps-tp.es.net"
+            },
+            {
+               "name":"bnl725-ps-tp.es.net"
+            }
+         ]
+      }
+   },
+      "WEST_tests_latency_loss":{
+         "type":"disjoint",
+         "a-addresses":[
+            {
+               "name":"esnetwest-ps-lat.es.net"
+            },
+            {
+               "name":"esnetwest-ps-lat-fw.es.net"
+            }
+         ],
+         "b-addresses":[
+            {
+               "name":"esnethal-ps-lat.es.net"
+            },
+            {
+               "name":"esnethal-ps-lat-fw.es.net"
+            },
+            {
+               "name":"esneteast-ps-lat.es.net"
+            },
+            {
+               "name":"esneteast-ps-lat-fw.es.net"
+            },
+            {
+               "name":"lbnl59-ps-lat.es.net"
+            },
+            {
+               "name":"lbnl50-ps-lat.es.net"
+            }
+         ]
+      }
+   },
+      "HAL_tests_latency_loss":{
+         "type":"disjoint",
+         "a-addresses":[
+            {
+               "name":"esnethal-ps-lat.es.net"
+            },
+            {
+               "name":"esnethal-ps-lat-fw.es.net"
+            }
+         ],
+         "b-addresses":[
+            {
+               "name":"esnetwest-ps-lat.es.net"
+            },
+            {
+               "name":"esnetwest-ps-lat-fw.es.net"
+            },
+            {
+               "name":"esneteast-ps-lat.es.net"
+            },
+            {
+               "name":"esneteast-ps-lat-fw.es.net"
+            },
+            {
+               "name":"sunn-ps-lat.es.net"
+            },
+            {
+               "name":"eqxsv5-ps-lat.es.net"
+            }
+         ]
+      }
+   },
+      "EAST_tests_latency_loss":{
+         "type":"disjoint",
+         "a-addresses":[
+            {
+               "name":"esneteast-ps-lat.es.net"
+            },
+            {
+               "name":"esneteast-ps-lat-fw.es.net"
+            }
+         ],
+         "b-addresses":[
+            {
+               "name":"esnethal-ps-lat.es.net"
+            },
+            {
+               "name":"esnethal-ps-lat-fw.es.net"
+            },
+            {
+               "name":"esnetwest-ps-lat.es.net"
+            },
+            {
+               "name":"esnetwest-ps-lat-fw.es.net"
+            },
+            {
+               "name":"bnl515-ps-lat.es.net"
+            },
+            {
+               "name":"bnl725-ps-lat.es.net"
             }
          ]
       }
    },
    "tests":{
-      "example_test_throughput":{
+      "test_tcp_throughput":{
          "type":"throughput",
          "spec":{
             "source":"{% address[0] %}",
             "dest":"{% address[1] %}",
-            "duration":"PT30S"
+            "duration":"PT60S",
+            "ip-version": 6
          }
       },
-      "example_test_latencybg":{
+      "test_tcp_throughput_reverse":{
+         "type":"throughput",
+         "spec":{
+            "source":"{% address[1] %}",
+            "dest":"{% address[0] %}",
+            "duration":"PT60S",
+            "ip-version": 6
+         }
+      },
+      "test_latencybg":{
          "type":"latencybg",
          "spec":{
             "source":"{% address[0] %}",
             "dest":"{% address[1] %}",
-            "flip":"{% flip %}"
+            "flip":"{% flip %}",
+            "packet-count" : 600,
+            "packet-interval" : 0.1,
+            "packet-padding" : 0,
+            "ip-version": 6
          }
       },
-      "example_test_trace":{
+      "test_trace":{
          "type":"trace",
          "spec":{
             "source":"{% address[0] %}",
-            "dest":"{% address[1] %}"
+            "dest":"{% address[1] %}",
+            "ip-version": 6
          }
       }
    },
    "schedules":{
-      "example_schedule_PT4H":{
+      "schedule_PT4H":{
          "repeat":"PT4H",
          "sliprand":true,
          "slip":"PT4H"
       },
-      "example_schedule_PT10M":{
+      "schedule_PT10M":{
          "repeat":"PT10M",
          "sliprand":true,
          "slip":"PT10M"
+      },
+      "schedule_PT5M":{
+         "repeat":"PT5M",
+         "sliprand":true,
+         "slip":"PT5M"
       }
    },
    "tasks":{
-      "example_task_throughput":{
-         "group":"example_group_mesh",
-         "test":"example_test_throughput",
-         "schedule":"example_schedule_PT4H",
+      "west_task_tcp_throughput":{
+         "group":"WEST_tests_tcp_throughput",
+         "test":"test_tcp_throughput",
+         "schedule":"schedule_PT4H",
          "reference":{
-            "display-task-name":"Example Throughput Tests",
+            "display-task-name":"WEST TCP Throughput Tests",
             "display-task-group":[
-               "Example Tests"
+               "WEST"
             ]
          }
       },
-      "example_task_latencybg":{
-         "group":"example_group_mesh",
-         "test":"example_test_latencybg",
+      "west_task_tcp_throughput-reverse":{
+         "group":"WEST_tests_tcp_throughput",
+         "test":"test_tcp_throughput",
+         "schedule":"schedule_PT4H",
          "reference":{
-            "display-task-name":"Example Loss Tests",
+            "display-task-name":"WEST TCP Throughput Tests reverse",
             "display-task-group":[
-               "Example Tests"
+               "WEST"
             ]
          }
       },
-      "example_task_trace":{
-         "group":"example_group_mesh",
-         "test":"example_test_trace",
-         "schedule":"example_schedule_PT10M",
+      "hal_task_tcp_throughput":{
+         "group":"HAL_tests_tcp_throughput",
+         "test":"test_tcp_throughput",
+         "schedule":"schedule_PT4H",
          "reference":{
-            "display-task-name":"Example Traceroute Tests",
+            "display-task-name":"HAL TCP Throughput Tests",
             "display-task-group":[
-               "Example Tests"
+               "HAL"
+            ]
+         }
+      },
+      "hal_task_tcp_throughput-reverse":{
+         "group":"HAL_tests_tcp_throughput",
+         "test":"test_tcp_throughput",
+         "schedule":"schedule_PT4H",
+         "reference":{
+            "display-task-name":"HAL TCP Throughput Tests reverse",
+            "display-task-group":[
+               "HAL"
+            ]
+         }
+      },
+      "east_task_tcp_throughput":{
+         "group":"EAST_tests_tcp_throughput",
+         "test":"test_tcp_throughput",
+         "schedule":"schedule_PT4H",
+         "reference":{
+            "display-task-name":"EAST TCP Throughput Tests",
+            "display-task-group":[
+               "EAST"
+            ]
+         }
+      },
+      "east_task_tcp_throughput-reverse":{
+         "group":"EAST_tests_tcp_throughput",
+         "test":"test_tcp_throughput",
+         "schedule":"schedule_PT4H",
+         "reference":{
+            "display-task-name":"EAST TCP Throughput Tests reverse",
+            "display-task-group":[
+               "EAST"
+            ]
+         }
+      },
+      "west_task_latencybg":{
+         "group":"WEST_tests_latency_loss",
+         "test":"test_latencybg",
+         "reference":{
+            "display-task-name":"WEST Latency Loss Tests",
+            "display-task-group":[
+               "WEST"
+            ]
+         }
+      },
+      "hal_task_latencybg":{
+         "group":"HAL_tests_latency_loss",
+         "test":"test_latencybg",
+         "reference":{
+            "display-task-name":"HAL Latency Loss Tests",
+            "display-task-group":[
+               "HAL"
+            ]
+         }
+      },
+      "east_task_latencybg":{
+         "group":"EAST_tests_latency_loss",
+         "test":"test_latencybg",
+         "reference":{
+            "display-task-name":"EAST Latency Loss Tests",
+            "display-task-group":[
+               "EAST"
             ]
          }
       }
