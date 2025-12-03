@@ -79,30 +79,30 @@
          "type":"disjoint",
          "a-addresses":[
             {
-               "name":"esnetwest-ps-tp.es.net"
+               "name":"esnetwest-ps-tp"
             },
             {
-               "name":"esnetwest-ps-tp-fw.es.net"
+               "name":"esnetwest-ps-tp-fw"
             }
          ],
          "b-addresses":[
             {
-               "name":"esnethal-ps-tp.es.net"
+               "name":"esnethal-ps-tp"
             },
             {
-               "name":"esnethal-ps-tp-fw.es.net"
+               "name":"esnethal-ps-tp-fw"
             },
             {
-               "name":"esneteast-ps-tp.es.net"
+               "name":"esneteast-ps-tp"
             },
             {
-               "name":"esneteast-ps-tp-fw.es.net"
+               "name":"esneteast-ps-tp-fw"
             },
             {
-               "name":"lbnl59-ps-tp.es.net"
+               "name":"lbnl59-ps-tp"
             },
             {
-               "name":"lbnl50-ps-tp.es.net"
+               "name":"lbnl50-ps-tp"
             }
          ]
       },
@@ -110,30 +110,30 @@
          "type":"disjoint",
          "a-addresses":[
             {
-               "name":"esnethal-ps-tp.es.net"
+               "name":"esnethal-ps-tp"
             },
             {
-               "name":"esnethal-ps-tp-fw.es.net"
+               "name":"esnethal-ps-tp-fw"
             }
          ],
          "b-addresses":[
             {
-               "name":"esnetwest-ps-tp.es.net"
+               "name":"esnetwest-ps-tp"
             },
             {
-               "name":"esnetwest-ps-tp-fw.es.net"
+               "name":"esnetwest-ps-tp-fw"
             },
             {
-               "name":"esneteast-ps-tp.es.net"
+               "name":"esneteast-ps-tp"
             },
             {
-               "name":"esneteast-ps-tp-fw.es.net"
+               "name":"esneteast-ps-tp-fw"
             },
             {
-               "name":"sunn-ps-tp.es.net"
+               "name":"sunn-ps-tp"
             },
             {
-               "name":"eqxsv5-ps-tp.es.net"
+               "name":"eqxsv5-ps-tp"
             }
          ]
       },
@@ -141,30 +141,30 @@
          "type":"disjoint",
          "a-addresses":[
             {
-               "name":"esneteast-ps-tp.es.net"
+               "name":"esneteast-ps-tp"
             },
             {
-               "name":"esneteast-ps-tp-fw.es.net"
+               "name":"esneteast-ps-tp-fw"
             }
          ],
          "b-addresses":[
             {
-               "name":"esnethal-ps-tp.es.net"
+               "name":"esnethal-ps-tp"
             },
             {
-               "name":"esnethal-ps-tp-fw.es.net"
+               "name":"esnethal-ps-tp-fw"
             },
             {
-               "name":"esnetwest-ps-tp.es.net"
+               "name":"esnetwest-ps-tp"
             },
             {
-               "name":"esnetwest-ps-tp-fw.es.net"
+               "name":"esnetwest-ps-tp-fw"
             },
             {
-               "name":"bnl515-ps-tp.es.net"
+               "name":"bnl515-ps-tp"
             },
             {
-               "name":"bnl725-ps-tp.es.net"
+               "name":"bnl725-ps-tp"
             }
          ]
       },
@@ -172,30 +172,30 @@
          "type":"disjoint",
          "a-addresses":[
             {
-               "name":"esnetwest-ps-lat.es.net"
+               "name":"esnetwest-ps-lat"
             },
             {
-               "name":"esnetwest-ps-lat-fw.es.net"
+               "name":"esnetwest-ps-lat-fw"
             }
          ],
          "b-addresses":[
             {
-               "name":"esnethal-ps-lat.es.net"
+               "name":"esnethal-ps-lat"
             },
             {
-               "name":"esnethal-ps-lat-fw.es.net"
+               "name":"esnethal-ps-lat-fw"
             },
             {
-               "name":"esneteast-ps-lat.es.net"
+               "name":"esneteast-ps-lat"
             },
             {
-               "name":"esneteast-ps-lat-fw.es.net"
+               "name":"esneteast-ps-lat-fw"
             },
             {
-               "name":"lbnl59-ps-lat.es.net"
+               "name":"lbnl59-ps-lat"
             },
             {
-               "name":"lbnl50-ps-lat.es.net"
+               "name":"lbnl50-ps-lat"
             }
          ]
       },
@@ -203,30 +203,30 @@
          "type":"disjoint",
          "a-addresses":[
             {
-               "name":"esnethal-ps-lat.es.net"
+               "name":"esnethal-ps-lat"
             },
             {
-               "name":"esnethal-ps-lat-fw.es.net"
+               "name":"esnethal-ps-lat-fw"
             }
          ],
          "b-addresses":[
             {
-               "name":"esnetwest-ps-lat.es.net"
+               "name":"esnetwest-ps-lat"
             },
             {
-               "name":"esnetwest-ps-lat-fw.es.net"
+               "name":"esnetwest-ps-lat-fw"
             },
             {
-               "name":"esneteast-ps-lat.es.net"
+               "name":"esneteast-ps-lat"
             },
             {
-               "name":"esneteast-ps-lat-fw.es.net"
+               "name":"esneteast-ps-lat-fw"
             },
             {
-               "name":"sunn-ps-lat.es.net"
+               "name":"sunn-ps-lat"
             },
             {
-               "name":"eqxsv5-ps-lat.es.net"
+               "name":"eqxsv5-ps-lat"
             }
          ]
       },
@@ -234,30 +234,30 @@
          "type":"disjoint",
          "a-addresses":[
             {
-               "name":"esneteast-ps-lat.es.net"
+               "name":"esneteast-ps-lat"
             },
             {
-               "name":"esneteast-ps-lat-fw.es.net"
+               "name":"esneteast-ps-lat-fw"
             }
          ],
          "b-addresses":[
             {
-               "name":"esnethal-ps-lat.es.net"
+               "name":"esnethal-ps-lat"
             },
             {
-               "name":"esnethal-ps-lat-fw.es.net"
+               "name":"esnethal-ps-lat-fw"
             },
             {
-               "name":"esnetwest-ps-lat.es.net"
+               "name":"esnetwest-ps-lat"
             },
             {
-               "name":"esnetwest-ps-lat-fw.es.net"
+               "name":"esnetwest-ps-lat-fw"
             },
             {
-               "name":"bnl515-ps-lat.es.net"
+               "name":"bnl515-ps-lat"
             },
             {
-               "name":"bnl725-ps-lat.es.net"
+               "name":"bnl725-ps-lat"
             }
          ]
       }
