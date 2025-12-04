@@ -333,17 +333,6 @@
             ]
          }
       },
-      "west_task_tcp_throughput-reverse":{
-         "group":"WEST_tests_tcp_throughput",
-         "test":"test_tcp_throughput",
-         "schedule":"schedule_PT4H",
-         "reference":{
-            "display-task-name":"WEST TCP Throughput Tests reverse",
-            "display-task-group":[
-               "WEST"
-            ]
-         }
-      },
       "hal_task_tcp_throughput":{
          "group":"HAL_tests_tcp_throughput",
          "test":"test_tcp_throughput",
@@ -355,34 +344,12 @@
             ]
          }
       },
-      "hal_task_tcp_throughput-reverse":{
-         "group":"HAL_tests_tcp_throughput",
-         "test":"test_tcp_throughput",
-         "schedule":"schedule_PT4H",
-         "reference":{
-            "display-task-name":"HAL TCP Throughput Tests reverse",
-            "display-task-group":[
-               "HAL"
-            ]
-         }
-      },
       "east_task_tcp_throughput":{
          "group":"EAST_tests_tcp_throughput",
          "test":"test_tcp_throughput",
          "schedule":"schedule_PT4H",
          "reference":{
             "display-task-name":"EAST TCP Throughput Tests",
-            "display-task-group":[
-               "EAST"
-            ]
-         }
-      },
-      "east_task_tcp_throughput-reverse":{
-         "group":"EAST_tests_tcp_throughput",
-         "test":"test_tcp_throughput",
-         "schedule":"schedule_PT4H",
-         "reference":{
-            "display-task-name":"EAST TCP Throughput Tests reverse",
             "display-task-group":[
                "EAST"
             ]
