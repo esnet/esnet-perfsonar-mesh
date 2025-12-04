@@ -329,7 +329,7 @@
          "reference":{
             "display-task-name":"WEST TCP Throughput Tests",
             "display-task-group":[
-               "WEST"
+               "Data Centers - Throughput"
             ]
          }
       },
@@ -340,7 +340,7 @@
          "reference":{
             "display-task-name":"HAL TCP Throughput Tests",
             "display-task-group":[
-               "HAL"
+               "Data Centers - Throughput"
             ]
          }
       },
@@ -351,7 +351,7 @@
          "reference":{
             "display-task-name":"EAST TCP Throughput Tests",
             "display-task-group":[
-               "EAST"
+               "Data Centers - Throughput"
             ]
          }
       },
@@ -361,7 +361,7 @@
          "reference":{
             "display-task-name":"WEST Latency Loss Tests",
             "display-task-group":[
-               "WEST"
+               "Data Centers - Loss"
             ]
          }
       },
@@ -371,7 +371,7 @@
          "reference":{
             "display-task-name":"HAL Latency Loss Tests",
             "display-task-group":[
-               "HAL"
+               "Data Centers - Loss"
             ]
          }
       },
@@ -381,7 +381,7 @@
          "reference":{
             "display-task-name":"EAST Latency Loss Tests",
             "display-task-group":[
-               "EAST"
+               "Data Centers - Loss"
             ]
          }
       }
