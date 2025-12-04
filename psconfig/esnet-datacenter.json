@@ -268,7 +268,8 @@
          "spec":{
             "source":"{% address[0] %}",
             "dest":"{% address[1] %}",
-            "duration":"PT60S",
+            "duration":"PT30S",
+            "bandwidth": 5000000000,
             "ip-version": 6
          }
       },
@@ -277,7 +278,8 @@
          "spec":{
             "source":"{% address[1] %}",
             "dest":"{% address[0] %}",
-            "duration":"PT60S",
+            "duration":"PT30S",
+            "bandwidth": 5000000000,
             "ip-version": 6
          }
       },
