@@ -11,7 +11,7 @@
          "address":"esnetwest-ps-lat.es.net"
       },
       "esnetwest-ps-lat-fw":{
-         "address":"esnetwest-ps-tp-fw.es.net"
+         "address":"esnetwest-ps-lat-fw.es.net"
       },
       "esnethal-ps-tp":{
          "address":"esnethal-ps-tp.es.net"
@@ -23,7 +23,7 @@
          "address":"esnethal-ps-lat.es.net"
       },
       "esnethal-ps-lat-fw":{
-         "address":"esnethal-ps-tp-fw.es.net"
+         "address":"esnethal-ps-lat-fw.es.net"
       },
       "esneteast-ps-tp":{
          "address":"esneteast-ps-tp.es.net"
@@ -35,7 +35,7 @@
          "address":"esneteast-ps-lat.es.net"
       },
       "esneteast-ps-lat-fw":{
-         "address":"esneteast-ps-tp-fw.es.net"
+         "address":"esneteast-ps-lat-fw.es.net"
       },
       "lbnl59-ps-tp":{
          "address":"lbnl59-ps-tp.es.net"
