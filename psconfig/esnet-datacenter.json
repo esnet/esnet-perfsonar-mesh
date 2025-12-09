@@ -1,77 +1,106 @@
 {
    "archives":{},
+   "hosts": {
+       "esnetwest-ps": {},
+       "esneteast-ps": {},
+       "esnethal-ps": {}
+   },
    "addresses":{
       "esnetwest-ps-tp":{
-         "address":"esnetwest-ps-tp.es.net"
+         "address":"esnetwest-ps-tp.es.net",
+         "host": "esnetwest-ps"
       },
       "esnetwest-ps-tp-fw":{
-         "address":"esnetwest-ps-tp-fw.es.net"
+         "address":"esnetwest-ps-tp-fw.es.net",
+         "host": "esnetwest-ps"
       },
       "esnetwest-ps-lat":{
-         "address":"esnetwest-ps-lat.es.net"
+         "address":"esnetwest-ps-lat.es.net",
+         "host": "esnetwest-ps"
       },
       "esnetwest-ps-lat-fw":{
-         "address":"esnetwest-ps-lat-fw.es.net"
+         "address":"esnetwest-ps-lat-fw.es.net",
+         "host": "esnetwest-ps"
       },
       "esnethal-ps-tp":{
-         "address":"esnethal-ps-tp.es.net"
+         "address":"esnethal-ps-tp.es.net",
+         "host": "esnethal-ps"
       },
       "esnethal-ps-tp-fw":{
-         "address":"esnethal-ps-tp-fw.es.net"
+         "address":"esnethal-ps-tp-fw.es.net",
+         "host": "esnethal-ps"
       },
       "esnethal-ps-lat":{
-         "address":"esnethal-ps-lat.es.net"
+         "address":"esnethal-ps-lat.es.net",
+         "host": "esnethal-ps"
       },
       "esnethal-ps-lat-fw":{
-         "address":"esnethal-ps-lat-fw.es.net"
+         "address":"esnethal-ps-lat-fw.es.net",
+         "host": "esnethal-ps"
       },
       "esneteast-ps-tp":{
-         "address":"esneteast-ps-tp.es.net"
+         "address":"esneteast-ps-tp.es.net",
+         "host": "esneteast-ps"
       },
       "esneteast-ps-tp-fw":{
-         "address":"esneteast-ps-tp-fw.es.net"
+         "address":"esneteast-ps-tp-fw.es.net",
+         "host": "esneteast-ps"
       },
       "esneteast-ps-lat":{
-         "address":"esneteast-ps-lat.es.net"
+         "address":"esneteast-ps-lat.es.net",
+         "host": "esneteast-ps"
       },
       "esneteast-ps-lat-fw":{
-         "address":"esneteast-ps-lat-fw.es.net"
+         "address":"esneteast-ps-lat-fw.es.net",
+         "host": "esneteast-ps"
       },
       "lbnl59-ps-tp":{
-         "address":"lbnl59-ps-tp.es.net"
+         "address":"lbnl59-ps-tp.es.net",
+         "no-agent": true
       },
       "lbnl59-ps-lat":{
-         "address":"lbnl59-ps-lat.es.net"
+         "address":"lbnl59-ps-lat.es.net",
+         "no-agent": true
       },
       "lbnl50-ps-tp":{
-         "address":"lbnl50-ps-tp.es.net"
+         "address":"lbnl50-ps-tp.es.net",
+         "no-agent": true
       },
       "lbnl50-ps-lat":{
-         "address":"lbnl50-ps-lat.es.net"
+         "address":"lbnl50-ps-lat.es.net",
+         "no-agent": true
       },
       "eqxsv5-ps-tp":{
-         "address":"eqxsv5-ps-tp.es.net"
+         "address":"eqxsv5-ps-tp.es.net",
+         "no-agent": true
       },
       "eqxsv5-ps-lat":{
-         "address":"eqxsv5-ps-lat.es.net"
+         "address":"eqxsv5-ps-lat.es.net",
+         "no-agent": true
       },
       "sunn-ps-tp":{
-         "address":"sunn-ps-tp.es.net"
+         "address":"sunn-ps-tp.es.net",
+         "no-agent": true
       },
       "sunn-ps-lat":{
-         "address":"sunn-ps-lat.es.net"
+         "address":"sunn-ps-lat.es.net",
+         "no-agent": true
       },
       "bnl515-ps-tp":{
-         "address":"bnl515-ps-tp.es.net"
+         "address":"bnl515-ps-tp.es.net",
+         "no-agent": true
       },
       "bnl515-ps-lat":{
-         "address":"bnl515-ps-lat.es.net"
+         "address":"bnl515-ps-lat.es.net",
+         "no-agent": true
       },
       "bnl725-ps-tp":{
-         "address":"bnl725-ps-tp.es.net"
+         "address":"bnl725-ps-tp.es.net",
+         "no-agent": true
       },
       "bnl725-ps-lat":{
-         "address":"bnl725-ps-lat.es.net"
+         "address":"bnl725-ps-lat.es.net",
+         "no-agent": true
       }
    },
    "groups":{
@@ -260,6 +289,30 @@
                "name":"bnl725-ps-lat"
             }
          ]
+      },
+      "all_dc_latency_mesh_group": {
+         "type": "mesh",
+         "addresses": [
+            {"name": "esnetwest-ps-lat"},
+            {"name": "esnetwest-ps-lat-fw"},
+            {"name": "esneteast-ps-lat"},
+            {"name": "esneteast-ps-lat-fw"}
+            {"name": "esnethal-ps-lat"},
+            {"name": "esnethal-ps-lat-fw"}
+         ],
+         "excludes-self": "host"
+      },
+      "all_dc_throughput_mesh_group": {
+         "type": "mesh",
+         "addresses": [
+            {"name": "esnetwest-ps-tp"},
+            {"name": "esnetwest-ps-tp-fw"},
+            {"name": "esneteast-ps-tp"},
+            {"name": "esneteast-ps-tp-fw"}
+            {"name": "esnethal-ps-tp"},
+            {"name": "esnethal-ps-tp-fw"}
+         ],
+         "excludes-self": "host"
       }
    },
    "tests":{
@@ -322,6 +375,17 @@
       }
    },
    "tasks":{
+      "all_task_tcp_throughput_mesh":{
+         "group":"all_dc_throughput_mesh_group",
+         "test":"test_tcp_throughput",
+         "schedule":"schedule_PT4H",
+         "reference":{
+            "display-task-name":"All TCP Throughput Tests",
+            "display-task-group":[
+               "ESnet Data Centers - Throughput"
+            ]
+         }
+      },
       "west_task_tcp_throughput":{
          "group":"WEST_tests_tcp_throughput",
          "test":"test_tcp_throughput",
@@ -329,7 +393,7 @@
          "reference":{
             "display-task-name":"WEST TCP Throughput Tests",
             "display-task-group":[
-               "Data Centers - Throughput"
+               "ESnet Data Centers - Throughput"
             ]
          }
       },
@@ -340,7 +404,7 @@
          "reference":{
             "display-task-name":"HAL TCP Throughput Tests",
             "display-task-group":[
-               "Data Centers - Throughput"
+               "ESnet Data Centers - Throughput"
             ]
          }
       },
@@ -351,7 +415,17 @@
          "reference":{
             "display-task-name":"EAST TCP Throughput Tests",
             "display-task-group":[
-               "Data Centers - Throughput"
+               "ESnet Data Centers - Throughput"
+            ]
+         }
+      },
+      "all_task_latencybg":{
+         "group":"all_dc_latency_mesh_group",
+         "test":"test_latencybg",
+         "reference":{
+            "display-task-name":"All Latency Loss Tests",
+            "display-task-group":[
+               "ESnet Data Centers - Loss"
             ]
          }
       },
@@ -361,7 +435,7 @@
          "reference":{
             "display-task-name":"WEST Latency Loss Tests",
             "display-task-group":[
-               "Data Centers - Loss"
+               "ESnet Data Centers - Loss"
             ]
          }
       },
@@ -371,7 +445,7 @@
          "reference":{
             "display-task-name":"HAL Latency Loss Tests",
             "display-task-group":[
-               "Data Centers - Loss"
+               "ESnet Data Centers - Loss"
             ]
          }
       },
@@ -381,7 +455,7 @@
          "reference":{
             "display-task-name":"EAST Latency Loss Tests",
             "display-task-group":[
-               "Data Centers - Loss"
+               "ESnet Data Centers - Loss"
             ]
          }
       }
