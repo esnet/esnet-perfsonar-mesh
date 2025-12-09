@@ -296,7 +296,7 @@
             {"name": "esnetwest-ps-lat"},
             {"name": "esnetwest-ps-lat-fw"},
             {"name": "esneteast-ps-lat"},
-            {"name": "esneteast-ps-lat-fw"}
+            {"name": "esneteast-ps-lat-fw"},
             {"name": "esnethal-ps-lat"},
             {"name": "esnethal-ps-lat-fw"}
          ],
@@ -308,7 +308,7 @@
             {"name": "esnetwest-ps-tp"},
             {"name": "esnetwest-ps-tp-fw"},
             {"name": "esneteast-ps-tp"},
-            {"name": "esneteast-ps-tp-fw"}
+            {"name": "esneteast-ps-tp-fw"},
             {"name": "esnethal-ps-tp"},
             {"name": "esnethal-ps-tp-fw"}
          ],
