@@ -382,7 +382,7 @@
          "reference":{
             "display-task-name":"All TCP Throughput Tests",
             "display-task-group":[
-               "ESnet Data Centers - Throughput"
+               "100: ESnet Data Centers - Throughput"
             ]
          }
       },
@@ -393,7 +393,7 @@
          "reference":{
             "display-task-name":"WEST TCP Throughput Tests",
             "display-task-group":[
-               "ESnet Data Centers - Throughput"
+               "100: ESnet Data Centers - Throughput"
             ]
          }
       },
@@ -404,7 +404,7 @@
          "reference":{
             "display-task-name":"HAL TCP Throughput Tests",
             "display-task-group":[
-               "ESnet Data Centers - Throughput"
+               "100: ESnet Data Centers - Throughput"
             ]
          }
       },
@@ -415,7 +415,7 @@
          "reference":{
             "display-task-name":"EAST TCP Throughput Tests",
             "display-task-group":[
-               "ESnet Data Centers - Throughput"
+               "100: ESnet Data Centers - Throughput"
             ]
          }
       },
@@ -425,7 +425,7 @@
          "reference":{
             "display-task-name":"All Latency Loss Tests",
             "display-task-group":[
-               "ESnet Data Centers - Loss"
+               "101: ESnet Data Centers - Loss"
             ]
          }
       },
@@ -435,7 +435,7 @@
          "reference":{
             "display-task-name":"WEST Latency Loss Tests",
             "display-task-group":[
-               "ESnet Data Centers - Loss"
+               "101: ESnet Data Centers - Loss"
             ]
          }
       },
@@ -445,7 +445,7 @@
          "reference":{
             "display-task-name":"HAL Latency Loss Tests",
             "display-task-group":[
-               "ESnet Data Centers - Loss"
+               "101: ESnet Data Centers - Loss"
             ]
          }
       },
@@ -455,7 +455,7 @@
          "reference":{
             "display-task-name":"EAST Latency Loss Tests",
             "display-task-group":[
-               "ESnet Data Centers - Loss"
+               "101: ESnet Data Centers - Loss"
             ]
          }
       }
