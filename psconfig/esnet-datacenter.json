@@ -116,18 +116,6 @@
          ],
          "b-addresses":[
             {
-               "name":"esnethal-ps-tp"
-            },
-            {
-               "name":"esnethal-ps-tp-fw"
-            },
-            {
-               "name":"esneteast-ps-tp"
-            },
-            {
-               "name":"esneteast-ps-tp-fw"
-            },
-            {
                "name":"lbnl59-ps-tp"
             },
             {
@@ -146,18 +134,6 @@
             }
          ],
          "b-addresses":[
-            {
-               "name":"esnetwest-ps-tp"
-            },
-            {
-               "name":"esnetwest-ps-tp-fw"
-            },
-            {
-               "name":"esneteast-ps-tp"
-            },
-            {
-               "name":"esneteast-ps-tp-fw"
-            },
             {
                "name":"sunn-ps-tp"
             },
@@ -178,18 +154,6 @@
          ],
          "b-addresses":[
             {
-               "name":"esnethal-ps-tp"
-            },
-            {
-               "name":"esnethal-ps-tp-fw"
-            },
-            {
-               "name":"esnetwest-ps-tp"
-            },
-            {
-               "name":"esnetwest-ps-tp-fw"
-            },
-            {
                "name":"bnl515-ps-tp"
             },
             {
@@ -208,18 +172,6 @@
             }
          ],
          "b-addresses":[
-            {
-               "name":"esnethal-ps-lat"
-            },
-            {
-               "name":"esnethal-ps-lat-fw"
-            },
-            {
-               "name":"esneteast-ps-lat"
-            },
-            {
-               "name":"esneteast-ps-lat-fw"
-            },
             {
                "name":"lbnl59-ps-lat"
             },
@@ -240,18 +192,6 @@
          ],
          "b-addresses":[
             {
-               "name":"esnetwest-ps-lat"
-            },
-            {
-               "name":"esnetwest-ps-lat-fw"
-            },
-            {
-               "name":"esneteast-ps-lat"
-            },
-            {
-               "name":"esneteast-ps-lat-fw"
-            },
-            {
                "name":"sunn-ps-lat"
             },
             {
@@ -270,18 +210,6 @@
             }
          ],
          "b-addresses":[
-            {
-               "name":"esnethal-ps-lat"
-            },
-            {
-               "name":"esnethal-ps-lat-fw"
-            },
-            {
-               "name":"esnetwest-ps-lat"
-            },
-            {
-               "name":"esnetwest-ps-lat-fw"
-            },
             {
                "name":"bnl515-ps-lat"
             },
@@ -343,7 +271,7 @@
             "dest":"{% address[1] %}",
             "flip":"{% flip %}",
             "packet-count" : 600,
-            "packet-interval" : 0.1,
+            "packet-interval" : 0.2,
             "packet-padding" : 0,
             "ip-version": 6
          }
