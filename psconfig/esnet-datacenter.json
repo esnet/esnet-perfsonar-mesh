@@ -3,7 +3,9 @@
    "hosts": {
        "esnetwest-ps": {},
        "esneteast-ps": {},
-       "esnethal-ps": {}
+       "esnethal-ps": {},
+       "eqxch2-ps": {},
+       "wash-ps": {}
    },
    "addresses":{
       "esnetwest-ps-tp":{
@@ -100,6 +102,22 @@
       },
       "bnl725-ps-lat":{
          "address":"bnl725-ps-lat.es.net",
+         "no-agent": true
+      },
+      "eqxch2-ps-lat":{
+         "address":"eqxch2-ps-lat.es.net",
+         "no-agent": true
+      },
+      "eqxch2-ps-tp":{
+         "address":"eqxch2-ps-tp.es.net",
+         "no-agent": true
+      },
+      "wash-ps-lat":{
+         "address":"wash-ps-lat.es.net",
+         "no-agent": true
+      },
+      "wash-ps-tp":{
+         "address":"wash-ps-tp.es.net",
          "no-agent": true
       }
    },
@@ -241,10 +259,32 @@
             {"name": "esnethal-ps-tp-fw"}
          ],
          "excludes-self": "host"
+      },
+      "witness_dc_latency_mesh_group": {
+         "type": "mesh",
+         "addresses": [
+            {"name": "esnetwest-ps-lat"},
+            {"name": "esneteast-ps-lat"},
+            {"name": "esnethal-ps-lat"},
+            {"name": "eqxch2-ps-lat"},
+            {"name": "wash-ps-lat"}
+         ],
+         "excludes-self": "host"
+      },
+      "witness_dc_throughput_mesh_group": {
+         "type": "mesh",
+         "addresses": [
+            {"name": "esnetwest-ps-tp"},
+            {"name": "esneteast-ps-tp"},
+            {"name": "esnethal-ps-tp"},
+            {"name": "eqxch2-ps-tp"},
+            {"name": "wash-ps-tp"}
+         ],
+         "excludes-self": "host"
       }
    },
    "tests":{
-      "test_tcp_throughput":{
+      "test_tcp_throughput-5Gb":{
          "type":"throughput",
          "spec":{
             "source":"{% address[0] %}",
@@ -254,13 +294,23 @@
             "ip-version": 6
          }
       },
-      "test_tcp_throughput_reverse":{
+      "test_tcp_throughput_reverse-5Gb":{
          "type":"throughput",
          "spec":{
             "source":"{% address[1] %}",
             "dest":"{% address[0] %}",
             "duration":"PT30S",
             "bandwidth": 5000000000,
+            "ip-version": 6
+         }
+      },
+      "test_tcp_throughput-1Gb":{
+         "type":"throughput",
+         "spec":{
+            "source":"{% address[0] %}",
+            "dest":"{% address[1] %}",
+            "duration":"PT30S",
+            "bandwidth": 1000000000,
             "ip-version": 6
          }
       },
@@ -305,7 +355,7 @@
    "tasks":{
       "all_task_tcp_throughput_mesh":{
          "group":"all_dc_throughput_mesh_group",
-         "test":"test_tcp_throughput",
+         "test":"test_tcp_throughput-5Gb",
          "schedule":"schedule_PT4H",
          "reference":{
             "display-task-name":"All TCP Throughput Tests",
@@ -316,7 +366,7 @@
       },
       "west_task_tcp_throughput":{
          "group":"WEST_tests_tcp_throughput",
-         "test":"test_tcp_throughput",
+         "test":"test_tcp_throughput-5Gb",
          "schedule":"schedule_PT4H",
          "reference":{
             "display-task-name":"WEST TCP Throughput Tests",
@@ -327,7 +377,7 @@
       },
       "hal_task_tcp_throughput":{
          "group":"HAL_tests_tcp_throughput",
-         "test":"test_tcp_throughput",
+         "test":"test_tcp_throughput-5Gb",
          "schedule":"schedule_PT4H",
          "reference":{
             "display-task-name":"HAL TCP Throughput Tests",
@@ -338,10 +388,21 @@
       },
       "east_task_tcp_throughput":{
          "group":"EAST_tests_tcp_throughput",
-         "test":"test_tcp_throughput",
+         "test":"test_tcp_throughput-5Gb",
          "schedule":"schedule_PT4H",
          "reference":{
             "display-task-name":"EAST TCP Throughput Tests",
+            "display-task-group":[
+               "100: ESnet Data Centers - Throughput"
+            ]
+         }
+      },
+      "witness_task_tcp_throughput_mesh":{
+         "group":"witness_dc_throughput_mesh_group",
+         "test":"test_tcp_throughput-1Gb",
+         "schedule":"schedule_PT4H",
+         "reference":{
+            "display-task-name":"Witness TCP Throughput Tests",
             "display-task-group":[
                "100: ESnet Data Centers - Throughput"
             ]
@@ -382,6 +443,16 @@
          "test":"test_latencybg",
          "reference":{
             "display-task-name":"EAST Latency Loss Tests",
+            "display-task-group":[
+               "101: ESnet Data Centers - Loss"
+            ]
+         }
+      },
+      "witness_task_latencybg":{
+         "group":"witness_dc_latency_mesh_group",
+         "test":"test_latencybg",
+         "reference":{
+            "display-task-name":"Witness Latency Loss Tests",
             "display-task-group":[
                "101: ESnet Data Centers - Loss"
             ]
