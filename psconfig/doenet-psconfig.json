@@ -38,6 +38,22 @@
          "address":"forrestal-doenet-ps-lat.es.net",
          "host":"forrestal-doenet-ps.es.net"
       },
+      "gfo-doenet-ps-tp.es.net":{
+         "_meta":{
+            "display-name":"gfo-doenet-ps-tp.es.net",
+            "display-set":"gfo-doenet-ps.es.net"
+         },
+         "address":"gfo-doenet-ps-tp.es.net",
+         "host":"gfo-doenet-ps.es.net"
+      },
+      "gfo-doenet-ps-lat.es.net":{
+         "_meta":{
+            "display-name":"gfo-doenet-ps-lat.es.net",
+            "display-set":"gfo-doenet-ps.es.net"
+         },
+         "address":"gfo-doenet-ps-lat.es.net",
+         "host":"gfo-doenet-ps.es.net"
+      },
       "forrestal-doenet-ps-tp.es.net":{
          "_meta":{
             "display-name":"forrestal-doenet-ps-tp.es.net",
@@ -131,6 +147,9 @@
                "name":"germantown-doenet-ps-lat.es.net"
             },
             {
+               "name":"gfo-doenet-ps-lat.es.net"
+            },
+            {
                "name":"nnssnso-doenet-ps-lat.es.net"
             }
          ]
@@ -161,6 +180,9 @@
          "a-addresses":[
             {
                "name":"nnssnso-doenet-ps-tp.es.net"
+            },
+            {
+               "name":"gfo-doenet-ps-tp.es.net"
             }
          ],
          "b-addresses":[
@@ -186,6 +208,9 @@
          "addresses":[
             {
                "name":"nnssnso-doenet-ps-tp.es.net"
+            },
+            {
+               "name":"gfo-doenet-ps-tp.es.net"
             }
          ]
       }
@@ -206,6 +231,12 @@
       "germantown-doenet-ps.es.net":{
          "_meta":{
             "display-name":"germantown-doenet-ps.es.net",
+            "organization-display-name":"ESnet-DOEnet"
+         }
+      },
+      "gfo-doenet-ps.es.net":{
+         "_meta":{
+            "display-name":"gfo-doenet-ps.es.net",
             "organization-display-name":"ESnet-DOEnet"
          }
       },
