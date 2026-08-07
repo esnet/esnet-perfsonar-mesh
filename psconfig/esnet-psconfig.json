@@ -954,21 +954,21 @@
       "address" : "lbnl59-ps-tp.lhcone.es.net",
       "host" : "lbnl59-ps.es.net"
   },
-    "llnl-ps-lat.es.net" : {
+    "llnl354-ps-lat.es.net" : {
         "_meta" : {
-           "display-name" : "llnl-ps-lat.es.net",
-           "display-set" : "llnl-ps.es.net"
+           "display-name" : "llnl354-ps-lat.es.net",
+           "display-set" : "llnl354-ps.es.net"
         },
-        "address" : "llnl-ps-lat.es.net",
-        "host" : "llnl-ps.es.net"
+        "address" : "llnl354-ps-lat.es.net",
+        "host" : "llnl354-ps.es.net"
     },
-    "llnl-ps-tp.es.net" : {
+    "llnl354-ps-tp.es.net" : {
         "_meta" : {
-           "display-name" : "llnl-ps-tp.es.net",
-           "display-set" : "llnl-ps.es.net"
+           "display-name" : "llnl354-ps-tp.es.net",
+           "display-set" : "llnl354-ps.es.net"
         },
-        "address" : "llnl-ps-tp.es.net",
-        "host" : "llnl-ps.es.net"
+        "address" : "llnl354-ps-tp.es.net",
+        "host" : "llnl354-ps.es.net"
     },
     "losa-ps-tp.es.net" : {
         "_meta" : {
@@ -4991,7 +4991,7 @@
                "name" : "lbnl59-ps-tp.es.net"
             },
             {
-               "name" : "llnl-ps-tp.es.net"
+               "name" : "llnl354-ps-tp.es.net"
             },
             {
                "name" : "pantex-ps-tp.es.net"
@@ -5298,7 +5298,7 @@
               "name" : "lbnl59-ps-lat.es.net"
            },
            {
-              "name" : "llnl-ps-lat.es.net"
+              "name" : "llnl354-ps-lat.es.net"
            },
            {
               "name" : "nash-ps-lat.es.net"
@@ -5402,7 +5402,7 @@
               "name" : "lbnl59-ps-tp.es.net"
            },
            {
-              "name" : "llnl-ps-tp.es.net"
+              "name" : "llnl354-ps-tp.es.net"
            },
            {
               "name" : "nash-ps-tp.es.net"
@@ -5950,7 +5950,7 @@
                "name" : "lbnl59-ps-tp.es.net"
             },
             {
-               "name" : "llnl-ps-tp.es.net"
+               "name" : "llnl354-ps-tp.es.net"
             },
             {
                "name" : "orau-ps-tp.es.net"
@@ -6068,7 +6068,7 @@
                "name" : "lbnl59-ps-lat.es.net"
             },
             {
-               "name" : "llnl-ps-lat.es.net"
+               "name" : "llnl354-ps-lat.es.net"
             },
             {
                "name" : "orau-ps-lat.es.net"
@@ -12495,7 +12495,7 @@
         ],
         "b-addresses" : [
           {
-            "name" : "llnl-ps-tp.es.net"
+            "name" : "llnl354-ps-tp.es.net"
           },
           {
             "name" : "lanlta03-ps-tp.es.net"
@@ -12736,9 +12736,9 @@
            "organization-display-name" : "ESnet"
         }
      },
-     "llnl-ps.es.net" : {
+     "llnl354-ps.es.net" : {
         "_meta" : {
-           "display-name" : "llnl-ps.es.net",
+           "display-name" : "llnl354-ps.es.net",
            "organization-display-name" : "ESnet"
         }
      },
