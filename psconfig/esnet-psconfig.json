@@ -11570,9 +11570,6 @@
          {
             "name" : "psmsu01.aglt2.org"
         },
-         {
-            "name" : "psmsu02.aglt2.org"
-        },
         {
          "name" : "perfsonar.nersc.gov"
         },
@@ -12022,9 +12019,6 @@
          {
             "name" : "psuta02.atlas-swt2.org"
          },
-         {
-            "name" : "psmsu01.aglt2.org"
-        },
          {
             "name" : "psmsu02.aglt2.org"
         },
